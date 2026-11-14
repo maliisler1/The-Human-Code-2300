@@ -26,3 +26,10 @@
 - Bölüm 2'ye kullanıcının onayıyla geçilir.
 - Müzik konuşma altında kısık; konuşmalar net.
 - Uygulama: cihaz diline göre ses; altyazı varsayılan kapalı, oynatıcıdan seçilir.
+
+## Durum (15.11.2026 gece)
+- Bölüm 1 "Uyanış" — ONAYLANDI. GitHub: assets/out/Bolum1_Uyanis.mp4 (720p, 2:58).
+- Bölüm 2 "Kayıp Sinyal" — son hali GitHub: assets/out/Bolum2_Kayip_Sinyal.mp4 (720p, 3:01), sonda "Bölüm 3 — Gölgenin Adı" kartı. Onay bekliyor.
+- Bölüm 3 "Gölgenin Adı" — senaryo hazır (b03/script.md). Seslerin bir kısmı üretildi; ElevenLabs indirmeleri ev bilgisayarındaki tarayıcı panelinde takılıyor (gecikmeli/kayıp). Gölge sesleri Celil ile yeniden üretildi (Jason olanlar KULLANILMAYACAK).
+- 20 bölüm planı: uretim-plan/HIKAYE-20-BOLUM.md (yeni karakterler: Kael B6, Nyra B9, Dr. Ekin Var B14).
+- Kontrol listesi (her bölüm): (1) her ses dosyası indirildikten sonra süre/benzerlik kontrolü, (2) dudak çekimi xcorr ofseti, (3) zaman çizelgesinde üst üste binme yok, (4) konuşmayan yüz ağız oynatmıyor, (5) video ve ses süresi eşit, (6) son kartta sonraki bölüm adı.

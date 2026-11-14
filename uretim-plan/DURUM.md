@@ -49,3 +49,10 @@
 | Eray (13-14 yaş) | Polat Gunduz - Friendly and Energetic (isim "Ey-ray" yazılır) |
 Kullanılmayacak denemeler: Eray için Aslan ve Gamze-Cartoon. ElevenLabs çocuk sesi tasarımını yasaklıyor.
 Plan: 5 bölüm yapılıp Google Play'e yüklenecek, sonraki bölümler ardından.
+
+## Yayın kararları (14.11.2026)
+- Uygulamaya konacak bölümler: **720p** (1280x720, H.264, AAC 48 kHz, ~40 MB/bölüm). Ana kopyalar 1080p saklanır.
+- Dizi: **20 bölüm**, 3'er dakika. 5. bölümden sonra 3 yeni karakter. 20. bölümden sonra 3 dk reklam fragmanı.
+- Müzik: sadece "Pieces of the Sky", az az, heyecanlı/duygusal anlarda, kısık.
+- Bol konuşma ve aksiyon; sahneler normal hızda (yavaşlatma yok); her konuşan karakter dudak senkronlu.
+- MagicLight Ultra (150.000 kredi/ay); Minimax H3 Fast T2V ücretsiz, Wan 3.0 dudak senkron 630 kredi.

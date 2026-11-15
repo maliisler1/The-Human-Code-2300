@@ -44,7 +44,11 @@ jobs:
           java-version: 21
           cache: gradle
 
-      - uses: android-actions/setup-android@v3
+      # GitHub'ın Ubuntu makinelerinde Android SDK hazır kurulu; ayrı kurulum adımı (setup-android@v3) burada hata veriyordu.
+      - name: Android SDK'yı kontrol et
+        run: |
+          echo "ANDROID_HOME=${ANDROID_HOME:-$ANDROID_SDK_ROOT}"
+          test -d "${ANDROID_HOME:-$ANDROID_SDK_ROOT}" || { echo "::error::Android SDK bulunamadı"; exit 1; }
 
       - name: Gizli anahtarları kontrol et
         env:

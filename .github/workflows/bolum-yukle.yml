@@ -1,0 +1,79 @@
+# Bölüm videolarını GitHub'dan uygulamaya otomatik yükler.
+# uretim-assets dalındaki assets/out/BolumN_*.mp4 dosyaları değişince kendiliğinden çalışır;
+# GitHub → Actions → "Bölümleri uygulamaya yükle" → Run workflow ile elle de çalıştırılabilir.
+# Gerekli gizli anahtarlar (Settings → Secrets and variables → Actions):
+#   SUPABASE_URL               örn. https://<proje>.supabase.co
+#   SUPABASE_SERVICE_ROLE_KEY  Supabase → Project Settings → API → service_role
+name: Bölümleri uygulamaya yükle
+
+on:
+  push:
+    branches: [uretim-assets]
+    paths: ["assets/out/Bolum*.mp4"]
+  workflow_dispatch:
+    inputs:
+      bolumler:
+        description: "Yüklenecek bölüm numaraları (örn. 1,2,3) — boş bırakılırsa hepsi"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+concurrency:
+  group: bolum-yukle
+  cancel-in-progress: false
+
+jobs:
+  yukle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: uretim-assets
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: ffprobe kur
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Bağımlılıklar
+        run: npm install --no-save --no-audit --no-fund @supabase/supabase-js@2.117.3
+      - name: Yükle
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          BOLUMLER: ${{ github.event.inputs.bolumler }}
+          SERIES: neo-genesis-2099
+        run: |
+          cat > /tmp/yukle.mjs <<'JS'
+          import { createClient } from "@supabase/supabase-js";
+          import { readFileSync, readdirSync } from "node:fs";
+          import { execFileSync } from "node:child_process";
+          const url = process.env.SUPABASE_URL, key = process.env.SUPABASE_SERVICE_ROLE_KEY;
+          if (!url || !key) { console.error("::error::SUPABASE_URL ve SUPABASE_SERVICE_ROLE_KEY gizli anahtarları eksik"); process.exit(1); }
+          const sb = createClient(url, key, { auth: { persistSession: false } });
+          const slug = process.env.SERIES;
+          const want = (process.env.BOLUMLER || "").split(",").map((s) => parseInt(s.trim(), 10)).filter((n) => n > 0);
+          const { data: series, error: se } = await sb.from("series").select("id").eq("slug", slug).single();
+          if (se) throw se;
+          const files = readdirSync("assets/out").filter((f) => /^Bolum(\d+)_.*\.mp4$/i.test(f));
+          let ok = 0;
+          for (const f of files) {
+            const n = parseInt(f.match(/^Bolum(\d+)/i)[1], 10);
+            if (want.length && !want.includes(n)) continue;
+            const p = `assets/out/${f}`;
+            const dur = Math.round(parseFloat(execFileSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p]).toString()));
+            const path = `${slug}/e${n}.mp4`;
+            const { error: ue } = await sb.storage.from("videos").upload(path, readFileSync(p), { upsert: true, contentType: "video/mp4" });
+            if (ue) throw ue;
+            const { data: rows, error: de } = await sb.from("episodes").update({ video_url: path, status: "ready", duration_sec: dur }).eq("series_id", series.id).eq("n", n).select("id");
+            if (de) throw de;
+            if (!rows?.length) throw new Error(`Bölüm ${n} veritabanında yok`);
+            console.log(`Bölüm ${n}: ${f} → ${path} (${dur} sn) yayında`);
+            ok++;
+          }
+          console.log(`${ok} bölüm yüklendi.`);
+          if (!ok) process.exit(1);
+          JS
+          node /tmp/yukle.mjs

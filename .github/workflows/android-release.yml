@@ -72,7 +72,16 @@ jobs:
       - name: Mobil web paketini üret ve Android'e aktar
         env:
           VITE_ADMOB_TEST: "false"
-        run: pnpm run android:sync
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_PUBLISHABLE_KEY: ${{ secrets.VITE_SUPABASE_PUBLISHABLE_KEY }}
+        run: |
+          # Sunucu adresi gizli anahtardan ya da depodaki .env dosyasından gelir; yoksa paket açılmaz.
+          if [ -z "$VITE_SUPABASE_URL" ] && ! grep -qs '^VITE_SUPABASE_URL=' .env .env.production; then
+            echo "::error::VITE_SUPABASE_URL yok — uygulama telefonda açılmaz. .env dosyasına veya Actions gizli anahtarlarına ekleyin."
+            exit 1
+          fi
+          pnpm run android:sync
+          grep -q "supabase.co" dist-mobile/assets/*.js || { echo "::error::Mobil pakete sunucu adresi girmedi"; exit 1; }
 
       - name: İmza anahtarını hazırla
         env:

@@ -1,0 +1,59 @@
+name: Bölümleri Lovable uygulamasına aktar
+on:
+  push:
+    branches: [uretim-assets]
+    paths: ['assets/out/Bolum*.mp4', '.github/workflows/lovable-episodes.yml']
+permissions:
+  contents: read
+  id-token: write
+concurrency:
+  group: lovable-episode-import
+  cancel-in-progress: false
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Video süre desteği
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Güncellenen bölümleri yükle
+        env:
+          APP_ENDPOINT: https://holo-heart-streams.lovable.app/api/public/github-episodes
+        run: |
+          python3 - <<'PY'
+          import glob, hashlib, json, os, re, subprocess, urllib.request
+
+          endpoint = os.environ['APP_ENDPOINT']
+          oidc_url = os.environ['ACTIONS_ID_TOKEN_REQUEST_URL'] + '&audience=lovable-episode-import'
+          oidc_request = urllib.request.Request(oidc_url, headers={'Authorization': 'Bearer ' + os.environ['ACTIONS_ID_TOKEN_REQUEST_TOKEN']})
+          with urllib.request.urlopen(oidc_request, timeout=30) as response:
+              token = json.load(response)['value']
+
+          def call(body):
+              request = urllib.request.Request(endpoint, data=json.dumps(body).encode(), headers={'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'}, method='POST')
+              with urllib.request.urlopen(request, timeout=60) as response:
+                  return json.load(response)
+
+          files = sorted(glob.glob('assets/out/Bolum*.mp4'), key=lambda p: int(re.search(r'Bolum(\d+)', p).group(1)))
+          for file in files[:20]:
+              match = re.fullmatch(r'assets/out/Bolum(\d+)_[^/]+\.mp4', file)
+              if not match or not 1 <= int(match[1]) <= 20:
+                  continue
+              with open(file, 'rb') as handle:
+                  content = handle.read()
+              sha = hashlib.sha1(('blob ' + str(len(content)) + '\0').encode() + content).hexdigest()
+              duration = float(subprocess.check_output(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', file]).decode().strip())
+              body = {'file': file, 'sha': sha, 'duration': duration, 'size': len(content)}
+              prepared = call({**body, 'action': 'prepare'})
+              if prepared.get('skipped'):
+                  print('Bölüm', match[1], 'zaten güncel')
+                  continue
+              upload = urllib.request.Request(prepared['signedUrl'], data=content, headers={'Content-Type': 'video/mp4', 'x-upsert': 'true'}, method='PUT')
+              with urllib.request.urlopen(upload, timeout=300) as response:
+                  response.read()
+              result = call({**body, 'action': 'complete'})
+              if not result.get('updated'):
+                  raise RuntimeError('Bölüm kaydı güncellenemedi')
+              print('Bölüm', match[1], 'uygulamada güncellendi')
+          PY

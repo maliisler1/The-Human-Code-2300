@@ -13,6 +13,7 @@ def mus(vlen, ET, END, peaks):
         t = s + d
     if endt - t > 2.0:
         out.append((M + "sakin.wav", max(t - 1.0, 0), 0.30, min(endt - t + 2.0, 88)))
+    out.append((M + "sakin.wav", endt - 2.0, 0.32, END + 4.0))
     out.append((M + "final.wav", endt - 1.0, 0.55, END + 2.0))
     return out
 

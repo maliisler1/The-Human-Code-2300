@@ -39,3 +39,16 @@ Saç: AyShe ve Aslı'nın saçı ara sıra toplu (at kuyruğu) olabilir; yüz, s
 Her yeni karakter ilk göründüğü bölümde bir kez tasarlanır; o görüntüden referans fotoğraf
 (`assets/karakterler/<ad>.jpg`) ve sabit ses seçilir, buraya eklenir. Dizinin sonuna kadar
 aynı yüz, saç, kıyafet ve ses kullanılır. Kadın karakterlerde saç ara sıra toplu olabilir.
+
+## 5.–6. bölümde eklenen sabit karakterler
+| Karakter | Görünüm (sabit) | Referans | Ses |
+|---|---|---|---|
+| Leon (22) | Kısa koyu saçlı genç adam, göğsünde parlayan "22" olan gri-beyaz uzay giysisi | assets/karakterler/leon.jpg | Fatih Yıldırım |
+| Mony (11) | 20'li yaşlar, **ateş kırmızısı** bele kadar doğal dalgalı saç, sağ yanağında ben, kiraz dudak, ~50 kg, göğsünde "11" olan beyaz giysi | assets/karakterler/mony.jpg | Zehra |
+| Anka (12) | 20'li yaşlar, uzun kıvırcık siyah saç, iri çekik gözler, 1,65 m / ~60 kg, göğsünde "12" olan beyaz giysi | assets/karakterler/anka.jpg | Hale |
+| Sila (kötü) | 35 yaşında, açık sarı (platin) saç topuz, kırmızı şeritli siyah yüksek yakalı palto | assets/karakterler/sila.jpg | İrem |
+| Kael | Yaşlı, kel, koyu tenli, kısa beyaz sakallı; bronz omuzluklu kahverengi deri palto, turkuaz kristal kolye | assets/karakterler/kael.jpg | Mahmut Hoca |
+| Sarcınt (Sergeant) | Aslı'nın erkek kedisi: tekir-beyaz, kamuflaj askeri üniforma ve kask | assets/karakterler/kedi.jpg | — |
+
+Notlar: Mony'nin saçı 5. bölümden itibaren ateş kırmızısıdır (5. bölüm çekimleri renk düzeltmesiyle güncellendi).
+Kedinin adı metinde "Sarcınt" yazılır ki seslendirmede İngilizce "Sergeant" gibi okunsun.

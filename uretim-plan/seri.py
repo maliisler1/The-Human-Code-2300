@@ -8,7 +8,7 @@ def mus(vlen, ET, END, peaks):
     for s, d in sorted(peaks):
         if s - t > 2.0:
             out.append((M + "sakin.wav", max(t - 1.0, 0), 0.30, min(s - t + 2.0, 88)))
-        out.append((M + "yukselis.wav", max(s - 6.0, 0), 0.22, 7.0))
+        out.append((M + "yukselis.wav", max(s - 4.5, 0), 0.18, 5.5))
         out.append((M + "aksiyon.wav", s, 0.34, min(d, 70)))
         t = s + d
     if endt - t > 2.0:

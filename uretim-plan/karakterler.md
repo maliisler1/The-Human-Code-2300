@@ -6,8 +6,8 @@ tarifi İngilizce olarak AYNEN yazılır.
 
 | Karakter | Görünüm (sabit) | Referans | Ses |
 |---|---|---|---|
-| AyShe (23) | Genç kadın, uzun düz siyah saç, göğsünde küçük mavi "23" rozetli beyaz uzay giysisi | assets/b04/ayshe.jpg | Gözde Arıkan |
-| Aslı | Genç kadın, uzun dalgalı kahverengi saç, beyaz giysi | assets/b04/asli.jpg | Gamze – Young |
+| AyShe (23) | Genç kadın, uzun hafif dalgalı siyah saç, ortadan ayrık, kâkül yok, göğsünde küçük mavi "23" rozetli beyaz uzay giysisi | assets/b04/ayshe.jpg | Gözde Arıkan |
+| Aslı | Genç kadın, uzun dalgalı kahverengi saç, göğsünde turkuaz halka olan gümüş-beyaz giysi | assets/b04/asli.jpg | Gamze – Young |
 | Mira (7) | Genç kadın, kısa platin gümüş saç, göğsünde parlayan "7" olan gri zırhlı giysi | assets/b04/mira.jpg | Nil |
 | Eray | **12 yaşında çocuk** (asla yetişkin değil), dağınık kıvırcık siyah saç, çilli, omuzlarında parlayan mavi kristaller olan lacivert ceket | assets/b04/eray.jpg | Polat Gündüz |
 | Gölge | Kapüşonlu, maskeli, kırmızı gözlü kötü karakter | assets/b04/golge.jpg | Celil (efektli) |
@@ -25,3 +25,17 @@ tarifi İngilizce olarak AYNEN yazılır.
 
 Kural: "young man", "soldiers", "rebels in tactical suits" gibi belirsiz tarifler kullanılmaz;
 üretilen her aksiyon karesi bölüme girmeden önce bu karta göre kontrol edilir.
+
+## Görüntü sabitleme yöntemi (zorunlu)
+Karakter görünen her aksiyon sahnesi, yazılı tarifle değil **referans fotoğrafla** üretilir
+(MagicLight Text to Video + "Add references"):
+- Dördü birlikte: `assets/b04/ref_grup.jpg`
+- AyShe + Aslı: `ref_ayshe_asli.jpg` · AyShe + Eray: `ref_ayshe_eray.jpg` · Eray + Aslı: `ref_eray_asli.jpg`
+- Tek kişi: `ayshe.jpg`, `asli.jpg`, `mira.jpg`, `eray.jpg`
+Not: üretilen videonun ilk ~3,5 saniyesi referans paftayı gösterir; montajda **4,0. saniyeden** itibaren kullanılır.
+Saç: AyShe ve Aslı'nın saçı ara sıra toplu (at kuyruğu) olabilir; yüz, saç rengi ve kıyafet asla değişmez.
+
+## Yeni karakterler (5. bölümden sonra)
+Her yeni karakter ilk göründüğü bölümde bir kez tasarlanır; o görüntüden referans fotoğraf
+(`assets/karakterler/<ad>.jpg`) ve sabit ses seçilir, buraya eklenir. Dizinin sonuna kadar
+aynı yüz, saç, kıyafet ve ses kullanılır. Kadın karakterlerde saç ara sıra toplu olabilir.

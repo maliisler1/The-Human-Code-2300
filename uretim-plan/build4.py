@@ -4,9 +4,9 @@ OFF={'A1':1.21,'E1':0.46,'S1':0.79,'M1':1.51,'A2':2.16,'M2':0.97,'G1':2.25,'A3':
 CROP={"L_E2":"crop=1280:630:0:44,","L_G1":"crop=1280:672:0:0,","L_G2":"crop=1280:532:0:94,","L_G3":"crop=1280:634:0:43,","L_M1":"crop=1280:678:0:20,"}
 def dur(k): return float(subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',f'vo_w/{k}.wav'],capture_output=True,text=True).stdout)
 B=[('b',['T34','T01','T25'],['R','R2']),('b',['G03','T29','T04'],['P5','P1']),('l','A1'),('l','E1'),('b',['T30'],['E3']),('l','S1'),('l','M1'),
-('b',['T05'],['P2']),('b',['T02','G06','E07a','E07b','E31a','E09b'],['P6','E4','P7','E5','S3']),('l','A2'),('b',['T12','G35','G10'],['P8','A5']),('b',['T11'],['M4']),('l','M2'),
-('b',['G27','T13'],['P9']),('l','G1'),('l','A3'),('l','G2'),('b',['T14'],[]),('l','E2'),('b',['G15'],['P3']),('b',['G16','E17b'],['S4','E6']),
-('b',['G18','T33','T19'],['P10','R3']),('l','S2'),('b',['T20','T26'],['P4','G4']),('l','A4'),('b',['T21'],['L1']),('b',['T22'],['P11']),('l','G3'),('b',['T23'],[]),('l','M3'),('b',['T24','T28'],['N2'])]
+('b',['T05'],['P2']),('b',['T02','RG06','RE07','RE31','RE09'],['P6','E4','P7','E5','S3']),('l','A2'),('b',['T12','RG35'],['P8','A5']),('b',['T11'],['M4']),('l','M2'),
+('b',['RG27','T13'],['P9']),('l','G1'),('l','A3'),('l','G2'),('b',['T14'],[]),('l','E2'),('b',['RG15'],['P3']),('b',['RG16','RE17'],['S4','E6']),
+('b',['RG18','T33','T19'],['P10','R3']),('l','S2'),('b',['T20','T26'],['P4','G4']),('l','A4'),('b',['RT21'],['L1']),('b',['T22'],['P11']),('l','G3'),('b',['T23'],[]),('l','M3'),('b',['T24','T28'],['N2'])]
 T=0.35;GAP=0.3;MAXS=5.15
 E=[];vo=[];V=T;A=0.0;mark={}
 for bi,b in enumerate(B):
@@ -25,7 +25,7 @@ for bi,b in enumerate(B):
         L=end-S;n=len(shots);seg=(L+(n-1)*T)/n
         if seg>MAXS: print("UYARI uzun",bi,round(seg,2))
         seg=min(seg,MAXS)
-        for sh in shots: E.append((sh,0.0,round(seg,3)))
+        for sh in shots: o=(5.0 if sh=='RG15' else 4.5) if sh.startswith('R') else 0.0; E.append((sh,o,round(o+seg,3)))
         V=S+n*seg-(n-1)*T
 n=len(E);DL=[e-s for _,s,e in E];ST=[sum(DL[:i])-i*T for i in range(n)]
 vlen=sum(DL)-(n-1)*T;ET=1.0;END=9.0;total=vlen-ET+END

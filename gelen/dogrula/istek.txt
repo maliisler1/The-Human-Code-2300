@@ -1,3 +1,1 @@
-gelen/b11/*.mp3
-gelen/b12/*.mp3
-gelen/b13/*.mp3
+gelen/b10/*.mp3

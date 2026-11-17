@@ -4,6 +4,10 @@
  * These are used as a fallback when Supabase storage doesn't have the video yet.
  */
 export const BUNDLED_VIDEOS: Record<string, Record<number, string>> = {
+  "the-human-code-2300": {
+    1: "/sample.mp4",
+    2: "/sample-2.mp4",
+  },
   "neo-genesis-2099": {
     1: "/sample.mp4",
     2: "/sample-2.mp4",

@@ -34,7 +34,7 @@ const pilotPlan = {
 
 export const series: Series[] = [
   {
-    id: "neo-genesis-2099",
+    id: "the-human-code-2300",
     title: "The Human Code: 2300",
     category: "scifi",
     poster: neo,
@@ -94,7 +94,7 @@ export const series: Series[] = [
 export const seriesText = (s: Series, lang: Lang) => s.text[lang] ?? s.text.en!;
 
 /** Uygulamanın ana dizisi (The Chosen modeli: tek dizi, sonradan yeni diziler eklenebilir). */
-export const FEATURED_SLUG = "neo-genesis-2099";
+export const FEATURED_SLUG = "the-human-code-2300";
 
 export const FREE_EPISODES = 2;
 export const EPISODE_COST = 10;

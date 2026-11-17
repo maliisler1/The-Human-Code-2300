@@ -29,3 +29,7 @@ Bu dosya, üretim başka bir Claude oturumunda (ör. iş bilgisayarı) devam ett
 - GitHub düzenlemesi (yeniden planlanacak): 'AI-Multiverse-Cinema' adı zaten uygulama deposunda kullanılıyor; bu depo o adla yeniden adlandırılamaz. Önceki plan: dizi dosyaları `diziler/the-human-code-2300/` altına taşınacak (Lovable aktarımı, build betikleri ve yollar birlikte güncellenecek; ad değişince bölüm aktarımı test edilecek).
 - **Kural:** Her yeni dizi kendi adıyla ayrı klasörde üretilir: `diziler/<dizi-adı>/` (senaryo, karakterler.md, ses/klip/montaj ve çıktılar o klasörde). Diziler birbirinin dosyalarını kullanmaz.
 - Ham üretim dosyaları `uretim-ham` dalında (Actions ile ElevenLabs/MagicLight'tan alınır: diziler/the-human-code-2300/uretim-plan/istek/*.json → gelen/). ElevenLabs için GitHub gizli anahtarı ELEVENLABS_API_KEY gerekir.
+
+## 17 Kasım akşamı
+- Dizinin slug'ı **the-human-code-2300** oldu (eski neo-genesis-2099 adresleri yeni adrese yönlenir). Adres: https://holo-heart-streams.lovable.app/dizi/the-human-code-2300
+- Lovable ↔ GitHub main senkronu çalışmıyor: Lovable'daki değişiklikler main'e gelmiyor. Canlı site Lovable'daki koddan yayınlanır; Android paketi main'den derlenir. Main'de slug/afiş/öne çıkan dizi yeni slug'a uyarlandı (7e87823) ve 1.3.1 (versionCode 6) yeniden derlendi.

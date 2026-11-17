@@ -1,0 +1,11 @@
+{
+ "tts": [
+  {
+   "out": "gelen/b08/P4.mp3",
+   "voice": "Dilara - Warm, Natural, Conversational",
+   "model": "eleven_v4",
+   "bytes": 98263
+  }
+ ],
+ "url": []
+}

@@ -11,17 +11,18 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
-      - run: pip install -q faster-whisper
+      - run: sudo apt-get install -y -qq ffmpeg && pip install -q faster-whisper numpy
       - run: |
           python3 - <<'PY'
-          import json,glob
+          import json,glob,subprocess,numpy as np
           from faster_whisper import WhisperModel
           m=WhisperModel("medium",device="cpu",compute_type="int8")
           fs=[l.strip() for l in open('gelen/dogrula/istek.txt') if l.strip()]
           files=[f for p in fs for f in sorted(glob.glob(p))]
           out={}
           for f in files:
-              segs,_=m.transcribe(f,language="tr",beam_size=5)
+              a=np.frombuffer(subprocess.run(['ffmpeg','-v','error','-i',f,'-ac','1','-ar','16000','-f','f32le','-'],capture_output=True).stdout,np.float32)
+              segs,_=m.transcribe(a,language="tr",beam_size=5)
               out[f]=" ".join(s.text.strip() for s in segs)
               print(f,"=>",out[f],flush=True)
           json.dump(out,open('gelen/dogrula/transkript.json','w'),ensure_ascii=False,indent=1)

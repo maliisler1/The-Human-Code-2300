@@ -21,6 +21,7 @@ jobs:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
         run: python3 uretim-plan/arac/al.py
       - name: Depoya yaz
+        if: always()
         run: |
           git config user.name "uretim-bot"
           git config user.email "uretim-bot@users.noreply.github.com"

@@ -70,7 +70,11 @@ if items_tts:
                     body.pop("language_code"); continue
                 if e.code in (429, 500, 502, 503) and attempt < 2:
                     time.sleep(10); continue
+                if "quota_exceeded" in msg:
+                    print("KOTA DOLDU - kalan sesler üretilmedi"); audio = None; break
                 raise
+        if audio is None:
+            break
         os.makedirs(os.path.dirname(x["out"]), exist_ok=True)
         open(x["out"], "wb").write(audio)
         rapor["tts"].append({"out": x["out"], "voice": vname, "model": model, "bytes": len(audio)})

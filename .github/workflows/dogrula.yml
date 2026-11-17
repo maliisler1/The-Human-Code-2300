@@ -1,0 +1,31 @@
+name: Ses doğrulama (konuşmayı yazıya dök)
+on:
+  push:
+    branches: [uretim-ham]
+    paths: ['gelen/dogrula/istek.txt']
+permissions:
+  contents: write
+jobs:
+  yaz:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q faster-whisper
+      - run: |
+          python3 - <<'PY'
+          import json,glob
+          from faster_whisper import WhisperModel
+          m=WhisperModel("medium",device="cpu",compute_type="int8")
+          fs=[l.strip() for l in open('gelen/dogrula/istek.txt') if l.strip()]
+          files=[f for p in fs for f in sorted(glob.glob(p))]
+          out={}
+          for f in files:
+              segs,_=m.transcribe(f,language="tr",beam_size=5)
+              out[f]=" ".join(s.text.strip() for s in segs)
+              print(f,"=>",out[f],flush=True)
+          json.dump(out,open('gelen/dogrula/transkript.json','w'),ensure_ascii=False,indent=1)
+          PY
+      - run: |
+          git config user.name "uretim-bot"; git config user.email "uretim-bot@users.noreply.github.com"
+          git add gelen/dogrula/transkript.json && git commit -m "Transkript" && git push origin HEAD:uretim-ham

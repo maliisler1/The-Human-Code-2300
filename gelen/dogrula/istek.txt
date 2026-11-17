@@ -1,0 +1,3 @@
+gelen/dogrula/b06_*.wav
+gelen/b06/R11.mp3
+gelen/b07/*.mp3

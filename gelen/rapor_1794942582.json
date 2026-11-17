@@ -1,0 +1,23 @@
+{
+ "tts": [
+  {
+   "out": "gelen/test/nyra_deniz.mp3",
+   "voice": "Deniz - Soft, Friendly Narrator",
+   "model": "eleven_v4",
+   "bytes": 66498
+  },
+  {
+   "out": "gelen/test/nyra_lily.mp3",
+   "voice": "Lily - Velvety Actress",
+   "model": "eleven_v4",
+   "bytes": 82798
+  },
+  {
+   "out": "gelen/test/nyra_sarah.mp3",
+   "voice": "Sarah - Mature, Reassuring, Confident",
+   "model": "eleven_v4",
+   "bytes": 81545
+  }
+ ],
+ "url": []
+}

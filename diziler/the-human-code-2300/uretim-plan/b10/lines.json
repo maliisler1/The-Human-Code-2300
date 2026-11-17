@@ -1,0 +1,182 @@
+[
+[
+"R1",
+"Hasan",
+"Kalenin kulesinde sabah olmak üzereydi. Aslı, kızıl ışıklı hücresinde yalnız değildi.",
+"vo"
+],
+[
+"S1",
+"Gamze - Young",
+"Sarcınt? Sen buraya nasıl girdin, seni küçük kahraman?",
+"lip"
+],
+[
+"R2",
+"Hasan",
+"Sarcınt bütün gece Aslı'nın iplerini kemirmişti. Şimdi tek eksik, kapıyı açacak birisiydi.",
+"vo"
+],
+[
+"R3",
+"Hasan",
+"Maden kampında ise Kael, Eray'ın omzundaki kristallere uzun uzun bakıyordu.",
+"vo"
+],
+[
+"K1",
+"KAEL",
+"Eray, bu kristaller doğduğundan beri sende mi?",
+"lip"
+],
+[
+"E1",
+"Polat",
+"Bilmem. Hatırladığım ilk şey, bir kristal mağarada uyanmam. Kapsül falan yoktu.",
+"lip"
+],
+[
+"K2",
+"KAEL",
+"Çünkü sen bir kapsülden doğmadın. Seni Elyra'nın kendisi yarattı. Sen bu toprakların rehberisin.",
+"lip"
+],
+[
+"R4",
+"Hasan",
+"Herkes şaşkınlıkla Eray'a döndü. Ama Eray sadece sırıttı.",
+"vo"
+],
+[
+"E2",
+"Polat",
+"Yani ben bir adanın oğluyum? Harika. Bundan sonra bana Prens Eray diyebilirsiniz.",
+"lip"
+],
+[
+"A1",
+"Gozde",
+"Peki Prens Eray, yaratıklarına söyle. Aslı'yı kurtarmamıza yardım etsinler.",
+"lip"
+],
+[
+"R5",
+"Hasan",
+"Eray gözlerini kapadı. Omzundaki kristaller parladı ve madenin derinliklerinden binlerce ışık ona cevap verdi.",
+"vo"
+],
+[
+"P1",
+"Dilara",
+"İnanılmaz. Yaratıklar kaleye giden gizli bir kristal yol açıyor.",
+"vo"
+],
+[
+"R6",
+"Hasan",
+"Ekip, parlayan yaratıkların ardından kalenin altına kadar uzanan tünele girdi.",
+"vo"
+],
+[
+"M1",
+"Nil",
+"Ben önden gidiyorum. Muhafızları dondururum.",
+"lip"
+],
+[
+"R7",
+"Hasan",
+"Tünel, Aslı'nın hücresinin tam altında bitiyordu.",
+"vo"
+],
+[
+"E3",
+"Polat",
+"Kristal arkadaşlar, lütfen... yukarı!",
+"vo"
+],
+[
+"R8",
+"Hasan",
+"Zemin yumuşak bir ışıkla eridi ve Eray, bir kristal sütunun üstünde hücrenin içine yükseldi.",
+"vo"
+],
+[
+"S2",
+"Gamze - Young",
+"Eray! Sen nereden çıktın?",
+"vo"
+],
+[
+"E4",
+"Polat",
+"Kısa yoldan geldim. Hadi, hanımlar önden.",
+"vo"
+],
+[
+"R9",
+"Hasan",
+"Ama hücrenin kapısında biri bekliyordu. Nyra.",
+"vo"
+],
+[
+"N1",
+"Deniz",
+"Onu bırakamam. Sila beni cezalandırır.",
+"lip"
+],
+[
+"S3",
+"Gamze - Young",
+"Sen de bizimle gel Nyra. Kimse seni cezalandırmayacak.",
+"lip"
+],
+[
+"R10",
+"Hasan",
+"Nyra bir an kılıcını indirdi. Sonra arkasını döndü ve koridoru boş bıraktı.",
+"vo"
+],
+[
+"N2",
+"Deniz",
+"Ben sizi görmedim. Şimdi gidin.",
+"lip"
+],
+[
+"R11",
+"Hasan",
+"Ekip, Aslı ve Sarcınt'la birlikte kristal yoldan madene döndü. Gece, kahkahalar ve kucaklaşmalarla bitti.",
+"vo"
+],
+[
+"MO1",
+"Zehra",
+"Kedi kahramanımız için büyük bir alkış!",
+"vo"
+],
+[
+"R12",
+"Hasan",
+"Ama herkes uyuduğunda, biri sessizce kalktı. Leon.",
+"vo"
+],
+[
+"R13",
+"Hasan",
+"Gözleri kıpkırmızı parlıyordu. Elinde, kırmızı ışıklı küçük bir cihaz vardı.",
+"vo"
+],
+[
+"G1",
+"Celil",
+"Aferin Leon. Şimdi bana onların yerini söyle.",
+"vo"
+],
+[
+"R14",
+"Hasan",
+"Sinyali gönderen Leon'du. Ama bunu kendisi bile bilmiyordu.",
+"vo"
+]
+]

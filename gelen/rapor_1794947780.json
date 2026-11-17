@@ -1,0 +1,185 @@
+{
+ "tts": [
+  {
+   "out": "gelen/b10/R1.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 99517
+  },
+  {
+   "out": "gelen/b10/S1.mp3",
+   "voice": "Gamze - Young, Warm and Friendly",
+   "model": "eleven_v4",
+   "bytes": 62318
+  },
+  {
+   "out": "gelen/b10/R2.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 103278
+  },
+  {
+   "out": "gelen/b10/R3.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 89486
+  },
+  {
+   "out": "gelen/b10/K1.mp3",
+   "voice": "Mahmut Hoca - Educational",
+   "model": "eleven_v4",
+   "bytes": 54795
+  },
+  {
+   "out": "gelen/b10/E1.mp3",
+   "voice": "Polat Gunduz - Friendly and Energetic",
+   "model": "eleven_v4",
+   "bytes": 89486
+  },
+  {
+   "out": "gelen/b10/K2.mp3",
+   "voice": "Mahmut Hoca - Educational",
+   "model": "eleven_v4",
+   "bytes": 119997
+  },
+  {
+   "out": "gelen/b10/R4.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 70260
+  },
+  {
+   "out": "gelen/b10/E2.mp3",
+   "voice": "Polat Gunduz - Friendly and Energetic",
+   "model": "eleven_v4",
+   "bytes": 90740
+  },
+  {
+   "out": "gelen/b10/A1.mp3",
+   "voice": "Gozde Arikan - Soft, Warm and Clear",
+   "model": "eleven_v4",
+   "bytes": 85724
+  },
+  {
+   "out": "gelen/b10/R5.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 131700
+  },
+  {
+   "out": "gelen/b10/P1.mp3",
+   "voice": "Dilara - Warm, Natural, Conversational",
+   "model": "eleven_v4",
+   "bytes": 75275
+  },
+  {
+   "out": "gelen/b10/R6.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 80291
+  },
+  {
+   "out": "gelen/b10/M1.mp3",
+   "voice": "Nil - Dynamic, Playful and Clear",
+   "model": "eleven_v4",
+   "bytes": 47272
+  },
+  {
+   "out": "gelen/b10/R7.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 54795
+  },
+  {
+   "out": "gelen/b10/E3.mp3",
+   "voice": "Polat Gunduz - Friendly and Energetic",
+   "model": "eleven_v4",
+   "bytes": 52287
+  },
+  {
+   "out": "gelen/b10/R8.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 107458
+  },
+  {
+   "out": "gelen/b10/S2.mp3",
+   "voice": "Gamze - Young, Warm and Friendly",
+   "model": "eleven_v4",
+   "bytes": 35569
+  },
+  {
+   "out": "gelen/b10/E4.mp3",
+   "voice": "Polat Gunduz - Friendly and Energetic",
+   "model": "eleven_v4",
+   "bytes": 46018
+  },
+  {
+   "out": "gelen/b10/R9.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 59811
+  },
+  {
+   "out": "gelen/b10/N1.mp3",
+   "voice": "Deniz - Soft, Friendly Narrator",
+   "model": "eleven_v4",
+   "bytes": 48526
+  },
+  {
+   "out": "gelen/b10/S3.mp3",
+   "voice": "Gamze - Young, Warm and Friendly",
+   "model": "eleven_v4",
+   "bytes": 59811
+  },
+  {
+   "out": "gelen/b10/R10.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 88232
+  },
+  {
+   "out": "gelen/b10/N2.mp3",
+   "voice": "Deniz - Soft, Friendly Narrator",
+   "model": "eleven_v4",
+   "bytes": 35569
+  },
+  {
+   "out": "gelen/b10/R11.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 125430
+  },
+  {
+   "out": "gelen/b10/MO1.mp3",
+   "voice": "Zehra - Soft Cheerful, Turkish",
+   "model": "eleven_v4",
+   "bytes": 46018
+  },
+  {
+   "out": "gelen/b10/R12.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 72767
+  },
+  {
+   "out": "gelen/b10/R13.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 91994
+  },
+  {
+   "out": "gelen/b10/G1.mp3",
+   "voice": "Celil-Documentary Narrator – Deep Male",
+   "model": "eleven_v4",
+   "bytes": 52287
+  },
+  {
+   "out": "gelen/b10/R14.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 69006
+  }
+ ],
+ "url": []
+}

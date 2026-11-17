@@ -1,0 +1,31 @@
+name: Üretim girdilerini al (ElevenLabs + MagicLight)
+on:
+  push:
+    branches: [uretim-ham]
+    paths: ['uretim-plan/istek/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: uretim-al
+  cancel-in-progress: false
+jobs:
+  al:
+    if: github.ref == 'refs/heads/uretim-ham'
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - name: Al
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: python3 uretim-plan/arac/al.py
+      - name: Depoya yaz
+        run: |
+          git config user.name "uretim-bot"
+          git config user.email "uretim-bot@users.noreply.github.com"
+          git add gelen
+          git diff --cached --quiet && exit 0
+          git commit -m "Gelen üretim dosyaları"
+          for i in 1 2 3; do git push origin HEAD:uretim-ham && exit 0; git pull --no-rebase --no-edit origin uretim-ham; done
+          exit 1

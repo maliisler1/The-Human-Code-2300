@@ -1,0 +1,24 @@
+name: Android paketini depoya al
+on:
+  push:
+    branches: [uretim-ham]
+    paths: ['uretim-plan/istek/aab.json']
+permissions:
+  contents: write
+  actions: read
+jobs:
+  al:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - id: r
+        run: echo "id=$(python3 -c "import json;print(json.load(open('uretim-plan/istek/aab.json'))['run_id'])")" >> $GITHUB_OUTPUT
+      - uses: actions/download-artifact@v4
+        with:
+          run-id: ${{ steps.r.outputs.id }}
+          github-token: ${{ github.token }}
+          path: gelen/android
+      - run: |
+          find gelen/android -type f -exec ls -la {} \;
+          git config user.name "uretim-bot"; git config user.email "uretim-bot@users.noreply.github.com"
+          git add gelen/android && git commit -m "Android paketi (run ${{ steps.r.outputs.id }})" && git push origin HEAD:uretim-ham

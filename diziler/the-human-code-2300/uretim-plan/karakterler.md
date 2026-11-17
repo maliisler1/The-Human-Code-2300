@@ -48,6 +48,7 @@ aynı yüz, saç, kıyafet ve ses kullanılır. Kadın karakterlerde saç ara s�
 | Anka (12) | 20'li yaşlar, uzun kıvırcık siyah saç, iri çekik gözler, 1,65 m / ~60 kg, göğsünde "12" olan beyaz giysi | diziler/the-human-code-2300/assets/karakterler/anka.jpg | Hale |
 | Sila (kötü) | 35 yaşında, açık sarı (platin) saç topuz, kırmızı şeritli siyah yüksek yakalı palto | diziler/the-human-code-2300/assets/karakterler/sila.jpg | İrem |
 | Kael | Yaşlı, kel, koyu tenli, kısa beyaz sakallı; bronz omuzluklu kahverengi deri palto, turkuaz kristal kolye | diziler/the-human-code-2300/assets/karakterler/kael.jpg | Mahmut Hoca |
+| Nyra (4) | 25 yaş, koyu kızıl-kahve saç tek kalın örgü, kızıl gözler, göğsünde "4" olan kızıl zırh ve koyu kırmızı pelerin. Sila'nın kızıl savaşçısı (kandırılmış; sonra taraf değiştirir) | diziler/the-human-code-2300/assets/karakterler/nyra.jpg | Deniz |
 | Sarcınt (Sergeant) | Aslı'nın erkek kedisi: tekir-beyaz, kamuflaj askeri üniforma ve kask | diziler/the-human-code-2300/assets/karakterler/kedi.jpg | — |
 
 Notlar: Mony'nin saçı 5. bölümden itibaren ateş kırmızısıdır (5. bölüm çekimleri renk düzeltmesiyle güncellendi).
@@ -60,3 +61,4 @@ Toplam 23 kapsül.
 - 7. bölüm sonu (yayında): 1, 2, 3 açıldı → uyuyan **15** (4–6, 8–10, 13–21). 4 numarada kırmızı gözler (tehlike). Uyananlar 1–3 henüz isimsiz; ilk göründükleri bölümde karakter kartı eklenecek.
 Yeni uyanan her kapsül bu listeye işlenir; senaryoda sayılar bu listeden alınır.
 - 8. bölüm sonu (yayında): kapsül durumu değişmedi → uyuyan **15** (4–6, 8–10, 13–21). 4 numaradaki kırmızı gözler = Nyra (Bölüm 9'da uyanır). Eray kristal yaratıklarla yarığa atladı, güvende.
+- 9. bölüm: 4 numaralı kapsül Sila tarafından açıldı (Nyra) → uyuyan **14** (5, 6, 8–10, 13–21).

@@ -1,4 +1,1 @@
-gelen/dogrula/b06_*.wav
-gelen/b06/R11.mp3
-gelen/b07/*.mp3
-# Tue Nov 17 12:54:07 +03 2026
+gelen/b08/*.mp3

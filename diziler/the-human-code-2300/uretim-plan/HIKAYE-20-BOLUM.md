@@ -51,5 +51,6 @@ Kurallar: her bölüm ~3 dk · konuşan kimse ekranda o (dudak senkron) · sesle
 - **Eray ve AyShe'nin başına kötü bir şey gelmez.** Tehlikeye girseler bile hemen güvende oldukları gösterilir.
 - Eray komik ve gizemli kalır; sorunları esprisi ve yaratıklarla bağıyla çözer.
 - 20. bölümün sonunda Eray'ı ve AyShe'yi harika bir hayat bekler (mutlu son).
+- **Sadece kötü karakterin (Sila/Gölge tarafı) sonu kötü biter.** Diğer bütün karakterler uzun ve zorlu bir yoldan geçer ama sonunda güzel bir hayata ulaşır.
 - Yeni karakter sayısı az tutulur: Nyra (4 numaralı kapsüldeki kırmızı gözler, Bölüm 9) ve Dr. Ekin Var (Bölüm 14). Uyanan 1–3 şimdilik konuşmaz.
 - Bölüm 8: Eray kristal yaratıklarla yarığa atlar ama güvendedir (Pusula: "sanırım yaratıklarla şarkı söylüyor"). Bölüm 9'da komik bir girişle döner.

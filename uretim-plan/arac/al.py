@@ -10,7 +10,7 @@ KEY = os.environ.get("ELEVENLABS_API_KEY", "")
 ALIAS = {  # lines.json konuşmacı adı -> ElevenLabs ses adının başı (karakterler.md)
     "hasan": "hasan yasin", "kael": "mahmut hoca", "gozde": "gozde arikan",
     "polat": "polat gunduz", "fatih": "fatih yildirim", "dilara": "dilara",
-    "gamze - young": "gamze", "zehra": "zehra", "hale": "hale", "nil": "nil",
+    "gamze - young": "gamze - young", "zehra": "zehra", "hale": "hale", "nil": "nil",
     "irem": "irem", "celil": "celil",
 }
 

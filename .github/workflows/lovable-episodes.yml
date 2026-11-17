@@ -56,4 +56,5 @@ jobs:
               if not result.get('updated'):
                   raise RuntimeError('Bölüm kaydı güncellenemedi')
               print('Bölüm', match[1], 'uygulamada güncellendi')
-          PY# yeniden dene 16:03
+          PY
+

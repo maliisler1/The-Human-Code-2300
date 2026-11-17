@@ -1,0 +1,251 @@
+{
+ "tts": [
+  {
+   "out": "gelen/b06/R11.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 90740
+  },
+  {
+   "out": "gelen/b07/R1.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 77783
+  },
+  {
+   "out": "gelen/b07/K1.mp3",
+   "voice": "Mahmut Hoca - Educational",
+   "model": "eleven_v4",
+   "bytes": 94501
+  },
+  {
+   "out": "gelen/b07/A1.mp3",
+   "voice": "Gozde Arikan - Soft, Warm and Clear",
+   "model": "eleven_v4",
+   "bytes": 77783
+  },
+  {
+   "out": "gelen/b07/K2.mp3",
+   "voice": "Mahmut Hoca - Educational",
+   "model": "eleven_v4",
+   "bytes": 86978
+  },
+  {
+   "out": "gelen/b07/E1.mp3",
+   "voice": "Polat Gunduz - Friendly and Energetic",
+   "model": "eleven_v4",
+   "bytes": 66498
+  },
+  {
+   "out": "gelen/b07/R2.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 74021
+  },
+  {
+   "out": "gelen/b07/L1.mp3",
+   "voice": "Fatih Yıldırım - Deep, Clear and Rich",
+   "model": "eleven_v4",
+   "bytes": 100771
+  },
+  {
+   "out": "gelen/b07/P1.mp3",
+   "voice": "Dilara - Warm, Natural, Conversational",
+   "model": "eleven_v4",
+   "bytes": 66498
+  },
+  {
+   "out": "gelen/b07/R3.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 97009
+  },
+  {
+   "out": "gelen/b07/S1.mp3",
+   "voice": "Gamze - Young, Warm and Friendly",
+   "model": "eleven_v4",
+   "bytes": 49780
+  },
+  {
+   "out": "gelen/b07/R4.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 74021
+  },
+  {
+   "out": "gelen/b07/MO1.mp3",
+   "voice": "Zehra - Soft Cheerful, Turkish",
+   "model": "eleven_v4",
+   "bytes": 80291
+  },
+  {
+   "out": "gelen/b07/AN1.mp3",
+   "voice": "Hale - Warm Turkish Influencer",
+   "model": "eleven_v4",
+   "bytes": 56049
+  },
+  {
+   "out": "gelen/b07/R5.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 59811
+  },
+  {
+   "out": "gelen/b07/E2.mp3",
+   "voice": "Polat Gunduz - Friendly and Energetic",
+   "model": "eleven_v4",
+   "bytes": 61065
+  },
+  {
+   "out": "gelen/b07/M1.mp3",
+   "voice": "Nil - Dynamic, Playful and Clear",
+   "model": "eleven_v4",
+   "bytes": 36823
+  },
+  {
+   "out": "gelen/b07/R6.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 84470
+  },
+  {
+   "out": "gelen/b07/M2.mp3",
+   "voice": "Nil - Dynamic, Playful and Clear",
+   "model": "eleven_v4",
+   "bytes": 49780
+  },
+  {
+   "out": "gelen/b07/R7.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 108712
+  },
+  {
+   "out": "gelen/b07/A2.mp3",
+   "voice": "Gozde Arikan - Soft, Warm and Clear",
+   "model": "eleven_v4",
+   "bytes": 59811
+  },
+  {
+   "out": "gelen/b07/K3.mp3",
+   "voice": "Mahmut Hoca - Educational",
+   "model": "eleven_v4",
+   "bytes": 74021
+  },
+  {
+   "out": "gelen/b07/R8.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 65244
+  },
+  {
+   "out": "gelen/b07/L2.mp3",
+   "voice": "Fatih Yıldırım - Deep, Clear and Rich",
+   "model": "eleven_v4",
+   "bytes": 54795
+  },
+  {
+   "out": "gelen/b07/R9.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 79037
+  },
+  {
+   "out": "gelen/b07/P2.mp3",
+   "voice": "Dilara - Warm, Natural, Conversational",
+   "model": "eleven_v4",
+   "bytes": 54795
+  },
+  {
+   "out": "gelen/b07/AN2.mp3",
+   "voice": "Hale - Warm Turkish Influencer",
+   "model": "eleven_v4",
+   "bytes": 40585
+  },
+  {
+   "out": "gelen/b07/R10.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 80291
+  },
+  {
+   "out": "gelen/b07/SI1.mp3",
+   "voice": "İrem - Authoritarian Female Voice",
+   "model": "eleven_v4",
+   "bytes": 67752
+  },
+  {
+   "out": "gelen/b07/A3.mp3",
+   "voice": "Gozde Arikan - Soft, Warm and Clear",
+   "model": "eleven_v4",
+   "bytes": 70260
+  },
+  {
+   "out": "gelen/b07/SI2.mp3",
+   "voice": "İrem - Authoritarian Female Voice",
+   "model": "eleven_v4",
+   "bytes": 59811
+  },
+  {
+   "out": "gelen/b07/R11.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 97009
+  },
+  {
+   "out": "gelen/b07/M3.mp3",
+   "voice": "Nil - Dynamic, Playful and Clear",
+   "model": "eleven_v4",
+   "bytes": 40585
+  },
+  {
+   "out": "gelen/b07/R12.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 79037
+  },
+  {
+   "out": "gelen/b07/MO2.mp3",
+   "voice": "Zehra - Soft Cheerful, Turkish",
+   "model": "eleven_v4",
+   "bytes": 39331
+  },
+  {
+   "out": "gelen/b07/E3.mp3",
+   "voice": "Polat Gunduz - Friendly and Energetic",
+   "model": "eleven_v4",
+   "bytes": 46018
+  },
+  {
+   "out": "gelen/b07/R13.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 58557
+  },
+  {
+   "out": "gelen/b07/K4.mp3",
+   "voice": "Mahmut Hoca - Educational",
+   "model": "eleven_v4",
+   "bytes": 77783
+  },
+  {
+   "out": "gelen/b07/L3.mp3",
+   "voice": "Fatih Yıldırım - Deep, Clear and Rich",
+   "model": "eleven_v4",
+   "bytes": 63990
+  },
+  {
+   "out": "gelen/b07/R14.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 72767
+  },
+  {
+   "out": "gelen/b07/R15.mp3",
+   "voice": "Hasan Yasin - Warm Turkish Narrator",
+   "model": "eleven_v4",
+   "bytes": 103278
+  }
+ ],
+ "url": []
+}

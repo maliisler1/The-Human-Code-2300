@@ -2,7 +2,7 @@ name: Bölümleri Lovable uygulamasına aktar
 on:
   push:
     branches: [uretim-assets]
-    paths: ['assets/out/Bolum*.mp4', '.github/workflows/lovable-episodes.yml']
+    paths: ['diziler/*/assets/out/Bolum*.mp4', '.github/workflows/lovable-episodes.yml']
 permissions:
   contents: read
   id-token: write
@@ -35,9 +35,9 @@ jobs:
               with urllib.request.urlopen(request, timeout=60) as response:
                   return json.load(response)
 
-          files = sorted(glob.glob('assets/out/Bolum*.mp4'), key=lambda p: int(re.search(r'Bolum(\d+)', p).group(1)))
+          files = sorted(glob.glob('diziler/the-human-code-2300/assets/out/Bolum*.mp4'), key=lambda p: int(re.search(r'Bolum(\d+)', p).group(1)))
           for file in files[:20]:
-              match = re.fullmatch(r'assets/out/Bolum(\d+)_[^/]+\.mp4', file)
+              match = re.fullmatch(r'diziler/the-human-code-2300/assets/out/Bolum(\d+)_[^/]+\.mp4', file)
               if not match or not 1 <= int(match[1]) <= 20:
                   continue
               with open(file, 'rb') as handle:

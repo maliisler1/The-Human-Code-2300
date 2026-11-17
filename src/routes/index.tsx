@@ -27,9 +27,9 @@ export const Route = createFileRoute("/")({
   },
   head: () => ({
     meta: [
-      { title: "The Human Code: 2300" },
-      { name: "description", content: "The Human Code: 2300 dizisinin tüm bölümlerini izle." },
-      { property: "og:title", content: "The Human Code: 2300" },
+      { title: "AI Multiverse Cinema" },
+      { name: "description", content: "AI Multiverse Cinema: The Human Code: 2300 ve diğer yapay zekâ dizilerinin tüm bölümlerini izle." },
+      { property: "og:title", content: "AI Multiverse Cinema" },
       { property: "og:description", content: "İnsanlığın kurtuluşu DNA'nda yazılı." },
       { property: "og:type", content: "video.tv_show" },
       { name: "twitter:card", content: "summary_large_image" },

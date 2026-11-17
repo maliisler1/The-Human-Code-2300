@@ -2,7 +2,7 @@ import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'com.aimultiverse.cinema',
-  appName: 'The Human Code: 2300',
+  appName: 'AI Multiverse Cinema',
   webDir: 'dist-mobile',
   backgroundColor: '#12121c',
   android: { allowMixedContent: false },

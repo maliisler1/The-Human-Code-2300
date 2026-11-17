@@ -140,7 +140,7 @@ export function SeriesView({
         <div className="absolute inset-x-0 top-0 flex justify-between p-5">
           {home ? (
             <span className="rounded-full glass px-3 py-1.5 text-xs font-bold uppercase tracking-[0.25em] text-neon">
-              The Human Code
+              AI Multiverse Cinema
             </span>
           ) : (
             <Link to="/" className="rounded-full glass p-2" aria-label={t("back")}>

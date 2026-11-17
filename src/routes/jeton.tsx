@@ -11,9 +11,9 @@ import { useT } from "@/lib/i18n";
 export const Route = createFileRoute("/jeton")({
   head: () => ({
     meta: [
-      { title: "Sezonu Satın Al — The Human Code: 2300" },
+      { title: "Sezonu Satın Al — AI Multiverse Cinema" },
       { name: "description", content: "Tüm bölümleri reklamsız ve internetsiz izle." },
-      { property: "og:title", content: "Sezonu Satın Al — The Human Code: 2300" },
+      { property: "og:title", content: "Sezonu Satın Al — AI Multiverse Cinema" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
     ],

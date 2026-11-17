@@ -1,0 +1,7 @@
+b01=Bolum1_Uyanis.mp4
+b02=Bolum2_Kayip_Sinyal.mp4
+b03=Bolum3_Golgenin_Adi.mp4
+b04=Bolum4_Kale.mp4
+b05=Bolum5_Leon.mp4
+b06=Bolum6_Kael.mp4
+b07=Bolum7_On_Sekiz_Kapsul.mp4

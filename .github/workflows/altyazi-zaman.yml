@@ -1,0 +1,35 @@
+name: Altyazı zamanlaması (Whisper, kelime zamanları)
+on:
+  push:
+    branches: [uretim-ham]
+    paths: ['gelen/altyazi/istek.txt']
+permissions:
+  contents: write
+jobs:
+  zaman:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get install -y -qq ffmpeg && pip install -q faster-whisper numpy
+      - run: |
+          python3 - <<'PY'
+          import json,subprocess,os,urllib.request,numpy as np
+          from faster_whisper import WhisperModel
+          m=WhisperModel("medium",device="cpu",compute_type="int8")
+          RAW="https://raw.githubusercontent.com/maliisler1/The-Human-Code-2300/uretim-assets/diziler/the-human-code-2300/assets/out/"
+          for l in open('gelen/altyazi/istek.txt'):
+              l=l.strip()
+              if not l: continue
+              key,fn=l.split('=',1); out=f'gelen/altyazi/{key}.json'
+              if os.path.exists(out): continue
+              urllib.request.urlretrieve(RAW+fn,'/tmp/v.mp4')
+              a=np.frombuffer(subprocess.run(['ffmpeg','-v','error','-i','/tmp/v.mp4','-ac','1','-ar','16000','-f','f32le','-'],capture_output=True).stdout,np.float32)
+              segs,_=m.transcribe(a,language="tr",beam_size=5,word_timestamps=True,vad_filter=True)
+              res=[{"s":round(s.start,2),"e":round(s.end,2),"t":s.text.strip(),"w":[[round(w.start,2),round(w.end,2),w.word] for w in (s.words or [])]} for s in segs]
+              json.dump(res,open(out,'w'),ensure_ascii=False,indent=0)
+              print(key,len(res),flush=True)
+          PY
+      - run: |
+          git config user.name "uretim-bot"; git config user.email "uretim-bot@users.noreply.github.com"
+          git add gelen/altyazi/*.json && git commit -m "Altyazı zamanları" && git pull --rebase origin uretim-ham && git push origin HEAD:uretim-ham

@@ -39,7 +39,7 @@ Bu dosya, üretim başka bir Claude oturumunda (ör. iş bilgisayarı) devam ett
 2. Ertesi gün: telefon özellikleri (android/, capacitor.config.ts, vite.mobile.config.ts, @capacitor paketleri, AdMob/indirme/paylaşma) holo-heart-streams'e ayrı dalda taşınır; web bozulmadığı test edilir; Android derlemesi holo-heart-streams kodundan yapılır. İmza anahtarları yalnız The-Human-Code-2300 secrets'ta: ya okuma anahtarı (holo-heart-streams'i okuyan) eklenir ya da anahtarlar holo-heart-streams'e de eklenir (kullanıcı yapar).
 
 ## Çok dilli altyazı (karar 17 Kas 2026)
-- Diller (16): tr, en, es, pt, fr, de, it, ru, ar, hi, zh, ja, ko, id, az, fa. Dosyalar: `diziler/the-human-code-2300/assets/altyazi/bolum-NN/<dil>.vtt`.
+- Diller (20, en çok konuşulana göre): en, zh, hi, es, ar, fr, bn, pt, ru, id, ur, de, ja, mr, te, tr, ta, vi, it, ko.
 - Yöntem: final videoda Whisper zaman damgası → senaryo metniyle düzelt → çeviri → VTT. Kredi harcamaz.
 - Uygulama: cihaz diline göre altyazı otomatik (Türkçe cihazda kapalı); oynatıcıda dil seçimi. Kod birleştirmede (holo-heart-streams) eklenecek.
 - Ses şimdilik yalnız Türkçe; dizi tutarsa tam İngilizce seslendirme + yeniden dudak senkronu.

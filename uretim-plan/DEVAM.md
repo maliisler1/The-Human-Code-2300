@@ -18,7 +18,7 @@ Bu dosya, üretim başka bir Claude oturumunda (ör. iş bilgisayarı) devam ett
 - Montaj betikleri: build5.py, build6.py, b07/build7.py (aynı yapı).
 
 ## Durum (17 Kasım 2026)
-- Bölüm 1–6 yayında (assets/out). Bölüm 6'da anlatıcının "yirmi iki kapsül hâlâ uyuyordu" cümlesi (R11) "on sekiz kapsül" olarak yeniden seslendirilecek.
+- Bölüm 1–6 yayında (assets/out). Bölüm 6 R11 "on sekiz kapsül" olarak düzeltildi (17 Kas; Whisper ile doğrulandı).
 - Bölüm 7 "On Sekiz Kapsül": b07/lines.json (40 replik, 14 dudak), b07/broll.json (19 çekim), b07/build7.py hazır. Seslendirme ve çekim yapılmadı.
 
 ## Platform ve dizi düzeni (17 Kasım 2026 kararı)

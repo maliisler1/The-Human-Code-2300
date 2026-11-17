@@ -52,3 +52,10 @@ aynı yüz, saç, kıyafet ve ses kullanılır. Kadın karakterlerde saç ara s�
 
 Notlar: Mony'nin saçı 5. bölümden itibaren ateş kırmızısıdır (5. bölüm çekimleri renk düzeltmesiyle güncellendi).
 Kedinin adı metinde "Sarcınt" yazılır ki seslendirmede İngilizce "Sergeant" gibi okunsun.
+
+## Kapsül durumu (her bölümde kontrol edilecek — HATA YAPILMAYACAK)
+Toplam 23 kapsül.
+- Uyanmış (5. bölüm sonu): **7 Mira, 11 Mony, 12 Anka, 22 Leon, 23 AyShe**
+- 6. bölüm sonunda hâlâ uyuyan: **18 kapsül** (1–6, 8–10, 13–21)
+- 7. bölüm: 1, 2, 3 açılır → uyuyan **15** (4–6, 8–10, 13–21). 4 numarada kırmızı gözler (tehlike).
+Yeni uyanan her kapsül bu listeye işlenir; senaryoda sayılar bu listeden alınır.

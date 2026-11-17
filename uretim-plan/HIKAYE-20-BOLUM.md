@@ -27,9 +27,9 @@ Kurallar: her bölüm ~3 dk · konuşan kimse ekranda o (dudak senkron) · sesle
 2. **Kayıp Sinyal** ✅ — Kırık Adalar, Asli ve Eray, Mira'nın kapsülü, Gölge "Yirmi Üç" der.
 3. **Gölgenin Adı** — Gölge = AyShe'nin ilk kopyası. Mağaradan kaçış. Leon'un gerçek sinyali kaleden.
 4. **Kale** — Kalenin dış surları, kristal muhafızlar. Eray'ın yaratıklarla bağı ortaya çıkar. Leon'u görürler ama kafeste.
-5. **Leon** — Leon kurtarılır; ama hafızası silinmiştir. Final: kalenin altında 22 kapsülün olduğu dev salon.
+5. **Leon** — Leon kurtarılır; ama hafızası silinmiştir. Final: kalenin altında hâlâ uyuyan 18 kapsülün olduğu dev salon.
 6. **Kael** — (YENİ) Yaşlı koruyucu Kael ekibi saklar; 2099'da ne olduğunu anlatır (flashback: ölen Dünya).
-7. **Yirmi İki Kapsül** — Kapsülleri uyandırma planı. Mira'nın gücü: dondurma/çözme. İlk 3 kapsül açılır.
+7. **On Sekiz Kapsül** — Kapsülleri uyandırma planı. Mira'nın gücü: dondurma/çözme. Uyuyan 18 kapsülden 1, 2 ve 3 numara açılır (15 kalır).
 8. **İhanet** — Ekipten biri Gölge'ye bilgi sızdırıyor gibi görünür (şüphe Eray'a). Eray kaçar.
 9. **Kızıl Savaşçı** — (YENİ) Nyra ortaya çıkar, Asli'yi esir alır. Büyük aksiyon.
 10. **Eray'ın Sırrı** — Eray aslında Elyra'nın kendisinin yarattığı bir "rehber"; yaratıkları o yüzden dinliyor. Asli kurtarılır. *(İlk 10 bölüm finali — büyük cliffhanger: Gölge, Leon'u kontrol ediyor.)*
@@ -38,8 +38,8 @@ Kurallar: her bölüm ~3 dk · konuşan kimse ekranda o (dudak senkron) · sesle
 13. **Kırılan Köprüler** — Elyra parçalanmaya başlar; adalar düşüyor. Zamanla yarış.
 14. **Dr. Ekin Var** — (YENİ) Kalenin çekirdeğinde yapay zekâ bilinci: 23'ü o seçti, Gölge'yi o yarattı.
 15. **Kopya ve Asıl** — AyShe kendi DNA'sının sırrını öğrenir: Gölge "başarısız deneme", AyShe "tamamlanmış".
-16. **Nyra'nın Seçimi** — Nyra taraf değiştirir; Gölge'nin planı: 22 kapsülü kendi kopyalarıyla değiştirmek.
-17. **Yirmi Üç Işık** — Tüm kapsüller uyanır; 22 yeni insan, ilk kez bir arada.
+16. **Nyra'nın Seçimi** — Nyra taraf değiştirir; Gölge'nin planı: uyuyan kapsülleri kendi kopyalarıyla değiştirmek.
+17. **Yirmi Üç Işık** — Tüm kapsüller uyanır; 23 kapsülün hepsi ilk kez bir arada.
 18. **Kalenin Düşüşü** — Büyük savaş. Taran fedakârlık yapar (hologramı söner).
 19. **Gölge ile Yüz Yüze** — AyShe ve Gölge'nin son düellosu; AyShe onu yok etmez, "tamamlar".
 20. **Yeni Dünya** — Gölge kendi adını seçer. Elyra çiçek açar; ufukta Dünya'dan gelen bir sinyal… *(Sezon 2'ye kapı)*

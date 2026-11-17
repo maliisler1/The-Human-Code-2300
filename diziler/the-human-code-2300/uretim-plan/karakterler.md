@@ -59,3 +59,4 @@ Toplam 23 kapsül.
 - 6. bölüm sonunda hâlâ uyuyan: **18 kapsül** (1–6, 8–10, 13–21)
 - 7. bölüm sonu (yayında): 1, 2, 3 açıldı → uyuyan **15** (4–6, 8–10, 13–21). 4 numarada kırmızı gözler (tehlike). Uyananlar 1–3 henüz isimsiz; ilk göründükleri bölümde karakter kartı eklenecek.
 Yeni uyanan her kapsül bu listeye işlenir; senaryoda sayılar bu listeden alınır.
+- 8. bölüm sonu (yayında): kapsül durumu değişmedi → uyuyan **15** (4–6, 8–10, 13–21). 4 numaradaki kırmızı gözler = Nyra (Bölüm 9'da uyanır). Eray kristal yaratıklarla yarığa atladı, güvende.

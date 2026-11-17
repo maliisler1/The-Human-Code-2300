@@ -43,3 +43,5 @@ Bu dosya, üretim başka bir Claude oturumunda (ör. iş bilgisayarı) devam ett
 - Yöntem: final videoda Whisper zaman damgası → senaryo metniyle düzelt → çeviri → VTT. Kredi harcamaz.
 - Uygulama: cihaz diline göre altyazı otomatik (Türkçe cihazda kapalı); oynatıcıda dil seçimi. Kod birleştirmede (holo-heart-streams) eklenecek.
 - Ses şimdilik yalnız Türkçe; dizi tutarsa tam İngilizce seslendirme + yeniden dudak senkronu.
+
+- Bölüm 8 "İhanet" YAYINDA (17 Kas): assets/out/Bolum8_Ihanet.mp4 (3:13). 38 replik, verify.py kayma 0. Wan 14 dudak (9.240 kredi). Ek ara çekimler X1–X5. Pusula küresi önceki bölümlerdeki gibi dünya görünümlü kalsın (tutarlılık). Ham klipler uretim-ham gelen/b08/c8/.

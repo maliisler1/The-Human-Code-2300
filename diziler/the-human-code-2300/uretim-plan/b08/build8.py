@@ -1,20 +1,20 @@
 import subprocess,sys,json
 C="c8/"
 import json as _j;OFF=_j.load(open('off8.json'))
-CROP={}
+CROP={"L_E1":"crop=1138:640:71:40,","L_L1":"crop=1138:640:71:40,","L_E3":"crop=1066:600:107:60,","L_SI1":"crop=1130:636:75:40,"}
 LEN={k:float(subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',f'c8/L_{k}.mp4'],capture_output=True,text=True).stdout) for k in OFF}
 def dur(k): return float(subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',f'vo_w/{k}.wav'],capture_output=True,text=True).stdout)
-B=[('b',['B01'],['R1']),('b',['B02'],['P1']),('l','A1'),('l','K1'),('b',['B03'],['R2']),('l','MO1'),('l','AN1'),
+B=[('b',['B01'],['R1']),('b',['B02'],['P1']),('l','A1'),('l','K1'),('b',['B03','B01'],['R2']),('l','MO1'),('l','AN1'),
 ('b',['B21'],['P2']),('b',['B04'],['R3']),('l','E1'),('l','L1'),('b',['B05'],['R4']),('l','S1'),('l','E2'),
-('b',['B06'],['M1','K2']),('b',['B22'],['R5']),('l','E3'),('l','A2'),('b',['B07'],['R6','S2']),('b',['B08'],['R8']),('l','SI1'),
-('b',['B09'],['SI2']),('b',['B10'],['R9','E4']),('b',['B11','B12'],['R10','A3']),('b',['B13','B14'],['R11']),('b',['B15'],['S3']),
-('b',['B16','B17'],['R12']),('l','M2'),('b',['B21'],['P4']),('b',['B18'],['R13']),('l','K3'),('l','L2'),('b',['B02'],['P3']),('b',['B19','B20'],['R14'])]
-REFS={'B03','B04','B05','B07','B08','B10','B12','B13','B14','B15','B16','B18','B19','B22'}
-OFS={}
+('b',['B06','X4'],['M1','K2']),('b',['B22','B19'],['R5']),('l','E3'),('l','A2'),('b',['X1','B07','X5'],['R6','S2']),('b',['B08','X2'],['R8']),('l','SI1'),
+('b',['B09'],['SI2']),('b',['B10','X3'],['R9','E4']),('b',['B11','B12'],['R10','A3']),('b',['B13','B14'],['R11']),('b',['B15'],['S3']),
+('b',['B16','B15','B17'],['R12']),('l','M2'),('b',['B21'],['P4']),('b',['B18'],['R13']),('l','K3'),('l','L2'),('b',['B02'],['P3']),('b',['B19','B20'],['R14'])]
+REFS={'X1','X5','B03','B04','B05','B07','B08','B10','B12','B13','B14','B15','B16','B18','B19','B22'}
+OFS={'B12':5.5}
 import glob as _g,os as _o
-LENV={_o.path.basename(f)[:-4]:float(subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',f],capture_output=True,text=True).stdout) for f in _g.glob('c8/B*.mp4')}
+LENV={_o.path.basename(f)[:-4]:float(subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',f],capture_output=True,text=True).stdout) for f in _g.glob('c8/[BX]*.mp4')}
 USED={}
-CAPS={}
+CAPS={'X1':2.0}
 T=0.35;GAP=0.3;MAXS=5.15
 E=[];vo=[];V=T;A=0.0;mark={}
 for bi,b in enumerate(B):

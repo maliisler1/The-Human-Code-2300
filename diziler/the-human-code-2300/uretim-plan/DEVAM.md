@@ -32,4 +32,8 @@ Bu dosya, üretim başka bir Claude oturumunda (ör. iş bilgisayarı) devam ett
 
 ## 17 Kasım akşamı
 - Dizinin slug'ı **the-human-code-2300** oldu (eski neo-genesis-2099 adresleri yeni adrese yönlenir). Adres: https://holo-heart-streams.lovable.app/dizi/the-human-code-2300
-- Lovable ↔ GitHub main senkronu çalışmıyor: Lovable'daki değişiklikler main'e gelmiyor. Canlı site Lovable'daki koddan yayınlanır; Android paketi main'den derlenir. Main'de slug/afiş/öne çıkan dizi yeni slug'a uyarlandı (7e87823) ve 1.3.1 (versionCode 6) yeniden derlendi.
+- DÜZELTME: Lovable ↔ GitHub senkronu sağlam. Lovable projesi 'Evrensel Sinema' = depo **maliisler1/holo-heart-streams** (main). Canlı web sitesi bu koddan; telefon uygulaması (Capacitor, AdMob, indirme, paylaşma) ise The-Human-Code-2300 main'den derlenir — iki ayrı kod kopyası. Android main'den derlenir. Main'de slug/afiş/öne çıkan dizi yeni slug'a uyarlandı (7e87823) ve 1.3.1 (versionCode 6) yeniden derlendi.
+
+## Karar (17 Kas 17:24) — iki kodu birleştirme planı
+1. 17 Kas 20:10: 1.3.1 (versionCode 6, The-Human-Code-2300 main'den) kapalı teste yüklenir.
+2. Ertesi gün: telefon özellikleri (android/, capacitor.config.ts, vite.mobile.config.ts, @capacitor paketleri, AdMob/indirme/paylaşma) holo-heart-streams'e ayrı dalda taşınır; web bozulmadığı test edilir; Android derlemesi holo-heart-streams kodundan yapılır. İmza anahtarları yalnız The-Human-Code-2300 secrets'ta: ya okuma anahtarı (holo-heart-streams'i okuyan) eklenir ya da anahtarlar holo-heart-streams'e de eklenir (kullanıcı yapar).

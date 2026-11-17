@@ -77,9 +77,16 @@ if items_tts:
         print("ok", x["out"], vname, len(audio))
 
 for x in items_url:
-    r = urllib.request.Request(x["url"], headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(r, timeout=300) as resp:
-        b = resp.read()
+    for att in range(4):
+        try:
+            r = urllib.request.Request(x["url"], headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(r, timeout=300) as resp:
+                b = resp.read()
+            break
+        except Exception as e:
+            print("tekrar", x["out"], e); time.sleep(10)
+    else:
+        raise SystemExit("indirilemedi " + x["url"])
     os.makedirs(os.path.dirname(x["out"]), exist_ok=True)
     open(x["out"], "wb").write(b)
     rapor["url"].append({"out": x["out"], "bytes": len(b)})

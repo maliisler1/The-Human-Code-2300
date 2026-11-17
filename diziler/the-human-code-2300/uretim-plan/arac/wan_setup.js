@@ -10,7 +10,7 @@ window.setDur=(sec)=>{const r=document.querySelector('input[type=range]');Object
 window.addFiles=async(paths)=>{const dt=new DataTransfer();for(const p of paths){const b=await fetch(RAW+p+'?v='+Date.now()).then(r=>r.blob());dt.items.add(new File([b],p.split('/').pop(),{type:p.endsWith('mp3')?'audio/mpeg':'image/jpeg'}));}const fi=document.querySelector('input[type=file]');fi.files=dt.files;fi.dispatchEvent(new Event('change',{bubbles:true}));};
 window.btn=()=>B(/^Create Video/);
 window.refs=()=>document.querySelectorAll('button[aria-label=Remove]').length;
-window.COST={5:'630',6:'770',7:'910',8:'1050'};
+window.COST={5:'630',6:'770',7:'910',8:'1015'};
 window.subJob=async(j,ep)=>{const [k,img,sec,pr]=j;document.querySelectorAll('button[aria-label=Remove]').forEach(b=>b.click());await S(1000);setDur(sec);await S(700);await addFiles(['assets/'+img,'assets/b'+ep+'/'+k+'.mp3']);for(let i=0;i<30&&refs()<2;i++)await S(1000);setP(pr);await S(1000);const b=btn();
  if(!/Wan 3\.0/.test(B(/^Model/).textContent)||refs()!==2||!b.textContent.includes(COST[sec])||b.disabled)return k+' HATA refs='+refs()+' '+b.textContent+' dis='+b.disabled;
  b.click();return k+' gönderildi '+new Date().toLocaleTimeString()};

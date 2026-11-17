@@ -1,0 +1,154 @@
+{
+ "tts": [
+  {
+   "out": "gelen/b10/R1.mp3",
+   "voice": "Hasan",
+   "text": "Kalenin kulesinde sabah olmak üzereydi. Aslı, kızıl ışıklı hücresinde yalnız değildi."
+  },
+  {
+   "out": "gelen/b10/S1.mp3",
+   "voice": "Gamze - Young",
+   "text": "Sarcınt? Sen buraya nasıl girdin, seni küçük kahraman?"
+  },
+  {
+   "out": "gelen/b10/R2.mp3",
+   "voice": "Hasan",
+   "text": "Sarcınt bütün gece Aslı'nın iplerini kemirmişti. Şimdi tek eksik, kapıyı açacak birisiydi."
+  },
+  {
+   "out": "gelen/b10/R3.mp3",
+   "voice": "Hasan",
+   "text": "Maden kampında ise Kael, Eray'ın omzundaki kristallere uzun uzun bakıyordu."
+  },
+  {
+   "out": "gelen/b10/K1.mp3",
+   "voice": "KAEL",
+   "text": "Eray, bu kristaller doğduğundan beri sende mi?"
+  },
+  {
+   "out": "gelen/b10/E1.mp3",
+   "voice": "Polat",
+   "text": "Bilmem. Hatırladığım ilk şey, bir kristal mağarada uyanmam. Kapsül falan yoktu."
+  },
+  {
+   "out": "gelen/b10/K2.mp3",
+   "voice": "KAEL",
+   "text": "Çünkü sen bir kapsülden doğmadın. Seni Elyra'nın kendisi yarattı. Sen bu toprakların rehberisin."
+  },
+  {
+   "out": "gelen/b10/R4.mp3",
+   "voice": "Hasan",
+   "text": "Herkes şaşkınlıkla Eray'a döndü. Ama Eray sadece sırıttı."
+  },
+  {
+   "out": "gelen/b10/E2.mp3",
+   "voice": "Polat",
+   "text": "Yani ben bir adanın oğluyum? Harika. Bundan sonra bana Prens Eray diyebilirsiniz."
+  },
+  {
+   "out": "gelen/b10/A1.mp3",
+   "voice": "Gozde",
+   "text": "Peki Prens Eray, yaratıklarına söyle. Aslı'yı kurtarmamıza yardım etsinler."
+  },
+  {
+   "out": "gelen/b10/R5.mp3",
+   "voice": "Hasan",
+   "text": "Eray gözlerini kapadı. Omzundaki kristaller parladı ve madenin derinliklerinden binlerce ışık ona cevap verdi."
+  },
+  {
+   "out": "gelen/b10/P1.mp3",
+   "voice": "Dilara",
+   "text": "İnanılmaz. Yaratıklar kaleye giden gizli bir kristal yol açıyor."
+  },
+  {
+   "out": "gelen/b10/R6.mp3",
+   "voice": "Hasan",
+   "text": "Ekip, parlayan yaratıkların ardından kalenin altına kadar uzanan tünele girdi."
+  },
+  {
+   "out": "gelen/b10/M1.mp3",
+   "voice": "Nil",
+   "text": "Ben önden gidiyorum. Muhafızları dondururum."
+  },
+  {
+   "out": "gelen/b10/R7.mp3",
+   "voice": "Hasan",
+   "text": "Tünel, Aslı'nın hücresinin tam altında bitiyordu."
+  },
+  {
+   "out": "gelen/b10/E3.mp3",
+   "voice": "Polat",
+   "text": "Kristal arkadaşlar, lütfen... yukarı!"
+  },
+  {
+   "out": "gelen/b10/R8.mp3",
+   "voice": "Hasan",
+   "text": "Zemin yumuşak bir ışıkla eridi ve Eray, bir kristal sütunun üstünde hücrenin içine yükseldi."
+  },
+  {
+   "out": "gelen/b10/S2.mp3",
+   "voice": "Gamze - Young",
+   "text": "Eray! Sen nereden çıktın?"
+  },
+  {
+   "out": "gelen/b10/E4.mp3",
+   "voice": "Polat",
+   "text": "Kısa yoldan geldim. Hadi, hanımlar önden."
+  },
+  {
+   "out": "gelen/b10/R9.mp3",
+   "voice": "Hasan",
+   "text": "Ama hücrenin kapısında biri bekliyordu. Nyra."
+  },
+  {
+   "out": "gelen/b10/N1.mp3",
+   "voice": "Deniz",
+   "text": "Onu bırakamam. Sila beni cezalandırır."
+  },
+  {
+   "out": "gelen/b10/S3.mp3",
+   "voice": "Gamze - Young",
+   "text": "Sen de bizimle gel Nyra. Kimse seni cezalandırmayacak."
+  },
+  {
+   "out": "gelen/b10/R10.mp3",
+   "voice": "Hasan",
+   "text": "Nyra bir an kılıcını indirdi. Sonra arkasını döndü ve koridoru boş bıraktı."
+  },
+  {
+   "out": "gelen/b10/N2.mp3",
+   "voice": "Deniz",
+   "text": "Ben sizi görmedim. Şimdi gidin."
+  },
+  {
+   "out": "gelen/b10/R11.mp3",
+   "voice": "Hasan",
+   "text": "Ekip, Aslı ve Sarcınt'la birlikte kristal yoldan madene döndü. Gece, kahkahalar ve kucaklaşmalarla bitti."
+  },
+  {
+   "out": "gelen/b10/MO1.mp3",
+   "voice": "Zehra",
+   "text": "Kedi kahramanımız için büyük bir alkış!"
+  },
+  {
+   "out": "gelen/b10/R12.mp3",
+   "voice": "Hasan",
+   "text": "Ama herkes uyuduğunda, biri sessizce kalktı. Leon."
+  },
+  {
+   "out": "gelen/b10/R13.mp3",
+   "voice": "Hasan",
+   "text": "Gözleri kıpkırmızı parlıyordu. Elinde, kırmızı ışıklı küçük bir cihaz vardı."
+  },
+  {
+   "out": "gelen/b10/G1.mp3",
+   "voice": "Celil",
+   "text": "Aferin Leon. Şimdi bana onların yerini söyle."
+  },
+  {
+   "out": "gelen/b10/R14.mp3",
+   "voice": "Hasan",
+   "text": "Sinyali gönderen Leon'du. Ama bunu kendisi bile bilmiyordu."
+  }
+ ]
+}

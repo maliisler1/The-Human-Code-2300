@@ -19,7 +19,8 @@ Bu dosya, üretim başka bir Claude oturumunda (ör. iş bilgisayarı) devam ett
 
 ## Durum (17 Kasım 2026)
 - Bölüm 1–6 yayında (assets/out). Bölüm 6 R11 "on sekiz kapsül" olarak düzeltildi (17 Kas; Whisper ile doğrulandı).
-- Bölüm 7 "On Sekiz Kapsül": b07/lines.json (40 replik, 14 dudak), b07/broll.json (19 çekim), b07/build7.py hazır. Seslendirme ve çekim yapılmadı.
+- Bölüm 7 "On Sekiz Kapsül" YAYINDA (17 Kas): assets/out/Bolum7_On_Sekiz_Kapsul.mp4 (3:17, 1080p). 40 replik Whisper ile doğrulandı, verify.py kayma 0. Ek ara çekimler: B20b (Eray), B21 (uyananlar), B22 (Mira elleri), B23b (Pusula); B15 yeniden çekildi. Ham klipler uretim-ham dalında gelen/b07/c7/. Wan bazı kliplerde sesi uzatabiliyor (K2, K4): klibin kendi sesi kullanıldı. L_M1, L_L2, L_SI1 sinemaskop geldi → build7.py CROP.
+- Sıradaki: Bölüm 8 "İhanet". Ardından GitHub düzenlemesi (depo adı AI-Multiverse-Cinema, diziler/the-human-code-2300/).
 
 ## Platform ve dizi düzeni (17 Kasım 2026 kararı)
 - Uygulamanın (platformun) adı: **AI Multiverse Cinema**. "The Human Code: 2300" yalnızca dizinin adıdır; başka diziler de eklenecek.

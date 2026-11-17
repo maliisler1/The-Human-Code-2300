@@ -1,15 +1,20 @@
 import subprocess,sys,json
 C="c7/"
 import json as _j;OFF=_j.load(open('off7.json'))
-CROP={}
+CROP={"L_M1":"crop=952:536:164:92,","L_L2":"crop=944:532:168:94,","L_SI1":"crop=944:532:168:94,"}
 LEN={k:float(subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',f'c7/L_{k}.mp4'],capture_output=True,text=True).stdout) for k in OFF}
 def dur(k): return float(subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',f'vo_w/{k}.wav'],capture_output=True,text=True).stdout)
-B=[('b',['B01','B02'],['R1']),('l','K1'),('l','A1'),('l','K2'),('b',['B02'],['E1','R2']),('l','L1'),('b',['B07'],['P1']),
-('b',['B03','B15'],['R3','S1']),('b',['B04'],['R4']),('l','MO1'),('l','AN1'),('b',['B05'],['R5','E2']),('l','M1'),('b',['B06'],['R6']),('l','M2'),
-('b',['B06','B07'],['R7']),('l','A2'),('b',['B17'],['K3']),('b',['B08'],['R8']),('l','L2'),('b',['B09'],['R9','P2','AN2']),
+B=[('b',['B01'],['R1']),('l','K1'),('l','A1'),('l','K2'),('b',['B20b','B02'],['E1','R2']),('l','L1'),('b',['B23b'],['P1']),
+('b',['B03','B15'],['R3','S1']),('b',['B04'],['R4']),('l','MO1'),('l','AN1'),('b',['B05'],['R5','E2']),('l','M1'),('b',['B22'],['R6']),('l','M2'),
+('b',['B06','B07'],['R7']),('l','A2'),('b',['B17'],['K3']),('b',['B08'],['R8']),('l','L2'),('b',['B09','B21'],['R9','P2','AN2']),
 ('b',['B10'],['R10']),('l','SI1'),('l','A3'),('b',['B19'],['SI2']),('b',['B11','B12'],['R11','M3']),('b',['B12','B13'],['R12','MO2']),
 ('b',['B14','B15'],['E3','R13']),('b',['B16'],[]),('l','K4'),('l','L3'),('b',['B18'],['R14']),('b',['B18','B19'],['R15'])]
 REFS={'B02','B03','B06','B08','B12','B13','B14','B15','B17','B19'}
+OFS={'B06':5.6,'B14':5.0,'B13':4.0}
+import glob as _g,os as _o
+LENV={_o.path.basename(f)[:-4]:float(subprocess.run(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',f],capture_output=True,text=True).stdout) for f in _g.glob('c7/B*.mp4')}
+USED={}
+CAPS={'B20b':4.4,'B12':2.9}
 T=0.35;GAP=0.3;MAXS=5.15
 E=[];vo=[];V=T;A=0.0;mark={}
 for bi,b in enumerate(B):
@@ -26,7 +31,12 @@ for bi,b in enumerate(B):
         for k in lines: d=dur(k);vo.append((k,t));t+=d+GAP;A=t-GAP
         end=max(t+0.05,S+1.6*len(shots)) if lines else S+1.4
         L=end-S;n=len(shots);tot=L+(n-1)*T
-        caps=[5.55 if sh in REFS else 9.9 for sh in shots]
+        base=[OFS.get(sh,4.5) if sh in REFS else 0.0 for sh in shots]
+        o0=[]
+        for sh,bo in zip(shots,base):
+            u=USED.get(sh)
+            o0.append(u if (u is not None and LENV[sh]-0.05-u>=1.5) else bo)
+        caps=[min(LENV[sh]-0.05-o,CAPS.get(sh,99)) for sh,o in zip(shots,o0)]
         segs=[tot/n]*n
         for _ in range(5):
             over=sum(max(0,sg-c) for sg,c in zip(segs,caps));segs=[min(sg,c) for sg,c in zip(segs,caps)]
@@ -34,7 +44,7 @@ for bi,b in enumerate(B):
             if over<1e-6 or not free: break
             for i in free: segs[i]+=over/len(free)
         if sum(segs)<tot-0.05: print("UYARI uzun",bi,round(tot-sum(segs),2))
-        for sh,sg in zip(shots,segs): o=4.5 if sh in REFS else 0.0; E.append((sh,o,round(o+sg,3)))
+        for sh,sg,o in zip(shots,segs,o0): E.append((sh,o,round(o+sg,3))); USED[sh]=o+sg
         V=S+sum(segs)-(n-1)*T
 n=len(E);DL=[e-s for _,s,e in E];ST=[sum(DL[:i])-i*T for i in range(n)]
 vlen=sum(DL)-(n-1)*T;ET=1.0;END=9.0;total=vlen-ET+END

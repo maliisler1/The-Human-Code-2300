@@ -2,7 +2,7 @@ name: Bölümleri Lovable uygulamasına aktar
 on:
   push:
     branches: [uretim-assets]
-    paths: ['diziler/*/assets/out/Bolum*.mp4', 'diziler/*/assets/altyazi/**', '.github/workflows/lovable-episodes.yml']
+    paths: ['diziler/*/assets/out/Bolum*.mp4', 'diziler/*/assets/altyazi/**', 'diziler/*/dizi-metni.json', '.github/workflows/lovable-episodes.yml']
 permissions:
   contents: read
   id-token: write
@@ -87,4 +87,22 @@ jobs:
               except urllib.error.HTTPError as e:
                   print('HATA', f, e.code, e.read()[:200])
           print('yüklenen altyazı:', ok)
+          PY
+
+      - name: Dizi metinlerini yükle
+        env:
+          APP_ENDPOINT: https://holo-heart-streams.lovable.app/api/public/github-series-text
+        run: |
+          python3 - <<'PY'
+          import glob, json, os, urllib.request, urllib.error
+          oidc_url = os.environ['ACTIONS_ID_TOKEN_REQUEST_URL'] + '&audience=lovable-episode-import'
+          r = urllib.request.Request(oidc_url, headers={'Authorization': 'Bearer ' + os.environ['ACTIONS_ID_TOKEN_REQUEST_TOKEN']})
+          with urllib.request.urlopen(r, timeout=30) as resp: token = json.load(resp)['value']
+          for f in sorted(glob.glob('diziler/*/dizi-metni.json')):
+              body = open(f, 'rb').read()
+              q = urllib.request.Request(os.environ['APP_ENDPOINT'], data=body, headers={'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'}, method='POST')
+              try:
+                  with urllib.request.urlopen(q, timeout=60) as resp: print(f, resp.read()[:200])
+              except urllib.error.HTTPError as e:
+                  print('HATA', f, e.code, e.read()[:200])
           PY

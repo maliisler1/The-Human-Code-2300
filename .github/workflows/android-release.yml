@@ -84,8 +84,11 @@ jobs:
             echo "::error::VITE_SUPABASE_URL yok — uygulama telefonda açılmaz. .env dosyasına veya Actions gizli anahtarlarına ekleyin."
             exit 1
           fi
+          # Boş gizli anahtar .env.production'daki değeri ezmesin (Vite boş ortam değişkenini öncelikli sayar).
+          [ -n "$VITE_SUPABASE_URL" ] || unset VITE_SUPABASE_URL
+          [ -n "$VITE_SUPABASE_PUBLISHABLE_KEY" ] || unset VITE_SUPABASE_PUBLISHABLE_KEY
           pnpm run android:sync
-          grep -q "supabase.co" dist-mobile/assets/*.js || { echo "::error::Mobil pakete sunucu adresi girmedi"; exit 1; }
+          grep -qE "https://[a-z0-9]{20}\.supabase\.co" dist-mobile/assets/*.js || { echo "::error::Mobil pakete sunucu adresi girmedi"; exit 1; }
 
       - name: İmza anahtarını hazırla
         env:

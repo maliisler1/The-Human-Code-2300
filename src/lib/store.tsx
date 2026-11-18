@@ -10,7 +10,7 @@ import {
   useState,
   type ReactNode,
 } from "react";
-import { LANGS, type Lang } from "./i18n";
+import { LANGS, type Lang, SUB_LANGS, type SubLang } from "./i18n";
 
 export const EPISODE_COST = 12;
 
@@ -23,7 +23,7 @@ export type State = {
   name: string;
   uiLang: Lang;
   audioLang: Lang;
-  subLang: Lang | "off";
+  subLang: SubLang | "off";
   langChosen: boolean;
   /** Google Play'den "Sezonu Satın Al" yapıldı: tüm bölümler açık, reklamsız, internetsiz izleme. */
   seasonOwned: boolean;
@@ -48,6 +48,7 @@ const initial: State = {
 };
 
 const isLang = (v: unknown): v is Lang => typeof v === "string" && (LANGS as readonly string[]).includes(v);
+const isSubLang = (v: unknown): v is SubLang => typeof v === "string" && (SUB_LANGS as readonly string[]).includes(v);
 
 function readLocal(): State {
   try {
@@ -116,7 +117,7 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
     };
     if (isLang(data.ui_lang)) patch.uiLang = data.ui_lang;
     if (isLang(data.audio_lang)) patch.audioLang = data.audio_lang;
-    if (isLang(data.sub_lang)) patch.subLang = data.sub_lang;
+    if (isSubLang(data.sub_lang)) patch.subLang = data.sub_lang;
     else if (data.sub_lang === "off") patch.subLang = "off";
     const { data: unlocked } = await supabase.from("unlocked_episodes").select("episode_id").eq("user_id", userId);
     if (unlocked) patch.unlocked = unlocked.map((row) => row.episode_id);

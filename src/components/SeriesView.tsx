@@ -29,8 +29,9 @@ import { FREE_EPISODES } from "@/lib/data";
 import { ads } from "@/lib/ads";
 import { offline, useOffline } from "@/lib/offline";
 import { BUNDLED_POSTERS } from "@/lib/posters";
+import { episodeHook, episodeThumb } from "@/lib/episodeArt";
 import { useAppState } from "@/lib/store";
-import { useT, LANG_NAMES } from "@/lib/i18n";
+import { useT, LANG_NAMES, SUB_NAMES } from "@/lib/i18n";
 
 /** Bir dizinin afişi, açıklaması, dil durumu ve bölüm listesi. Ana sayfa ve dizi sayfası paylaşır. */
 export function SeriesView({
@@ -89,7 +90,16 @@ export function SeriesView({
     setAdBusy(true);
     const result = await ads.showRewarded();
     setAdBusy(false);
-    if (result === "unavailable") return void toast.error(t("ad_unavailable"));
+    if (result === "unavailable") {
+      // Reklam bulunamadı: kullanıcı takılmasın, bölüm bir kereliğine hediye.
+      const err = await unlockEpisode(locked.id, 0);
+      if (err) return void toast.error(err);
+      toast.success(t("ad_gift", { n: locked.n }));
+      const n = locked.n;
+      setLocked(null);
+      nav({ to: "/izle/$slug/$n", params: { slug: s.slug, n: String(n) } });
+      return;
+    }
     if (result === "dismissed") return void toast.info(t("ad_not_done"));
     const err = await unlockEpisode(locked.id, 0);
     if (err) return void toast.error(err);
@@ -139,7 +149,7 @@ export function SeriesView({
         <div className="absolute inset-0 bg-fade" />
         <div className="absolute inset-x-0 top-0 flex justify-between p-5">
           {home ? (
-            <span className="rounded-full glass px-3 py-1.5 text-xs font-bold uppercase tracking-[0.25em] text-neon">
+            <span className="rounded-full glass px-3 py-1.5 text-xs font-bold uppercase tracking-[0.25em] text-gold">
               AI Multiverse Cinema
             </span>
           ) : (
@@ -152,15 +162,15 @@ export function SeriesView({
       </div>
 
       <div className="relative -mt-20 px-5">
-        <span className="rounded-full bg-accent px-2.5 py-1 text-[10px] font-bold uppercase text-accent-foreground">
+        <span className="rounded-full bg-neon px-2.5 py-1 text-[10px] font-bold uppercase tracking-[0.2em] text-primary-foreground">
           {t(`cat_${s.category}`)}
         </span>
-        <h1 className="mt-3 text-2xl font-bold">{s.title}</h1>
-        <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{tx.description}</p>
+        <h1 className="mt-3 text-[2rem] leading-[1.05] text-epic">{s.title}</h1>
+        <p className="mt-3 text-sm leading-relaxed text-foreground/85">{tx.description}</p>
         {first && (
           <button
             onClick={() => open(first.n, first.id, first.status === "ready" && !!first.video_url)}
-            className="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-full bg-neon py-3 text-sm font-bold text-primary-foreground shadow-neon"
+            className="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-neon py-3.5 text-sm font-extrabold text-primary-foreground shadow-neon"
           >
             <Play className="h-4 w-4 fill-current" /> {t("watch_ep1")}
           </button>
@@ -193,7 +203,7 @@ export function SeriesView({
           {state.subLang !== "off" && (
             <p className="mt-1 flex justify-between">
               <span>
-                {t("subtitles")}: {LANG_NAMES[state.subLang]}
+                {t("subtitles")}: {SUB_NAMES[state.subLang]}
               </span>
               <span className="text-muted-foreground">{st(subSt)}</span>
             </p>
@@ -211,48 +221,57 @@ export function SeriesView({
           )}
           {anyReady && subSt !== "ready" && state.subLang !== "off" && (
             <p className="mt-1 text-xs text-muted-foreground">
-              {t("sub_missing", { lang: LANG_NAMES[state.subLang] })}
+              {t("sub_missing", { lang: SUB_NAMES[state.subLang] })}
             </p>
           )}
         </section>
 
         <h2 className="mt-7 text-sm font-bold">{t("episodes")}</h2>
         <p className="mt-1 text-xs text-muted-foreground">{t("free_ep", { n: FREE_EPISODES })}</p>
-        <ul className="mt-3 space-y-2">
+        <ul className="mt-4 space-y-5">
           {eps.map((e) => {
             const ready = e.status === "ready" && !!e.video_url;
             const unlocked = hasAccess(e.n, e.id);
             const isSaved = !!saved[e.id];
             const title = episodeTitle(e, lang);
+            const thumb = episodeThumb(s.slug, e.n);
+            const hook = episodeHook(s.slug, e.n, lang);
             return (
               <li key={e.id}>
                 <button
                   onClick={() => open(e.n, e.id, ready)}
-                  className="flex w-full items-center gap-4 rounded-2xl bg-card p-4 text-start"
+                  className="relative block aspect-video w-full overflow-hidden rounded-2xl border border-primary/35 bg-card text-start shadow-[0_14px_34px_rgba(0,0,0,0.55)]"
                 >
-                  <span
-                    className={`grid h-10 w-10 place-items-center rounded-full ${unlocked && ready ? "bg-neon text-primary-foreground" : "bg-secondary text-muted-foreground"}`}
-                  >
-                    {ready ? (
-                      unlocked ? (
-                        <Play className="h-4 w-4 fill-current" />
-                      ) : (
-                        <Lock className="h-4 w-4" />
-                      )
-                    ) : (
+                  {thumb ? (
+                    <img src={thumb} alt="" width={480} height={270} loading="lazy" className="absolute inset-0 h-full w-full object-cover" />
+                  ) : (
+                    <span className="absolute inset-0 bg-gradient-to-br from-secondary via-card to-accent/20" />
+                  )}
+                  <span className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-background/95" />
+                  <span className="absolute left-3 top-1 text-5xl text-epic">{String(e.n).padStart(2, "0")}</span>
+                  {ready && !unlocked && (
+                    <span className="absolute right-3 top-3 inline-flex items-center gap-1.5 rounded-full bg-background/70 px-2.5 py-1 text-[11px] font-semibold text-gold">
+                      <Lock className="h-3.5 w-3.5" /> {t("watch_ad")}
+                    </span>
+                  )}
+                  {ready && unlocked && (
+                    <span className="absolute right-3 top-3 grid h-9 w-9 place-items-center rounded-full bg-neon text-primary-foreground shadow-neon">
+                      <Play className="h-4 w-4 fill-current" />
+                    </span>
+                  )}
+                  {!ready && (
+                    <span className="absolute right-3 top-3 grid h-9 w-9 place-items-center rounded-full bg-background/70 text-muted-foreground">
                       <Film className="h-4 w-4" />
-                    )}
-                  </span>
-                  <span className="flex-1">
-                    <span className="block text-sm font-semibold">
-                      {t("episode")} {e.n}
-                      {title ? `: ${title}` : ""}
                     </span>
-                    <span className="text-xs text-muted-foreground">
-                      {e.minutes} {t("min")} · {ready ? t("status_ready") : t("status_draft")}
+                  )}
+                  <span className="absolute inset-x-4 bottom-3">
+                    <span className="block font-display text-xl font-bold leading-tight text-[#FFF4D6] [text-shadow:0_2px_12px_rgba(0,0,0,0.8),0_0_20px_rgba(245,184,65,0.45)]">
+                      {title || `${t("episode")} ${e.n}`}
+                    </span>
+                    <span className="mt-0.5 block text-xs text-foreground/80">
+                      {hook ? `${hook} · ` : ""}{e.minutes} {t("min")}
                     </span>
                   </span>
-                  {!unlocked && ready && <Lock className="h-4 w-4 text-gold" />}
                 </button>
                 {owned && ready && offline.supported() && (
                   <button
@@ -316,7 +335,7 @@ export function SeriesView({
             )}
             <Link
               to="/jeton"
-              className="mt-2 flex w-full items-center justify-center gap-2 rounded-full bg-neon py-3 text-sm font-bold text-primary-foreground shadow-neon"
+              className="mt-2 flex w-full items-center justify-center gap-2 rounded-2xl bg-neon py-3.5 text-sm font-extrabold text-primary-foreground shadow-neon"
             >
               <Crown className="h-4 w-4" /> {t("season_title")}
             </Link>

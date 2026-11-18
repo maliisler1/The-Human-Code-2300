@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useSuspenseQuery } from "@tanstack/react-query";
-import { Clapperboard, Sparkles, UserRound, Orbit } from "lucide-react";
+import { Sparkles, Orbit } from "lucide-react";
 import { AppShell } from "@/components/AppShell";
 import { SeriesView } from "@/components/SeriesView";
 import { episodeListQuery, seriesListQuery, type SeriesRow } from "@/lib/catalog";
@@ -38,16 +38,30 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
+/** Sıradaki diziler (fragmanları yakında). */
+const UPCOMING = [
+  { title: "Rüya Arşivi", month: new Date(2026, 11, 1), bg: "from-indigo-950 via-violet-900 to-fuchsia-900" },
+  { title: "Gezegen Hatası", month: new Date(2027, 0, 1), bg: "from-emerald-950 via-teal-900 to-cyan-900" },
+];
+
+function monthName(d: Date, lang: string) {
+  try {
+    return d.toLocaleDateString(lang, { month: "long", year: "numeric" });
+  } catch {
+    return d.toISOString().slice(0, 7);
+  }
+}
+
 function Index() {
   const { data: all } = useSuspenseQuery(seriesListQuery);
-  const { t } = useT();
+  const { t, lang } = useT();
   const featured = pickFeatured(all);
   if (!featured) return <AppShell><p className="px-5 pt-10 text-sm text-muted-foreground">{t("loading")}</p></AppShell>;
   const others = otherPublished(all, featured);
 
   return (
     <SeriesView id={featured.id} slug={featured.slug} home>
-      <Link to="/kapsul" className="mt-8 flex items-center gap-4 rounded-2xl border border-primary/40 bg-card p-4">
+      <Link to="/kapsul" className="mt-8 flex items-center gap-4 rounded-2xl border border-primary/40 bg-card/80 p-4 shadow-neon">
         <Orbit className="h-9 w-9 shrink-0 text-primary" />
         <div>
           <p className="text-sm font-bold">{t("capsule_cta")}</p>
@@ -56,26 +70,17 @@ function Index() {
       </Link>
 
       <section className="mt-8">
-        <h2 className="text-sm font-bold">{t("extras")}</h2>
+        <h2 className="flex items-center gap-2 text-sm font-bold">
+          <Sparkles className="h-4 w-4 text-gold" /> {t("coming_soon")}
+        </h2>
         <div className="mt-3 grid grid-cols-2 gap-3">
-          <div className="rounded-2xl bg-card p-4">
-            <UserRound className="h-5 w-5 text-primary" />
-            <p className="mt-2 text-sm font-semibold">{t("extra_cast")}</p>
-            <p className="mt-1 text-xs text-muted-foreground">{t("coming_soon")}</p>
-          </div>
-          <div className="rounded-2xl bg-card p-4">
-            <Clapperboard className="h-5 w-5 text-primary" />
-            <p className="mt-2 text-sm font-semibold">{t("extra_bts")}</p>
-            <p className="mt-1 text-xs text-muted-foreground">{t("coming_soon")}</p>
-          </div>
+          {UPCOMING.map((u) => (
+            <div key={u.title} className={`flex aspect-[4/3] flex-col justify-between rounded-2xl border border-primary/30 bg-gradient-to-br p-4 ${u.bg}`}>
+              <p className="font-display text-lg font-bold leading-tight text-[#FFF4D6]">{u.title}</p>
+              <p className="text-xs font-semibold text-foreground/85">{monthName(u.month, lang)}</p>
+            </div>
+          ))}
         </div>
-      </section>
-
-      <section className="mt-6 rounded-2xl border border-dashed p-4">
-        <p className="flex items-center gap-2 text-sm font-bold">
-          <Sparkles className="h-4 w-4 text-gold" /> {t("next_season")}
-        </p>
-        <p className="mt-1 text-xs text-muted-foreground">{t("next_season_note")}</p>
       </section>
 
       {others.length > 0 && (

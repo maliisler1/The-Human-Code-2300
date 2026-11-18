@@ -7,7 +7,7 @@ import { AppShell } from "@/components/AppShell";
 import { episodeListQuery, seriesListQuery, signedUrl, trackStatus, episodeTitle } from "@/lib/catalog";
 import { FREE_EPISODES } from "@/lib/data";
 import { useAppState } from "@/lib/store";
-import { useT, LANG_NAMES, LANGS, type Lang } from "@/lib/i18n";
+import { useT, LANG_NAMES, LANGS, SUB_LANGS, SUB_NAMES, type Lang, type SubLang } from "@/lib/i18n";
 import { supabase } from "@/integrations/supabase/client";
 import { canPlay, hasEpisodeAccess, nextPlayable } from "@/lib/playback";
 import { ads } from "@/lib/ads";
@@ -171,7 +171,7 @@ export function Player() {
             onError={()=>setFailed(true)} onWaiting={()=>setBuffering(true)} onPlaying={()=>setBuffering(false)} onCanPlay={e=>{setBuffering(false);const v=e.currentTarget;if(v&&!mutedFallback.current){void v.play().catch(()=>{mutedFallback.current=true;v.muted=true;void v.play().catch(()=>{});});}}}
             onPlay={syncAudio} onPause={()=>{audio.current?.pause();save();}} onSeeking={syncAudio} onTimeUpdate={syncAudio} onRateChange={syncAudio} onVolumeChange={syncAudio}
             onEnded={()=>{audio.current?.pause();save(true); void ads.atEpisodeEnd(); if(next && autoplay)setCountdown(3);}}
-          >{subSrc && <track kind="subtitles" src={subSrc} srcLang={state.subLang} label={LANG_NAMES[state.subLang as keyof typeof LANG_NAMES]} default/>}</video>
+          >{subSrc && <track kind="subtitles" src={subSrc} srcLang={state.subLang} label={SUB_NAMES[state.subLang as SubLang]} default/>}</video>
           {buffering && <div className="pointer-events-none absolute inset-0 grid place-items-center bg-black/50"><Loader2 className="h-10 w-10 animate-spin text-white"/></div>}
         </> : <div className="grid aspect-video place-items-center"><Loader2 className="h-8 w-8 animate-spin text-white"/></div>}
         {audioSrc && <audio ref={audio} src={audioSrc} preload="auto" onError={()=>{setAudioSrc(null);toast.info(tr("Dublaj yüklenemedi; mevcut ses kullanılacak.","Dubbing unavailable; using original audio."));}}/>}
@@ -187,13 +187,13 @@ export function Player() {
             {LANGS.map(l=><option key={l} value={l}>{LANG_NAMES[l]}</option>)}
           </select></label>
         <label className="block"><span className="text-xs font-semibold text-muted-foreground">{t("sub_lang")}</span>
-          <select aria-label={t("sub_lang")} value={state.subLang} onChange={e=>{const v=e.target.value as Lang|"off";update(s=>({...s,subLang:v}));}} className="mt-1 w-full rounded-2xl border bg-card px-3 py-2 text-sm">
+          <select aria-label={t("sub_lang")} value={state.subLang} onChange={e=>{const v=e.target.value as SubLang|"off";update(s=>({...s,subLang:v}));}} className="mt-1 w-full rounded-2xl border bg-card px-3 py-2 text-sm">
             <option value="off">{t("sub_off")}</option>
-            {LANGS.map(l=><option key={l} value={l}>{LANG_NAMES[l]}</option>)}
+            {SUB_LANGS.map(l=><option key={l} value={l}>{SUB_NAMES[l]}</option>)}
           </select></label>
       </div>
       {trackStatus(ep,"audio",state.audioLang)!=="ready" && <p className="mx-5 mt-3 text-xs text-muted-foreground">{t("dub_missing",{lang:LANG_NAMES[state.audioLang]})}</p>}
-      {state.subLang!=="off" && trackStatus(ep,"subs",state.subLang)!=="ready" && <p className="mx-5 mt-3 text-xs text-muted-foreground">{t("sub_missing",{lang:LANG_NAMES[state.subLang]})}</p>}
+      {state.subLang!=="off" && trackStatus(ep,"subs",state.subLang)!=="ready" && <p className="mx-5 mt-3 text-xs text-muted-foreground">{t("sub_missing",{lang:SUB_NAMES[state.subLang]})}</p>}
       <label className="m-5 flex items-center gap-3 rounded-2xl bg-card p-4 text-sm"><input type="checkbox" checked={autoplay} onChange={e=>{setAutoplay(e.target.checked);localStorage.setItem("amc-autoplay",String(e.target.checked));setCountdown(null);}}/>{t("autoplay")}</label>
       {next && <button onClick={goNext} className="mx-5 rounded-full bg-primary px-5 py-3">{t("episode")} {next.n} · {t("watch_now")}</button>}
       {!next && <p className="m-5 text-sm text-muted-foreground">{tr("Şu anda başka yayımlanmış bölüm yok.","No further published episode is available.")}</p>}

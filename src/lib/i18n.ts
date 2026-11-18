@@ -16,6 +16,25 @@ export const LANG_NAMES: Record<Lang, string> = {
 
 export const RTL: Lang[] = ["ar"];
 
+/** Altyazı dilleri: arayüz dillerinden fazlası (20 dil). */
+export const SUB_LANGS = ["tr", "en", "de", "fr", "es", "pt", "ar", "hi", "zh", "ja", "ko", "ru", "it", "id", "vi", "bn", "ur", "mr", "te", "ta"] as const;
+export type SubLang = (typeof SUB_LANGS)[number];
+export const SUB_NAMES: Record<SubLang, string> = {
+  ...LANG_NAMES,
+  zh: "中文",
+  ja: "日本語",
+  ko: "한국어",
+  ru: "Русский",
+  it: "Italiano",
+  id: "Bahasa Indonesia",
+  vi: "Tiếng Việt",
+  bn: "বাংলা",
+  ur: "اردو",
+  mr: "मराठी",
+  te: "తెలుగు",
+  ta: "தமிழ்",
+};
+
 /** Cihazın tercih ettiği dillerden desteklenen ilkini bulur (ülkeye bakmaz). */
 export function detectDeviceLang(): Lang {
   if (typeof navigator === "undefined") return "en";
@@ -60,7 +79,7 @@ const tr: Dict = {
   season_restored: "Satın alman geri yüklendi.", season_none: "Bu hesapta sezon satın alması bulunamadı.",
   season_error: "Google Play'e ulaşılamadı. Biraz sonra tekrar dene.", season_play_only: "Satın alma, uygulamanın Google Play sürümünde yapılır.",
   nav_season: "Satın Al", locked_title: "Bu bölüm kilitli", watch_ad: "Reklam izle, bu bölümü aç", ad_unlocked: "{n}. bölüm açıldı!",
-  ad_not_done: "Bölümü açmak için reklamı sonuna kadar izlemelisin.", ad_unavailable: "Şu an reklam yok. Biraz sonra tekrar dene.",
+  ad_not_done: "Bölümü açmak için reklamı sonuna kadar izlemelisin.", ad_unavailable: "Şu an reklam yok. Biraz sonra tekrar dene.", ad_gift: "Şu an reklam yok — {n}. bölüm sana hediye!",
   download: "İndir", downloaded: "İndirildi", downloading: "İndiriliyor…", download_done: "{n}. bölüm indirildi, internetsiz izleyebilirsin.",
   download_err: "İndirilemedi. İnternet bağlantını kontrol et.", remove_download: "İndirmeyi sil",
   watch_ep1: "1. Bölümü İzle", watch_season: "Tüm Sezonu İzle", extras: "Ekstralar", extra_cast: "Karakterleri Tanı",
@@ -75,7 +94,7 @@ const en: Dict = {
   season_restored: "Your purchase was restored.", season_none: "No season purchase was found for this account.",
   season_error: "Couldn't reach Google Play. Please try again shortly.", season_play_only: "Purchases are made in the Google Play version of the app.",
   nav_season: "Buy", locked_title: "This episode is locked", watch_ad: "Watch an ad to unlock this episode", ad_unlocked: "Episode {n} unlocked!",
-  ad_not_done: "Watch the ad to the end to unlock the episode.", ad_unavailable: "No ad available right now. Try again shortly.",
+  ad_not_done: "Watch the ad to the end to unlock the episode.", ad_unavailable: "No ad available right now. Try again shortly.", ad_gift: "No ad right now — episode {n} is on us!",
   download: "Download", downloaded: "Downloaded", downloading: "Downloading…", download_done: "Episode {n} downloaded. You can watch it offline.",
   download_err: "Download failed. Check your connection.", remove_download: "Remove download",
   watch_ep1: "Watch Episode 1", watch_season: "Watch the Whole Season", extras: "Extras", extra_cast: "Meet the Characters",

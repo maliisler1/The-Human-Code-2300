@@ -105,7 +105,7 @@ export const episodeListQuery = (seriesId: string, slug: string) =>
   });
 
 /** Bölümde istenen dilde ses/altyazı durumu. Kayıt yoksa "none". */
-export function trackStatus(ep: EpisodeRow, kind: "audio" | "subs", lang: Lang | "off"): TrackStatus {
+export function trackStatus(ep: EpisodeRow, kind: "audio" | "subs", lang: string): TrackStatus {
   if (kind === "subs" && lang === "off") return "ready";
   const row = ep.tracks.find((t) => t.kind === kind && t.lang === lang);
   return row?.status ?? "none";

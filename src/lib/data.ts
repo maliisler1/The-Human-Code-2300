@@ -1,4 +1,4 @@
-import neo from "@/assets/neo-genesis.jpg";
+import neo from "@/assets/hc/elyra-poster.jpg";
 import cyber from "@/assets/cyber-glitch.jpg";
 import hearts from "@/assets/neon-hearts.jpg";
 import type { Lang } from "@/lib/i18n";

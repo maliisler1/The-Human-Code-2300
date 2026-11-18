@@ -5,7 +5,8 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  --font-display: "Unbounded", sans-serif;
+  --font-display: "Fraunces", serif;
+  --font-epic: "Cinzel Decorative", serif;
   --font-sans: "Manrope", sans-serif;
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
@@ -37,29 +38,30 @@
 
 :root {
   --radius: 1rem;
-  --background: oklch(0.99 0.005 270);
-  --foreground: oklch(0.18 0.02 270);
-  --card: oklch(0.97 0.008 270);
-  --card-foreground: oklch(0.18 0.02 270);
-  --popover: oklch(0.98 0.006 270);
-  --popover-foreground: oklch(0.18 0.02 270);
-  --primary: oklch(0.55 0.18 230);
-  --primary-foreground: oklch(0.99 0 0);
-  --secondary: oklch(0.93 0.01 270);
-  --secondary-foreground: oklch(0.25 0.02 270);
-  --muted: oklch(0.95 0.008 270);
-  --muted-foreground: oklch(0.48 0.02 270);
-  --accent: oklch(0.62 0.22 350);
-  --accent-foreground: oklch(0.99 0 0);
-  --gold: oklch(0.75 0.15 80);
-  --destructive: oklch(0.58 0.22 25);
-  --destructive-foreground: oklch(0.99 0 0);
-  --border: oklch(0 0 0 / 10%);
-  --input: oklch(0 0 0 / 12%);
-  --ring: oklch(0.55 0.18 230);
-  --gradient-neon: linear-gradient(120deg, var(--primary), var(--accent));
+  /* B · Sinema Altını: mor gece zemin, altın vurgular */
+  --background: #0B0614;
+  --foreground: #F5F2EA;
+  --card: #170E26;
+  --card-foreground: #F5F2EA;
+  --popover: #1B1130;
+  --popover-foreground: #F5F2EA;
+  --primary: #F5B841;
+  --primary-foreground: #0B0614;
+  --secondary: #24183A;
+  --secondary-foreground: #F5F2EA;
+  --muted: #1D1330;
+  --muted-foreground: #BDB3CF;
+  --accent: #F472B6;
+  --accent-foreground: #0B0614;
+  --gold: #F5B841;
+  --destructive: #F05252;
+  --destructive-foreground: #FFFFFF;
+  --border: rgb(245 184 65 / 18%);
+  --input: rgb(245 184 65 / 24%);
+  --ring: #F5B841;
+  --gradient-neon: linear-gradient(90deg, #F5B841, #F472B6 55%, #8B5CF6);
   --gradient-fade: linear-gradient(to top, var(--background) 5%, transparent 70%);
-  --shadow-neon: 0 10px 40px -10px color-mix(in oklab, var(--accent) 40%, transparent);
+  --shadow-neon: 0 10px 30px -6px rgb(244 114 182 / 35%);
 }
 
 @utility bg-neon { background-image: var(--gradient-neon); }
@@ -78,8 +80,11 @@
 
 @layer base {
   * { border-color: var(--color-border); }
+  html { color-scheme: dark; }
   body {
     background-color: var(--color-background);
+    background-image: radial-gradient(120% 50% at 50% 0%, #2A1747 0%, transparent 70%);
+    background-attachment: fixed;
     color: var(--color-foreground);
     font-family: var(--font-sans);
   }
@@ -91,3 +96,11 @@
 .app-safe-bottom { padding-bottom: var(--safe-area-inset-bottom, env(safe-area-inset-bottom, 0px)); }
 .app-ad-space { padding-bottom: calc(6rem + var(--ad-banner-height, 0px) + var(--safe-area-inset-bottom, env(safe-area-inset-bottom, 0px))); }
 .app-ad-nav { bottom: var(--ad-banner-height, 0px); }
+
+/* Parlayan altın başlık ve bölüm numaraları */
+@utility text-epic {
+  font-family: var(--font-epic);
+  font-weight: 900;
+  color: #FFF4D6;
+  text-shadow: 0 0 16px rgb(245 184 65 / 85%), 0 0 40px rgb(219 39 119 / 50%);
+}

@@ -71,7 +71,7 @@ jobs:
           def call(body):
               q = urllib.request.Request(endpoint, data=json.dumps(body).encode(), headers={'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'}, method='POST')
               with urllib.request.urlopen(q, timeout=60) as resp: return json.load(resp)
-          LANGS = ['tr','en','de','fr','es','pt','ar','hi']
+          LANGS = ['tr','en','zh','hi','es','ar','fr','bn','pt','ru','id','ur','de','ja','mr','te','ta','vi','it','ko']
           ok = 0
           for f in sorted(glob.glob('diziler/the-human-code-2300/assets/altyazi/bolum-*/*.vtt')):
               if os.path.basename(f)[:-4] not in LANGS: continue

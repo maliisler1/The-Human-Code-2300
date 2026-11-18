@@ -1,0 +1,104 @@
+{
+ "tts": [
+  {
+   "out": "gelen/b16/R1.mp3",
+   "voice": "Hasan",
+   "text": "Nyra ekibe katılmıştı, ama herkes ona henüz güvenmiyordu. Sadece Aslı ve Sarcınt yanından ayrılmıyordu."
+  },
+  {
+   "out": "gelen/b16/S1.mp3",
+   "voice": "Gamze - Young",
+   "text": "Sarcınt seni çok sevdi. Ve o, insanları hiç yanlış tanımaz."
+  },
+  {
+   "out": "gelen/b16/N1.mp3",
+   "voice": "Deniz",
+   "text": "Bir kediye mi güveniyorsun?"
+  },
+  {
+   "out": "gelen/b16/S2.mp3",
+   "voice": "Gamze - Young",
+   "text": "Askerî rütbeli bir kediye. Bu farklı."
+  },
+  {
+   "out": "gelen/b16/R2.mp3",
+   "voice": "Hasan",
+   "text": "Nyra ilk kez yüksek sesle güldü. Sonra yüzü ciddileşti."
+  },
+  {
+   "out": "gelen/b16/N2.mp3",
+   "voice": "Deniz",
+   "text": "Gölge'nin planını biliyorum. Kalenin batı kulesinde bir kopya makinesi var. Kapsülleri oraya taşıyacak."
+  },
+  {
+   "out": "gelen/b16/K1.mp3",
+   "voice": "KAEL",
+   "text": "Kristal parçayı o makineye takarsa, uyuyanların yerini kopyalar alır."
+  },
+  {
+   "out": "gelen/b16/R3.mp3",
+   "voice": "Hasan",
+   "text": "Ekip ikiye ayrıldı. Leon ve Anka kapsülleri korumak için salonda kaldı."
+  },
+  {
+   "out": "gelen/b16/L1.mp3",
+   "voice": "Fatih",
+   "text": "Hiçbir kapsül bu salondan çıkmayacak. Söz veriyorum."
+  },
+  {
+   "out": "gelen/b16/R4.mp3",
+   "voice": "Hasan",
+   "text": "Diğerleri Nyra'nın ardından batı kulesine tırmandı."
+  },
+  {
+   "out": "gelen/b16/R5.mp3",
+   "voice": "Hasan",
+   "text": "Kulenin tepesinde dev bir makine uğulduyordu. İçinde yüzlerce boş kapsül vardı."
+  },
+  {
+   "out": "gelen/b16/E1.mp3",
+   "voice": "Polat",
+   "text": "Vay. Bu makine ya çok kötü, ya da çok pahalı bir çamaşır makinesi."
+  },
+  {
+   "out": "gelen/b16/R6.mp3",
+   "voice": "Hasan",
+   "text": "Ama makinenin başında Gölge değil, Sila bekliyordu."
+  },
+  {
+   "out": "gelen/b16/SI1.mp3",
+   "voice": "İrem",
+   "text": "Kızıl savaşçım. Seni ben uyandırdım. Seni ben yarattım. Bana geri dön."
+  },
+  {
+   "out": "gelen/b16/N3.mp3",
+   "voice": "Deniz",
+   "text": "Beni sen uyandırdın, Sila. Ama kalbimi bana Aslı'nın gözleri gösterdi."
+  },
+  {
+   "out": "gelen/b16/R7.mp3",
+   "voice": "Hasan",
+   "text": "Nyra kılıcını kaldırdı ve makinenin kablolarını tek darbede kesti."
+  },
+  {
+   "out": "gelen/b16/R8.mp3",
+   "voice": "Hasan",
+   "text": "Makine kıvılcımlar saçarak söndü. Sila öfkeyle bağırdı."
+  },
+  {
+   "out": "gelen/b16/SI2.mp3",
+   "voice": "İrem",
+   "text": "Bunu ödeyeceksiniz! Hepiniz!"
+  },
+  {
+   "out": "gelen/b16/R9.mp3",
+   "voice": "Hasan",
+   "text": "Sila kırmızı bir ışıkla kayboldu. Ama kristal parça hâlâ Gölge'deydi."
+  },
+  {
+   "out": "gelen/b16/A1.mp3",
+   "voice": "Gozde",
+   "text": "Nyra, artık bizden birisin. Hoş geldin eve."
+  }
+ ]
+}

@@ -46,3 +46,9 @@ Bu dosya, üretim başka bir Claude oturumunda (ör. iş bilgisayarı) devam ett
 
 - Bölüm 8 "İhanet" YAYINDA (17 Kas): assets/out/Bolum8_Ihanet.mp4 (3:13). 38 replik, verify.py kayma 0. Wan 14 dudak (9.240 kredi). Ek ara çekimler X1–X5. Pusula küresi önceki bölümlerdeki gibi dünya görünümlü kalsın (tutarlılık). Ham klipler uretim-ham gelen/b08/c8/.
 - Altyazılar (17 Kas): Bölüm 1–8 × 20 dil hazır → assets/altyazi/bolum-NN/<dil>.vtt (+ sozluk.md: karakter adlarının dillerdeki yazımı). B1–B7 zamanları Whisper'dan (uretim-ham gelen/altyazi/bNN.json, iş akışı altyazi-zaman.yml), B8 edl8.json'dan. Önizleme: claude.ai artifact "Altyazı Önizleme" (360p videolar + subs.json). Uygulamaya altyazı menüsü kod birleştirmede eklenecek. Yeni bölümde: final video → altyazi-zaman → tr düzelt → 19 dile çevir → vtt.py.
+
+## 18 Kas 2026 gece
+- Bölüm 9 "Kızıl Savaşçı" ve Bölüm 10 "Eray'ın Sırrı" yayınlandı, 20 dil altyazı eklendi (assets/altyazi/bolum-09, -10).
+- B11–B13: senaryo + ara çekim listesi hazır (uretim-plan/b11–b13). Sesler BEKLİYOR: ElevenLabs "github-uretim2" anahtarının 5000 kredilik sınırı doldu. Sınır yükseltilince ses_b11/12/13 istekleri gönderilecek.
+- Dikey referans (eray/asli/mira/kedi/nyra/golge .jpg) Minimax'te dikey video üretir; montajda CROP ile 16:9 kesiliyor. ref16_* bulanık kenarlı referans bulanık kenarı videoya taşıyor — kullanma.
+- alx.sh: aynı adla tekrar indirme eski dosyayı tutuyor; yeni çekimi farklı adla (ör. RB02) indirip yerel olarak yeniden adlandır.

@@ -5,7 +5,7 @@ import {
 } from '@capacitor-community/admob';
 
 export const AD_UNITS = {
-  banner: 'ca-app-pub-9404448916585248/5845378885',
+  banner: 'ca-app-pub-9404448916585248/5845370885',
   interstitial: 'ca-app-pub-9404448916585248/6866808514',
   // AdMob "Bölüm Aç Ödüllü" (ödüllü): kilitli bölümü reklam izleyerek açma.
   rewarded: 'ca-app-pub-9404448916585248/2363965458',

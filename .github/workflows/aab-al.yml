@@ -17,9 +17,9 @@ jobs:
         run: |
           RUN=$(head -1 uretim-plan/istek/aab.txt)
           mkdir -p gelen/aab && gh run download "$RUN" -R "${{ github.repository }}" -D /tmp/aab
-          find /tmp/aab -name '*.aab' -exec cp {} gelen/aab/ \;
+          find /tmp/aab -name '*.aab' -type f -exec cp {} gelen/aab/ \;
           ls -la gelen/aab
       - name: Depoya yaz
         run: |
           git config user.name "github-actions"; git config user.email "actions@github.com"
-          git add gelen/aab && git commit -m "AAB alındı" && git push origin HEAD:uretim-ham || echo degisiklik yok
+          git add gelen/aab && git commit -m "AAB alındı" && git pull --rebase origin uretim-ham && git push origin HEAD:uretim-ham || echo degisiklik yok

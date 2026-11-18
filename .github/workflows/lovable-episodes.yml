@@ -2,7 +2,7 @@ name: Bölümleri Lovable uygulamasına aktar
 on:
   push:
     branches: [uretim-assets]
-    paths: ['diziler/*/assets/out/Bolum*.mp4', '.github/workflows/lovable-episodes.yml']
+    paths: ['diziler/*/assets/out/Bolum*.mp4', 'diziler/*/assets/altyazi/**', '.github/workflows/lovable-episodes.yml']
 permissions:
   contents: read
   id-token: write
@@ -58,3 +58,33 @@ jobs:
               print('Bölüm', match[1], 'uygulamada güncellendi')
           PY
 
+      - name: Altyazıları yükle
+        env:
+          APP_ENDPOINT: https://holo-heart-streams.lovable.app/api/public/github-subtitles
+        run: |
+          python3 - <<'PY'
+          import glob, hashlib, json, os, urllib.request, urllib.error
+          endpoint = os.environ['APP_ENDPOINT']
+          oidc_url = os.environ['ACTIONS_ID_TOKEN_REQUEST_URL'] + '&audience=lovable-episode-import'
+          r = urllib.request.Request(oidc_url, headers={'Authorization': 'Bearer ' + os.environ['ACTIONS_ID_TOKEN_REQUEST_TOKEN']})
+          with urllib.request.urlopen(r, timeout=30) as resp: token = json.load(resp)['value']
+          def call(body):
+              q = urllib.request.Request(endpoint, data=json.dumps(body).encode(), headers={'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'}, method='POST')
+              with urllib.request.urlopen(q, timeout=60) as resp: return json.load(resp)
+          LANGS = ['tr','en','de','fr','es','pt','ar','hi']
+          ok = 0
+          for f in sorted(glob.glob('diziler/the-human-code-2300/assets/altyazi/bolum-*/*.vtt')):
+              if os.path.basename(f)[:-4] not in LANGS: continue
+              content = open(f,'rb').read()
+              sha = hashlib.sha1(('blob ' + str(len(content)) + '\0').encode() + content).hexdigest()
+              body = {'file': f, 'sha': sha, 'size': len(content)}
+              try:
+                  p = call({**body, 'action': 'prepare'})
+                  if p.get('skipped'): continue
+                  up = urllib.request.Request(p['signedUrl'], data=content, headers={'Content-Type': 'text/vtt', 'x-upsert': 'true'}, method='PUT')
+                  with urllib.request.urlopen(up, timeout=60) as resp: resp.read()
+                  res = call({**body, 'action': 'complete'}); ok += 1
+              except urllib.error.HTTPError as e:
+                  print('HATA', f, e.code, e.read()[:200])
+          print('yüklenen altyazı:', ok)
+          PY

@@ -15,7 +15,7 @@ jobs:
       - name: Artifact indir
         env: { GH_TOKEN: '${{ github.token }}' }
         run: |
-          RUN=$(head -1 uretim-plan/istek/aab.txt)
+          RUN=$(awk 'NR==1{print $1}' uretim-plan/istek/aab.txt)
           mkdir -p gelen/aab && gh run download "$RUN" -R "${{ github.repository }}" -D /tmp/aab
           find /tmp/aab -name '*.aab' -type f -exec cp {} gelen/aab/ \;
           ls -la gelen/aab

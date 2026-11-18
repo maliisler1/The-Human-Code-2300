@@ -30,11 +30,11 @@ Kurallar: her bölüm ~3 dk · konuşan kimse ekranda o (dudak senkron) · sesle
 5. **Leon** — Leon kurtarılır; ama hafızası silinmiştir. Final: kalenin altında hâlâ uyuyan 18 kapsülün olduğu dev salon.
 6. **Kael** — (YENİ) Yaşlı koruyucu Kael ekibi saklar; 2099'da ne olduğunu anlatır (flashback: ölen Dünya).
 7. **On Sekiz Kapsül** — Kapsülleri uyandırma planı. Mira'nın gücü: dondurma/çözme. Uyuyan 18 kapsülden 1, 2 ve 3 numara açılır (15 kalır).
-8. **İhanet** — Ekipten biri Gölge'ye bilgi sızdırıyor gibi görünür (şüphe Eray'a). Eray kaçar.
-9. **Kızıl Savaşçı** — (YENİ) Nyra ortaya çıkar, Asli'yi esir alır. Büyük aksiyon.
-10. **Eray'ın Sırrı** — Eray aslında Elyra'nın kendisinin yarattığı bir "rehber"; yaratıkları o yüzden dinliyor. Asli kurtarılır. *(İlk 10 bölüm finali — büyük cliffhanger: Gölge, Leon'u kontrol ediyor.)*
-11. **Leon'un Gözleri** — Leon'un içinde Gölge'nin kodu. AyShe onu geri getirmeye çalışır.
-12. **On İki** — Nyra'nın 12. kapsülden olduğu ortaya çıkar; ilk şüphe tohumu.
+8. **İhanet** ✅ — Ekipten biri Gölge'ye bilgi sızdırıyor gibi görünür (şüphe Eray'a). Eray kaçar.
+9. **Kızıl Savaşçı** ✅ — (YENİ) Nyra ortaya çıkar, Asli'yi esir alır. Büyük aksiyon.
+10. **Eray'ın Sırrı** ✅ — Eray aslında Elyra'nın kendisinin yarattığı bir "rehber"; yaratıkları o yüzden dinliyor. Asli kurtarılır. *(İlk 10 bölüm finali — büyük cliffhanger: Gölge, Leon'u kontrol ediyor.)*
+11. **Leon'un Gözleri** — Leon'un içinde Gölge'nin kodu; sinyali farkında olmadan o gönderiyordu. Kael'in kolyesiyle AyShe Leon'un rüyasına girer ve onu geri getirir. Final: Nyra kampa gelir ("Ben dört numarayım").
+12. **Dördüncü Kapsül** — Nyra'nın 4. kapsülden uyandığı ortaya çıkar (12 numara Anka'nın); kristalde kalenin haritası. Final: Sila kolu çeker, Elyra kırılmaya başlar.
 13. **Kırılan Köprüler** — Elyra parçalanmaya başlar; adalar düşüyor. Zamanla yarış.
 14. **Dr. Ekin Var** — (YENİ) Kalenin çekirdeğinde yapay zekâ bilinci: 23'ü o seçti, Gölge'yi o yarattı.
 15. **Kopya ve Asıl** — AyShe kendi DNA'sının sırrını öğrenir: Gölge "başarısız deneme", AyShe "tamamlanmış".

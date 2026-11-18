@@ -31,11 +31,35 @@ export type EpisodeRow = {
   tracks: { kind: "audio" | "subs"; lang: string; status: TrackStatus; url: string | null }[];
 };
 
+const VIDEO_URL_ENDPOINT = "https://holo-heart-streams.lovable.app/api/public/mobile-video-url";
+
+async function mobileVideoUrl(path: string): Promise<string | null> {
+  for (let attempt = 0; attempt < 2; attempt++) {
+    try {
+      const res = await fetch(VIDEO_URL_ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ path }),
+      });
+      if (res.ok) {
+        const body = (await res.json()) as { url?: string };
+        return typeof body.url === "string" ? body.url : null;
+      }
+      if (res.status < 500) return null;
+    } catch {
+      // ağ hatası: bir kez daha dene
+    }
+  }
+  return null;
+}
+
 /** Özel kovalardaki dosyalar için geçici (imzalı) erişim bağlantısı üretir. */
 export async function signedUrl(bucket: "posters" | "videos" | "faces", path: string | null): Promise<string | null> {
   if (!path) return null;
   // Root-relative paths are public assets (bundled platform assets or files in /public).
   if (path.startsWith("/")) return path;
+  // "videos" kovası özeldir; imzalı bağlantıyı ana uygulamanın sunucusu üretir.
+  if (bucket === "videos") return mobileVideoUrl(path);
   const { data, error } = await supabase.storage.from(bucket).createSignedUrl(path, 60 * 60 * 6);
   return error ? null : data.signedUrl;
 }

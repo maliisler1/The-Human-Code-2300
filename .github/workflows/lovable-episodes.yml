@@ -1,5 +1,6 @@
 name: Bölümleri Lovable uygulamasına aktar
 on:
+  workflow_dispatch:
   push:
     branches: [uretim-assets]
     paths: ['diziler/*/assets/out/Bolum*.mp4', 'diziler/*/assets/altyazi/**', 'diziler/*/dizi-metni.json', '.github/workflows/lovable-episodes.yml']

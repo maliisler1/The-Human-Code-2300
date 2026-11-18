@@ -67,10 +67,17 @@ jobs:
           import glob, hashlib, json, os, urllib.request, urllib.error
           endpoint = os.environ['APP_ENDPOINT']
           oidc_url = os.environ['ACTIONS_ID_TOKEN_REQUEST_URL'] + '&audience=lovable-episode-import'
-          r = urllib.request.Request(oidc_url, headers={'Authorization': 'Bearer ' + os.environ['ACTIONS_ID_TOKEN_REQUEST_TOKEN']})
-          with urllib.request.urlopen(r, timeout=30) as resp: token = json.load(resp)['value']
+          import time
+          tok = {'v': None, 't': 0}
+          def token():
+              # GitHub OIDC jetonu kısa ömürlü: 3 dakikada bir yenilenir (uzun yüklemelerde "Import failed" olmasın)
+              if time.time() - tok['t'] > 180:
+                  r = urllib.request.Request(oidc_url, headers={'Authorization': 'Bearer ' + os.environ['ACTIONS_ID_TOKEN_REQUEST_TOKEN']})
+                  with urllib.request.urlopen(r, timeout=30) as resp: tok['v'] = json.load(resp)['value']
+                  tok['t'] = time.time()
+              return tok['v']
           def call(body):
-              q = urllib.request.Request(endpoint, data=json.dumps(body).encode(), headers={'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'}, method='POST')
+              q = urllib.request.Request(endpoint, data=json.dumps(body).encode(), headers={'Authorization': 'Bearer ' + token(), 'Content-Type': 'application/json'}, method='POST')
               with urllib.request.urlopen(q, timeout=60) as resp: return json.load(resp)
           LANGS = ['tr','en','zh','hi','es','ar','fr','bn','pt','ru','id','ur','de','ja','mr','te','ta','vi','it','ko']
           ok = 0

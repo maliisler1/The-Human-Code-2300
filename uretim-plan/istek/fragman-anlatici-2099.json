@@ -1,0 +1,15 @@
+{
+ "tts": [
+  {
+   "out": "gelen/fragman/hc2099_n2b.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Before twenty-three hundred\u2026 there was twenty ninety-nine.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   }
+  }
+ ]
+}

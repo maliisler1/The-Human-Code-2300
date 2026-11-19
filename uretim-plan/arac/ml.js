@@ -16,6 +16,7 @@ window.lipGen=async(imgUrl,audUrl,prompt,sec,name)=>{ await clearRefs(); if(vchi
  const ib=await shrink(await (await fetch(imgUrl)).blob()); const ab=await (await fetch(audUrl)).blob();
  const n=await addFiles([new File([ib],name+'.jpg',{type:'image/jpeg'}),new File([ab],name+'.mp3',{type:'audio/mpeg'})]);
  if(n!=2){ await clearRefs(); return name+' REFS '+n;} setTA(prompt+TAIL); await sleep(500);
- if(!document.body.innerText.includes('Wan 3.0')) return 'MODEL?'; vbtn('Create Video').click(); await sleep(3500); return name+' sent';};
+ if(!document.body.innerText.includes('Wan 3.0')) return 'MODEL?'; const b0=bal(); vbtn('Create Video').click(); for(let i=0;i<10&&bal()==b0;i++) await sleep(1000); return name+(bal()<b0?' sent':' NOCHARGE');};
+window.bal=()=>parseInt(document.body.innerText.slice(0,12).replace(/[^0-9]/g,''));
 window.runList=async(L,logName)=>{ window[logName]=[]; for(const [a,img,p,s] of L){ let r; for(let t=0;t<3;t++){ try{ r=await lipGen(img,RAW+'lip/'+a+'.mp3',p,s,a);}catch(e){r='ERR '+a+e} if(r.includes('sent')) break; await sleep(3000);} window[logName].push(r); await sleep(2000);} window[logName].push('done');};
 'ml.js loaded';

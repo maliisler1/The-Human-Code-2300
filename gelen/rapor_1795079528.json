@@ -1,0 +1,11 @@
+{
+ "tts": [
+  {
+   "out": "gelen/fragman/hc2099_n2b.mp3",
+   "voice": "Brian - Deep, Resonant and Comforting",
+   "model": "eleven_v4",
+   "bytes": 63990
+  }
+ ],
+ "url": []
+}

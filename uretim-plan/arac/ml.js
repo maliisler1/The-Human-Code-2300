@@ -35,3 +35,9 @@ window.frameGen=async(imgUrl,prompt,name)=>{ for(let i=0;i<4;i++){ const r=[...d
  setTA(prompt+STY); await sleep(500); const g0=genCount(); vbtn('Create Video').click(); for(let i=0;i<10&&genCount()==g0;i++) await sleep(1000); return name+(genCount()>g0?' sent':' NOSTART');};
 window.runFrames=async(L,logName)=>{ window[logName]=[]; for(const [n,img,p] of L){ let r; for(let t=0;t<3;t++){ try{ r=await frameGen(img,p,n);}catch(e){r='ERR '+n+e} if(r.includes('sent')) break; await sleep(3000);} window[logName].push(r); await sleep(1500);} window[logName].push('done');};
 'ml.js loaded2';
+window.addFiles=async(files)=>{ const orig=HTMLInputElement.prototype.click; window.__picked=null; HTMLInputElement.prototype.click=function(){ if(this.type=='file'){window.__picked=this; return;} return orig.call(this);};
+ const ab=[...document.querySelectorAll('button')].filter(b=>b.offsetParent).find(b=>/Add references/.test(b.innerText)); ab&&ab.click(); await sleep(600); HTMLInputElement.prototype.click=orig;
+ const inp=window.__picked||vinput(); const dt=new DataTransfer(); files.forEach(f=>dt.items.add(f)); inp.files=dt.files; inp.dispatchEvent(new Event('change',{bubbles:true}));
+ for(let i=0;i<30&&vchips()<files.length;i++) await sleep(1000); return vchips();};
+window.loadList=async(name,skip=0)=>{ let L=await (await fetch(RAW+name+'?'+Date.now())).json(); return L.map(([a,i,p,s])=>[a,i.replace('GF:',GF),p,s]).slice(skip);};
+'ml.js loaded3';

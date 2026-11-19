@@ -46,7 +46,7 @@ export const UPCOMING: Upcoming[] = [
   { key: "kum-saati-adasi", titleEn: "Hourglass Island", video: "kum-saati-adasi_720.mp4", poster: "kum-saati-adasi_poster.jpg", title: "Kum Saati Adası", month: new Date(2027, 10, 1), bg: "from-amber-900 via-orange-800 to-cyan-950",
     hook: { tr: "Zamanın geriye aktığı ada. Orada kimse büyümüyor.", en: "An island where time flows backwards. No one grows up there." } },
   { key: "the-human-code-2099", titleEn: "The Human Code: 2099", video: "the-human-code-2099_720.mp4", poster: "the-human-code-2099_poster.jpg", title: "The Human Code: 2099", month: new Date(2027, 11, 1), bg: "from-fuchsia-950 via-violet-900 to-amber-900",
-    hook: { tr: "Her şeyin başladığı yıl: Doktor Ekin'in hikâyesi.", en: "The year it all began: Doctor Ekin's story." } },
+    hook: { tr: "2300'den önce… 2099 vardı. Her şeyin başladığı yıl.", en: "Before 2300… there was 2099. The year it all began." } },
 ];
 
 export const trailerUrl = (file: string) => BASE + file;

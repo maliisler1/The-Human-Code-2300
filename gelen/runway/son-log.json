@@ -1,0 +1,652 @@
+[
+ {
+  "name": "test_ruya_1",
+  "start": {
+   "id": "4dd74727-eb4c-4535-9c7a-606379c1b3da",
+   "estimatedCost": {
+    "credits": 25
+   }
+  }
+ },
+ {
+  "name": "test_ruya_1",
+  "ok": true
+ },
+ {
+  "org": {
+   "tier": {
+    "maxMonthlyCreditSpend": 200000,
+    "models": {
+     "ruby": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "gemini_2.5_flash": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "veo3.1_fast": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "eleven_text_to_sound_v2": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "bria_fibo_edit_1_5": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "gen4_turbo": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "act_two": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "kling3.0_4k": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "veo3.1": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "gwm1_avatars": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "eleven_voice_isolation": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "gen4_aleph": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "magnific_precision_upscaler_v2": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "klingO3_4k": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "product_ad": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "eleven_voice_dubbing": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "magnific_video_upscaler_creative": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "gen4.5": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "ad_localization": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "product_campaign_image": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "grok_imagine_image_2": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "grok_imagine_1_5_lite": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "nano_banana_2.1": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "seedream5_lite": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "bria_fibo_1_5": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "seedance2_5": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "eleven_multilingual_v2": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "gwm1_avatar_async_text_to_video": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "gen4_image_turbo": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "kling2.5_turbo_pro": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "klingO3_pro": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "marketing_stock_image": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "gemini_omni_flash": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "gemini_image3_pro": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "enhance_frame_rate": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "gpt_image_2_5_flare": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "grok_imagine_1_5": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "product_swap": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "eleven_multilingual_sts_v2": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "voice_processing": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 500
+     },
+     "gpt_image_2_5_sunburst": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "eleven_v3": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "gen3a_turbo": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "seedance2_fast": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "happyhorse_1_0": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "gen4_image": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "klingO3_standard": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "product_ugc": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "gwm1_avatar_async_audio_to_video": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "seedance2_mini": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "muse_image": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "seed_audio": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "veo3": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "kling3.0_standard": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "gpt_image_2": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "hailuo3": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "kling3.0_pro": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "wan3": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "multi_shot_video": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "gemini_image3.1_flash": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "h3_max": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "eleven_v4": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "ideogram_4_0": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "seedance2": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "seedream5_pro": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "aleph2": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "wan3_prime": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "ideogram_4_5": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "gemini_omni_flash_1.1": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "seedream5_flash": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "gemini_image3.1_flash_lite": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "recraft_v4_1_flash": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "mirelo_sfx_2_0": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "recraft_v4_1_vector": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "kling_4": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "eleven_music_v2_5": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "ideogram_vector": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "gpt_image_2_6_sunburst": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "gpt_image_2_6_flare": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "gemini_omni_flash_1.2": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "kling_4_flash": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "seedream5_pro_layers": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "hailuo3_highspeed": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "hailuo3_lite": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     },
+     "gemini_3.8_flash_tts": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "gemini_3.8_flash_lite_tts": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "seedream5.5": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "seedream5.5_layers": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 2000
+     },
+     "seedance2_5_flash": {
+      "maxConcurrentGenerations": 5,
+      "maxDailyGenerations": 1000
+     }
+    }
+   },
+   "creditBalance": 1898,
+   "usage": {
+    "models": {
+     "ruby": {
+      "dailyGenerations": 0
+     },
+     "gemini_2.5_flash": {
+      "dailyGenerations": 0
+     },
+     "veo3.1_fast": {
+      "dailyGenerations": 0
+     },
+     "eleven_text_to_sound_v2": {
+      "dailyGenerations": 0
+     },
+     "bria_fibo_edit_1_5": {
+      "dailyGenerations": 0
+     },
+     "gen4_turbo": {
+      "dailyGenerations": 1
+     },
+     "act_two": {
+      "dailyGenerations": 0
+     },
+     "kling3.0_4k": {
+      "dailyGenerations": 0
+     },
+     "veo3.1": {
+      "dailyGenerations": 0
+     },
+     "gwm1_avatars": {
+      "dailyGenerations": 0
+     },
+     "eleven_voice_isolation": {
+      "dailyGenerations": 0
+     },
+     "gen4_aleph": {
+      "dailyGenerations": 0
+     },
+     "magnific_precision_upscaler_v2": {
+      "dailyGenerations": 0
+     },
+     "klingO3_4k": {
+      "dailyGenerations": 0
+     },
+     "product_ad": {
+      "dailyGenerations": 0
+     },
+     "eleven_voice_dubbing": {
+      "dailyGenerations": 0
+     },
+     "magnific_video_upscaler_creative": {
+      "dailyGenerations": 0
+     },
+     "gen4.5": {
+      "dailyGenerations": 0
+     },
+     "ad_localization": {
+      "dailyGenerations": 0
+     },
+     "product_campaign_image": {
+      "dailyGenerations": 0
+     },
+     "grok_imagine_image_2": {
+      "dailyGenerations": 0
+     },
+     "grok_imagine_1_5_lite": {
+      "dailyGenerations": 0
+     },
+     "nano_banana_2.1": {
+      "dailyGenerations": 0
+     },
+     "seedream5_lite": {
+      "dailyGenerations": 0
+     },
+     "bria_fibo_1_5": {
+      "dailyGenerations": 0
+     },
+     "seedance2_5": {
+      "dailyGenerations": 0
+     },
+     "eleven_multilingual_v2": {
+      "dailyGenerations": 0
+     },
+     "gwm1_avatar_async_text_to_video": {
+      "dailyGenerations": 0
+     },
+     "gen4_image_turbo": {
+      "dailyGenerations": 0
+     },
+     "kling2.5_turbo_pro": {
+      "dailyGenerations": 0
+     },
+     "klingO3_pro": {
+      "dailyGenerations": 0
+     },
+     "marketing_stock_image": {
+      "dailyGenerations": 0
+     },
+     "gemini_omni_flash": {
+      "dailyGenerations": 0
+     },
+     "gemini_image3_pro": {
+      "dailyGenerations": 0
+     },
+     "enhance_frame_rate": {
+      "dailyGenerations": 0
+     },
+     "gpt_image_2_5_flare": {
+      "dailyGenerations": 0
+     },
+     "grok_imagine_1_5": {
+      "dailyGenerations": 0
+     },
+     "product_swap": {
+      "dailyGenerations": 0
+     },
+     "eleven_multilingual_sts_v2": {
+      "dailyGenerations": 0
+     },
+     "voice_processing": {
+      "dailyGenerations": 0
+     },
+     "gpt_image_2_5_sunburst": {
+      "dailyGenerations": 0
+     },
+     "eleven_v3": {
+      "dailyGenerations": 0
+     },
+     "gen3a_turbo": {
+      "dailyGenerations": 0
+     },
+     "seedance2_fast": {
+      "dailyGenerations": 0
+     },
+     "happyhorse_1_0": {
+      "dailyGenerations": 0
+     },
+     "gen4_image": {
+      "dailyGenerations": 0
+     },
+     "klingO3_standard": {
+      "dailyGenerations": 0
+     },
+     "product_ugc": {
+      "dailyGenerations": 0
+     },
+     "gwm1_avatar_async_audio_to_video": {
+      "dailyGenerations": 0
+     },
+     "seedance2_mini": {
+      "dailyGenerations": 0
+     },
+     "muse_image": {
+      "dailyGenerations": 0
+     },
+     "seed_audio": {
+      "dailyGenerations": 0
+     },
+     "veo3": {
+      "dailyGenerations": 0
+     },
+     "kling3.0_standard": {
+      "dailyGenerations": 0
+     },
+     "gpt_image_2": {
+      "dailyGenerations": 0
+     },
+     "hailuo3": {
+      "dailyGenerations": 0
+     },
+     "kling3.0_pro": {
+      "dailyGenerations": 0
+     },
+     "wan3": {
+      "dailyGenerations": 0
+     },
+     "multi_shot_video": {
+      "dailyGenerations": 0
+     },
+     "gemini_image3.1_flash": {
+      "dailyGenerations": 0
+     },
+     "h3_max": {
+      "dailyGenerations": 0
+     },
+     "eleven_v4": {
+      "dailyGenerations": 0
+     },
+     "ideogram_4_0": {
+      "dailyGenerations": 0
+     },
+     "seedance2": {
+      "dailyGenerations": 0
+     },
+     "seedream5_pro": {
+      "dailyGenerations": 0
+     },
+     "aleph2": {
+      "dailyGenerations": 0
+     },
+     "wan3_prime": {
+      "dailyGenerations": 0
+     },
+     "ideogram_4_5": {
+      "dailyGenerations": 0
+     },
+     "gemini_omni_flash_1.1": {
+      "dailyGenerations": 0
+     },
+     "seedream5_flash": {
+      "dailyGenerations": 0
+     },
+     "gemini_image3.1_flash_lite": {
+      "dailyGenerations": 0
+     },
+     "recraft_v4_1_flash": {
+      "dailyGenerations": 0
+     },
+     "mirelo_sfx_2_0": {
+      "dailyGenerations": 0
+     },
+     "recraft_v4_1_vector": {
+      "dailyGenerations": 0
+     },
+     "kling_4": {
+      "dailyGenerations": 0
+     },
+     "eleven_music_v2_5": {
+      "dailyGenerations": 0
+     },
+     "ideogram_vector": {
+      "dailyGenerations": 0
+     },
+     "gpt_image_2_6_sunburst": {
+      "dailyGenerations": 0
+     },
+     "gpt_image_2_6_flare": {
+      "dailyGenerations": 0
+     },
+     "gemini_omni_flash_1.2": {
+      "dailyGenerations": 0
+     },
+     "kling_4_flash": {
+      "dailyGenerations": 0
+     },
+     "seedream5_pro_layers": {
+      "dailyGenerations": 0
+     },
+     "hailuo3_highspeed": {
+      "dailyGenerations": 0
+     },
+     "hailuo3_lite": {
+      "dailyGenerations": 0
+     },
+     "gemini_3.8_flash_tts": {
+      "dailyGenerations": 0
+     },
+     "gemini_3.8_flash_lite_tts": {
+      "dailyGenerations": 0
+     },
+     "seedream5.5": {
+      "dailyGenerations": 0
+     },
+     "seedream5.5_layers": {
+      "dailyGenerations": 0
+     },
+     "seedance2_5_flash": {
+      "dailyGenerations": 0
+     }
+    }
+   }
+  }
+ }
+]

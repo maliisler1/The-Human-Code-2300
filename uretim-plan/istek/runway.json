@@ -1,7 +1,158 @@
 [
  {
-  "name": "test_ruya_1",
+  "name": "ruya_a",
   "image": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/73b8902f-9401-4d25-9cde-afbfee2fc1c0/f508c878-fd94-4287-b3ec-919e29123482/Cinematic_photorealistic_film_still__an_endless_magical_arch.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMTlhMGZkZmQ4OTgwZGNkNCIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE4NzU4MX0.6vWXipPKQdeaMPANQAb7Eez5SkeNlYl8zMCeTgFePQo",
-  "prompt": "Slow cinematic dolly-in toward the girl holding the lantern; silver star dust drifts from the open glowing jar and swirls through the air; dream jars softly pulse with light; gentle volumetric haze; photorealistic live-action film, natural subtle movement."
+  "prompt": "Slow cinematic dolly-in toward the girl holding the lantern; silver star dust drifts from the open glowing jar and swirls around her; dream jars softly pulse with light. Photorealistic live-action film, real human actors, natural subtle movement, cinematic lighting.",
+  "duration": 10
+ },
+ {
+  "name": "ruya_b",
+  "image": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/73b8902f-9401-4d25-9cde-afbfee2fc1c0/f508c878-fd94-4287-b3ec-919e29123482/Cinematic_photorealistic_film_still__an_endless_magical_arch.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMTlhMGZkZmQ4OTgwZGNkNCIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE4NzU4MX0.6vWXipPKQdeaMPANQAb7Eez5SkeNlYl8zMCeTgFePQo",
+  "prompt": "Close-up on the girl's face lit by lantern light, her eyes widen in wonder as glowing star dust floats past; shallow depth of field. Photorealistic live-action film, real human actors, natural subtle movement, cinematic lighting.",
+  "duration": 5
+ },
+ {
+  "name": "gezegen_a",
+  "image": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/46ecb64b-a1a3-4cdf-a04a-0fd9f361ddc2/ed717010-19ce-4b48-b955-4ec030658060/Cinematic_photorealistic_film_still__a_futuristic_coastal_to.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMjE3MWFiNjdmNzYzNTMwOSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIzNTE3NX0.c9RAoGhwSnzHJc_cPypooRjy4GdzvSa9tq8TeZBLT8g",
+  "prompt": "The glowing blue crack in the sky slowly widens and flickers; distant trees and waves dissolve into drifting glowing pixels; the teens stare upward, wind moving their hair; slow push-in. Photorealistic live-action film, real human actors, natural subtle movement, cinematic lighting.",
+  "duration": 10
+ },
+ {
+  "name": "gezegen_b",
+  "image": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/46ecb64b-a1a3-4cdf-a04a-0fd9f361ddc2/ed717010-19ce-4b48-b955-4ec030658060/Cinematic_photorealistic_film_still__a_futuristic_coastal_to.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMjE3MWFiNjdmNzYzNTMwOSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIzNTE3NX0.c9RAoGhwSnzHJc_cPypooRjy4GdzvSa9tq8TeZBLT8g",
+  "prompt": "Low-angle orbit around the two teens on the rooftop as pixels float upward past them; the girl points at the sky. Photorealistic live-action film, real human actors, natural subtle movement, cinematic lighting.",
+  "duration": 5
+ },
+ {
+  "name": "kutuphaneci_a",
+  "image": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/2ed1781b-15bc-460c-8bdf-630e045d5e57/7625dd6f-a7f7-4487-ab41-b11ef41252da/Cinematic_photorealistic_film_still__a_16_year_old_girl_with.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiY2JkMGVhZDBhNzU1Y2I1ZiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIzMjg0OH0.zCFPDKZ_u3NBRY7PHZsrLsjWW1MtwtDQOJ6QN2IGI-Y",
+  "prompt": "Candle flames flicker; the girl slowly opens the glowing book and warm golden light rises onto her face; dust floats in the air; slow push-in. Photorealistic live-action film, real human actors, natural subtle movement, cinematic lighting.",
+  "duration": 10
+ },
+ {
+  "name": "kutuphaneci_b",
+  "image": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/2ed1781b-15bc-460c-8bdf-630e045d5e57/7625dd6f-a7f7-4487-ab41-b11ef41252da/Cinematic_photorealistic_film_still__a_16_year_old_girl_with.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiY2JkMGVhZDBhNzU1Y2I1ZiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIzMjg0OH0.zCFPDKZ_u3NBRY7PHZsrLsjWW1MtwtDQOJ6QN2IGI-Y",
+  "prompt": "Camera slowly pans to the window: the grey silent city with blank billboards outside, then back to the girl hugging the book. Photorealistic live-action film, real human actors, natural subtle movement, cinematic lighting.",
+  "duration": 5
+ },
+ {
+  "name": "sessiz_a",
+  "image": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/2445f901-10ce-4801-b609-fac3829d2d16/1df6d977-5495-4c28-ad75-de9178dc41a9/Cinematic_photorealistic_film_still__an_empty_European_old_t.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNmZjYTZmYWJiOGIyNWVhMiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE4NTgzNX0.N3zUi7mrQuWqpPbHlicLHd_ZQZK4bBtT8Mm1vfG6hCA",
+  "prompt": "Everything stays perfectly frozen: birds in mid-air, fountain water hanging still; only the boy moves, turning his head as a faint glowing whisper of light curls around him; slow dolly-in. Photorealistic live-action film, real human actors, natural subtle movement, cinematic lighting.",
+  "duration": 10
+ },
+ {
+  "name": "sessiz_b",
+  "image": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/2445f901-10ce-4801-b609-fac3829d2d16/1df6d977-5495-4c28-ad75-de9178dc41a9/Cinematic_photorealistic_film_still__an_empty_European_old_t.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNmZjYTZmYWJiOGIyNWVhMiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE4NTgzNX0.N3zUi7mrQuWqpPbHlicLHd_ZQZK4bBtT8Mm1vfG6hCA",
+  "prompt": "Slow orbit around the boy as he walks between frozen birds hanging in the air, the clock tower at midnight behind him. Photorealistic live-action film, real human actors, natural subtle movement, cinematic lighting.",
+  "duration": 5
+ },
+ {
+  "name": "saatci_a",
+  "image": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/c2c05626-4c7e-48ec-a9a9-09124d2b71a5/f7d7585b-92f1-4e17-bcfd-9f1e42b8b386/Cinematic_photorealistic_film_still__inside_a_cozy_antique_c.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiZWQ0M2NiZWNiNDNlNGNiYiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTI0MTcwOH0.FWghEUOFNO2E5wmH0Vbsi8sRRbWeHLXHx7ZE3R8WWw0",
+  "prompt": "The girl lowers her finger and the floating tea droplets and the falling leaf slowly resume moving; hundreds of clock pendulums swing; golden light rays; slow push-in. Photorealistic live-action film, real human actors, natural subtle movement, cinematic lighting.",
+  "duration": 10
+ },
+ {
+  "name": "saatci_b",
+  "image": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/c2c05626-4c7e-48ec-a9a9-09124d2b71a5/f7d7585b-92f1-4e17-bcfd-9f1e42b8b386/Cinematic_photorealistic_film_still__inside_a_cozy_antique_c.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiZWQ0M2NiZWNiNDNlNGNiYiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTI0MTcwOH0.FWghEUOFNO2E5wmH0Vbsi8sRRbWeHLXHx7ZE3R8WWw0",
+  "prompt": "Close-up of brass gears and clock hands suddenly stopping, then the girl's freckled face smiling with wonder. Photorealistic live-action film, real human actors, natural subtle movement, cinematic lighting.",
+  "duration": 5
+ },
+ {
+  "name": "derin_a",
+  "image": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/6562e29e-0d01-4581-8d76-091a671e4926/7512c3a5-f03d-4475-a9ae-4c71d699942f/Cinematic_photorealistic_film_still__a_glass_domed_underwate.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiZjY5OTlkODY3N2JjNWVjOSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIxNzY3MH0.G0PqgTCVbx8wys-pFaxXkaOjqD-bSYW1wLB10sBvYsE",
+  "prompt": "Bioluminescent jellyfish drift slowly past the glass dome; the girl presses her hand on the glass as faint blue light patterns ripple through the dark water like a song; god rays shimmer. Photorealistic live-action film, real human actors, natural subtle movement, cinematic lighting.",
+  "duration": 10
+ },
+ {
+  "name": "derin_b",
+  "image": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/6562e29e-0d01-4581-8d76-091a671e4926/7512c3a5-f03d-4475-a9ae-4c71d699942f/Cinematic_photorealistic_film_still__a_glass_domed_underwate.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiZjY5OTlkODY3N2JjNWVjOSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIxNzY3MH0.G0PqgTCVbx8wys-pFaxXkaOjqD-bSYW1wLB10sBvYsE",
+  "prompt": "Slow pull-back revealing the whole glowing underwater colony on the ocean floor, schools of glowing fish swirling around it. Photorealistic live-action film, real human actors, natural subtle movement, cinematic lighting.",
+  "duration": 5
+ },
+ {
+  "name": "aynalar_a",
+  "image": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/4953c514-8bda-4b9d-bc9f-f6e22d954590/474ce3df-0b6d-4268-b33a-aa5cb72d5108/Cinematic_photorealistic_film_still__inside_a_rustic_village.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiZjhkMjE2MjFmNWFiZjZhZCIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIzNDU5M30.zwx5JcL7BUn0obXEHxIMI5XsqmDKkTkuzAEXRJ7O4nk",
+  "prompt": "The girl stands still while her reflection in the old mirror smiles and slowly waves at her; candle flames flicker; slow push-in toward the mirror. Photorealistic live-action film, real human actors, natural subtle movement, cinematic lighting.",
+  "duration": 10
+ },
+ {
+  "name": "aynalar_b",
+  "image": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/4953c514-8bda-4b9d-bc9f-f6e22d954590/474ce3df-0b6d-4268-b33a-aa5cb72d5108/Cinematic_photorealistic_film_still__inside_a_rustic_village.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiZjhkMjE2MjFmNWFiZjZhZCIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIzNDU5M30.zwx5JcL7BUn0obXEHxIMI5XsqmDKkTkuzAEXRJ7O4nk",
+  "prompt": "Close-up of the girl's surprised face as she slowly raises her hand toward the mirror; soft twilight light. Photorealistic live-action film, real human actors, natural subtle movement, cinematic lighting.",
+  "duration": 5
+ },
+ {
+  "name": "tren_a",
+  "image": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/64f302e0-953b-4e75-8d7a-ea26d1242207/235a430b-44f2-4c2d-8513-46a3a320f3bb/Cinematic_photorealistic_film_still__a_misty_old_railway_sta.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiYzQwOTg5OGEwZWFkOThlNiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE4OTc3MH0.MYFU_KRMFVAMpQhRnlL_KXYsEhP8CUEmFRjw98pIMDI",
+  "prompt": "The vintage steam locomotive slowly rolls out of the glowing fog into the station, steam billowing, golden carriage windows passing by; the boy watches in amazement. Photorealistic live-action film, real human actors, natural subtle movement, cinematic lighting.",
+  "duration": 10
+ },
+ {
+  "name": "tren_b",
+  "image": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/64f302e0-953b-4e75-8d7a-ea26d1242207/235a430b-44f2-4c2d-8513-46a3a320f3bb/Cinematic_photorealistic_film_still__a_misty_old_railway_sta.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiYzQwOTg5OGEwZWFkOThlNiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE4OTc3MH0.MYFU_KRMFVAMpQhRnlL_KXYsEhP8CUEmFRjw98pIMDI",
+  "prompt": "Close-up of the boy on the platform as warm golden light from passing carriage windows sweeps across his face; steam drifts. Photorealistic live-action film, real human actors, natural subtle movement, cinematic lighting.",
+  "duration": 5
+ },
+ {
+  "name": "yildiz_a",
+  "image": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/65a3cfc2-8e81-46db-8c95-4fc4713e5ae6/2ca5dc9a-8258-43db-9551-d77ace5ce617/Cinematic_photorealistic_film_still__a_10_year_old_girl_with.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiYzIwZGVjZTdkNjkwOGZjNCIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE4NjkxOX0.VcoIgNJU-RU4pZ6eW_-vOczkakabvbo6fGnNah7yOy0",
+  "prompt": "The tiny star-shaped marks on the girl's arm glow brighter and faint light lines connect them; above her the Milky Way slowly rotates; gentle wind in the grass; slow push-in. Photorealistic live-action film, real human actors, natural subtle movement, cinematic lighting.",
+  "duration": 10
+ },
+ {
+  "name": "yildiz_b",
+  "image": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/65a3cfc2-8e81-46db-8c95-4fc4713e5ae6/2ca5dc9a-8258-43db-9551-d77ace5ce617/Cinematic_photorealistic_film_still__a_10_year_old_girl_with.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiYzIwZGVjZTdkNjkwOGZjNCIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE4NjkxOX0.VcoIgNJU-RU4pZ6eW_-vOczkakabvbo6fGnNah7yOy0",
+  "prompt": "Slow crane shot rising from the girl on the hill up into the breathtaking starry sky, a shooting star crosses. Photorealistic live-action film, real human actors, natural subtle movement, cinematic lighting.",
+  "duration": 5
+ },
+ {
+  "name": "hafiza_a",
+  "image": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/f15d78de-eef9-4c8d-9c94-ea2d222cff57/6fbc185c-183a-4728-a1ab-741b5e1106dd/Cinematic_photorealistic_film_still__a_magical_covered_bazaa.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNzE1YzY2NDgzMDk0Y2MxMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE3NjkwNH0.uSBjjp0qRiMKf2xZvFwS0Ynpy68oybOuIhHqn4UB9xg",
+  "prompt": "Inside the glass bottle the boy's childhood memory scene moves softly; lanterns sway; the smiling merchant leans forward; slow push-in on the boy's shocked face. Photorealistic live-action film, real human actors, natural subtle movement, cinematic lighting.",
+  "duration": 10
+ },
+ {
+  "name": "hafiza_b",
+  "image": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/f15d78de-eef9-4c8d-9c94-ea2d222cff57/6fbc185c-183a-4728-a1ab-741b5e1106dd/Cinematic_photorealistic_film_still__a_magical_covered_bazaa.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNzE1YzY2NDgzMDk0Y2MxMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE3NjkwNH0.uSBjjp0qRiMKf2xZvFwS0Ynpy68oybOuIhHqn4UB9xg",
+  "prompt": "Slow tracking shot along the bazaar stalls, hundreds of glowing memory bottles flickering with tiny moving scenes. Photorealistic live-action film, real human actors, natural subtle movement, cinematic lighting.",
+  "duration": 5
+ },
+ {
+  "name": "fener_a",
+  "image": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/7837d15a-0dc3-4402-8524-12998f9f723d/6c17a56c-1a95-4617-bd87-1fcf1df1c94c/Cinematic_photorealistic_film_still__a_lonely_lighthouse_on_.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzMwYjAwNzIyZDlkOTg5YSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE4MTQyNn0.u3ZUZCN01N6WaSTK1fM8zfcJOydzWG_k8kLERFVdNUo",
+  "prompt": "The lighthouse beam slowly sweeps through the sea fog revealing the old sailing ship and the futuristic ship side by side on the waves; the keeper and the girl watch from the balcony. Photorealistic live-action film, real human actors, natural subtle movement, cinematic lighting.",
+  "duration": 10
+ },
+ {
+  "name": "fener_b",
+  "image": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/7837d15a-0dc3-4402-8524-12998f9f723d/6c17a56c-1a95-4617-bd87-1fcf1df1c94c/Cinematic_photorealistic_film_still__a_lonely_lighthouse_on_.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzMwYjAwNzIyZDlkOTg5YSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE4MTQyNn0.u3ZUZCN01N6WaSTK1fM8zfcJOydzWG_k8kLERFVdNUo",
+  "prompt": "Close-up of the girl raising her lantern on the lighthouse balcony, wind blowing her hair, the beam passing overhead. Photorealistic live-action film, real human actors, natural subtle movement, cinematic lighting.",
+  "duration": 5
+ },
+ {
+  "name": "kumsaati_a",
+  "image": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/fb02cfd9-0a39-4cfd-86b3-81ad6b8bf62b/6fa1fe87-c19a-4585-a05b-4ff6245539ce/Cinematic_photorealistic_film_still__a_tropical_island_beach.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiYTI0MTBjYzA4NjYyOTU5NSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE4NjQ5Nn0.rQOARwPiqO3WENsPak_qODqMZpUUnqBx_8gjWDP3J-U",
+  "prompt": "Golden sand flows slowly upward into the sky like a reversed hourglass; the girl lifts the cracked hourglass; behind her the children stay frozen mid-play; palm leaves sway. Photorealistic live-action film, real human actors, natural subtle movement, cinematic lighting.",
+  "duration": 10
+ },
+ {
+  "name": "kumsaati_b",
+  "image": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/fb02cfd9-0a39-4cfd-86b3-81ad6b8bf62b/6fa1fe87-c19a-4585-a05b-4ff6245539ce/Cinematic_photorealistic_film_still__a_tropical_island_beach.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiYTI0MTBjYzA4NjYyOTU5NSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE4NjQ5Nn0.rQOARwPiqO3WENsPak_qODqMZpUUnqBx_8gjWDP3J-U",
+  "prompt": "Close-up of the cracked antique hourglass in her hands, the sand inside flowing upward, sunlight sparkling. Photorealistic live-action film, real human actors, natural subtle movement, cinematic lighting.",
+  "duration": 5
+ },
+ {
+  "name": "hc2099_a",
+  "image": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/61414ddf-7e35-4872-8786-05e8213184f8/63c369df-28ff-4bdd-b98b-10c1100a36ed/Cinematic_photorealistic_film_still__year_2099__a_dim_high_t.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiOWVhYjE2MTI4OWEwOGE4ZiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE2MTIzNH0.lXEvn1UAxI3gootJaMyJZ6GsTVOHhsRv1jsadtq7RDA",
+  "prompt": "The scientist slowly presses her palm on capsule 23, its glow brightening; cool mist drifts from the cryogenic capsules; a soft camera push-in on her determined face. Photorealistic live-action film, real human actors, natural subtle movement, cinematic lighting.",
+  "duration": 10
+ },
+ {
+  "name": "hc2099_b",
+  "image": "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/61414ddf-7e35-4872-8786-05e8213184f8/63c369df-28ff-4bdd-b98b-10c1100a36ed/Cinematic_photorealistic_film_still__year_2099__a_dim_high_t.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiOWVhYjE2MTI4OWEwOGE4ZiIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE2MTIzNH0.lXEvn1UAxI3gootJaMyJZ6GsTVOHhsRv1jsadtq7RDA",
+  "prompt": "Slow lateral tracking shot along the row of 23 glowing capsules in the dark lab, the orange-hazed city skyline outside the window. Photorealistic live-action film, real human actors, natural subtle movement, cinematic lighting.",
+  "duration": 5
  }
 ]

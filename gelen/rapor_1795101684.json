@@ -1,0 +1,89 @@
+{
+ "tts": [
+  {
+   "out": "gelen/ruya/b05/s01_0_NARRATOR.mp3",
+   "voice": "Brian - Deep, Resonant and Comforting",
+   "model": "eleven_v4",
+   "bytes": 90740
+  },
+  {
+   "out": "gelen/ruya/b05/s03_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 62318
+  },
+  {
+   "out": "gelen/ruya/b05/s05_0_ELIAS.mp3",
+   "voice": "Bill - Wise, Mature, Balanced",
+   "model": "eleven_v4",
+   "bytes": 72767
+  },
+  {
+   "out": "gelen/ruya/b05/s08_0_THEO.mp3",
+   "voice": "Liam - Energetic, Social Media Creator",
+   "model": "eleven_v4",
+   "bytes": 46018
+  },
+  {
+   "out": "gelen/ruya/b05/s09_0_ELIAS.mp3",
+   "voice": "Bill - Wise, Mature, Balanced",
+   "model": "eleven_v4",
+   "bytes": 104950
+  },
+  {
+   "out": "gelen/ruya/b05/s12_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 72767
+  },
+  {
+   "out": "gelen/ruya/b05/s14_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 111220
+  },
+  {
+   "out": "gelen/ruya/b05/s15_0_THEO.mp3",
+   "voice": "Liam - Energetic, Social Media Creator",
+   "model": "eleven_v4",
+   "bytes": 63990
+  },
+  {
+   "out": "gelen/ruya/b05/s16_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 89486
+  },
+  {
+   "out": "gelen/ruya/b05/s17_0_ELIAS.mp3",
+   "voice": "Bill - Wise, Mature, Balanced",
+   "model": "eleven_v4",
+   "bytes": 98263
+  },
+  {
+   "out": "gelen/ruya/b05/s19_0_SHADOW.mp3",
+   "voice": "Callum - Husky Trickster",
+   "model": "eleven_v4",
+   "bytes": 86978
+  },
+  {
+   "out": "gelen/ruya/b05/s20_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 67752
+  },
+  {
+   "out": "gelen/ruya/b05/s23_0_THEO.mp3",
+   "voice": "Liam - Energetic, Social Media Creator",
+   "model": "eleven_v4",
+   "bytes": 53541
+  },
+  {
+   "out": "gelen/ruya/b05/s24_0_NARRATOR.mp3",
+   "voice": "Brian - Deep, Resonant and Comforting",
+   "model": "eleven_v4",
+   "bytes": 94501
+  }
+ ],
+ "url": []
+}

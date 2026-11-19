@@ -57,8 +57,8 @@ if items_tts:
     print("model", model, "sesler", vmap, "karakter", sum(len(x["text"]) for x in items_tts))
     for x in items_tts:
         vid, vname = vmap[x["voice"]]
-        body = {"text": x["text"], "model_id": model, "language_code": "tr",
-                "voice_settings": {"stability": 0.5, "similarity_boost": 0.75}}
+        body = {"text": x["text"], "model_id": model, "language_code": x.get("lang", "tr"),
+                "voice_settings": x.get("vs", {"stability": 0.5, "similarity_boost": 0.75})}
         for attempt in range(3):
             try:
                 audio = req(f"/v1/text-to-speech/{vid}?output_format=mp3_44100_128", body, raw=True)

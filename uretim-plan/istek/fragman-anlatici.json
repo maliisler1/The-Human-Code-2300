@@ -1,0 +1,290 @@
+{
+ "tts": [
+  {
+   "out": "gelen/fragman/ruya_n1.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Every dream you have ever had… was kept.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   }
+  },
+  {
+   "out": "gelen/fragman/ruya_n2.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Tonight, one of them escaped.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   }
+  },
+  {
+   "out": "gelen/fragman/gezegen_n1.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "The sky is cracking.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   }
+  },
+  {
+   "out": "gelen/fragman/gezegen_n2.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "And the world is starting to forget itself.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   }
+  },
+  {
+   "out": "gelen/fragman/kutuphaneci_n1.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "They erased every word from the world.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   }
+  },
+  {
+   "out": "gelen/fragman/kutuphaneci_n2.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Except one book.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   }
+  },
+  {
+   "out": "gelen/fragman/sessiz_n1.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "At midnight, the whole city stops.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   }
+  },
+  {
+   "out": "gelen/fragman/sessiz_n2.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Only he can hear what's left.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   }
+  },
+  {
+   "out": "gelen/fragman/saatci_n1.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "She can stop time with a single finger.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   }
+  },
+  {
+   "out": "gelen/fragman/saatci_n2.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "But someone wants to stop her.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   }
+  },
+  {
+   "out": "gelen/fragman/derin_n1.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Down where the light ends…",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   }
+  },
+  {
+   "out": "gelen/fragman/derin_n2.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "…something is singing.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   }
+  },
+  {
+   "out": "gelen/fragman/aynalar_n1.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "In this village, every mirror has a secret.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   }
+  },
+  {
+   "out": "gelen/fragman/aynalar_n2.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Tonight, hers smiled back.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   }
+  },
+  {
+   "out": "gelen/fragman/tren_n1.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "A train vanished one hundred years ago.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   }
+  },
+  {
+   "out": "gelen/fragman/tren_n2.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Tonight, it came back.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   }
+  },
+  {
+   "out": "gelen/fragman/yildiz_n1.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "She was born with a map of the stars.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   }
+  },
+  {
+   "out": "gelen/fragman/yildiz_n2.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Now the stars are calling her home.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   }
+  },
+  {
+   "out": "gelen/fragman/hafiza_n1.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "In this market, memories are for sale.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   }
+  },
+  {
+   "out": "gelen/fragman/hafiza_n2.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "And one of them is his.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   }
+  },
+  {
+   "out": "gelen/fragman/fener_n1.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "For a hundred years, this light guided ships home.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   }
+  },
+  {
+   "out": "gelen/fragman/fener_n2.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Tonight, it called ships from other times.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   }
+  },
+  {
+   "out": "gelen/fragman/kumsaati_n1.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "On this island, time flows backwards.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   }
+  },
+  {
+   "out": "gelen/fragman/kumsaati_n2.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "And the hourglass is breaking.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   }
+  },
+  {
+   "out": "gelen/fragman/hc2099_n1.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Twenty-three sleepers. One last chance.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   }
+  },
+  {
+   "out": "gelen/fragman/hc2099_n2.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Before The Human Code… there was 2099.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.35
+   }
+  }
+ ]
+}

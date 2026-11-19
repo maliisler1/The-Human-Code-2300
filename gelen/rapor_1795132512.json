@@ -1,0 +1,563 @@
+{
+ "tts": [
+  {
+   "out": "gelen/thc/t01/s02_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 94501
+  },
+  {
+   "out": "gelen/thc/t01/s04_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 86978
+  },
+  {
+   "out": "gelen/thc/t01/s08_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 72767
+  },
+  {
+   "out": "gelen/thc/t01/s09_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 57303
+  },
+  {
+   "out": "gelen/thc/t01/s13_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 67752
+  },
+  {
+   "out": "gelen/thc/t01/s16_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 70260
+  },
+  {
+   "out": "gelen/thc/t01/s19_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 80291
+  },
+  {
+   "out": "gelen/thc/t01/s23_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 74021
+  },
+  {
+   "out": "gelen/thc/t01/s28_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 81545
+  },
+  {
+   "out": "gelen/thc/t01/s31_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 65244
+  },
+  {
+   "out": "gelen/thc/t02/s02_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 71514
+  },
+  {
+   "out": "gelen/thc/t02/s03_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 56049
+  },
+  {
+   "out": "gelen/thc/t02/s07_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 74021
+  },
+  {
+   "out": "gelen/thc/t02/s10_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 65244
+  },
+  {
+   "out": "gelen/thc/t02/s18_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 57303
+  },
+  {
+   "out": "gelen/thc/t02/s20_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 75275
+  },
+  {
+   "out": "gelen/thc/t02/s23_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 46018
+  },
+  {
+   "out": "gelen/thc/t02/s27_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 77783
+  },
+  {
+   "out": "gelen/thc/t02/s31_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 81545
+  },
+  {
+   "out": "gelen/thc/t03/s02_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 59811
+  },
+  {
+   "out": "gelen/thc/t03/s03_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 61065
+  },
+  {
+   "out": "gelen/thc/t03/s09_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 48526
+  },
+  {
+   "out": "gelen/thc/t03/s10_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 43510
+  },
+  {
+   "out": "gelen/thc/t03/s14_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 44764
+  },
+  {
+   "out": "gelen/thc/t03/s21_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 48526
+  },
+  {
+   "out": "gelen/thc/t03/s25_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 70260
+  },
+  {
+   "out": "gelen/thc/t03/s29_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 57303
+  },
+  {
+   "out": "gelen/thc/t03/s30_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 43510
+  },
+  {
+   "out": "gelen/thc/t04/s03_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 72767
+  },
+  {
+   "out": "gelen/thc/t04/s04_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 76529
+  },
+  {
+   "out": "gelen/thc/t04/s06_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 77783
+  },
+  {
+   "out": "gelen/thc/t04/s09_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 61065
+  },
+  {
+   "out": "gelen/thc/t04/s12_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 81545
+  },
+  {
+   "out": "gelen/thc/t04/s15_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 49780
+  },
+  {
+   "out": "gelen/thc/t04/s19_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 59811
+  },
+  {
+   "out": "gelen/thc/t04/s21_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 33061
+  },
+  {
+   "out": "gelen/thc/t04/s27_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 72767
+  },
+  {
+   "out": "gelen/thc/t04/s28_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 80291
+  },
+  {
+   "out": "gelen/thc/t05/s02_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 57303
+  },
+  {
+   "out": "gelen/thc/t05/s05_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 70260
+  },
+  {
+   "out": "gelen/thc/t05/s06_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 51034
+  },
+  {
+   "out": "gelen/thc/t05/s11_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 66498
+  },
+  {
+   "out": "gelen/thc/t05/s14_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 52287
+  },
+  {
+   "out": "gelen/thc/t05/s22_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 28046
+  },
+  {
+   "out": "gelen/thc/t05/s23_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 38077
+  },
+  {
+   "out": "gelen/thc/t05/s30_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 54795
+  },
+  {
+   "out": "gelen/thc/t05/s32_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 63990
+  },
+  {
+   "out": "gelen/thc/t06/s02_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 75275
+  },
+  {
+   "out": "gelen/thc/t06/s03_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 75275
+  },
+  {
+   "out": "gelen/thc/t06/s06_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 72767
+  },
+  {
+   "out": "gelen/thc/t06/s09_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 56049
+  },
+  {
+   "out": "gelen/thc/t06/s13_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 66498
+  },
+  {
+   "out": "gelen/thc/t06/s19_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 69006
+  },
+  {
+   "out": "gelen/thc/t06/s21_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 66498
+  },
+  {
+   "out": "gelen/thc/t06/s27_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 39331
+  },
+  {
+   "out": "gelen/thc/t06/s30_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 61065
+  },
+  {
+   "out": "gelen/thc/t07/s02_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 54795
+  },
+  {
+   "out": "gelen/thc/t07/s04_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 69006
+  },
+  {
+   "out": "gelen/thc/t07/s05_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 62318
+  },
+  {
+   "out": "gelen/thc/t07/s09_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 69006
+  },
+  {
+   "out": "gelen/thc/t07/s12_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 63990
+  },
+  {
+   "out": "gelen/thc/t07/s18_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 59811
+  },
+  {
+   "out": "gelen/thc/t07/s20_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 52287
+  },
+  {
+   "out": "gelen/thc/t07/s28_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 63990
+  },
+  {
+   "out": "gelen/thc/t07/s30_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 66498
+  },
+  {
+   "out": "gelen/thc/t08/s02_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 62318
+  },
+  {
+   "out": "gelen/thc/t08/s03_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 76529
+  },
+  {
+   "out": "gelen/thc/t08/s06_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 46018
+  },
+  {
+   "out": "gelen/thc/t08/s07_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 53541
+  },
+  {
+   "out": "gelen/thc/t08/s10_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 74021
+  },
+  {
+   "out": "gelen/thc/t08/s15_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 54795
+  },
+  {
+   "out": "gelen/thc/t08/s18_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 71514
+  },
+  {
+   "out": "gelen/thc/t08/s20_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 72767
+  },
+  {
+   "out": "gelen/thc/t08/s25_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 59811
+  },
+  {
+   "out": "gelen/thc/t09/s03_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 67752
+  },
+  {
+   "out": "gelen/thc/t09/s04_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 82798
+  },
+  {
+   "out": "gelen/thc/t09/s05_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 71514
+  },
+  {
+   "out": "gelen/thc/t09/s10_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 40585
+  },
+  {
+   "out": "gelen/thc/t09/s17_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 52287
+  },
+  {
+   "out": "gelen/thc/t09/s19_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 48526
+  },
+  {
+   "out": "gelen/thc/t09/s21_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 69006
+  },
+  {
+   "out": "gelen/thc/t09/s24_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 74021
+  },
+  {
+   "out": "gelen/thc/t09/s28_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 51034
+  },
+  {
+   "out": "gelen/thc/t10/s03_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 46018
+  },
+  {
+   "out": "gelen/thc/t10/s05_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 61065
+  },
+  {
+   "out": "gelen/thc/t10/s06_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 51034
+  },
+  {
+   "out": "gelen/thc/t10/s09_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 74021
+  },
+  {
+   "out": "gelen/thc/t10/s13_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 48526
+  },
+  {
+   "out": "gelen/thc/t10/s15_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 48526
+  },
+  {
+   "out": "gelen/thc/t10/s18_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 40585
+  },
+  {
+   "out": "gelen/thc/t10/s20_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 58557
+  },
+  {
+   "out": "gelen/thc/t10/s23_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 71514
+  },
+  {
+   "out": "gelen/thc/t10/s30_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 69006
+  }
+ ],
+ "url": []
+}

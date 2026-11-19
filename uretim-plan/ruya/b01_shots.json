@@ -1,0 +1,185 @@
+[
+ {
+  "id": "s01",
+  "refs": [],
+  "prompt": "Night aerial shot over a quiet old European city covered in soft fog, warm window lights, a glowing old library with a copper dome at the center, slow drone push-in. Photorealistic live-action family fantasy film, real human actors, natural human body movement and subtle facial expressions, realistic skin and hair, cinematic lighting, 35mm film look, shallow depth of field, smooth slow camera movement. Characters do not talk, mouths closed. No text, no subtitles, no music."
+ },
+ {
+  "id": "s02",
+  "refs": [
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/37017cd8-9271-4c55-b265-feea04856731/7748874f-f501-4f97-a104-2f2871f7a74a/Photorealistic_character_reference_portrait_of_the_same_girl.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzUwZmY5ZDRjMmE2MjdhMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE5MzA0NH0.PxjYEsTHZNhZfYzJL9_ACemHUEKfuOF7Qbn_-_E_dOY"
+  ],
+  "prompt": "Small cozy bedroom at night, the 14-year-old girl from Image 1 (same face, dark curly hair) lies awake with eyes wide open in bed staring at the ceiling, moonlight through the window, a brass lantern on the nightstand glowing faintly. Photorealistic live-action family fantasy film, real human actors, natural human body movement and subtle facial expressions, realistic skin and hair, cinematic lighting, 35mm film look, shallow depth of field, smooth slow camera movement. Characters do not talk, mouths closed. No text, no subtitles, no music."
+ },
+ {
+  "id": "s03",
+  "refs": [
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/37017cd8-9271-4c55-b265-feea04856731/7748874f-f501-4f97-a104-2f2871f7a74a/Photorealistic_character_reference_portrait_of_the_same_girl.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzUwZmY5ZDRjMmE2MjdhMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE5MzA0NH0.PxjYEsTHZNhZfYzJL9_ACemHUEKfuOF7Qbn_-_E_dOY",
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/88f8d828-9edb-4dd5-b00c-e258cc39cdfc/4248eb56-c213-4fca-b26f-5a365c2b3e0e/Photorealistic_character_reference_portrait__the_mother_of_t.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMGM0Yzc4NTkzZmU4OWNhMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIzNDEzN30.WKhkjdB5YgVR-MQHNwu2Bb-mod38cEx2k5WDDdxhSqw"
+  ],
+  "prompt": "Bedroom doorway, the mother from Image 2 (same face, nurse scrubs, beige coat) in nurse scrubs and a coat leans in gently, the 14-year-old girl from Image 1 (same face, dark curly hair) sits up in bed, warm hallway light. Photorealistic live-action family fantasy film, real human actors, natural human body movement and subtle facial expressions, realistic skin and hair, cinematic lighting, 35mm film look, shallow depth of field, smooth slow camera movement. Characters do not talk, mouths closed. No text, no subtitles, no music."
+ },
+ {
+  "id": "s04",
+  "refs": [
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/37017cd8-9271-4c55-b265-feea04856731/7748874f-f501-4f97-a104-2f2871f7a74a/Photorealistic_character_reference_portrait_of_the_same_girl.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzUwZmY5ZDRjMmE2MjdhMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE5MzA0NH0.PxjYEsTHZNhZfYzJL9_ACemHUEKfuOF7Qbn_-_E_dOY"
+  ],
+  "prompt": "Close-up of the brass lantern on the nightstand, its flame turns silver and flickers by itself, the 14-year-old girl from Image 1 (same face, dark curly hair)'s surprised face reflected in the glass. Photorealistic live-action family fantasy film, real human actors, natural human body movement and subtle facial expressions, realistic skin and hair, cinematic lighting, 35mm film look, shallow depth of field, smooth slow camera movement. Characters do not talk, mouths closed. No text, no subtitles, no music."
+ },
+ {
+  "id": "s05",
+  "refs": [
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/37017cd8-9271-4c55-b265-feea04856731/7748874f-f501-4f97-a104-2f2871f7a74a/Photorealistic_character_reference_portrait_of_the_same_girl.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzUwZmY5ZDRjMmE2MjdhMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE5MzA0NH0.PxjYEsTHZNhZfYzJL9_ACemHUEKfuOF7Qbn_-_E_dOY"
+  ],
+  "prompt": "the 14-year-old girl from Image 1 (same face, dark curly hair) in her navy wool coat over pajamas holds the glowing lantern and walks down a dark stone street at night, the silver flame pulls forward like a compass. Photorealistic live-action family fantasy film, real human actors, natural human body movement and subtle facial expressions, realistic skin and hair, cinematic lighting, 35mm film look, shallow depth of field, smooth slow camera movement. Characters do not talk, mouths closed. No text, no subtitles, no music."
+ },
+ {
+  "id": "s06",
+  "refs": [
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/37017cd8-9271-4c55-b265-feea04856731/7748874f-f501-4f97-a104-2f2871f7a74a/Photorealistic_character_reference_portrait_of_the_same_girl.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzUwZmY5ZDRjMmE2MjdhMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE5MzA0NH0.PxjYEsTHZNhZfYzJL9_ACemHUEKfuOF7Qbn_-_E_dOY"
+  ],
+  "prompt": "Grand old library entrance at night, huge wooden doors slowly open by themselves, warm golden light spills out, the 14-year-old girl from Image 1 (same face, dark curly hair) steps inside amazed. Photorealistic live-action family fantasy film, real human actors, natural human body movement and subtle facial expressions, realistic skin and hair, cinematic lighting, 35mm film look, shallow depth of field, smooth slow camera movement. Characters do not talk, mouths closed. No text, no subtitles, no music."
+ },
+ {
+  "id": "s07",
+  "refs": [
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/37017cd8-9271-4c55-b265-feea04856731/7748874f-f501-4f97-a104-2f2871f7a74a/Photorealistic_character_reference_portrait_of_the_same_girl.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzUwZmY5ZDRjMmE2MjdhMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE5MzA0NH0.PxjYEsTHZNhZfYzJL9_ACemHUEKfuOF7Qbn_-_E_dOY"
+  ],
+  "prompt": "Inside the dark library, the 14-year-old girl from Image 1 (same face, dark curly hair) finds a hidden spiral staircase behind a moving bookshelf leading down into warm amber light. Photorealistic live-action family fantasy film, real human actors, natural human body movement and subtle facial expressions, realistic skin and hair, cinematic lighting, 35mm film look, shallow depth of field, smooth slow camera movement. Characters do not talk, mouths closed. No text, no subtitles, no music."
+ },
+ {
+  "id": "s08",
+  "refs": [
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/37017cd8-9271-4c55-b265-feea04856731/7748874f-f501-4f97-a104-2f2871f7a74a/Photorealistic_character_reference_portrait_of_the_same_girl.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzUwZmY5ZDRjMmE2MjdhMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE5MzA0NH0.PxjYEsTHZNhZfYzJL9_ACemHUEKfuOF7Qbn_-_E_dOY"
+  ],
+  "prompt": "Reveal shot: an endless underground archive with towering wooden shelves holding thousands of glowing glass jars, each with swirling colored light, the 14-year-old girl from Image 1 (same face, dark curly hair) tiny in the foreground with her lantern. Photorealistic live-action family fantasy film, real human actors, natural human body movement and subtle facial expressions, realistic skin and hair, cinematic lighting, 35mm film look, shallow depth of field, smooth slow camera movement. Characters do not talk, mouths closed. No text, no subtitles, no music."
+ },
+ {
+  "id": "s09",
+  "refs": [
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/37017cd8-9271-4c55-b265-feea04856731/7748874f-f501-4f97-a104-2f2871f7a74a/Photorealistic_character_reference_portrait_of_the_same_girl.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzUwZmY5ZDRjMmE2MjdhMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE5MzA0NH0.PxjYEsTHZNhZfYzJL9_ACemHUEKfuOF7Qbn_-_E_dOY"
+  ],
+  "prompt": "Close-up of glass jars with handwritten labels and tiny moving scenes inside: a flying whale, a birthday party, a snowy forest, the 14-year-old girl from Image 1 (same face, dark curly hair) leans close reading a label. Photorealistic live-action family fantasy film, real human actors, natural human body movement and subtle facial expressions, realistic skin and hair, cinematic lighting, 35mm film look, shallow depth of field, smooth slow camera movement. Characters do not talk, mouths closed. No text, no subtitles, no music."
+ },
+ {
+  "id": "s10",
+  "refs": [
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/37017cd8-9271-4c55-b265-feea04856731/7748874f-f501-4f97-a104-2f2871f7a74a/Photorealistic_character_reference_portrait_of_the_same_girl.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzUwZmY5ZDRjMmE2MjdhMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE5MzA0NH0.PxjYEsTHZNhZfYzJL9_ACemHUEKfuOF7Qbn_-_E_dOY"
+  ],
+  "prompt": "the 14-year-old girl from Image 1 (same face, dark curly hair) walks between the shelves, jars glow brighter as she passes like they recognize her, soft violet haze. Photorealistic live-action family fantasy film, real human actors, natural human body movement and subtle facial expressions, realistic skin and hair, cinematic lighting, 35mm film look, shallow depth of field, smooth slow camera movement. Characters do not talk, mouths closed. No text, no subtitles, no music."
+ },
+ {
+  "id": "s11",
+  "refs": [
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/37017cd8-9271-4c55-b265-feea04856731/7748874f-f501-4f97-a104-2f2871f7a74a/Photorealistic_character_reference_portrait_of_the_same_girl.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzUwZmY5ZDRjMmE2MjdhMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE5MzA0NH0.PxjYEsTHZNhZfYzJL9_ACemHUEKfuOF7Qbn_-_E_dOY"
+  ],
+  "prompt": "One jar on a high shelf rattles and shakes, its lid slowly unscrewing by itself, the 14-year-old girl from Image 1 (same face, dark curly hair) looks up worried. Photorealistic live-action family fantasy film, real human actors, natural human body movement and subtle facial expressions, realistic skin and hair, cinematic lighting, 35mm film look, shallow depth of field, smooth slow camera movement. Characters do not talk, mouths closed. No text, no subtitles, no music."
+ },
+ {
+  "id": "s12",
+  "refs": [
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/37017cd8-9271-4c55-b265-feea04856731/7748874f-f501-4f97-a104-2f2871f7a74a/Photorealistic_character_reference_portrait_of_the_same_girl.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzUwZmY5ZDRjMmE2MjdhMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE5MzA0NH0.PxjYEsTHZNhZfYzJL9_ACemHUEKfuOF7Qbn_-_E_dOY"
+  ],
+  "prompt": "The jar lid pops open and a ribbon of silver star dust light bursts out and swirls around the 14-year-old girl from Image 1 (same face, dark curly hair) in a spiral, her hair lifting, wonder on her face. Photorealistic live-action family fantasy film, real human actors, natural human body movement and subtle facial expressions, realistic skin and hair, cinematic lighting, 35mm film look, shallow depth of field, smooth slow camera movement. Characters do not talk, mouths closed. No text, no subtitles, no music."
+ },
+ {
+  "id": "s13",
+  "refs": [
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/37017cd8-9271-4c55-b265-feea04856731/7748874f-f501-4f97-a104-2f2871f7a74a/Photorealistic_character_reference_portrait_of_the_same_girl.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzUwZmY5ZDRjMmE2MjdhMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE5MzA0NH0.PxjYEsTHZNhZfYzJL9_ACemHUEKfuOF7Qbn_-_E_dOY"
+  ],
+  "prompt": "The silver light ribbon flies away fast through the archive, knocking over a few books, the 14-year-old girl from Image 1 (same face, dark curly hair) chases it with her lantern. Photorealistic live-action family fantasy film, real human actors, natural human body movement and subtle facial expressions, realistic skin and hair, cinematic lighting, 35mm film look, shallow depth of field, smooth slow camera movement. Characters do not talk, mouths closed. No text, no subtitles, no music."
+ },
+ {
+  "id": "s14",
+  "refs": [
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/2880560c-7ae9-4e4d-b0b2-2e462ed9c971/ddf28806-3608-4548-a311-4ded1cff6b33/Photorealistic_character_reference_portrait__kind_old_archiv.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNTAzOTg0ZjgyYzQ0ZTA5MSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIyNjg3Mn0.0kYmCpDpqdty3VSoCXMabNqFkLSQKATdWlcDnnx9sV8"
+  ],
+  "prompt": "From the shadows steps the old archivist from Image 1 (same face, long silver hair and beard, round glasses, green velvet robe), an old archivist with long silver hair and beard, dark green velvet robe, round glasses, holding a candle, calm but serious. Photorealistic live-action family fantasy film, real human actors, natural human body movement and subtle facial expressions, realistic skin and hair, cinematic lighting, 35mm film look, shallow depth of field, smooth slow camera movement. Characters do not talk, mouths closed. No text, no subtitles, no music."
+ },
+ {
+  "id": "s15",
+  "refs": [
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/37017cd8-9271-4c55-b265-feea04856731/7748874f-f501-4f97-a104-2f2871f7a74a/Photorealistic_character_reference_portrait_of_the_same_girl.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzUwZmY5ZDRjMmE2MjdhMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE5MzA0NH0.PxjYEsTHZNhZfYzJL9_ACemHUEKfuOF7Qbn_-_E_dOY",
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/2880560c-7ae9-4e4d-b0b2-2e462ed9c971/ddf28806-3608-4548-a311-4ded1cff6b33/Photorealistic_character_reference_portrait__kind_old_archiv.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNTAzOTg0ZjgyYzQ0ZTA5MSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIyNjg3Mn0.0kYmCpDpqdty3VSoCXMabNqFkLSQKATdWlcDnnx9sV8"
+  ],
+  "prompt": "the 14-year-old girl from Image 1 (same face, dark curly hair) spins around startled, facing the old archivist from Image 2 (same face, long silver hair and beard, round glasses, green velvet robe) among the glowing shelves, two-shot. Photorealistic live-action family fantasy film, real human actors, natural human body movement and subtle facial expressions, realistic skin and hair, cinematic lighting, 35mm film look, shallow depth of field, smooth slow camera movement. Characters do not talk, mouths closed. No text, no subtitles, no music."
+ },
+ {
+  "id": "s16",
+  "refs": [
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/2880560c-7ae9-4e4d-b0b2-2e462ed9c971/ddf28806-3608-4548-a311-4ded1cff6b33/Photorealistic_character_reference_portrait__kind_old_archiv.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNTAzOTg0ZjgyYzQ0ZTA5MSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIyNjg3Mn0.0kYmCpDpqdty3VSoCXMabNqFkLSQKATdWlcDnnx9sV8"
+  ],
+  "prompt": "Close-up of the old archivist from Image 1 (same face, long silver hair and beard, round glasses, green velvet robe) smiling kindly, candlelight on his face, jars glowing behind him. Photorealistic live-action family fantasy film, real human actors, natural human body movement and subtle facial expressions, realistic skin and hair, cinematic lighting, 35mm film look, shallow depth of field, smooth slow camera movement. Characters do not talk, mouths closed. No text, no subtitles, no music."
+ },
+ {
+  "id": "s17",
+  "refs": [
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/37017cd8-9271-4c55-b265-feea04856731/7748874f-f501-4f97-a104-2f2871f7a74a/Photorealistic_character_reference_portrait_of_the_same_girl.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzUwZmY5ZDRjMmE2MjdhMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE5MzA0NH0.PxjYEsTHZNhZfYzJL9_ACemHUEKfuOF7Qbn_-_E_dOY",
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/2880560c-7ae9-4e4d-b0b2-2e462ed9c971/ddf28806-3608-4548-a311-4ded1cff6b33/Photorealistic_character_reference_portrait__kind_old_archiv.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNTAzOTg0ZjgyYzQ0ZTA5MSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIyNjg3Mn0.0kYmCpDpqdty3VSoCXMabNqFkLSQKATdWlcDnnx9sV8"
+  ],
+  "prompt": "the old archivist from Image 2 (same face, long silver hair and beard, round glasses, green velvet robe) picks up the empty open jar and shows it to the 14-year-old girl from Image 1 (same face, dark curly hair), the label is blank and faintly glowing. Photorealistic live-action family fantasy film, real human actors, natural human body movement and subtle facial expressions, realistic skin and hair, cinematic lighting, 35mm film look, shallow depth of field, smooth slow camera movement. Characters do not talk, mouths closed. No text, no subtitles, no music."
+ },
+ {
+  "id": "s18",
+  "refs": [
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/2880560c-7ae9-4e4d-b0b2-2e462ed9c971/ddf28806-3608-4548-a311-4ded1cff6b33/Photorealistic_character_reference_portrait__kind_old_archiv.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiNTAzOTg0ZjgyYzQ0ZTA5MSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIyNjg3Mn0.0kYmCpDpqdty3VSoCXMabNqFkLSQKATdWlcDnnx9sV8"
+  ],
+  "prompt": "the old archivist from Image 1 (same face, long silver hair and beard, round glasses, green velvet robe) walks MIRA past a giant old clock made of glass jars and gears inside the archive, its hands glowing. Photorealistic live-action family fantasy film, real human actors, natural human body movement and subtle facial expressions, realistic skin and hair, cinematic lighting, 35mm film look, shallow depth of field, smooth slow camera movement. Characters do not talk, mouths closed. No text, no subtitles, no music."
+ },
+ {
+  "id": "s19",
+  "refs": [
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/37017cd8-9271-4c55-b265-feea04856731/7748874f-f501-4f97-a104-2f2871f7a74a/Photorealistic_character_reference_portrait_of_the_same_girl.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzUwZmY5ZDRjMmE2MjdhMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE5MzA0NH0.PxjYEsTHZNhZfYzJL9_ACemHUEKfuOF7Qbn_-_E_dOY"
+  ],
+  "prompt": "Close-up of the 14-year-old girl from Image 1 (same face, dark curly hair)'s face, determined, lantern light flickering silver. Photorealistic live-action family fantasy film, real human actors, natural human body movement and subtle facial expressions, realistic skin and hair, cinematic lighting, 35mm film look, shallow depth of field, smooth slow camera movement. Characters do not talk, mouths closed. No text, no subtitles, no music."
+ },
+ {
+  "id": "s20",
+  "refs": [
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/37017cd8-9271-4c55-b265-feea04856731/7748874f-f501-4f97-a104-2f2871f7a74a/Photorealistic_character_reference_portrait_of_the_same_girl.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzUwZmY5ZDRjMmE2MjdhMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE5MzA0NH0.PxjYEsTHZNhZfYzJL9_ACemHUEKfuOF7Qbn_-_E_dOY"
+  ],
+  "prompt": "Early morning, the 14-year-old girl from Image 1 (same face, dark curly hair) climbs out of the library basement window into pale blue dawn, tired but excited, lantern in hand. Photorealistic live-action family fantasy film, real human actors, natural human body movement and subtle facial expressions, realistic skin and hair, cinematic lighting, 35mm film look, shallow depth of field, smooth slow camera movement. Characters do not talk, mouths closed. No text, no subtitles, no music."
+ },
+ {
+  "id": "s21",
+  "refs": [
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/37017cd8-9271-4c55-b265-feea04856731/7748874f-f501-4f97-a104-2f2871f7a74a/Photorealistic_character_reference_portrait_of_the_same_girl.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzUwZmY5ZDRjMmE2MjdhMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE5MzA0NH0.PxjYEsTHZNhZfYzJL9_ACemHUEKfuOF7Qbn_-_E_dOY",
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/195578b9-663c-41c2-9952-305def5c758f/a077070e-7159-43d9-b9e2-3b903b982c1c/Photorealistic_character_reference_portrait__14_year_old_boy.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiYTE3Nzk2MDhmMzlhMjM1ZSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIwMjU2OH0.IN5ZRVigDoIpGuF1r075Jv-FuhBdcuswLEX4-nH6vs0"
+  ],
+  "prompt": "School courtyard morning, the red-haired freckled boy from Image 2 (same face, yellow raincoat) a boy with red hair and freckles in a yellow raincoat runs up to the 14-year-old girl from Image 1 (same face, dark curly hair) holding two cups of hot cocoa. Photorealistic live-action family fantasy film, real human actors, natural human body movement and subtle facial expressions, realistic skin and hair, cinematic lighting, 35mm film look, shallow depth of field, smooth slow camera movement. Characters do not talk, mouths closed. No text, no subtitles, no music."
+ },
+ {
+  "id": "s22",
+  "refs": [
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/37017cd8-9271-4c55-b265-feea04856731/7748874f-f501-4f97-a104-2f2871f7a74a/Photorealistic_character_reference_portrait_of_the_same_girl.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzUwZmY5ZDRjMmE2MjdhMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE5MzA0NH0.PxjYEsTHZNhZfYzJL9_ACemHUEKfuOF7Qbn_-_E_dOY",
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/195578b9-663c-41c2-9952-305def5c758f/a077070e-7159-43d9-b9e2-3b903b982c1c/Photorealistic_character_reference_portrait__14_year_old_boy.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiYTE3Nzk2MDhmMzlhMjM1ZSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIwMjU2OH0.IN5ZRVigDoIpGuF1r075Jv-FuhBdcuswLEX4-nH6vs0"
+  ],
+  "prompt": "Suddenly soft snow starts falling only over the school courtyard under a sunny blue sky, students look up amazed, the 14-year-old girl from Image 1 (same face, dark curly hair) and the red-haired freckled boy from Image 2 (same face, yellow raincoat) stare. Photorealistic live-action family fantasy film, real human actors, natural human body movement and subtle facial expressions, realistic skin and hair, cinematic lighting, 35mm film look, shallow depth of field, smooth slow camera movement. Characters do not talk, mouths closed. No text, no subtitles, no music."
+ },
+ {
+  "id": "s23",
+  "refs": [
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/37017cd8-9271-4c55-b265-feea04856731/7748874f-f501-4f97-a104-2f2871f7a74a/Photorealistic_character_reference_portrait_of_the_same_girl.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzUwZmY5ZDRjMmE2MjdhMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE5MzA0NH0.PxjYEsTHZNhZfYzJL9_ACemHUEKfuOF7Qbn_-_E_dOY"
+  ],
+  "prompt": "Among the falling snowflakes a thin silver light ribbon glitters and dances above the crowd, only the 14-year-old girl from Image 1 (same face, dark curly hair) notices it. Photorealistic live-action family fantasy film, real human actors, natural human body movement and subtle facial expressions, realistic skin and hair, cinematic lighting, 35mm film look, shallow depth of field, smooth slow camera movement. Characters do not talk, mouths closed. No text, no subtitles, no music."
+ },
+ {
+  "id": "s24",
+  "refs": [
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/195578b9-663c-41c2-9952-305def5c758f/a077070e-7159-43d9-b9e2-3b903b982c1c/Photorealistic_character_reference_portrait__14_year_old_boy.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiYTE3Nzk2MDhmMzlhMjM1ZSIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTIwMjU2OH0.IN5ZRVigDoIpGuF1r075Jv-FuhBdcuswLEX4-nH6vs0"
+  ],
+  "prompt": "Close-up of the red-haired freckled boy from Image 1 (same face, yellow raincoat) blinking, he sees the silver ribbon too, jaw dropping. Photorealistic live-action family fantasy film, real human actors, natural human body movement and subtle facial expressions, realistic skin and hair, cinematic lighting, 35mm film look, shallow depth of field, smooth slow camera movement. Characters do not talk, mouths closed. No text, no subtitles, no music."
+ },
+ {
+  "id": "s25",
+  "refs": [],
+  "prompt": "On a rooftop above the courtyard stands a tall silent figure made of shadow wearing a long coat and a wide-brimmed hat, watching, mysterious not scary. Photorealistic live-action family fantasy film, real human actors, natural human body movement and subtle facial expressions, realistic skin and hair, cinematic lighting, 35mm film look, shallow depth of field, smooth slow camera movement. Characters do not talk, mouths closed. No text, no subtitles, no music."
+ },
+ {
+  "id": "s26",
+  "refs": [
+   "https://dnznrvs05pmza.cloudfront.net/gemini/gemini-nano-banana-2.1/images/37017cd8-9271-4c55-b265-feea04856731/7748874f-f501-4f97-a104-2f2871f7a74a/Photorealistic_character_reference_portrait_of_the_same_girl.png?_jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXlIYXNoIjoiMzUwZmY5ZDRjMmE2MjdhMyIsImJ1Y2tldCI6InJ1bndheS10YXNrLWFydGlmYWN0cyIsInN0YWdlIjoicHJvZCIsImV4cCI6MTc5NTE5MzA0NH0.PxjYEsTHZNhZfYzJL9_ACemHUEKfuOF7Qbn_-_E_dOY"
+  ],
+  "prompt": "the 14-year-old girl from Image 1 (same face, dark curly hair) looks up toward the rooftop, but the shadow figure is gone, only snowflakes swirl, her lantern flame turns silver again. Photorealistic live-action family fantasy film, real human actors, natural human body movement and subtle facial expressions, realistic skin and hair, cinematic lighting, 35mm film look, shallow depth of field, smooth slow camera movement. Characters do not talk, mouths closed. No text, no subtitles, no music."
+ }
+]

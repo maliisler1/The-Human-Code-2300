@@ -1,15 +1,340 @@
 [
  {
-  "name": "test_ruya_1",
+  "name": "ruya_a",
   "start": {
-   "id": "4dd74727-eb4c-4535-9c7a-606379c1b3da",
+   "id": "3d99c867-f0a0-4dfa-beab-0c9a0384093c",
+   "estimatedCost": {
+    "credits": 50
+   }
+  }
+ },
+ {
+  "name": "ruya_b",
+  "start": {
+   "id": "d7bb96ad-a817-43a0-ab50-04bfc7b10706",
    "estimatedCost": {
     "credits": 25
    }
   }
  },
  {
-  "name": "test_ruya_1",
+  "name": "gezegen_a",
+  "start": {
+   "id": "4fb074b8-661f-4343-ade2-f2180a0d970c",
+   "estimatedCost": {
+    "credits": 50
+   }
+  }
+ },
+ {
+  "name": "gezegen_b",
+  "start": {
+   "id": "617c780e-a7b8-4592-9c20-202bc23407b7",
+   "estimatedCost": {
+    "credits": 25
+   }
+  }
+ },
+ {
+  "name": "kutuphaneci_a",
+  "start": {
+   "id": "a4762d94-56e1-4e4f-a2ff-a701437ffa89",
+   "estimatedCost": {
+    "credits": 50
+   }
+  }
+ },
+ {
+  "name": "kutuphaneci_b",
+  "start": {
+   "id": "597fd809-a942-4391-9683-864e08541b13",
+   "estimatedCost": {
+    "credits": 25
+   }
+  }
+ },
+ {
+  "name": "sessiz_a",
+  "start": {
+   "id": "c4e937ac-9d23-4284-a739-c79dbbd20e50",
+   "estimatedCost": {
+    "credits": 50
+   }
+  }
+ },
+ {
+  "name": "sessiz_b",
+  "start": {
+   "id": "0e8b608d-1e25-4bb5-9767-136ac84b27cc",
+   "estimatedCost": {
+    "credits": 25
+   }
+  }
+ },
+ {
+  "name": "saatci_a",
+  "start": {
+   "id": "061cf002-e36f-48c4-b44e-a14bc85eba88",
+   "estimatedCost": {
+    "credits": 50
+   }
+  }
+ },
+ {
+  "name": "saatci_b",
+  "start": {
+   "id": "34865bdb-a8ef-4e95-8e67-cb72e3b8a46c",
+   "estimatedCost": {
+    "credits": 25
+   }
+  }
+ },
+ {
+  "name": "derin_a",
+  "start": {
+   "id": "a49c60cb-294b-4dcd-a394-1dd5f4ec13eb",
+   "estimatedCost": {
+    "credits": 50
+   }
+  }
+ },
+ {
+  "name": "derin_b",
+  "start": {
+   "id": "a779b42a-9a8a-4c33-be90-27816922be73",
+   "estimatedCost": {
+    "credits": 25
+   }
+  }
+ },
+ {
+  "name": "aynalar_a",
+  "start": {
+   "id": "83ecc657-bd3c-421d-89f3-83ede8ca245a",
+   "estimatedCost": {
+    "credits": 50
+   }
+  }
+ },
+ {
+  "name": "aynalar_b",
+  "start": {
+   "id": "83792909-0a4d-4085-b08b-245c040b3b87",
+   "estimatedCost": {
+    "credits": 25
+   }
+  }
+ },
+ {
+  "name": "tren_a",
+  "start": {
+   "id": "b05578fb-6854-43b4-b8e8-d8c2ffbf781c",
+   "estimatedCost": {
+    "credits": 50
+   }
+  }
+ },
+ {
+  "name": "tren_b",
+  "start": {
+   "id": "ebeb85bb-627f-45e4-ad4d-78833ff3bbf0",
+   "estimatedCost": {
+    "credits": 25
+   }
+  }
+ },
+ {
+  "name": "yildiz_a",
+  "start": {
+   "id": "2fe931ce-5528-44de-b3e0-cec6dd91559e",
+   "estimatedCost": {
+    "credits": 50
+   }
+  }
+ },
+ {
+  "name": "yildiz_b",
+  "start": {
+   "id": "e4997f4d-20b9-4700-b213-4d0833cf87cd",
+   "estimatedCost": {
+    "credits": 25
+   }
+  }
+ },
+ {
+  "name": "hafiza_a",
+  "start": {
+   "id": "f568a4cd-8bb6-49a5-96e8-5a2df51a8368",
+   "estimatedCost": {
+    "credits": 50
+   }
+  }
+ },
+ {
+  "name": "hafiza_b",
+  "start": {
+   "id": "76220269-8d7c-4cab-9484-9a4725135588",
+   "estimatedCost": {
+    "credits": 25
+   }
+  }
+ },
+ {
+  "name": "fener_a",
+  "start": {
+   "id": "4eab4056-6e3c-43e0-a3f0-eedc5c49dfde",
+   "estimatedCost": {
+    "credits": 50
+   }
+  }
+ },
+ {
+  "name": "fener_b",
+  "start": {
+   "id": "13a99bc7-d866-4a86-913e-b3be1f79d56d",
+   "estimatedCost": {
+    "credits": 25
+   }
+  }
+ },
+ {
+  "name": "kumsaati_a",
+  "start": {
+   "id": "93996574-c925-41e7-999d-532412ed267b",
+   "estimatedCost": {
+    "credits": 50
+   }
+  }
+ },
+ {
+  "name": "kumsaati_b",
+  "start": {
+   "id": "44014a91-8157-4894-a7aa-f32256330f5f",
+   "estimatedCost": {
+    "credits": 25
+   }
+  }
+ },
+ {
+  "name": "hc2099_a",
+  "start": {
+   "id": "56524483-d9f1-4088-a0a6-569ab18788f6",
+   "estimatedCost": {
+    "credits": 50
+   }
+  }
+ },
+ {
+  "name": "hc2099_b",
+  "start": {
+   "id": "0158ba46-458c-4886-9fa0-4d3caa6edf17",
+   "estimatedCost": {
+    "credits": 25
+   }
+  }
+ },
+ {
+  "name": "ruya_a",
+  "ok": true
+ },
+ {
+  "name": "ruya_b",
+  "ok": true
+ },
+ {
+  "name": "gezegen_a",
+  "ok": true
+ },
+ {
+  "name": "gezegen_b",
+  "ok": true
+ },
+ {
+  "name": "kutuphaneci_a",
+  "ok": true
+ },
+ {
+  "name": "kutuphaneci_b",
+  "ok": true
+ },
+ {
+  "name": "sessiz_a",
+  "ok": true
+ },
+ {
+  "name": "sessiz_b",
+  "ok": true
+ },
+ {
+  "name": "saatci_b",
+  "ok": true
+ },
+ {
+  "name": "saatci_a",
+  "ok": true
+ },
+ {
+  "name": "derin_a",
+  "ok": true
+ },
+ {
+  "name": "derin_b",
+  "ok": true
+ },
+ {
+  "name": "aynalar_b",
+  "ok": true
+ },
+ {
+  "name": "aynalar_a",
+  "ok": true
+ },
+ {
+  "name": "tren_a",
+  "ok": true
+ },
+ {
+  "name": "tren_b",
+  "ok": true
+ },
+ {
+  "name": "yildiz_a",
+  "ok": true
+ },
+ {
+  "name": "yildiz_b",
+  "ok": true
+ },
+ {
+  "name": "hafiza_a",
+  "ok": true
+ },
+ {
+  "name": "hafiza_b",
+  "ok": true
+ },
+ {
+  "name": "fener_a",
+  "ok": true
+ },
+ {
+  "name": "fener_b",
+  "ok": true
+ },
+ {
+  "name": "kumsaati_b",
+  "ok": true
+ },
+ {
+  "name": "kumsaati_a",
+  "ok": true
+ },
+ {
+  "name": "hc2099_a",
+  "ok": true
+ },
+ {
+  "name": "hc2099_b",
   "ok": true
  },
  {
@@ -375,7 +700,7 @@
      }
     }
    },
-   "creditBalance": 1898,
+   "creditBalance": 923,
    "usage": {
     "models": {
      "ruby": {
@@ -394,7 +719,7 @@
       "dailyGenerations": 0
      },
      "gen4_turbo": {
-      "dailyGenerations": 1
+      "dailyGenerations": 27
      },
      "act_two": {
       "dailyGenerations": 0

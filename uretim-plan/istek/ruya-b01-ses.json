@@ -1,0 +1,268 @@
+{
+ "tts": [
+  {
+   "out": "gelen/ruya/b01/s01_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Every dream you have ever had… was kept somewhere.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b01/s02_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "Three nights. Three nights and not a single dream.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b01/s03_0_ANNA.mp3",
+   "voice": "Sarah",
+   "lang": "en",
+   "text": "Night shift, sweetheart. Try to sleep, okay?",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b01/s03_1_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "I'll try, Mom.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b01/s04_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "That's… not normal.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b01/s05_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "Okay, lantern. Where are you taking me?",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b01/s07_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "A secret staircase. Of course there is.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b01/s08_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "Whoa…",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b01/s09_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "'Tom, age seven. Flying over the sea.' These are… dreams.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b01/s11_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "Hey… hey, no, no, no!",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b01/s13_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "Wait! Come back!",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b01/s14_0_ELIAS.mp3",
+   "voice": "Bill",
+   "lang": "en",
+   "text": "It will not come back. Not for me.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b01/s15_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "Who are you? I'm sorry, I didn't touch anything, I swear!",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b01/s16_0_ELIAS.mp3",
+   "voice": "Bill",
+   "lang": "en",
+   "text": "I know, child. I am Elias, the Keeper of this Archive. And that dream… opened for you.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b01/s17_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "There's no name on it.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b01/s17_1_ELIAS.mp3",
+   "voice": "Bill",
+   "lang": "en",
+   "text": "Some dreams forget whose they are.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b01/s18_0_ELIAS.mp3",
+   "voice": "Bill",
+   "lang": "en",
+   "text": "A runaway dream has seven nights. If it does not return, its dreamer forgets it… forever.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b01/s19_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "Then I'll find it. Seven nights. I can do that.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b01/s21_0_THEO.mp3",
+   "voice": "Liam",
+   "lang": "en",
+   "text": "You look like you fought a ghost. Cocoa?",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b01/s21_1_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "Something like that.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b01/s22_0_THEO.mp3",
+   "voice": "Liam",
+   "lang": "en",
+   "text": "Is it… snowing? In the sun?",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b01/s23_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "It's here. The dream is here.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b01/s24_0_THEO.mp3",
+   "voice": "Liam",
+   "lang": "en",
+   "text": "Mira… why is the snow singing?",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b01/s26_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Six nights left. And someone else is looking for the dream.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  }
+ ]
+}

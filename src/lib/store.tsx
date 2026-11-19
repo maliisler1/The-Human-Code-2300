@@ -113,7 +113,8 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
     const patch: Partial<State> = {
       tokens: data.tokens ?? 0,
       name: data.display_name ?? "",
-      langChosen: !!data.lang_chosen,
+      // Yerelde dil seçildiyse sunucu kaydı geride kalsa bile tekrar sorulmaz.
+      langChosen: !!data.lang_chosen || readLocal().langChosen || stateRef.current.langChosen,
     };
     if (isLang(data.ui_lang)) patch.uiLang = data.ui_lang;
     if (isLang(data.audio_lang)) patch.audioLang = data.audio_lang;

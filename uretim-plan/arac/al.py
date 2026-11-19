@@ -32,6 +32,7 @@ def req(path, data=None, raw=False):
 items_tts, items_url = [], []
 for f in sorted(glob.glob("uretim-plan/istek/*.json")):
     j = json.load(open(f, encoding="utf-8"))
+    if not isinstance(j, dict): continue
     items_tts += [x for x in j.get("tts", []) if not os.path.exists(x["out"])]
     items_url += [x for x in j.get("url", []) if not os.path.exists(x["out"])]
 print("yeni tts:", len(items_tts), "yeni indirme:", len(items_url))

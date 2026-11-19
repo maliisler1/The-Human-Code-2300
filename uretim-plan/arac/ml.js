@@ -88,7 +88,7 @@ window.scanAll=async(files,max=90)=>{ const known=[]; for(const f of files){ con
  [...document.querySelectorAll('[role=tab]')].find(t=>t.textContent.trim()=='Video').click(); await sleep(1500); [...document.querySelectorAll('[role=tab]')].find(t=>t.textContent.trim()=='Creation')?.click(); await sleep(2500);
  const Lst=document.querySelector('.image-to-video-content-right-list'); let sc=Lst; while(sc&&sc.scrollHeight<=sc.clientHeight) sc=sc.parentElement; for(let i=0;i<6;i++){ if(sc) sc.scrollTop=sc.scrollHeight; await sleep(1500);}
  const f=[...document.querySelectorAll('.itv-card-footer')].slice(0,max); const res={}; let gen=0;
- for(const x of f){ x.dispatchEvent(new MouseEvent('click',{bubbles:true})); await sleep(350); const tv=vta()?.value||''; const m=known.find(([n,p])=>tv.startsWith(p.slice(0,40))); const v=x.closest('.itv-card').querySelector('video'); if(!v){gen++; continue;} if(m&&!res[m[0]]&&(v.videoWidth==0||v.videoWidth>v.videoHeight)) res[m[0]]=(v.src||v.querySelector('source')?.src);}
+ for(const x of f){ x.dispatchEvent(new MouseEvent('click',{bubbles:true})); await sleep(350); const tv=vta()?.value||''; const m=known.find(([n,p])=>tv.startsWith(p.slice(0,110))); const v=x.closest('.itv-card').querySelector('video'); if(!v){gen++; continue;} if(m&&!res[m[0]]&&(v.videoWidth==0||v.videoWidth>v.videoHeight)) res[m[0]]=(v.src||v.querySelector('source')?.src);}
  const out=Object.entries(res).map(([k,u])=>k+'='+u.replace('https://cdn.brmgo.cn/image-to-video-files-prod-intl/','A').replace('https://i2v.magiclight.ai/tests/','T').replace(/^([AT])(\d+)\/\2_/,'$1$2_'));
  localStorage.setItem('scanout',JSON.stringify(out)); return out.length+' found, gen '+gen+' miss '+known.map(k=>k[0]).filter(n=>!res[n]).join(',');};
 'ml.js loaded7';

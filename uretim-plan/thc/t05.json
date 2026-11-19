@@ -33,7 +33,13 @@
    "lip": false,
    "frame": "group_cave",
    "prompt": "The group sneaks along a narrow ledge beneath the fortress walls",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "One wrong step, and the clouds would swallow them.",
+     "Tek bir yanlış adım ve bulutlar onları yutardı."
+    ]
+   ]
   },
   {
    "id": "s03",
@@ -59,14 +65,26 @@
    "lip": false,
    "frame": "fortress_hall",
    "prompt": "Rows of red crystal guards stand silent in the hall",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Hundreds of crystal guards. Waiting for one command.",
+     "Yüzlerce kristal muhafız. Tek bir emri bekliyordu."
+    ]
+   ]
   },
   {
    "id": "s06",
    "lip": false,
    "frame": "group_cave",
    "prompt": "The group climbs a vertical wall using ropes",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "They climbed where no one had ever climbed.",
+     "Kimsenin tırmanmadığı yerden tırmandılar."
+    ]
+   ]
   },
   {
    "id": "s07",
@@ -111,7 +129,13 @@
    "lip": false,
    "frame": "kai_freed",
    "prompt": "A young man kneels in a red prison chamber, chained with light",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "There he was. Kai. Chained with light.",
+     "İşte oradaydı. Kai. Işıktan zincirlerle bağlı."
+    ]
+   ]
   },
   {
    "id": "s12",
@@ -137,7 +161,13 @@
    "lip": false,
    "frame": "ashley_close",
    "prompt": "Ashley presses the green pendant to the light chains and they shatter",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "The pendant remembered how to set people free.",
+     "Kolye, insanları özgür bırakmayı hatırlıyordu."
+    ]
+   ]
   },
   {
    "id": "s15",
@@ -213,14 +243,26 @@
    "lip": false,
    "frame": "fortress_hall",
    "prompt": "The crystal guards wake up glowing red and march forward",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Then the guards woke up.",
+     "Sonra muhafızlar uyandı."
+    ]
+   ]
   },
   {
    "id": "s23",
    "lip": false,
    "frame": "group_cave",
    "prompt": "The group runs with Kai between them, guards chasing",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Run. Just run.",
+     "Koş. Sadece koş."
+    ]
+   ]
   },
   {
    "id": "s24",
@@ -279,7 +321,13 @@
    "lip": false,
    "frame": "kai_eyes",
    "prompt": "Kai's eyes flicker with red code",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "But something had followed Kai out of the Fortress.",
+     "Ama Kale'den Kai'nin peşi sıra bir şey çıkmıştı."
+    ]
+   ]
   },
   {
    "id": "s31",
@@ -298,7 +346,13 @@
    "lip": false,
    "frame": "ashley_edge",
    "prompt": "Ashley looks at Kai with worry as the platform flies into sunset",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "She had found him. Now she had to bring him back.",
+     "Onu bulmuştu. Şimdi onu geri getirmesi gerekiyordu."
+    ]
+   ]
   }
  ]
 }

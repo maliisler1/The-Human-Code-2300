@@ -33,14 +33,26 @@
    "lip": false,
    "frame": "ava_isles",
    "prompt": "Ava circles Ashley slowly, staff raised, suspicious",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Ava had survived alone for years. She trusted no one.",
+     "Ava yıllarca tek başına hayatta kalmıştı. Kimseye güvenmezdi."
+    ]
+   ]
   },
   {
    "id": "s03",
    "lip": false,
    "frame": "broken_isles",
    "prompt": "Debris floats upward against gravity, crystals pulsing",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Here, even gravity had forgotten its rules.",
+     "Burada yerçekimi bile kurallarını unutmuştu."
+    ]
+   ]
   },
   {
    "id": "s04",
@@ -78,7 +90,13 @@
    "lip": false,
    "frame": "leon_cat",
    "prompt": "The cat trots over and rubs against Ashley's leg, then sits proudly",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Leon, the bravest cat in the sky, had already decided.",
+     "Gökyüzünün en cesur kedisi Leon, kararını çoktan vermişti."
+    ]
+   ]
   },
   {
    "id": "s08",
@@ -104,7 +122,13 @@
    "lip": false,
    "frame": "ryan_crystals",
    "prompt": "A boy runs up laughing as glowing crystal creatures hop after him",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "The crystals had a voice. Only Ryan could hear it.",
+     "Kristallerin bir sesi vardı. Sadece Ryan duyabiliyordu."
+    ]
+   ]
   },
   {
    "id": "s11",
@@ -185,7 +209,13 @@
    "lip": false,
    "frame": "group_cave",
    "prompt": "The friends sprint along a cliff path, jumping over a gap",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "The signal grew stronger. So did the danger.",
+     "Sinyal güçlendi. Tehlike de öyle."
+    ]
+   ]
   },
   {
    "id": "s19",
@@ -199,7 +229,13 @@
    "lip": false,
    "frame": "mist_forest",
    "prompt": "They enter the misty silver forest, fog swallowing the path",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "The Silver Forest. Where the fog remembers every footstep.",
+     "Gümüş Orman. Sisin her ayak sesini hatırladığı yer."
+    ]
+   ]
   },
   {
    "id": "s21",
@@ -225,7 +261,13 @@
    "lip": false,
    "frame": "mist_forest",
    "prompt": "Glowing eyes blink in the fog, branches creak, the group moves carefully",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Something in the mist was watching them.",
+     "Sisin içindeki bir şey onları izliyordu."
+    ]
+   ]
   },
   {
    "id": "s24",
@@ -263,7 +305,13 @@
    "lip": false,
    "frame": "shadow_mist",
    "prompt": "The pale figure smiles coldly and dissolves into the mist",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "A face like hers. A smile that was nothing like hers.",
+     "Onunkine benzeyen bir yüz. Ama hiç benzemeyen bir gülüş."
+    ]
+   ]
   },
   {
    "id": "s28",
@@ -301,7 +349,13 @@
    "lip": false,
    "frame": "group_cave",
    "prompt": "The group runs out of the forest as the fog chases them",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "They ran. And for the first time, Ashley was afraid of herself.",
+     "Koştular. Ve Ashley ilk kez kendinden korktu."
+    ]
+   ]
   },
   {
    "id": "s32",

@@ -33,14 +33,26 @@
    "lip": false,
    "frame": "group_cave",
    "prompt": "The group catches their breath, the cat shakes off dust",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "The crystal caves were quiet. Too quiet.",
+     "Kristal mağaralar sessizdi. Fazla sessiz."
+    ]
+   ]
   },
   {
    "id": "s03",
    "lip": false,
    "frame": "crystal_cave",
    "prompt": "Crystals vibrate and ring, dust falling from the ceiling",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Then the crystals began to ring like warning bells.",
+     "Sonra kristaller uyarı çanları gibi çınlamaya başladı."
+    ]
+   ]
   },
   {
    "id": "s04",
@@ -102,14 +114,26 @@
    "lip": false,
    "frame": "ryan_crystals",
    "prompt": "Crystal creatures form a glowing bridge over a chasm",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Ryan asked, and the crystals answered.",
+     "Ryan istedi, kristaller cevap verdi."
+    ]
+   ]
   },
   {
    "id": "s10",
    "lip": false,
    "frame": "crystal_cave",
    "prompt": "The crystals suddenly dim and turn red one by one",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Red. The color of the Shadow.",
+     "Kırmızı. Gölge'nin rengi."
+    ]
+   ]
   },
   {
    "id": "s11",
@@ -147,7 +171,13 @@
    "lip": false,
    "frame": "ryan_crystals",
    "prompt": "Ryan sings and the crystal creatures leap into a glowing shield wall",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "A song can be stronger than a wall.",
+     "Bir şarkı, bir duvardan daha güçlü olabilir."
+    ]
+   ]
   },
   {
    "id": "s15",
@@ -206,7 +236,13 @@
    "lip": false,
    "frame": "ashley_edge",
    "prompt": "Ashley pulls her friends up onto a cliff edge",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Nobody gets left behind. Not today.",
+     "Kimse geride kalmaz. Bugün değil."
+    ]
+   ]
   },
   {
    "id": "s22",
@@ -244,7 +280,13 @@
    "lip": false,
    "frame": "fortress_ext",
    "prompt": "The dark fortress on its island, storm clouds and red lights",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "The Fortress of Sila. The heart of the darkness.",
+     "Sila'nın Kalesi. Karanlığın kalbi."
+    ]
+   ]
   },
   {
    "id": "s26",
@@ -282,14 +324,26 @@
    "lip": false,
    "frame": "ashley_edge",
    "prompt": "Ashley stands on the cliff, wind blowing, looking at the fortress",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Somewhere behind those walls, Kai was waiting.",
+     "O duvarların ardında bir yerde Kai bekliyordu."
+    ]
+   ]
   },
   {
    "id": "s30",
    "lip": false,
    "frame": "mist_forest",
    "prompt": "A lantern light moves through the mist toward them",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "And someone else had been looking for them.",
+     "Ve başka biri de onları arıyordu."
+    ]
+   ]
   },
   {
    "id": "s31",

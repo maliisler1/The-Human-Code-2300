@@ -33,7 +33,13 @@
    "lip": false,
    "frame": "capsule_hall",
    "prompt": "Slow push through the capsule hall, mist rolling, one capsule light turns from red to green",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Twenty-three capsules. Twenty-two of them dark. One was about to wake.",
+     "Yirmi üç kapsül. Yirmi ikisi karanlık. Biri uyanmak üzereydi."
+    ]
+   ]
   },
   {
    "id": "s03",
@@ -47,7 +53,13 @@
    "lip": false,
    "frame": "ashley_wake",
    "prompt": "The capsule lid slides open with hissing mist, she gasps and sits up quickly, breathing hard",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "For three hundred years she had slept. Now, her first breath.",
+     "Üç yüz yıl uyumuştu. Şimdi, ilk nefesi."
+    ]
+   ]
   },
   {
    "id": "s05",
@@ -85,14 +97,26 @@
    "lip": false,
    "frame": "ashley_hall",
    "prompt": "She climbs out of the capsule, stumbles, catches herself and walks toward the light orb",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Her legs remembered how to walk before her mind remembered anything at all.",
+     "Bacakları yürümeyi, zihninden önce hatırladı."
+    ]
+   ]
   },
   {
    "id": "s09",
    "lip": false,
    "frame": "ashley_hall",
    "prompt": "Ashley touches a glowing wall panel, holographic symbols race across it",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "The walls spoke a language she somehow understood.",
+     "Duvarlar, nedense anlayabildiği bir dilde konuşuyordu."
+    ]
+   ]
   },
   {
    "id": "s10",
@@ -130,7 +154,13 @@
    "lip": false,
    "frame": "capsule_hall",
    "prompt": "Ashley runs between the other 22 capsules, wiping frost off the glass, all empty and dark",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Every capsule was empty. Every name was gone.",
+     "Her kapsül boştu. Her isim kaybolmuştu."
+    ]
+   ]
   },
   {
    "id": "s14",
@@ -156,7 +186,13 @@
    "lip": false,
    "frame": "ashley_hall",
    "prompt": "Alarm lights flash red, Ashley spins around as a door opens to blinding daylight",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Then the alarms began. Someone knew she was awake.",
+     "Sonra alarmlar çaldı. Biri uyandığını biliyordu."
+    ]
+   ]
   },
   {
    "id": "s17",
@@ -182,7 +218,13 @@
    "lip": false,
    "frame": "elyra_sky",
    "prompt": "Ships glide between islands, birds fly past, bridges of light connect towers",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Elyra. The sky city. Built by the last people of Earth.",
+     "Elyra. Gökyüzü şehri. Dünya'nın son insanlarının eseri."
+    ]
+   ]
   },
   {
    "id": "s20",
@@ -220,7 +262,13 @@
    "lip": false,
    "frame": "ashley_close",
    "prompt": "Ashley reaches toward the flickering hologram, eyes wide",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "A face from a dream. Or from a life she had lost.",
+     "Bir rüyadan tanıdık bir yüz. Ya da kaybettiği bir hayattan."
+    ]
+   ]
   },
   {
    "id": "s24",
@@ -270,7 +318,13 @@
    "lip": false,
    "frame": "ashley_edge",
    "prompt": "Ashley runs and leaps onto a moving platform of light that carries her across the sky",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "No map. No memory. Only a signal, and a promise.",
+     "Harita yok. Hafıza yok. Sadece bir sinyal ve bir söz."
+    ]
+   ]
   },
   {
    "id": "s29",
@@ -296,7 +350,13 @@
    "lip": false,
    "frame": "ashley_close",
    "prompt": "Ashley lands hard, rolls and stands up, looking around the broken island",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "The Broken Isles. Nobody comes here by choice.",
+     "Kırık Adalar. Buraya kimse isteyerek gelmez."
+    ]
+   ]
   },
   {
    "id": "s32",

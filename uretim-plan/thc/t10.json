@@ -45,7 +45,13 @@
    "lip": false,
    "frame": "ashley_shadow",
    "prompt": "Light swirls around the two sisters, petals flying",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "No more fighting. Only light.",
+     "Artık savaş yok. Sadece ışık."
+    ]
+   ]
   },
   {
    "id": "s04",
@@ -59,14 +65,26 @@
    "lip": false,
    "frame": "shadow_close",
    "prompt": "The red glow in the twin's eyes fades into soft blue",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "The red faded. Something gentle took its place.",
+     "Kırmızı söndü. Yerini yumuşak bir şey aldı."
+    ]
+   ]
   },
   {
    "id": "s06",
    "lip": false,
    "frame": "elyra_bloom",
    "prompt": "Flowers spread across an island in a wave of color",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Wherever the light touched, flowers followed.",
+     "Işığın dokunduğu her yerde çiçekler açtı."
+    ]
+   ]
   },
   {
    "id": "s07",
@@ -97,7 +115,13 @@
    "lip": false,
    "frame": "elyra_bloom",
    "prompt": "Children run and laugh across a new bridge",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "For the first time in centuries, children laughed in Elyra.",
+     "Asırlardır ilk kez Elyra'da çocuklar güldü."
+    ]
+   ]
   },
   {
    "id": "s10",
@@ -135,7 +159,13 @@
    "lip": false,
    "frame": "elyra_bloom",
    "prompt": "Waterfalls sparkle, birds fly, people walk across new bridges",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "The sky city was finally a home.",
+     "Gökyüzü şehri sonunda bir yuva olmuştu."
+    ]
+   ]
   },
   {
    "id": "s14",
@@ -154,7 +184,13 @@
    "lip": false,
    "frame": "kai_close",
    "prompt": "Kai and Ashley laugh and spin around in the wind",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Two people who had found each other twice.",
+     "Birbirini iki kez bulan iki kişi."
+    ]
+   ]
   },
   {
    "id": "s16",
@@ -180,7 +216,13 @@
    "lip": false,
    "frame": "elyra_sky",
    "prompt": "Ships fly through a rainbow over the islands",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Even the ships seemed to be celebrating.",
+     "Gemiler bile kutlama yapıyor gibiydi."
+    ]
+   ]
   },
   {
    "id": "s19",
@@ -199,7 +241,13 @@
    "lip": false,
    "frame": "leon_cat",
    "prompt": "The cat takes off its helmet and lies in the sun",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Leon decided the war was over. Helmet off.",
+     "Leon savaşın bittiğine karar verdi. Kask çıktı."
+    ]
+   ]
   },
   {
    "id": "s21",
@@ -225,7 +273,13 @@
    "lip": false,
    "frame": "nyra_close",
    "prompt": "Nyra takes off her armor helmet and smiles at the sunrise",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Number Four had a name again. Nyra. And a home.",
+     "Dört numaranın yeniden bir adı vardı. Nyra. Ve bir evi."
+    ]
+   ]
   },
   {
    "id": "s24",
@@ -294,7 +348,13 @@
    "lip": false,
    "frame": "ashley_edge",
    "prompt": "Ashley turns and looks toward the distant Earth, eyes wide",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Far below, across the dark, Earth was calling.",
+     "Çok aşağıda, karanlığın ötesinde, Dünya çağırıyordu."
+    ]
+   ]
   },
   {
    "id": "s31",

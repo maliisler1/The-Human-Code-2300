@@ -1,0 +1,1027 @@
+{
+ "tts": [
+  {
+   "out": "gelen/thc/t01/s02_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Twenty-three capsules. Twenty-two of them dark. One was about to wake.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t01/s04_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "For three hundred years she had slept. Now, her first breath.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t01/s08_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Her legs remembered how to walk before her mind remembered anything at all.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t01/s09_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The walls spoke a language she somehow understood.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t01/s13_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Every capsule was empty. Every name was gone.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t01/s16_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Then the alarms began. Someone knew she was awake.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t01/s19_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Elyra. The sky city. Built by the last people of Earth.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t01/s23_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "A face from a dream. Or from a life she had lost.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t01/s28_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "No map. No memory. Only a signal, and a promise.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t01/s31_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The Broken Isles. Nobody comes here by choice.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t02/s02_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Ava had survived alone for years. She trusted no one.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t02/s03_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Here, even gravity had forgotten its rules.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t02/s07_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Leon, the bravest cat in the sky, had already decided.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t02/s10_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The crystals had a voice. Only Ryan could hear it.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t02/s18_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The signal grew stronger. So did the danger.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t02/s20_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The Silver Forest. Where the fog remembers every footstep.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t02/s23_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Something in the mist was watching them.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t02/s27_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "A face like hers. A smile that was nothing like hers.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t02/s31_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "They ran. And for the first time, Ashley was afraid of herself.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t03/s02_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The crystal caves were quiet. Too quiet.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t03/s03_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Then the crystals began to ring like warning bells.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t03/s09_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Ryan asked, and the crystals answered.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t03/s10_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Red. The color of the Shadow.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t03/s14_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "A song can be stronger than a wall.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t03/s21_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Nobody gets left behind. Not today.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t03/s25_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The Fortress of Sila. The heart of the darkness.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t03/s29_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Somewhere behind those walls, Kai was waiting.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t03/s30_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "And someone else had been looking for them.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t04/s03_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Kael's hut was full of things from a world that no longer existed.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t04/s04_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Every object was a story. Every story was a warning.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t04/s06_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The year 2099. The sky turned to dust.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t04/s09_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Millions wanted a seat. Only a few found one.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t04/s12_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Twenty-three children. Twenty-three dreams of a new Earth.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t04/s15_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Sila had built an army that never slept.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t04/s19_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Kael had kept one last gift. For this day.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t04/s21_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Nobody slept much that night.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t04/s27_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Ava had never had a family. Now she was protecting one.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t04/s28_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Ashley made a promise to the stars. She would bring them all home.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t05/s02_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "One wrong step, and the clouds would swallow them.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t05/s05_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Hundreds of crystal guards. Waiting for one command.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t05/s06_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "They climbed where no one had ever climbed.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t05/s11_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "There he was. Kai. Chained with light.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t05/s14_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The pendant remembered how to set people free.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t05/s22_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Then the guards woke up.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t05/s23_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Run. Just run.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t05/s30_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "But something had followed Kai out of the Fortress.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t05/s32_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "She had found him. Now she had to bring him back.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t06/s02_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Kai was free. But a part of him still belonged to the Shadow.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t06/s03_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The night was long. Nobody wanted to say what they were afraid of.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t06/s06_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Every lantern was a memory. Every memory, a door.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t06/s09_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "She ran toward the only light that felt like home.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t06/s13_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Kai had been alone for so long, he forgot how not to be.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t06/s19_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The dream was breaking. And Kai was breaking with it.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t06/s21_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "In the real world, Kael held on. And waited.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t06/s27_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "He came back. All of him.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t06/s30_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Even Ava, who never cried, cried a little.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t07/s02_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Ava didn't wait to be attacked. She never did.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t07/s04_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Staff against spear. Courage against orders.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t07/s05_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "For the first time in her life, Ava couldn't fight back.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t07/s09_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The ground began to shake. The crystals had heard Ryan.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t07/s12_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "And then, an entire island obeyed a boy.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t07/s18_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Nyra's hands were shaking. She didn't know why.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t07/s20_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "One last guard stood between them and Ava.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t07/s28_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Family isn't who you're born with. It's who comes for you.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t07/s30_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Nyra walked away. But she would not forget that number.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t08/s02_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Thousands of people. No ground beneath their feet.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t08/s03_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Bridges built over three hundred years broke in a single minute.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t08/s06_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The sky itself was coming apart.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t08/s07_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Ryan sang louder than he had ever sung.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t08/s10_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The Fortress was collapsing around them. They ran into it anyway.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t08/s15_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The core was failing. Time was running out.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t08/s18_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Three hundred years of anger. Ready to explode.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t08/s20_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Every second, another piece of Elyra fell into the clouds.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t08/s25_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "For the first time, the Shadow didn't know what to do.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t09/s03_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Three hundred years of sleep ended in a single breath.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t09/s04_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Every step down those stairs was a step closer to everyone she had lost.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t09/s05_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Light passed from one capsule to the next, like a promise kept.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t09/s10_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The battle for the sky had begun.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t09/s17_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Islands that had been falling began to rise.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t09/s19_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Leon fought too. In his own way.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t09/s21_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Waterfalls flowed again. Elyra was breathing.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t09/s24_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Without Sila's orders, the guards remembered they were only crystals.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t09/s28_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Twenty-three. Together at last.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t10/s03_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "No more fighting. Only light.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t10/s05_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The red faded. Something gentle took its place.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t10/s06_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Wherever the light touched, flowers followed.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t10/s09_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "For the first time in centuries, children laughed in Elyra.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t10/s13_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The sky city was finally a home.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t10/s15_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Two people who had found each other twice.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t10/s18_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Even the ships seemed to be celebrating.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t10/s20_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Leon decided the war was over. Helmet off.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t10/s23_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Number Four had a name again. Nyra. And a home.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t10/s30_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Far below, across the dark, Earth was calling.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  }
+ ]
+}

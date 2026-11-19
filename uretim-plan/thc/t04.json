@@ -45,14 +45,26 @@
    "lip": false,
    "frame": "kael_hut",
    "prompt": "Kael lights old lanterns one by one around the hut",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Kael's hut was full of things from a world that no longer existed.",
+     "Kael'in kulübesi artık var olmayan bir dünyanın eşyalarıyla doluydu."
+    ]
+   ]
   },
   {
    "id": "s04",
    "lip": false,
    "frame": "ryan_close",
    "prompt": "Ryan looks around the hut amazed at old objects, picking up a toy rocket",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Every object was a story. Every story was a warning.",
+     "Her eşya bir hikâyeydi. Her hikâye bir uyarı."
+    ]
+   ]
   },
   {
    "id": "s05",
@@ -71,7 +83,13 @@
    "lip": false,
    "frame": "earth_2099",
    "prompt": "A dust storm swallows an empty city street",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "The year 2099. The sky turned to dust.",
+     "Yıl 2099. Gökyüzü toza döndü."
+    ]
+   ]
   },
   {
    "id": "s07",
@@ -102,7 +120,13 @@
    "lip": false,
    "frame": "earth_2099",
    "prompt": "Crowds run toward a launch pad as the rocket engines ignite",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Millions wanted a seat. Only a few found one.",
+     "Milyonlar bir yer istedi. Sadece birkaçı buldu."
+    ]
+   ]
   },
   {
    "id": "s10",
@@ -128,7 +152,13 @@
    "lip": false,
    "frame": "pods_below",
    "prompt": "Frost forms and melts on the capsule glass in slow breaths",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Twenty-three children. Twenty-three dreams of a new Earth.",
+     "Yirmi üç çocuk. Yeni bir Dünya'nın yirmi üç rüyası."
+    ]
+   ]
   },
   {
    "id": "s13",
@@ -159,7 +189,13 @@
    "lip": false,
    "frame": "sila_throne",
    "prompt": "Sila's guards march in perfect rows, red lights flashing",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Sila had built an army that never slept.",
+     "Sila asla uyumayan bir ordu kurmuştu."
+    ]
+   ]
   },
   {
    "id": "s16",
@@ -197,7 +233,13 @@
    "lip": false,
    "frame": "kael_hut",
    "prompt": "Kael opens an old chest and takes out a glowing green pendant",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Kael had kept one last gift. For this day.",
+     "Kael son bir hediye saklamıştı. Bu gün için."
+    ]
+   ]
   },
   {
    "id": "s20",
@@ -216,7 +258,13 @@
    "lip": false,
    "frame": "ava_close",
    "prompt": "Ava sharpens the tip of her staff by the fire",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Nobody slept much that night.",
+     "O gece kimse pek uyuyamadı."
+    ]
+   ]
   },
   {
    "id": "s22",
@@ -268,14 +316,26 @@
    "lip": false,
    "frame": "ava_close",
    "prompt": "Ava gently covers Ryan with a blanket and looks at the stars",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Ava had never had a family. Now she was protecting one.",
+     "Ava'nın hiç ailesi olmamıştı. Şimdi bir aileyi koruyordu."
+    ]
+   ]
   },
   {
    "id": "s28",
    "lip": false,
    "frame": "ashley_edge",
    "prompt": "Ashley stands outside at night, holding the green pendant, stars above",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Ashley made a promise to the stars. She would bring them all home.",
+     "Ashley yıldızlara bir söz verdi. Hepsini eve getirecekti."
+    ]
+   ]
   },
   {
    "id": "s29",

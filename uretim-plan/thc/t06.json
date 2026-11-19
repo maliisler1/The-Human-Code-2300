@@ -33,14 +33,26 @@
    "lip": false,
    "frame": "kai_eyes",
    "prompt": "Red code pulses in Kai's eyes",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Kai was free. But a part of him still belonged to the Shadow.",
+     "Kai özgürdü. Ama bir parçası hâlâ Gölge'ye aitti."
+    ]
+   ]
   },
   {
    "id": "s03",
    "lip": false,
    "frame": "kael_hut",
    "prompt": "Rain hits the hut windows, candles flicker",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "The night was long. Nobody wanted to say what they were afraid of.",
+     "Gece uzundu. Kimse korktuğu şeyi söylemek istemiyordu."
+    ]
+   ]
   },
   {
    "id": "s04",
@@ -71,7 +83,13 @@
    "lip": false,
    "frame": "dream_world",
    "prompt": "Memory lanterns rise into the sky like fireflies",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Every lantern was a memory. Every memory, a door.",
+     "Her fener bir anıydı. Her anı, bir kapı."
+    ]
+   ]
   },
   {
    "id": "s07",
@@ -97,7 +115,13 @@
    "lip": false,
    "frame": "dream_world",
    "prompt": "Ashley runs across the golden field toward a distant hill",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "She ran toward the only light that felt like home.",
+     "Ona ev gibi gelen tek ışığa doğru koştu."
+    ]
+   ]
   },
   {
    "id": "s10",
@@ -130,7 +154,13 @@
    "lip": false,
    "frame": "kai_close",
    "prompt": "Kai sits alone on a hill in the dream, staring at the moons",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Kai had been alone for so long, he forgot how not to be.",
+     "Kai o kadar uzun süre yalnız kalmıştı ki, yalnız olmamayı unutmuştu."
+    ]
+   ]
   },
   {
    "id": "s14",
@@ -187,7 +217,13 @@
    "lip": false,
    "frame": "dream_world",
    "prompt": "The golden field turns dark red, the lanterns start to go out",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "The dream was breaking. And Kai was breaking with it.",
+     "Rüya parçalanıyordu. Ve Kai de onunla birlikte."
+    ]
+   ]
   },
   {
    "id": "s20",
@@ -201,7 +237,13 @@
    "lip": false,
    "frame": "kael_hut",
    "prompt": "Kael holds Kai's hand, praying, light pulsing",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "In the real world, Kael held on. And waited.",
+     "Gerçek dünyada Kael elini bırakmadı. Ve bekledi."
+    ]
+   ]
   },
   {
    "id": "s22",
@@ -258,7 +300,13 @@
    "lip": false,
    "frame": "kael_hut",
    "prompt": "Kai gasps awake in the hut, the red light gone from his eyes",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "He came back. All of him.",
+     "Geri döndü. Bütünüyle."
+    ]
+   ]
   },
   {
    "id": "s28",
@@ -279,7 +327,13 @@
    "lip": false,
    "frame": "ava_close",
    "prompt": "Ava smiles with relief, wiping a tear",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Even Ava, who never cried, cried a little.",
+     "Hiç ağlamayan Ava bile biraz ağladı."
+    ]
+   ]
   },
   {
    "id": "s31",

@@ -45,21 +45,39 @@
    "lip": false,
    "frame": "pods_awake",
    "prompt": "Steam bursts as the capsules open in a wave",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Three hundred years of sleep ended in a single breath.",
+     "Üç yüz yıllık uyku tek bir nefeste sona erdi."
+    ]
+   ]
   },
   {
    "id": "s04",
    "lip": false,
    "frame": "ashley_close",
    "prompt": "Ashley runs down the stairs into the capsule chamber with the glowing pendant",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Every step down those stairs was a step closer to everyone she had lost.",
+     "O merdivenlerdeki her adım, kaybettiği herkese bir adım daha yaklaştırıyordu."
+    ]
+   ]
   },
   {
    "id": "s05",
    "lip": false,
    "frame": "pods_awake",
    "prompt": "Ashley touches the first capsule and light spreads from one to the next",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Light passed from one capsule to the next, like a promise kept.",
+     "Işık bir kapsülden diğerine geçti, tutulan bir söz gibi."
+    ]
+   ]
   },
   {
    "id": "s06",
@@ -104,7 +122,13 @@
    "lip": false,
    "frame": "sky_battle",
    "prompt": "Flying vehicles launch, red crystal guards attack, light explodes",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "The battle for the sky had begun.",
+     "Gökyüzü için savaş başlamıştı."
+    ]
+   ]
   },
   {
    "id": "s11",
@@ -168,7 +192,13 @@
    "lip": false,
    "frame": "elyra_sky",
    "prompt": "Falling islands slow down and float back up into place",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Islands that had been falling began to rise.",
+     "Düşmekte olan adalar yükselmeye başladı."
+    ]
+   ]
   },
   {
    "id": "s18",
@@ -182,7 +212,13 @@
    "lip": false,
    "frame": "leon_cat",
    "prompt": "The cat chases a crystal guard across a bridge and knocks it over",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Leon fought too. In his own way.",
+     "Leon da savaştı. Kendi usulünce."
+    ]
+   ]
   },
   {
    "id": "s20",
@@ -196,7 +232,13 @@
    "lip": false,
    "frame": "elyra_sky",
    "prompt": "Islands rise back into place, waterfalls flowing again",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Waterfalls flowed again. Elyra was breathing.",
+     "Şelaleler yeniden aktı. Elyra nefes alıyordu."
+    ]
+   ]
   },
   {
    "id": "s22",
@@ -222,7 +264,13 @@
    "lip": false,
    "frame": "sky_battle",
    "prompt": "Red crystal guards turn blue and stop fighting",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Without Sila's orders, the guards remembered they were only crystals.",
+     "Sila'nın emirleri olmadan muhafızlar sadece kristal olduklarını hatırladı."
+    ]
+   ]
   },
   {
    "id": "s25",
@@ -260,7 +308,13 @@
    "lip": false,
    "frame": "pods_awake",
    "prompt": "Twenty-three people stand together in the light",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Twenty-three. Together at last.",
+     "Yirmi üç. Sonunda bir arada."
+    ]
+   ]
   },
   {
    "id": "s29",

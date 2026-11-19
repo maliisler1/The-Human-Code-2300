@@ -33,7 +33,13 @@
    "lip": false,
    "frame": "ava_close",
    "prompt": "Ava spins her staff and charges",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Ava didn't wait to be attacked. She never did.",
+     "Ava saldırıya uğramayı beklemezdi. Hiç beklemedi."
+    ]
+   ]
   },
   {
    "id": "s03",
@@ -47,14 +53,26 @@
    "lip": false,
    "frame": "nyra_warrior",
    "prompt": "Nyra and Ava clash, sparks flying from staff and spear",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Staff against spear. Courage against orders.",
+     "Asaya karşı mızrak. Emirlere karşı cesaret."
+    ]
+   ]
   },
   {
    "id": "s05",
    "lip": false,
    "frame": "ava_captive",
    "prompt": "Ava is trapped inside a glowing red energy cage",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "For the first time in her life, Ava couldn't fight back.",
+     "Ava hayatında ilk kez karşılık veremedi."
+    ]
+   ]
   },
   {
    "id": "s06",
@@ -87,7 +105,13 @@
    "lip": false,
    "frame": "ryan_crystals",
    "prompt": "Giant crystal creatures rise from the ground around Ryan",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "The ground began to shake. The crystals had heard Ryan.",
+     "Yer sarsılmaya başladı. Kristaller Ryan'ı duymuştu."
+    ]
+   ]
   },
   {
    "id": "s10",
@@ -118,7 +142,13 @@
    "lip": false,
    "frame": "elyra_sky",
    "prompt": "A whole island flies through the clouds like a ship",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "And then, an entire island obeyed a boy.",
+     "Ve sonra koca bir ada, bir çocuğa itaat etti."
+    ]
+   ]
   },
   {
    "id": "s13",
@@ -175,7 +205,13 @@
    "lip": false,
    "frame": "nyra_close",
    "prompt": "Nyra's hands tremble on her spear",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Nyra's hands were shaking. She didn't know why.",
+     "Nyra'nın elleri titriyordu. Nedenini bilmiyordu."
+    ]
+   ]
   },
   {
    "id": "s19",
@@ -189,7 +225,13 @@
    "lip": false,
    "frame": "nyra_warrior",
    "prompt": "Nyra blocks the way, spear glowing",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "One last guard stood between them and Ava.",
+     "Onlarla Ava arasında son bir muhafız duruyordu."
+    ]
+   ]
   },
   {
    "id": "s21",
@@ -265,7 +307,13 @@
    "lip": false,
    "frame": "ryan_close",
    "prompt": "Ryan runs and hugs Ava tightly",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Family isn't who you're born with. It's who comes for you.",
+     "Aile, birlikte doğduğun kişiler değildir. Seni almaya gelenlerdir."
+    ]
+   ]
   },
   {
    "id": "s29",
@@ -279,7 +327,13 @@
    "lip": false,
    "frame": "nyra_close",
    "prompt": "Nyra watches them, alone, then walks into the shadows",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Nyra walked away. But she would not forget that number.",
+     "Nyra uzaklaştı. Ama o numarayı unutmayacaktı."
+    ]
+   ]
   },
   {
    "id": "s31",

@@ -33,14 +33,26 @@
    "lip": false,
    "frame": "elyra_sky",
    "prompt": "People run across falling islands screaming",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Thousands of people. No ground beneath their feet.",
+     "Binlerce insan. Ayaklarının altında zemin yok."
+    ]
+   ]
   },
   {
    "id": "s03",
    "lip": false,
    "frame": "bridges_fall",
    "prompt": "A bridge snaps and swings down into the clouds",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Bridges built over three hundred years broke in a single minute.",
+     "Üç yüz yılda kurulan köprüler bir dakikada kırıldı."
+    ]
+   ]
   },
   {
    "id": "s04",
@@ -71,14 +83,26 @@
    "lip": false,
    "frame": "elyra_sky",
    "prompt": "Two islands collide in slow motion, rocks exploding",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "The sky itself was coming apart.",
+     "Gökyüzünün kendisi parçalanıyordu."
+    ]
+   ]
   },
   {
    "id": "s07",
    "lip": false,
    "frame": "ryan_crystals",
    "prompt": "Ryan kneels and sings, crystals glow and slow the falling islands",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Ryan sang louder than he had ever sung.",
+     "Ryan hiç olmadığı kadar yüksek sesle şarkı söyledi."
+    ]
+   ]
   },
   {
    "id": "s08",
@@ -104,7 +128,13 @@
    "lip": false,
    "frame": "group_cave",
    "prompt": "Ashley, Kai and Ava run into the fortress through collapsing halls",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "The Fortress was collapsing around them. They ran into it anyway.",
+     "Kale etraflarında çöküyordu. Yine de içine koştular."
+    ]
+   ]
   },
   {
    "id": "s11",
@@ -149,7 +179,13 @@
    "lip": false,
    "frame": "core_chamber",
    "prompt": "The giant crystal pulses faster and faster",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "The core was failing. Time was running out.",
+     "Çekirdek tükeniyordu. Zaman azalıyordu."
+    ]
+   ]
   },
   {
    "id": "s16",
@@ -180,7 +216,13 @@
    "lip": false,
    "frame": "shadow_close",
    "prompt": "The Shadow clenches her fists, red light crackling",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Three hundred years of anger. Ready to explode.",
+     "Üç yüz yıllık öfke. Patlamaya hazır."
+    ]
+   ]
   },
   {
    "id": "s19",
@@ -199,7 +241,13 @@
    "lip": false,
    "frame": "bridges_fall",
    "prompt": "Outside, an island cracks in half and starts to sink",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "Every second, another piece of Elyra fell into the clouds.",
+     "Her saniye, Elyra'nın bir parçası daha bulutlara düşüyordu."
+    ]
+   ]
   },
   {
    "id": "s21",
@@ -244,7 +292,13 @@
    "lip": false,
    "frame": "shadow_close",
    "prompt": "The Shadow hesitates, her red eyes flickering",
-   "lines": []
+   "lines": [
+    [
+     "NARRATOR",
+     "For the first time, the Shadow didn't know what to do.",
+     "Gölge ilk kez ne yapacağını bilemedi."
+    ]
+   ]
   },
   {
    "id": "s26",

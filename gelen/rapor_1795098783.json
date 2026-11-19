@@ -1,0 +1,65 @@
+{
+ "tts": [],
+ "url": [
+  {
+   "out": "gelen/ruya/frames/jar_shelf_empty.jpg",
+   "bytes": 3328000
+  },
+  {
+   "out": "gelen/ruya/frames/shadow_vanish.jpg",
+   "bytes": 3106303
+  },
+  {
+   "out": "gelen/ruya/frames/shadow_step_back.jpg",
+   "bytes": 3096150
+  },
+  {
+   "out": "gelen/ruya/frames/lantern_flare.jpg",
+   "bytes": 2949271
+  },
+  {
+   "out": "gelen/ruya/frames/shadow_hand.jpg",
+   "bytes": 3192444
+  },
+  {
+   "out": "gelen/ruya/frames/theo_bridge.jpg",
+   "bytes": 2614673
+  },
+  {
+   "out": "gelen/ruya/frames/shadow_close.jpg",
+   "bytes": 3418681
+  },
+  {
+   "out": "gelen/ruya/frames/mira_bridge.jpg",
+   "bytes": 2308731
+  },
+  {
+   "out": "gelen/ruya/frames/shadow_bridge.jpg",
+   "bytes": 3581602
+  },
+  {
+   "out": "gelen/ruya/frames/bridge_fog.jpg",
+   "bytes": 3270334
+  },
+  {
+   "out": "gelen/ruya/frames/bridge_walk.jpg",
+   "bytes": 2697656
+  },
+  {
+   "out": "gelen/ruya/frames/theo_night.png",
+   "bytes": 6409393
+  },
+  {
+   "out": "gelen/ruya/frames/window_knock.jpg",
+   "bytes": 2936349
+  },
+  {
+   "out": "gelen/ruya/frames/lantern_close.jpg",
+   "bytes": 3282022
+  },
+  {
+   "out": "gelen/ruya/frames/bedroom_lantern.jpg",
+   "bytes": 2656355
+  }
+ ]
+}

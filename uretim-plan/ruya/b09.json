@@ -1,0 +1,220 @@
+{
+ "ep": 9,
+ "title": "What Mira Forgot",
+ "title_tr": "Mira'nın Unuttuğu",
+ "voices": {
+  "NARRATOR": "Brian",
+  "MIRA": "Jessica",
+  "ELIAS": "Bill",
+  "THEO": "Liam",
+  "ANNA": "Sarah",
+  "SHADOW": "Callum"
+ },
+ "shots": [
+  {
+   "id": "s01",
+   "lip": false,
+   "frame": "mira_room",
+   "prompt": "Mira alone in a dark room holding the glowing lantern",
+   "lines": [
+    [
+     "NARRATOR",
+     "Some dreams are forgotten because they are too heavy to carry."
+    ]
+   ]
+  },
+  {
+   "id": "s02",
+   "lip": false,
+   "frame": "lantern_close",
+   "prompt": "The brass lantern glows, silver light spilling out like memories",
+   "lines": []
+  },
+  {
+   "id": "s03",
+   "lip": true,
+   "frame": "mira_room",
+   "prompt": "Mira speaks to the lantern",
+   "lines": [
+    [
+     "MIRA",
+     "Lumen, show me. Whatever it is, I'm ready."
+    ]
+   ]
+  },
+  {
+   "id": "s04",
+   "lip": false,
+   "frame": "memory_beach",
+   "prompt": "A golden memory: a little girl of six with dark curly hair and her father fly a star-shaped kite on a beach at sunset",
+   "lines": []
+  },
+  {
+   "id": "s05",
+   "lip": false,
+   "frame": "memory_father",
+   "prompt": "A golden memory: a father with dark curly hair lifts his little curly-haired daughter onto his shoulders under the night stars, pointing at one star",
+   "lines": [
+    [
+     "NARRATOR",
+     "Mira's father had a dream too. A dream of the stars."
+    ]
+   ]
+  },
+  {
+   "id": "s06",
+   "lip": true,
+   "frame": "mira_room",
+   "prompt": "Mira remembering, teary smile",
+   "lines": [
+    [
+     "MIRA",
+     "Dad. He used to say every star is a dream someone forgot to wake up."
+    ]
+   ]
+  },
+  {
+   "id": "s07",
+   "lip": false,
+   "frame": "memory_goodbye",
+   "prompt": "A golden memory: at dawn a father kneels and places a small brass lantern into the hands of his little curly-haired daughter",
+   "lines": []
+  },
+  {
+   "id": "s08",
+   "lip": true,
+   "frame": "mira_room",
+   "prompt": "Mira sad, holding the lantern",
+   "lines": [
+    [
+     "MIRA",
+     "He gave me the lantern. Before he left. And I stopped dreaming."
+    ]
+   ]
+  },
+  {
+   "id": "s09",
+   "lip": false,
+   "frame": "anna_hallway",
+   "prompt": "The mother in a nurse uniform comes home late at night, walking down the hallway",
+   "lines": []
+  },
+  {
+   "id": "s10",
+   "lip": true,
+   "frame": "kitchen_anna",
+   "prompt": "Anna gentle, worried",
+   "lines": [
+    [
+     "ANNA",
+     "Mira? You're up again. Are you thinking about your father?"
+    ]
+   ]
+  },
+  {
+   "id": "s11",
+   "lip": true,
+   "frame": "kitchen_mira",
+   "prompt": "Mira honest, sad",
+   "lines": [
+    [
+     "MIRA",
+     "I forgot him, Mom. I made myself forget, so it wouldn't hurt."
+    ]
+   ]
+  },
+  {
+   "id": "s12",
+   "lip": true,
+   "frame": "kitchen_anna",
+   "prompt": "Anna warm, comforting",
+   "lines": [
+    [
+     "ANNA",
+     "Remembering hurts a little. But forgetting hurts more, sweetheart."
+    ]
+   ]
+  },
+  {
+   "id": "s13",
+   "lip": false,
+   "frame": "memory_kitchen",
+   "prompt": "A warm kitchen, golden light, a family memory",
+   "lines": []
+  },
+  {
+   "id": "s14",
+   "lip": true,
+   "frame": "theo_night",
+   "prompt": "Theo at night outside, excited",
+   "lines": [
+    [
+     "THEO",
+     "Mira! Your window is glowing like crazy. Something's happening!"
+    ]
+   ]
+  },
+  {
+   "id": "s15",
+   "lip": false,
+   "frame": "lumen_hover",
+   "prompt": "A silver ribbon of light circles gently and warmly in the air",
+   "lines": []
+  },
+  {
+   "id": "s16",
+   "lip": true,
+   "frame": "mira_room",
+   "prompt": "Mira smiling through tears",
+   "lines": [
+    [
+     "MIRA",
+     "You were never just a dream, Lumen. You were my dad's star."
+    ]
+   ]
+  },
+  {
+   "id": "s17",
+   "lip": false,
+   "frame": "lantern_flare",
+   "prompt": "The brass lantern flares with bright silver light, then settles calm",
+   "lines": []
+  },
+  {
+   "id": "s18",
+   "lip": true,
+   "frame": "elias_candle",
+   "prompt": "Elias proud and serious",
+   "lines": [
+    [
+     "ELIAS",
+     "Lumen trusts you now. But the Shadow waits at the Archive's heart."
+    ]
+   ]
+  },
+  {
+   "id": "s19",
+   "lip": true,
+   "frame": "mira_room",
+   "prompt": "Mira determined",
+   "lines": [
+    [
+     "MIRA",
+     "Then that's where we're going. Tonight, every dream comes home."
+    ]
+   ]
+  },
+  {
+   "id": "s20",
+   "lip": false,
+   "frame": "star_window",
+   "prompt": "Night, a bright star over the rooftops",
+   "lines": [
+    [
+     "NARRATOR",
+     "The final night was here."
+    ]
+   ]
+  }
+ ]
+}

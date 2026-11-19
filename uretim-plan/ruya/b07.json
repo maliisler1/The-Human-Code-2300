@@ -1,0 +1,244 @@
+{
+ "ep": 7,
+ "title": "Map of Sleeping Stars",
+ "title_tr": "Uyuyan Yıldızların Haritası",
+ "voices": {
+  "NARRATOR": "Brian",
+  "MIRA": "Jessica",
+  "ELIAS": "Bill",
+  "THEO": "Liam",
+  "ANNA": "Sarah",
+  "SHADOW": "Callum"
+ },
+ "shots": [
+  {
+   "id": "s01",
+   "lip": false,
+   "frame": "attic_night",
+   "prompt": "Night, the old house roof, a small attic window glowing silver",
+   "lines": [
+    [
+     "NARRATOR",
+     "Five nights gone. Two left. And Lumen's trail led upward, to the attic."
+    ]
+   ]
+  },
+  {
+   "id": "s02",
+   "lip": false,
+   "frame": "attic_stairs",
+   "prompt": "Mira and Theo climb narrow creaky attic stairs at night, the brass lantern glowing silver, dust floating",
+   "lines": []
+  },
+  {
+   "id": "s03",
+   "lip": true,
+   "frame": "mira_attic",
+   "prompt": "Mira in a dusty attic looking at silver dust on the floor",
+   "lines": [
+    [
+     "MIRA",
+     "Lumen came up here. Look, silver dust on every step."
+    ]
+   ]
+  },
+  {
+   "id": "s04",
+   "lip": true,
+   "frame": "theo_attic",
+   "prompt": "Theo in the dark attic holding a flashlight, nervous",
+   "lines": [
+    [
+     "THEO",
+     "Great. A dark attic. My favourite place. Said nobody, ever."
+    ]
+   ]
+  },
+  {
+   "id": "s05",
+   "lip": false,
+   "frame": "star_map",
+   "prompt": "An old dusty star map pinned on the attic wall, its stars lighting up silver one by one",
+   "lines": []
+  },
+  {
+   "id": "s06",
+   "lip": true,
+   "frame": "mira_attic",
+   "prompt": "Mira studies the glowing map",
+   "lines": [
+    [
+     "MIRA",
+     "It's a map of the sky. But the stars are moving."
+    ]
+   ]
+  },
+  {
+   "id": "s07",
+   "lip": false,
+   "frame": "lumen_map",
+   "prompt": "A ribbon of silver light swirls across the star map, connecting the stars into a glowing path",
+   "lines": []
+  },
+  {
+   "id": "s08",
+   "lip": true,
+   "frame": "theo_attic",
+   "prompt": "Theo points at the map",
+   "lines": [
+    [
+     "THEO",
+     "Those stars make a path. Straight down to the Archive."
+    ]
+   ]
+  },
+  {
+   "id": "s09",
+   "lip": false,
+   "frame": "map_signature",
+   "prompt": "Close-up of the corner of the old star map, a faded handwritten letter E and an old date in ink",
+   "lines": []
+  },
+  {
+   "id": "s10",
+   "lip": true,
+   "frame": "mira_attic",
+   "prompt": "Mira reads the corner of the map, surprised",
+   "lines": [
+    [
+     "MIRA",
+     "There's a name here. Elias. He drew this map."
+    ]
+   ]
+  },
+  {
+   "id": "s11",
+   "lip": false,
+   "frame": "archive_wide",
+   "prompt": "The vast underground archive of glowing glass jars, warm amber light",
+   "lines": []
+  },
+  {
+   "id": "s12",
+   "lip": true,
+   "frame": "mira_archive",
+   "prompt": "Mira in the archive, holding the lantern",
+   "lines": [
+    [
+     "MIRA",
+     "Elias, you made the star map. Why didn't you tell me?"
+    ]
+   ]
+  },
+  {
+   "id": "s13",
+   "lip": true,
+   "frame": "elias_candle",
+   "prompt": "Elias holding a candle, thoughtful",
+   "lines": [
+    [
+     "ELIAS",
+     "Because the map shows where every lost dream sleeps. Even mine."
+    ]
+   ]
+  },
+  {
+   "id": "s14",
+   "lip": true,
+   "frame": "elias_candle",
+   "prompt": "Elias remembering, sad smile",
+   "lines": [
+    [
+     "ELIAS",
+     "Long ago, I was a keeper with a friend. We guarded these stars together."
+    ]
+   ]
+  },
+  {
+   "id": "s15",
+   "lip": false,
+   "frame": "young_keepers",
+   "prompt": "A golden dreamy memory: two young archivists in old robes walk among glowing jars holding lanterns, seen from behind",
+   "lines": []
+  },
+  {
+   "id": "s16",
+   "lip": true,
+   "frame": "theo_closeup",
+   "prompt": "Theo realizing something",
+   "lines": [
+    [
+     "THEO",
+     "Wait. Your friend. Is he... the Shadow?"
+    ]
+   ]
+  },
+  {
+   "id": "s17",
+   "lip": true,
+   "frame": "elias_candle",
+   "prompt": "Elias nods slowly",
+   "lines": [
+    [
+     "ELIAS",
+     "He was my friend once. He grew tired of dreams that hurt."
+    ]
+   ]
+  },
+  {
+   "id": "s18",
+   "lip": false,
+   "frame": "jars_dim",
+   "prompt": "Rows of glass jars in the archive dim and go grey one by one",
+   "lines": [
+    [
+     "NARRATOR",
+     "Somewhere in the dark, the jars began to go quiet."
+    ]
+   ]
+  },
+  {
+   "id": "s19",
+   "lip": true,
+   "frame": "mira_archive",
+   "prompt": "Mira determined, lantern raised",
+   "lines": [
+    [
+     "MIRA",
+     "Then we follow the map. We find Lumen before he does."
+    ]
+   ]
+  },
+  {
+   "id": "s20",
+   "lip": false,
+   "frame": "lantern_close",
+   "prompt": "The brass lantern glows brighter silver, the light pointing the way",
+   "lines": []
+  },
+  {
+   "id": "s21",
+   "lip": true,
+   "frame": "theo_closeup",
+   "prompt": "Theo smiles bravely",
+   "lines": [
+    [
+     "THEO",
+     "Two nights left. Fine. But I'm bringing more cookies."
+    ]
+   ]
+  },
+  {
+   "id": "s22",
+   "lip": false,
+   "frame": "star_window",
+   "prompt": "Night, a bright star over the rooftops, the lantern glowing on the windowsill",
+   "lines": [
+    [
+     "NARRATOR",
+     "And on the sixth night, the Shadow made his move."
+    ]
+   ]
+  }
+ ]
+}

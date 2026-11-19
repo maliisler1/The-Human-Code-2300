@@ -1,0 +1,237 @@
+{
+ "ep": 8,
+ "title": "The Seventh Night Begins",
+ "title_tr": "Yedinci Gece Başlıyor",
+ "voices": {
+  "NARRATOR": "Brian",
+  "MIRA": "Jessica",
+  "ELIAS": "Bill",
+  "THEO": "Liam",
+  "ANNA": "Sarah",
+  "SHADOW": "Callum"
+ },
+ "shots": [
+  {
+   "id": "s01",
+   "lip": false,
+   "frame": "city_night",
+   "prompt": "Night over the old city, cold mist rolling over the rooftops",
+   "lines": [
+    [
+     "NARRATOR",
+     "The seventh night. The last night. And the Archive had gone silent."
+    ]
+   ]
+  },
+  {
+   "id": "s02",
+   "lip": false,
+   "frame": "archive_silent",
+   "prompt": "Dark archive aisles, the glass jars grey and silent, cold blue mist on the floor",
+   "lines": []
+  },
+  {
+   "id": "s03",
+   "lip": true,
+   "frame": "elias_candle",
+   "prompt": "Elias whispering urgently",
+   "lines": [
+    [
+     "ELIAS",
+     "He is here. He is silencing the jars, one by one."
+    ]
+   ]
+  },
+  {
+   "id": "s04",
+   "lip": true,
+   "frame": "mira_archive",
+   "prompt": "Mira scared but brave",
+   "lines": [
+    [
+     "MIRA",
+     "If he silences Lumen, I forget my dream forever."
+    ]
+   ]
+  },
+  {
+   "id": "s05",
+   "lip": false,
+   "frame": "shadow_aisle",
+   "prompt": "A tall faceless shadow in a wide hat walks slowly down an archive aisle, glowing jars turning grey where he passes",
+   "lines": []
+  },
+  {
+   "id": "s06",
+   "lip": false,
+   "frame": "shadow_close",
+   "prompt": "The tall shadow in the wide hat in the misty dark, face hidden",
+   "lines": [
+    [
+     "SHADOW",
+     "Quiet dreams cannot hurt anyone. I am only keeping you safe."
+    ]
+   ]
+  },
+  {
+   "id": "s07",
+   "lip": true,
+   "frame": "theo_closeup",
+   "prompt": "Theo angry and brave",
+   "lines": [
+    [
+     "THEO",
+     "Safe? You're turning dreams into dust!"
+    ]
+   ]
+  },
+  {
+   "id": "s08",
+   "lip": true,
+   "frame": "mira_archive",
+   "prompt": "Mira stands firm",
+   "lines": [
+    [
+     "MIRA",
+     "Dreams aren't supposed to be safe. They're supposed to be ours."
+    ]
+   ]
+  },
+  {
+   "id": "s09",
+   "lip": false,
+   "frame": "lumen_hover",
+   "prompt": "A silver ribbon of light hovers and hides close to the brass lantern",
+   "lines": []
+  },
+  {
+   "id": "s10",
+   "lip": false,
+   "frame": "shadow_hand",
+   "prompt": "A gloved shadow hand reaches slowly through the mist",
+   "lines": [
+    [
+     "SHADOW",
+     "Give me the light, child. Then you will never be sad again."
+    ]
+   ]
+  },
+  {
+   "id": "s11",
+   "lip": true,
+   "frame": "mira_reach",
+   "prompt": "Mira holds the lantern close",
+   "lines": [
+    [
+     "MIRA",
+     "Then I'd never be happy either."
+    ]
+   ]
+  },
+  {
+   "id": "s12",
+   "lip": false,
+   "frame": "music_box_glow",
+   "prompt": "A small golden music box glows warmly, opening by itself",
+   "lines": []
+  },
+  {
+   "id": "s13",
+   "lip": true,
+   "frame": "elias_flare",
+   "prompt": "Elias shouting with hope",
+   "lines": [
+    [
+     "ELIAS",
+     "Mira, the lullaby! Sing the song your mother sang!"
+    ]
+   ]
+  },
+  {
+   "id": "s14",
+   "lip": true,
+   "frame": "mira_archive",
+   "prompt": "Mira sings softly, eyes closed",
+   "lines": [
+    [
+     "MIRA",
+     "Hush now, little star. The night will keep you near."
+    ]
+   ]
+  },
+  {
+   "id": "s15",
+   "lip": false,
+   "frame": "music_wave",
+   "prompt": "A wave of glowing golden musical notes bursts outward, pushing back cold blue frost",
+   "lines": []
+  },
+  {
+   "id": "s16",
+   "lip": false,
+   "frame": "shadow_step_back",
+   "prompt": "The tall shadow steps back, hat tilting, golden light all around",
+   "lines": []
+  },
+  {
+   "id": "s17",
+   "lip": true,
+   "frame": "theo_closeup",
+   "prompt": "Theo amazed and happy",
+   "lines": [
+    [
+     "THEO",
+     "It's working! The jars are waking up!"
+    ]
+   ]
+  },
+  {
+   "id": "s18",
+   "lip": false,
+   "frame": "shadow_fade",
+   "prompt": "The shadow fades into the mist",
+   "lines": [
+    [
+     "SHADOW",
+     "This is not over. Before dawn, the light will be mine."
+    ]
+   ]
+  },
+  {
+   "id": "s19",
+   "lip": true,
+   "frame": "mira_archive",
+   "prompt": "Mira breathing hard, determined",
+   "lines": [
+    [
+     "MIRA",
+     "Before dawn. Then we have until sunrise."
+    ]
+   ]
+  },
+  {
+   "id": "s20",
+   "lip": true,
+   "frame": "elias_candle",
+   "prompt": "Elias serious and gentle",
+   "lines": [
+    [
+     "ELIAS",
+     "And Mira. To keep Lumen, you must remember what you forgot."
+    ]
+   ]
+  },
+  {
+   "id": "s21",
+   "lip": false,
+   "frame": "star_window",
+   "prompt": "Night, a bright star over the rooftops",
+   "lines": [
+    [
+     "NARRATOR",
+     "But what had Mira forgotten? And why did it hurt so much to remember?"
+    ]
+   ]
+  }
+ ]
+}

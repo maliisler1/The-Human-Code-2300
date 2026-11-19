@@ -1,0 +1,147 @@
+{
+ "tts": [
+  {
+   "out": "gelen/ruya/b09/s01_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Some dreams are forgotten because they are too heavy to carry.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b09/s03_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "Lumen, show me. Whatever it is, I'm ready.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b09/s05_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Mira's father had a dream too. A dream of the stars.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b09/s06_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "Dad. He used to say every star is a dream someone forgot to wake up.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b09/s08_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "He gave me the lantern. Before he left. And I stopped dreaming.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b09/s10_0_ANNA.mp3",
+   "voice": "Sarah",
+   "lang": "en",
+   "text": "Mira? You're up again. Are you thinking about your father?",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b09/s11_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "I forgot him, Mom. I made myself forget, so it wouldn't hurt.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b09/s12_0_ANNA.mp3",
+   "voice": "Sarah",
+   "lang": "en",
+   "text": "Remembering hurts a little. But forgetting hurts more, sweetheart.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b09/s14_0_THEO.mp3",
+   "voice": "Liam",
+   "lang": "en",
+   "text": "Mira! Your window is glowing like crazy. Something's happening!",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b09/s16_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "You were never just a dream, Lumen. You were my dad's star.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b09/s18_0_ELIAS.mp3",
+   "voice": "Bill",
+   "lang": "en",
+   "text": "Lumen trusts you now. But the Shadow waits at the Archive's heart.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b09/s19_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "Then that's where we're going. Tonight, every dream comes home.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b09/s20_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "The final night was here.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  }
+ ]
+}

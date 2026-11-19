@@ -1,0 +1,169 @@
+{
+ "tts": [
+  {
+   "out": "gelen/ruya/b07/s01_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Five nights gone. Two left. And Lumen's trail led upward, to the attic.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b07/s03_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "Lumen came up here. Look, silver dust on every step.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b07/s04_0_THEO.mp3",
+   "voice": "Liam",
+   "lang": "en",
+   "text": "Great. A dark attic. My favourite place. Said nobody, ever.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b07/s06_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "It's a map of the sky. But the stars are moving.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b07/s08_0_THEO.mp3",
+   "voice": "Liam",
+   "lang": "en",
+   "text": "Those stars make a path. Straight down to the Archive.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b07/s10_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "There's a name here. Elias. He drew this map.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b07/s12_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "Elias, you made the star map. Why didn't you tell me?",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b07/s13_0_ELIAS.mp3",
+   "voice": "Bill",
+   "lang": "en",
+   "text": "Because the map shows where every lost dream sleeps. Even mine.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b07/s14_0_ELIAS.mp3",
+   "voice": "Bill",
+   "lang": "en",
+   "text": "Long ago, I was a keeper with a friend. We guarded these stars together.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b07/s16_0_THEO.mp3",
+   "voice": "Liam",
+   "lang": "en",
+   "text": "Wait. Your friend. Is he... the Shadow?",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b07/s17_0_ELIAS.mp3",
+   "voice": "Bill",
+   "lang": "en",
+   "text": "He was my friend once. He grew tired of dreams that hurt.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b07/s18_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Somewhere in the dark, the jars began to go quiet.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b07/s19_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "Then we follow the map. We find Lumen before he does.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b07/s21_0_THEO.mp3",
+   "voice": "Liam",
+   "lang": "en",
+   "text": "Two nights left. Fine. But I'm bringing more cookies.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b07/s22_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "And on the sixth night, the Shadow made his move.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  }
+ ]
+}

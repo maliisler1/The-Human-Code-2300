@@ -1,0 +1,244 @@
+{
+ "ep": 10,
+ "title": "Every Dream Comes Home",
+ "title_tr": "Her Rüya Evine Döner",
+ "voices": {
+  "NARRATOR": "Brian",
+  "MIRA": "Jessica",
+  "ELIAS": "Bill",
+  "THEO": "Liam",
+  "ANNA": "Sarah",
+  "SHADOW": "Callum"
+ },
+ "shots": [
+  {
+   "id": "s01",
+   "lip": false,
+   "frame": "archive_wide",
+   "prompt": "The vast archive of glowing jars, a faint dawn glow far above",
+   "lines": [
+    [
+     "NARRATOR",
+     "The last night. Dawn was coming. And so was the Shadow."
+    ]
+   ]
+  },
+  {
+   "id": "s02",
+   "lip": false,
+   "frame": "heart_archive",
+   "prompt": "A huge round chamber at the heart of the archive, a giant glass jar in the centre, silver stars swirling around it",
+   "lines": []
+  },
+  {
+   "id": "s03",
+   "lip": true,
+   "frame": "mira_archive",
+   "prompt": "Mira looking up in awe",
+   "lines": [
+    [
+     "MIRA",
+     "This is the heart of the Archive. Every dream ends up here."
+    ]
+   ]
+  },
+  {
+   "id": "s04",
+   "lip": false,
+   "frame": "shadow_stairs",
+   "prompt": "The tall shadow in a wide hat descends a dark stone staircase",
+   "lines": []
+  },
+  {
+   "id": "s05",
+   "lip": false,
+   "frame": "shadow_close",
+   "prompt": "The tall shadow in the wide hat, face hidden in darkness",
+   "lines": [
+    [
+     "SHADOW",
+     "Give me the light. I will put it to sleep, like all the others."
+    ]
+   ]
+  },
+  {
+   "id": "s06",
+   "lip": true,
+   "frame": "theo_closeup",
+   "prompt": "Theo stands in front of Mira",
+   "lines": [
+    [
+     "THEO",
+     "No way. You'll have to get past me. And my flashlight."
+    ]
+   ]
+  },
+  {
+   "id": "s07",
+   "lip": true,
+   "frame": "elias_candle",
+   "prompt": "Elias calm and kind",
+   "lines": [
+    [
+     "ELIAS",
+     "Old friend. You don't have to do this anymore."
+    ]
+   ]
+  },
+  {
+   "id": "s08",
+   "lip": false,
+   "frame": "shadow_hat_off",
+   "prompt": "A tall figure in a dark cloak slowly takes off his wide hat, revealing a tired old man with a grey beard and sad kind eyes",
+   "lines": []
+  },
+  {
+   "id": "s09",
+   "lip": true,
+   "frame": "shadow_hat_off",
+   "prompt": "The old man speaks sadly",
+   "lines": [
+    [
+     "SHADOW",
+     "I silenced dreams so no one would feel the pain I felt. I was so alone."
+    ]
+   ]
+  },
+  {
+   "id": "s10",
+   "lip": true,
+   "frame": "mira_reach",
+   "prompt": "Mira gentle, reaching out",
+   "lines": [
+    [
+     "MIRA",
+     "You're not alone. Dreams hurt sometimes. That's how we know they matter."
+    ]
+   ]
+  },
+  {
+   "id": "s11",
+   "lip": false,
+   "frame": "lumen_hover",
+   "prompt": "A silver ribbon of light floats out of the brass lantern toward a giant glass jar",
+   "lines": []
+  },
+  {
+   "id": "s12",
+   "lip": true,
+   "frame": "mira_archive",
+   "prompt": "Mira calling softly",
+   "lines": [
+    [
+     "MIRA",
+     "Lumen, you don't belong in a jar. You belong with me."
+    ]
+   ]
+  },
+  {
+   "id": "s13",
+   "lip": false,
+   "frame": "lumen_heart",
+   "prompt": "A ribbon of silver light flows gently into the chest of the girl, she glows softly and smiles with closed eyes",
+   "lines": []
+  },
+  {
+   "id": "s14",
+   "lip": false,
+   "frame": "music_wave",
+   "prompt": "All the jars in the archive light up golden at once, musical notes floating",
+   "lines": [
+    [
+     "NARRATOR",
+     "And for the first time in years, every jar in the Archive began to sing."
+    ]
+   ]
+  },
+  {
+   "id": "s15",
+   "lip": true,
+   "frame": "elias_flare",
+   "prompt": "Elias joyful",
+   "lines": [
+    [
+     "ELIAS",
+     "She did it. She brought her dream home."
+    ]
+   ]
+  },
+  {
+   "id": "s16",
+   "lip": false,
+   "frame": "keepers_hug",
+   "prompt": "Two old archivists, one with long silver hair in green robe and one with grey beard in dark cloak, embrace among glowing golden jars",
+   "lines": []
+  },
+  {
+   "id": "s17",
+   "lip": true,
+   "frame": "theo_closeup",
+   "prompt": "Theo tired and happy",
+   "lines": [
+    [
+     "THEO",
+     "So we saved every dream in the city. Can we sleep now?"
+    ]
+   ]
+  },
+  {
+   "id": "s18",
+   "lip": true,
+   "frame": "mira_archive",
+   "prompt": "Mira laughing",
+   "lines": [
+    [
+     "MIRA",
+     "Yes, Theo. Now we can finally dream."
+    ]
+   ]
+  },
+  {
+   "id": "s19",
+   "lip": false,
+   "frame": "city_morning",
+   "prompt": "Sunrise over the old city rooftops, golden light",
+   "lines": []
+  },
+  {
+   "id": "s20",
+   "lip": true,
+   "frame": "kitchen_anna",
+   "prompt": "Anna in the morning kitchen, loving",
+   "lines": [
+    [
+     "ANNA",
+     "Good morning, my star. Did you sleep well?"
+    ]
+   ]
+  },
+  {
+   "id": "s21",
+   "lip": true,
+   "frame": "kitchen_mira",
+   "prompt": "Mira happy in the kitchen",
+   "lines": [
+    [
+     "MIRA",
+     "I dreamed of Dad. And it didn't hurt. It was beautiful."
+    ]
+   ]
+  },
+  {
+   "id": "s22",
+   "lip": false,
+   "frame": "new_jar",
+   "prompt": "In the dark archive one new glass jar on a shelf slowly begins to glow purple",
+   "lines": [
+    [
+     "NARRATOR",
+     "But deep in the Archive, a new jar began to glow."
+    ]
+   ]
+  }
+ ]
+}

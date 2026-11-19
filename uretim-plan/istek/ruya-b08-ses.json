@@ -1,0 +1,169 @@
+{
+ "tts": [
+  {
+   "out": "gelen/ruya/b08/s01_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "The seventh night. The last night. And the Archive had gone silent.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b08/s03_0_ELIAS.mp3",
+   "voice": "Bill",
+   "lang": "en",
+   "text": "He is here. He is silencing the jars, one by one.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b08/s04_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "If he silences Lumen, I forget my dream forever.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b08/s06_0_SHADOW.mp3",
+   "voice": "Callum",
+   "lang": "en",
+   "text": "Quiet dreams cannot hurt anyone. I am only keeping you safe.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b08/s07_0_THEO.mp3",
+   "voice": "Liam",
+   "lang": "en",
+   "text": "Safe? You're turning dreams into dust!",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b08/s08_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "Dreams aren't supposed to be safe. They're supposed to be ours.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b08/s10_0_SHADOW.mp3",
+   "voice": "Callum",
+   "lang": "en",
+   "text": "Give me the light, child. Then you will never be sad again.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b08/s11_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "Then I'd never be happy either.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b08/s13_0_ELIAS.mp3",
+   "voice": "Bill",
+   "lang": "en",
+   "text": "Mira, the lullaby! Sing the song your mother sang!",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b08/s14_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "Hush now, little star. The night will keep you near.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b08/s17_0_THEO.mp3",
+   "voice": "Liam",
+   "lang": "en",
+   "text": "It's working! The jars are waking up!",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b08/s18_0_SHADOW.mp3",
+   "voice": "Callum",
+   "lang": "en",
+   "text": "This is not over. Before dawn, the light will be mine.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b08/s19_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "Before dawn. Then we have until sunrise.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b08/s20_0_ELIAS.mp3",
+   "voice": "Bill",
+   "lang": "en",
+   "text": "And Mira. To keep Lumen, you must remember what you forgot.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b08/s21_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "But what had Mira forgotten? And why did it hurt so much to remember?",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  }
+ ]
+}

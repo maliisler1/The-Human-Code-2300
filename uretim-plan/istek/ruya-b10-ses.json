@@ -1,0 +1,169 @@
+{
+ "tts": [
+  {
+   "out": "gelen/ruya/b10/s01_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "The last night. Dawn was coming. And so was the Shadow.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b10/s03_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "This is the heart of the Archive. Every dream ends up here.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b10/s05_0_SHADOW.mp3",
+   "voice": "Callum",
+   "lang": "en",
+   "text": "Give me the light. I will put it to sleep, like all the others.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b10/s06_0_THEO.mp3",
+   "voice": "Liam",
+   "lang": "en",
+   "text": "No way. You'll have to get past me. And my flashlight.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b10/s07_0_ELIAS.mp3",
+   "voice": "Bill",
+   "lang": "en",
+   "text": "Old friend. You don't have to do this anymore.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b10/s09_0_SHADOW.mp3",
+   "voice": "Callum",
+   "lang": "en",
+   "text": "I silenced dreams so no one would feel the pain I felt. I was so alone.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b10/s10_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "You're not alone. Dreams hurt sometimes. That's how we know they matter.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b10/s12_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "Lumen, you don't belong in a jar. You belong with me.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b10/s14_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "And for the first time in years, every jar in the Archive began to sing.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b10/s15_0_ELIAS.mp3",
+   "voice": "Bill",
+   "lang": "en",
+   "text": "She did it. She brought her dream home.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b10/s17_0_THEO.mp3",
+   "voice": "Liam",
+   "lang": "en",
+   "text": "So we saved every dream in the city. Can we sleep now?",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b10/s18_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "Yes, Theo. Now we can finally dream.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b10/s20_0_ANNA.mp3",
+   "voice": "Sarah",
+   "lang": "en",
+   "text": "Good morning, my star. Did you sleep well?",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b10/s21_0_MIRA.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "I dreamed of Dad. And it didn't hurt. It was beautiful.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b10/s22_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "But deep in the Archive, a new jar began to glow.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  }
+ ]
+}

@@ -305,6 +305,7 @@ export function useT() {
 /** Üyelik ve oynatıcı için ek çeviriler (diğer diller İngilizce'ye düşer). */
 const extra: Partial<Record<Lang, Dict>> = {
   tr: {
+    trailer: "Fragmanı izle", trailer_soon: "Fragman yakında",
     capsule_cta: "Senin kapsülün kaç?", capsule_cta_sub: "Kurtarılan 23 kişiden hangisisin? 30 saniyelik test.",
     sign_in: "Giriş Yap", sign_up: "Kayıt Ol", email: "E-posta", password: "Şifre", your_name: "Adınız",
     continue_google: "Google ile devam et", logout: "Çıkış Yap", account: "Hesabım",
@@ -335,6 +336,7 @@ const extra: Partial<Record<Lang, Dict>> = {
     gen_star_desc: "Başrol: Genç, aydınlık saçlar, altın yansımalar. Bazı bölümlerde saç toplu atkuyruğu.",
   },
   en: {
+    trailer: "Watch trailer", trailer_soon: "Trailer coming soon",
     capsule_cta: "What's your capsule?", capsule_cta_sub: "Which of the 23 survivors are you? 30-second quiz.",
     sign_in: "Sign in", sign_up: "Sign up", email: "Email", password: "Password", your_name: "Your name",
     continue_google: "Continue with Google", logout: "Log out", account: "My account",

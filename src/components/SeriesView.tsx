@@ -30,6 +30,8 @@ import { ads } from "@/lib/ads";
 import { offline, useOffline } from "@/lib/offline";
 import { BUNDLED_POSTERS } from "@/lib/posters";
 import { episodeHook, episodeThumb } from "@/lib/episodeArt";
+import { SERIES_TRAILERS } from "@/lib/trailers";
+import { TrailerModal } from "@/components/TrailerModal";
 import { useAppState } from "@/lib/store";
 import { useT, LANG_NAMES, SUB_NAMES } from "@/lib/i18n";
 
@@ -52,11 +54,13 @@ export function SeriesView({
   const [locked, setLocked] = useState<{ n: number; id: string } | null>(null);
   const [adBusy, setAdBusy] = useState(false);
   const [downloading, setDownloading] = useState<string | null>(null);
+  const [showTrailer, setShowTrailer] = useState(false);
   const { t, lang } = useT();
   const nav = useNavigate();
   const s = all.find((x) => x.id === id) as SeriesRow;
   const tx = seriesTextOf(s, lang);
   const poster = BUNDLED_POSTERS[s.slug];
+  const trailer = SERIES_TRAILERS[s.slug];
   const st = (v: string) =>
     t(v === "ready" ? "st_ready" : v === "planned" ? "st_planned" : "st_none");
   const audioSt = trackStatus(
@@ -135,7 +139,18 @@ export function SeriesView({
   return (
     <AppShell>
       <div className="relative">
-        {poster ? (
+        {trailer ? (
+          <video
+            src={trailer.video}
+            poster={poster ?? trailer.poster}
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="auto"
+            className="aspect-[4/5] w-full object-cover"
+          />
+        ) : poster ? (
           <img
             src={poster}
             alt={s.title}
@@ -174,6 +189,17 @@ export function SeriesView({
           >
             <Play className="h-4 w-4 fill-current" /> {t("watch_ep1")}
           </button>
+        )}
+        {trailer && (
+          <button
+            onClick={() => setShowTrailer(true)}
+            className="mt-2 inline-flex w-full items-center justify-center gap-2 rounded-full border border-gold/60 py-3 text-sm font-semibold text-gold"
+          >
+            <Film className="h-4 w-4" /> {t("trailer")}
+          </button>
+        )}
+        {trailer && showTrailer && (
+          <TrailerModal src={trailer.video} poster={trailer.poster} title={s.title} onClose={() => setShowTrailer(false)} />
         )}
         {first && eps.length > 1 && (
           <button

@@ -7,6 +7,10 @@ import { episodeListQuery, seriesListQuery, type SeriesRow } from "@/lib/catalog
 import { FEATURED_SLUG } from "@/lib/data";
 import { BUNDLED_POSTERS } from "@/lib/posters";
 import { useT } from "@/lib/i18n";
+import { UPCOMING, trailerUrl } from "@/lib/trailers";
+import { TrailerModal } from "@/components/TrailerModal";
+import { useState } from "react";
+import { toast } from "sonner";
 
 /** Ana dizi: önce sabit slug, yoksa ilk yayımlanmış dizi, yoksa listedeki ilk dizi. */
 export function pickFeatured(all: SeriesRow[]): SeriesRow | undefined {
@@ -38,11 +42,6 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-/** Sıradaki diziler (fragmanları yakında). */
-const UPCOMING = [
-  { title: "Rüya Arşivi", month: new Date(2026, 11, 1), bg: "from-indigo-950 via-violet-900 to-fuchsia-900" },
-  { title: "Gezegen Hatası", month: new Date(2027, 0, 1), bg: "from-emerald-950 via-teal-900 to-cyan-900" },
-];
 
 function monthName(d: Date, lang: string) {
   try {
@@ -58,6 +57,7 @@ function Index() {
   const featured = pickFeatured(all);
   if (!featured) return <AppShell><p className="px-5 pt-10 text-sm text-muted-foreground">{t("loading")}</p></AppShell>;
   const others = otherPublished(all, featured);
+  const [play, setPlay] = useState<{ src: string; title: string } | null>(null);
 
   return (
     <SeriesView id={featured.id} slug={featured.slug} home>
@@ -73,14 +73,23 @@ function Index() {
         <h2 className="flex items-center gap-2 text-sm font-bold">
           <Sparkles className="h-4 w-4 text-gold" /> {t("coming_soon")}
         </h2>
-        <div className="mt-3 grid grid-cols-2 gap-3">
+        <div className="mt-3 flex snap-x gap-3 overflow-x-auto pb-2">
           {UPCOMING.map((u) => (
-            <div key={u.title} className={`flex aspect-[4/3] flex-col justify-between rounded-2xl border border-primary/30 bg-gradient-to-br p-4 ${u.bg}`}>
-              <p className="font-display text-lg font-bold leading-tight text-[#FFF4D6]">{u.title}</p>
-              <p className="text-xs font-semibold text-foreground/85">{monthName(u.month, lang)}</p>
-            </div>
+            <button
+              key={u.key}
+              onClick={() => (u.video ? setPlay({ src: trailerUrl(u.video), title: u.title }) : toast.info(t("trailer_soon")))}
+              className={`flex aspect-[3/4] w-40 shrink-0 snap-start flex-col justify-between rounded-2xl border border-primary/30 bg-gradient-to-br p-4 text-start ${u.bg}`}
+            >
+              <span className="self-start rounded-full bg-black/40 px-2 py-0.5 text-[10px] font-bold uppercase tracking-widest text-gold">{monthName(u.month, lang)}</span>
+              <span>
+                <span className="block font-display text-lg font-bold leading-tight text-[#FFF4D6]">{u.title}</span>
+                <span className="mt-1.5 line-clamp-3 block text-[11px] leading-snug text-foreground/80">{lang === "tr" ? u.hook.tr : u.hook.en}</span>
+                <span className="mt-2 inline-flex items-center gap-1 text-[11px] font-semibold text-gold">▶ {u.video ? t("trailer") : t("trailer_soon")}</span>
+              </span>
+            </button>
           ))}
         </div>
+        {play && <TrailerModal src={play.src} title={play.title} onClose={() => setPlay(null)} />}
       </section>
 
       {others.length > 0 && (

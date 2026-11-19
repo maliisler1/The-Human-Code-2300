@@ -20,3 +20,18 @@ window.lipGen=async(imgUrl,audUrl,prompt,sec,name)=>{ await clearRefs(); if(vchi
 window.bal=()=>parseInt(document.body.innerText.slice(0,12).replace(/[^0-9]/g,''));
 window.runList=async(L,logName)=>{ window[logName]=[]; for(const [a,img,p,s] of L){ let r; for(let t=0;t<3;t++){ try{ r=await lipGen(img,RAW+'lip/'+a+'.mp3',p,s,a);}catch(e){r='ERR '+a+e} if(r.includes('sent')) break; await sleep(3000);} window[logName].push(r); await sleep(2000);} window[logName].push('done');};
 'ml.js loaded';
+window.genCount=()=>(document.body.innerText.match(/Generating/g)||[]).length;
+window.setupFrame=async()=>{ const cur=[...document.querySelectorAll('button')].filter(b=>b.offsetParent).find(b=>/^(Frame|Reference|Text) to Video/.test(b.innerText)); if(!cur.innerText.startsWith('Frame')){ cur.click(); await sleep(800); [...document.querySelectorAll('button')].find(b=>b.innerText.startsWith('Frame to Video')).click(); await sleep(1200);}
+ if(!document.body.innerText.includes('Minimax H3 Fast')){ [...document.querySelectorAll('button')].filter(b=>b.offsetParent).find(b=>b.innerText.startsWith('Model')).click(); await sleep(800); [...document.querySelectorAll('strong')].find(e=>e.textContent.trim()=='Minimax H3 Fast').click(); await sleep(800);} await setDur(10); document.dispatchEvent(new KeyboardEvent('keydown',{key:'Escape',bubbles:true})); return document.body.innerText.includes('Minimax H3 Fast');};
+window.STY=' Photorealistic live-action family fantasy film, real human actors, natural human body movement and subtle facial expressions, realistic skin and hair, cinematic lighting, 35mm film look, shallow depth of field, smooth slow camera movement. Characters do not talk, mouths closed. No text, no subtitles, no music.';
+window.frameGen=async(imgUrl,prompt,name)=>{ for(let i=0;i<4;i++){ const r=[...document.querySelectorAll('button')].filter(b=>(b.getAttribute('aria-label')||b.textContent).trim()=='Remove'&&b.parentElement&&b.parentElement.offsetParent); if(!r.length)break; r[0].click(); await sleep(400);}
+ if(!document.body.innerText.includes('Add a start frame')) return name+' CANTCLEAR';
+ const ib=await shrink(await (await fetch(imgUrl)).blob());
+ const orig=HTMLInputElement.prototype.click; window.__picked=null; HTMLInputElement.prototype.click=function(){ if(this.type=='file'){window.__picked=this; return;} return orig.call(this);};
+ [...document.querySelectorAll('button')].find(b=>b.innerText.trim()=='Add a start frame').click(); await sleep(600); HTMLInputElement.prototype.click=orig;
+ const dt=new DataTransfer(); dt.items.add(new File([ib],name+'.jpg',{type:'image/jpeg'})); window.__picked.files=dt.files; window.__picked.dispatchEvent(new Event('change',{bubbles:true}));
+ for(let i=0;i<25&&document.body.innerText.includes('Add a start frame');i++) await sleep(1000);
+ if(document.body.innerText.includes('Add a start frame')) return name+' NOFRAME';
+ setTA(prompt+STY); await sleep(500); const g0=genCount(); vbtn('Create Video').click(); for(let i=0;i<10&&genCount()==g0;i++) await sleep(1000); return name+(genCount()>g0?' sent':' NOSTART');};
+window.runFrames=async(L,logName)=>{ window[logName]=[]; for(const [n,img,p] of L){ let r; for(let t=0;t<3;t++){ try{ r=await frameGen(img,p,n);}catch(e){r='ERR '+n+e} if(r.includes('sent')) break; await sleep(3000);} window[logName].push(r); await sleep(1500);} window[logName].push('done');};
+'ml.js loaded2';

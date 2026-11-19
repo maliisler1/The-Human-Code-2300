@@ -1,0 +1,312 @@
+{
+ "ep": 10,
+ "title": "A New World",
+ "title_tr": "Yeni Dünya",
+ "voices": {
+  "NARRATOR": "Daniel",
+  "ASHLEY": "Matilda",
+  "COMPASS": "Jessica",
+  "AVA": "Laura",
+  "RYAN": "Liam",
+  "KAI": "Will",
+  "KAEL": "George",
+  "SHADOW": "Callum",
+  "SILA": "Lily",
+  "NYRA": "Alice",
+  "EKIN": "River"
+ },
+ "shots": [
+  {
+   "id": "s01",
+   "lip": false,
+   "frame": "ashley_shadow",
+   "prompt": "Ashley and her twin face each other at sunrise",
+   "lines": [
+    [
+     "NARRATOR",
+     "Ashley could have destroyed her. She chose something else."
+    ]
+   ]
+  },
+  {
+   "id": "s02",
+   "lip": true,
+   "frame": "ashley_close",
+   "prompt": "She smiles gently",
+   "lines": [
+    [
+     "ASHLEY",
+     "You were never unfinished. You were waiting."
+    ]
+   ]
+  },
+  {
+   "id": "s03",
+   "lip": false,
+   "frame": "ashley_shadow",
+   "prompt": "Light swirls around the two sisters, petals flying",
+   "lines": []
+  },
+  {
+   "id": "s04",
+   "lip": false,
+   "frame": "ashley_close",
+   "prompt": "Ashley touches the pendant to her twin's heart, light flows between them",
+   "lines": []
+  },
+  {
+   "id": "s05",
+   "lip": false,
+   "frame": "shadow_close",
+   "prompt": "The red glow in the twin's eyes fades into soft blue",
+   "lines": []
+  },
+  {
+   "id": "s06",
+   "lip": false,
+   "frame": "elyra_bloom",
+   "prompt": "Flowers spread across an island in a wave of color",
+   "lines": []
+  },
+  {
+   "id": "s07",
+   "lip": true,
+   "frame": "shadow_close",
+   "prompt": "She speaks softly for the first time",
+   "lines": [
+    [
+     "SHADOW",
+     "I want a name. My own name."
+    ]
+   ]
+  },
+  {
+   "id": "s08",
+   "lip": true,
+   "frame": "ashley_close",
+   "prompt": "She nods warmly",
+   "lines": [
+    [
+     "ASHLEY",
+     "Then choose it. It's yours."
+    ]
+   ]
+  },
+  {
+   "id": "s09",
+   "lip": false,
+   "frame": "elyra_bloom",
+   "prompt": "Children run and laugh across a new bridge",
+   "lines": []
+  },
+  {
+   "id": "s10",
+   "lip": true,
+   "frame": "shadow_close",
+   "prompt": "She smiles",
+   "lines": [
+    [
+     "SHADOW",
+     "Luna. My name is Luna."
+    ]
+   ]
+  },
+  {
+   "id": "s11",
+   "lip": false,
+   "frame": "elyra_bloom",
+   "prompt": "Flowers burst into bloom across all the floating islands",
+   "lines": [
+    [
+     "NARRATOR",
+     "And Elyra began to bloom."
+    ]
+   ]
+  },
+  {
+   "id": "s12",
+   "lip": false,
+   "frame": "ryan_crystals",
+   "prompt": "Crystal creatures chase butterflies in the flowers",
+   "lines": []
+  },
+  {
+   "id": "s13",
+   "lip": false,
+   "frame": "elyra_bloom",
+   "prompt": "Waterfalls sparkle, birds fly, people walk across new bridges",
+   "lines": []
+  },
+  {
+   "id": "s14",
+   "lip": false,
+   "frame": "ekin_face",
+   "prompt": "Doctor Ekin's crystal face smiles and fades into golden light",
+   "lines": [
+    [
+     "EKIN",
+     "Thank you, Ashley. You finished what I started."
+    ]
+   ]
+  },
+  {
+   "id": "s15",
+   "lip": false,
+   "frame": "kai_close",
+   "prompt": "Kai and Ashley laugh and spin around in the wind",
+   "lines": []
+  },
+  {
+   "id": "s16",
+   "lip": true,
+   "frame": "kael_close",
+   "prompt": "He laughs with tears",
+   "lines": [
+    [
+     "KAEL",
+     "Three hundred years. Finally, a sunrise worth waiting for."
+    ]
+   ]
+  },
+  {
+   "id": "s17",
+   "lip": false,
+   "frame": "ryan_crystals",
+   "prompt": "Ryan dances with the crystal creatures in a field of flowers",
+   "lines": []
+  },
+  {
+   "id": "s18",
+   "lip": false,
+   "frame": "elyra_sky",
+   "prompt": "Ships fly through a rainbow over the islands",
+   "lines": []
+  },
+  {
+   "id": "s19",
+   "lip": true,
+   "frame": "ryan_close",
+   "prompt": "He laughs",
+   "lines": [
+    [
+     "RYAN",
+     "Best. Adventure. Ever."
+    ]
+   ]
+  },
+  {
+   "id": "s20",
+   "lip": false,
+   "frame": "leon_cat",
+   "prompt": "The cat takes off its helmet and lies in the sun",
+   "lines": []
+  },
+  {
+   "id": "s21",
+   "lip": false,
+   "frame": "nyra_close",
+   "prompt": "Nyra lets her hair down and smiles in the sunlight",
+   "lines": []
+  },
+  {
+   "id": "s22",
+   "lip": true,
+   "frame": "ava_close",
+   "prompt": "She hugs Ryan",
+   "lines": [
+    [
+     "AVA",
+     "Welcome home, little guide."
+    ]
+   ]
+  },
+  {
+   "id": "s23",
+   "lip": false,
+   "frame": "nyra_close",
+   "prompt": "Nyra takes off her armor helmet and smiles at the sunrise",
+   "lines": []
+  },
+  {
+   "id": "s24",
+   "lip": false,
+   "frame": "earth_signal",
+   "prompt": "The light beam from Earth pulses brighter",
+   "lines": []
+  },
+  {
+   "id": "s25",
+   "lip": false,
+   "frame": "kai_close",
+   "prompt": "Kai walks up to Ashley on the cliff edge",
+   "lines": []
+  },
+  {
+   "id": "s26",
+   "lip": true,
+   "frame": "kai_close",
+   "prompt": "He takes her hand",
+   "lines": [
+    [
+     "KAI",
+     "You found me. Twice."
+    ]
+   ]
+  },
+  {
+   "id": "s27",
+   "lip": true,
+   "frame": "ashley_close",
+   "prompt": "She laughs",
+   "lines": [
+    [
+     "ASHLEY",
+     "I'll keep finding you."
+    ]
+   ]
+  },
+  {
+   "id": "s28",
+   "lip": false,
+   "frame": "elyra_bloom",
+   "prompt": "All the friends stand together on a blooming island watching the sunset",
+   "lines": [
+    [
+     "NARRATOR",
+     "Everyone was home. Almost everyone."
+    ]
+   ]
+  },
+  {
+   "id": "s29",
+   "lip": false,
+   "frame": "earth_signal",
+   "prompt": "A beam of light rises from the distant Earth",
+   "lines": [
+    [
+     "COMPASS",
+     "Ashley. A signal. It's coming from Earth."
+    ]
+   ]
+  },
+  {
+   "id": "s30",
+   "lip": false,
+   "frame": "ashley_edge",
+   "prompt": "Ashley turns and looks toward the distant Earth, eyes wide",
+   "lines": []
+  },
+  {
+   "id": "s31",
+   "lip": false,
+   "frame": "sila_pendant",
+   "prompt": "Deep below the clouds, a black pendant blinks with a tiny red light",
+   "lines": [
+    [
+     "NARRATOR",
+     "The story wasn't over."
+    ]
+   ]
+  }
+ ]
+}

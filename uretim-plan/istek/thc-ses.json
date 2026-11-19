@@ -1,0 +1,1555 @@
+{
+ "tts": [
+  {
+   "out": "gelen/thc/t01/s01_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The year is 2300. Earth is a memory. Humanity lives in the sky.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t01/s05_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "Where am I? Why can't I remember anything?",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t01/s07_0_COMPASS.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "Hello, Twenty-Three. I am Compass. I have waited a long time for you.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t01/s10_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "Twenty-Three? Is that my name?",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t01/s11_0_COMPASS.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "Your name is Ashley. And you are the last one awake.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t01/s14_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "Where are the others? There were twenty-three of us!",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t01/s17_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Outside, the world she forgot was waiting.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t01/s20_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "Islands in the sky. This can't be real.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t01/s22_0_KAI.mp3",
+   "voice": "Will",
+   "lang": "en",
+   "text": "Twenty-Three! If you hear this... the Fortress... help me!",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t01/s25_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "I know that face. I don't know how, but I know him.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t01/s26_0_COMPASS.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "His signal comes from the Broken Isles. It is dangerous.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t01/s27_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "Then that's where I'm going.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t01/s30_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "She didn't know who she was. But she knew someone needed her.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t01/s32_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "Hello? Is anyone out here?",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t01/s34_0_AVA.mp3",
+   "voice": "Laura",
+   "lang": "en",
+   "text": "Don't move. Who sent you?",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t02/s01_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The Broken Isles. Where lost things go.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t02/s04_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "Nobody sent me. I'm looking for a friend.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t02/s05_0_AVA.mp3",
+   "voice": "Laura",
+   "lang": "en",
+   "text": "Friends don't last long out here.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t02/s08_0_AVA.mp3",
+   "voice": "Laura",
+   "lang": "en",
+   "text": "Leon likes you. That's rare. I'm Ava.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t02/s11_0_RYAN.mp3",
+   "voice": "Liam",
+   "lang": "en",
+   "text": "Ava! The crystals are singing again! Oh, hi!",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t02/s13_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Ryan was different. The crystals listened to him.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t02/s14_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "They understand you?",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t02/s16_0_RYAN.mp3",
+   "voice": "Liam",
+   "lang": "en",
+   "text": "Better than grown-ups do.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t02/s17_0_COMPASS.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "Signal detected. Very weak. Coming from the mist.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t02/s22_0_AVA.mp3",
+   "voice": "Laura",
+   "lang": "en",
+   "text": "Stay close. Things in this mist don't sleep.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t02/s25_0_SHADOW.mp3",
+   "voice": "Callum",
+   "lang": "en",
+   "text": "Twenty-Three... you finally woke up.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t02/s26_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "She has my face. Why does she have my face?",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t02/s28_0_RYAN.mp3",
+   "voice": "Liam",
+   "lang": "en",
+   "text": "Okay. That was the creepiest thing ever.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t02/s30_0_COMPASS.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "Ashley. That was not a person. That was a copy.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t02/s32_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Somewhere far away, someone else was awake too.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t02/s33_0_AVA.mp3",
+   "voice": "Laura",
+   "lang": "en",
+   "text": "Whoever you are, you're in big trouble.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t03/s01_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "They hid in the crystal caves. But shadows can follow anywhere.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t03/s04_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "Compass, tell me the truth. What is she?",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t03/s05_0_COMPASS.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "She was the first. Version one. She was never finished.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t03/s07_0_AVA.mp3",
+   "voice": "Laura",
+   "lang": "en",
+   "text": "So she's you. Just... broken.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t03/s08_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "No. Nobody is just broken.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t03/s11_0_SHADOW.mp3",
+   "voice": "Callum",
+   "lang": "en",
+   "text": "Give me your name, Twenty-Three. You don't deserve it.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t03/s13_0_RYAN.mp3",
+   "voice": "Liam",
+   "lang": "en",
+   "text": "Hey! Get your own name!",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t03/s19_0_AVA.mp3",
+   "voice": "Laura",
+   "lang": "en",
+   "text": "Run! The tunnel's coming down!",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t03/s20_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "They escaped. But the Shadow had left a clue behind.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t03/s22_0_COMPASS.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "Kai's signal. It comes from the Fortress.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t03/s23_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "Kai. His name is Kai. I remember now.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t03/s26_0_AVA.mp3",
+   "voice": "Laura",
+   "lang": "en",
+   "text": "Nobody walks into the Fortress and walks out.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t03/s28_0_RYAN.mp3",
+   "voice": "Liam",
+   "lang": "en",
+   "text": "Leon says we're going anyway.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t03/s31_0_KAEL.mp3",
+   "voice": "George",
+   "lang": "en",
+   "text": "If you want to reach the Fortress, you'll need me.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t03/s32_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The old man had a name. And a secret.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t04/s01_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "His name was Kael. The last guardian.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t04/s02_0_KAEL.mp3",
+   "voice": "George",
+   "lang": "en",
+   "text": "Sit. You're safe here. For tonight.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t04/s05_0_RYAN.mp3",
+   "voice": "Liam",
+   "lang": "en",
+   "text": "Is this from Earth? The real Earth?",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t04/s07_0_KAEL.mp3",
+   "voice": "George",
+   "lang": "en",
+   "text": "I was a boy in 2099. I saw it end.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t04/s08_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Earth was dying. A few people escaped to build Elyra in the sky.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t04/s11_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "And the capsules? Why were we sleeping?",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t04/s13_0_KAEL.mp3",
+   "voice": "George",
+   "lang": "en",
+   "text": "You twenty-three were Earth's last hope.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t04/s14_0_KAEL.mp3",
+   "voice": "George",
+   "lang": "en",
+   "text": "The other twenty-two still sleep beneath the Fortress.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t04/s16_0_AVA.mp3",
+   "voice": "Laura",
+   "lang": "en",
+   "text": "Then Sila is keeping them prisoner.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t04/s17_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Sila. Commander of the Shadow. She wanted Elyra for herself.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t04/s20_0_KAEL.mp3",
+   "voice": "George",
+   "lang": "en",
+   "text": "This opens any door. And any mind.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t04/s23_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "Then we go tomorrow. All of us.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t04/s26_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "For one night, they were almost a family.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t04/s30_0_SHADOW.mp3",
+   "voice": "Callum",
+   "lang": "en",
+   "text": "Tomorrow, Twenty-Three. Tomorrow I become you.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t04/s32_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The Fortress was waiting.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t05/s01_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The Fortress. Nobody had ever broken in.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t05/s04_0_KAEL.mp3",
+   "voice": "George",
+   "lang": "en",
+   "text": "The guards are made of crystal. Ryan, it's your turn.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t05/s07_0_RYAN.mp3",
+   "voice": "Liam",
+   "lang": "en",
+   "text": "Okay. No pressure. Just sing to the giant scary robots.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t05/s10_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Ryan's song made the guards dream. Just for a moment.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t05/s13_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "Kai! Kai, it's me! It's Twenty-Three!",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t05/s16_0_KAI.mp3",
+   "voice": "Will",
+   "lang": "en",
+   "text": "Who are you? I don't know you.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t05/s17_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "They had taken his memories. All of them.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t05/s19_0_SILA.mp3",
+   "voice": "Lily",
+   "lang": "en",
+   "text": "How touching. He doesn't remember you, girl.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t05/s20_0_AVA.mp3",
+   "voice": "Laura",
+   "lang": "en",
+   "text": "Ashley, we need to go. Now!",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t05/s28_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "They saved Kai. But not all of him came back.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t05/s29_0_KAI.mp3",
+   "voice": "Will",
+   "lang": "en",
+   "text": "Something is in my head. A voice.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t05/s31_0_SHADOW.mp3",
+   "voice": "Callum",
+   "lang": "en",
+   "text": "He's mine now, Twenty-Three.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t06/s01_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The Shadow had hidden her code inside Kai's mind.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t06/s04_0_KAEL.mp3",
+   "voice": "George",
+   "lang": "en",
+   "text": "Someone must go inside his dream and bring him back.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t06/s05_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "I'll go. He came for me once.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t06/s08_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Inside Kai's dream, memories floated like lanterns.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t06/s11_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "Kai! Where are you?",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t06/s14_0_KAI.mp3",
+   "voice": "Will",
+   "lang": "en",
+   "text": "Go away. Everyone I remember leaves.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t06/s16_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "I didn't leave. I woke up and came looking for you.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t06/s17_0_SHADOW.mp3",
+   "voice": "Callum",
+   "lang": "en",
+   "text": "He belongs to me now.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t06/s22_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "Nobody belongs to anyone. Let him go.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t06/s25_0_KAI.mp3",
+   "voice": "Will",
+   "lang": "en",
+   "text": "Twenty-Three. Ashley. I remember now.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t06/s26_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Memories are stronger than any code.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t06/s31_0_SILA.mp3",
+   "voice": "Lily",
+   "lang": "en",
+   "text": "Send Nyra. Bring me the girl with the staff.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t06/s32_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The Red Warrior was coming.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t07/s01_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Her name was Nyra. She had never lost a fight.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t07/s07_0_AVA.mp3",
+   "voice": "Laura",
+   "lang": "en",
+   "text": "Ryan, run! Take Leon and run!",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t07/s10_0_RYAN.mp3",
+   "voice": "Liam",
+   "lang": "en",
+   "text": "No. I'm done running.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t07/s11_0_COMPASS.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "Ryan. It is time they knew who you are.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t07/s13_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "What does she mean? Who are you?",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t07/s14_0_RYAN.mp3",
+   "voice": "Liam",
+   "lang": "en",
+   "text": "I'm Elyra's guide. The islands listen to me.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t07/s16_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The boy who talked to crystals was the heart of the sky.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t07/s22_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "Nyra, what number are you?",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t07/s23_0_NYRA.mp3",
+   "voice": "Alice",
+   "lang": "en",
+   "text": "I... I'm number four.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t07/s25_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Nyra had been one of the twenty-three. She had forgotten.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t07/s26_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "Then you're one of us. You always were.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t07/s31_0_SILA.mp3",
+   "voice": "Lily",
+   "lang": "en",
+   "text": "If I can't have Elyra, nobody will.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t07/s32_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "And then she pulled the lever.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t08/s01_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Elyra was falling.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t08/s04_0_KAEL.mp3",
+   "voice": "George",
+   "lang": "en",
+   "text": "She's draining the islands! They'll all fall!",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t08/s05_0_RYAN.mp3",
+   "voice": "Liam",
+   "lang": "en",
+   "text": "I can feel them. The islands are scared.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t08/s08_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "The core. We have to reach the core.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t08/s13_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "At the heart of the Fortress, someone had been waiting for three hundred years.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t08/s14_0_EKIN.mp3",
+   "voice": "River",
+   "lang": "en",
+   "text": "Hello, Ashley. I am Doctor Ekin Var. I made you.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t08/s16_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "You made me? Then what is the Shadow?",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t08/s17_0_EKIN.mp3",
+   "voice": "River",
+   "lang": "en",
+   "text": "My first try. I left her unfinished. That was my mistake.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t08/s19_0_KAI.mp3",
+   "voice": "Will",
+   "lang": "en",
+   "text": "Then she's not evil. She's just alone.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t08/s22_0_SHADOW.mp3",
+   "voice": "Callum",
+   "lang": "en",
+   "text": "You got everything, Twenty-Three. I got nothing.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t08/s23_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "Then let me share it with you.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t08/s26_0_SILA.mp3",
+   "voice": "Lily",
+   "lang": "en",
+   "text": "How sweet. Now everyone falls together.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t08/s29_0_NYRA.mp3",
+   "voice": "Alice",
+   "lang": "en",
+   "text": "Number Four reporting. On the right side.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t08/s30_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "There was only one way to save Elyra. Wake them all.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t09/s01_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Twenty-two sleepers. Twenty-two lights.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t09/s02_0_KAEL.mp3",
+   "voice": "George",
+   "lang": "en",
+   "text": "Ashley, the pendant! Only you can wake them!",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t09/s07_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "One by one, Earth's last hope opened its eyes.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t09/s08_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "Elyra is falling! We need everyone!",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t09/s13_0_AVA.mp3",
+   "voice": "Laura",
+   "lang": "en",
+   "text": "Not bad, Number Four.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t09/s14_0_NYRA.mp3",
+   "voice": "Alice",
+   "lang": "en",
+   "text": "You're not bad either.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t09/s16_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Ryan sang. And the sky sang back.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t09/s22_0_KAI.mp3",
+   "voice": "Will",
+   "lang": "en",
+   "text": "Grab my hand! I've got you!",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t09/s25_0_SILA.mp3",
+   "voice": "Lily",
+   "lang": "en",
+   "text": "No! This was my world!",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t09/s26_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Sila fell into the clouds. And the sky was quiet.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t09/s30_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "It's over. You don't have to fight anymore.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t09/s31_0_SHADOW.mp3",
+   "voice": "Callum",
+   "lang": "en",
+   "text": "Then what am I supposed to be?",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t09/s32_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The last battle wasn't a fight at all.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t10/s01_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Ashley could have destroyed her. She chose something else.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t10/s02_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "You were never unfinished. You were waiting.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t10/s07_0_SHADOW.mp3",
+   "voice": "Callum",
+   "lang": "en",
+   "text": "I want a name. My own name.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t10/s08_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "Then choose it. It's yours.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t10/s10_0_SHADOW.mp3",
+   "voice": "Callum",
+   "lang": "en",
+   "text": "Luna. My name is Luna.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t10/s11_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "And Elyra began to bloom.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t10/s14_0_EKIN.mp3",
+   "voice": "River",
+   "lang": "en",
+   "text": "Thank you, Ashley. You finished what I started.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t10/s16_0_KAEL.mp3",
+   "voice": "George",
+   "lang": "en",
+   "text": "Three hundred years. Finally, a sunrise worth waiting for.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t10/s19_0_RYAN.mp3",
+   "voice": "Liam",
+   "lang": "en",
+   "text": "Best. Adventure. Ever.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t10/s22_0_AVA.mp3",
+   "voice": "Laura",
+   "lang": "en",
+   "text": "Welcome home, little guide.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t10/s26_0_KAI.mp3",
+   "voice": "Will",
+   "lang": "en",
+   "text": "You found me. Twice.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t10/s27_0_ASHLEY.mp3",
+   "voice": "Matilda",
+   "lang": "en",
+   "text": "I'll keep finding you.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t10/s28_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "Everyone was home. Almost everyone.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t10/s29_0_COMPASS.mp3",
+   "voice": "Jessica",
+   "lang": "en",
+   "text": "Ashley. A signal. It's coming from Earth.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/thc/t10/s31_0_NARRATOR.mp3",
+   "voice": "Daniel",
+   "lang": "en",
+   "text": "The story wasn't over.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  }
+ ]
+}

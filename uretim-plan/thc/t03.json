@@ -1,0 +1,319 @@
+{
+ "ep": 3,
+ "title": "The Shadow's Name",
+ "title_tr": "Gölgenin Adı",
+ "voices": {
+  "NARRATOR": "Daniel",
+  "ASHLEY": "Matilda",
+  "COMPASS": "Jessica",
+  "AVA": "Laura",
+  "RYAN": "Liam",
+  "KAI": "Will",
+  "KAEL": "George",
+  "SHADOW": "Callum",
+  "SILA": "Lily",
+  "NYRA": "Alice",
+  "EKIN": "River"
+ },
+ "shots": [
+  {
+   "id": "s01",
+   "lip": false,
+   "frame": "crystal_cave",
+   "prompt": "Inside a glowing crystal cave, water drips, light shimmers",
+   "lines": [
+    [
+     "NARRATOR",
+     "They hid in the crystal caves. But shadows can follow anywhere."
+    ]
+   ]
+  },
+  {
+   "id": "s02",
+   "lip": false,
+   "frame": "group_cave",
+   "prompt": "The group catches their breath, the cat shakes off dust",
+   "lines": []
+  },
+  {
+   "id": "s03",
+   "lip": false,
+   "frame": "crystal_cave",
+   "prompt": "Crystals vibrate and ring, dust falling from the ceiling",
+   "lines": []
+  },
+  {
+   "id": "s04",
+   "lip": true,
+   "frame": "ashley_close",
+   "prompt": "She sits on a rock, troubled",
+   "lines": [
+    [
+     "ASHLEY",
+     "Compass, tell me the truth. What is she?"
+    ]
+   ]
+  },
+  {
+   "id": "s05",
+   "lip": false,
+   "frame": "compass_orb",
+   "prompt": "Compass projects a hologram of two identical women in capsules",
+   "lines": [
+    [
+     "COMPASS",
+     "She was the first. Version one. She was never finished."
+    ]
+   ]
+  },
+  {
+   "id": "s06",
+   "lip": false,
+   "frame": "group_cave",
+   "prompt": "Ashley slides under a falling crystal, Ava pulls her up",
+   "lines": []
+  },
+  {
+   "id": "s07",
+   "lip": true,
+   "frame": "ava_close",
+   "prompt": "She frowns",
+   "lines": [
+    [
+     "AVA",
+     "So she's you. Just... broken."
+    ]
+   ]
+  },
+  {
+   "id": "s08",
+   "lip": true,
+   "frame": "ashley_close",
+   "prompt": "She shakes her head",
+   "lines": [
+    [
+     "ASHLEY",
+     "No. Nobody is just broken."
+    ]
+   ]
+  },
+  {
+   "id": "s09",
+   "lip": false,
+   "frame": "ryan_crystals",
+   "prompt": "Crystal creatures form a glowing bridge over a chasm",
+   "lines": []
+  },
+  {
+   "id": "s10",
+   "lip": false,
+   "frame": "crystal_cave",
+   "prompt": "The crystals suddenly dim and turn red one by one",
+   "lines": []
+  },
+  {
+   "id": "s11",
+   "lip": false,
+   "frame": "shadow_mist",
+   "prompt": "The pale twin walks through the cave, red light following her",
+   "lines": [
+    [
+     "SHADOW",
+     "Give me your name, Twenty-Three. You don't deserve it."
+    ]
+   ]
+  },
+  {
+   "id": "s12",
+   "lip": false,
+   "frame": "leon_cat",
+   "prompt": "The cat sprints through the tunnel ahead of everyone",
+   "lines": []
+  },
+  {
+   "id": "s13",
+   "lip": true,
+   "frame": "ryan_close",
+   "prompt": "He shouts bravely",
+   "lines": [
+    [
+     "RYAN",
+     "Hey! Get your own name!"
+    ]
+   ]
+  },
+  {
+   "id": "s14",
+   "lip": false,
+   "frame": "ryan_crystals",
+   "prompt": "Ryan sings and the crystal creatures leap into a glowing shield wall",
+   "lines": []
+  },
+  {
+   "id": "s15",
+   "lip": false,
+   "frame": "broken_isles",
+   "prompt": "Ashley and Ava leap across a gap between floating rocks",
+   "lines": []
+  },
+  {
+   "id": "s16",
+   "lip": false,
+   "frame": "group_cave",
+   "prompt": "The group sprints through a tunnel as crystals crash behind them",
+   "lines": []
+  },
+  {
+   "id": "s17",
+   "lip": false,
+   "frame": "crystal_cave",
+   "prompt": "A cave wall collapses in a burst of blue light and dust",
+   "lines": []
+  },
+  {
+   "id": "s18",
+   "lip": false,
+   "frame": "fortress_ext",
+   "prompt": "Red searchlights sweep across the stormy sky",
+   "lines": []
+  },
+  {
+   "id": "s19",
+   "lip": true,
+   "frame": "ava_close",
+   "prompt": "She pulls Ashley up",
+   "lines": [
+    [
+     "AVA",
+     "Run! The tunnel's coming down!"
+    ]
+   ]
+  },
+  {
+   "id": "s20",
+   "lip": false,
+   "frame": "broken_isles",
+   "prompt": "They burst out of the cave into daylight and leap across a gap",
+   "lines": [
+    [
+     "NARRATOR",
+     "They escaped. But the Shadow had left a clue behind."
+    ]
+   ]
+  },
+  {
+   "id": "s21",
+   "lip": false,
+   "frame": "ashley_edge",
+   "prompt": "Ashley pulls her friends up onto a cliff edge",
+   "lines": []
+  },
+  {
+   "id": "s22",
+   "lip": false,
+   "frame": "compass_orb",
+   "prompt": "Compass glows and decodes a signal, the map zooms to a dark fortress",
+   "lines": [
+    [
+     "COMPASS",
+     "Kai's signal. It comes from the Fortress."
+    ]
+   ]
+  },
+  {
+   "id": "s23",
+   "lip": true,
+   "frame": "ashley_close",
+   "prompt": "She looks toward the horizon",
+   "lines": [
+    [
+     "ASHLEY",
+     "Kai. His name is Kai. I remember now."
+    ]
+   ]
+  },
+  {
+   "id": "s24",
+   "lip": false,
+   "frame": "mist_forest",
+   "prompt": "A lantern swings through the fog, getting closer",
+   "lines": []
+  },
+  {
+   "id": "s25",
+   "lip": false,
+   "frame": "fortress_ext",
+   "prompt": "The dark fortress on its island, storm clouds and red lights",
+   "lines": []
+  },
+  {
+   "id": "s26",
+   "lip": true,
+   "frame": "ava_close",
+   "prompt": "She grimaces",
+   "lines": [
+    [
+     "AVA",
+     "Nobody walks into the Fortress and walks out."
+    ]
+   ]
+  },
+  {
+   "id": "s27",
+   "lip": false,
+   "frame": "leon_cat",
+   "prompt": "The cat salutes with its paw, very serious",
+   "lines": []
+  },
+  {
+   "id": "s28",
+   "lip": true,
+   "frame": "ryan_close",
+   "prompt": "He grins",
+   "lines": [
+    [
+     "RYAN",
+     "Leon says we're going anyway."
+    ]
+   ]
+  },
+  {
+   "id": "s29",
+   "lip": false,
+   "frame": "ashley_edge",
+   "prompt": "Ashley stands on the cliff, wind blowing, looking at the fortress",
+   "lines": []
+  },
+  {
+   "id": "s30",
+   "lip": false,
+   "frame": "mist_forest",
+   "prompt": "A lantern light moves through the mist toward them",
+   "lines": []
+  },
+  {
+   "id": "s31",
+   "lip": false,
+   "frame": "kael_hut",
+   "prompt": "An old man with a glowing green pendant raises a lantern",
+   "lines": [
+    [
+     "KAEL",
+     "If you want to reach the Fortress, you'll need me."
+    ]
+   ]
+  },
+  {
+   "id": "s32",
+   "lip": false,
+   "frame": "elyra_sky",
+   "prompt": "Sunset across the islands, the group follows the old man",
+   "lines": [
+    [
+     "NARRATOR",
+     "The old man had a name. And a secret."
+    ]
+   ]
+  }
+ ]
+}

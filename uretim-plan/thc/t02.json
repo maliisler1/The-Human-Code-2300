@@ -1,0 +1,331 @@
+{
+ "ep": 2,
+ "title": "Lost Signal",
+ "title_tr": "Kayıp Sinyal",
+ "voices": {
+  "NARRATOR": "Daniel",
+  "ASHLEY": "Matilda",
+  "COMPASS": "Jessica",
+  "AVA": "Laura",
+  "RYAN": "Liam",
+  "KAI": "Will",
+  "KAEL": "George",
+  "SHADOW": "Callum",
+  "SILA": "Lily",
+  "NYRA": "Alice",
+  "EKIN": "River"
+ },
+ "shots": [
+  {
+   "id": "s01",
+   "lip": false,
+   "frame": "broken_isles",
+   "prompt": "Wind howls across the shattered islands, crystals humming",
+   "lines": [
+    [
+     "NARRATOR",
+     "The Broken Isles. Where lost things go."
+    ]
+   ]
+  },
+  {
+   "id": "s02",
+   "lip": false,
+   "frame": "ava_isles",
+   "prompt": "Ava circles Ashley slowly, staff raised, suspicious",
+   "lines": []
+  },
+  {
+   "id": "s03",
+   "lip": false,
+   "frame": "broken_isles",
+   "prompt": "Debris floats upward against gravity, crystals pulsing",
+   "lines": []
+  },
+  {
+   "id": "s04",
+   "lip": true,
+   "frame": "ashley_close",
+   "prompt": "She raises her hands",
+   "lines": [
+    [
+     "ASHLEY",
+     "Nobody sent me. I'm looking for a friend."
+    ]
+   ]
+  },
+  {
+   "id": "s05",
+   "lip": true,
+   "frame": "ava_close",
+   "prompt": "She lowers her staff slightly",
+   "lines": [
+    [
+     "AVA",
+     "Friends don't last long out here."
+    ]
+   ]
+  },
+  {
+   "id": "s06",
+   "lip": false,
+   "frame": "ava_isles",
+   "prompt": "Ava twirls her staff in a fighting stance, dust swirling",
+   "lines": []
+  },
+  {
+   "id": "s07",
+   "lip": false,
+   "frame": "leon_cat",
+   "prompt": "The cat trots over and rubs against Ashley's leg, then sits proudly",
+   "lines": []
+  },
+  {
+   "id": "s08",
+   "lip": true,
+   "frame": "ava_close",
+   "prompt": "She smiles despite herself",
+   "lines": [
+    [
+     "AVA",
+     "Leon likes you. That's rare. I'm Ava."
+    ]
+   ]
+  },
+  {
+   "id": "s09",
+   "lip": false,
+   "frame": "ryan_crystals",
+   "prompt": "A crystal creature hops onto Ryan's shoulder and nuzzles him",
+   "lines": []
+  },
+  {
+   "id": "s10",
+   "lip": false,
+   "frame": "ryan_crystals",
+   "prompt": "A boy runs up laughing as glowing crystal creatures hop after him",
+   "lines": []
+  },
+  {
+   "id": "s11",
+   "lip": true,
+   "frame": "ryan_close",
+   "prompt": "He waves excitedly",
+   "lines": [
+    [
+     "RYAN",
+     "Ava! The crystals are singing again! Oh, hi!"
+    ]
+   ]
+  },
+  {
+   "id": "s12",
+   "lip": false,
+   "frame": "leon_cat",
+   "prompt": "The cat leaps from rock to rock, landing perfectly",
+   "lines": []
+  },
+  {
+   "id": "s13",
+   "lip": false,
+   "frame": "ryan_crystals",
+   "prompt": "Ryan hums and the little crystal creatures glow and dance in a circle",
+   "lines": [
+    [
+     "NARRATOR",
+     "Ryan was different. The crystals listened to him."
+    ]
+   ]
+  },
+  {
+   "id": "s14",
+   "lip": true,
+   "frame": "ashley_close",
+   "prompt": "She watches amazed",
+   "lines": [
+    [
+     "ASHLEY",
+     "They understand you?"
+    ]
+   ]
+  },
+  {
+   "id": "s15",
+   "lip": false,
+   "frame": "mist_forest",
+   "prompt": "Fog rolls fast through the trees, branches whipping",
+   "lines": []
+  },
+  {
+   "id": "s16",
+   "lip": true,
+   "frame": "ryan_close",
+   "prompt": "He shrugs with a grin",
+   "lines": [
+    [
+     "RYAN",
+     "Better than grown-ups do."
+    ]
+   ]
+  },
+  {
+   "id": "s17",
+   "lip": false,
+   "frame": "compass_orb",
+   "prompt": "Compass flickers, picking up a broken signal, static sparks",
+   "lines": [
+    [
+     "COMPASS",
+     "Signal detected. Very weak. Coming from the mist."
+    ]
+   ]
+  },
+  {
+   "id": "s18",
+   "lip": false,
+   "frame": "group_cave",
+   "prompt": "The friends sprint along a cliff path, jumping over a gap",
+   "lines": []
+  },
+  {
+   "id": "s19",
+   "lip": false,
+   "frame": "group_cave",
+   "prompt": "Ashley, Ava, Ryan and the cat run across a broken bridge toward the mist",
+   "lines": []
+  },
+  {
+   "id": "s20",
+   "lip": false,
+   "frame": "mist_forest",
+   "prompt": "They enter the misty silver forest, fog swallowing the path",
+   "lines": []
+  },
+  {
+   "id": "s21",
+   "lip": false,
+   "frame": "shadow_mist",
+   "prompt": "The pale twin's silhouette flickers between trees",
+   "lines": []
+  },
+  {
+   "id": "s22",
+   "lip": true,
+   "frame": "ava_close",
+   "prompt": "She whispers tensely",
+   "lines": [
+    [
+     "AVA",
+     "Stay close. Things in this mist don't sleep."
+    ]
+   ]
+  },
+  {
+   "id": "s23",
+   "lip": false,
+   "frame": "mist_forest",
+   "prompt": "Glowing eyes blink in the fog, branches creak, the group moves carefully",
+   "lines": []
+  },
+  {
+   "id": "s24",
+   "lip": false,
+   "frame": "elyra_sky",
+   "prompt": "Storm clouds swirl rapidly over the floating islands",
+   "lines": []
+  },
+  {
+   "id": "s25",
+   "lip": false,
+   "frame": "shadow_mist",
+   "prompt": "A pale figure with Ashley's face appears in the fog and tilts her head",
+   "lines": [
+    [
+     "SHADOW",
+     "Twenty-Three... you finally woke up."
+    ]
+   ]
+  },
+  {
+   "id": "s26",
+   "lip": true,
+   "frame": "ashley_close",
+   "prompt": "She freezes in shock",
+   "lines": [
+    [
+     "ASHLEY",
+     "She has my face. Why does she have my face?"
+    ]
+   ]
+  },
+  {
+   "id": "s27",
+   "lip": false,
+   "frame": "shadow_mist",
+   "prompt": "The pale figure smiles coldly and dissolves into the mist",
+   "lines": []
+  },
+  {
+   "id": "s28",
+   "lip": true,
+   "frame": "ryan_close",
+   "prompt": "He grabs Ashley's sleeve, scared",
+   "lines": [
+    [
+     "RYAN",
+     "Okay. That was the creepiest thing ever."
+    ]
+   ]
+  },
+  {
+   "id": "s29",
+   "lip": false,
+   "frame": "leon_cat",
+   "prompt": "The cat hisses at the fog, fur standing up under its helmet",
+   "lines": []
+  },
+  {
+   "id": "s30",
+   "lip": false,
+   "frame": "compass_orb",
+   "prompt": "Compass glows red with warning",
+   "lines": [
+    [
+     "COMPASS",
+     "Ashley. That was not a person. That was a copy."
+    ]
+   ]
+  },
+  {
+   "id": "s31",
+   "lip": false,
+   "frame": "group_cave",
+   "prompt": "The group runs out of the forest as the fog chases them",
+   "lines": []
+  },
+  {
+   "id": "s32",
+   "lip": false,
+   "frame": "broken_isles",
+   "prompt": "Lightning over the islands, a red fortress glows in the distance",
+   "lines": [
+    [
+     "NARRATOR",
+     "Somewhere far away, someone else was awake too."
+    ]
+   ]
+  },
+  {
+   "id": "s33",
+   "lip": true,
+   "frame": "ava_close",
+   "prompt": "She looks at Ashley seriously",
+   "lines": [
+    [
+     "AVA",
+     "Whoever you are, you're in big trouble."
+    ]
+   ]
+  }
+ ]
+}

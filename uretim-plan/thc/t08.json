@@ -1,0 +1,307 @@
+{
+ "ep": 8,
+ "title": "Breaking Bridges",
+ "title_tr": "Kırılan Köprüler",
+ "voices": {
+  "NARRATOR": "Daniel",
+  "ASHLEY": "Matilda",
+  "COMPASS": "Jessica",
+  "AVA": "Laura",
+  "RYAN": "Liam",
+  "KAI": "Will",
+  "KAEL": "George",
+  "SHADOW": "Callum",
+  "SILA": "Lily",
+  "NYRA": "Alice",
+  "EKIN": "River"
+ },
+ "shots": [
+  {
+   "id": "s01",
+   "lip": false,
+   "frame": "bridges_fall",
+   "prompt": "The sky shakes, islands start breaking apart, bridges collapse",
+   "lines": [
+    [
+     "NARRATOR",
+     "Elyra was falling."
+    ]
+   ]
+  },
+  {
+   "id": "s02",
+   "lip": false,
+   "frame": "elyra_sky",
+   "prompt": "People run across falling islands screaming",
+   "lines": []
+  },
+  {
+   "id": "s03",
+   "lip": false,
+   "frame": "bridges_fall",
+   "prompt": "A bridge snaps and swings down into the clouds",
+   "lines": []
+  },
+  {
+   "id": "s04",
+   "lip": true,
+   "frame": "kael_close",
+   "prompt": "He shouts over the wind",
+   "lines": [
+    [
+     "KAEL",
+     "She's draining the islands! They'll all fall!"
+    ]
+   ]
+  },
+  {
+   "id": "s05",
+   "lip": true,
+   "frame": "ryan_close",
+   "prompt": "He holds his chest in pain",
+   "lines": [
+    [
+     "RYAN",
+     "I can feel them. The islands are scared."
+    ]
+   ]
+  },
+  {
+   "id": "s06",
+   "lip": false,
+   "frame": "elyra_sky",
+   "prompt": "Two islands collide in slow motion, rocks exploding",
+   "lines": []
+  },
+  {
+   "id": "s07",
+   "lip": false,
+   "frame": "ryan_crystals",
+   "prompt": "Ryan kneels and sings, crystals glow and slow the falling islands",
+   "lines": []
+  },
+  {
+   "id": "s08",
+   "lip": true,
+   "frame": "ashley_close",
+   "prompt": "She looks toward the fortress",
+   "lines": [
+    [
+     "ASHLEY",
+     "The core. We have to reach the core."
+    ]
+   ]
+  },
+  {
+   "id": "s09",
+   "lip": false,
+   "frame": "ryan_crystals",
+   "prompt": "Ryan's crystals form a glowing net under a falling island",
+   "lines": []
+  },
+  {
+   "id": "s10",
+   "lip": false,
+   "frame": "group_cave",
+   "prompt": "Ashley, Kai and Ava run into the fortress through collapsing halls",
+   "lines": []
+  },
+  {
+   "id": "s11",
+   "lip": false,
+   "frame": "fortress_hall",
+   "prompt": "Red lights flash, walls crack, guards stagger",
+   "lines": []
+  },
+  {
+   "id": "s12",
+   "lip": false,
+   "frame": "fortress_hall",
+   "prompt": "The friends dodge falling beams in the corridor",
+   "lines": []
+  },
+  {
+   "id": "s13",
+   "lip": false,
+   "frame": "core_chamber",
+   "prompt": "They burst into the glowing core chamber, a giant crystal pulses",
+   "lines": [
+    [
+     "NARRATOR",
+     "At the heart of the Fortress, someone had been waiting for three hundred years."
+    ]
+   ]
+  },
+  {
+   "id": "s14",
+   "lip": false,
+   "frame": "ekin_face",
+   "prompt": "A calm woman's face made of light opens her eyes inside the crystal",
+   "lines": [
+    [
+     "EKIN",
+     "Hello, Ashley. I am Doctor Ekin Var. I made you."
+    ]
+   ]
+  },
+  {
+   "id": "s15",
+   "lip": false,
+   "frame": "core_chamber",
+   "prompt": "The giant crystal pulses faster and faster",
+   "lines": []
+  },
+  {
+   "id": "s16",
+   "lip": true,
+   "frame": "ashley_close",
+   "prompt": "She steps back in shock",
+   "lines": [
+    [
+     "ASHLEY",
+     "You made me? Then what is the Shadow?"
+    ]
+   ]
+  },
+  {
+   "id": "s17",
+   "lip": false,
+   "frame": "ekin_face",
+   "prompt": "The crystal face looks sad and kind",
+   "lines": [
+    [
+     "EKIN",
+     "My first try. I left her unfinished. That was my mistake."
+    ]
+   ]
+  },
+  {
+   "id": "s18",
+   "lip": false,
+   "frame": "shadow_close",
+   "prompt": "The Shadow clenches her fists, red light crackling",
+   "lines": []
+  },
+  {
+   "id": "s19",
+   "lip": true,
+   "frame": "kai_close",
+   "prompt": "He holds Ashley's hand",
+   "lines": [
+    [
+     "KAI",
+     "Then she's not evil. She's just alone."
+    ]
+   ]
+  },
+  {
+   "id": "s20",
+   "lip": false,
+   "frame": "bridges_fall",
+   "prompt": "Outside, an island cracks in half and starts to sink",
+   "lines": []
+  },
+  {
+   "id": "s21",
+   "lip": false,
+   "frame": "nyra_warrior",
+   "prompt": "Nyra smashes through glass and lands in a crouch",
+   "lines": []
+  },
+  {
+   "id": "s22",
+   "lip": false,
+   "frame": "shadow_mist",
+   "prompt": "The Shadow walks into the core chamber, red eyes glowing",
+   "lines": [
+    [
+     "SHADOW",
+     "You got everything, Twenty-Three. I got nothing."
+    ]
+   ]
+  },
+  {
+   "id": "s23",
+   "lip": true,
+   "frame": "ashley_close",
+   "prompt": "She answers softly",
+   "lines": [
+    [
+     "ASHLEY",
+     "Then let me share it with you."
+    ]
+   ]
+  },
+  {
+   "id": "s24",
+   "lip": false,
+   "frame": "bridges_fall",
+   "prompt": "Islands tilt as people jump to safety",
+   "lines": []
+  },
+  {
+   "id": "s25",
+   "lip": false,
+   "frame": "shadow_close",
+   "prompt": "The Shadow hesitates, her red eyes flickering",
+   "lines": []
+  },
+  {
+   "id": "s26",
+   "lip": false,
+   "frame": "sila_throne",
+   "prompt": "Sila storms in with guards, laughing",
+   "lines": [
+    [
+     "SILA",
+     "How sweet. Now everyone falls together."
+    ]
+   ]
+  },
+  {
+   "id": "s27",
+   "lip": false,
+   "frame": "ava_close",
+   "prompt": "Ava jumps in front of the others, staff blazing",
+   "lines": []
+  },
+  {
+   "id": "s28",
+   "lip": false,
+   "frame": "nyra_warrior",
+   "prompt": "Nyra crashes through a window and lands between Sila and the group",
+   "lines": []
+  },
+  {
+   "id": "s29",
+   "lip": true,
+   "frame": "nyra_close",
+   "prompt": "She raises her spear at Sila",
+   "lines": [
+    [
+     "NYRA",
+     "Number Four reporting. On the right side."
+    ]
+   ]
+  },
+  {
+   "id": "s30",
+   "lip": false,
+   "frame": "bridges_fall",
+   "prompt": "Islands continue to fall, a huge crack rips across the sky",
+   "lines": [
+    [
+     "NARRATOR",
+     "There was only one way to save Elyra. Wake them all."
+    ]
+   ]
+  },
+  {
+   "id": "s31",
+   "lip": false,
+   "frame": "pods_below",
+   "prompt": "The 22 capsules beneath the fortress flicker",
+   "lines": []
+  }
+ ]
+}

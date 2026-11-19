@@ -1,0 +1,304 @@
+{
+ "ep": 5,
+ "title": "The Fortress",
+ "title_tr": "Kale",
+ "voices": {
+  "NARRATOR": "Daniel",
+  "ASHLEY": "Matilda",
+  "COMPASS": "Jessica",
+  "AVA": "Laura",
+  "RYAN": "Liam",
+  "KAI": "Will",
+  "KAEL": "George",
+  "SHADOW": "Callum",
+  "SILA": "Lily",
+  "NYRA": "Alice",
+  "EKIN": "River"
+ },
+ "shots": [
+  {
+   "id": "s01",
+   "lip": false,
+   "frame": "fortress_ext",
+   "prompt": "Storm clouds swirl around the dark fortress, lightning",
+   "lines": [
+    [
+     "NARRATOR",
+     "The Fortress. Nobody had ever broken in."
+    ]
+   ]
+  },
+  {
+   "id": "s02",
+   "lip": false,
+   "frame": "group_cave",
+   "prompt": "The group sneaks along a narrow ledge beneath the fortress walls",
+   "lines": []
+  },
+  {
+   "id": "s03",
+   "lip": false,
+   "frame": "fortress_ext",
+   "prompt": "Lightning reveals the full size of the fortress",
+   "lines": []
+  },
+  {
+   "id": "s04",
+   "lip": true,
+   "frame": "kael_close",
+   "prompt": "He whispers",
+   "lines": [
+    [
+     "KAEL",
+     "The guards are made of crystal. Ryan, it's your turn."
+    ]
+   ]
+  },
+  {
+   "id": "s05",
+   "lip": false,
+   "frame": "fortress_hall",
+   "prompt": "Rows of red crystal guards stand silent in the hall",
+   "lines": []
+  },
+  {
+   "id": "s06",
+   "lip": false,
+   "frame": "group_cave",
+   "prompt": "The group climbs a vertical wall using ropes",
+   "lines": []
+  },
+  {
+   "id": "s07",
+   "lip": true,
+   "frame": "ryan_close",
+   "prompt": "He swallows nervously",
+   "lines": [
+    [
+     "RYAN",
+     "Okay. No pressure. Just sing to the giant scary robots."
+    ]
+   ]
+  },
+  {
+   "id": "s08",
+   "lip": false,
+   "frame": "ryan_crystals",
+   "prompt": "Ryan hums softly and the red crystal guards slowly turn blue and bow",
+   "lines": []
+  },
+  {
+   "id": "s09",
+   "lip": false,
+   "frame": "fortress_hall",
+   "prompt": "A crystal guard's head turns slowly toward the camera",
+   "lines": []
+  },
+  {
+   "id": "s10",
+   "lip": false,
+   "frame": "fortress_hall",
+   "prompt": "The group runs past the frozen guards down a long corridor",
+   "lines": [
+    [
+     "NARRATOR",
+     "Ryan's song made the guards dream. Just for a moment."
+    ]
+   ]
+  },
+  {
+   "id": "s11",
+   "lip": false,
+   "frame": "kai_freed",
+   "prompt": "A young man kneels in a red prison chamber, chained with light",
+   "lines": []
+  },
+  {
+   "id": "s12",
+   "lip": false,
+   "frame": "ryan_crystals",
+   "prompt": "Ryan's song creates waves of blue light rippling through the hall",
+   "lines": []
+  },
+  {
+   "id": "s13",
+   "lip": true,
+   "frame": "ashley_close",
+   "prompt": "She rushes forward",
+   "lines": [
+    [
+     "ASHLEY",
+     "Kai! Kai, it's me! It's Twenty-Three!"
+    ]
+   ]
+  },
+  {
+   "id": "s14",
+   "lip": false,
+   "frame": "ashley_close",
+   "prompt": "Ashley presses the green pendant to the light chains and they shatter",
+   "lines": []
+  },
+  {
+   "id": "s15",
+   "lip": false,
+   "frame": "kai_freed",
+   "prompt": "Chains of red light spark and crackle around Kai",
+   "lines": []
+  },
+  {
+   "id": "s16",
+   "lip": true,
+   "frame": "kai_close",
+   "prompt": "He looks at her blankly",
+   "lines": [
+    [
+     "KAI",
+     "Who are you? I don't know you."
+    ]
+   ]
+  },
+  {
+   "id": "s17",
+   "lip": false,
+   "frame": "ashley_close",
+   "prompt": "Ashley's face falls, tears in her eyes",
+   "lines": [
+    [
+     "NARRATOR",
+     "They had taken his memories. All of them."
+    ]
+   ]
+  },
+  {
+   "id": "s18",
+   "lip": false,
+   "frame": "bridges_fall",
+   "prompt": "Pieces of a bridge break off as the friends jump",
+   "lines": []
+  },
+  {
+   "id": "s19",
+   "lip": false,
+   "frame": "sila_throne",
+   "prompt": "Sila appears on a balcony above, clapping slowly",
+   "lines": [
+    [
+     "SILA",
+     "How touching. He doesn't remember you, girl."
+    ]
+   ]
+  },
+  {
+   "id": "s20",
+   "lip": true,
+   "frame": "ava_close",
+   "prompt": "She raises her staff",
+   "lines": [
+    [
+     "AVA",
+     "Ashley, we need to go. Now!"
+    ]
+   ]
+  },
+  {
+   "id": "s21",
+   "lip": false,
+   "frame": "leon_cat",
+   "prompt": "The cat skids around a corner, helmet bouncing",
+   "lines": []
+  },
+  {
+   "id": "s22",
+   "lip": false,
+   "frame": "fortress_hall",
+   "prompt": "The crystal guards wake up glowing red and march forward",
+   "lines": []
+  },
+  {
+   "id": "s23",
+   "lip": false,
+   "frame": "group_cave",
+   "prompt": "The group runs with Kai between them, guards chasing",
+   "lines": []
+  },
+  {
+   "id": "s24",
+   "lip": false,
+   "frame": "elyra_sky",
+   "prompt": "The flying platform barrel-rolls through the clouds",
+   "lines": []
+  },
+  {
+   "id": "s25",
+   "lip": false,
+   "frame": "ryan_crystals",
+   "prompt": "Ryan sings loudly, the guards stumble and collide",
+   "lines": []
+  },
+  {
+   "id": "s26",
+   "lip": false,
+   "frame": "leon_cat",
+   "prompt": "The cat leaps on a guard's head and knocks it over",
+   "lines": []
+  },
+  {
+   "id": "s27",
+   "lip": false,
+   "frame": "bridges_fall",
+   "prompt": "They sprint across a bridge as it cracks behind them",
+   "lines": []
+  },
+  {
+   "id": "s28",
+   "lip": false,
+   "frame": "elyra_sky",
+   "prompt": "They jump onto a flying platform and escape into the clouds",
+   "lines": [
+    [
+     "NARRATOR",
+     "They saved Kai. But not all of him came back."
+    ]
+   ]
+  },
+  {
+   "id": "s29",
+   "lip": true,
+   "frame": "kai_close",
+   "prompt": "He holds his head in pain",
+   "lines": [
+    [
+     "KAI",
+     "Something is in my head. A voice."
+    ]
+   ]
+  },
+  {
+   "id": "s30",
+   "lip": false,
+   "frame": "kai_eyes",
+   "prompt": "Kai's eyes flicker with red code",
+   "lines": []
+  },
+  {
+   "id": "s31",
+   "lip": false,
+   "frame": "shadow_mist",
+   "prompt": "The pale twin smiles in the dark",
+   "lines": [
+    [
+     "SHADOW",
+     "He's mine now, Twenty-Three."
+    ]
+   ]
+  },
+  {
+   "id": "s32",
+   "lip": false,
+   "frame": "ashley_edge",
+   "prompt": "Ashley looks at Kai with worry as the platform flies into sunset",
+   "lines": []
+  }
+ ]
+}

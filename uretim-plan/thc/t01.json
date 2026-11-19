@@ -1,0 +1,333 @@
+{
+ "ep": 1,
+ "title": "Awakening",
+ "title_tr": "Uyanış",
+ "voices": {
+  "NARRATOR": "Daniel",
+  "ASHLEY": "Matilda",
+  "COMPASS": "Jessica",
+  "AVA": "Laura",
+  "RYAN": "Liam",
+  "KAI": "Will",
+  "KAEL": "George",
+  "SHADOW": "Callum",
+  "SILA": "Lily",
+  "NYRA": "Alice",
+  "EKIN": "River"
+ },
+ "shots": [
+  {
+   "id": "s01",
+   "lip": false,
+   "frame": "elyra_sky",
+   "prompt": "Camera flies between floating islands at sunrise, waterfalls pouring into clouds",
+   "lines": [
+    [
+     "NARRATOR",
+     "The year is 2300. Earth is a memory. Humanity lives in the sky."
+    ]
+   ]
+  },
+  {
+   "id": "s02",
+   "lip": false,
+   "frame": "capsule_hall",
+   "prompt": "Slow push through the capsule hall, mist rolling, one capsule light turns from red to green",
+   "lines": []
+  },
+  {
+   "id": "s03",
+   "lip": false,
+   "frame": "elyra_sky",
+   "prompt": "Fast aerial flight diving through clouds between islands",
+   "lines": []
+  },
+  {
+   "id": "s04",
+   "lip": false,
+   "frame": "ashley_wake",
+   "prompt": "The capsule lid slides open with hissing mist, she gasps and sits up quickly, breathing hard",
+   "lines": []
+  },
+  {
+   "id": "s05",
+   "lip": true,
+   "frame": "ashley_wake",
+   "prompt": "She looks around frightened",
+   "lines": [
+    [
+     "ASHLEY",
+     "Where am I? Why can't I remember anything?"
+    ]
+   ]
+  },
+  {
+   "id": "s06",
+   "lip": false,
+   "frame": "capsule_hall",
+   "prompt": "Frost cracks on the capsules, steam bursts from pipes",
+   "lines": []
+  },
+  {
+   "id": "s07",
+   "lip": false,
+   "frame": "compass_orb",
+   "prompt": "The turquoise orb flies down and circles playfully around, sparkling",
+   "lines": [
+    [
+     "COMPASS",
+     "Hello, Twenty-Three. I am Compass. I have waited a long time for you."
+    ]
+   ]
+  },
+  {
+   "id": "s08",
+   "lip": false,
+   "frame": "ashley_hall",
+   "prompt": "She climbs out of the capsule, stumbles, catches herself and walks toward the light orb",
+   "lines": []
+  },
+  {
+   "id": "s09",
+   "lip": false,
+   "frame": "ashley_hall",
+   "prompt": "Ashley touches a glowing wall panel, holographic symbols race across it",
+   "lines": []
+  },
+  {
+   "id": "s10",
+   "lip": true,
+   "frame": "ashley_hall",
+   "prompt": "She speaks to the floating orb",
+   "lines": [
+    [
+     "ASHLEY",
+     "Twenty-Three? Is that my name?"
+    ]
+   ]
+  },
+  {
+   "id": "s11",
+   "lip": false,
+   "frame": "compass_orb",
+   "prompt": "The orb pulses brighter, projecting a hologram of the girl's face",
+   "lines": [
+    [
+     "COMPASS",
+     "Your name is Ashley. And you are the last one awake."
+    ]
+   ]
+  },
+  {
+   "id": "s12",
+   "lip": false,
+   "frame": "compass_orb",
+   "prompt": "The orb zips around the hall leaving a turquoise light trail",
+   "lines": []
+  },
+  {
+   "id": "s13",
+   "lip": false,
+   "frame": "capsule_hall",
+   "prompt": "Ashley runs between the other 22 capsules, wiping frost off the glass, all empty and dark",
+   "lines": []
+  },
+  {
+   "id": "s14",
+   "lip": true,
+   "frame": "ashley_close",
+   "prompt": "She turns around worried",
+   "lines": [
+    [
+     "ASHLEY",
+     "Where are the others? There were twenty-three of us!"
+    ]
+   ]
+  },
+  {
+   "id": "s15",
+   "lip": false,
+   "frame": "ashley_edge",
+   "prompt": "Ashley shields her eyes from the bright sun, hair whipping in strong wind",
+   "lines": []
+  },
+  {
+   "id": "s16",
+   "lip": false,
+   "frame": "ashley_hall",
+   "prompt": "Alarm lights flash red, Ashley spins around as a door opens to blinding daylight",
+   "lines": []
+  },
+  {
+   "id": "s17",
+   "lip": false,
+   "frame": "ashley_edge",
+   "prompt": "Ashley steps outside and freezes at the edge, wind whipping her hair, awe on her face",
+   "lines": [
+    [
+     "NARRATOR",
+     "Outside, the world she forgot was waiting."
+    ]
+   ]
+  },
+  {
+   "id": "s18",
+   "lip": false,
+   "frame": "elyra_sky",
+   "prompt": "A huge sky whale-shaped ship passes slowly behind the islands",
+   "lines": []
+  },
+  {
+   "id": "s19",
+   "lip": false,
+   "frame": "elyra_sky",
+   "prompt": "Ships glide between islands, birds fly past, bridges of light connect towers",
+   "lines": []
+  },
+  {
+   "id": "s20",
+   "lip": true,
+   "frame": "ashley_edge",
+   "prompt": "She looks out in wonder",
+   "lines": [
+    [
+     "ASHLEY",
+     "Islands in the sky. This can't be real."
+    ]
+   ]
+  },
+  {
+   "id": "s21",
+   "lip": false,
+   "frame": "broken_isles",
+   "prompt": "Lightning strikes a crystal tower, sparks rain down",
+   "lines": []
+  },
+  {
+   "id": "s22",
+   "lip": false,
+   "frame": "kai_signal",
+   "prompt": "The hologram flickers violently, the young man's face appears through static, shouting",
+   "lines": [
+    [
+     "KAI",
+     "Twenty-Three! If you hear this... the Fortress... help me!"
+    ]
+   ]
+  },
+  {
+   "id": "s23",
+   "lip": false,
+   "frame": "ashley_close",
+   "prompt": "Ashley reaches toward the flickering hologram, eyes wide",
+   "lines": []
+  },
+  {
+   "id": "s24",
+   "lip": false,
+   "frame": "ashley_close",
+   "prompt": "Ashley breathes hard after landing, then smiles nervously",
+   "lines": []
+  },
+  {
+   "id": "s25",
+   "lip": true,
+   "frame": "ashley_close",
+   "prompt": "She whispers, shaken",
+   "lines": [
+    [
+     "ASHLEY",
+     "I know that face. I don't know how, but I know him."
+    ]
+   ]
+  },
+  {
+   "id": "s26",
+   "lip": false,
+   "frame": "compass_orb",
+   "prompt": "The orb spins fast and shows a glowing map with a red dot far away",
+   "lines": [
+    [
+     "COMPASS",
+     "His signal comes from the Broken Isles. It is dangerous."
+    ]
+   ]
+  },
+  {
+   "id": "s27",
+   "lip": true,
+   "frame": "ashley_close",
+   "prompt": "She clenches her fist, determined",
+   "lines": [
+    [
+     "ASHLEY",
+     "Then that's where I'm going."
+    ]
+   ]
+  },
+  {
+   "id": "s28",
+   "lip": false,
+   "frame": "ashley_edge",
+   "prompt": "Ashley runs and leaps onto a moving platform of light that carries her across the sky",
+   "lines": []
+  },
+  {
+   "id": "s29",
+   "lip": false,
+   "frame": "elyra_sky",
+   "prompt": "The light platform zooms between floating islands, clouds rushing past",
+   "lines": []
+  },
+  {
+   "id": "s30",
+   "lip": false,
+   "frame": "broken_isles",
+   "prompt": "Approaching the shattered islands, blue crystals glowing, thunder rolling",
+   "lines": [
+    [
+     "NARRATOR",
+     "She didn't know who she was. But she knew someone needed her."
+    ]
+   ]
+  },
+  {
+   "id": "s31",
+   "lip": false,
+   "frame": "ashley_close",
+   "prompt": "Ashley lands hard, rolls and stands up, looking around the broken island",
+   "lines": []
+  },
+  {
+   "id": "s32",
+   "lip": true,
+   "frame": "ashley_close",
+   "prompt": "She calls into the wind",
+   "lines": [
+    [
+     "ASHLEY",
+     "Hello? Is anyone out here?"
+    ]
+   ]
+  },
+  {
+   "id": "s33",
+   "lip": false,
+   "frame": "leon_cat",
+   "prompt": "The cat in a tiny helmet leaps out from behind a rock and stares at her, tail up",
+   "lines": []
+  },
+  {
+   "id": "s34",
+   "lip": false,
+   "frame": "ava_isles",
+   "prompt": "A brown-haired young woman steps out of the mist pointing her staff",
+   "lines": [
+    [
+     "AVA",
+     "Don't move. Who sent you?"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,309 @@
+{
+ "ep": 6,
+ "title": "Kai's Eyes",
+ "title_tr": "Kai'nin Gözleri",
+ "voices": {
+  "NARRATOR": "Daniel",
+  "ASHLEY": "Matilda",
+  "COMPASS": "Jessica",
+  "AVA": "Laura",
+  "RYAN": "Liam",
+  "KAI": "Will",
+  "KAEL": "George",
+  "SHADOW": "Callum",
+  "SILA": "Lily",
+  "NYRA": "Alice",
+  "EKIN": "River"
+ },
+ "shots": [
+  {
+   "id": "s01",
+   "lip": false,
+   "frame": "kael_hut",
+   "prompt": "Night in the hut, Kai lies on a bed, tossing and turning",
+   "lines": [
+    [
+     "NARRATOR",
+     "The Shadow had hidden her code inside Kai's mind."
+    ]
+   ]
+  },
+  {
+   "id": "s02",
+   "lip": false,
+   "frame": "kai_eyes",
+   "prompt": "Red code pulses in Kai's eyes",
+   "lines": []
+  },
+  {
+   "id": "s03",
+   "lip": false,
+   "frame": "kael_hut",
+   "prompt": "Rain hits the hut windows, candles flicker",
+   "lines": []
+  },
+  {
+   "id": "s04",
+   "lip": true,
+   "frame": "kael_close",
+   "prompt": "He explains gravely",
+   "lines": [
+    [
+     "KAEL",
+     "Someone must go inside his dream and bring him back."
+    ]
+   ]
+  },
+  {
+   "id": "s05",
+   "lip": true,
+   "frame": "ashley_close",
+   "prompt": "She steps forward",
+   "lines": [
+    [
+     "ASHLEY",
+     "I'll go. He came for me once."
+    ]
+   ]
+  },
+  {
+   "id": "s06",
+   "lip": false,
+   "frame": "dream_world",
+   "prompt": "Memory lanterns rise into the sky like fireflies",
+   "lines": []
+  },
+  {
+   "id": "s07",
+   "lip": false,
+   "frame": "ashley_close",
+   "prompt": "Ashley holds the green pendant against Kai's forehead, light floods the room",
+   "lines": []
+  },
+  {
+   "id": "s08",
+   "lip": false,
+   "frame": "dream_world",
+   "prompt": "Ashley falls into a golden dream field under two moons",
+   "lines": [
+    [
+     "NARRATOR",
+     "Inside Kai's dream, memories floated like lanterns."
+    ]
+   ]
+  },
+  {
+   "id": "s09",
+   "lip": false,
+   "frame": "dream_world",
+   "prompt": "Ashley runs across the golden field toward a distant hill",
+   "lines": []
+  },
+  {
+   "id": "s10",
+   "lip": false,
+   "frame": "dream_world",
+   "prompt": "Ashley walks among floating memory lanterns, touching one that shows two children laughing",
+   "lines": []
+  },
+  {
+   "id": "s11",
+   "lip": true,
+   "frame": "ashley_close",
+   "prompt": "She calls out",
+   "lines": [
+    [
+     "ASHLEY",
+     "Kai! Where are you?"
+    ]
+   ]
+  },
+  {
+   "id": "s12",
+   "lip": false,
+   "frame": "kai_eyes",
+   "prompt": "Red code spreads across Kai's face then retreats",
+   "lines": []
+  },
+  {
+   "id": "s13",
+   "lip": false,
+   "frame": "kai_close",
+   "prompt": "Kai sits alone on a hill in the dream, staring at the moons",
+   "lines": []
+  },
+  {
+   "id": "s14",
+   "lip": true,
+   "frame": "kai_close",
+   "prompt": "He doesn't turn around",
+   "lines": [
+    [
+     "KAI",
+     "Go away. Everyone I remember leaves."
+    ]
+   ]
+  },
+  {
+   "id": "s15",
+   "lip": false,
+   "frame": "ashley_shadow",
+   "prompt": "Wind swirls around Ashley and her twin, hair flying",
+   "lines": []
+  },
+  {
+   "id": "s16",
+   "lip": true,
+   "frame": "ashley_close",
+   "prompt": "She sits beside him",
+   "lines": [
+    [
+     "ASHLEY",
+     "I didn't leave. I woke up and came looking for you."
+    ]
+   ]
+  },
+  {
+   "id": "s17",
+   "lip": false,
+   "frame": "shadow_mist",
+   "prompt": "The pale twin rises from the shadows of the dream, red light spreading",
+   "lines": [
+    [
+     "SHADOW",
+     "He belongs to me now."
+    ]
+   ]
+  },
+  {
+   "id": "s18",
+   "lip": false,
+   "frame": "dream_world",
+   "prompt": "The two moons flash brightly as the dream shakes",
+   "lines": []
+  },
+  {
+   "id": "s19",
+   "lip": false,
+   "frame": "dream_world",
+   "prompt": "The golden field turns dark red, the lanterns start to go out",
+   "lines": []
+  },
+  {
+   "id": "s20",
+   "lip": false,
+   "frame": "ashley_shadow",
+   "prompt": "Ashley stands between Kai and her twin, holding out the glowing pendant",
+   "lines": []
+  },
+  {
+   "id": "s21",
+   "lip": false,
+   "frame": "kael_hut",
+   "prompt": "Kael holds Kai's hand, praying, light pulsing",
+   "lines": []
+  },
+  {
+   "id": "s22",
+   "lip": true,
+   "frame": "ashley_close",
+   "prompt": "She speaks firmly",
+   "lines": [
+    [
+     "ASHLEY",
+     "Nobody belongs to anyone. Let him go."
+    ]
+   ]
+  },
+  {
+   "id": "s23",
+   "lip": false,
+   "frame": "kai_close",
+   "prompt": "Kai stands up beside Ashley, memories glowing around him",
+   "lines": []
+  },
+  {
+   "id": "s24",
+   "lip": false,
+   "frame": "nyra_warrior",
+   "prompt": "Nyra spins her glowing spear and launches into the sky",
+   "lines": []
+  },
+  {
+   "id": "s25",
+   "lip": true,
+   "frame": "kai_close",
+   "prompt": "He smiles slowly",
+   "lines": [
+    [
+     "KAI",
+     "Twenty-Three. Ashley. I remember now."
+    ]
+   ]
+  },
+  {
+   "id": "s26",
+   "lip": false,
+   "frame": "dream_world",
+   "prompt": "Golden light explodes outward and the dark shadow shatters into dust",
+   "lines": [
+    [
+     "NARRATOR",
+     "Memories are stronger than any code."
+    ]
+   ]
+  },
+  {
+   "id": "s27",
+   "lip": false,
+   "frame": "kael_hut",
+   "prompt": "Kai gasps awake in the hut, the red light gone from his eyes",
+   "lines": []
+  },
+  {
+   "id": "s28",
+   "lip": false,
+   "frame": "ryan_close",
+   "prompt": "Ryan cheers and jumps on the bed",
+   "lines": []
+  },
+  {
+   "id": "s29",
+   "lip": false,
+   "frame": "leon_cat",
+   "prompt": "The cat purrs and curls up on Kai's chest",
+   "lines": []
+  },
+  {
+   "id": "s30",
+   "lip": false,
+   "frame": "ava_close",
+   "prompt": "Ava smiles with relief, wiping a tear",
+   "lines": []
+  },
+  {
+   "id": "s31",
+   "lip": false,
+   "frame": "fortress_ext",
+   "prompt": "In the fortress, Sila slams her fist on a console, furious",
+   "lines": [
+    [
+     "SILA",
+     "Send Nyra. Bring me the girl with the staff."
+    ]
+   ]
+  },
+  {
+   "id": "s32",
+   "lip": false,
+   "frame": "nyra_warrior",
+   "prompt": "A red-armored warrior ignites her energy spear",
+   "lines": [
+    [
+     "NARRATOR",
+     "The Red Warrior was coming."
+    ]
+   ]
+  }
+ ]
+}

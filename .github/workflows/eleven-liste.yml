@@ -1,0 +1,28 @@
+name: ElevenLabs ses listesi
+on:
+  push:
+    branches: [uretim-ham]
+    paths: ['uretim-plan/istek/eleven-liste.txt']
+permissions:
+  contents: write
+jobs:
+  l:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: uretim-ham }
+      - env: { K: '${{ secrets.ELEVENLABS_API_KEY }}' }
+        run: |
+          mkdir -p gelen
+          python3 - <<'PY'
+          import json,os,urllib.request
+          r=urllib.request.Request("https://api.elevenlabs.io/v1/voices",headers={"xi-api-key":os.environ["K"]})
+          v=json.load(urllib.request.urlopen(r))["voices"]
+          u=urllib.request.Request("https://api.elevenlabs.io/v1/user/subscription",headers={"xi-api-key":os.environ["K"]})
+          try: s=json.load(urllib.request.urlopen(u)); s={k:s.get(k) for k in ("tier","character_count","character_limit","next_character_count_reset_unix")}
+          except Exception as e: s=str(e)
+          json.dump({"sub":s,"voices":[{"name":x["name"],"id":x["voice_id"],"cat":x.get("category"),"labels":x.get("labels")} for x in v]},open("gelen/eleven-sesler.json","w"),ensure_ascii=False,indent=1)
+          PY
+      - run: |
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git add gelen && git commit -m "ElevenLabs ses listesi" && git pull --no-rebase --no-edit origin uretim-ham && git push origin HEAD:uretim-ham || true

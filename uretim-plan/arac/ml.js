@@ -9,10 +9,11 @@ window.setDur=async(sec)=>{ let s=document.querySelector('.toolbox-duration-slid
  Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(s,String(sec-4)); s.dispatchEvent(new Event('input',{bubbles:true})); s.dispatchEvent(new Event('change',{bubbles:true})); await sleep(400); document.body.click(); await sleep(300);};
 window.setTA=v=>{const ta=vta(); Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype,'value').set.call(ta,v); ta.dispatchEvent(new Event('input',{bubbles:true}));};
 window.vinput=()=>[...document.querySelectorAll('input[type=file]')].find(i=>/mp3|audio/.test(i.accept)&&/jpg|image/.test(i.accept));
-window.addFiles=async(files)=>{ for(const f of files){ const inp=vinput(); const n0=vchips(); const dt=new DataTransfer(); dt.items.add(f); inp.files=dt.files; inp.dispatchEvent(new Event('change',{bubbles:true})); for(let i=0;i<15&&vchips()==n0;i++) await sleep(1000);} return vchips();};
+window.addFiles=async(files)=>{ for(const f of files){ const inp=vinput(); const n0=vchips(); const dt=new DataTransfer(); dt.items.add(f); inp.files=dt.files; inp.dispatchEvent(new Event('change',{bubbles:true})); for(let i=0;i<25&&vchips()==n0;i++) await sleep(1000);} return vchips();};
 window.TAIL=' The character speaks exactly the dialogue in Audio 1 with precise natural lip sync, subtle natural head and eye movement, blinking, breathing, realistic skin, photorealistic live-action family fantasy film, cinematic lighting, 35mm film look. Keep the same face, clothes and setting as Image 1. No text, no subtitles, no music.';
-window.lipGen=async(imgUrl,audUrl,prompt,sec,name)=>{ await clearRefs(); if(vchips()) return name+' CANTCLEAR'; await setDur(sec);
- const ib=await (await fetch(imgUrl)).blob(); const ab=await (await fetch(audUrl)).blob();
+window.shrink=async(blob)=>{ const im=await createImageBitmap(blob); const W=1280,H=Math.round(im.height*1280/im.width); const c=document.createElement('canvas'); c.width=W;c.height=H; c.getContext('2d').drawImage(im,0,0,W,H); return await new Promise(r=>c.toBlob(r,'image/jpeg',0.88));};
+window.lipGen=async(imgUrl,audUrl,prompt,sec,name)=>{ await clearRefs(); if(vchips()) return name+' CANTCLEAR'; await setDur(sec); document.dispatchEvent(new KeyboardEvent('keydown',{key:'Escape',bubbles:true})); await sleep(300);
+ const ib=await shrink(await (await fetch(imgUrl)).blob()); const ab=await (await fetch(audUrl)).blob();
  const n=await addFiles([new File([ib],name+'.jpg',{type:'image/jpeg'}),new File([ab],name+'.mp3',{type:'audio/mpeg'})]);
  if(n!=2){ await clearRefs(); return name+' REFS '+n;} setTA(prompt+TAIL); await sleep(500);
  if(!document.body.innerText.includes('Wan 3.0')) return 'MODEL?'; vbtn('Create Video').click(); await sleep(3500); return name+' sent';};

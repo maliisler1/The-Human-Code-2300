@@ -74,3 +74,13 @@ window.lipGen=async(imgUrl,audUrl,prompt,sec,name)=>{ await clearRefs(); if(vchi
  if(!document.body.innerText.includes('Wan 3.0')) return 'MODEL?'; window.LASTRESP=null; vbtn('Create Video').click(); for(let i=0;i<15&&!window.LASTRESP;i++) await sleep(1000);
  const ok=window.LASTRESP&&window.LASTRESP.includes('"code":200'); return name+(ok?' sent':' FAIL '+String(window.LASTRESP).slice(0,80));};
 'ml.js loaded5';
+window.ensureRef=async()=>{ const cur=[...document.querySelectorAll('button')].filter(b=>b.offsetParent).find(b=>/^(Frame|Reference|Text) to Video/.test(b.innerText)); if(!cur.innerText.startsWith('Reference')){ cur.click(); await sleep(800); [...document.querySelectorAll('button')].find(b=>b.innerText.startsWith('Reference to Video')).click(); await sleep(1200);}
+ if(!document.body.innerText.includes('Wan 3.0')){ [...document.querySelectorAll('button')].filter(b=>b.offsetParent).find(b=>b.innerText.startsWith('Model')).click(); await sleep(800); [...document.querySelectorAll('strong')].find(e=>e.textContent.trim()=='Wan 3.0').click(); await sleep(1000);} return document.body.innerText.includes('Wan 3.0');};
+window.one=async()=>{ const A=JSON.parse(localStorage.getItem('lipq')); let i=+localStorage.getItem('lipi'); if(i>=A.length) return 'ALLDONE'; const [a,img,p,s]=A[i];
+ if(!await ensureRef()) return 'MODEL'; const r=await lipGen(img,RAW+'lip/'+a+'.mp3',p,s,a); if(r.includes('sent')){ i++; localStorage.setItem('lipi',String(i)); } return r+' | next '+i+'/'+A.length;};
+window.lipBatch=async(n)=>{ const o=[]; for(let k=0;k<n;k++){ const r=await one(); o.push(r); if(!r.includes('sent')) break;} return o.join(' | ');};
+window.oneF=async()=>{ const A=JSON.parse(localStorage.getItem('frq')); let i=+localStorage.getItem('fri'); if(i>=A.length) return 'ALLDONE'; const [n,img,p]=A[i];
+ if(!await setupFrame()) return 'MODEL'; const r=await frameGen(img,p,n); if(r.includes('sent')){ i++; localStorage.setItem('fri',String(i)); } return r+' | next '+i+'/'+A.length;};
+window.frBatch=async(n)=>{ const o=[]; for(let k=0;k<n;k++){ const r=await oneF(); o.push(r); if(!r.includes('sent')) break;} return o.join(' | ');};
+window.qAdd=async(key,files,isLip)=>{ let A=JSON.parse(localStorage.getItem(key)||'[]'); for(const f of files){ let L=await (await fetch(RAW+f+'?'+Date.now())).json(); L=isLip?L.map(([a,i,p,s])=>[a,i.replace('GF:',GF),p,s]):L.map(([n,f2,p])=>[n,GF+f2,p]); A=A.concat(L);} localStorage.setItem(key,JSON.stringify(A)); return A.length;};
+'ml.js loaded6';

@@ -1,289 +1,360 @@
 {
-"ep": 4,
-"title": "The Shadow in the Hat",
-"title_tr": "Şapkalı Gölge",
-"voices": {
-"NARRATOR": "Brian",
-"MIRA": "Jessica",
-"ELIAS": "Bill",
-"THEO": "Liam",
-"ANNA": "Sarah",
-"SHADOW": "Callum"
-},
-"shots": [
-{
-"id": "s01",
-"lip": false,
-"frame": "star_window",
-"prompt": "Night, a bright star over the rooftops, the lantern on the windowsill glows silver and pulses softly like a heartbeat",
-"lines": [
-[
-"NARRATOR",
-"Three nights left. Tonight, the Shadow would finally speak."
-]
-]
-},
-{
-"id": "s02",
-"lip": true,
-"frame": "bedroom_lantern",
-"prompt": "Mira sits on her bed at night holding the glowing lantern close, talking softly to the light inside",
-"lines": [
-[
-"MIRA",
-"You showed me our star. Were you… mine all along?"
-]
-]
-},
-{
-"id": "s03",
-"lip": false,
-"frame": "lantern_close",
-"prompt": "Close-up of the lantern: inside, the silver light swirls and forms a tiny shining star, answering yes",
-"lines": []
-},
-{
-"id": "s04",
-"lip": false,
-"frame": "window_knock",
-"prompt": "The bedroom window glass frosts over with silver patterns, a gentle tapping, Theo waving outside in the night",
-"lines": []
-},
-{
-"id": "s05",
-"lip": true,
-"frame": "theo_night",
-"prompt": "Theo outside under the street lamp at night, holding a flashlight, brave but nervous",
-"lines": [
-[
-"THEO",
-"I brought a flashlight. And cookies. For courage."
-]
-]
-},
-{
-"id": "s06",
-"lip": false,
-"frame": "bridge_walk",
-"prompt": "Mira and Theo walk across an old stone bridge over a misty river at night, the lantern glowing silver, moon above",
-"lines": []
-},
-{
-"id": "s07",
-"lip": false,
-"frame": "bridge_fog",
-"prompt": "Thick fog rolls onto the far end of the bridge, the street lamps flicker and go out one by one",
-"lines": []
-},
-{
-"id": "s08",
-"lip": false,
-"frame": "shadow_bridge",
-"prompt": "From the fog the tall shadow figure in a long coat and wide-brimmed hat walks slowly toward them, face hidden in darkness",
-"lines": [
-[
-"SHADOW",
-"That light does not belong to you, child."
-]
-]
-},
-{
-"id": "s09",
-"lip": true,
-"frame": "mira_bridge",
-"prompt": "Mira on the bridge at night holds the lantern tight against her chest, scared but standing her ground",
-"lines": [
-[
-"MIRA",
-"Yes, it does. It's my dream. I forgot it, but it's mine."
-]
-]
-},
-{
-"id": "s10",
-"lip": false,
-"frame": "shadow_close",
-"prompt": "Close on the shadow figure, under the hat brim only darkness and two faint silver points like distant stars",
-"lines": [
-[
-"SHADOW",
-"Forgotten dreams are lost dreams. And lost dreams are mine to keep quiet."
-]
-]
-},
-{
-"id": "s11",
-"lip": true,
-"frame": "theo_bridge",
-"prompt": "Theo on the bridge at night steps in front of Mira, voice shaking but brave, holding a flashlight",
-"lines": [
-[
-"THEO",
-"Hey! Tall, dark and creepy! Leave her alone!"
-]
-]
-},
-{
-"id": "s12",
-"lip": false,
-"frame": "shadow_hand",
-"prompt": "The shadow raises a gloved hand, cold blue mist spreads over the bridge, frost creeping on the stones",
-"lines": []
-},
-{
-"id": "s13",
-"lip": false,
-"frame": "lantern_flare",
-"prompt": "The lantern in Mira's hands flares with brilliant silver light, a dome of star dust pushes the mist back",
-"lines": []
-},
-{
-"id": "s14",
-"lip": true,
-"frame": "mira_bridge",
-"prompt": "Mira shining in silver light, amazed and determined",
-"lines": [
-[
-"MIRA",
-"It's protecting me. It remembers me!"
-]
-]
-},
-{
-"id": "s15",
-"lip": false,
-"frame": "shadow_step_back",
-"prompt": "The shadow figure steps back from the silver light, its coat fraying into smoke at the edges",
-"lines": [
-[
-"SHADOW",
-"Three nights, little dreamer. Then it will forget you too."
-]
-]
-},
-{
-"id": "s16",
-"lip": false,
-"frame": "shadow_vanish",
-"prompt": "The shadow dissolves into the fog, the street lamps on the bridge flicker back on one by one",
-"lines": []
-},
-{
-"id": "s17",
-"lip": true,
-"frame": "theo_bridge",
-"prompt": "Theo exhales, shaking, then laughs nervously",
-"lines": [
-[
-"THEO",
-"I said creepy. I think he heard creepy."
-]
-]
-},
-{
-"id": "s18",
-"lip": false,
-"frame": "library_doors",
-"prompt": "They arrive at the old library at night, the doors open by themselves with warm golden light",
-"lines": []
-},
-{
-"id": "s19",
-"lip": true,
-"frame": "elias_candle",
-"prompt": "Elias in the archive holding a candle, grave and worried",
-"lines": [
-[
-"ELIAS",
-"You met him on the bridge. I can see the frost on your coat."
-]
-]
-},
-{
-"id": "s20",
-"lip": true,
-"frame": "mira_archive",
-"prompt": "Mira in the archive holding the lantern, emotional",
-"lines": [
-[
-"MIRA",
-"Elias, the dream is mine. It showed me our star. Why can't I remember it?"
-]
-]
-},
-{
-"id": "s21",
-"lip": true,
-"frame": "elias_candle",
-"prompt": "Elias looks at her kindly, sad eyes behind round glasses",
-"lines": [
-[
-"ELIAS",
-"Some dreams are hidden because they hold something we were not ready to feel."
-]
-]
-},
-{
-"id": "s22",
-"lip": false,
-"frame": "jar_shelf_empty",
-"prompt": "An empty space on a high archive shelf where one jar is missing, dust outlining a circle, a faint name plate scratched away",
-"lines": []
-},
-{
-"id": "s23",
-"lip": true,
-"frame": "elias_candle",
-"prompt": "Elias points up at the empty shelf",
-"lines": [
-[
-"ELIAS",
-"Your jar stood there for seven years. Then someone scratched out the name."
-]
-]
-},
-{
-"id": "s24",
-"lip": true,
-"frame": "theo_closeup",
-"prompt": "Theo in the archive frowning, thinking hard",
-"lines": [
-[
-"THEO",
-"The Shadow. He's been hiding it from you on purpose."
-]
-]
-},
-{
-"id": "s25",
-"lip": false,
-"frame": "lantern_close",
-"prompt": "The silver light inside the lantern draws a tiny shape: two hands, one big and one small, holding each other",
-"lines": []
-},
-{
-"id": "s26",
-"lip": true,
-"frame": "mira_archive",
-"prompt": "Mira stares at the lantern, a tear rolls down her cheek, whispering",
-"lines": [
-[
-"MIRA",
-"Big hands. Small hands. I think… I know whose hands those are."
-]
-]
-},
-{
-"id": "s27",
-"lip": false,
-"frame": "archive_wide",
-"prompt": "Wide shot of the archive, all the jars glow a little brighter together, warm and hopeful",
-"lines": [
-[
-"NARRATOR",
-"Mira was one step closer to the truth. But the nights were running out."
-]
-]
-}
-]
+ "ep": 4,
+ "title": "The Shadow in the Hat",
+ "title_tr": "Şapkalı Gölge",
+ "voices": {
+  "NARRATOR": "Brian",
+  "MIRA": "Jessica",
+  "ELIAS": "Bill",
+  "THEO": "Liam",
+  "ANNA": "Sarah",
+  "SHADOW": "Callum"
+ },
+ "shots": [
+  {
+   "id": "s01",
+   "lip": false,
+   "frame": "star_window",
+   "prompt": "Night, a bright star over the rooftops, the lantern on the windowsill glows silver and pulses softly like a heartbeat",
+   "lines": [
+    [
+     "NARRATOR",
+     "Three nights left. Tonight, the Shadow would finally speak."
+    ]
+   ]
+  },
+  {
+   "id": "x01",
+   "lip": false,
+   "frame": "bedroom_mira",
+   "prompt": "Mira sits up in bed at night, pulls on her navy coat and picks up the glowing lantern",
+   "lines": []
+  },
+  {
+   "id": "s02",
+   "lip": true,
+   "frame": "bedroom_lantern",
+   "prompt": "Mira sits on her bed at night holding the glowing lantern close, talking softly to the light inside",
+   "lines": [
+    [
+     "MIRA",
+     "You showed me our star. Were you… mine all along?"
+    ]
+   ]
+  },
+  {
+   "id": "s03",
+   "lip": false,
+   "frame": "lantern_close",
+   "prompt": "Close-up of the lantern: inside, the silver light swirls and forms a tiny shining star, answering yes",
+   "lines": []
+  },
+  {
+   "id": "s04",
+   "lip": false,
+   "frame": "window_knock",
+   "prompt": "The bedroom window glass frosts over with silver patterns, a gentle tapping, Theo waving outside in the night",
+   "lines": []
+  },
+  {
+   "id": "x02",
+   "lip": false,
+   "frame": "window_theo",
+   "prompt": "Theo stands outside under the window waving a flashlight, grinning, breath fogging in the cold",
+   "lines": []
+  },
+  {
+   "id": "s05",
+   "lip": true,
+   "frame": "theo_night",
+   "prompt": "Theo outside under the street lamp at night, holding a flashlight, brave but nervous",
+   "lines": [
+    [
+     "THEO",
+     "I brought a flashlight. And cookies. For courage."
+    ]
+   ]
+  },
+  {
+   "id": "s06",
+   "lip": false,
+   "frame": "bridge_walk",
+   "prompt": "Mira and Theo walk across an old stone bridge over a misty river at night, the lantern glowing silver, moon above",
+   "lines": []
+  },
+  {
+   "id": "x03",
+   "lip": false,
+   "frame": "theo_bridge",
+   "prompt": "Theo walks onto the misty bridge, looking around nervously with his flashlight",
+   "lines": [
+    [
+     "NARRATOR",
+     "The old bridge was where lost things were found."
+    ]
+   ]
+  },
+  {
+   "id": "s07",
+   "lip": false,
+   "frame": "bridge_fog",
+   "prompt": "Thick fog rolls onto the far end of the bridge, the street lamps flicker and go out one by one",
+   "lines": []
+  },
+  {
+   "id": "s08",
+   "lip": false,
+   "frame": "shadow_bridge",
+   "prompt": "From the fog the tall shadow figure in a long coat and wide-brimmed hat walks slowly toward them, face hidden in darkness",
+   "lines": [
+    [
+     "SHADOW",
+     "That light does not belong to you, child."
+    ]
+   ]
+  },
+  {
+   "id": "x04",
+   "lip": false,
+   "frame": "mira_bridge",
+   "prompt": "Mira holds the lantern up high on the foggy bridge, the silver light pushing back the mist",
+   "lines": []
+  },
+  {
+   "id": "s09",
+   "lip": true,
+   "frame": "mira_bridge",
+   "prompt": "Mira on the bridge at night holds the lantern tight against her chest, scared but standing her ground",
+   "lines": [
+    [
+     "MIRA",
+     "Yes, it does. It's my dream. I forgot it, but it's mine."
+    ]
+   ]
+  },
+  {
+   "id": "s10",
+   "lip": false,
+   "frame": "shadow_close",
+   "prompt": "Close on the shadow figure, under the hat brim only darkness and two faint silver points like distant stars",
+   "lines": [
+    [
+     "SHADOW",
+     "Forgotten dreams are lost dreams. And lost dreams are mine to keep quiet."
+    ]
+   ]
+  },
+  {
+   "id": "s11",
+   "lip": true,
+   "frame": "theo_bridge",
+   "prompt": "Theo on the bridge at night steps in front of Mira, voice shaking but brave, holding a flashlight",
+   "lines": [
+    [
+     "THEO",
+     "Hey! Tall, dark and creepy! Leave her alone!"
+    ]
+   ]
+  },
+  {
+   "id": "s12",
+   "lip": false,
+   "frame": "shadow_hand",
+   "prompt": "The shadow raises a gloved hand, cold blue mist spreads over the bridge, frost creeping on the stones",
+   "lines": []
+  },
+  {
+   "id": "s13",
+   "lip": false,
+   "frame": "lantern_flare",
+   "prompt": "The lantern in Mira's hands flares with brilliant silver light, a dome of star dust pushes the mist back",
+   "lines": []
+  },
+  {
+   "id": "x05",
+   "lip": false,
+   "frame": "theo_bridge",
+   "prompt": "Theo steps in front of Mira, raising his flashlight bravely",
+   "lines": []
+  },
+  {
+   "id": "s14",
+   "lip": true,
+   "frame": "mira_bridge",
+   "prompt": "Mira shining in silver light, amazed and determined",
+   "lines": [
+    [
+     "MIRA",
+     "It's protecting me. It remembers me!"
+    ]
+   ]
+  },
+  {
+   "id": "s15",
+   "lip": false,
+   "frame": "shadow_step_back",
+   "prompt": "The shadow figure steps back from the silver light, its coat fraying into smoke at the edges",
+   "lines": [
+    [
+     "SHADOW",
+     "Three nights, little dreamer. Then it will forget you too."
+    ]
+   ]
+  },
+  {
+   "id": "x06",
+   "lip": false,
+   "frame": "mira_bridge",
+   "prompt": "Mira hugs the lantern close, breathing fast, looking into the fog",
+   "lines": [
+    [
+     "NARRATOR",
+     "She didn't feel brave. But she stayed anyway."
+    ]
+   ]
+  },
+  {
+   "id": "s16",
+   "lip": false,
+   "frame": "shadow_vanish",
+   "prompt": "The shadow dissolves into the fog, the street lamps on the bridge flicker back on one by one",
+   "lines": []
+  },
+  {
+   "id": "s17",
+   "lip": true,
+   "frame": "theo_bridge",
+   "prompt": "Theo exhales, shaking, then laughs nervously",
+   "lines": [
+    [
+     "THEO",
+     "I said creepy. I think he heard creepy."
+    ]
+   ]
+  },
+  {
+   "id": "s18",
+   "lip": false,
+   "frame": "library_doors",
+   "prompt": "They arrive at the old library at night, the doors open by themselves with warm golden light",
+   "lines": []
+  },
+  {
+   "id": "x07",
+   "lip": false,
+   "frame": "run_aisle",
+   "prompt": "Mira and Theo run down a long aisle of glowing jars, lantern swinging",
+   "lines": []
+  },
+  {
+   "id": "s19",
+   "lip": true,
+   "frame": "elias_candle",
+   "prompt": "Elias in the archive holding a candle, grave and worried",
+   "lines": [
+    [
+     "ELIAS",
+     "You met him on the bridge. I can see the frost on your coat."
+    ]
+   ]
+  },
+  {
+   "id": "s20",
+   "lip": true,
+   "frame": "mira_archive",
+   "prompt": "Mira in the archive holding the lantern, emotional",
+   "lines": [
+    [
+     "MIRA",
+     "Elias, the dream is mine. It showed me our star. Why can't I remember it?"
+    ]
+   ]
+  },
+  {
+   "id": "s21",
+   "lip": true,
+   "frame": "elias_candle",
+   "prompt": "Elias looks at her kindly, sad eyes behind round glasses",
+   "lines": [
+    [
+     "ELIAS",
+     "Some dreams are hidden because they hold something we were not ready to feel."
+    ]
+   ]
+  },
+  {
+   "id": "s22",
+   "lip": false,
+   "frame": "jar_shelf_empty",
+   "prompt": "An empty space on a high archive shelf where one jar is missing, dust outlining a circle, a faint name plate scratched away",
+   "lines": []
+  },
+  {
+   "id": "x08",
+   "lip": false,
+   "frame": "mira_archive",
+   "prompt": "Mira walks slowly along the shelves, touching the warm glowing jars",
+   "lines": [
+    [
+     "NARRATOR",
+     "Every jar held someone's night. Someone's wish."
+    ]
+   ]
+  },
+  {
+   "id": "s23",
+   "lip": true,
+   "frame": "elias_candle",
+   "prompt": "Elias points up at the empty shelf",
+   "lines": [
+    [
+     "ELIAS",
+     "Your jar stood there for seven years. Then someone scratched out the name."
+    ]
+   ]
+  },
+  {
+   "id": "s24",
+   "lip": true,
+   "frame": "theo_closeup",
+   "prompt": "Theo in the archive frowning, thinking hard",
+   "lines": [
+    [
+     "THEO",
+     "The Shadow. He's been hiding it from you on purpose."
+    ]
+   ]
+  },
+  {
+   "id": "s25",
+   "lip": false,
+   "frame": "lantern_close",
+   "prompt": "The silver light inside the lantern draws a tiny shape: two hands, one big and one small, holding each other",
+   "lines": []
+  },
+  {
+   "id": "s26",
+   "lip": true,
+   "frame": "mira_archive",
+   "prompt": "Mira stares at the lantern, a tear rolls down her cheek, whispering",
+   "lines": [
+    [
+     "MIRA",
+     "Big hands. Small hands. I think… I know whose hands those are."
+    ]
+   ]
+  },
+  {
+   "id": "s27",
+   "lip": false,
+   "frame": "archive_wide",
+   "prompt": "Wide shot of the archive, all the jars glow a little brighter together, warm and hopeful",
+   "lines": [
+    [
+     "NARRATOR",
+     "Mira was one step closer to the truth. But the nights were running out."
+    ]
+   ]
+  }
+ ]
 }

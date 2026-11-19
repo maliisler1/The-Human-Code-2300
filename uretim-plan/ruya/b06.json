@@ -1,26 +1,337 @@
-{"ep":6,"title":"Theo's Nightmare","title_tr":"Theo'nun Kâbusu",
-"voices":{"NARRATOR":"Brian","MIRA":"Jessica","ELIAS":"Bill","THEO":"Liam","ANNA":"Sarah"},
-"shots":[
-{"id":"s01","lip":false,"frame":"city_night","prompt":"Night over the old city, a thunderstorm far away, one window flickers with strange red light","lines":[["NARRATOR","Not every dream in the Archive is a happy one."]]},
-{"id":"s02","lip":false,"frame":"theo_bedroom","prompt":"Theo asleep in his messy bedroom full of comics, tossing and turning, a dark red glow under his bed","lines":[]},
-{"id":"s03","lip":false,"frame":"nightmare_jar","prompt":"In the archive a dark red jar on a high shelf cracks, black smoke and red light leaking out","lines":[]},
-{"id":"s04","lip":true,"frame":"elias_candle","prompt":"Elias in the archive looking up urgently","lines":[["ELIAS","A nightmare has broken free. And it belongs to your friend."]]},
-{"id":"s05","lip":false,"frame":"street_run","prompt":"Mira runs through the rainy night street with her lantern toward Theo's house","lines":[]},
-{"id":"s06","lip":false,"frame":"theo_room_storm","prompt":"Inside Theo's room the walls stretch tall and dark, giant shadows of crows flap across the ceiling, Theo awake hiding under his blanket","lines":[]},
-{"id":"s07","lip":true,"frame":"theo_blanket","prompt":"Theo peeking out from under his blanket, terrified","lines":[["THEO","Mira? Is this real? It's the crows again. Since I was little, always the crows."]]},
-{"id":"s08","lip":true,"frame":"mira_room","prompt":"Mira in Theo's dark bedroom holding the glowing lantern, calm and brave","lines":[["MIRA","It's your nightmare. It escaped. But it can only be as big as you let it."]]},
-{"id":"s09","lip":false,"frame":"crow_shadows","prompt":"Huge shadow crows swirl around the room, papers flying, the lamp flickering","lines":[]},
-{"id":"s10","lip":true,"frame":"theo_blanket","prompt":"Theo, voice shaking","lines":[["THEO","I'm not brave like you. I joke around so nobody sees I'm scared."]]},
-{"id":"s11","lip":true,"frame":"mira_room","prompt":"Mira kneels next to him, gentle smile","lines":[["MIRA","Theo, you walked into a magic archive with cookies. You're the bravest person I know."]]},
-{"id":"s12","lip":false,"frame":"lantern_close","prompt":"The silver light in the lantern grows warm and soft like a nightlight","lines":[]},
-{"id":"s13","lip":true,"frame":"theo_blanket","prompt":"Theo slowly lowers the blanket, takes a breath","lines":[["THEO","Okay. Okay. Crows. Listen up."]]},
-{"id":"s14","lip":true,"frame":"theo_standing","prompt":"Theo stands up in his room in pajamas facing the shadow crows, fists clenched, brave","lines":[["THEO","You're just birds. Loud, annoying birds. And I'm not little anymore!"]]},
-{"id":"s15","lip":false,"frame":"crows_shrink","prompt":"The giant shadow crows shrink into small harmless sparrows made of soft grey light, chirping","lines":[]},
-{"id":"s16","lip":false,"frame":"sparrows_jar","prompt":"The little sparrows of light fly into a small glass jar that Mira holds open, the jar glows calm blue","lines":[]},
-{"id":"s17","lip":true,"frame":"theo_standing","prompt":"Theo laughing in relief, amazed","lines":[["THEO","I did that. I actually did that!"]]},
-{"id":"s18","lip":true,"frame":"mira_room","prompt":"Mira smiling proudly","lines":[["MIRA","See? Scary dreams just want someone to look at them."]]},
-{"id":"s19","lip":false,"frame":"window_shadow","prompt":"Outside Theo's window, on the rainy rooftop across, the tall shadow in the hat watches, then turns away","lines":[]},
-{"id":"s20","lip":true,"frame":"elias_candle","prompt":"Elias in the archive receiving the calm blue jar, impressed","lines":[["ELIAS","You returned a nightmare without fighting it. The Archive has not seen that in a hundred years."]]},
-{"id":"s21","lip":true,"frame":"elias_candle","prompt":"Elias becomes serious, glancing at the old clock","lines":[["ELIAS","But hurry. Tomorrow is the last night. The seventh."]]},
-{"id":"s22","lip":false,"frame":"star_window","prompt":"Dawn, the star fades, the lantern glows on the windowsill","lines":[["NARRATOR","One night left. And the dream still needed to come home."]]}
-]}
+{
+ "ep": 6,
+ "title": "Theo's Nightmare",
+ "title_tr": "Theo'nun Kâbusu",
+ "voices": {
+  "NARRATOR": "Brian",
+  "MIRA": "Jessica",
+  "ELIAS": "Bill",
+  "THEO": "Liam",
+  "ANNA": "Sarah"
+ },
+ "shots": [
+  {
+   "id": "s01",
+   "lip": false,
+   "frame": "city_night",
+   "prompt": "Night over the old city, a thunderstorm far away, one window flickers with strange red light",
+   "lines": [
+    [
+     "NARRATOR",
+     "Not every dream in the Archive is a happy one."
+    ]
+   ]
+  },
+  {
+   "id": "x01",
+   "lip": false,
+   "frame": "street_run",
+   "prompt": "Rain falls on the empty night street, a red glow flickers in one window",
+   "lines": []
+  },
+  {
+   "id": "s02",
+   "lip": false,
+   "frame": "theo_bedroom",
+   "prompt": "Theo asleep in his messy bedroom full of comics, tossing and turning, a dark red glow under his bed",
+   "lines": []
+  },
+  {
+   "id": "x02",
+   "lip": false,
+   "frame": "theo_bedroom",
+   "prompt": "Theo wakes up suddenly in bed, breathing hard, clutching his blanket",
+   "lines": [
+    [
+     "NARRATOR",
+     "Theo had a dream he never told anyone about."
+    ]
+   ]
+  },
+  {
+   "id": "s03",
+   "lip": false,
+   "frame": "nightmare_jar",
+   "prompt": "In the archive a dark red jar on a high shelf cracks, black smoke and red light leaking out",
+   "lines": []
+  },
+  {
+   "id": "x03",
+   "lip": false,
+   "frame": "elias_candle",
+   "prompt": "Elias hurries between shelves holding his candle, robe swirling",
+   "lines": []
+  },
+  {
+   "id": "s04",
+   "lip": true,
+   "frame": "elias_candle",
+   "prompt": "Elias in the archive looking up urgently",
+   "lines": [
+    [
+     "ELIAS",
+     "A nightmare has broken free. And it belongs to your friend."
+    ]
+   ]
+  },
+  {
+   "id": "s05",
+   "lip": false,
+   "frame": "street_run",
+   "prompt": "Mira runs through the rainy night street with her lantern toward Theo's house",
+   "lines": []
+  },
+  {
+   "id": "x04",
+   "lip": false,
+   "frame": "street_run",
+   "prompt": "Mira runs through the rainy street at night holding her glowing lantern",
+   "lines": []
+  },
+  {
+   "id": "s06",
+   "lip": false,
+   "frame": "theo_room_storm",
+   "prompt": "Inside Theo's room the walls stretch tall and dark, giant shadows of crows flap across the ceiling, Theo awake hiding under his blanket",
+   "lines": []
+  },
+  {
+   "id": "x05",
+   "lip": false,
+   "frame": "theo_room_storm",
+   "prompt": "Theo backs against the wall as dark shapes flutter at the window",
+   "lines": []
+  },
+  {
+   "id": "s07",
+   "lip": true,
+   "frame": "theo_blanket",
+   "prompt": "Theo peeking out from under his blanket, terrified",
+   "lines": [
+    [
+     "THEO",
+     "Mira? Is this real? It's the crows again. Since I was little, always the crows."
+    ]
+   ]
+  },
+  {
+   "id": "s08",
+   "lip": true,
+   "frame": "mira_room",
+   "prompt": "Mira in Theo's dark bedroom holding the glowing lantern, calm and brave",
+   "lines": [
+    [
+     "MIRA",
+     "It's your nightmare. It escaped. But it can only be as big as you let it."
+    ]
+   ]
+  },
+  {
+   "id": "x06",
+   "lip": false,
+   "frame": "mira_room",
+   "prompt": "Mira steps into the dark room and raises her lantern, silver light spreading",
+   "lines": [
+    [
+     "NARRATOR",
+     "Mira knew that look. She had been afraid too."
+    ]
+   ]
+  },
+  {
+   "id": "s09",
+   "lip": false,
+   "frame": "crow_shadows",
+   "prompt": "Huge shadow crows swirl around the room, papers flying, the lamp flickering",
+   "lines": []
+  },
+  {
+   "id": "x07",
+   "lip": false,
+   "frame": "theo_blanket",
+   "prompt": "Theo peeks out from under his blanket, slowly sitting up",
+   "lines": []
+  },
+  {
+   "id": "s10",
+   "lip": true,
+   "frame": "theo_blanket",
+   "prompt": "Theo, voice shaking",
+   "lines": [
+    [
+     "THEO",
+     "I'm not brave like you. I joke around so nobody sees I'm scared."
+    ]
+   ]
+  },
+  {
+   "id": "s11",
+   "lip": true,
+   "frame": "mira_room",
+   "prompt": "Mira kneels next to him, gentle smile",
+   "lines": [
+    [
+     "MIRA",
+     "Theo, you walked into a magic archive with cookies. You're the bravest person I know."
+    ]
+   ]
+  },
+  {
+   "id": "x08",
+   "lip": false,
+   "frame": "theo_standing",
+   "prompt": "Theo stands up slowly, fists clenched, taking a deep breath",
+   "lines": []
+  },
+  {
+   "id": "s12",
+   "lip": false,
+   "frame": "lantern_close",
+   "prompt": "The silver light in the lantern grows warm and soft like a nightlight",
+   "lines": []
+  },
+  {
+   "id": "s13",
+   "lip": true,
+   "frame": "theo_blanket",
+   "prompt": "Theo slowly lowers the blanket, takes a breath",
+   "lines": [
+    [
+     "THEO",
+     "Okay. Okay. Crows. Listen up."
+    ]
+   ]
+  },
+  {
+   "id": "x09",
+   "lip": false,
+   "frame": "mira_room",
+   "prompt": "Mira reaches out her hand toward Theo with a warm encouraging smile",
+   "lines": [
+    [
+     "NARRATOR",
+     "Fear gets smaller when someone holds your hand."
+    ]
+   ]
+  },
+  {
+   "id": "s14",
+   "lip": true,
+   "frame": "theo_standing",
+   "prompt": "Theo stands up in his room in pajamas facing the shadow crows, fists clenched, brave",
+   "lines": [
+    [
+     "THEO",
+     "You're just birds. Loud, annoying birds. And I'm not little anymore!"
+    ]
+   ]
+  },
+  {
+   "id": "s15",
+   "lip": false,
+   "frame": "crows_shrink",
+   "prompt": "The giant shadow crows shrink into small harmless sparrows made of soft grey light, chirping",
+   "lines": []
+  },
+  {
+   "id": "s16",
+   "lip": false,
+   "frame": "sparrows_jar",
+   "prompt": "The little sparrows of light fly into a small glass jar that Mira holds open, the jar glows calm blue",
+   "lines": []
+  },
+  {
+   "id": "x10",
+   "lip": false,
+   "frame": "theo_standing",
+   "prompt": "Theo laughs with relief, wiping his eyes, looking at the tiny birds",
+   "lines": []
+  },
+  {
+   "id": "s17",
+   "lip": true,
+   "frame": "theo_standing",
+   "prompt": "Theo laughing in relief, amazed",
+   "lines": [
+    [
+     "THEO",
+     "I did that. I actually did that!"
+    ]
+   ]
+  },
+  {
+   "id": "s18",
+   "lip": true,
+   "frame": "mira_room",
+   "prompt": "Mira smiling proudly",
+   "lines": [
+    [
+     "MIRA",
+     "See? Scary dreams just want someone to look at them."
+    ]
+   ]
+  },
+  {
+   "id": "s19",
+   "lip": false,
+   "frame": "window_shadow",
+   "prompt": "Outside Theo's window, on the rainy rooftop across, the tall shadow in the hat watches, then turns away",
+   "lines": []
+  },
+  {
+   "id": "x11",
+   "lip": false,
+   "frame": "mira_room",
+   "prompt": "Mira and the lantern glow softly as she sits down beside the window",
+   "lines": []
+  },
+  {
+   "id": "s20",
+   "lip": true,
+   "frame": "elias_candle",
+   "prompt": "Elias in the archive receiving the calm blue jar, impressed",
+   "lines": [
+    [
+     "ELIAS",
+     "You returned a nightmare without fighting it. The Archive has not seen that in a hundred years."
+    ]
+   ]
+  },
+  {
+   "id": "x12",
+   "lip": false,
+   "frame": "theo_blanket",
+   "prompt": "Theo lies back in bed, smiling, closing his eyes peacefully",
+   "lines": [
+    [
+     "NARRATOR",
+     "For the first time in years, Theo slept without crows."
+    ]
+   ]
+  },
+  {
+   "id": "s21",
+   "lip": true,
+   "frame": "elias_candle",
+   "prompt": "Elias becomes serious, glancing at the old clock",
+   "lines": [
+    [
+     "ELIAS",
+     "But hurry. Tomorrow is the last night. The seventh."
+    ]
+   ]
+  },
+  {
+   "id": "s22",
+   "lip": false,
+   "frame": "star_window",
+   "prompt": "Dawn, the star fades, the lantern glows on the windowsill",
+   "lines": [
+    [
+     "NARRATOR",
+     "One night left. And the dream still needed to come home."
+    ]
+   ]
+  }
+ ]
+}

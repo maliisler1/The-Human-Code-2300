@@ -1,0 +1,301 @@
+{
+ "tts": [
+  {
+   "out": "gelen/ruya/b03/x02_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "The city was waking up. And so were the dreams.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b03/x04_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "For the first time, Mira wasn't the only one who could see.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b04/x03_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "The old bridge was where lost things were found.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b04/x06_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "She didn't feel brave. But she stayed anyway.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b04/x08_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Every jar held someone's night. Someone's wish.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b05/x02_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Mira's mother worked nights. She always came home with a song.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b05/x04_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Somewhere, a music box was playing.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b05/x07_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Some songs stay with you, even when you forget the words.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b05/x10_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "That night, the lullaby came home.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b06/x02_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Theo had a dream he never told anyone about.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b06/x06_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Mira knew that look. She had been afraid too.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b06/x09_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Fear gets smaller when someone holds your hand.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b06/x12_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "For the first time in years, Theo slept without crows.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b07/x03_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "The attic smelled of old paper and forgotten winters.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b07/x07_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Elias had kept a secret. Maybe more than one.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b07/x10_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Even keepers can lose the people they love.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b07/x13_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Two nights left. And the stars were watching.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b08/x03_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "The jars didn't glow. They didn't hum. They just waited.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b08/x07_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Theo was scared. He stayed anyway. That's what friends do.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b08/x11_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "He was gone. But only for now.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b09/x03_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "And the light remembered for her.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b09/x05_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Some goodbyes are too big for a small heart.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b09/x08_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Mira hadn't cried for her father in years. Tonight she did.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b09/x12_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "She wasn't afraid of remembering anymore.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b10/x02_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Every dream that was ever dreamed ended here.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b10/x06_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "No one had spoken to him kindly in a very long time.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b10/x11_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "That night, Mira dreamed. And she remembered every second.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  }
+ ]
+}

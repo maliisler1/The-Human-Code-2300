@@ -24,10 +24,24 @@
    ]
   },
   {
+   "id": "x01",
+   "lip": false,
+   "frame": "bedroom_mira",
+   "prompt": "Mira sits on her bed in the dark, hugging her knees, the lantern beside her",
+   "lines": []
+  },
+  {
    "id": "s02",
    "lip": false,
    "frame": "lantern_close",
    "prompt": "The brass lantern glows, silver light spilling out like memories",
+   "lines": []
+  },
+  {
+   "id": "x02",
+   "lip": false,
+   "frame": "mira_room",
+   "prompt": "Mira slowly opens the lantern's little door, silver light spilling over her face",
    "lines": []
   },
   {
@@ -39,6 +53,18 @@
     [
      "MIRA",
      "Lumen, show me. Whatever it is, I'm ready."
+    ]
+   ]
+  },
+  {
+   "id": "x03",
+   "lip": false,
+   "frame": "lantern_flare",
+   "prompt": "The lantern light swirls into golden shapes of the past",
+   "lines": [
+    [
+     "NARRATOR",
+     "And the light remembered for her."
     ]
    ]
   },
@@ -62,6 +88,13 @@
    ]
   },
   {
+   "id": "x04",
+   "lip": false,
+   "frame": "mira_room",
+   "prompt": "Mira smiles through tears, reaching toward the golden memory",
+   "lines": []
+  },
+  {
    "id": "s06",
    "lip": true,
    "frame": "mira_room",
@@ -81,6 +114,18 @@
    "lines": []
   },
   {
+   "id": "x05",
+   "lip": false,
+   "frame": "mira_room",
+   "prompt": "Mira holds the lantern tightly against her chest, crying softly",
+   "lines": [
+    [
+     "NARRATOR",
+     "Some goodbyes are too big for a small heart."
+    ]
+   ]
+  },
+  {
    "id": "s08",
    "lip": true,
    "frame": "mira_room",
@@ -93,10 +138,24 @@
    ]
   },
   {
+   "id": "x06",
+   "lip": false,
+   "frame": "bedroom_mira",
+   "prompt": "Mira walks out of her room in the dark hallway, lantern in hand",
+   "lines": []
+  },
+  {
    "id": "s09",
    "lip": false,
    "frame": "anna_hallway",
    "prompt": "The mother in a nurse uniform comes home late at night, walking down the hallway",
+   "lines": []
+  },
+  {
+   "id": "x07",
+   "lip": false,
+   "frame": "kitchen_anna",
+   "prompt": "Anna turns from the kitchen counter and opens her arms",
    "lines": []
   },
   {
@@ -136,10 +195,29 @@
    ]
   },
   {
+   "id": "x08",
+   "lip": false,
+   "frame": "kitchen_mira",
+   "prompt": "Mira runs into her mother's arms and hugs her tightly",
+   "lines": [
+    [
+     "NARRATOR",
+     "Mira hadn't cried for her father in years. Tonight she did."
+    ]
+   ]
+  },
+  {
    "id": "s13",
    "lip": false,
    "frame": "memory_kitchen",
    "prompt": "A warm kitchen, golden light, a family memory",
+   "lines": []
+  },
+  {
+   "id": "x09",
+   "lip": false,
+   "frame": "kitchen_anna",
+   "prompt": "Anna strokes Mira's hair gently, eyes closed, smiling",
    "lines": []
   },
   {
@@ -153,6 +231,13 @@
      "Mira! Your window is glowing like crazy. Something's happening!"
     ]
    ]
+  },
+  {
+   "id": "x10",
+   "lip": false,
+   "frame": "theo_night",
+   "prompt": "Theo runs to the house in the night, flashlight bouncing",
+   "lines": []
   },
   {
    "id": "s15",
@@ -174,11 +259,30 @@
    ]
   },
   {
+   "id": "x11",
+   "lip": false,
+   "frame": "mira_room",
+   "prompt": "Mira opens the window and lets the silver light float around the room",
+   "lines": []
+  },
+  {
    "id": "s17",
    "lip": false,
    "frame": "lantern_flare",
    "prompt": "The brass lantern flares with bright silver light, then settles calm",
    "lines": []
+  },
+  {
+   "id": "x12",
+   "lip": false,
+   "frame": "mira_room",
+   "prompt": "Mira wipes her tears and smiles, the lantern glowing warm",
+   "lines": [
+    [
+     "NARRATOR",
+     "She wasn't afraid of remembering anymore."
+    ]
+   ]
   },
   {
    "id": "s18",
@@ -193,6 +297,13 @@
    ]
   },
   {
+   "id": "x13",
+   "lip": false,
+   "frame": "elias_candle",
+   "prompt": "Elias nods slowly, proud, the candle burning steady",
+   "lines": []
+  },
+  {
    "id": "s19",
    "lip": true,
    "frame": "mira_room",
@@ -203,6 +314,13 @@
      "Then that's where we're going. Tonight, every dream comes home."
     ]
    ]
+  },
+  {
+   "id": "x14",
+   "lip": false,
+   "frame": "walk_three",
+   "prompt": "Mira and Theo walk into the night together toward the archive",
+   "lines": []
   },
   {
    "id": "s20",

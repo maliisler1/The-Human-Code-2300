@@ -24,11 +24,30 @@
    ]
   },
   {
+   "id": "x01",
+   "lip": false,
+   "frame": "run_aisle",
+   "prompt": "Mira and Theo run down the archive aisle toward a bright light",
+   "lines": []
+  },
+  {
    "id": "s02",
    "lip": false,
    "frame": "heart_archive",
    "prompt": "A huge round chamber at the heart of the archive, a giant glass jar in the centre, silver stars swirling around it",
    "lines": []
+  },
+  {
+   "id": "x02",
+   "lip": false,
+   "frame": "mira_archive",
+   "prompt": "Mira steps into the great chamber, turning slowly, amazed",
+   "lines": [
+    [
+     "NARRATOR",
+     "Every dream that was ever dreamed ended here."
+    ]
+   ]
   },
   {
    "id": "s03",
@@ -47,6 +66,13 @@
    "lip": false,
    "frame": "shadow_stairs",
    "prompt": "The tall shadow in a wide hat descends a dark stone staircase",
+   "lines": []
+  },
+  {
+   "id": "x03",
+   "lip": false,
+   "frame": "theo_closeup",
+   "prompt": "Theo grips his flashlight and steps in front of Mira",
    "lines": []
   },
   {
@@ -86,6 +112,13 @@
    ]
   },
   {
+   "id": "x04",
+   "lip": false,
+   "frame": "elias_candle",
+   "prompt": "Elias walks forward slowly, candle held out, calm",
+   "lines": []
+  },
+  {
    "id": "s08",
    "lip": false,
    "frame": "shadow_hat_off",
@@ -105,6 +138,13 @@
    ]
   },
   {
+   "id": "x05",
+   "lip": false,
+   "frame": "mira_reach",
+   "prompt": "Mira lowers the lantern and takes a step toward the old man",
+   "lines": []
+  },
+  {
    "id": "s10",
    "lip": true,
    "frame": "mira_reach",
@@ -113,6 +153,18 @@
     [
      "MIRA",
      "You're not alone. Dreams hurt sometimes. That's how we know they matter."
+    ]
+   ]
+  },
+  {
+   "id": "x06",
+   "lip": false,
+   "frame": "shadow_hat_off",
+   "prompt": "The old man looks at Mira, his hard face slowly softening",
+   "lines": [
+    [
+     "NARRATOR",
+     "No one had spoken to him kindly in a very long time."
     ]
    ]
   },
@@ -136,6 +188,13 @@
    ]
   },
   {
+   "id": "x07",
+   "lip": false,
+   "frame": "mira_archive",
+   "prompt": "Mira opens the lantern door wide, smiling, letting go",
+   "lines": []
+  },
+  {
    "id": "s13",
    "lip": false,
    "frame": "lumen_heart",
@@ -155,6 +214,13 @@
    ]
   },
   {
+   "id": "x08",
+   "lip": false,
+   "frame": "theo_closeup",
+   "prompt": "Theo spins around laughing as golden light rains down",
+   "lines": []
+  },
+  {
    "id": "s15",
    "lip": true,
    "frame": "elias_flare",
@@ -171,6 +237,13 @@
    "lip": false,
    "frame": "keepers_hug",
    "prompt": "Two old archivists, one with long silver hair in green robe and one with grey beard in dark cloak, embrace among glowing golden jars",
+   "lines": []
+  },
+  {
+   "id": "x09",
+   "lip": false,
+   "frame": "elias_flare",
+   "prompt": "Elias laughs with tears in his eyes, arms open",
    "lines": []
   },
   {
@@ -198,11 +271,30 @@
    ]
   },
   {
+   "id": "x10",
+   "lip": false,
+   "frame": "walk_three",
+   "prompt": "Mira and Theo walk out of the archive into the dawn light, laughing",
+   "lines": []
+  },
+  {
    "id": "s19",
    "lip": false,
    "frame": "city_morning",
    "prompt": "Sunrise over the old city rooftops, golden light",
    "lines": []
+  },
+  {
+   "id": "x11",
+   "lip": false,
+   "frame": "bedroom_lantern",
+   "prompt": "Mira sleeps peacefully, smiling, the lantern glowing softly by her bed",
+   "lines": [
+    [
+     "NARRATOR",
+     "That night, Mira dreamed. And she remembered every second."
+    ]
+   ]
   },
   {
    "id": "s20",
@@ -227,6 +319,13 @@
      "I dreamed of Dad. And it didn't hurt. It was beautiful."
     ]
    ]
+  },
+  {
+   "id": "x12",
+   "lip": false,
+   "frame": "kitchen_mira",
+   "prompt": "Mira hugs her mother in the morning sunlight, both laughing",
+   "lines": []
   },
   {
    "id": "s22",

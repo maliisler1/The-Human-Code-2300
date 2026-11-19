@@ -24,10 +24,24 @@
    ]
   },
   {
+   "id": "x01",
+   "lip": false,
+   "frame": "bedroom_lantern",
+   "prompt": "Mira puts on her coat and grabs the lantern, determined, at night",
+   "lines": []
+  },
+  {
    "id": "s02",
    "lip": false,
    "frame": "archive_silent",
    "prompt": "Dark archive aisles, the glass jars grey and silent, cold blue mist on the floor",
+   "lines": []
+  },
+  {
+   "id": "x02",
+   "lip": false,
+   "frame": "run_aisle",
+   "prompt": "Mira and Theo run into the dark silent archive, breath fogging",
    "lines": []
   },
   {
@@ -39,6 +53,18 @@
     [
      "ELIAS",
      "He is here. He is silencing the jars, one by one."
+    ]
+   ]
+  },
+  {
+   "id": "x03",
+   "lip": false,
+   "frame": "mira_archive",
+   "prompt": "Mira looks at grey silent jars, touching one gently, worried",
+   "lines": [
+    [
+     "NARRATOR",
+     "The jars didn't glow. They didn't hum. They just waited."
     ]
    ]
   },
@@ -59,6 +85,13 @@
    "lip": false,
    "frame": "shadow_aisle",
    "prompt": "A tall faceless shadow in a wide hat walks slowly down an archive aisle, glowing jars turning grey where he passes",
+   "lines": []
+  },
+  {
+   "id": "x04",
+   "lip": false,
+   "frame": "theo_closeup",
+   "prompt": "Theo grabs Mira's arm and points down the aisle, alarmed",
    "lines": []
   },
   {
@@ -86,6 +119,13 @@
    ]
   },
   {
+   "id": "x05",
+   "lip": false,
+   "frame": "mira_reach",
+   "prompt": "Mira steps forward holding the lantern up, chin raised",
+   "lines": []
+  },
+  {
    "id": "s08",
    "lip": true,
    "frame": "mira_archive",
@@ -102,6 +142,13 @@
    "lip": false,
    "frame": "lumen_hover",
    "prompt": "A silver ribbon of light hovers and hides close to the brass lantern",
+   "lines": []
+  },
+  {
+   "id": "x06",
+   "lip": false,
+   "frame": "elias_candle",
+   "prompt": "Elias hurries to Mira's side, candle flame trembling",
    "lines": []
   },
   {
@@ -129,10 +176,29 @@
    ]
   },
   {
+   "id": "x07",
+   "lip": false,
+   "frame": "theo_closeup",
+   "prompt": "Theo stands next to Mira, scared but not moving away",
+   "lines": [
+    [
+     "NARRATOR",
+     "Theo was scared. He stayed anyway. That's what friends do."
+    ]
+   ]
+  },
+  {
    "id": "s12",
    "lip": false,
    "frame": "music_box_glow",
    "prompt": "A small golden music box glows warmly, opening by itself",
+   "lines": []
+  },
+  {
+   "id": "x08",
+   "lip": false,
+   "frame": "mira_archive",
+   "prompt": "Mira closes her eyes and holds the music box to her heart",
    "lines": []
   },
   {
@@ -160,6 +226,13 @@
    ]
   },
   {
+   "id": "x09",
+   "lip": false,
+   "frame": "elias_flare",
+   "prompt": "Elias smiles as golden light fills the room, raising his arms",
+   "lines": []
+  },
+  {
    "id": "s15",
    "lip": false,
    "frame": "music_wave",
@@ -171,6 +244,13 @@
    "lip": false,
    "frame": "shadow_step_back",
    "prompt": "The tall shadow steps back, hat tilting, golden light all around",
+   "lines": []
+  },
+  {
+   "id": "x10",
+   "lip": false,
+   "frame": "theo_closeup",
+   "prompt": "Theo jumps and cheers, then looks around at the glowing jars",
    "lines": []
   },
   {
@@ -198,6 +278,18 @@
    ]
   },
   {
+   "id": "x11",
+   "lip": false,
+   "frame": "mira_archive",
+   "prompt": "Mira watches the mist where the shadow vanished, breathing fast",
+   "lines": [
+    [
+     "NARRATOR",
+     "He was gone. But only for now."
+    ]
+   ]
+  },
+  {
    "id": "s19",
    "lip": true,
    "frame": "mira_archive",
@@ -210,6 +302,13 @@
    ]
   },
   {
+   "id": "x12",
+   "lip": false,
+   "frame": "elias_candle",
+   "prompt": "Elias puts a gentle hand forward, serious and kind",
+   "lines": []
+  },
+  {
    "id": "s20",
    "lip": true,
    "frame": "elias_candle",
@@ -220,6 +319,13 @@
      "And Mira. To keep Lumen, you must remember what you forgot."
     ]
    ]
+  },
+  {
+   "id": "x13",
+   "lip": false,
+   "frame": "mira_reach",
+   "prompt": "Mira looks down at the lantern, thinking hard, eyes wet",
+   "lines": []
   },
   {
    "id": "s21",

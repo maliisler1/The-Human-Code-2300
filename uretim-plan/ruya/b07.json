@@ -24,10 +24,24 @@
    ]
   },
   {
+   "id": "x01",
+   "lip": false,
+   "frame": "bedroom_lantern",
+   "prompt": "Mira wakes at night, the lantern glowing brightly, she swings her legs out of bed",
+   "lines": []
+  },
+  {
    "id": "s02",
    "lip": false,
    "frame": "attic_stairs",
    "prompt": "Mira and Theo climb narrow creaky attic stairs at night, the brass lantern glowing silver, dust floating",
+   "lines": []
+  },
+  {
+   "id": "x02",
+   "lip": false,
+   "frame": "theo_night",
+   "prompt": "Theo yawns on the doorstep at night holding cookies and a flashlight",
    "lines": []
   },
   {
@@ -55,10 +69,29 @@
    ]
   },
   {
+   "id": "x03",
+   "lip": false,
+   "frame": "mira_attic",
+   "prompt": "Mira walks carefully across creaky attic boards, lantern raised, dust floating",
+   "lines": [
+    [
+     "NARRATOR",
+     "The attic smelled of old paper and forgotten winters."
+    ]
+   ]
+  },
+  {
    "id": "s05",
    "lip": false,
    "frame": "star_map",
    "prompt": "An old dusty star map pinned on the attic wall, its stars lighting up silver one by one",
+   "lines": []
+  },
+  {
+   "id": "x04",
+   "lip": false,
+   "frame": "theo_attic",
+   "prompt": "Theo sneezes from the dust then laughs nervously, waving his flashlight",
    "lines": []
   },
   {
@@ -81,6 +114,13 @@
    "lines": []
   },
   {
+   "id": "x05",
+   "lip": false,
+   "frame": "mira_attic",
+   "prompt": "Mira steps closer to the wall, her face lit by silver starlight",
+   "lines": []
+  },
+  {
    "id": "s08",
    "lip": true,
    "frame": "theo_attic",
@@ -100,6 +140,13 @@
    "lines": []
   },
   {
+   "id": "x06",
+   "lip": false,
+   "frame": "theo_attic",
+   "prompt": "Theo leans in and squints at the old map, scratching his head",
+   "lines": []
+  },
+  {
    "id": "s10",
    "lip": true,
    "frame": "mira_attic",
@@ -112,10 +159,29 @@
    ]
   },
   {
+   "id": "x07",
+   "lip": false,
+   "frame": "mira_attic",
+   "prompt": "Mira rolls up the old map carefully and tucks it under her arm",
+   "lines": [
+    [
+     "NARRATOR",
+     "Elias had kept a secret. Maybe more than one."
+    ]
+   ]
+  },
+  {
    "id": "s11",
    "lip": false,
    "frame": "archive_wide",
    "prompt": "The vast underground archive of glowing glass jars, warm amber light",
+   "lines": []
+  },
+  {
+   "id": "x08",
+   "lip": false,
+   "frame": "run_aisle",
+   "prompt": "Mira and Theo run down the archive aisle, the map under Mira's arm",
    "lines": []
   },
   {
@@ -155,11 +221,30 @@
    ]
   },
   {
+   "id": "x09",
+   "lip": false,
+   "frame": "elias_candle",
+   "prompt": "Elias sets down his candle and looks away, remembering",
+   "lines": []
+  },
+  {
    "id": "s15",
    "lip": false,
    "frame": "young_keepers",
    "prompt": "A golden dreamy memory: two young archivists in old robes walk among glowing jars holding lanterns, seen from behind",
    "lines": []
+  },
+  {
+   "id": "x10",
+   "lip": false,
+   "frame": "elias_candle",
+   "prompt": "Elias wipes a tear and smiles sadly",
+   "lines": [
+    [
+     "NARRATOR",
+     "Even keepers can lose the people they love."
+    ]
+   ]
   },
   {
    "id": "s16",
@@ -198,6 +283,13 @@
    ]
   },
   {
+   "id": "x11",
+   "lip": false,
+   "frame": "mira_archive",
+   "prompt": "Mira watches the jars go dark, her hand tightening on the lantern",
+   "lines": []
+  },
+  {
    "id": "s19",
    "lip": true,
    "frame": "mira_archive",
@@ -208,6 +300,13 @@
      "Then we follow the map. We find Lumen before he does."
     ]
    ]
+  },
+  {
+   "id": "x12",
+   "lip": false,
+   "frame": "theo_closeup",
+   "prompt": "Theo nods firmly, ready, pulling up his raincoat hood",
+   "lines": []
   },
   {
    "id": "s20",
@@ -225,6 +324,18 @@
     [
      "THEO",
      "Two nights left. Fine. But I'm bringing more cookies."
+    ]
+   ]
+  },
+  {
+   "id": "x13",
+   "lip": false,
+   "frame": "walk_three",
+   "prompt": "Mira and Theo walk home under the stars, the lantern glowing",
+   "lines": [
+    [
+     "NARRATOR",
+     "Two nights left. And the stars were watching."
     ]
    ]
   },

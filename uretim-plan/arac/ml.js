@@ -1,0 +1,20 @@
+window.sleep=ms=>new Promise(r=>setTimeout(r,ms));
+window.RAW='https://raw.githubusercontent.com/maliisler1/the-human-code-2300/uretim-ham/uretim-plan/ruya/';
+window.GF='https://raw.githubusercontent.com/maliisler1/the-human-code-2300/uretim-ham/gelen/ruya/frames/';
+window.vta=()=>[...document.querySelectorAll('textarea')].find(t=>t.offsetParent);
+window.vbtn=txt=>[...document.querySelectorAll('button')].filter(b=>b.offsetParent).find(b=>b.innerText.includes(txt));
+window.vchips=()=>[...document.querySelectorAll('button')].filter(b=>b.offsetParent && /^(Image|Audio) \d+$/.test((b.getAttribute('aria-label')||b.textContent).trim())).length;
+window.clearRefs=async()=>{ for(let i=0;i<12;i++){ const r=[...document.querySelectorAll('button')].filter(b=>(b.getAttribute('aria-label')||b.textContent).trim()=='Remove'&&b.parentElement&&b.parentElement.offsetParent); if(!r.length)break; r[0].click(); await sleep(400);} return vchips();};
+window.setDur=async(sec)=>{ let s=document.querySelector('.toolbox-duration-slider-input'); if(!s){ vbtn('Output').click(); await sleep(900); s=document.querySelector('.toolbox-duration-slider-input');}
+ Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(s,String(sec-4)); s.dispatchEvent(new Event('input',{bubbles:true})); s.dispatchEvent(new Event('change',{bubbles:true})); await sleep(400); document.body.click(); await sleep(300);};
+window.setTA=v=>{const ta=vta(); Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype,'value').set.call(ta,v); ta.dispatchEvent(new Event('input',{bubbles:true}));};
+window.vinput=()=>[...document.querySelectorAll('input[type=file]')].find(i=>/mp3|audio/.test(i.accept)&&/jpg|image/.test(i.accept));
+window.addFiles=async(files)=>{ for(const f of files){ const inp=vinput(); const n0=vchips(); const dt=new DataTransfer(); dt.items.add(f); inp.files=dt.files; inp.dispatchEvent(new Event('change',{bubbles:true})); for(let i=0;i<15&&vchips()==n0;i++) await sleep(1000);} return vchips();};
+window.TAIL=' The character speaks exactly the dialogue in Audio 1 with precise natural lip sync, subtle natural head and eye movement, blinking, breathing, realistic skin, photorealistic live-action family fantasy film, cinematic lighting, 35mm film look. Keep the same face, clothes and setting as Image 1. No text, no subtitles, no music.';
+window.lipGen=async(imgUrl,audUrl,prompt,sec,name)=>{ await clearRefs(); if(vchips()) return name+' CANTCLEAR'; await setDur(sec);
+ const ib=await (await fetch(imgUrl)).blob(); const ab=await (await fetch(audUrl)).blob();
+ const n=await addFiles([new File([ib],name+'.jpg',{type:'image/jpeg'}),new File([ab],name+'.mp3',{type:'audio/mpeg'})]);
+ if(n!=2){ await clearRefs(); return name+' REFS '+n;} setTA(prompt+TAIL); await sleep(500);
+ if(!document.body.innerText.includes('Wan 3.0')) return 'MODEL?'; vbtn('Create Video').click(); await sleep(3500); return name+' sent';};
+window.runList=async(L,logName)=>{ window[logName]=[]; for(const [a,img,p,s] of L){ let r; for(let t=0;t<3;t++){ try{ r=await lipGen(img,RAW+'lip/'+a+'.mp3',p,s,a);}catch(e){r='ERR '+a+e} if(r.includes('sent')) break; await sleep(3000);} window[logName].push(r); await sleep(2000);} window[logName].push('done');};
+'ml.js loaded';

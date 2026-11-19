@@ -1,0 +1,797 @@
+{
+ "tts": [],
+ "url": [
+  {
+   "out": "gelen/ruya/b07v/s05.mp4",
+   "bytes": 7019023
+  },
+  {
+   "out": "gelen/ruya/b10v/x12.mp4",
+   "bytes": 3644115
+  },
+  {
+   "out": "gelen/ruya/b10v/x11.mp4",
+   "bytes": 2486428
+  },
+  {
+   "out": "gelen/ruya/b10v/x10.mp4",
+   "bytes": 4998147
+  },
+  {
+   "out": "gelen/ruya/b10v/x09.mp4",
+   "bytes": 5170002
+  },
+  {
+   "out": "gelen/ruya/b10v/x08.mp4",
+   "bytes": 4348081
+  },
+  {
+   "out": "gelen/ruya/b10v/x07.mp4",
+   "bytes": 2891563
+  },
+  {
+   "out": "gelen/ruya/b10v/x06.mp4",
+   "bytes": 2979842
+  },
+  {
+   "out": "gelen/ruya/b10v/x05.mp4",
+   "bytes": 3086120
+  },
+  {
+   "out": "gelen/ruya/b10v/x04.mp4",
+   "bytes": 4028504
+  },
+  {
+   "out": "gelen/ruya/b10v/x03.mp4",
+   "bytes": 4555331
+  },
+  {
+   "out": "gelen/ruya/b10v/x02.mp4",
+   "bytes": 3062381
+  },
+  {
+   "out": "gelen/ruya/b10v/x01.mp4",
+   "bytes": 5835962
+  },
+  {
+   "out": "gelen/ruya/b09v/x14.mp4",
+   "bytes": 4975155
+  },
+  {
+   "out": "gelen/ruya/b09v/x13.mp4",
+   "bytes": 3610502
+  },
+  {
+   "out": "gelen/ruya/b09v/x12.mp4",
+   "bytes": 2282713
+  },
+  {
+   "out": "gelen/ruya/b09v/x11.mp4",
+   "bytes": 3473245
+  },
+  {
+   "out": "gelen/ruya/b09v/x10.mp4",
+   "bytes": 4056566
+  },
+  {
+   "out": "gelen/ruya/b09v/x09.mp4",
+   "bytes": 2848764
+  },
+  {
+   "out": "gelen/ruya/b09v/x08.mp4",
+   "bytes": 3794186
+  },
+  {
+   "out": "gelen/ruya/b09v/x07.mp4",
+   "bytes": 3178906
+  },
+  {
+   "out": "gelen/ruya/b09v/x06.mp4",
+   "bytes": 3142078
+  },
+  {
+   "out": "gelen/ruya/b09v/x05.mp4",
+   "bytes": 1890777
+  },
+  {
+   "out": "gelen/ruya/b09v/x04.mp4",
+   "bytes": 2761574
+  },
+  {
+   "out": "gelen/ruya/b09v/x03.mp4",
+   "bytes": 4464801
+  },
+  {
+   "out": "gelen/ruya/b09v/x02.mp4",
+   "bytes": 2262976
+  },
+  {
+   "out": "gelen/ruya/b09v/x01.mp4",
+   "bytes": 3897849
+  },
+  {
+   "out": "gelen/ruya/b08v/x13.mp4",
+   "bytes": 3474936
+  },
+  {
+   "out": "gelen/ruya/b08v/x12.mp4",
+   "bytes": 3556419
+  },
+  {
+   "out": "gelen/ruya/b08v/x11.mp4",
+   "bytes": 2999964
+  },
+  {
+   "out": "gelen/ruya/b08v/x10.mp4",
+   "bytes": 3768307
+  },
+  {
+   "out": "gelen/ruya/b08v/x09.mp4",
+   "bytes": 4729852
+  },
+  {
+   "out": "gelen/ruya/b08v/x08.mp4",
+   "bytes": 3702989
+  },
+  {
+   "out": "gelen/ruya/b08v/x07.mp4",
+   "bytes": 4349258
+  },
+  {
+   "out": "gelen/ruya/b08v/x06.mp4",
+   "bytes": 4145809
+  },
+  {
+   "out": "gelen/ruya/b08v/x05.mp4",
+   "bytes": 3812906
+  },
+  {
+   "out": "gelen/ruya/b08v/x04.mp4",
+   "bytes": 4206725
+  },
+  {
+   "out": "gelen/ruya/b08v/x03.mp4",
+   "bytes": 3005588
+  },
+  {
+   "out": "gelen/ruya/b08v/x02.mp4",
+   "bytes": 6702621
+  },
+  {
+   "out": "gelen/ruya/b08v/x01.mp4",
+   "bytes": 2916850
+  },
+  {
+   "out": "gelen/ruya/b07v/x13.mp4",
+   "bytes": 5370140
+  },
+  {
+   "out": "gelen/ruya/b07v/x12.mp4",
+   "bytes": 3386738
+  },
+  {
+   "out": "gelen/ruya/b07v/x11.mp4",
+   "bytes": 2586969
+  },
+  {
+   "out": "gelen/ruya/b07v/x10.mp4",
+   "bytes": 3843727
+  },
+  {
+   "out": "gelen/ruya/b07v/x09.mp4",
+   "bytes": 3910504
+  },
+  {
+   "out": "gelen/ruya/b07v/x08.mp4",
+   "bytes": 6780499
+  },
+  {
+   "out": "gelen/ruya/b07v/x07.mp4",
+   "bytes": 3260732
+  },
+  {
+   "out": "gelen/ruya/b07v/x06.mp4",
+   "bytes": 2788308
+  },
+  {
+   "out": "gelen/ruya/b07v/x05.mp4",
+   "bytes": 3153219
+  },
+  {
+   "out": "gelen/ruya/b07v/x04.mp4",
+   "bytes": 2629694
+  },
+  {
+   "out": "gelen/ruya/b07v/x03.mp4",
+   "bytes": 4187288
+  },
+  {
+   "out": "gelen/ruya/b07v/x02.mp4",
+   "bytes": 3134621
+  },
+  {
+   "out": "gelen/ruya/b07v/x01.mp4",
+   "bytes": 2930688
+  },
+  {
+   "out": "gelen/ruya/b06v/x12.mp4",
+   "bytes": 3172891
+  },
+  {
+   "out": "gelen/ruya/b06v/x11.mp4",
+   "bytes": 2933807
+  },
+  {
+   "out": "gelen/ruya/b06v/x10.mp4",
+   "bytes": 2757501
+  },
+  {
+   "out": "gelen/ruya/b06v/x09.mp4",
+   "bytes": 2328082
+  },
+  {
+   "out": "gelen/ruya/b06v/x08.mp4",
+   "bytes": 2405321
+  },
+  {
+   "out": "gelen/ruya/b06v/x07.mp4",
+   "bytes": 3136300
+  },
+  {
+   "out": "gelen/ruya/b06v/x06.mp4",
+   "bytes": 2505986
+  },
+  {
+   "out": "gelen/ruya/b06v/x05.mp4",
+   "bytes": 3356563
+  },
+  {
+   "out": "gelen/ruya/b06v/x04.mp4",
+   "bytes": 3811742
+  },
+  {
+   "out": "gelen/ruya/b06v/x03.mp4",
+   "bytes": 4376076
+  },
+  {
+   "out": "gelen/ruya/b06v/x02.mp4",
+   "bytes": 2706091
+  },
+  {
+   "out": "gelen/ruya/b06v/x01.mp4",
+   "bytes": 4039298
+  },
+  {
+   "out": "gelen/ruya/b05v/x10.mp4",
+   "bytes": 4601997
+  },
+  {
+   "out": "gelen/ruya/b05v/x09.mp4",
+   "bytes": 3372962
+  },
+  {
+   "out": "gelen/ruya/b05v/x08.mp4",
+   "bytes": 3633344
+  },
+  {
+   "out": "gelen/ruya/b05v/x07.mp4",
+   "bytes": 1932736
+  },
+  {
+   "out": "gelen/ruya/b05v/x06.mp4",
+   "bytes": 3718434
+  },
+  {
+   "out": "gelen/ruya/b05v/x05.mp4",
+   "bytes": 3751138
+  },
+  {
+   "out": "gelen/ruya/b05v/x04.mp4",
+   "bytes": 3586345
+  },
+  {
+   "out": "gelen/ruya/b05v/x03.mp4",
+   "bytes": 7518326
+  },
+  {
+   "out": "gelen/ruya/b05v/x02.mp4",
+   "bytes": 2401057
+  },
+  {
+   "out": "gelen/ruya/b05v/x01.mp4",
+   "bytes": 4080511
+  },
+  {
+   "out": "gelen/ruya/b04v/x08.mp4",
+   "bytes": 3502503
+  },
+  {
+   "out": "gelen/ruya/b04v/x07.mp4",
+   "bytes": 6221265
+  },
+  {
+   "out": "gelen/ruya/b04v/x06.mp4",
+   "bytes": 2365822
+  },
+  {
+   "out": "gelen/ruya/b04v/x05.mp4",
+   "bytes": 3097023
+  },
+  {
+   "out": "gelen/ruya/b04v/x04.mp4",
+   "bytes": 2455496
+  },
+  {
+   "out": "gelen/ruya/b04v/x03.mp4",
+   "bytes": 2566899
+  },
+  {
+   "out": "gelen/ruya/b04v/x02.mp4",
+   "bytes": 2000945
+  },
+  {
+   "out": "gelen/ruya/b04v/x01.mp4",
+   "bytes": 3824674
+  },
+  {
+   "out": "gelen/ruya/b03v/x05.mp4",
+   "bytes": 3617144
+  },
+  {
+   "out": "gelen/ruya/b03v/x04.mp4",
+   "bytes": 5483689
+  },
+  {
+   "out": "gelen/ruya/b03v/x03.mp4",
+   "bytes": 3021928
+  },
+  {
+   "out": "gelen/ruya/b03v/x02.mp4",
+   "bytes": 3964352
+  },
+  {
+   "out": "gelen/ruya/b03v/x01.mp4",
+   "bytes": 3154527
+  },
+  {
+   "out": "gelen/ruya/b10v/s22.mp4",
+   "bytes": 3375337
+  },
+  {
+   "out": "gelen/ruya/b10v/s19.mp4",
+   "bytes": 5933204
+  },
+  {
+   "out": "gelen/ruya/b10v/s16.mp4",
+   "bytes": 6005991
+  },
+  {
+   "out": "gelen/ruya/b10v/s14.mp4",
+   "bytes": 7980485
+  },
+  {
+   "out": "gelen/ruya/b10v/s13.mp4",
+   "bytes": 2901374
+  },
+  {
+   "out": "gelen/ruya/b10v/s11.mp4",
+   "bytes": 4798268
+  },
+  {
+   "out": "gelen/ruya/b10v/s08.mp4",
+   "bytes": 2666246
+  },
+  {
+   "out": "gelen/ruya/b10v/s05.mp4",
+   "bytes": 3406660
+  },
+  {
+   "out": "gelen/ruya/b10v/s04.mp4",
+   "bytes": 3697855
+  },
+  {
+   "out": "gelen/ruya/b10v/s02.mp4",
+   "bytes": 7195787
+  },
+  {
+   "out": "gelen/ruya/b10v/s01.mp4",
+   "bytes": 3173804
+  },
+  {
+   "out": "gelen/ruya/b08v/s21.mp4",
+   "bytes": 3478823
+  },
+  {
+   "out": "gelen/ruya/b09v/s17.mp4",
+   "bytes": 3724772
+  },
+  {
+   "out": "gelen/ruya/b09v/s15.mp4",
+   "bytes": 3955549
+  },
+  {
+   "out": "gelen/ruya/b09v/s13.mp4",
+   "bytes": 3854045
+  },
+  {
+   "out": "gelen/ruya/b09v/s09.mp4",
+   "bytes": 2593881
+  },
+  {
+   "out": "gelen/ruya/b09v/s07.mp4",
+   "bytes": 5748403
+  },
+  {
+   "out": "gelen/ruya/b09v/s05.mp4",
+   "bytes": 5364167
+  },
+  {
+   "out": "gelen/ruya/b09v/s04.mp4",
+   "bytes": 3112487
+  },
+  {
+   "out": "gelen/ruya/b09v/s02.mp4",
+   "bytes": 4238914
+  },
+  {
+   "out": "gelen/ruya/b09v/s01.mp4",
+   "bytes": 3512939
+  },
+  {
+   "out": "gelen/ruya/b08v/s18.mp4",
+   "bytes": 4554421
+  },
+  {
+   "out": "gelen/ruya/b08v/s16.mp4",
+   "bytes": 2969684
+  },
+  {
+   "out": "gelen/ruya/b08v/s15.mp4",
+   "bytes": 7033605
+  },
+  {
+   "out": "gelen/ruya/b08v/s12.mp4",
+   "bytes": 2686767
+  },
+  {
+   "out": "gelen/ruya/b08v/s10.mp4",
+   "bytes": 3496448
+  },
+  {
+   "out": "gelen/ruya/b08v/s09.mp4",
+   "bytes": 4189191
+  },
+  {
+   "out": "gelen/ruya/b08v/s06.mp4",
+   "bytes": 3138400
+  },
+  {
+   "out": "gelen/ruya/b08v/s05.mp4",
+   "bytes": 4136632
+  },
+  {
+   "out": "gelen/ruya/b08v/s02.mp4",
+   "bytes": 4415872
+  },
+  {
+   "out": "gelen/ruya/b08v/s01.mp4",
+   "bytes": 2447930
+  },
+  {
+   "out": "gelen/ruya/b07v/s22.mp4",
+   "bytes": 3428800
+  },
+  {
+   "out": "gelen/ruya/b07v/s20.mp4",
+   "bytes": 4660276
+  },
+  {
+   "out": "gelen/ruya/b07v/s18.mp4",
+   "bytes": 3942599
+  },
+  {
+   "out": "gelen/ruya/b07v/s15.mp4",
+   "bytes": 5184001
+  },
+  {
+   "out": "gelen/ruya/b07v/s11.mp4",
+   "bytes": 3882312
+  },
+  {
+   "out": "gelen/ruya/b07v/s09.mp4",
+   "bytes": 3919752
+  },
+  {
+   "out": "gelen/ruya/b07v/s07.mp4",
+   "bytes": 3550774
+  },
+  {
+   "out": "gelen/ruya/b07v/s02.mp4",
+   "bytes": 3699295
+  },
+  {
+   "out": "gelen/ruya/b07v/s01.mp4",
+   "bytes": 3844113
+  },
+  {
+   "out": "gelen/thc/t10v/L_s26_0.mp4",
+   "bytes": 4083199
+  },
+  {
+   "out": "gelen/thc/t10v/L_s19_0.mp4",
+   "bytes": 5237206
+  },
+  {
+   "out": "gelen/thc/t09v/L_s22_0.mp4",
+   "bytes": 3951491
+  },
+  {
+   "out": "gelen/thc/t08v/L_s19_0.mp4",
+   "bytes": 3683268
+  },
+  {
+   "out": "gelen/thc/t08v/L_s05_0.mp4",
+   "bytes": 5234046
+  },
+  {
+   "out": "gelen/thc/t07v/L_s14_0.mp4",
+   "bytes": 4658738
+  },
+  {
+   "out": "gelen/thc/t07v/L_s10_0.mp4",
+   "bytes": 5089808
+  },
+  {
+   "out": "gelen/thc/t06v/L_s25_0.mp4",
+   "bytes": 3685662
+  },
+  {
+   "out": "gelen/thc/t06v/L_s14_0.mp4",
+   "bytes": 3796524
+  },
+  {
+   "out": "gelen/thc/t05v/L_s29_0.mp4",
+   "bytes": 3856096
+  },
+  {
+   "out": "gelen/thc/t05v/L_s16_0.mp4",
+   "bytes": 3981335
+  },
+  {
+   "out": "gelen/thc/t05v/L_s07_0.mp4",
+   "bytes": 5526225
+  },
+  {
+   "out": "gelen/thc/t04v/L_s05_0.mp4",
+   "bytes": 5267240
+  },
+  {
+   "out": "gelen/thc/t03v/L_s28_0.mp4",
+   "bytes": 5395415
+  },
+  {
+   "out": "gelen/thc/t03v/L_s13_0.mp4",
+   "bytes": 5228092
+  },
+  {
+   "out": "gelen/thc/t02v/L_s28_0.mp4",
+   "bytes": 4894305
+  },
+  {
+   "out": "gelen/thc/t02v/L_s16_0.mp4",
+   "bytes": 5202194
+  },
+  {
+   "out": "gelen/thc/t02v/L_s11_0.mp4",
+   "bytes": 5020790
+  },
+  {
+   "out": "gelen/thc/t01v/L_s05_0.mp4",
+   "bytes": 4655638
+  },
+  {
+   "out": "gelen/thc/t10v/L_s27_0.mp4",
+   "bytes": 4465146
+  },
+  {
+   "out": "gelen/thc/t10v/L_s22_0.mp4",
+   "bytes": 4833120
+  },
+  {
+   "out": "gelen/thc/t10v/L_s16_0.mp4",
+   "bytes": 5453725
+  },
+  {
+   "out": "gelen/thc/t10v/L_s10_0.mp4",
+   "bytes": 3794478
+  },
+  {
+   "out": "gelen/thc/t10v/L_s08_0.mp4",
+   "bytes": 4416638
+  },
+  {
+   "out": "gelen/thc/t10v/L_s07_0.mp4",
+   "bytes": 3927358
+  },
+  {
+   "out": "gelen/thc/t10v/L_s02_0.mp4",
+   "bytes": 4537083
+  },
+  {
+   "out": "gelen/thc/t09v/L_s30_0.mp4",
+   "bytes": 4317230
+  },
+  {
+   "out": "gelen/thc/t09v/L_s25_0.mp4",
+   "bytes": 4347734
+  },
+  {
+   "out": "gelen/thc/t09v/L_s14_0.mp4",
+   "bytes": 4812328
+  },
+  {
+   "out": "gelen/thc/t09v/L_s13_0.mp4",
+   "bytes": 4656619
+  },
+  {
+   "out": "gelen/thc/t09v/L_s08_0.mp4",
+   "bytes": 4826024
+  },
+  {
+   "out": "gelen/thc/t09v/L_s02_0.mp4",
+   "bytes": 4522194
+  },
+  {
+   "out": "gelen/thc/t08v/L_s29_0.mp4",
+   "bytes": 4747823
+  },
+  {
+   "out": "gelen/thc/t08v/L_s23_0.mp4",
+   "bytes": 4428722
+  },
+  {
+   "out": "gelen/thc/t08v/L_s16_0.mp4",
+   "bytes": 4858272
+  },
+  {
+   "out": "gelen/thc/t08v/L_s08_0.mp4",
+   "bytes": 4643809
+  },
+  {
+   "out": "gelen/thc/t08v/L_s04_0.mp4",
+   "bytes": 4565959
+  },
+  {
+   "out": "gelen/thc/t07v/L_s26_0.mp4",
+   "bytes": 4710155
+  },
+  {
+   "out": "gelen/thc/t07v/L_s23_0.mp4",
+   "bytes": 4779614
+  },
+  {
+   "out": "gelen/thc/t07v/L_s22_0.mp4",
+   "bytes": 4932722
+  },
+  {
+   "out": "gelen/thc/t07v/L_s13_0.mp4",
+   "bytes": 4570529
+  },
+  {
+   "out": "gelen/thc/t07v/L_s07_0.mp4",
+   "bytes": 5974574
+  },
+  {
+   "out": "gelen/thc/t06v/L_s22_0.mp4",
+   "bytes": 4465501
+  },
+  {
+   "out": "gelen/thc/t06v/L_s16_0.mp4",
+   "bytes": 4427764
+  },
+  {
+   "out": "gelen/thc/t06v/L_s11_0.mp4",
+   "bytes": 4737353
+  },
+  {
+   "out": "gelen/thc/t06v/L_s05_0.mp4",
+   "bytes": 4704799
+  },
+  {
+   "out": "gelen/thc/t06v/L_s04_0.mp4",
+   "bytes": 4109729
+  },
+  {
+   "out": "gelen/thc/t05v/L_s20_0.mp4",
+   "bytes": 4669665
+  },
+  {
+   "out": "gelen/thc/t05v/L_s13_0.mp4",
+   "bytes": 4756907
+  },
+  {
+   "out": "gelen/thc/t05v/L_s04_0.mp4",
+   "bytes": 4328945
+  },
+  {
+   "out": "gelen/thc/t04v/L_s23_0.mp4",
+   "bytes": 4481863
+  },
+  {
+   "out": "gelen/thc/t04v/L_s20_0.mp4",
+   "bytes": 5032012
+  },
+  {
+   "out": "gelen/thc/t04v/L_s16_0.mp4",
+   "bytes": 4920002
+  },
+  {
+   "out": "gelen/thc/t04v/L_s13_0.mp4",
+   "bytes": 4213059
+  },
+  {
+   "out": "gelen/thc/t04v/L_s11_0.mp4",
+   "bytes": 5074012
+  },
+  {
+   "out": "gelen/thc/t04v/L_s07_0.mp4",
+   "bytes": 4448104
+  },
+  {
+   "out": "gelen/thc/t04v/L_s02_0.mp4",
+   "bytes": 4394534
+  },
+  {
+   "out": "gelen/thc/t03v/L_s26_0.mp4",
+   "bytes": 4708479
+  },
+  {
+   "out": "gelen/thc/t03v/L_s23_0.mp4",
+   "bytes": 4429893
+  },
+  {
+   "out": "gelen/thc/t03v/L_s19_0.mp4",
+   "bytes": 5019648
+  },
+  {
+   "out": "gelen/thc/t03v/L_s08_0.mp4",
+   "bytes": 4388626
+  },
+  {
+   "out": "gelen/thc/t03v/L_s07_0.mp4",
+   "bytes": 4460242
+  },
+  {
+   "out": "gelen/thc/t03v/L_s04_0.mp4",
+   "bytes": 4667762
+  },
+  {
+   "out": "gelen/thc/t02v/L_s33_0.mp4",
+   "bytes": 4887947
+  },
+  {
+   "out": "gelen/thc/t02v/L_s26_0.mp4",
+   "bytes": 4906233
+  },
+  {
+   "out": "gelen/thc/t02v/L_s22_0.mp4",
+   "bytes": 4591727
+  },
+  {
+   "out": "gelen/thc/t02v/L_s14_0.mp4",
+   "bytes": 4488822
+  },
+  {
+   "out": "gelen/thc/t02v/L_s08_0.mp4",
+   "bytes": 4589515
+  },
+  {
+   "out": "gelen/thc/t02v/L_s05_0.mp4",
+   "bytes": 4278004
+  },
+  {
+   "out": "gelen/thc/t02v/L_s04_0.mp4",
+   "bytes": 4756850
+  }
+ ]
+}

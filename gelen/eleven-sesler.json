@@ -1,0 +1,508 @@
+{
+ "sub": "HTTP Error 401: Unauthorized",
+ "voices": [
+  {
+   "name": "Roger - Laid-Back, Casual, Resonant",
+   "id": "CwhRBWXzGAHq8TQ4Fs17",
+   "cat": "premade",
+   "labels": {
+    "gender": "male",
+    "use_case": "conversational",
+    "language": "en",
+    "accent": "american",
+    "age": "middle_aged",
+    "descriptive": "classy"
+   }
+  },
+  {
+   "name": "Sarah - Mature, Reassuring, Confident",
+   "id": "EXAVITQu4vr4xnSDxMaL",
+   "cat": "premade",
+   "labels": {
+    "gender": "female",
+    "use_case": "entertainment_tv",
+    "language": "en",
+    "accent": "american",
+    "age": "young",
+    "descriptive": "professional"
+   }
+  },
+  {
+   "name": "Laura - Enthusiast, Quirky Attitude",
+   "id": "FGY2WhTYpPnrIDTdsKH5",
+   "cat": "premade",
+   "labels": {
+    "gender": "female",
+    "use_case": "social_media",
+    "language": "en",
+    "accent": "american",
+    "age": "young",
+    "descriptive": "sassy"
+   }
+  },
+  {
+   "name": "Charlie - Deep, Confident, Energetic",
+   "id": "IKne3meq5aSn9XLyUdCD",
+   "cat": "premade",
+   "labels": {
+    "gender": "male",
+    "use_case": "conversational",
+    "language": "en",
+    "accent": "australian",
+    "age": "young",
+    "descriptive": "hyped"
+   }
+  },
+  {
+   "name": "George - Warm, Captivating Storyteller",
+   "id": "JBFqnCBsd6RMkjVDRZzb",
+   "cat": "premade",
+   "labels": {
+    "gender": "male",
+    "use_case": "narrative_story",
+    "language": "en",
+    "accent": "british",
+    "age": "middle_aged",
+    "descriptive": "mature"
+   }
+  },
+  {
+   "name": "Callum - Husky Trickster",
+   "id": "N2lVS1w4EtoT3dr4eOWO",
+   "cat": "premade",
+   "labels": {
+    "gender": "male",
+    "use_case": "characters_animation",
+    "language": "en",
+    "accent": "american",
+    "age": "middle_aged"
+   }
+  },
+  {
+   "name": "River - Relaxed, Neutral, Informative",
+   "id": "SAz9YHcvj6GT2YYXdXww",
+   "cat": "premade",
+   "labels": {
+    "gender": "neutral",
+    "use_case": "conversational",
+    "language": "en",
+    "accent": "american",
+    "age": "middle_aged",
+    "descriptive": "calm"
+   }
+  },
+  {
+   "name": "Harry - Fierce Warrior",
+   "id": "SOYHLrjzK2X1ezoPC6cr",
+   "cat": "premade",
+   "labels": {
+    "gender": "male",
+    "use_case": "characters_animation",
+    "language": "en",
+    "accent": "american",
+    "age": "young",
+    "descriptive": "rough"
+   }
+  },
+  {
+   "name": "Liam - Energetic, Social Media Creator",
+   "id": "TX3LPaxmHKxFdv7VOQHJ",
+   "cat": "premade",
+   "labels": {
+    "gender": "male",
+    "use_case": "social_media",
+    "language": "en",
+    "accent": "american",
+    "age": "young",
+    "descriptive": "confident"
+   }
+  },
+  {
+   "name": "Alice - Clear, Engaging Educator",
+   "id": "Xb7hH8MSUJpSbSDYk0k2",
+   "cat": "premade",
+   "labels": {
+    "gender": "female",
+    "use_case": "informative_educational",
+    "language": "en",
+    "accent": "british",
+    "age": "middle_aged",
+    "descriptive": "professional"
+   }
+  },
+  {
+   "name": "Matilda - Knowledgable, Professional",
+   "id": "XrExE9yKIg1WjnnlVkGX",
+   "cat": "premade",
+   "labels": {
+    "gender": "female",
+    "use_case": "informative_educational",
+    "language": "en",
+    "accent": "american",
+    "age": "middle_aged",
+    "descriptive": "upbeat"
+   }
+  },
+  {
+   "name": "Will - Relaxed Optimist",
+   "id": "bIHbv24MWmeRgasZH58o",
+   "cat": "premade",
+   "labels": {
+    "gender": "male",
+    "use_case": "conversational",
+    "language": "en",
+    "accent": "american",
+    "age": "young",
+    "descriptive": "chill"
+   }
+  },
+  {
+   "name": "Jessica - Playful, Bright, Warm",
+   "id": "cgSgspJ2msm6clMCkdW9",
+   "cat": "premade",
+   "labels": {
+    "gender": "female",
+    "use_case": "conversational",
+    "language": "en",
+    "accent": "american",
+    "age": "young",
+    "descriptive": "cute"
+   }
+  },
+  {
+   "name": "Eric - Smooth, Trustworthy",
+   "id": "cjVigY5qzO86Huf0OWal",
+   "cat": "premade",
+   "labels": {
+    "gender": "male",
+    "use_case": "conversational",
+    "language": "en",
+    "accent": "american",
+    "age": "middle_aged",
+    "descriptive": "classy"
+   }
+  },
+  {
+   "name": "Bella - Professional, Bright, Warm",
+   "id": "hpp4J3VqNfWAUOO0d1Us",
+   "cat": "premade",
+   "labels": {
+    "gender": "female",
+    "use_case": "informative_educational",
+    "language": "en",
+    "accent": "american",
+    "age": "middle_aged",
+    "descriptive": "professional"
+   }
+  },
+  {
+   "name": "Chris - Charming, Down-to-Earth",
+   "id": "iP95p4xoKVk53GoZ742B",
+   "cat": "premade",
+   "labels": {
+    "gender": "male",
+    "use_case": "conversational",
+    "language": "en",
+    "accent": "american",
+    "age": "middle_aged",
+    "descriptive": "casual"
+   }
+  },
+  {
+   "name": "Brian - Deep, Resonant and Comforting",
+   "id": "nPczCjzI2devNBz1zQrb",
+   "cat": "premade",
+   "labels": {
+    "gender": "male",
+    "use_case": "social_media",
+    "language": "en",
+    "accent": "american",
+    "age": "middle_aged",
+    "descriptive": "classy"
+   }
+  },
+  {
+   "name": "Daniel - Steady Broadcaster",
+   "id": "onwK4e9ZLuTAKqWW03F9",
+   "cat": "premade",
+   "labels": {
+    "gender": "male",
+    "use_case": "informative_educational",
+    "language": "en",
+    "accent": "british",
+    "age": "middle_aged",
+    "descriptive": "formal"
+   }
+  },
+  {
+   "name": "Lily - Velvety Actress",
+   "id": "pFZP5JQG7iQjIQuC4Bku",
+   "cat": "premade",
+   "labels": {
+    "gender": "female",
+    "use_case": "informative_educational",
+    "language": "en",
+    "accent": "british",
+    "age": "middle_aged",
+    "descriptive": "confident"
+   }
+  },
+  {
+   "name": "Adam - Dominant, Firm",
+   "id": "pNInz6obpgDQGcFmaJgB",
+   "cat": "premade",
+   "labels": {
+    "gender": "male",
+    "use_case": "social_media",
+    "language": "en",
+    "accent": "american",
+    "age": "middle_aged"
+   }
+  },
+  {
+   "name": "Bill - Wise, Mature, Balanced",
+   "id": "pqHfZKP75CvOlQylNhV4",
+   "cat": "premade",
+   "labels": {
+    "gender": "male",
+    "use_case": "advertisement",
+    "language": "en",
+    "accent": "american",
+    "age": "old",
+    "descriptive": "crisp"
+   }
+  },
+  {
+   "name": "Ali Burak - Loud, Clear and Steady",
+   "id": "5ANiIbDLbNMQ65tBPPDe",
+   "cat": "professional",
+   "labels": {
+    "accent": "istanbul",
+    "use_case": "narrative_story",
+    "descriptive": "neutral",
+    "language": "tr",
+    "age": "middle_aged"
+   }
+  },
+  {
+   "name": "Dilara - Warm, Natural, Conversational",
+   "id": "D2dHiTSPRx6l2bhKGmyJ",
+   "cat": "professional",
+   "labels": {
+    "accent": "standard",
+    "age": "middle_aged",
+    "descriptive": "neutral",
+    "gender": "female",
+    "language": "tr",
+    "use_case": "advertisement"
+   }
+  },
+  {
+   "name": "Ergun Kalbak - Deep, Calm and Clear",
+   "id": "0DihkedLJYKoWg7H1u4d",
+   "cat": "professional",
+   "labels": {
+    "accent": "istanbul",
+    "use_case": "narrative_story",
+    "descriptive": "confident",
+    "gender": "male",
+    "language": "tr",
+    "age": "old"
+   }
+  },
+  {
+   "name": "Gamze - Cartoon Character, Animated Voice",
+   "id": "Hr3W7yWIljG9YBJn39oK",
+   "cat": "professional",
+   "labels": {
+    "accent": "istanbul",
+    "use_case": "characters_animation",
+    "descriptive": "cute",
+    "gender": "female",
+    "language": "tr",
+    "age": "young"
+   }
+  },
+  {
+   "name": "Gozde Arikan - Soft, Warm and Clear",
+   "id": "aEJD8mYP0nuof1XHShVY",
+   "cat": "professional",
+   "labels": {
+    "accent": "standard",
+    "use_case": "conversational",
+    "descriptive": "casual",
+    "gender": "female",
+    "language": "tr",
+    "age": "young"
+   }
+  },
+  {
+   "name": "Hale - Warm Turkish Influencer",
+   "id": "SBqwqJrrVooSHZ6ofGmf",
+   "cat": "professional",
+   "labels": {
+    "accent": "istanbul",
+    "age": "young",
+    "descriptive": "calm",
+    "gender": "female",
+    "language": "tr",
+    "use_case": "social_media"
+   }
+  },
+  {
+   "name": "Mahmut Hoca - Educational",
+   "id": "xHqOjnu0AbcqNgTDQJu6",
+   "cat": "professional",
+   "labels": {
+    "accent": "istanbul",
+    "use_case": "informative_educational",
+    "descriptive": "chill",
+    "gender": "male",
+    "language": "tr",
+    "age": "middle_aged"
+   }
+  },
+  {
+   "name": "Nil - Dynamic, Playful and Clear",
+   "id": "N0wraTTB0pquzsz3DLG8",
+   "cat": "professional",
+   "labels": {
+    "accent": "standard",
+    "age": "middle_aged",
+    "gender": "female",
+    "language": "tr",
+    "use_case": "social_media"
+   }
+  },
+  {
+   "name": "Fatih Yıldırım - Deep, Clear and Rich",
+   "id": "7VqWGAWwo2HMrylfKrcm",
+   "cat": "professional",
+   "labels": {
+    "accent": "istanbul",
+    "use_case": "social_media",
+    "descriptive": "casual",
+    "gender": "male",
+    "language": "tr",
+    "age": "middle_aged"
+   }
+  },
+  {
+   "name": "İrem - Authoritarian Female Voice",
+   "id": "uvU9jrgGLWNPeNA4NgNT",
+   "cat": "professional",
+   "labels": {
+    "accent": "istanbul",
+    "use_case": "narrative_story",
+    "descriptive": "professional",
+    "gender": "female",
+    "language": "tr",
+    "age": "middle_aged"
+   }
+  },
+  {
+   "name": "Gamze - Young, Warm and Friendly",
+   "id": "QoTTt8u8tpyE1a8ftMc7",
+   "cat": "professional",
+   "labels": {
+    "accent": "istanbul",
+    "age": "young",
+    "descriptive": "chill",
+    "gender": "female",
+    "language": "tr",
+    "use_case": "narrative_story"
+   }
+  },
+  {
+   "name": "Jason - Energetic, Joyful and Friendly",
+   "id": "xtPlXcRNvdlUVw2QsITM",
+   "cat": "professional",
+   "labels": {
+    "accent": "standard",
+    "use_case": "characters_animation",
+    "descriptive": "excited",
+    "gender": "male",
+    "language": "tr",
+    "age": "middle_aged"
+   }
+  },
+  {
+   "name": "Aslan - Narrator",
+   "id": "oHuRX2AREDJu1fjUKSZR",
+   "cat": "professional",
+   "labels": {
+    "accent": "standard",
+    "use_case": "entertainment_tv",
+    "descriptive": "cute",
+    "gender": "male",
+    "language": "tr",
+    "age": "middle_aged"
+   }
+  },
+  {
+   "name": "Hasan Yasin - Warm Turkish Narrator",
+   "id": "tILIOdKERNNbBHVEXk7I",
+   "cat": "professional",
+   "labels": {
+    "accent": "istanbul",
+    "use_case": "conversational",
+    "descriptive": "casual",
+    "gender": "male",
+    "language": "tr",
+    "age": "middle_aged"
+   }
+  },
+  {
+   "name": "Polat Gunduz - Friendly and Energetic",
+   "id": "thA2p3ELEBfF8SJXBXM1",
+   "cat": "professional",
+   "labels": {
+    "accent": "standard",
+    "use_case": "social_media",
+    "descriptive": "calm",
+    "gender": "male",
+    "language": "tr",
+    "age": "young"
+   }
+  },
+  {
+   "name": "Celil-Documentary Narrator – Deep Male",
+   "id": "Zpbxhg6LG47cY8y5BJrf",
+   "cat": "professional",
+   "labels": {
+    "accent": "istanbul",
+    "use_case": "narrative_story",
+    "descriptive": "professional",
+    "gender": "male",
+    "language": "tr",
+    "age": "middle_aged"
+   }
+  },
+  {
+   "name": "Deniz - Soft, Friendly Narrator",
+   "id": "KAGDtM2gzDrjWlUp2KNe",
+   "cat": "professional",
+   "labels": {
+    "accent": "istanbul",
+    "age": "young",
+    "descriptive": "chill",
+    "gender": "female",
+    "language": "tr",
+    "use_case": "narrative_story"
+   }
+  },
+  {
+   "name": "Zehra - Soft Cheerful, Turkish",
+   "id": "i0LyBJtiiFlNzyMX3nIu",
+   "cat": "professional",
+   "labels": {
+    "accent": "istanbul",
+    "age": "young",
+    "descriptive": "classy",
+    "gender": "female",
+    "language": "tr",
+    "use_case": "social_media"
+   }
+  }
+ ]
+}

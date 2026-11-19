@@ -1,0 +1,59 @@
+name: Runway video üret
+on:
+  push:
+    branches: [uretim-ham]
+    paths: ['uretim-plan/istek/runway.json']
+permissions:
+  contents: write
+concurrency: { group: runway-video, cancel-in-progress: false }
+jobs:
+  uret:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: uretim-ham }
+      - name: Klipleri üret
+        env: { RUNWAY_API_KEY: '${{ secrets.RUNWAY_API_KEY }}' }
+        run: |
+          python3 - <<'PY'
+          import json, os, time, urllib.request, urllib.error
+          K = os.environ["RUNWAY_API_KEY"]; B = "https://api.dev.runwayml.com/v1"
+          H = {"Authorization": "Bearer " + K, "X-Runway-Version": "2024-11-06", "Content-Type": "application/json"}
+          def req(m, p, body=None):
+              r = urllib.request.Request(B + p, method=m, headers=H, data=json.dumps(body).encode() if body else None)
+              try:
+                  with urllib.request.urlopen(r, timeout=60) as f: return json.load(f)
+              except urllib.error.HTTPError as e:
+                  return {"error": e.code, "body": e.read().decode()[:500]}
+          jobs = json.load(open("uretim-plan/istek/runway.json"))
+          os.makedirs("gelen/runway", exist_ok=True)
+          log = []
+          pending = {}
+          for j in jobs:
+              out = f"gelen/runway/{j['name']}.mp4"
+              if os.path.exists(out): continue
+              body = {"model": j.get("model", "gen4_turbo"), "promptImage": j["image"], "promptText": j["prompt"][:990],
+                      "ratio": j.get("ratio", "1280:720"), "duration": j.get("duration", 5)}
+              r = req("POST", "/image_to_video", body)
+              print(j["name"], r); log.append({"name": j["name"], "start": r})
+              if "id" in r: pending[r["id"]] = j["name"]
+              time.sleep(2)
+          t0 = time.time()
+          while pending and time.time() - t0 < 6000:
+              time.sleep(15)
+              for tid, name in list(pending.items()):
+                  r = req("GET", f"/tasks/{tid}")
+                  st = r.get("status")
+                  if st == "SUCCEEDED":
+                      urllib.request.urlretrieve(r["output"][0], f"gelen/runway/{name}.mp4"); print("OK", name)
+                      log.append({"name": name, "ok": True}); del pending[tid]
+                  elif st in ("FAILED", "CANCELLED") or "error" in r:
+                      print("FAIL", name, r); log.append({"name": name, "fail": r}); del pending[tid]
+          log.append({"org": req("GET", "/organization")})
+          json.dump(log, open("gelen/runway/son-log.json", "w"), ensure_ascii=False, indent=1)
+          PY
+      - name: Depoya yaz
+        run: |
+          git config user.name "github-actions"; git config user.email "actions@github.com"
+          git add gelen/runway && git commit -m "Runway klipleri" && git pull --rebase origin uretim-ham && git push origin HEAD:uretim-ham || echo degisiklik yok

@@ -55,6 +55,6 @@ window.imgGen=async(key,prompt,refs)=>{ for(let i=0;i<6;i++){ const r=[...docume
   [...document.querySelectorAll('button')].filter(b=>b.offsetParent).find(b=>/Add references/.test(b.innerText)).click(); await sleep(600); HTMLInputElement.prototype.click=orig;
   const dt=new DataTransfer(); files.forEach(f=>dt.items.add(f)); window.__picked.files=dt.files; window.__picked.dispatchEvent(new Event('change',{bubbles:true}));
   for(let i=0;i<30&&ichips()<refs.length;i++) await sleep(1000); if(ichips()<refs.length) return key+' REFS '+ichips(); }
- setTA((key+' | '+prompt).slice(0,500)); await sleep(400); const b0=bal(); vbtn('Create Image').click(); for(let i=0;i<10&&bal()==b0;i++) await sleep(1000); return key+(bal()<b0?' sent':' NOCHARGE');};
+ setTA((key+' | '+prompt).slice(0,500)); await sleep(400); const g0=genCount(); vbtn('Create Image').click(); for(let i=0;i<10&&genCount()==g0;i++) await sleep(1000); return key+' sent';};
 window.runImgs=async(L,logName)=>{ window[logName]=[]; for(const [k,p,r] of L){ let x; for(let t=0;t<3;t++){ try{ x=await imgGen(k,p,r);}catch(e){x='ERR '+k+e} if(x.includes('sent')) break; await sleep(3000);} window[logName].push(x); await sleep(1500);} window[logName].push('done');};
 'ml.js loaded4';

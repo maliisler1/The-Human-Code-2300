@@ -1,0 +1,851 @@
+{
+ "tts": [
+  {
+   "out": "gelen/thc/t01/s01_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 109966
+  },
+  {
+   "out": "gelen/thc/t01/s05_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 58557
+  },
+  {
+   "out": "gelen/thc/t01/s07_0_COMPASS.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 93247
+  },
+  {
+   "out": "gelen/thc/t01/s10_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 40585
+  },
+  {
+   "out": "gelen/thc/t01/s11_0_COMPASS.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 65244
+  },
+  {
+   "out": "gelen/thc/t01/s14_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 53541
+  },
+  {
+   "out": "gelen/thc/t01/s17_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 54795
+  },
+  {
+   "out": "gelen/thc/t01/s20_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 57303
+  },
+  {
+   "out": "gelen/thc/t01/s22_0_KAI.mp3",
+   "voice": "Will - Relaxed Optimist",
+   "model": "eleven_v4",
+   "bytes": 76529
+  },
+  {
+   "out": "gelen/thc/t01/s25_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 74021
+  },
+  {
+   "out": "gelen/thc/t01/s26_0_COMPASS.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 65244
+  },
+  {
+   "out": "gelen/thc/t01/s27_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 26792
+  },
+  {
+   "out": "gelen/thc/t01/s30_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 71514
+  },
+  {
+   "out": "gelen/thc/t01/s32_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 36823
+  },
+  {
+   "out": "gelen/thc/t01/s34_0_AVA.mp3",
+   "voice": "Laura - Enthusiast, Quirky Attitude",
+   "model": "eleven_v4",
+   "bytes": 33061
+  },
+  {
+   "out": "gelen/thc/t02/s01_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 59811
+  },
+  {
+   "out": "gelen/thc/t02/s04_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 51034
+  },
+  {
+   "out": "gelen/thc/t02/s05_0_AVA.mp3",
+   "voice": "Laura - Enthusiast, Quirky Attitude",
+   "model": "eleven_v4",
+   "bytes": 36823
+  },
+  {
+   "out": "gelen/thc/t02/s08_0_AVA.mp3",
+   "voice": "Laura - Enthusiast, Quirky Attitude",
+   "model": "eleven_v4",
+   "bytes": 58557
+  },
+  {
+   "out": "gelen/thc/t02/s11_0_RYAN.mp3",
+   "voice": "Liam - Energetic, Social Media Creator",
+   "model": "eleven_v4",
+   "bytes": 62318
+  },
+  {
+   "out": "gelen/thc/t02/s13_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 61065
+  },
+  {
+   "out": "gelen/thc/t02/s14_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 24284
+  },
+  {
+   "out": "gelen/thc/t02/s16_0_RYAN.mp3",
+   "voice": "Liam - Energetic, Social Media Creator",
+   "model": "eleven_v4",
+   "bytes": 25538
+  },
+  {
+   "out": "gelen/thc/t02/s17_0_COMPASS.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 71514
+  },
+  {
+   "out": "gelen/thc/t02/s22_0_AVA.mp3",
+   "voice": "Laura - Enthusiast, Quirky Attitude",
+   "model": "eleven_v4",
+   "bytes": 58557
+  },
+  {
+   "out": "gelen/thc/t02/s25_0_SHADOW.mp3",
+   "voice": "Callum - Husky Trickster",
+   "model": "eleven_v4",
+   "bytes": 54795
+  },
+  {
+   "out": "gelen/thc/t02/s26_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 58557
+  },
+  {
+   "out": "gelen/thc/t02/s28_0_RYAN.mp3",
+   "voice": "Liam - Energetic, Social Media Creator",
+   "model": "eleven_v4",
+   "bytes": 52287
+  },
+  {
+   "out": "gelen/thc/t02/s30_0_COMPASS.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 59811
+  },
+  {
+   "out": "gelen/thc/t02/s32_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 58557
+  },
+  {
+   "out": "gelen/thc/t02/s33_0_AVA.mp3",
+   "voice": "Laura - Enthusiast, Quirky Attitude",
+   "model": "eleven_v4",
+   "bytes": 46018
+  },
+  {
+   "out": "gelen/thc/t03/s01_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 77783
+  },
+  {
+   "out": "gelen/thc/t03/s04_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 58557
+  },
+  {
+   "out": "gelen/thc/t03/s05_0_COMPASS.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 75275
+  },
+  {
+   "out": "gelen/thc/t03/s07_0_AVA.mp3",
+   "voice": "Laura - Enthusiast, Quirky Attitude",
+   "model": "eleven_v4",
+   "bytes": 52287
+  },
+  {
+   "out": "gelen/thc/t03/s08_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 48526
+  },
+  {
+   "out": "gelen/thc/t03/s11_0_SHADOW.mp3",
+   "voice": "Callum - Husky Trickster",
+   "model": "eleven_v4",
+   "bytes": 62318
+  },
+  {
+   "out": "gelen/thc/t03/s13_0_RYAN.mp3",
+   "voice": "Liam - Energetic, Social Media Creator",
+   "model": "eleven_v4",
+   "bytes": 29300
+  },
+  {
+   "out": "gelen/thc/t03/s19_0_AVA.mp3",
+   "voice": "Laura - Enthusiast, Quirky Attitude",
+   "model": "eleven_v4",
+   "bytes": 35569
+  },
+  {
+   "out": "gelen/thc/t03/s20_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 65244
+  },
+  {
+   "out": "gelen/thc/t03/s22_0_COMPASS.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 47272
+  },
+  {
+   "out": "gelen/thc/t03/s23_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 59811
+  },
+  {
+   "out": "gelen/thc/t03/s26_0_AVA.mp3",
+   "voice": "Laura - Enthusiast, Quirky Attitude",
+   "model": "eleven_v4",
+   "bytes": 52287
+  },
+  {
+   "out": "gelen/thc/t03/s28_0_RYAN.mp3",
+   "voice": "Liam - Energetic, Social Media Creator",
+   "model": "eleven_v4",
+   "bytes": 29300
+  },
+  {
+   "out": "gelen/thc/t03/s31_0_KAEL.mp3",
+   "voice": "George - Warm, Captivating Storyteller",
+   "model": "eleven_v4",
+   "bytes": 48526
+  },
+  {
+   "out": "gelen/thc/t03/s32_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 59811
+  },
+  {
+   "out": "gelen/thc/t04/s01_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 58557
+  },
+  {
+   "out": "gelen/thc/t04/s02_0_KAEL.mp3",
+   "voice": "George - Warm, Captivating Storyteller",
+   "model": "eleven_v4",
+   "bytes": 49780
+  },
+  {
+   "out": "gelen/thc/t04/s05_0_RYAN.mp3",
+   "voice": "Liam - Energetic, Social Media Creator",
+   "model": "eleven_v4",
+   "bytes": 46018
+  },
+  {
+   "out": "gelen/thc/t04/s07_0_KAEL.mp3",
+   "voice": "George - Warm, Captivating Storyteller",
+   "model": "eleven_v4",
+   "bytes": 63990
+  },
+  {
+   "out": "gelen/thc/t04/s08_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 86978
+  },
+  {
+   "out": "gelen/thc/t04/s11_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 48526
+  },
+  {
+   "out": "gelen/thc/t04/s13_0_KAEL.mp3",
+   "voice": "George - Warm, Captivating Storyteller",
+   "model": "eleven_v4",
+   "bytes": 51034
+  },
+  {
+   "out": "gelen/thc/t04/s14_0_KAEL.mp3",
+   "voice": "George - Warm, Captivating Storyteller",
+   "model": "eleven_v4",
+   "bytes": 56049
+  },
+  {
+   "out": "gelen/thc/t04/s16_0_AVA.mp3",
+   "voice": "Laura - Enthusiast, Quirky Attitude",
+   "model": "eleven_v4",
+   "bytes": 43510
+  },
+  {
+   "out": "gelen/thc/t04/s17_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 84470
+  },
+  {
+   "out": "gelen/thc/t04/s20_0_KAEL.mp3",
+   "voice": "George - Warm, Captivating Storyteller",
+   "model": "eleven_v4",
+   "bytes": 56049
+  },
+  {
+   "out": "gelen/thc/t04/s23_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 44764
+  },
+  {
+   "out": "gelen/thc/t04/s26_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 48526
+  },
+  {
+   "out": "gelen/thc/t04/s30_0_SHADOW.mp3",
+   "voice": "Callum - Husky Trickster",
+   "model": "eleven_v4",
+   "bytes": 76529
+  },
+  {
+   "out": "gelen/thc/t04/s32_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 31807
+  },
+  {
+   "out": "gelen/thc/t05/s01_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 61065
+  },
+  {
+   "out": "gelen/thc/t05/s04_0_KAEL.mp3",
+   "voice": "George - Warm, Captivating Storyteller",
+   "model": "eleven_v4",
+   "bytes": 63990
+  },
+  {
+   "out": "gelen/thc/t05/s07_0_RYAN.mp3",
+   "voice": "Liam - Energetic, Social Media Creator",
+   "model": "eleven_v4",
+   "bytes": 75275
+  },
+  {
+   "out": "gelen/thc/t05/s10_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 69006
+  },
+  {
+   "out": "gelen/thc/t05/s13_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 56049
+  },
+  {
+   "out": "gelen/thc/t05/s16_0_KAI.mp3",
+   "voice": "Will - Relaxed Optimist",
+   "model": "eleven_v4",
+   "bytes": 38077
+  },
+  {
+   "out": "gelen/thc/t05/s17_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 52287
+  },
+  {
+   "out": "gelen/thc/t05/s19_0_SILA.mp3",
+   "voice": "Lily - Velvety Actress",
+   "model": "eleven_v4",
+   "bytes": 56049
+  },
+  {
+   "out": "gelen/thc/t05/s20_0_AVA.mp3",
+   "voice": "Laura - Enthusiast, Quirky Attitude",
+   "model": "eleven_v4",
+   "bytes": 43510
+  },
+  {
+   "out": "gelen/thc/t05/s28_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 65244
+  },
+  {
+   "out": "gelen/thc/t05/s29_0_KAI.mp3",
+   "voice": "Will - Relaxed Optimist",
+   "model": "eleven_v4",
+   "bytes": 52287
+  },
+  {
+   "out": "gelen/thc/t05/s31_0_SHADOW.mp3",
+   "voice": "Callum - Husky Trickster",
+   "model": "eleven_v4",
+   "bytes": 40585
+  },
+  {
+   "out": "gelen/thc/t06/s01_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 61065
+  },
+  {
+   "out": "gelen/thc/t06/s04_0_KAEL.mp3",
+   "voice": "George - Warm, Captivating Storyteller",
+   "model": "eleven_v4",
+   "bytes": 57303
+  },
+  {
+   "out": "gelen/thc/t06/s05_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 41838
+  },
+  {
+   "out": "gelen/thc/t06/s08_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 70260
+  },
+  {
+   "out": "gelen/thc/t06/s11_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 35569
+  },
+  {
+   "out": "gelen/thc/t06/s14_0_KAI.mp3",
+   "voice": "Will - Relaxed Optimist",
+   "model": "eleven_v4",
+   "bytes": 56049
+  },
+  {
+   "out": "gelen/thc/t06/s16_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 57303
+  },
+  {
+   "out": "gelen/thc/t06/s17_0_SHADOW.mp3",
+   "voice": "Callum - Husky Trickster",
+   "model": "eleven_v4",
+   "bytes": 33061
+  },
+  {
+   "out": "gelen/thc/t06/s22_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 52287
+  },
+  {
+   "out": "gelen/thc/t06/s25_0_KAI.mp3",
+   "voice": "Will - Relaxed Optimist",
+   "model": "eleven_v4",
+   "bytes": 62318
+  },
+  {
+   "out": "gelen/thc/t06/s26_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 47272
+  },
+  {
+   "out": "gelen/thc/t06/s31_0_SILA.mp3",
+   "voice": "Lily - Velvety Actress",
+   "model": "eleven_v4",
+   "bytes": 53541
+  },
+  {
+   "out": "gelen/thc/t06/s32_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 35569
+  },
+  {
+   "out": "gelen/thc/t07/s01_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 63990
+  },
+  {
+   "out": "gelen/thc/t07/s07_0_AVA.mp3",
+   "voice": "Laura - Enthusiast, Quirky Attitude",
+   "model": "eleven_v4",
+   "bytes": 54795
+  },
+  {
+   "out": "gelen/thc/t07/s10_0_RYAN.mp3",
+   "voice": "Liam - Energetic, Social Media Creator",
+   "model": "eleven_v4",
+   "bytes": 33061
+  },
+  {
+   "out": "gelen/thc/t07/s11_0_COMPASS.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 53541
+  },
+  {
+   "out": "gelen/thc/t07/s13_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 44764
+  },
+  {
+   "out": "gelen/thc/t07/s14_0_RYAN.mp3",
+   "voice": "Liam - Energetic, Social Media Creator",
+   "model": "eleven_v4",
+   "bytes": 52287
+  },
+  {
+   "out": "gelen/thc/t07/s16_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 62318
+  },
+  {
+   "out": "gelen/thc/t07/s22_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 34315
+  },
+  {
+   "out": "gelen/thc/t07/s23_0_NYRA.mp3",
+   "voice": "Alice - Clear, Engaging Educator",
+   "model": "eleven_v4",
+   "bytes": 39331
+  },
+  {
+   "out": "gelen/thc/t07/s25_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 63990
+  },
+  {
+   "out": "gelen/thc/t07/s26_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 44764
+  },
+  {
+   "out": "gelen/thc/t07/s31_0_SILA.mp3",
+   "voice": "Lily - Velvety Actress",
+   "model": "eleven_v4",
+   "bytes": 52287
+  },
+  {
+   "out": "gelen/thc/t07/s32_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 35569
+  },
+  {
+   "out": "gelen/thc/t08/s01_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 31807
+  },
+  {
+   "out": "gelen/thc/t08/s04_0_KAEL.mp3",
+   "voice": "George - Warm, Captivating Storyteller",
+   "model": "eleven_v4",
+   "bytes": 53541
+  },
+  {
+   "out": "gelen/thc/t08/s05_0_RYAN.mp3",
+   "voice": "Liam - Energetic, Social Media Creator",
+   "model": "eleven_v4",
+   "bytes": 52287
+  },
+  {
+   "out": "gelen/thc/t08/s08_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 48526
+  },
+  {
+   "out": "gelen/thc/t08/s13_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 85724
+  },
+  {
+   "out": "gelen/thc/t08/s14_0_EKIN.mp3",
+   "voice": "River - Relaxed, Neutral, Informative",
+   "model": "eleven_v4",
+   "bytes": 67752
+  },
+  {
+   "out": "gelen/thc/t08/s16_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 53541
+  },
+  {
+   "out": "gelen/thc/t08/s17_0_EKIN.mp3",
+   "voice": "River - Relaxed, Neutral, Informative",
+   "model": "eleven_v4",
+   "bytes": 72767
+  },
+  {
+   "out": "gelen/thc/t08/s19_0_KAI.mp3",
+   "voice": "Will - Relaxed Optimist",
+   "model": "eleven_v4",
+   "bytes": 53541
+  },
+  {
+   "out": "gelen/thc/t08/s22_0_SHADOW.mp3",
+   "voice": "Callum - Husky Trickster",
+   "model": "eleven_v4",
+   "bytes": 58557
+  },
+  {
+   "out": "gelen/thc/t08/s23_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 28046
+  },
+  {
+   "out": "gelen/thc/t08/s26_0_SILA.mp3",
+   "voice": "Lily - Velvety Actress",
+   "model": "eleven_v4",
+   "bytes": 57303
+  },
+  {
+   "out": "gelen/thc/t08/s29_0_NYRA.mp3",
+   "voice": "Alice - Clear, Engaging Educator",
+   "model": "eleven_v4",
+   "bytes": 49780
+  },
+  {
+   "out": "gelen/thc/t08/s30_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 74021
+  },
+  {
+   "out": "gelen/thc/t09/s01_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 59811
+  },
+  {
+   "out": "gelen/thc/t09/s02_0_KAEL.mp3",
+   "voice": "George - Warm, Captivating Storyteller",
+   "model": "eleven_v4",
+   "bytes": 56049
+  },
+  {
+   "out": "gelen/thc/t09/s07_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 70260
+  },
+  {
+   "out": "gelen/thc/t09/s08_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 52287
+  },
+  {
+   "out": "gelen/thc/t09/s13_0_AVA.mp3",
+   "voice": "Laura - Enthusiast, Quirky Attitude",
+   "model": "eleven_v4",
+   "bytes": 30554
+  },
+  {
+   "out": "gelen/thc/t09/s14_0_NYRA.mp3",
+   "voice": "Alice - Clear, Engaging Educator",
+   "model": "eleven_v4",
+   "bytes": 23030
+  },
+  {
+   "out": "gelen/thc/t09/s16_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 57303
+  },
+  {
+   "out": "gelen/thc/t09/s22_0_KAI.mp3",
+   "voice": "Will - Relaxed Optimist",
+   "model": "eleven_v4",
+   "bytes": 36823
+  },
+  {
+   "out": "gelen/thc/t09/s25_0_SILA.mp3",
+   "voice": "Lily - Velvety Actress",
+   "model": "eleven_v4",
+   "bytes": 43510
+  },
+  {
+   "out": "gelen/thc/t09/s26_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 72767
+  },
+  {
+   "out": "gelen/thc/t09/s30_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 53541
+  },
+  {
+   "out": "gelen/thc/t09/s31_0_SHADOW.mp3",
+   "voice": "Callum - Husky Trickster",
+   "model": "eleven_v4",
+   "bytes": 34315
+  },
+  {
+   "out": "gelen/thc/t09/s32_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 44764
+  },
+  {
+   "out": "gelen/thc/t10/s01_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 66498
+  },
+  {
+   "out": "gelen/thc/t10/s02_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 54795
+  },
+  {
+   "out": "gelen/thc/t10/s07_0_SHADOW.mp3",
+   "voice": "Callum - Husky Trickster",
+   "model": "eleven_v4",
+   "bytes": 51034
+  },
+  {
+   "out": "gelen/thc/t10/s08_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 38077
+  },
+  {
+   "out": "gelen/thc/t10/s10_0_SHADOW.mp3",
+   "voice": "Callum - Husky Trickster",
+   "model": "eleven_v4",
+   "bytes": 43510
+  },
+  {
+   "out": "gelen/thc/t10/s11_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 40585
+  },
+  {
+   "out": "gelen/thc/t10/s14_0_EKIN.mp3",
+   "voice": "River - Relaxed, Neutral, Informative",
+   "model": "eleven_v4",
+   "bytes": 48526
+  },
+  {
+   "out": "gelen/thc/t10/s16_0_KAEL.mp3",
+   "voice": "George - Warm, Captivating Storyteller",
+   "model": "eleven_v4",
+   "bytes": 85724
+  },
+  {
+   "out": "gelen/thc/t10/s19_0_RYAN.mp3",
+   "voice": "Liam - Energetic, Social Media Creator",
+   "model": "eleven_v4",
+   "bytes": 46018
+  },
+  {
+   "out": "gelen/thc/t10/s22_0_AVA.mp3",
+   "voice": "Laura - Enthusiast, Quirky Attitude",
+   "model": "eleven_v4",
+   "bytes": 36823
+  },
+  {
+   "out": "gelen/thc/t10/s26_0_KAI.mp3",
+   "voice": "Will - Relaxed Optimist",
+   "model": "eleven_v4",
+   "bytes": 33061
+  },
+  {
+   "out": "gelen/thc/t10/s27_0_ASHLEY.mp3",
+   "voice": "Matilda - Knowledgable, Professional",
+   "model": "eleven_v4",
+   "bytes": 28046
+  },
+  {
+   "out": "gelen/thc/t10/s28_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 53541
+  },
+  {
+   "out": "gelen/thc/t10/s29_0_COMPASS.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 57303
+  },
+  {
+   "out": "gelen/thc/t10/s31_0_NARRATOR.mp3",
+   "voice": "Daniel - Steady Broadcaster",
+   "model": "eleven_v4",
+   "bytes": 30554
+  }
+ ],
+ "url": []
+}

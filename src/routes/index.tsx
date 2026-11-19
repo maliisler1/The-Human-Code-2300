@@ -55,9 +55,9 @@ function Index() {
   const { t, lang } = useT();
   const featured = pickFeatured(all);
   const [play, setPlay] = useState<{ src: string; title: string; poster?: string | undefined; subsKey?: string | undefined } | null>(null);
+  const epCount = useQuery({ ...episodeListQuery(featured?.id ?? "", featured?.slug ?? ""), enabled: !!featured }).data?.length ?? 0;
   if (!featured) return <AppShell><p className="px-5 pt-10 text-sm text-muted-foreground">{t("loading")}</p></AppShell>;
   const others = otherPublished(all, featured);
-  const epCount = useQuery(episodeListQuery(featured.id, featured.slug)).data?.length ?? 0;
   const tx = seriesTextOf(featured, lang);
   const poster = BUNDLED_POSTERS[featured.slug];
   const ft = SERIES_TRAILERS[featured.slug];

@@ -6,6 +6,7 @@ window.vbtn=txt=>[...document.querySelectorAll('button')].filter(b=>b.offsetPare
 window.vchips=()=>[...document.querySelectorAll('button')].filter(b=>b.offsetParent && /^(Image|Audio) \d+$/.test((b.getAttribute('aria-label')||b.textContent).trim())).length;
 window.clearRefs=async()=>{ for(let i=0;i<12;i++){ const r=[...document.querySelectorAll('button')].filter(b=>(b.getAttribute('aria-label')||b.textContent).trim()=='Remove'&&b.parentElement&&b.parentElement.offsetParent); if(!r.length)break; r[0].click(); await sleep(400);} return vchips();};
 window.setDur=async(sec)=>{ let s=document.querySelector('.toolbox-duration-slider-input'); if(!s){ vbtn('Output').click(); await sleep(900); s=document.querySelector('.toolbox-duration-slider-input');}
+ const ar=[...document.querySelectorAll('button,div,span')].filter(e=>e.offsetParent&&e.children.length<=2&&e.textContent.trim()=='16:9'); if(ar.length){ (ar[0].closest('button')||ar[0]).click(); await sleep(300);}
  Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(s,String(sec-4)); s.dispatchEvent(new Event('input',{bubbles:true})); s.dispatchEvent(new Event('change',{bubbles:true})); await sleep(400); document.body.click(); await sleep(300);};
 window.setTA=v=>{const ta=vta(); Object.getOwnPropertyDescriptor(HTMLTextAreaElement.prototype,'value').set.call(ta,v); ta.dispatchEvent(new Event('input',{bubbles:true}));};
 window.vinput=()=>[...document.querySelectorAll('input[type=file]')].find(i=>/mp3|audio/.test(i.accept)&&/jpg|image/.test(i.accept));
@@ -58,3 +59,5 @@ window.imgGen=async(key,prompt,refs)=>{ for(let i=0;i<6;i++){ const r=[...docume
  setTA((key+' | '+prompt).slice(0,500)); await sleep(400); const g0=genCount(); vbtn('Create Image').click(); for(let i=0;i<10&&genCount()==g0;i++) await sleep(1000); return key+' sent';};
 window.runImgs=async(L,logName)=>{ window[logName]=[]; for(const [k,p,r] of L){ let x; for(let t=0;t<3;t++){ try{ x=await imgGen(k,p,r);}catch(e){x='ERR '+k+e} if(x.includes('sent')) break; await sleep(3000);} window[logName].push(x); await sleep(1500);} window[logName].push('done');};
 'ml.js loaded4';
+
+window.outInfo=()=>document.body.innerText.split('Output')[1]?.slice(0,20).replace(/\n/g,' ');

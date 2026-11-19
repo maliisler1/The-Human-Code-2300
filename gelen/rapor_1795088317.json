@@ -1,0 +1,53 @@
+{
+ "tts": [
+  {
+   "out": "gelen/ruya/b01/x01_0_NARRATOR.mp3",
+   "voice": "Brian - Deep, Resonant and Comforting",
+   "model": "eleven_v4",
+   "bytes": 76529
+  },
+  {
+   "out": "gelen/ruya/b01/x03_0_NARRATOR.mp3",
+   "voice": "Brian - Deep, Resonant and Comforting",
+   "model": "eleven_v4",
+   "bytes": 89486
+  },
+  {
+   "out": "gelen/ruya/b01/x05_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 100771
+  },
+  {
+   "out": "gelen/ruya/b01/x06_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 57303
+  },
+  {
+   "out": "gelen/ruya/b01/x06_1_ELIAS.mp3",
+   "voice": "Bill - Wise, Mature, Balanced",
+   "model": "eleven_v4",
+   "bytes": 85724
+  },
+  {
+   "out": "gelen/ruya/b01/x07_0_ELIAS.mp3",
+   "voice": "Bill - Wise, Mature, Balanced",
+   "model": "eleven_v4",
+   "bytes": 69006
+  },
+  {
+   "out": "gelen/ruya/b01/x09_0_ANNA.mp3",
+   "voice": "Sarah - Mature, Reassuring, Confident",
+   "model": "eleven_v4",
+   "bytes": 52287
+  },
+  {
+   "out": "gelen/ruya/b01/x09_1_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 62318
+  }
+ ],
+ "url": []
+}

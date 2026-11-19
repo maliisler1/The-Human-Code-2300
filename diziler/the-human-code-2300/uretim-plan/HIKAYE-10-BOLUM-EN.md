@@ -12,7 +12,7 @@ Sila'nın sonu kötü görünür ama son sahnede kolyesinde küçük kırmızı 
 | Ava | Kırık Adalar'da yaşayan cesur genç kadın | Laura |
 | Ryan (12) | Komik, gizemli çocuk; kristal yaratıklar onu dinler | Charlie |
 | Kai (22) | Sinyali gelen kayıp arkadaş (eski adı Leon) | Will |
-| **Leon** (kedi) | Ava'nin kedisi: tekir-beyaz, kamuflaj üniforma ve kask. Kullanıcının göndereceği yeni fotoğraf referans alınacak | — (miyavlar) |
+| **Leon** (kedi) | Ava'nın kedisi: tekir-beyaz, kamuflaj üniforma ve kask. Kullanıcının göndereceği yeni fotoğraf referans alınacak | — (miyavlar) |
 | Kael | 2099'u hatırlayan son yaşlı koruyucu | George |
 | The Shadow | Ashley'nin ilk, "eksik" kopyası | Callum (derin, yankılı) |
 | Sila | Gölge'nin komutanı | Lily |
@@ -27,7 +27,7 @@ Sila'nın sonu kötü görünür ama son sahnede kolyesinde küçük kırmızı 
 4. **Kael** — Yaşlı koruyucu Kael ekibi saklar; 2099'daki ölen Dünya'yı anlatır. Kale'nin altında uyuyan 22 kapsül.
 5. **The Fortress / Kale** — Kale'ye sızma, Kai kurtarılır ama hafızası silinmiştir. Sila ve kristal muhafızlar. Ryan yaratıklarla şarkı söyleyerek güvenle kaçar.
 6. **Kai's Eyes / Kai'nin Gözleri** — Kai'nin içinde Gölge'nin kodu. Ashley, Kael'in kolyesiyle Kai'nin rüyasına girer ve onu geri getirir.
-7. **The Red Warrior / Kızıl Savaşçı** — Nyra Ava'yi esir alır. Ryan'ın sırrı: Elyra'nın kendi rehberi. Ava kurtarılır; Nyra şüpheye düşer: "I'm number four."
+7. **The Red Warrior / Kızıl Savaşçı** — Nyra Ava'yı esir alır. Ryan'ın sırrı: Elyra'nın kendi rehberi. Ava kurtarılır; Nyra şüpheye düşer: "I'm number four."
 8. **Breaking Bridges / Kırılan Köprüler** — Sila kolu çeker, adalar düşmeye başlar. Kale'nin çekirdeğinde Dr. Ekin Var: Ashley "tamamlanmış", Gölge "eksik deneme".
 9. **Twenty-Three Lights / Yirmi Üç Işık** — Nyra taraf değiştirir; bütün kapsüller uyanır. Büyük savaş; Elyra'yı birlikte tutarlar.
 10. **A New World / Yeni Dünya** — Ashley Gölge'yi yok etmez, "tamamlar"; Gölge kendi adını seçer. Elyra çiçek açar, herkes eve kavuşur. Ufukta Dünya'dan sinyal; Sila'nın kolyesinde kırmızı ışık yanıp söner.

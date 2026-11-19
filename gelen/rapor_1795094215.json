@@ -1,0 +1,49 @@
+{
+ "tts": [],
+ "url": [
+  {
+   "out": "gelen/ruya/frames/lumen_flee.png",
+   "bytes": 1485935
+  },
+  {
+   "out": "gelen/ruya/frames/bell_glow.png",
+   "bytes": 1513100
+  },
+  {
+   "out": "gelen/ruya/frames/ledger_close.png",
+   "bytes": 1791161
+  },
+  {
+   "out": "gelen/ruya/frames/ledger_desk.png",
+   "bytes": 1571568
+  },
+  {
+   "out": "gelen/ruya/frames/library_doors.png",
+   "bytes": 1515385
+  },
+  {
+   "out": "gelen/ruya/frames/house_night.png",
+   "bytes": 1809195
+  },
+  {
+   "out": "gelen/ruya/frames/bedroom_mira.png",
+   "bytes": 1568386
+  },
+  {
+   "out": "gelen/ruya/frames/archive_wide.png",
+   "bytes": 1523629
+  },
+  {
+   "out": "gelen/ruya/frames/aisle.png",
+   "bytes": 1681340
+  },
+  {
+   "out": "gelen/ruya/frames/mira_archive.png",
+   "bytes": 1411360
+  },
+  {
+   "out": "gelen/ruya/frames/elias_candle.png",
+   "bytes": 1469538
+  }
+ ]
+}

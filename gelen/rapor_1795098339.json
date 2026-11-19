@@ -1,0 +1,204 @@
+{
+ "tts": [
+  {
+   "out": "gelen/ruya/b04/s01_0_NARRATOR.mp3",
+   "voice": "Brian - Deep, Resonant and Comforting",
+   "model": "eleven_v4",
+   "bytes": 71514
+  },
+  {
+   "out": "gelen/ruya/b04/s02_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 71514
+  },
+  {
+   "out": "gelen/ruya/b04/s05_0_THEO.mp3",
+   "voice": "Liam - Energetic, Social Media Creator",
+   "model": "eleven_v4",
+   "bytes": 53541
+  },
+  {
+   "out": "gelen/ruya/b04/s08_0_SHADOW.mp3",
+   "voice": "Callum - Husky Trickster",
+   "model": "eleven_v4",
+   "bytes": 48526
+  },
+  {
+   "out": "gelen/ruya/b04/s09_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 82798
+  },
+  {
+   "out": "gelen/ruya/b04/s10_0_SHADOW.mp3",
+   "voice": "Callum - Husky Trickster",
+   "model": "eleven_v4",
+   "bytes": 104950
+  },
+  {
+   "out": "gelen/ruya/b04/s11_0_THEO.mp3",
+   "voice": "Liam - Energetic, Social Media Creator",
+   "model": "eleven_v4",
+   "bytes": 53541
+  },
+  {
+   "out": "gelen/ruya/b04/s14_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 48526
+  },
+  {
+   "out": "gelen/ruya/b04/s15_0_SHADOW.mp3",
+   "voice": "Callum - Husky Trickster",
+   "model": "eleven_v4",
+   "bytes": 71514
+  },
+  {
+   "out": "gelen/ruya/b04/s17_0_THEO.mp3",
+   "voice": "Liam - Energetic, Social Media Creator",
+   "model": "eleven_v4",
+   "bytes": 54795
+  },
+  {
+   "out": "gelen/ruya/b04/s19_0_ELIAS.mp3",
+   "voice": "Bill - Wise, Mature, Balanced",
+   "model": "eleven_v4",
+   "bytes": 65244
+  },
+  {
+   "out": "gelen/ruya/b04/s20_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 97009
+  },
+  {
+   "out": "gelen/ruya/b04/s21_0_ELIAS.mp3",
+   "voice": "Bill - Wise, Mature, Balanced",
+   "model": "eleven_v4",
+   "bytes": 79037
+  },
+  {
+   "out": "gelen/ruya/b04/s23_0_ELIAS.mp3",
+   "voice": "Bill - Wise, Mature, Balanced",
+   "model": "eleven_v4",
+   "bytes": 89486
+  },
+  {
+   "out": "gelen/ruya/b04/s24_0_THEO.mp3",
+   "voice": "Liam - Energetic, Social Media Creator",
+   "model": "eleven_v4",
+   "bytes": 59811
+  },
+  {
+   "out": "gelen/ruya/b04/s26_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 91994
+  },
+  {
+   "out": "gelen/ruya/b04/s27_0_NARRATOR.mp3",
+   "voice": "Brian - Deep, Resonant and Comforting",
+   "model": "eleven_v4",
+   "bytes": 76529
+  }
+ ],
+ "url": [
+  {
+   "out": "gelen/ruya/frames/star_window.png",
+   "bytes": 6816664
+  },
+  {
+   "out": "gelen/ruya/frames/mira_evening.png",
+   "bytes": 5568227
+  },
+  {
+   "out": "gelen/ruya/frames/theo_evening.png",
+   "bytes": 6080832
+  },
+  {
+   "out": "gelen/ruya/frames/school_evening.jpg",
+   "bytes": 2770032
+  },
+  {
+   "out": "gelen/ruya/frames/greenhouse_door.jpg",
+   "bytes": 3951380
+  },
+  {
+   "out": "gelen/ruya/frames/lumen_hide.jpg",
+   "bytes": 2931616
+  },
+  {
+   "out": "gelen/ruya/frames/shadow_greenhouse.jpg",
+   "bytes": 3890010
+  },
+  {
+   "out": "gelen/ruya/frames/lumen_drawing.png",
+   "bytes": 7411517
+  },
+  {
+   "out": "gelen/ruya/frames/mira_greenhouse.jpg",
+   "bytes": 3106611
+  },
+  {
+   "out": "gelen/ruya/frames/lumen_flowers.jpg",
+   "bytes": 3800310
+  },
+  {
+   "out": "gelen/ruya/frames/theo_greenhouse.jpg",
+   "bytes": 3004108
+  },
+  {
+   "out": "gelen/ruya/frames/greenhouse.jpg",
+   "bytes": 4654946
+  },
+  {
+   "out": "gelen/ruya/frames/run_yard.jpg",
+   "bytes": 3745686
+  },
+  {
+   "out": "gelen/ruya/frames/window_ribbon.jpg",
+   "bytes": 3570191
+  },
+  {
+   "out": "gelen/ruya/frames/mira_class.jpg",
+   "bytes": 2475847
+  },
+  {
+   "out": "gelen/ruya/frames/theo_class.jpg",
+   "bytes": 2806346
+  },
+  {
+   "out": "gelen/ruya/frames/classroom.jpg",
+   "bytes": 3220258
+  },
+  {
+   "out": "gelen/ruya/frames/school_hall.jpg",
+   "bytes": 3499166
+  },
+  {
+   "out": "gelen/ruya/frames/mira_street.jpg",
+   "bytes": 2919761
+  },
+  {
+   "out": "gelen/ruya/frames/theo_bus.jpg",
+   "bytes": 2829912
+  },
+  {
+   "out": "gelen/ruya/frames/street_fish.jpg",
+   "bytes": 2972742
+  },
+  {
+   "out": "gelen/ruya/frames/kitchen_mira.jpg",
+   "bytes": 2434201
+  },
+  {
+   "out": "gelen/ruya/frames/city_morning.jpg",
+   "bytes": 3866669
+  },
+  {
+   "out": "gelen/ruya/frames/kitchen_anna.png",
+   "bytes": 1389213
+  }
+ ]
+}

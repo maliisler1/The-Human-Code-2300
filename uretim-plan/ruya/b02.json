@@ -1,42 +1,485 @@
-{"ep":2,"title":"The Keeper of Dreams","title_tr":"Rüyaların Bekçisi",
-"voices":{"NARRATOR":"Brian","MIRA":"Jessica","ELIAS":"Bill","THEO":"Liam","ANNA":"Sarah"},
-"shots":[
-{"id":"s01","frame":"house_night","lip":false,"prompt":"Night again over the small blue house, fog, the bedroom window glows, slow push-in","lines":[["NARRATOR","Night two. Six nights left to bring a runaway dream home."]]},
-{"id":"s02","frame":"bedroom_mira","lip":false,"prompt":"Mira in her bedroom ties her shoes, the brass lantern on the bed glows silver, the tiny silver bell hangs on a ribbon around her neck","lines":[]},
-{"id":"s03","frame":"window_theo","lip":false,"prompt":"A pebble taps the bedroom window; outside under the street lamp the red-haired boy in a yellow raincoat waves up nervously","lines":[["MIRA","Theo? What are you doing here?"]]},
-{"id":"s04","frame":"theo_street","lip":true,"prompt":"The red-haired boy under the street lamp at night whispers up toward the window","lines":[["THEO","You saw the singing snow too. I'm coming with you. No arguments."]]},
-{"id":"s05","frame":"street_two","lip":false,"prompt":"Mira and Theo walk together down the foggy night street, her lantern lighting the cobblestones, dream lights glowing in windows","lines":[["THEO","So… where exactly are we going?"],["MIRA","Somewhere you won't believe."]]},
-{"id":"s06","frame":"library_doors","lip":false,"prompt":"The grand old library doors open by themselves with golden light; Theo freezes, Mira pulls him inside by the sleeve","lines":[]},
-{"id":"s07","frame":"archive_wide","lip":false,"prompt":"Reveal: Theo sees the endless archive of glowing jars for the first time, his jaw drops","lines":[["THEO","Okay. Okay. I believe you."]]},
-{"id":"s08","frame":"elias_candle","lip":true,"prompt":"Elias stands among the glowing shelves holding a candle, slightly amused, looking at the two children","lines":[["ELIAS","You brought a friend. The Archive does not usually allow guests."]]},
-{"id":"s09","frame":"theo_closeup","lip":false,"prompt":"Close-up of Theo swallowing nervously, glancing at Mira","lines":[]},
-{"id":"s10","frame":"elias_candle","lip":true,"prompt":"Elias smiles kindly and gestures to the shelves","lines":[["ELIAS","But the jars are humming for him. So… welcome, young man."]]},
-{"id":"s11","frame":"walk_three","lip":false,"prompt":"Elias leads Mira and Theo down a long glowing aisle, jars brightening as they pass","lines":[["ELIAS","If you are going to help, you must know the three rules of the Archive."]]},
-{"id":"s12","frame":"elias_finger","lip":true,"prompt":"Elias raises one finger, serious and gentle, candlelight on his face","lines":[["ELIAS","Rule one. Never open a jar that is not yours."]]},
-{"id":"s13","frame":"mira_guilty","lip":false,"prompt":"Mira looks down guiltily, Theo glances at her","lines":[["MIRA","It opened by itself. I promise."]]},
-{"id":"s14","frame":"elias_candle","lip":true,"prompt":"Elias raises two fingers","lines":[["ELIAS","Rule two. A dream outside its jar grows weaker in daylight. And stranger."]]},
-{"id":"s15","frame":"theo_closeup","lip":true,"prompt":"Theo in the archive, wide-eyed","lines":[["THEO","Stranger like… singing snow?"]]},
-{"id":"s16","frame":"elias_candle","lip":true,"prompt":"Elias nods slowly, then raises three fingers","lines":[["ELIAS","Exactly like that. Rule three. Never let the Shadow catch a dream."]]},
-{"id":"s17","frame":"mira_archive","lip":false,"prompt":"Mira's face turns serious; she remembers the figure on the rooftop","lines":[["MIRA","The man in the hat. I saw him on the school roof."]]},
-{"id":"s18","frame":"jars_dim","lip":false,"prompt":"A row of jars on a far shelf slowly dims and goes dark one by one, cold blue mist creeping","lines":[]},
-{"id":"s19","frame":"elias_candle","lip":true,"prompt":"Elias looks toward the dark shelves, worried","lines":[["ELIAS","He collects lost dreams and silences them. If he catches yours, it is gone forever."]]},
-{"id":"s20","frame":"ledger_desk","lip":false,"prompt":"Elias opens a huge ancient leather ledger on a wooden desk, golden handwriting glowing on the pages","lines":[["ELIAS","Every jar is written here. Whose dream it is, and when it was dreamed."]]},
-{"id":"s21","frame":"ledger_close","lip":false,"prompt":"Close-up of an old page with glowing golden lines; one line has been torn out of the page","lines":[]},
-{"id":"s22","frame":"mira_archive","lip":false,"prompt":"Mira leans over the ledger, finger tracing the torn edge","lines":[["MIRA","Someone tore it out. The name for our jar is missing."]]},
-{"id":"s23","frame":"theo_closeup","lip":false,"prompt":"Theo looks around nervously into the dark aisles","lines":[["THEO","Please tell me the Shadow can't read."]]},
-{"id":"s24","frame":"bell_glow","lip":false,"prompt":"The tiny silver bell around Mira's neck starts to glow and ring softly by itself, silver sparkles","lines":[]},
-{"id":"s25","frame":"mira_archive","lip":false,"prompt":"Mira holds up the ringing bell, eyes wide","lines":[["MIRA","It's ringing. The dream is close!"]]},
-{"id":"s26","frame":"ribbon_aisle","lip":false,"prompt":"A thin silver ribbon of star-dust light zips across the far end of the aisle and disappears around a corner","lines":[]},
-{"id":"s27","frame":"run_aisle","lip":false,"prompt":"Mira and Theo run down the aisle after the light, lantern swinging, jars flashing as they pass","lines":[["ELIAS","Careful! Stay where the jars are bright!"]]},
-{"id":"s28","frame":"stairs_dark","lip":false,"prompt":"They reach a dark old staircase leading down; silver light glitters at the bottom, cold mist","lines":[]},
-{"id":"s29","frame":"lumen_hover","lip":false,"prompt":"At the bottom of the stairs the silver ribbon of light hovers in the air, curling softly like a shy animal","lines":[["MIRA","Hey… it's okay. I'm not going to hurt you."]]},
-{"id":"s30","frame":"mira_reach","lip":false,"prompt":"Mira slowly reaches out her hand; the light drifts closer and gently touches her fingertips, sparkles","lines":[]},
-{"id":"s31","frame":"memory_flash","lip":false,"prompt":"Dreamlike flash: a warm blurry memory of a man's hands holding a small child's hands under a starry sky, golden haze","lines":[]},
-{"id":"s32","frame":"mira_archive","lip":false,"prompt":"Mira gasps softly, tears in her eyes, confused","lines":[["MIRA","I… I know this. I've seen this before."]]},
-{"id":"s33","frame":"shadow_stairs","lip":false,"prompt":"At the top of the staircase a tall shadow in a wide-brimmed hat appears, blocking the light, the jars beside it go dark","lines":[]},
-{"id":"s34","frame":"theo_closeup","lip":false,"prompt":"Theo grabs Mira's arm, terrified","lines":[["THEO","Mira. Behind us."]]},
-{"id":"s35","frame":"lumen_flee","lip":false,"prompt":"The silver light startles and flies away through a crack in the stone wall, vanishing","lines":[]},
-{"id":"s36","frame":"elias_candle","lip":true,"prompt":"Elias rushes in holding the candle high, its flame flaring bright gold","lines":[["ELIAS","Away from them! The children are under my protection!"]]},
-{"id":"s37","frame":"shadow_fade","lip":false,"prompt":"In the golden candlelight the shadow figure slowly dissolves into smoke and disappears","lines":[]},
-{"id":"s38","frame":"mira_archive","lip":false,"prompt":"Mira stares at the crack in the wall, determined, holding the glowing bell","lines":[["NARRATOR","Five nights left. And Mira was beginning to remember."]]}
-]}
+{
+ "ep": 2,
+ "title": "The Keeper of Dreams",
+ "title_tr": "Rüyaların Bekçisi",
+ "voices": {
+  "NARRATOR": "Brian",
+  "MIRA": "Jessica",
+  "ELIAS": "Bill",
+  "THEO": "Liam",
+  "ANNA": "Sarah"
+ },
+ "shots": [
+  {
+   "id": "s01",
+   "frame": "house_night",
+   "lip": false,
+   "prompt": "Night again over the small blue house, fog, the bedroom window glows, slow push-in",
+   "lines": [
+    [
+     "NARRATOR",
+     "Night two. Six nights left to bring a runaway dream home."
+    ]
+   ]
+  },
+  {
+   "id": "s02",
+   "frame": "bedroom_mira",
+   "lip": false,
+   "prompt": "Mira in her bedroom ties her shoes, the brass lantern on the bed glows silver, the tiny silver bell hangs on a ribbon around her neck",
+   "lines": []
+  },
+  {
+   "id": "x01",
+   "lip": false,
+   "frame": "bedroom_mira",
+   "prompt": "Mira sits up in bed at night, pulls on her navy coat and picks up the glowing lantern",
+   "lines": [
+    [
+     "NARRATOR",
+     "The lantern was glowing again. It wanted her to come back."
+    ]
+   ]
+  },
+  {
+   "id": "s03",
+   "frame": "window_theo",
+   "lip": false,
+   "prompt": "A pebble taps the bedroom window; outside under the street lamp the red-haired boy in a yellow raincoat waves up nervously",
+   "lines": [
+    [
+     "MIRA",
+     "Theo? What are you doing here?"
+    ]
+   ]
+  },
+  {
+   "id": "s04",
+   "frame": "theo_street",
+   "lip": true,
+   "prompt": "The red-haired boy under the street lamp at night whispers up toward the window",
+   "lines": [
+    [
+     "THEO",
+     "You saw the singing snow too. I'm coming with you. No arguments."
+    ]
+   ]
+  },
+  {
+   "id": "x02",
+   "lip": false,
+   "frame": "theo_street",
+   "prompt": "Theo jogs down the foggy street in his yellow raincoat, looking over his shoulder",
+   "lines": []
+  },
+  {
+   "id": "s05",
+   "frame": "street_two",
+   "lip": false,
+   "prompt": "Mira and Theo walk together down the foggy night street, her lantern lighting the cobblestones, dream lights glowing in windows",
+   "lines": [
+    [
+     "THEO",
+     "So… where exactly are we going?"
+    ],
+    [
+     "MIRA",
+     "Somewhere you won't believe."
+    ]
+   ]
+  },
+  {
+   "id": "s06",
+   "frame": "library_doors",
+   "lip": false,
+   "prompt": "The grand old library doors open by themselves with golden light; Theo freezes, Mira pulls him inside by the sleeve",
+   "lines": []
+  },
+  {
+   "id": "x03",
+   "lip": false,
+   "frame": "run_aisle",
+   "prompt": "Mira and Theo run through the doors into a long aisle of glowing jars, lantern swinging",
+   "lines": []
+  },
+  {
+   "id": "s07",
+   "frame": "archive_wide",
+   "lip": false,
+   "prompt": "Reveal: Theo sees the endless archive of glowing jars for the first time, his jaw drops",
+   "lines": [
+    [
+     "THEO",
+     "Okay. Okay. I believe you."
+    ]
+   ]
+  },
+  {
+   "id": "s08",
+   "frame": "elias_candle",
+   "lip": true,
+   "prompt": "Elias stands among the glowing shelves holding a candle, slightly amused, looking at the two children",
+   "lines": [
+    [
+     "ELIAS",
+     "You brought a friend. The Archive does not usually allow guests."
+    ]
+   ]
+  },
+  {
+   "id": "s09",
+   "frame": "theo_closeup",
+   "lip": false,
+   "prompt": "Close-up of Theo swallowing nervously, glancing at Mira",
+   "lines": []
+  },
+  {
+   "id": "x04",
+   "lip": false,
+   "frame": "theo_closeup",
+   "prompt": "Theo turns slowly, staring up at the endless shelves, mouth open in wonder",
+   "lines": [
+    [
+     "NARRATOR",
+     "Theo had never believed in magic. Until tonight."
+    ]
+   ]
+  },
+  {
+   "id": "s10",
+   "frame": "elias_candle",
+   "lip": true,
+   "prompt": "Elias smiles kindly and gestures to the shelves",
+   "lines": [
+    [
+     "ELIAS",
+     "But the jars are humming for him. So… welcome, young man."
+    ]
+   ]
+  },
+  {
+   "id": "s11",
+   "frame": "walk_three",
+   "lip": false,
+   "prompt": "Elias leads Mira and Theo down a long glowing aisle, jars brightening as they pass",
+   "lines": [
+    [
+     "ELIAS",
+     "If you are going to help, you must know the three rules of the Archive."
+    ]
+   ]
+  },
+  {
+   "id": "s12",
+   "frame": "elias_finger",
+   "lip": true,
+   "prompt": "Elias raises one finger, serious and gentle, candlelight on his face",
+   "lines": [
+    [
+     "ELIAS",
+     "Rule one. Never open a jar that is not yours."
+    ]
+   ]
+  },
+  {
+   "id": "s13",
+   "frame": "mira_guilty",
+   "lip": false,
+   "prompt": "Mira looks down guiltily, Theo glances at her",
+   "lines": [
+    [
+     "MIRA",
+     "It opened by itself. I promise."
+    ]
+   ]
+  },
+  {
+   "id": "s14",
+   "frame": "elias_candle",
+   "lip": true,
+   "prompt": "Elias raises two fingers",
+   "lines": [
+    [
+     "ELIAS",
+     "Rule two. A dream outside its jar grows weaker in daylight. And stranger."
+    ]
+   ]
+  },
+  {
+   "id": "x05",
+   "lip": false,
+   "frame": "elias_candle",
+   "prompt": "Elias walks between the shelves with his candle, robe swaying, beckoning them to follow",
+   "lines": []
+  },
+  {
+   "id": "s15",
+   "frame": "theo_closeup",
+   "lip": true,
+   "prompt": "Theo in the archive, wide-eyed",
+   "lines": [
+    [
+     "THEO",
+     "Stranger like… singing snow?"
+    ]
+   ]
+  },
+  {
+   "id": "s16",
+   "frame": "elias_candle",
+   "lip": true,
+   "prompt": "Elias nods slowly, then raises three fingers",
+   "lines": [
+    [
+     "ELIAS",
+     "Exactly like that. Rule three. Never let the Shadow catch a dream."
+    ]
+   ]
+  },
+  {
+   "id": "s17",
+   "frame": "mira_archive",
+   "lip": false,
+   "prompt": "Mira's face turns serious; she remembers the figure on the rooftop",
+   "lines": [
+    [
+     "MIRA",
+     "The man in the hat. I saw him on the school roof."
+    ]
+   ]
+  },
+  {
+   "id": "s18",
+   "frame": "jars_dim",
+   "lip": false,
+   "prompt": "A row of jars on a far shelf slowly dims and goes dark one by one, cold blue mist creeping",
+   "lines": []
+  },
+  {
+   "id": "s19",
+   "frame": "elias_candle",
+   "lip": true,
+   "prompt": "Elias looks toward the dark shelves, worried",
+   "lines": [
+    [
+     "ELIAS",
+     "He collects lost dreams and silences them. If he catches yours, it is gone forever."
+    ]
+   ]
+  },
+  {
+   "id": "x06",
+   "lip": false,
+   "frame": "mira_archive",
+   "prompt": "Mira walks along the shelves, gently touching the warm glowing jars",
+   "lines": [
+    [
+     "NARRATOR",
+     "Every jar was a night someone had lived. Every light, a dream."
+    ]
+   ]
+  },
+  {
+   "id": "s20",
+   "frame": "ledger_desk",
+   "lip": false,
+   "prompt": "Elias opens a huge ancient leather ledger on a wooden desk, golden handwriting glowing on the pages",
+   "lines": [
+    [
+     "ELIAS",
+     "Every jar is written here. Whose dream it is, and when it was dreamed."
+    ]
+   ]
+  },
+  {
+   "id": "s21",
+   "frame": "ledger_close",
+   "lip": false,
+   "prompt": "Close-up of an old page with glowing golden lines; one line has been torn out of the page",
+   "lines": []
+  },
+  {
+   "id": "s22",
+   "frame": "mira_archive",
+   "lip": false,
+   "prompt": "Mira leans over the ledger, finger tracing the torn edge",
+   "lines": [
+    [
+     "MIRA",
+     "Someone tore it out. The name for our jar is missing."
+    ]
+   ]
+  },
+  {
+   "id": "s23",
+   "frame": "theo_closeup",
+   "lip": false,
+   "prompt": "Theo looks around nervously into the dark aisles",
+   "lines": [
+    [
+     "THEO",
+     "Please tell me the Shadow can't read."
+    ]
+   ]
+  },
+  {
+   "id": "s24",
+   "frame": "bell_glow",
+   "lip": false,
+   "prompt": "The tiny silver bell around Mira's neck starts to glow and ring softly by itself, silver sparkles",
+   "lines": []
+  },
+  {
+   "id": "s25",
+   "frame": "mira_archive",
+   "lip": false,
+   "prompt": "Mira holds up the ringing bell, eyes wide",
+   "lines": [
+    [
+     "MIRA",
+     "It's ringing. The dream is close!"
+    ]
+   ]
+  },
+  {
+   "id": "s26",
+   "frame": "ribbon_aisle",
+   "lip": false,
+   "prompt": "A thin silver ribbon of star-dust light zips across the far end of the aisle and disappears around a corner",
+   "lines": []
+  },
+  {
+   "id": "s27",
+   "frame": "run_aisle",
+   "lip": false,
+   "prompt": "Mira and Theo run down the aisle after the light, lantern swinging, jars flashing as they pass",
+   "lines": [
+    [
+     "ELIAS",
+     "Careful! Stay where the jars are bright!"
+    ]
+   ]
+  },
+  {
+   "id": "x07",
+   "lip": false,
+   "frame": "walk_three",
+   "prompt": "Mira and Theo hurry side by side through the archive, whispering and pointing",
+   "lines": []
+  },
+  {
+   "id": "s28",
+   "frame": "stairs_dark",
+   "lip": false,
+   "prompt": "They reach a dark old staircase leading down; silver light glitters at the bottom, cold mist",
+   "lines": []
+  },
+  {
+   "id": "s29",
+   "frame": "lumen_hover",
+   "lip": false,
+   "prompt": "At the bottom of the stairs the silver ribbon of light hovers in the air, curling softly like a shy animal",
+   "lines": [
+    [
+     "MIRA",
+     "Hey… it's okay. I'm not going to hurt you."
+    ]
+   ]
+  },
+  {
+   "id": "s30",
+   "frame": "mira_reach",
+   "lip": false,
+   "prompt": "Mira slowly reaches out her hand; the light drifts closer and gently touches her fingertips, sparkles",
+   "lines": []
+  },
+  {
+   "id": "s31",
+   "frame": "memory_flash",
+   "lip": false,
+   "prompt": "Dreamlike flash: a warm blurry memory of a man's hands holding a small child's hands under a starry sky, golden haze",
+   "lines": []
+  },
+  {
+   "id": "s32",
+   "frame": "mira_archive",
+   "lip": false,
+   "prompt": "Mira gasps softly, tears in her eyes, confused",
+   "lines": [
+    [
+     "MIRA",
+     "I… I know this. I've seen this before."
+    ]
+   ]
+  },
+  {
+   "id": "s33",
+   "frame": "shadow_stairs",
+   "lip": false,
+   "prompt": "At the top of the staircase a tall shadow in a wide-brimmed hat appears, blocking the light, the jars beside it go dark",
+   "lines": []
+  },
+  {
+   "id": "s34",
+   "frame": "theo_closeup",
+   "lip": false,
+   "prompt": "Theo grabs Mira's arm, terrified",
+   "lines": [
+    [
+     "THEO",
+     "Mira. Behind us."
+    ]
+   ]
+  },
+  {
+   "id": "x08",
+   "lip": false,
+   "frame": "theo_closeup",
+   "prompt": "Theo grabs Mira's hand and pulls her back from the dark stairs, breathing fast",
+   "lines": [
+    [
+     "NARRATOR",
+     "Some doors in the archive were closed for a reason."
+    ]
+   ]
+  },
+  {
+   "id": "s35",
+   "frame": "lumen_flee",
+   "lip": false,
+   "prompt": "The silver light startles and flies away through a crack in the stone wall, vanishing",
+   "lines": []
+  },
+  {
+   "id": "s36",
+   "frame": "elias_candle",
+   "lip": true,
+   "prompt": "Elias rushes in holding the candle high, its flame flaring bright gold",
+   "lines": [
+    [
+     "ELIAS",
+     "Away from them! The children are under my protection!"
+    ]
+   ]
+  },
+  {
+   "id": "s37",
+   "frame": "shadow_fade",
+   "lip": false,
+   "prompt": "In the golden candlelight the shadow figure slowly dissolves into smoke and disappears",
+   "lines": []
+  },
+  {
+   "id": "s38",
+   "frame": "mira_archive",
+   "lip": false,
+   "prompt": "Mira stares at the crack in the wall, determined, holding the glowing bell",
+   "lines": [
+    [
+     "NARRATOR",
+     "Five nights left. And Mira was beginning to remember."
+    ]
+   ]
+  }
+ ]
+}

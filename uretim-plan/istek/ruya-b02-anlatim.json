@@ -1,0 +1,48 @@
+{
+ "tts": [
+  {
+   "out": "gelen/ruya/b02/x01_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "The lantern was glowing again. It wanted her to come back.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b02/x04_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Theo had never believed in magic. Until tonight.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b02/x06_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Every jar was a night someone had lived. Every light, a dream.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  },
+  {
+   "out": "gelen/ruya/b02/x08_0_NARRATOR.mp3",
+   "voice": "Brian",
+   "lang": "en",
+   "text": "Some doors in the archive were closed for a reason.",
+   "vs": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.3
+   }
+  }
+ ]
+}

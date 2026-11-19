@@ -1,0 +1,353 @@
+{
+ "tts": [
+  {
+   "out": "gelen/ruya/b07/s01_0_NARRATOR.mp3",
+   "voice": "Brian - Deep, Resonant and Comforting",
+   "model": "eleven_v4",
+   "bytes": 93247
+  },
+  {
+   "out": "gelen/ruya/b07/s03_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 69006
+  },
+  {
+   "out": "gelen/ruya/b07/s04_0_THEO.mp3",
+   "voice": "Liam - Energetic, Social Media Creator",
+   "model": "eleven_v4",
+   "bytes": 89486
+  },
+  {
+   "out": "gelen/ruya/b07/s06_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 61065
+  },
+  {
+   "out": "gelen/ruya/b07/s08_0_THEO.mp3",
+   "voice": "Liam - Energetic, Social Media Creator",
+   "model": "eleven_v4",
+   "bytes": 58557
+  },
+  {
+   "out": "gelen/ruya/b07/s10_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 65244
+  },
+  {
+   "out": "gelen/ruya/b07/s12_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 65244
+  },
+  {
+   "out": "gelen/ruya/b07/s13_0_ELIAS.mp3",
+   "voice": "Bill - Wise, Mature, Balanced",
+   "model": "eleven_v4",
+   "bytes": 85724
+  },
+  {
+   "out": "gelen/ruya/b07/s14_0_ELIAS.mp3",
+   "voice": "Bill - Wise, Mature, Balanced",
+   "model": "eleven_v4",
+   "bytes": 86978
+  },
+  {
+   "out": "gelen/ruya/b07/s16_0_THEO.mp3",
+   "voice": "Liam - Energetic, Social Media Creator",
+   "model": "eleven_v4",
+   "bytes": 59811
+  },
+  {
+   "out": "gelen/ruya/b07/s17_0_ELIAS.mp3",
+   "voice": "Bill - Wise, Mature, Balanced",
+   "model": "eleven_v4",
+   "bytes": 71514
+  },
+  {
+   "out": "gelen/ruya/b07/s18_0_NARRATOR.mp3",
+   "voice": "Brian - Deep, Resonant and Comforting",
+   "model": "eleven_v4",
+   "bytes": 57303
+  },
+  {
+   "out": "gelen/ruya/b07/s19_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 61065
+  },
+  {
+   "out": "gelen/ruya/b07/s21_0_THEO.mp3",
+   "voice": "Liam - Energetic, Social Media Creator",
+   "model": "eleven_v4",
+   "bytes": 66498
+  },
+  {
+   "out": "gelen/ruya/b07/s22_0_NARRATOR.mp3",
+   "voice": "Brian - Deep, Resonant and Comforting",
+   "model": "eleven_v4",
+   "bytes": 51034
+  },
+  {
+   "out": "gelen/ruya/b08/s01_0_NARRATOR.mp3",
+   "voice": "Brian - Deep, Resonant and Comforting",
+   "model": "eleven_v4",
+   "bytes": 88232
+  },
+  {
+   "out": "gelen/ruya/b08/s03_0_ELIAS.mp3",
+   "voice": "Bill - Wise, Mature, Balanced",
+   "model": "eleven_v4",
+   "bytes": 77783
+  },
+  {
+   "out": "gelen/ruya/b08/s04_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 61065
+  },
+  {
+   "out": "gelen/ruya/b08/s06_0_SHADOW.mp3",
+   "voice": "Callum - Husky Trickster",
+   "model": "eleven_v4",
+   "bytes": 81545
+  },
+  {
+   "out": "gelen/ruya/b08/s07_0_THEO.mp3",
+   "voice": "Liam - Energetic, Social Media Creator",
+   "model": "eleven_v4",
+   "bytes": 51034
+  },
+  {
+   "out": "gelen/ruya/b08/s08_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 74021
+  },
+  {
+   "out": "gelen/ruya/b08/s10_0_SHADOW.mp3",
+   "voice": "Callum - Husky Trickster",
+   "model": "eleven_v4",
+   "bytes": 70260
+  },
+  {
+   "out": "gelen/ruya/b08/s11_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 39331
+  },
+  {
+   "out": "gelen/ruya/b08/s13_0_ELIAS.mp3",
+   "voice": "Bill - Wise, Mature, Balanced",
+   "model": "eleven_v4",
+   "bytes": 63990
+  },
+  {
+   "out": "gelen/ruya/b08/s14_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 59811
+  },
+  {
+   "out": "gelen/ruya/b08/s17_0_THEO.mp3",
+   "voice": "Liam - Energetic, Social Media Creator",
+   "model": "eleven_v4",
+   "bytes": 41838
+  },
+  {
+   "out": "gelen/ruya/b08/s18_0_SHADOW.mp3",
+   "voice": "Callum - Husky Trickster",
+   "model": "eleven_v4",
+   "bytes": 84470
+  },
+  {
+   "out": "gelen/ruya/b08/s19_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 54795
+  },
+  {
+   "out": "gelen/ruya/b08/s20_0_ELIAS.mp3",
+   "voice": "Bill - Wise, Mature, Balanced",
+   "model": "eleven_v4",
+   "bytes": 81545
+  },
+  {
+   "out": "gelen/ruya/b08/s21_0_NARRATOR.mp3",
+   "voice": "Brian - Deep, Resonant and Comforting",
+   "model": "eleven_v4",
+   "bytes": 76529
+  },
+  {
+   "out": "gelen/ruya/b09/s01_0_NARRATOR.mp3",
+   "voice": "Brian - Deep, Resonant and Comforting",
+   "model": "eleven_v4",
+   "bytes": 61065
+  },
+  {
+   "out": "gelen/ruya/b09/s03_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 57303
+  },
+  {
+   "out": "gelen/ruya/b09/s05_0_NARRATOR.mp3",
+   "voice": "Brian - Deep, Resonant and Comforting",
+   "model": "eleven_v4",
+   "bytes": 63990
+  },
+  {
+   "out": "gelen/ruya/b09/s06_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 88232
+  },
+  {
+   "out": "gelen/ruya/b09/s08_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 82798
+  },
+  {
+   "out": "gelen/ruya/b09/s10_0_ANNA.mp3",
+   "voice": "Sarah - Mature, Reassuring, Confident",
+   "model": "eleven_v4",
+   "bytes": 65244
+  },
+  {
+   "out": "gelen/ruya/b09/s11_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 75275
+  },
+  {
+   "out": "gelen/ruya/b09/s12_0_ANNA.mp3",
+   "voice": "Sarah - Mature, Reassuring, Confident",
+   "model": "eleven_v4",
+   "bytes": 82798
+  },
+  {
+   "out": "gelen/ruya/b09/s14_0_THEO.mp3",
+   "voice": "Liam - Energetic, Social Media Creator",
+   "model": "eleven_v4",
+   "bytes": 69006
+  },
+  {
+   "out": "gelen/ruya/b09/s16_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 69006
+  },
+  {
+   "out": "gelen/ruya/b09/s18_0_ELIAS.mp3",
+   "voice": "Bill - Wise, Mature, Balanced",
+   "model": "eleven_v4",
+   "bytes": 80291
+  },
+  {
+   "out": "gelen/ruya/b09/s19_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 74021
+  },
+  {
+   "out": "gelen/ruya/b09/s20_0_NARRATOR.mp3",
+   "voice": "Brian - Deep, Resonant and Comforting",
+   "model": "eleven_v4",
+   "bytes": 33061
+  },
+  {
+   "out": "gelen/ruya/b10/s01_0_NARRATOR.mp3",
+   "voice": "Brian - Deep, Resonant and Comforting",
+   "model": "eleven_v4",
+   "bytes": 75275
+  },
+  {
+   "out": "gelen/ruya/b10/s03_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 72767
+  },
+  {
+   "out": "gelen/ruya/b10/s05_0_SHADOW.mp3",
+   "voice": "Callum - Husky Trickster",
+   "model": "eleven_v4",
+   "bytes": 69006
+  },
+  {
+   "out": "gelen/ruya/b10/s06_0_THEO.mp3",
+   "voice": "Liam - Energetic, Social Media Creator",
+   "model": "eleven_v4",
+   "bytes": 63990
+  },
+  {
+   "out": "gelen/ruya/b10/s07_0_ELIAS.mp3",
+   "voice": "Bill - Wise, Mature, Balanced",
+   "model": "eleven_v4",
+   "bytes": 57303
+  },
+  {
+   "out": "gelen/ruya/b10/s09_0_SHADOW.mp3",
+   "voice": "Callum - Husky Trickster",
+   "model": "eleven_v4",
+   "bytes": 106204
+  },
+  {
+   "out": "gelen/ruya/b10/s10_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 77783
+  },
+  {
+   "out": "gelen/ruya/b10/s12_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 66498
+  },
+  {
+   "out": "gelen/ruya/b10/s14_0_NARRATOR.mp3",
+   "voice": "Brian - Deep, Resonant and Comforting",
+   "model": "eleven_v4",
+   "bytes": 81545
+  },
+  {
+   "out": "gelen/ruya/b10/s15_0_ELIAS.mp3",
+   "voice": "Bill - Wise, Mature, Balanced",
+   "model": "eleven_v4",
+   "bytes": 54795
+  },
+  {
+   "out": "gelen/ruya/b10/s17_0_THEO.mp3",
+   "voice": "Liam - Energetic, Social Media Creator",
+   "model": "eleven_v4",
+   "bytes": 65244
+  },
+  {
+   "out": "gelen/ruya/b10/s18_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 61065
+  },
+  {
+   "out": "gelen/ruya/b10/s20_0_ANNA.mp3",
+   "voice": "Sarah - Mature, Reassuring, Confident",
+   "model": "eleven_v4",
+   "bytes": 46018
+  },
+  {
+   "out": "gelen/ruya/b10/s21_0_MIRA.mp3",
+   "voice": "Jessica - Playful, Bright, Warm",
+   "model": "eleven_v4",
+   "bytes": 76529
+  },
+  {
+   "out": "gelen/ruya/b10/s22_0_NARRATOR.mp3",
+   "voice": "Brian - Deep, Resonant and Comforting",
+   "model": "eleven_v4",
+   "bytes": 58557
+  }
+ ],
+ "url": []
+}

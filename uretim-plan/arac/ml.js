@@ -80,7 +80,7 @@ window.one=async()=>{ const A=JSON.parse(localStorage.getItem('lipq')); let i=+l
  if(!await ensureRef()) return 'MODEL'; const r=await lipGen(img,RAW+'lip/'+a+'.mp3',p,s,a); if(r.includes('sent')){ i++; localStorage.setItem('lipi',String(i)); } return r+' | next '+i+'/'+A.length;};
 window.lipBatch=async(n)=>{ const o=[]; for(let k=0;k<n;k++){ const r=await one(); o.push(r); if(!r.includes('sent')) break;} return o.join(' | ');};
 window.oneF=async()=>{ const A=JSON.parse(localStorage.getItem('frq')); let i=+localStorage.getItem('fri'); if(i>=A.length) return 'ALLDONE'; const [n,img,p]=A[i];
- if(!await setupFrame()) return 'MODEL'; const r=await frameGen(img,p,n); if(r.includes('sent')){ i++; localStorage.setItem('fri',String(i)); } return r+' | next '+i+'/'+A.length;};
+ if(!await setupFrame()) return 'MODEL'; const r=(await frameGen(img,p,n)).replace('NOSTART','sent?'); if(r.includes('sent')){ i++; localStorage.setItem('fri',String(i)); } return r+' | next '+i+'/'+A.length;};
 window.frBatch=async(n)=>{ const o=[]; for(let k=0;k<n;k++){ const r=await oneF(); o.push(r); if(!r.includes('sent')) break;} return o.join(' | ');};
 window.qAdd=async(key,files,isLip)=>{ let A=JSON.parse(localStorage.getItem(key)||'[]'); for(const f of files){ let L=await (await fetch(RAW+f+'?'+Date.now())).json(); L=isLip?L.map(([a,i,p,s])=>[a,i.replace('GF:',GF),p,s]):L.map(([n,f2,p])=>[n,GF+f2,p]); A=A.concat(L);} localStorage.setItem(key,JSON.stringify(A)); return A.length;};
 'ml.js loaded6';

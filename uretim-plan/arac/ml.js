@@ -61,3 +61,16 @@ window.runImgs=async(L,logName)=>{ window[logName]=[]; for(const [k,p,r] of L){ 
 'ml.js loaded4';
 
 window.outInfo=()=>document.body.innerText.split('Output')[1]?.slice(0,20).replace(/\n/g,' ');
+window.CUR_AUD_DUR=null;
+if(!window.__hooked){ window.__hooked=true; const oo=XMLHttpRequest.prototype.open, os=XMLHttpRequest.prototype.send;
+ XMLHttpRequest.prototype.open=function(m,u){ this._u=u; return oo.apply(this,arguments);};
+ XMLHttpRequest.prototype.send=function(b){ try{ if(String(this._u).includes('animated-image/create')&&b){ const j=JSON.parse(b); if(j.referenceAudioUrls&&j.referenceAudioUrls.length){ j.referenceAudioUrls=[j.referenceAudioUrls[j.referenceAudioUrls.length-1]]; j.referenceAudioAssets=[{url:j.referenceAudioUrls[0],duration:window.CUR_AUD_DUR||j.duration-0.5}]; } window.LASTBODY=j; b=JSON.stringify(j);} }catch(e){}
+  this.addEventListener('load',()=>{ if(String(this._u).includes('animated-image/create')) window.LASTRESP=this.responseText;}); return os.call(this,b);};}
+window.audDur=b=>new Promise(r=>{ const a=new Audio(URL.createObjectURL(b)); a.onloadedmetadata=()=>r(a.duration); a.onerror=()=>r(null);});
+window.lipGen=async(imgUrl,audUrl,prompt,sec,name)=>{ await clearRefs(); if(vchips()) return name+' CANTCLEAR'; await setDur(sec);
+ const ib=await shrink(await (await fetch(imgUrl)).blob()); const ab=await (await fetch(audUrl)).blob(); window.CUR_AUD_DUR=await audDur(ab);
+ const n=await addFiles([new File([ib],name+Date.now()+'.jpg',{type:'image/jpeg'}),new File([ab],name+Date.now()+'.mp3',{type:'audio/mpeg'})]);
+ if(n!=2){ await clearRefs(); return name+' REFS '+n;} setTA(prompt+TAIL); await sleep(500);
+ if(!document.body.innerText.includes('Wan 3.0')) return 'MODEL?'; window.LASTRESP=null; vbtn('Create Video').click(); for(let i=0;i<15&&!window.LASTRESP;i++) await sleep(1000);
+ const ok=window.LASTRESP&&window.LASTRESP.includes('"code":200'); return name+(ok?' sent':' FAIL '+String(window.LASTRESP).slice(0,80));};
+'ml.js loaded5';

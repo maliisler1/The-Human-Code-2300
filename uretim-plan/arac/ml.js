@@ -84,3 +84,11 @@ window.oneF=async()=>{ const A=JSON.parse(localStorage.getItem('frq')); let i=+l
 window.frBatch=async(n)=>{ const o=[]; for(let k=0;k<n;k++){ const r=await oneF(); o.push(r); if(!r.includes('sent')) break;} return o.join(' | ');};
 window.qAdd=async(key,files,isLip)=>{ let A=JSON.parse(localStorage.getItem(key)||'[]'); for(const f of files){ let L=await (await fetch(RAW+f+'?'+Date.now())).json(); L=isLip?L.map(([a,i,p,s])=>[a,i.replace('GF:',GF),p,s]):L.map(([n,f2,p])=>[n,GF+f2,p]); A=A.concat(L);} localStorage.setItem(key,JSON.stringify(A)); return A.length;};
 'ml.js loaded6';
+window.scanAll=async(files,max=90)=>{ const known=[]; for(const f of files){ const L=await (await fetch(RAW+f+'?'+Date.now())).json(); for(const x of L){ if(x.length==4) known.push([x[0],x[2]]); else known.push([x[0],x[2]]);} }
+ [...document.querySelectorAll('[role=tab]')].find(t=>t.textContent.trim()=='Video').click(); await sleep(1500); [...document.querySelectorAll('[role=tab]')].find(t=>t.textContent.trim()=='Creation')?.click(); await sleep(2500);
+ const Lst=document.querySelector('.image-to-video-content-right-list'); let sc=Lst; while(sc&&sc.scrollHeight<=sc.clientHeight) sc=sc.parentElement; for(let i=0;i<6;i++){ if(sc) sc.scrollTop=sc.scrollHeight; await sleep(1500);}
+ const f=[...document.querySelectorAll('.itv-card-footer')].slice(0,max); const res={}; let gen=0;
+ for(const x of f){ x.dispatchEvent(new MouseEvent('click',{bubbles:true})); await sleep(350); const tv=vta()?.value||''; const m=known.find(([n,p])=>tv.startsWith(p.slice(0,40))); const v=x.closest('.itv-card').querySelector('video'); if(!v){gen++; continue;} if(m&&!res[m[0]]&&(v.videoWidth==0||v.videoWidth>v.videoHeight)) res[m[0]]=(v.src||v.querySelector('source')?.src);}
+ const out=Object.entries(res).map(([k,u])=>k+'='+u.replace('https://cdn.brmgo.cn/image-to-video-files-prod-intl/','A').replace('https://i2v.magiclight.ai/tests/','T').replace(/^([AT])(\d+)\/\2_/,'$1$2_'));
+ localStorage.setItem('scanout',JSON.stringify(out)); return out.length+' found, gen '+gen+' miss '+known.map(k=>k[0]).filter(n=>!res[n]).join(',');};
+'ml.js loaded7';

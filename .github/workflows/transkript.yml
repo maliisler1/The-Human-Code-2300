@@ -25,8 +25,7 @@ jobs:
                   if os.path.exists(out): continue
                   parts=sorted(glob.glob(src+'.part*'))
                   subprocess.run('cat '+' '.join(parts)+' > /tmp/v.mp4',shell=True,check=True)
-                  subprocess.run(['ffmpeg','-y','-v','error','-i','/tmp/v.mp4','-ac','1','-ar','16000','/tmp/a.wav'],check=True)
-                  segs,_=m.transcribe('/tmp/a.wav',word_timestamps=False,vad_filter=True)
+                  segs,_=m.transcribe('/tmp/v.mp4',word_timestamps=False,vad_filter=True)
                   r=[{'s':round(s.start,2),'e':round(s.end,2),'t':s.text.strip()} for s in segs]
                   os.makedirs(os.path.dirname(out),exist_ok=True)
                   json.dump(r,open(out,'w'),ensure_ascii=False,indent=0)

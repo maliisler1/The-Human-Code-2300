@@ -108,3 +108,37 @@ export function useCharacters() {
   const { data } = useQuery(animationCatalogQuery);
   return splitCharacters(data ?? UPCOMING_CHARACTERS);
 }
+
+/**
+ * "Önümüzdeki ay" köşesi: yalnızca fragmanı gösterilen diziler. Liste depodaki katalogdan
+ * okunur; fragman ve afiş dosyaları web sitesinde durur (trailers/<key>_720.mp4, <key>_poster.jpg).
+ * Böylece yeni fragman eklemek için uygulamayı güncellemek gerekmez.
+ */
+export type NextMonthSeries = { key: string; title: string; titleEn: string };
+
+export function parseNextMonth(json: unknown): NextMonthSeries[] | null {
+  const list = (json as { nextMonth?: unknown } | null)?.nextMonth;
+  if (!Array.isArray(list)) return null;
+  const out: NextMonthSeries[] = [];
+  for (const raw of list) {
+    const s = raw as Partial<NextMonthSeries>;
+    if (typeof s.key !== "string" || !/^[a-z0-9-]{1,40}$/.test(s.key)) return null;
+    if (typeof s.title !== "string" || !s.title) return null;
+    out.push({ key: s.key, title: s.title, titleEn: typeof s.titleEn === "string" && s.titleEn ? s.titleEn : s.title });
+  }
+  return out;
+}
+
+export const BUNDLED_NEXT_MONTH: NextMonthSeries[] = parseNextMonth(bundledCatalog) ?? [];
+
+export const nextMonthQuery = queryOptions({
+  queryKey: ["animations", "next-month"],
+  queryFn: async (): Promise<NextMonthSeries[]> => parseNextMonth(await downloadCatalog()) ?? BUNDLED_NEXT_MONTH,
+  staleTime: 30 * 60_000,
+  retry: 1,
+});
+
+/** Köşede gösterilecek diziler: depodaki liste, yoksa uygulamayla gelen liste. */
+export function useNextMonth(): NextMonthSeries[] {
+  return useQuery(nextMonthQuery).data ?? BUNDLED_NEXT_MONTH;
+}

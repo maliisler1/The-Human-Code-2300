@@ -1,8 +1,9 @@
 import { Capacitor } from '@capacitor/core';
 import {
   AdMob, AdmobConsentStatus, BannerAdPosition, BannerAdSize,
-  BannerAdPluginEvents, InterstitialAdPluginEvents, RewardAdPluginEvents,
+  BannerAdPluginEvents, InterstitialAdPluginEvents, MaxAdContentRating, RewardAdPluginEvents,
 } from '@capacitor-community/admob';
+import { getAgeGroup, type AgeGroup } from './age';
 
 export const AD_UNITS = {
   banner: 'ca-app-pub-9404448916585248/5845370885',
@@ -22,6 +23,9 @@ export function createAdsController(
   native = () => Capacitor.getPlatform() === 'android',
   now = () => Date.now(),
   testing = import.meta.env.VITE_ADMOB_TEST === 'true' || import.meta.env.DEV,
+  // Yaş ekranının sonucu. "unknown": henüz sorulmadı, reklam başlatılmaz.
+  // "child": yalnızca çocuklara uygun, kişiselleştirilmemiş reklam istenir.
+  audience: () => AgeGroup = () => 'adult',
 ) {
   let state: AdsState = { bannerHeight: 0, privacyRequired: false };
   const subscriptions = new Set<() => void>();
@@ -52,7 +56,7 @@ export function createAdsController(
     preparing = true;
     const generation = consentGeneration;
     try {
-      await sdk.prepareInterstitial({ adId: units.interstitial, isTesting: testing });
+      await sdk.prepareInterstitial({ adId: units.interstitial, isTesting: testing, npa: audience() === 'child' });
       interstitialReady = canRequestAds && !privacyOpen && generation === consentGeneration;
     } catch {
       interstitialReady = false;
@@ -77,7 +81,8 @@ export function createAdsController(
   }
 
   async function authorizeAndLoad() {
-    let info = await sdk.requestConsentInfo();
+    const child = audience() === 'child';
+    let info = await sdk.requestConsentInfo({ tagForUnderAgeOfConsent: child });
     if (info.status === AdmobConsentStatus.REQUIRED && info.isConsentFormAvailable) {
       info = await sdk.showConsentForm();
     }
@@ -90,20 +95,22 @@ export function createAdsController(
       return;
     }
     if (!sdkReady) {
-      await sdk.initialize();
+      await sdk.initialize(child
+        ? { tagForChildDirectedTreatment: true, tagForUnderAgeOfConsent: true, maxAdContentRating: MaxAdContentRating.General }
+        : {});
       sdkReady = true;
     }
     await addListeners();
     if (adFree) return;
     await sdk.showBanner({
-      adId: units.banner, isTesting: testing, adSize: BannerAdSize.ADAPTIVE_BANNER,
+      adId: units.banner, isTesting: testing, npa: child, adSize: BannerAdSize.ADAPTIVE_BANNER,
       position: BannerAdPosition.BOTTOM_CENTER, margin: 0,
     }).catch(() => publish({ bannerHeight: 0 }));
     void prepare();
   }
 
   function start() {
-    if (!native() || adFree) return Promise.resolve();
+    if (!native() || adFree || audience() === 'unknown') return Promise.resolve();
     if (!starting) {
       starting = authorizeAndLoad().catch(() => {
         // No consent/network response: the application remains usable without ads.
@@ -201,7 +208,7 @@ export function createAdsController(
     let earned = false;
     const handles: { remove: () => Promise<void> }[] = [];
     try {
-      await sdk.prepareRewardVideoAd({ adId: units.rewarded, isTesting: testing });
+      await sdk.prepareRewardVideoAd({ adId: units.rewarded, isTesting: testing, npa: audience() === 'child' });
       let resolveClosed = () => {};
       const closed = new Promise<void>((resolve) => { resolveClosed = resolve; });
       handles.push(await sdk.addListener(RewardAdPluginEvents.Rewarded, () => { earned = true; }));
@@ -229,4 +236,4 @@ export function createAdsController(
   };
 }
 
-export const ads = createAdsController();
+export const ads = createAdsController(undefined, undefined, undefined, undefined, getAgeGroup);

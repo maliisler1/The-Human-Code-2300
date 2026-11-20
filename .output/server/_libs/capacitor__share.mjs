@@ -1,5 +1,5 @@
 import { n as __exportAll } from "../_runtime.mjs";
-import { d as registerPlugin, l as WebPlugin } from "./@capacitor-community/admob+[...].mjs";
+import { f as registerPlugin, u as WebPlugin } from "./@capacitor-community/admob+[...].mjs";
 //#region node_modules/.pnpm/@capacitor+share@8.0.3_@capacitor+core@8.5.2/node_modules/@capacitor/share/dist/esm/index.js
 var Share = registerPlugin("Share", { web: () => Promise.resolve().then(() => web_exports).then((m) => new m.ShareWeb()) });
 //#endregion

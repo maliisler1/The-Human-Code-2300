@@ -1,3 +1,5 @@
+import { ParentGate } from "@/components/ParentGate";
+import { isChild } from "@/lib/age";
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { Check, Crown, RotateCcw } from "lucide-react";
@@ -23,7 +25,7 @@ export const Route = createFileRoute("/jeton")({
 
 function SeasonShop() {
   const { state, update } = useAppState();
-  const { t } = useT();
+  const { t, lang } = useT();
   const [price, setPrice] = useState<string | null>(null);
   const [canBuy, setCanBuy] = useState<boolean | null>(null);
   const [busy, setBusy] = useState(false);
@@ -41,6 +43,7 @@ function SeasonShop() {
     };
   }, []);
 
+  const [parentGate, setParentGate] = useState(false);
   const buy = async () => {
     setBusy(true);
     try {
@@ -71,6 +74,16 @@ function SeasonShop() {
 
   return (
     <AppShell>
+      {parentGate && (
+        <ParentGate
+          tr={lang === "tr"}
+          onCancel={() => setParentGate(false)}
+          onPass={() => {
+            setParentGate(false);
+            void buy();
+          }}
+        />
+      )}
       <header className="flex items-center justify-between px-5 pt-6">
         <h1 className="text-xl font-bold">{t("season_title")}</h1>
         <TokenBadge />
@@ -97,7 +110,7 @@ function SeasonShop() {
       <div className="px-5 pt-6">
         {!state.seasonOwned && (
           <button
-            onClick={() => void buy()}
+            onClick={() => (isChild() ? setParentGate(true) : void buy())}
             disabled={busy || canBuy !== true}
             className="w-full rounded-full bg-neon py-4 text-sm font-bold text-primary-foreground shadow-neon disabled:opacity-60"
           >

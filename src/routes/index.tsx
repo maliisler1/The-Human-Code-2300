@@ -3,7 +3,7 @@ import { useQuery, useSuspenseQuery } from "@tanstack/react-query";
 import { Sparkles, Orbit, Play, Film, CalendarDays } from "lucide-react";
 import { AppShell } from "@/components/AppShell";
 import { episodeListQuery, seriesListQuery, seriesTextOf, type SeriesRow } from "@/lib/catalog";
-import { FEATURED_SLUG } from "@/lib/data";
+import { FEATURED_SLUG, SOLO_SLUG } from "@/lib/data";
 import { BUNDLED_POSTERS } from "@/lib/posters";
 import { useT } from "@/lib/i18n";
 import { SERIES_TRAILERS, UPCOMING, trailerUrl } from "@/lib/trailers";
@@ -11,9 +11,14 @@ import { TrailerModal } from "@/components/TrailerModal";
 import { useState } from "react";
 import { toast } from "sonner";
 
-/** Ana dizi: önce sabit slug, yoksa ilk yayımlanmış dizi, yoksa listedeki ilk dizi. */
+/** Tek dizi modunun dizisi: yalnızca yayımlanmışsa geçerlidir. */
+export function pickSolo(all: SeriesRow[]): SeriesRow | undefined {
+  return all.find((s) => s.slug === SOLO_SLUG && s.status === "published");
+}
+
+/** Ana dizi: önce yayımlanmış tek dizi, sonra sabit slug, yoksa ilk yayımlanmış dizi, yoksa listedeki ilk dizi. */
 export function pickFeatured(all: SeriesRow[]): SeriesRow | undefined {
-  return all.find((s) => s.slug === FEATURED_SLUG) ?? all.find((s) => s.status === "published") ?? all[0];
+  return pickSolo(all) ?? all.find((s) => s.slug === FEATURED_SLUG) ?? all.find((s) => s.status === "published") ?? all[0];
 }
 
 /** Ana dizi dışında yalnızca yayımlanmış diziler gösterilir; yeni dizi yayımlanınca kendiliğinden belirir. */
@@ -57,6 +62,7 @@ function Index() {
   const [play, setPlay] = useState<{ src: string; title: string; poster?: string | undefined; subsKey?: string | undefined } | null>(null);
   const epCount = useQuery({ ...episodeListQuery(featured?.id ?? "", featured?.slug ?? ""), enabled: !!featured }).data?.length ?? 0;
   if (!featured) return <AppShell><p className="px-5 pt-10 text-sm text-muted-foreground">{t("loading")}</p></AppShell>;
+  const solo = featured.slug === SOLO_SLUG;
   const others = otherPublished(all, featured);
   const tx = seriesTextOf(featured, lang);
   const poster = BUNDLED_POSTERS[featured.slug];
@@ -75,7 +81,9 @@ function Index() {
           <video src={ft.video} poster={poster ?? ft.poster} autoPlay muted loop playsInline className="absolute inset-0 h-full w-full object-cover" />
         ) : poster ? (
           <img src={poster} alt="" className="absolute inset-0 h-full w-full object-cover" />
-        ) : null}
+        ) : (
+          <div className="absolute inset-0 bg-gradient-to-br from-primary/30 via-card to-accent/20" />
+        )}
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-black/30" />
         <div className="absolute inset-x-0 bottom-0 px-5 pb-6">
           <span className="inline-flex items-center gap-1.5 rounded-full bg-red-600/90 px-2.5 py-1 text-[10px] font-bold uppercase tracking-widest text-white">
@@ -97,6 +105,8 @@ function Index() {
         </div>
       </section>
 
+      {/* Tek dizi modunda fragmanlar, takvim, kapsül ve diğer diziler ana ekranda gizlenir; kodları arşivde kalır. */}
+      {!solo && (<>
       {/* 2) Gelecek diziler: büyük fragman kartları */}
       <section className="mt-6 px-5">
         <h2 className="flex items-center gap-2 font-display text-xl font-bold text-gold">
@@ -143,17 +153,18 @@ function Index() {
           })}
         </div>
       </section>
+      </>)}
 
       <div className="px-5">
-        <Link to="/kapsul" className="mt-8 flex items-center gap-4 rounded-2xl border border-primary/40 bg-card/80 p-4 shadow-neon">
+        {!solo && (<Link to="/kapsul" className="mt-8 flex items-center gap-4 rounded-2xl border border-primary/40 bg-card/80 p-4 shadow-neon">
           <Orbit className="h-9 w-9 shrink-0 text-primary" />
           <div>
             <p className="text-sm font-bold">{t("capsule_cta")}</p>
             <p className="mt-0.5 text-xs text-muted-foreground">{t("capsule_cta_sub")}</p>
           </div>
-        </Link>
+        </Link>)}
 
-        {others.length > 0 && (
+        {!solo && others.length > 0 && (
           <section className="mt-8">
             <h2 className="text-sm font-bold">{t("more_series")}</h2>
             <div className="mt-3 flex gap-3 overflow-x-auto pb-2">

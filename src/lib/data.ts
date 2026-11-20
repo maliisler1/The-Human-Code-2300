@@ -96,5 +96,12 @@ export const seriesText = (s: Series, lang: Lang) => s.text[lang] ?? s.text.en!;
 /** Uygulamanın ana dizisi (The Chosen modeli: tek dizi, sonradan yeni diziler eklenebilir). */
 export const FEATURED_SLUG = "the-human-code-2300";
 
+/**
+ * Tek dizi modu: bu dizi yayımlandığında ana ekranda yalnızca o görünür.
+ * Diğer diziler, fragmanlar, takvim ve kapsül ana ekrandan gizlenir; kodları ve verileri arşivde kalır.
+ * Dizi taslakken (ya da hiç yokken) ana ekran eskisi gibi çalışır.
+ */
+export const SOLO_SLUG = "snooze-with-tik";
+
 export const FREE_EPISODES = 2;
 export const EPISODE_COST = 10;

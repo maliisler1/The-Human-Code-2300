@@ -1,7 +1,11 @@
 import { queryOptions } from "@tanstack/react-query";
 import { supabase } from "@/integrations/supabase/client";
 import type { Lang } from "@/lib/i18n";
+import { signMedia, snoozeEpisodePath } from "@/lib/media";
 import { getBundledVideo } from "@/lib/videos";
+
+/** Bölüm videoları "animations" deposunda duran dizi. */
+const SNOOZE_SLUG = "snooze-with-tik";
 
 export type TrackStatus = "ready" | "planned" | "none";
 export type Category = "scifi" | "comedy" | "romance";
@@ -92,10 +96,14 @@ export const episodeListQuery = (seriesId: string, slug: string) =>
         .order("n", { ascending: true });
       if (error) throw error;
       type Raw = EpisodeRow & { episode_titles?: { lang: string; title: string }[] };
-      return ((data ?? []) as unknown as Raw[]).map((e) => {
+      const rows = (data ?? []) as unknown as Raw[];
+      // Snooze with Tik bölümleri "animations" deposundadır; süreli bağlantıları burada alınır.
+      const remote: Record<string, string> =
+        slug === SNOOZE_SLUG ? await signMedia(rows.map((e) => snoozeEpisodePath(e.n))).catch(() => ({})) : {};
+      return rows.map((e) => {
         const { episode_titles: titles, ...rest } = e;
-        // Örnek videolar yalnızca bölümün gerçek videosu yokken yedek olarak kullanılır.
-        const bundled = e.video_url ? null : getBundledVideo(slug, e.n);
+        // Depodaki ya da örnek videolar yalnızca bölümün kendi videosu yokken kullanılır.
+        const bundled = e.video_url ? null : (remote[snoozeEpisodePath(e.n)] ?? getBundledVideo(slug, e.n));
         if (bundled) {
           return { ...rest, titles: titles ?? [], video_url: bundled, status: "ready" as const };
         }

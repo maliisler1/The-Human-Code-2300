@@ -1,54 +1,110 @@
+import { queryOptions, useQuery } from "@tanstack/react-query";
+import bundledCatalog from "./katalog.json";
+import { downloadCatalog, signMedia } from "./media";
+
 /**
- * Yakında gelecek karakterler: her biri Snooze with Tik ile aynı mantıkta,
- * konuşmasız 15 saniyelik bölümlerden oluşan ayrı bir dizi olacak.
- * Afiş ve fragman dosyaları uygulamayla birlikte gelir (public/karakterler).
+ * Animasyon karakterleri: her biri Snooze with Tik ile aynı mantıkta, konuşmasız
+ * 15 saniyelik bölümlerden oluşan ayrı bir dizidir.
+ *
+ * Liste depodaki katalog.json'dan okunur; böylece yeni karakter ve bölümler uygulama
+ * güncellenmeden görünür. Depoya ulaşılamazsa uygulamayla gelen katalog kullanılır
+ * (afişler görünür, videolar bağlantı gelene kadar oynamaz).
  */
 export type UpcomingCharacter = {
   key: string;
   name: string;
   hook: { tr: string; en: string };
   poster: string;
+  /** Fragmanın süreli bağlantısı; depoya ulaşılamadıysa boş. */
   video: string;
   /** Yayında olan bölüm sayısı. Tanımlıysa karakter öne alınır ve bölümleri izlenebilir. */
   episodes?: number;
+  /** Bölümlerin süreli bağlantıları (1. bölüm 0. sırada). */
+  episodeUrls: string[];
 };
 
-/** Karakterin n. bölümünün dosyası (public/karakterler/<key>-ep<n>.mp4). */
-export const characterEpisode = (ch: UpcomingCharacter, n: number) => `/karakterler/${ch.key}-ep${n}.mp4`;
+export type CatalogCharacter = { key: string; name: string; tr: string; en: string; episodes?: number };
 
-const c = (key: string, name: string, tr: string, en: string, episodes?: number): UpcomingCharacter => ({
-  key,
-  name,
-  hook: { tr, en },
-  poster: `/karakterler/${key}.webp`,
-  video: `/karakterler/${key}.mp4`,
-  ...(episodes ? { episodes } : {}),
+/** Afişi uygulamayla birlikte gelen karakterler (public/karakterler/<key>.webp). */
+const BUNDLED_POSTERS = new Set(bundledCatalog.characters.map((c) => c.key));
+
+export const trailerPath = (key: string) => `karakterler/${key}.mp4`;
+export const posterPath = (key: string) => `karakterler/${key}.webp`;
+export const episodePath = (key: string, n: number) => `karakterler/${key}-ep${n}.mp4`;
+
+/** Bir kataloğun depoda bulunması gereken bütün dosya yolları. */
+export function catalogPaths(list: CatalogCharacter[], includeBundledPosters = false): string[] {
+  const paths: string[] = [];
+  for (const c of list) {
+    paths.push(trailerPath(c.key));
+    if (includeBundledPosters || !BUNDLED_POSTERS.has(c.key)) paths.push(posterPath(c.key));
+    for (let n = 1; n <= (c.episodes ?? 0); n++) paths.push(episodePath(c.key, n));
+  }
+  return paths;
+}
+
+function toCharacter(c: CatalogCharacter, urls: Record<string, string>): UpcomingCharacter {
+  return {
+    key: c.key,
+    name: c.name,
+    hook: { tr: c.tr, en: c.en },
+    poster: BUNDLED_POSTERS.has(c.key) ? `/karakterler/${c.key}.webp` : (urls[posterPath(c.key)] ?? ""),
+    video: urls[trailerPath(c.key)] ?? "",
+    ...(c.episodes ? { episodes: c.episodes } : {}),
+    episodeUrls: Array.from({ length: c.episodes ?? 0 }, (_, i) => urls[episodePath(c.key, i + 1)] ?? ""),
+  };
+}
+
+/** Karakterin n. bölümünün süreli bağlantısı; yoksa boş. */
+export const characterEpisode = (ch: UpcomingCharacter, n: number) => ch.episodeUrls[n - 1] ?? "";
+
+/**
+ * Depodan gelen kataloğu doğrular. Biçim bozuksa null döner ve uygulamayla gelen liste kullanılır.
+ * Anahtarlar yalnızca küçük harf, rakam ve tire içerebilir (dosya yolunda kullanılır).
+ */
+export function parseCatalog(json: unknown): CatalogCharacter[] | null {
+  const list = (json as { characters?: unknown } | null)?.characters;
+  if (!Array.isArray(list) || list.length === 0) return null;
+  const out: CatalogCharacter[] = [];
+  for (const raw of list) {
+    const c = raw as Partial<CatalogCharacter>;
+    if (typeof c.key !== "string" || !/^[a-z0-9-]{1,40}$/.test(c.key)) return null;
+    if (typeof c.name !== "string" || typeof c.tr !== "string" || typeof c.en !== "string") return null;
+    const n = c.episodes;
+    const episodes = typeof n === "number" && Number.isInteger(n) && n > 0 && n <= 500 ? n : undefined;
+    out.push({ key: c.key, name: c.name, tr: c.tr, en: c.en, ...(episodes ? { episodes } : {}) });
+  }
+  return out;
+}
+
+export const BUNDLED_CATALOG: CatalogCharacter[] = bundledCatalog.characters;
+
+/** Uygulamayla gelen liste: depoya ulaşılamadığında kullanılır (video bağlantıları boştur). */
+export const UPCOMING_CHARACTERS: UpcomingCharacter[] = BUNDLED_CATALOG.map((c) => toCharacter(c, {}));
+
+export function splitCharacters(list: UpcomingCharacter[]) {
+  return {
+    /** Öne alınan, bölümleri yayında olan karakterler. */
+    featured: list.filter((ch) => ch.episodes),
+    /** Henüz yalnızca fragmanı olan karakterler. */
+    soon: list.filter((ch) => !ch.episodes),
+  };
+}
+
+export const animationCatalogQuery = queryOptions({
+  queryKey: ["animations", "catalog"],
+  queryFn: async (): Promise<UpcomingCharacter[]> => {
+    const catalog = parseCatalog(await downloadCatalog()) ?? BUNDLED_CATALOG;
+    const urls = await signMedia(catalogPaths(catalog));
+    return catalog.map((c) => toCharacter(c, urls));
+  },
+  // Bağlantılar 7 gün geçerli; liste yarım saatte bir tazelenir.
+  staleTime: 30 * 60_000,
+  retry: 1,
 });
 
-export const UPCOMING_CHARACTERS: UpcomingCharacter[] = [
-  c("bip", "Bip", "Şarjı %1. Şarj aleti çok uzakta.", "Battery at 1%. The charger is far away.", 5),
-  c("dusty", "Dusty", "Robot süpürge geliyor. Kaç Dusty.", "The robot vacuum is coming. Run, Dusty.", 5),
-  c("pizzo", "Pizzo", "Son dilim. Sabaha kadar dayanmalı.", "The last slice. It must survive the night.", 5),
-  c("zizi", "Zizi", "Gece üç. Tek bir ısırık yeter.", "3 AM. One bite is all it wants.", 5),
-  c("sok", "Sok", "Tek kalmış bir çorap, eşini arıyor.", "A lonely sock looking for its pair.", 5),
-  c("lumo", "Lumo", "Söylenmemiş sözleri taşıyan bekçi.", "The keeper who carries unsaid words."),
-  c("wiff", "Wiff", "Son sinyal çubuğu. Dayan Wiff.", "The last signal bar. Hold on, Wiff."),
-  c("pop", "Pop", "Bu sefer yanmayacak. Yine yandı.", "Not burnt this time. Burnt again."),
-  c("drip", "Drip", "Düşmemeye çalışan bir damla.", "A drop trying not to fall."),
-  c("remo", "Remo", "Koltuğun dibinde saklanan kumanda.", "The remote hiding deep in the sofa."),
-  c("fizz", "Fizz", "Yukarı çıkmak isteyen bir baloncuk.", "A bubble racing to the top."),
-  c("glim", "Glim", "Karanlığı uzak tutan gece lambası.", "The night light that keeps the dark away."),
-  c("mel", "Mel", "Erimeden önce yenmek istiyor.", "It wants to be eaten before it melts."),
-  c("kiko", "Kiko", "Her sabah kaybolan anahtar.", "The key that gets lost every morning."),
-  c("nudl", "Nudl", "Çözülmek isterken düğüm olan kablo.", "The cable that tangles while untangling."),
-  c("pix", "Pix", "Ekrandaki tek piksel. Fark edilsin.", "One pixel on the screen. Notice it."),
-  c("boon", "Boon", "Patlamamaya çalışan bir balon.", "A balloon trying not to pop."),
-  c("sprout", "Sprout", "Sulanmayı bekleyen küçük filiz.", "A little sprout waiting for water."),
-  c("ding", "Ding", "Yanlış kata basan asansör düğmesi.", "The elevator button that picks the wrong floor."),
-  c("mag", "Mag", "Notu düşürmemeye çalışan mıknatıs.", "The magnet trying not to drop the note."),
-];
-
-/** Öne alınan, bölümleri yayında olan karakterler. */
-export const FEATURED_CHARACTERS = UPCOMING_CHARACTERS.filter((ch) => ch.episodes);
-/** Henüz yalnızca fragmanı olan karakterler. */
-export const SOON_CHARACTERS = UPCOMING_CHARACTERS.filter((ch) => !ch.episodes);
+/** Güncel karakter listesi: depodaki katalog, yoksa uygulamayla gelen liste. */
+export function useCharacters() {
+  const { data } = useQuery(animationCatalogQuery);
+  return splitCharacters(data ?? UPCOMING_CHARACTERS);
+}

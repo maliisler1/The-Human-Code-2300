@@ -8,4 +8,5 @@ export const BUNDLED_POSTERS: Record<string, string> = {
   "neo-genesis-2099": elyra, // eski adres (yönlendirme)
   "cyber-glitch-ro-buster": cyber,
   "neon-hearts-virtual-pulse": hearts,
+  "snooze-with-tik": "/snooze/poster.webp", // public/snooze: uygulamayla birlikte gelir
 };

@@ -4,6 +4,8 @@ const BASE = "https://holo-heart-streams.lovable.app/trailers/";
 /** Yayındaki dizilerin fragmanları (slug → video). */
 export const SERIES_TRAILERS: Record<string, { video: string; poster: string }> = {
   "the-human-code-2300": { video: BASE + "thc2300_720.mp4", poster: BASE + "thc2300_poster.jpg" },
+  // Snooze with Tik: vitrinde 1. bölüm döner; dosyalar uygulamayla birlikte gelir.
+  "snooze-with-tik": { video: "/snooze/ep1.mp4", poster: "/snooze/poster.webp" },
 };
 
 export type Upcoming = {

@@ -32,10 +32,10 @@ describe("tek dizi modu (Snooze with Tik)", () => {
     const all = [row("the-human-code-2300", "published"), row("snooze-with-tik", "published")];
     expect(pickFeatured(all)?.slug).toBe("snooze-with-tik");
   });
-  it("tek dizi taslakken ana ekran eskisi gibi kalır", () => {
+  it("tek dizi taslakken de ana ekranı alır (bölümleri uygulamayla birlikte gelir)", () => {
     const all = [row("the-human-code-2300", "published"), row("snooze-with-tik", "draft")];
-    expect(pickSolo(all)).toBeUndefined();
-    expect(pickFeatured(all)?.slug).toBe("the-human-code-2300");
+    expect(pickSolo(all)?.slug).toBe("snooze-with-tik");
+    expect(pickFeatured(all)?.slug).toBe("snooze-with-tik");
   });
   it("tek dizi yokken ana ekran eskisi gibi kalır", () => {
     const all = [row("the-human-code-2300", "published"), row("b", "published")];

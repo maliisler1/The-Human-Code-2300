@@ -17,7 +17,7 @@ jobs:
           python3 - <<'PY'
           import json,glob,subprocess,os
           from faster_whisper import WhisperModel
-          m=WhisperModel("small.en",compute_type="int8")
+          m=WhisperModel("medium.en",compute_type="int8")
           for j in glob.glob('uretim-plan/transkript/*.json'):
               c=json.load(open(j))
               for it in c['files']:
@@ -25,7 +25,7 @@ jobs:
                   if os.path.exists(out): continue
                   import wave,numpy as np
                   w=wave.open(src); a=np.frombuffer(w.readframes(w.getnframes()),np.int16).astype(np.float32)/32768
-                  segs,_=m.transcribe(a,word_timestamps=False,vad_filter=True)
+                  segs,_=m.transcribe(a,word_timestamps=False,vad_filter=False,beam_size=5,condition_on_previous_text=False,initial_prompt="Ashley, Compass, Kai, Ava, Leon, Elyra, Broken Isles, Fortress, Twenty-Three.")
                   r=[{'s':round(s.start,2),'e':round(s.end,2),'t':s.text.strip()} for s in segs]
                   os.makedirs(os.path.dirname(out),exist_ok=True)
                   json.dump(r,open(out,'w'),ensure_ascii=False,indent=0)

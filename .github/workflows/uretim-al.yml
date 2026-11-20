@@ -25,6 +25,7 @@ jobs:
         run: |
           git config user.name "uretim-bot"
           git config user.email "uretim-bot@users.noreply.github.com"
+          find gelen -type f -size +95M ! -name '*.part*' | while read f; do split -b 90M -d "$f" "$f.part"; rm "$f"; done
           git add gelen
           git diff --cached --quiet && exit 0
           git commit -m "Gelen üretim dosyaları"

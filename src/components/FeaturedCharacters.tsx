@@ -181,9 +181,15 @@ export function FeaturedCharacters({
       ) : (
         <>
           <span className="h-10 w-10 shrink-0" aria-hidden="true" />
-          <p className="flex-1 text-center leading-none" aria-label="AI Multiverse Cinema">
-            <span className="block text-[10px] font-extrabold tracking-[0.45em] text-[#C9B8FF]">AI MULTIVERSE</span>
-            <span className="mt-0.5 block text-[22px] font-black tracking-[0.14em] text-gold" style={{ fontFamily: '"Cinzel Decorative", serif' }}>CINEMA</span>
+          <p className="flex flex-1 items-center justify-center gap-2.5 leading-none" aria-label="AI Multiverse Cinema">
+            <span className="relative grid h-9 w-9 shrink-0 place-items-center rounded-full border-2 border-gold text-gold" aria-hidden="true">
+              <Play className="ml-0.5 h-4 w-4 fill-gold" />
+              <span className="absolute -right-0.5 -top-1 h-2 w-2 rounded-full bg-[#C9B8FF]" />
+            </span>
+            <span>
+              <span className="block text-[10px] font-extrabold tracking-[0.45em] text-[#C9B8FF]">AI MULTIVERSE</span>
+              <span className="mt-0.5 block text-[22px] font-black tracking-[0.14em] text-gold" style={{ fontFamily: '"Cinzel Decorative", serif' }}>CINEMA</span>
+            </span>
           </p>
         </>
       )}

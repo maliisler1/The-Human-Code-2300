@@ -1,1 +1,0 @@
-import{T as e,et as t,nt as n,u as r}from"./AppShell-BznUefEz.js";var i=n(t(),1);function a(t){let n=e();return i.useCallback(e=>n.navigate({...e,from:e.from??t?.from}),[t?.from,n])}var o=r(`arrow-left`,[[`path`,{d:`m12 19-7-7 7-7`,key:`1l729n`}],[`path`,{d:`M19 12H5`,key:`x3x0zl`}]]);export{a as n,o as t};

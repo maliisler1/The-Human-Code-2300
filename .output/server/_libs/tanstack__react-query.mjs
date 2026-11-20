@@ -192,11 +192,6 @@ function useBaseQuery(options, Observer, queryClient) {
 	return !defaultedOptions.notifyOnChangeProps ? observer.trackResult(result) : result;
 }
 //#endregion
-//#region node_modules/.pnpm/@tanstack+react-query@5.104.1_react@19.3.0/node_modules/@tanstack/react-query/build/modern/useQuery.js
-function useQuery(options, queryClient) {
-	return useBaseQuery(options, QueryObserver, queryClient);
-}
-//#endregion
 //#region node_modules/.pnpm/@tanstack+react-query@5.104.1_react@19.3.0/node_modules/@tanstack/react-query/build/modern/useSuspenseQuery.js
 /**
 * The options for `useSuspenseQuery` are the same as for `useQuery`, except for `throwOnError`, `enabled`, and
@@ -280,4 +275,4 @@ function queryOptions(options) {
 	return options;
 }
 //#endregion
-export { useQueryClient as a, QueryClientProvider as i, useSuspenseQuery as n, useQuery as r, queryOptions as t };
+export { useQueryClient as i, useSuspenseQuery as n, QueryClientProvider as r, queryOptions as t };

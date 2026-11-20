@@ -128,76 +128,6 @@ var ArrowLeft = createLucideIcon("arrow-left", [["path", {
 * This source code is licensed under the ISC license.
 * See the LICENSE file in the root directory of this source tree.
 */
-var CalendarDays = createLucideIcon("calendar-days", [
-	["path", {
-		d: "M8 2v4",
-		key: "1cmpym"
-	}],
-	["path", {
-		d: "M16 2v4",
-		key: "4m81vk"
-	}],
-	["rect", {
-		width: "18",
-		height: "18",
-		x: "3",
-		y: "4",
-		rx: "2",
-		key: "1hopcy"
-	}],
-	["path", {
-		d: "M3 10h18",
-		key: "8toen8"
-	}],
-	["path", {
-		d: "M8 14h.01",
-		key: "6423bh"
-	}],
-	["path", {
-		d: "M12 14h.01",
-		key: "1etili"
-	}],
-	["path", {
-		d: "M16 14h.01",
-		key: "1gbofw"
-	}],
-	["path", {
-		d: "M8 18h.01",
-		key: "lrp35t"
-	}],
-	["path", {
-		d: "M12 18h.01",
-		key: "mhygvu"
-	}],
-	["path", {
-		d: "M16 18h.01",
-		key: "kzsmim"
-	}]
-]);
-/**
-* @license lucide-react v0.575.0 - ISC
-*
-* This source code is licensed under the ISC license.
-* See the LICENSE file in the root directory of this source tree.
-*/
-var Captions = createLucideIcon("captions", [["rect", {
-	width: "18",
-	height: "14",
-	x: "3",
-	y: "5",
-	rx: "2",
-	ry: "2",
-	key: "12ruh7"
-}], ["path", {
-	d: "M7 15h4M15 15h2M7 11h2M13 11h4",
-	key: "1ueiar"
-}]]);
-/**
-* @license lucide-react v0.575.0 - ISC
-*
-* This source code is licensed under the ISC license.
-* See the LICENSE file in the root directory of this source tree.
-*/
 var Check = createLucideIcon("check", [["path", {
 	d: "M20 6 9 17l-5-5",
 	key: "1gmf2c"
@@ -277,6 +207,30 @@ var CircleCheck = createLucideIcon("circle-check", [["circle", {
 	d: "m9 12 2 2 4-4",
 	key: "dzmm74"
 }]]);
+/**
+* @license lucide-react v0.575.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
+var Clapperboard = createLucideIcon("clapperboard", [
+	["path", {
+		d: "m12.296 3.464 3.02 3.956",
+		key: "qash78"
+	}],
+	["path", {
+		d: "M20.2 6 3 11l-.9-2.4c-.3-1.1.3-2.2 1.3-2.5l13.5-4c1.1-.3 2.2.3 2.5 1.3z",
+		key: "1h7j8b"
+	}],
+	["path", {
+		d: "M3 11h18v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z",
+		key: "4lm6w1"
+	}],
+	["path", {
+		d: "m6.18 5.276 3.1 3.899",
+		key: "zjj9t3"
+	}]
+]);
 /**
 * @license lucide-react v0.575.0 - ISC
 *
@@ -854,6 +808,21 @@ var Tv = createLucideIcon("tv", [["path", {
 * This source code is licensed under the ISC license.
 * See the LICENSE file in the root directory of this source tree.
 */
+var UserRound = createLucideIcon("user-round", [["circle", {
+	cx: "12",
+	cy: "8",
+	r: "5",
+	key: "1hypcn"
+}], ["path", {
+	d: "M20 21a8 8 0 0 0-16 0",
+	key: "rfgkzh"
+}]]);
+/**
+* @license lucide-react v0.575.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
 var User = createLucideIcon("user", [["path", {
 	d: "M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2",
 	key: "975kel"
@@ -876,15 +845,5 @@ var X = createLucideIcon("x", [["path", {
 	d: "m6 6 12 12",
 	key: "d8bk6v"
 }]]);
-/**
-* @license lucide-react v0.575.0 - ISC
-*
-* This source code is licensed under the ISC license.
-* See the LICENSE file in the root directory of this source tree.
-*/
-var Zap = createLucideIcon("zap", [["path", {
-	d: "M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z",
-	key: "1xq2db"
-}]]);
 //#endregion
-export { CircleAlert as A, Hop as C, Combine as D, Crown as E, ArrowLeft as F, Check as M, Captions as N, CloudUpload as O, CalendarDays as P, Image as S, Download as T, Loader as _, Square as a, Languages as b, Share as c, Play as d, Orbit as f, Lock as g, LogOut as h, Tv as i, Chromium as j, CircleCheck as k, RotateCcw as l, Mail as m, X as n, Sparkles as o, Mic as p, User as r, ShieldCheck as s, Zap as t, Plus as u, LoaderCircle as v, Film as w, Info as x, ListVideo as y };
+export { CircleCheck as A, Hop as C, Combine as D, Crown as E, Chromium as M, Check as N, CloudUpload as O, ArrowLeft as P, Image as S, Download as T, Loader as _, Square as a, Languages as b, Share as c, Play as d, Orbit as f, Lock as g, LogOut as h, Tv as i, CircleAlert as j, Clapperboard as k, RotateCcw as l, Mail as m, User as n, Sparkles as o, Mic as p, UserRound as r, ShieldCheck as s, X as t, Plus as u, LoaderCircle as v, Film as w, Info as x, ListVideo as y };

@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { AppShell, TokenBadge } from "@/components/AppShell";
 import { useAppState } from "@/lib/store";
-import { useT, LANGS, LANG_NAMES, SUB_LANGS, SUB_NAMES, type Lang, type SubLang } from "@/lib/i18n";
+import { useT, LANGS, DUB_LANGS, LANG_NAMES, SUB_LANGS, SUB_NAMES, type Lang, type SubLang } from "@/lib/i18n";
 
 export const Route = createFileRoute("/ayarlar")({
   head: () => ({
@@ -17,8 +17,8 @@ export const Route = createFileRoute("/ayarlar")({
   component: Settings,
 });
 
-function Picker({ label, value, onChange, allowOff, offLabel, subs }: {
-  label: string; value: string; onChange: (v: string) => void; allowOff?: boolean; offLabel?: string; subs?: boolean;
+function Picker({ label, value, onChange, allowOff, offLabel, subs, dub }: {
+  label: string; value: string; onChange: (v: string) => void; allowOff?: boolean; offLabel?: string; subs?: boolean; dub?: boolean;
 }) {
   return (
     <label className="block">
@@ -31,7 +31,7 @@ function Picker({ label, value, onChange, allowOff, offLabel, subs }: {
         {allowOff && <option value="off">{offLabel}</option>}
         {subs
           ? SUB_LANGS.map((l) => <option key={l} value={l}>{SUB_NAMES[l]}</option>)
-          : LANGS.map((l) => <option key={l} value={l}>{LANG_NAMES[l]}</option>)}
+          : (dub ? DUB_LANGS : LANGS).map((l) => <option key={l} value={l}>{LANG_NAMES[l]}</option>)}
       </select>
     </label>
   );
@@ -49,7 +49,7 @@ function Settings() {
       <p className="mt-2 px-5 text-sm text-muted-foreground">{t("settings_note")}</p>
       <div className="mt-6 space-y-5 px-5">
         <Picker label={t("ui_lang")} value={state.uiLang} onChange={(v) => update((s) => ({ ...s, uiLang: v as Lang, langChosen: true }))} />
-        <Picker label={t("audio_lang")} value={state.audioLang} onChange={(v) => update((s) => ({ ...s, audioLang: v as Lang }))} />
+        <Picker dub label={t("audio_lang")} value={state.audioLang} onChange={(v) => update((s) => ({ ...s, audioLang: v as Lang }))} />
         <Picker label={t("sub_lang")} value={state.subLang} allowOff subs offLabel={t("sub_off")} onChange={(v) => update((s) => ({ ...s, subLang: v as SubLang | "off" }))} />
       </div>
     </AppShell>

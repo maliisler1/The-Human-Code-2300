@@ -12,6 +12,7 @@ import { SERIES_TRAILERS, UPCOMING, trailerUrl } from "@/lib/trailers";
 import { TrailerModal } from "@/components/TrailerModal";
 import { useState } from "react";
 import { toast } from "sonner";
+import { loc, s } from "@/lib/phrases";
 
 /**
  * Tek dizi modunun dizisi. Bölümleri ve afişi uygulamayla birlikte geldiği için
@@ -75,10 +76,10 @@ function Index() {
   const legacy = solo ? all.find((s) => s.slug === FEATURED_SLUG) : undefined;
   const nextMonthAll = useNextMonth();
   const nextMonth = solo ? nextMonthAll : [];
-  const offline = () => toast.info(tr ? "Video şu an yüklenemedi. İnternet bağlantını kontrol edip tekrar dene." : "The video could not be loaded. Check your connection and try again.");
+  const offline = () => toast.info(s("Video şu an yüklenemedi. İnternet bağlantını kontrol edip tekrar dene.", "The video could not be loaded. Check your connection and try again."));
   const openCharacter = (ch: UpcomingCharacter) => (ch.video ? setPlay({ src: ch.video, title: ch.name, poster: ch.poster, vertical: true }) : offline());
   const earlyAccess = (ch: UpcomingCharacter) =>
-    toast.info(tr ? `${ch.name} yakında geliyor. Erken izleme açıldığında burada görünecek.` : `${ch.name} is coming soon. Early access will appear here when it opens.`);
+    toast.info(s("{name} yakında geliyor. Erken izleme açıldığında burada görünecek.", "{name} is coming soon. Early access will appear here when it opens.", { name: ch.name }));
   const others = otherPublished(all, featured);
   const tx = seriesTextOf(featured, lang);
   const poster = BUNDLED_POSTERS[featured.slug];
@@ -161,8 +162,8 @@ function Index() {
       {/* Köşe: The Human Code: 2300 ve depodaki "nextMonth" listesindeki diziler yalnızca fragmanlarıyla durur; dizi ve ödeme sayfasına yönlendirme yoktur. */}
       {(legacy || nextMonth.length > 0) && (
         <section className="mt-6 px-4">
-          <h2 className="font-display text-lg font-bold text-gold">{tr ? "Önümüzdeki ay" : "Next month"}</h2>
-          <p className="mt-0.5 text-xs text-muted-foreground">{tr ? "Yeni diziler yolda. Fragmanlarını izle." : "New series are on the way. Watch the trailers."}</p>
+          <h2 className="font-display text-lg font-bold text-gold">{s("Önümüzdeki ay", "Next month")}</h2>
+          <p className="mt-0.5 text-xs text-muted-foreground">{s("Yeni diziler yolda. Fragmanlarını izle.", "New series are on the way. Watch the trailers.")}</p>
           <div className="mt-3 flex gap-3 overflow-x-auto pb-2">
             {legacy && (
               <button
@@ -178,21 +179,21 @@ function Index() {
                 ) : (
                   <div className="aspect-[2/3] w-full rounded-2xl bg-gradient-to-br from-primary/30 via-card to-accent/20" />
                 )}
-                <span className="absolute left-1.5 top-1.5 rounded-full bg-black/70 px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider text-gold">{tr ? "Önümüzdeki ay" : "Next month"}</span>
+                <span className="absolute left-1.5 top-1.5 rounded-full bg-black/70 px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider text-gold">{s("Önümüzdeki ay", "Next month")}</span>
                 <p className="mt-2 line-clamp-2 text-xs font-semibold">{legacy.title}</p>
-                <p className="text-[10px] text-muted-foreground">{tr ? "Fragmanı izle" : "Watch trailer"}</p>
+                <p className="text-[10px] text-muted-foreground">{s("Fragmanı izle", "Watch trailer")}</p>
               </button>
             )}
             {nextMonth.map((u) => (
               <button
                 key={u.key}
-                onClick={() => setPlay({ src: trailerUrl(`${u.key}_720.mp4`), title: tr ? u.title : u.titleEn, poster: trailerUrl(`${u.key}_poster.jpg`), subsKey: u.key })}
+                onClick={() => setPlay({ src: trailerUrl(`${u.key}_720.mp4`), title: loc({ tr: u.title, en: u.titleEn, loc: u.loc }), poster: trailerUrl(`${u.key}_poster.jpg`), subsKey: u.key })}
                 className="relative w-28 shrink-0 text-start"
               >
                 <img src={trailerUrl(`${u.key}_poster.jpg`)} alt="" loading="lazy" className="aspect-[2/3] w-full rounded-2xl bg-gradient-to-br from-primary/30 via-card to-accent/20 object-cover" />
-                <span className="absolute left-1.5 top-1.5 rounded-full bg-black/70 px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider text-gold">{tr ? "Önümüzdeki ay" : "Next month"}</span>
-                <p className="mt-2 line-clamp-2 text-xs font-semibold">{tr ? u.title : u.titleEn}</p>
-                <p className="text-[10px] text-muted-foreground">{tr ? "Fragmanı izle" : "Watch trailer"}</p>
+                <span className="absolute left-1.5 top-1.5 rounded-full bg-black/70 px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider text-gold">{s("Önümüzdeki ay", "Next month")}</span>
+                <p className="mt-2 line-clamp-2 text-xs font-semibold">{loc({ tr: u.title, en: u.titleEn, loc: u.loc })}</p>
+                <p className="text-[10px] text-muted-foreground">{s("Fragmanı izle", "Watch trailer")}</p>
               </button>
             ))}
           </div>

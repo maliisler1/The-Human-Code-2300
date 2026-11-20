@@ -15,6 +15,56 @@
       "titleEn": "The Lost Train"
     }
   ],
+  "shelves": [
+    {
+      "key": "mutfak",
+      "tr": "Mutfak kahramanları",
+      "en": "Kitchen heroes",
+      "members": [
+        "pizzo",
+        "pop",
+        "fizz",
+        "mel",
+        "drip",
+        "mag"
+      ]
+    },
+    {
+      "key": "ev",
+      "tr": "Ev halleri",
+      "en": "Home life",
+      "members": [
+        "dusty",
+        "zizi",
+        "sok",
+        "remo",
+        "kiko",
+        "nudl"
+      ]
+    },
+    {
+      "key": "teknoloji",
+      "tr": "Teknoloji dertleri",
+      "en": "Tech troubles",
+      "members": [
+        "bip",
+        "wiff",
+        "pix",
+        "ding"
+      ]
+    },
+    {
+      "key": "hayal",
+      "tr": "Minik hayalperestler",
+      "en": "Little dreamers",
+      "members": [
+        "lumo",
+        "glim",
+        "boon",
+        "sprout"
+      ]
+    }
+  ],
   "characters": [
     {
       "key": "bip",

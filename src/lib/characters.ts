@@ -142,3 +142,36 @@ export const nextMonthQuery = queryOptions({
 export function useNextMonth(): NextMonthSeries[] {
   return useQuery(nextMonthQuery).data ?? BUNDLED_NEXT_MONTH;
 }
+
+/**
+ * Ana ekran rafları: karakterleri temaya göre gruplar. Depodaki katalogdan okunur;
+ * yeni karakter bir rafa uygulama güncellemesi olmadan eklenebilir.
+ */
+export type Shelf = { key: string; tr: string; en: string; members: string[] };
+
+export function parseShelves(json: unknown): Shelf[] | null {
+  const list = (json as { shelves?: unknown } | null)?.shelves;
+  if (!Array.isArray(list)) return null;
+  const out: Shelf[] = [];
+  for (const raw of list) {
+    const s = raw as Partial<Shelf>;
+    if (typeof s.key !== "string" || !/^[a-z0-9-]{1,40}$/.test(s.key)) return null;
+    if (typeof s.tr !== "string" || !s.tr || !Array.isArray(s.members)) return null;
+    const members = s.members.filter((m): m is string => typeof m === "string" && /^[a-z0-9-]{1,40}$/.test(m));
+    out.push({ key: s.key, tr: s.tr, en: typeof s.en === "string" && s.en ? s.en : s.tr, members });
+  }
+  return out;
+}
+
+export const BUNDLED_SHELVES: Shelf[] = parseShelves(bundledCatalog) ?? [];
+
+export const shelvesQuery = queryOptions({
+  queryKey: ["animations", "shelves"],
+  queryFn: async (): Promise<Shelf[]> => parseShelves(await downloadCatalog()) ?? BUNDLED_SHELVES,
+  staleTime: 30 * 60_000,
+  retry: 1,
+});
+
+export function useShelves(): Shelf[] {
+  return useQuery(shelvesQuery).data ?? BUNDLED_SHELVES;
+}

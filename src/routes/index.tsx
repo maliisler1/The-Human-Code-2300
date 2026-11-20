@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useQuery, useSuspenseQuery } from "@tanstack/react-query";
 import { Sparkles, Orbit, Play, Film, CalendarDays } from "lucide-react";
 import { AppShell } from "@/components/AppShell";
@@ -65,6 +65,7 @@ function Index() {
   const { t, lang } = useT();
   const featured = pickFeatured(all);
   const { soon: SOON_CHARACTERS } = useCharacters();
+  const navigate = useNavigate();
   const [play, setPlay] = useState<{ src: string; title: string; poster?: string | undefined; subsKey?: string | undefined; vertical?: boolean; next?: (() => void) | undefined } | null>(null);
   const eps = useQuery({ ...episodeListQuery(featured?.id ?? "", featured?.slug ?? ""), enabled: !!featured }).data ?? [];
   const epCount = eps.length;
@@ -93,8 +94,9 @@ function Index() {
 
   return (
     <AppShell>
+      {!solo && (<>
       {/* 1) Yayındaki dizi: büyük vitrin; bölümler dizi sayfasında */}
-      <section className="relative -mt-2 h-[68vh] min-h-[440px] w-full overflow-hidden">
+      <section className="relative -mt-2 h-[44vh] min-h-[300px] w-full overflow-hidden">
         {ft?.video ? (
           <video src={ft.video} poster={poster ?? ft.poster} autoPlay muted loop playsInline className="absolute inset-0 h-full w-full object-cover" />
         ) : poster ? (
@@ -107,7 +109,7 @@ function Index() {
           <span className="inline-flex items-center gap-1.5 rounded-full bg-red-600/90 px-2.5 py-1 text-[10px] font-bold uppercase tracking-widest text-white">
             <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-white" /> {t("now_streaming")}
           </span>
-          <h1 className="mt-3 font-display text-4xl font-bold leading-none text-[#FFF4D6] [text-shadow:0_2px_12px_#000]">{featured.title}</h1>
+          <h1 className="mt-3 font-display text-3xl font-bold leading-none text-[#FFF4D6] [text-shadow:0_2px_12px_#000]">{featured.title}</h1>
           {tx.tagline && <p className="mt-2 line-clamp-2 text-sm text-foreground/85">{tx.tagline}</p>}
           {epCount > 0 && <p className="mt-1 text-xs text-muted-foreground">{t("episodes_count", { n: epCount })}</p>}
           <div className="mt-4 flex gap-3">
@@ -123,23 +125,30 @@ function Index() {
         </div>
       </section>
 
+      </>)}
+
       {/* Tek dizi modu: ana dizinin bölümleri yan yana, altında yakında gelecek karakterlerin fragmanları. */}
       {solo && (<>
+      <FeaturedCharacters
+        tr={tr}
+        onPlay={setPlay}
+        lead={poster ? { title: featured.title, sub: tx.tagline ?? "", poster, onOpen: () => void navigate({ to: "/dizi/$slug", params: { slug: featured.slug } }) } : undefined}
+        afterHero={<>
       {eps.length > 0 && (
-        <section className="mt-6">
-          <h2 className="flex items-center gap-2 px-5 font-display text-xl font-bold text-gold">
-            <Play className="h-5 w-5 fill-gold" /> {t("episodes")}
+        <section className="mt-5">
+          <h2 className="flex items-center gap-2 px-4 font-display text-lg font-bold text-gold">
+            {featured.title}
           </h2>
-          <div className="mt-3 flex snap-x gap-3 overflow-x-auto px-5 pb-2">
+          <div className="mt-3 flex snap-x gap-2 overflow-x-auto px-4 pb-2">
             {eps.map((e) => (
-              <Link key={e.id} to="/izle/$slug/$n" params={{ slug: featured.slug, n: String(e.n) }} className="relative aspect-[9/16] w-36 shrink-0 snap-start overflow-hidden rounded-2xl border border-primary/30 bg-card">
+              <Link key={e.id} to="/izle/$slug/$n" params={{ slug: featured.slug, n: String(e.n) }} className="relative aspect-[9/16] w-24 shrink-0 snap-start overflow-hidden rounded-xl border border-primary/30 bg-card">
                 {poster && <img src={poster} alt="" loading="lazy" className="absolute inset-0 h-full w-full object-cover" />}
                 <span className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/10 to-black/40" />
-                <span className="absolute left-2.5 top-2 font-display text-4xl font-bold text-[#FFF4D6] [text-shadow:0_2px_8px_#000]">{e.n}</span>
-                <span className="absolute inset-0 m-auto grid h-11 w-11 place-items-center rounded-full bg-black/50 ring-2 ring-gold/70">
-                  <Play className="ml-0.5 h-5 w-5 fill-gold text-gold" />
+                <span className="absolute left-2 top-1.5 font-display text-2xl font-bold text-[#FFF4D6] [text-shadow:0_2px_8px_#000]">{e.n}</span>
+                <span className="absolute inset-0 m-auto grid h-8 w-8 place-items-center rounded-full bg-black/50 ring-2 ring-gold/70">
+                  <Play className="ml-0.5 h-3.5 w-3.5 fill-gold text-gold" />
                 </span>
-                <span className="absolute inset-x-2.5 bottom-2.5 line-clamp-2 text-xs font-bold leading-tight text-[#FFF4D6]">
+                <span className="absolute inset-x-1.5 bottom-1.5 line-clamp-2 text-[10px] font-bold leading-tight text-[#FFF4D6]">
                   {episodeTitle(e, lang) ?? `${t("episode")} ${e.n}`}
                 </span>
               </Link>
@@ -147,43 +156,12 @@ function Index() {
           </div>
         </section>
       )}
-
-      <FeaturedCharacters tr={tr} onPlay={setPlay} />
-
-      <section className="mt-8 px-5">
-        <h2 className="flex items-center gap-2 font-display text-xl font-bold text-gold">
-          <Sparkles className="h-5 w-5" /> {tr ? `Yakında: ${SOON_CHARACTERS.length} yeni karakter` : `Coming soon: ${SOON_CHARACTERS.length} new characters`}
-        </h2>
-        <p className="mt-1 text-xs text-muted-foreground">
-          {tr ? "Her biri 15 saniyelik yeni bir dünya. Fragmanları izle." : "Each one a new 15-second world. Watch the trailers."}
-        </p>
-        <div className="mt-3 grid grid-cols-2 gap-3">
-          {SOON_CHARACTERS.map((ch) => (
-            <div key={ch.key} className="overflow-hidden rounded-2xl border border-primary/30 bg-card">
-              <button onClick={() => openCharacter(ch)} className="relative block aspect-[9/16] w-full overflow-hidden bg-gradient-to-br from-primary/30 via-card to-accent/20 text-start">
-                <img src={ch.poster} alt="" loading="lazy" className="absolute inset-0 h-full w-full object-cover" />
-                <span className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/10 to-transparent" />
-                <span className="absolute left-2.5 top-2.5 rounded-full bg-black/60 px-2.5 py-1 text-[10px] font-bold uppercase tracking-widest text-gold">{tr ? "Yakında" : "Soon"}</span>
-                <span className="absolute inset-0 m-auto grid h-12 w-12 place-items-center rounded-full bg-black/50 ring-2 ring-gold/70">
-                  <Play className="ml-0.5 h-5 w-5 fill-gold text-gold" />
-                </span>
-                <span className="absolute inset-x-2.5 bottom-2.5">
-                  <span className="block font-display text-xl font-bold leading-tight text-[#FFF4D6] [text-shadow:0_2px_8px_#000]">{ch.name}</span>
-                  <span className="mt-0.5 line-clamp-2 block text-[11px] leading-snug text-foreground/85">{tr ? ch.hook.tr : ch.hook.en}</span>
-                </span>
-              </button>
-              <button onClick={() => earlyAccess(ch)} className="w-full border-t border-primary/20 px-3 py-2 text-xs font-bold text-gold">
-                {tr ? "Erken izle" : "Early access"}
-              </button>
-            </div>
-          ))}
-        </div>
-      </section>
-
+        </>}
+        middle={<>
       {/* Köşe: The Human Code: 2300 ve depodaki "nextMonth" listesindeki diziler yalnızca fragmanlarıyla durur; dizi ve ödeme sayfasına yönlendirme yoktur. */}
       {(legacy || nextMonth.length > 0) && (
-        <section className="mt-8 px-5">
-          <h2 className="text-sm font-bold">{tr ? "Önümüzdeki ay" : "Next month"}</h2>
+        <section className="mt-6 px-4">
+          <h2 className="font-display text-lg font-bold text-gold">{tr ? "Önümüzdeki ay" : "Next month"}</h2>
           <p className="mt-0.5 text-xs text-muted-foreground">{tr ? "Yeni diziler yolda. Fragmanlarını izle." : "New series are on the way. Watch the trailers."}</p>
           <div className="mt-3 flex gap-3 overflow-x-auto pb-2">
             {legacy && (
@@ -220,6 +198,8 @@ function Index() {
           </div>
         </section>
       )}
+        </>}
+      />
       </>)}
 
       {/* Tek dizi modunda eski fragmanlar, takvim ve kapsül ana ekranda gizlenir; kodları arşivde kalır. */}

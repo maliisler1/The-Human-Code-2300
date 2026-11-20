@@ -69,6 +69,8 @@ function Index() {
   if (!featured) return <AppShell><p className="px-5 pt-10 text-sm text-muted-foreground">{t("loading")}</p></AppShell>;
   const solo = featured.slug === SOLO_SLUG;
   const tr = lang === "tr";
+  const legacy = solo ? all.find((s) => s.slug === FEATURED_SLUG) : undefined;
+  const dream = solo ? UPCOMING.find((u) => u.key === "ruya-arsivi") : undefined;
   const openCharacter = (ch: UpcomingCharacter) => setPlay({ src: ch.video, title: ch.name, poster: ch.poster });
   const earlyAccess = (ch: UpcomingCharacter) =>
     toast.info(tr ? `${ch.name} yakında geliyor. Erken izleme açıldığında burada görünecek.` : `${ch.name} is coming soon. Early access will appear here when it opens.`);
@@ -168,9 +170,38 @@ function Index() {
           ))}
         </div>
       </section>
+
+      {/* Köşe: önceki dizi (The Human Code: 2300) ve Rüya Arşivi fragmanı küçük kartlar halinde erişilebilir kalır. */}
+      {(legacy || dream) && (
+        <section className="mt-8 px-5">
+          <h2 className="text-sm font-bold">{t("more_series")}</h2>
+          <div className="mt-3 flex gap-3 overflow-x-auto pb-2">
+            {legacy && (
+              <Link to="/dizi/$slug" params={{ slug: legacy.slug }} className="w-28 shrink-0">
+                {BUNDLED_POSTERS[legacy.slug] ? (
+                  <img src={BUNDLED_POSTERS[legacy.slug]} alt={legacy.title} loading="lazy" className="aspect-[2/3] w-full rounded-2xl object-cover" />
+                ) : (
+                  <div className="aspect-[2/3] w-full rounded-2xl bg-gradient-to-br from-primary/30 via-card to-accent/20" />
+                )}
+                <p className="mt-2 line-clamp-2 text-xs font-semibold">{legacy.title}</p>
+              </Link>
+            )}
+            {dream && (
+              <button onClick={() => openUpcoming(dream)} className="w-28 shrink-0 text-start">
+                {dream.poster ? (
+                  <img src={trailerUrl(dream.poster)} alt="" loading="lazy" className="aspect-[2/3] w-full rounded-2xl object-cover" />
+                ) : (
+                  <div className="aspect-[2/3] w-full rounded-2xl bg-gradient-to-br from-primary/30 via-card to-accent/20" />
+                )}
+                <p className="mt-2 line-clamp-2 text-xs font-semibold">{tr ? dream.title : dream.titleEn}</p>
+              </button>
+            )}
+          </div>
+        </section>
+      )}
       </>)}
 
-      {/* Tek dizi modunda eski fragmanlar, takvim, kapsül ve diğer diziler ana ekranda gizlenir; kodları arşivde kalır. */}
+      {/* Tek dizi modunda eski fragmanlar, takvim ve kapsül ana ekranda gizlenir; kodları arşivde kalır. */}
       {!solo && (<>
       {/* 2) Gelecek diziler: büyük fragman kartları */}
       <section className="mt-6 px-5">

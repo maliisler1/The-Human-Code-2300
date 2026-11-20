@@ -4,6 +4,14 @@
  * These are used as a fallback when Supabase storage doesn't have the video yet.
  */
 export const BUNDLED_VIDEOS: Record<string, Record<number, string>> = {
+  // Snooze with Tik: 15 saniyelik bölümler uygulamayla birlikte gelir (public/snooze).
+  "snooze-with-tik": {
+    1: "/snooze/ep1.mp4",
+    2: "/snooze/ep2.mp4",
+    3: "/snooze/ep3.mp4",
+    4: "/snooze/ep4.mp4",
+    5: "/snooze/ep5.mp4",
+  },
   "the-human-code-2300": {
     1: "/sample.mp4",
     2: "/sample-2.mp4",

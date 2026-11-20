@@ -1,3 +1,5 @@
+import { useAnimationAccess } from "@/components/AnimationSubscribe";
+import { ownsSeries } from "@/lib/animations";
 import { createFileRoute, Link, notFound, useNavigate } from "@tanstack/react-router";
 import { useSuspenseQuery } from "@tanstack/react-query";
 import { useEffect, useRef, useState } from "react";
@@ -40,9 +42,10 @@ export function Player() {
   const [retry, setRetry] = useState(0);
   const [autoplay, setAutoplay] = useState(() => localStorage.getItem("amc-autoplay") !== "false");
   const [countdown, setCountdown] = useState<number | null>(null);
+  const owned = ownsSeries(slug, state.seasonOwned, useAnimationAccess());
   const ep = eps.find((e) => e.n === n);
   const next = nextPlayable(eps, n);
-  const allowed = !!ep && hasEpisodeAccess(ep, state.unlocked, FREE_EPISODES, state.seasonOwned);
+  const allowed = !!ep && hasEpisodeAccess(ep, state.unlocked, FREE_EPISODES, owned);
   const completed = useRef(false);
   const seek = useRef(0);
   const mutedFallback = useRef(false);
@@ -129,7 +132,7 @@ export function Player() {
   const goNext = () => {
     setCountdown(null);
     if (!next) return;
-    if (!hasEpisodeAccess(next, state.unlocked, FREE_EPISODES, state.seasonOwned)) {
+    if (!hasEpisodeAccess(next, state.unlocked, FREE_EPISODES, owned)) {
       toast.info(t("locked_ep"));
       void nav({to:"/dizi/$slug",params:{slug}});
       return;

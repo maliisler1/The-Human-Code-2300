@@ -1,18 +1,9 @@
-import { Link } from "@tanstack/react-router";
-import { Crown, Lock, Play, Tv, Zap } from "lucide-react";
-import { useEffect, useState } from "react";
+import { Lock, Play, Tv, Zap } from "lucide-react";
+import { useState } from "react";
 import { toast } from "sonner";
-import { ParentGate } from "@/components/ParentGate";
+import { AnimationSubscribeButton, useAnimationAccess, useSubscriptionOffer } from "@/components/AnimationSubscribe";
 import { ads } from "@/lib/ads";
-import { isChild } from "@/lib/age";
-import {
-  FREE_CHARACTER_EPISODES,
-  animations,
-  characterEpisodeId,
-  hasCharacterAccess,
-  loadAnimationAccess,
-  saveAnimationAccess,
-} from "@/lib/animations";
+import { FREE_CHARACTER_EPISODES, characterEpisodeId, getAnimationAccess, hasCharacterAccess, setAnimationAccess, type AnimationAccess } from "@/lib/animations";
 import { characterEpisode, useCharacters, type UpcomingCharacter } from "@/lib/characters";
 import { useAppState } from "@/lib/store";
 
@@ -22,30 +13,15 @@ type Playing = { src: string; title: string; poster?: string | undefined; vertic
  * Öne alınan karakterler: bölümleri yayında olan yeni diziler.
  * Karta dokununca 1. bölüm, altındaki numaralara dokununca o bölüm oynar.
  * Bölüm bitince sıradaki bölüm otomatik açılır.
- * İlk 2 bölüm ücretsiz; sonrakiler reklam izleyerek ya da satın alarak açılır.
+ * İlk 2 bölüm ücretsiz; sonrakiler reklam izleyerek ya da aylık abonelikle açılır.
  */
 export function FeaturedCharacters({ tr, onPlay }: { tr: boolean; onPlay: (p: Playing | null) => void }) {
   const { state } = useAppState();
   const { featured: FEATURED_CHARACTERS } = useCharacters();
-  const [access, setAccess] = useState(loadAnimationAccess);
+  const access = useAnimationAccess();
+  const offer = useSubscriptionOffer();
   const [locked, setLocked] = useState<{ ch: UpcomingCharacter; n: number } | null>(null);
   const [busy, setBusy] = useState(false);
-  const [price, setPrice] = useState<string | null>(null);
-  const [parentGate, setParentGate] = useState(false);
-
-  useEffect(() => {
-    // Google Play'deki animasyon paketi satın almasını ve fiyatını bir kez sorgula.
-    void animations.price().then(setPrice);
-    void animations.check().then((owned) => {
-      if (owned === null) return;
-      setAccess((a) => {
-        if (a.owned === owned) return a;
-        const next = { ...a, owned };
-        saveAnimationAccess(next);
-        return next;
-      });
-    });
-  }, []);
 
   if (FEATURED_CHARACTERS.length === 0) return null;
 
@@ -73,9 +49,8 @@ export function FeaturedCharacters({ tr, onPlay }: { tr: boolean; onPlay: (p: Pl
     });
   };
 
-  const openAfter = (next: typeof access) => {
-    saveAnimationAccess(next);
-    setAccess(next);
+  const openAfter = (next: AnimationAccess) => {
+    setAnimationAccess(next);
     if (!locked) return;
     const { ch, n } = locked;
     setLocked(null);
@@ -98,21 +73,6 @@ export function FeaturedCharacters({ tr, onPlay }: { tr: boolean; onPlay: (p: Pl
         : tr ? `${locked.n}. bölüm açıldı!` : `Episode ${locked.n} unlocked!`,
     );
     openAfter({ ...access, unlocked: [...access.unlocked, characterEpisodeId(locked.ch.key, locked.n)] });
-  };
-
-  const buy = async () => {
-    if (busy) return;
-    setBusy(true);
-    try {
-      if (await animations.buy()) {
-        toast.success(tr ? "Teşekkürler! Tüm animasyon bölümleri açıldı." : "Thank you! All animation episodes are unlocked.");
-        openAfter({ ...access, owned: true });
-      }
-    } catch {
-      toast.error(tr ? "Satın alma tamamlanamadı. Biraz sonra tekrar dene." : "The purchase could not be completed. Try again shortly.");
-    } finally {
-      setBusy(false);
-    }
   };
 
   return (
@@ -160,17 +120,6 @@ export function FeaturedCharacters({ tr, onPlay }: { tr: boolean; onPlay: (p: Pl
         ))}
       </div>
 
-      {parentGate && (
-        <ParentGate
-          tr={tr}
-          onCancel={() => setParentGate(false)}
-          onPass={() => {
-            setParentGate(false);
-            void buy();
-          }}
-        />
-      )}
-
       {locked && (
         <div className="fixed inset-0 z-[60] grid place-items-end bg-background/70 p-4 backdrop-blur-sm" onClick={() => setLocked(null)}>
           <div className="mx-auto w-full max-w-md rounded-3xl border bg-card p-6" onClick={(ev) => ev.stopPropagation()} role="dialog" aria-label={tr ? "Kilitli bölüm" : "Locked episode"}>
@@ -188,22 +137,7 @@ export function FeaturedCharacters({ tr, onPlay }: { tr: boolean; onPlay: (p: Pl
                 <Tv className="h-4 w-4" /> {busy ? "…" : tr ? "Reklam izle, bu bölümü aç" : "Watch an ad to unlock this episode"}
               </button>
             )}
-            {price ? (
-              <button
-                onClick={() => (isChild() ? setParentGate(true) : void buy())}
-                disabled={busy}
-                className="mt-2 flex w-full items-center justify-center gap-2 rounded-2xl bg-neon py-3.5 text-sm font-extrabold text-primary-foreground shadow-neon disabled:opacity-60"
-              >
-                <Crown className="h-4 w-4" /> {tr ? `Tüm animasyonları aç · ${price}` : `Unlock all animations · ${price}`}
-              </button>
-            ) : (
-              <Link
-                to="/jeton"
-                className="mt-2 flex w-full items-center justify-center gap-2 rounded-2xl bg-neon py-3.5 text-sm font-extrabold text-primary-foreground shadow-neon"
-              >
-                <Crown className="h-4 w-4" /> {tr ? "Satın al, hepsini aç" : "Buy and unlock everything"}
-              </Link>
-            )}
+            <AnimationSubscribeButton tr={tr} offer={offer} onSubscribed={() => openAfter({ ...getAnimationAccess(), owned: true })} />
           </div>
         </div>
       )}

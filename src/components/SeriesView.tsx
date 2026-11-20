@@ -1,3 +1,5 @@
+import { AnimationSubscribeButton, useAnimationAccess, useSubscriptionOffer } from "@/components/AnimationSubscribe";
+import { SNOOZE_SLUG, ownsSeries } from "@/lib/animations";
 import { Link, useNavigate } from "@tanstack/react-router";
 import { useSuspenseQuery } from "@tanstack/react-query";
 import { useState, type ReactNode } from "react";
@@ -72,7 +74,10 @@ export function SeriesView({
   const first = eps[0];
   const anyReady = eps.some((e) => e.status === "ready" && e.video_url);
 
-  const owned = state.seasonOwned;
+  // Animasyon dizilerinde aylık abonelik de bütün bölümleri açar.
+  const animated = s.slug === SNOOZE_SLUG;
+  const subOffer = useSubscriptionOffer();
+  const owned = ownsSeries(s.slug, state.seasonOwned, useAnimationAccess());
   const hasAccess = (n: number, episodeId: string) =>
     owned || n <= FREE_EPISODES || state.unlocked.includes(episodeId);
 
@@ -359,12 +364,16 @@ export function SeriesView({
                 <Tv className="h-4 w-4" /> {adBusy ? "…" : t("watch_ad")}
               </button>
             )}
-            <Link
-              to="/jeton"
-              className="mt-2 flex w-full items-center justify-center gap-2 rounded-2xl bg-neon py-3.5 text-sm font-extrabold text-primary-foreground shadow-neon"
-            >
-              <Crown className="h-4 w-4" /> {t("season_title")}
-            </Link>
+{animated && subOffer ? (
+              <AnimationSubscribeButton tr={lang === "tr"} offer={subOffer} onSubscribed={() => setLocked(null)} />
+            ) : !animated ? (
+              <Link
+                to="/jeton"
+                className="mt-2 flex w-full items-center justify-center gap-2 rounded-2xl bg-neon py-3.5 text-sm font-extrabold text-primary-foreground shadow-neon"
+              >
+                <Crown className="h-4 w-4" /> {t("season_title")}
+              </Link>
+            ) : null}
           </div>
         </div>
       )}

@@ -1,4 +1,4 @@
-import { Lock, Play, Tv, Zap } from "lucide-react";
+import { Lock, Play, Search, Tv, X, Zap } from "lucide-react";
 import { useEffect, useState, type ReactNode } from "react";
 import { toast } from "sonner";
 import { AnimationSubscribeButton, useAnimationAccess, useSubscriptionOffer } from "@/components/AnimationSubscribe";
@@ -43,6 +43,8 @@ export function FeaturedCharacters({
   const [open, setOpen] = useState<UpcomingCharacter | null>(null);
   const [slideAt, setSlideAt] = useState(0);
   const [filter, setFilter] = useState("all");
+  const [searching, setSearching] = useState(false);
+  const [query, setQuery] = useState("");
   const shelves = useShelves();
   const progress = useProgress();
 
@@ -159,8 +161,53 @@ export function FeaturedCharacters({
     </section>
   );
 
+  // Arama: karakter adı ve açıklamasında (iki dilde) geçenleri bulur.
+  const q = query.trim().toLocaleLowerCase(tr ? "tr" : "en");
+  const found = q ? all.filter((ch) => `${ch.name} ${ch.hook.tr} ${ch.hook.en}`.toLocaleLowerCase(tr ? "tr" : "en").includes(q)) : all;
+  const searchBar = (
+    <div className="flex items-center gap-2 px-4 pb-2 pt-1">
+      {searching ? (
+        <label className="flex flex-1 items-center gap-2 rounded-full border border-gold/40 bg-card px-3 py-2">
+          <Search className="h-4 w-4 shrink-0 text-gold" />
+          <input
+            autoFocus
+            value={query}
+            onChange={(ev) => setQuery(ev.target.value)}
+            placeholder={tr ? "Karakter ara" : "Search characters"}
+            aria-label={tr ? "Karakter ara" : "Search characters"}
+            className="min-w-0 flex-1 bg-transparent text-sm text-foreground outline-none placeholder:text-muted-foreground"
+          />
+        </label>
+      ) : (
+        <>
+          <span className="h-10 w-10 shrink-0" aria-hidden="true" />
+          <p className="flex-1 truncate text-center font-display text-lg font-bold text-gold">AI Multiverse Cinema</p>
+        </>
+      )}
+      <button
+        onClick={() => { setSearching((v) => !v); setQuery(""); }}
+        aria-label={searching ? (tr ? "Aramayı kapat" : "Close search") : tr ? "Ara" : "Search"}
+        className="grid h-10 w-10 shrink-0 place-items-center rounded-full border border-white/15 bg-card text-gold"
+      >
+        {searching ? <X className="h-5 w-5" /> : <Search className="h-5 w-5" />}
+      </button>
+    </div>
+  );
+
   return (
     <>
+      {searchBar}
+      {searching && (
+        <section className="px-4 pb-6">
+          <p className="text-[11px] text-muted-foreground">
+            {found.length > 0
+              ? tr ? `${found.length} sonuç` : `${found.length} results`
+              : tr ? "Sonuç bulunamadı. Başka bir ad dene." : "No results. Try another name."}
+          </p>
+          <div className="mt-3 grid grid-cols-3 gap-x-2.5 gap-y-4">{found.map((ch) => card(ch))}</div>
+        </section>
+      )}
+      {!searching && (<>
       {slide && (
         <section className="px-4 pt-1">
           <button onClick={slide.go} className="relative block h-[30vh] min-h-[200px] w-full overflow-hidden rounded-2xl border border-gold/30 text-start" aria-label={slide.title}>
@@ -220,6 +267,8 @@ export function FeaturedCharacters({
         </div>
         <div className="mt-3 grid grid-cols-3 gap-x-2.5 gap-y-4 px-4">{grid.map((ch) => card(ch))}</div>
       </section>
+
+      </>)}
 
       {open && !locked && (
         <div className="fixed inset-0 z-[55] grid place-items-end bg-background/70 backdrop-blur-sm" onClick={() => setOpen(null)}>

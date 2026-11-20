@@ -179,29 +179,41 @@ function Index() {
         </div>
       </section>
 
-      {/* Köşe: önceki dizi (The Human Code: 2300) ve Rüya Arşivi fragmanı küçük kartlar halinde erişilebilir kalır. */}
+      {/* Köşe: The Human Code: 2300 ve Rüya Arşivi yalnızca fragmanlarıyla durur; dizi ve ödeme sayfasına yönlendirme yoktur. */}
       {(legacy || dream) && (
         <section className="mt-8 px-5">
-          <h2 className="text-sm font-bold">{t("more_series")}</h2>
+          <h2 className="text-sm font-bold">{tr ? "Önümüzdeki ay" : "Next month"}</h2>
+          <p className="mt-0.5 text-xs text-muted-foreground">{tr ? "Yeni diziler yolda. Fragmanlarını izle." : "New series are on the way. Watch the trailers."}</p>
           <div className="mt-3 flex gap-3 overflow-x-auto pb-2">
             {legacy && (
-              <Link to="/dizi/$slug" params={{ slug: legacy.slug }} className="w-28 shrink-0">
+              <button
+                onClick={() => {
+                  const lt = SERIES_TRAILERS[legacy.slug];
+                  if (lt?.video) setPlay({ src: lt.video, title: legacy.title, poster: lt.poster });
+                  else toast.info(t("trailer_soon"));
+                }}
+                className="relative w-28 shrink-0 text-start"
+              >
                 {BUNDLED_POSTERS[legacy.slug] ? (
-                  <img src={BUNDLED_POSTERS[legacy.slug]} alt={legacy.title} loading="lazy" className="aspect-[2/3] w-full rounded-2xl object-cover" />
+                  <img src={BUNDLED_POSTERS[legacy.slug]} alt="" loading="lazy" className="aspect-[2/3] w-full rounded-2xl object-cover" />
                 ) : (
                   <div className="aspect-[2/3] w-full rounded-2xl bg-gradient-to-br from-primary/30 via-card to-accent/20" />
                 )}
+                <span className="absolute left-1.5 top-1.5 rounded-full bg-black/70 px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider text-gold">{tr ? "Önümüzdeki ay" : "Next month"}</span>
                 <p className="mt-2 line-clamp-2 text-xs font-semibold">{legacy.title}</p>
-              </Link>
+                <p className="text-[10px] text-muted-foreground">{tr ? "Fragmanı izle" : "Watch trailer"}</p>
+              </button>
             )}
             {dream && (
-              <button onClick={() => openUpcoming(dream)} className="w-28 shrink-0 text-start">
+              <button onClick={() => openUpcoming(dream)} className="relative w-28 shrink-0 text-start">
                 {dream.poster ? (
                   <img src={trailerUrl(dream.poster)} alt="" loading="lazy" className="aspect-[2/3] w-full rounded-2xl object-cover" />
                 ) : (
                   <div className="aspect-[2/3] w-full rounded-2xl bg-gradient-to-br from-primary/30 via-card to-accent/20" />
                 )}
+                <span className="absolute left-1.5 top-1.5 rounded-full bg-black/70 px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider text-gold">{tr ? "Önümüzdeki ay" : "Next month"}</span>
                 <p className="mt-2 line-clamp-2 text-xs font-semibold">{tr ? dream.title : dream.titleEn}</p>
+                <p className="text-[10px] text-muted-foreground">{tr ? "Fragmanı izle" : "Watch trailer"}</p>
               </button>
             )}
           </div>

@@ -1,5 +1,6 @@
 import { Capacitor } from "@capacitor/core";
 import { NativePurchases, PURCHASE_TYPE, type Transaction } from "@capgo/native-purchases";
+import { billingQueue } from "./billing-queue";
 
 /**
  * "Sezonu Satın Al": Google Play'de tek seferlik (inapp) ürün.
@@ -30,7 +31,7 @@ export function createSeasonStore(
   async function available(): Promise<boolean> {
     if (!native()) return false;
     try {
-      return (await sdk.isBillingSupported()).isBillingSupported;
+      return (await billingQueue(() => sdk.isBillingSupported())).isBillingSupported;
     } catch {
       return false;
     }
@@ -40,10 +41,10 @@ export function createSeasonStore(
   async function price(): Promise<string | null> {
     if (!(await available())) return null;
     try {
-      const { products } = await sdk.getProducts({
+      const { products } = await billingQueue(() => sdk.getProducts({
         productIdentifiers: [SEASON_PRODUCT_ID],
         productType: PURCHASE_TYPE.INAPP,
-      });
+      }));
       return products[0]?.priceString ?? null;
     } catch {
       return null;
@@ -78,7 +79,7 @@ export function createSeasonStore(
   async function check(): Promise<boolean | null> {
     if (!(await available())) return null;
     try {
-      const { purchases } = await sdk.getPurchases({ productType: PURCHASE_TYPE.INAPP });
+      const { purchases } = await billingQueue(() => sdk.getPurchases({ productType: PURCHASE_TYPE.INAPP }));
       return ownsSeason(purchases);
     } catch {
       return null;

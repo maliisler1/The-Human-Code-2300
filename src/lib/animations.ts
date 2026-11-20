@@ -1,5 +1,6 @@
 import { Capacitor } from "@capacitor/core";
 import { NativePurchases, PURCHASE_TYPE, type Product, type Transaction } from "@capgo/native-purchases";
+import { billingQueue } from "./billing-queue";
 
 /**
  * Animasyon dizileri (Snooze with Tik ve karakter dizileri) için erişim kuralları.
@@ -98,7 +99,7 @@ export function createAnimationStore(sdk: Billing = NativePurchases, native = ()
   async function available(): Promise<boolean> {
     if (!native()) return false;
     try {
-      return (await sdk.isBillingSupported()).isBillingSupported;
+      return (await billingQueue(() => sdk.isBillingSupported())).isBillingSupported;
     } catch {
       return false;
     }
@@ -108,7 +109,7 @@ export function createAnimationStore(sdk: Billing = NativePurchases, native = ()
   async function offer(): Promise<SubscriptionOffer | null> {
     if (!(await available())) return null;
     try {
-      const { products } = await sdk.getProducts({ productIdentifiers: [ANIMATION_SUBSCRIPTION_ID], productType: PURCHASE_TYPE.SUBS });
+      const { products } = await billingQueue(() => sdk.getProducts({ productIdentifiers: [ANIMATION_SUBSCRIPTION_ID], productType: PURCHASE_TYPE.SUBS }));
       return pickOffer(products);
     } catch {
       return null;
@@ -136,7 +137,7 @@ export function createAnimationStore(sdk: Billing = NativePurchases, native = ()
   async function check(): Promise<boolean | null> {
     if (!(await available())) return null;
     try {
-      const { purchases } = await sdk.getPurchases({ productType: PURCHASE_TYPE.SUBS });
+      const { purchases } = await billingQueue(() => sdk.getPurchases({ productType: PURCHASE_TYPE.SUBS }));
       return hasActiveSubscription(purchases);
     } catch {
       return null;

@@ -23,9 +23,9 @@ jobs:
               for it in c['files']:
                   src=it['src']; out=it['out']
                   if os.path.exists(out): continue
-                  parts=sorted(glob.glob(src+'.part*'))
-                  subprocess.run('cat '+' '.join(parts)+' > /tmp/v.mp4',shell=True,check=True)
-                  segs,_=m.transcribe('/tmp/v.mp4',word_timestamps=False,vad_filter=True)
+                  import wave,numpy as np
+                  w=wave.open(src); a=np.frombuffer(w.readframes(w.getnframes()),np.int16).astype(np.float32)/32768
+                  segs,_=m.transcribe(a,word_timestamps=False,vad_filter=True)
                   r=[{'s':round(s.start,2),'e':round(s.end,2),'t':s.text.strip()} for s in segs]
                   os.makedirs(os.path.dirname(out),exist_ok=True)
                   json.dump(r,open(out,'w'),ensure_ascii=False,indent=0)

@@ -10,6 +10,8 @@ export function TrailerModal({
   title,
   subsKey,
   defaultLang = "tr",
+  vertical,
+  onEnded,
   onClose,
 }: {
   src: string;
@@ -17,6 +19,10 @@ export function TrailerModal({
   title: string;
   subsKey?: string | undefined;
   defaultLang?: string;
+  /** Dikey (9:16) video: ekranı dolduracak şekilde gösterilir. */
+  vertical?: boolean | undefined;
+  /** Video bitince çağrılır (ör. sonraki bölüme geç). Verilmezse pencere kapanır. */
+  onEnded?: (() => void) | undefined;
   onClose: () => void;
 }) {
   const subs = subsKey ? TRAILER_SUBS[subsKey] : undefined;
@@ -43,16 +49,17 @@ export function TrailerModal({
         <X className="h-6 w-6" />
       </button>
       <p className="mb-3 text-center font-display text-lg text-gold">{title}</p>
-      <div className="relative w-full max-w-3xl">
+      <div className={vertical ? "relative h-[78vh] max-w-full aspect-[9/16]" : "relative w-full max-w-3xl"}>
         <video
+          key={src}
           src={src}
           poster={poster}
           controls
           autoPlay
           playsInline
-          className="aspect-video w-full rounded-xl bg-black"
+          className={vertical ? "h-full w-full rounded-xl bg-black object-contain" : "aspect-video w-full rounded-xl bg-black"}
           onTimeUpdate={(e) => setTime(e.currentTarget.currentTime)}
-          onEnded={onClose}
+          onEnded={onEnded ?? onClose}
         />
         {line && (
           <p

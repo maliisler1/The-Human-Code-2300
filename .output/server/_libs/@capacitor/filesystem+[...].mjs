@@ -1,5 +1,5 @@
 import { n as __exportAll } from "../../_runtime.mjs";
-import { d as registerPlugin, l as WebPlugin, u as buildRequestInit } from "../@capacitor-community/admob+[...].mjs";
+import { d as buildRequestInit, f as registerPlugin, u as WebPlugin } from "../@capacitor-community/admob+[...].mjs";
 //#region node_modules/.pnpm/@capacitor+synapse@1.0.4/node_modules/@capacitor/synapse/dist/synapse.mjs
 function s(t) {
 	t.CapacitorUtils.Synapse = new Proxy({}, { get(e, n) {

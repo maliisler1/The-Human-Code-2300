@@ -1,4 +1,4 @@
-import { f as globalthis_default } from "./@capacitor-community/admob+[...].mjs";
+import { p as globalthis_default } from "./@capacitor-community/admob+[...].mjs";
 import { n as Socket, t as Presence } from "./supabase__phoenix.mjs";
 //#region node_modules/.pnpm/@supabase+realtime-js@2.117.3/node_modules/@supabase/realtime-js/dist/module/lib/websocket-factory.js
 /**

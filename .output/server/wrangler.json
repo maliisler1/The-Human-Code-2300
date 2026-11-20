@@ -1,11 +1,11 @@
 {
-  "compatibility_date": "2026-11-13",
+  "compatibility_date": "2026-11-20",
   "main": "index.mjs",
   "assets": {
     "binding": "ASSETS",
     "directory": "../public"
   },
-  "name": "maliisler1-ai-multiverse-cinema",
+  "name": "maliisler1-the-human-code-2300",
   "compatibility_flags": [
     "nodejs_compat"
   ],

@@ -1,3 +1,4 @@
+import { AgeGate } from "@/components/AgeGate";
 import { Link } from "@tanstack/react-router";
 import { Hop as Home, User, Crown, Languages, ShieldCheck } from "lucide-react";
 import { useEffect, useState, type ReactNode } from "react";
@@ -83,6 +84,7 @@ export function AppShell({ children }: { children: ReactNode }) {
   return (
     <div className="mx-auto min-h-screen max-w-md bg-background app-safe-top app-ad-space">
       {children}
+      <AgeGate tr={lang === "tr"} />
       <nav className="fixed inset-x-0 bottom-0 z-50 mx-auto max-w-md glass border-t app-safe-bottom app-ad-nav">
         <div className="grid grid-cols-3">
           {nav.map(({ to, label, icon: Icon }) => (

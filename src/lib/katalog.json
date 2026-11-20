@@ -105,61 +105,71 @@
       "key": "lumo",
       "name": "Lumo",
       "tr": "Söylenmemiş sözleri taşıyan bekçi.",
-      "en": "The keeper who carries unsaid words."
+      "en": "The keeper who carries unsaid words.",
+      "episodes": 5
     },
     {
       "key": "wiff",
       "name": "Wiff",
       "tr": "Son sinyal çubuğu. Dayan Wiff.",
-      "en": "The last signal bar. Hold on, Wiff."
+      "en": "The last signal bar. Hold on, Wiff.",
+      "episodes": 5
     },
     {
       "key": "pop",
       "name": "Pop",
       "tr": "Bu sefer yanmayacak. Yine yandı.",
-      "en": "Not burnt this time. Burnt again."
+      "en": "Not burnt this time. Burnt again.",
+      "episodes": 5
     },
     {
       "key": "drip",
       "name": "Drip",
       "tr": "Düşmemeye çalışan bir damla.",
-      "en": "A drop trying not to fall."
+      "en": "A drop trying not to fall.",
+      "episodes": 5
     },
     {
       "key": "remo",
       "name": "Remo",
       "tr": "Koltuğun dibinde saklanan kumanda.",
-      "en": "The remote hiding deep in the sofa."
+      "en": "The remote hiding deep in the sofa.",
+      "episodes": 5
     },
     {
       "key": "fizz",
       "name": "Fizz",
       "tr": "Yukarı çıkmak isteyen bir baloncuk.",
-      "en": "A bubble racing to the top."
+      "en": "A bubble racing to the top.",
+      "episodes": 5
     },
     {
       "key": "glim",
       "name": "Glim",
       "tr": "Karanlığı uzak tutan gece lambası.",
-      "en": "The night light that keeps the dark away."
+      "en": "The night light that keeps the dark away.",
+      "episodes": 5
     },
     {
       "key": "mel",
       "name": "Mel",
       "tr": "Erimeden önce yenmek istiyor.",
-      "en": "It wants to be eaten before it melts."
+      "en": "It wants to be eaten before it melts.",
+      "episodes": 5
     },
     {
       "key": "kiko",
       "name": "Kiko",
       "tr": "Her sabah kaybolan anahtar.",
-      "en": "The key that gets lost every morning."
+      "en": "The key that gets lost every morning.",
+      "episodes": 5
     },
     {
       "key": "nudl",
       "name": "Nudl",
       "tr": "Çözülmek isterken düğüm olan kablo.",
-      "en": "The cable that tangles while untangling."
+      "en": "The cable that tangles while untangling.",
+      "episodes": 5
     },
     {
       "key": "pix",

@@ -169,7 +169,7 @@ export function Player() {
           <p role="alert">{tr("Video yüklenemedi. İnternet bağlantınızı kontrol edin.","Video could not load. Check your connection.")}</p>
           <button className="rounded-full bg-primary p-3" onClick={() => setRetry(v=>v+1)}>{tr("Yeniden dene","Try again")}</button>
         </div> : src ? <>
-          <video key={ep.id+":"+retry} ref={video} src={src} controls autoPlay playsInline preload="auto" className="aspect-video w-full"
+          <video key={"v:"+retry} ref={video} src={src} controls autoPlay playsInline preload="auto" className="aspect-video w-full"
             onLoadedMetadata={e=>{setFailed(false);setBuffering(false);if(seek.current>5 && seek.current<e.currentTarget.duration)e.currentTarget.currentTime=seek.current;}}
             onError={()=>setFailed(true)} onWaiting={()=>setBuffering(true)} onPlaying={()=>setBuffering(false)} onCanPlay={e=>{setBuffering(false);const v=e.currentTarget;if(v&&!mutedFallback.current){void v.play().catch(()=>{mutedFallback.current=true;v.muted=true;void v.play().catch(()=>{});});}}}
             onPlay={syncAudio} onPause={()=>{audio.current?.pause();save();}} onSeeking={syncAudio} onTimeUpdate={syncAudio} onRateChange={syncAudio} onVolumeChange={syncAudio}

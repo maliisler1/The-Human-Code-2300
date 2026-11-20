@@ -3,7 +3,7 @@
 # scripts/varliklar.json dosyasındaki her kayıt için kaynağı indirir:
 #   görsel -> public/<hedef>.webp (540 piksel genişlik)
 #   video  -> public/<hedef>.mp4  (480 piksel genişlik, H.264 + AAC)
-# Sonucu çalıştığı dala işler. Dosyalar public/ altında olduğu için hem web
+# Daha önce indirilmiş dosyaları atlar. Sonucu çalıştığı dala işler. Dosyalar public/ altında olduğu için hem web
 # sitesine hem Android paketine girer.
 #
 # Çalıştırma: GitHub → Actions → "Varlıkları indir" → Run workflow
@@ -45,12 +45,12 @@ jobs:
               echo "::error::Geçersiz hedef: $hedef"; exit 1
             fi
             mkdir -p "public/$(dirname "$hedef")"
-            if [ -n "$gorsel" ]; then
+            if [ -n "$gorsel" ] && [ ! -f "public/$hedef.webp" ]; then
               curl -fsSL --http1.1 --retry 5 --retry-all-errors --retry-delay 3 --max-time 180 -o "$tmp/g" -- "$gorsel"
               ffmpeg -loglevel error -y -i "$tmp/g" -vf "scale=540:-2" -quality 80 "public/$hedef.webp"
               echo "görsel: public/$hedef.webp ($(stat -c %s "public/$hedef.webp") bayt)"
             fi
-            if [ -n "$video" ]; then
+            if [ -n "$video" ] && [ ! -f "public/$hedef.mp4" ]; then
               curl -fsSL --http1.1 --retry 5 --retry-all-errors --retry-delay 3 --max-time 300 -o "$tmp/v" -- "$video"
               ffmpeg -loglevel error -y -i "$tmp/v" -vf "scale=480:-2" -c:v libx264 -crf 29 -preset slow \
                 -pix_fmt yuv420p -c:a aac -b:a 64k -movflags +faststart "public/$hedef.mp4"

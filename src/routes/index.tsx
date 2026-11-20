@@ -3,7 +3,8 @@ import { useQuery, useSuspenseQuery } from "@tanstack/react-query";
 import { Sparkles, Orbit, Play, Film, CalendarDays } from "lucide-react";
 import { AppShell } from "@/components/AppShell";
 import { episodeListQuery, episodeTitle, seriesListQuery, seriesTextOf, type SeriesRow } from "@/lib/catalog";
-import { UPCOMING_CHARACTERS, type UpcomingCharacter } from "@/lib/characters";
+import { SOON_CHARACTERS, type UpcomingCharacter } from "@/lib/characters";
+import { FeaturedCharacters } from "@/components/FeaturedCharacters";
 import { FEATURED_SLUG, SOLO_SLUG } from "@/lib/data";
 import { BUNDLED_POSTERS } from "@/lib/posters";
 import { useT } from "@/lib/i18n";
@@ -141,15 +142,17 @@ function Index() {
         </section>
       )}
 
+      <FeaturedCharacters tr={tr} onPlay={setPlay} />
+
       <section className="mt-8 px-5">
         <h2 className="flex items-center gap-2 font-display text-xl font-bold text-gold">
-          <Sparkles className="h-5 w-5" /> {tr ? `Yakında: ${UPCOMING_CHARACTERS.length} yeni karakter` : `Coming soon: ${UPCOMING_CHARACTERS.length} new characters`}
+          <Sparkles className="h-5 w-5" /> {tr ? `Yakında: ${SOON_CHARACTERS.length} yeni karakter` : `Coming soon: ${SOON_CHARACTERS.length} new characters`}
         </h2>
         <p className="mt-1 text-xs text-muted-foreground">
           {tr ? "Her biri 15 saniyelik yeni bir dünya. Fragmanları izle." : "Each one a new 15-second world. Watch the trailers."}
         </p>
         <div className="mt-3 grid grid-cols-2 gap-3">
-          {UPCOMING_CHARACTERS.map((ch) => (
+          {SOON_CHARACTERS.map((ch) => (
             <div key={ch.key} className="overflow-hidden rounded-2xl border border-primary/30 bg-card">
               <button onClick={() => openCharacter(ch)} className="relative block aspect-[9/16] w-full overflow-hidden bg-gradient-to-br from-primary/30 via-card to-accent/20 text-start">
                 <img src={ch.poster} alt="" loading="lazy" className="absolute inset-0 h-full w-full object-cover" />

@@ -131,8 +131,9 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const checkAdmin = useCallback(async (userId: string) => {
-    const { data } = await supabase.from("user_roles").select("role").eq("user_id", userId).maybeSingle();
-    setIsAdmin(data?.role === "admin");
+    // Bir hesabın birden çok rolü olabilir (ör. "user" ve "admin"); herhangi biri admin ise yöneticidir.
+    const { data } = await supabase.from("user_roles").select("role").eq("user_id", userId);
+    setIsAdmin((data ?? []).some((row) => row.role === "admin"));
   }, []);
 
   useEffect(() => {

@@ -181,7 +181,10 @@ export function FeaturedCharacters({
       ) : (
         <>
           <span className="h-10 w-10 shrink-0" aria-hidden="true" />
-          <p className="flex-1 truncate text-center font-display text-lg font-bold text-gold">AI Multiverse Cinema</p>
+          <p className="flex-1 text-center leading-none" aria-label="AI Multiverse Cinema">
+            <span className="block text-[10px] font-extrabold tracking-[0.45em] text-[#C9B8FF]">AI MULTIVERSE</span>
+            <span className="mt-0.5 block text-[22px] font-black tracking-[0.14em] text-gold" style={{ fontFamily: '"Cinzel Decorative", serif' }}>CINEMA</span>
+          </p>
         </>
       )}
       <button

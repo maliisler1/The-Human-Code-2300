@@ -1,5 +1,5 @@
 import { Captions, X } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { SUB_LANGS, SUB_NAMES, type SubLang } from "@/lib/i18n";
 import { TRAILER_SUBS } from "@/lib/trailerSubs";
 
@@ -30,6 +30,19 @@ export function TrailerModal({
   const [lang, setLang] = useState<SubLang | "off">(start);
   const [menu, setMenu] = useState(false);
   const [time, setTime] = useState(0);
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const firstSrc = useRef(src);
+
+  // Sıradaki bölüme geçerken aynı video öğesi kullanılır: tam ekran ve ses ayarı bozulmaz.
+  useEffect(() => {
+    if (firstSrc.current === src) return;
+    firstSrc.current = src;
+    const v = videoRef.current;
+    if (!v) return;
+    setTime(0);
+    v.load();
+    void v.play().catch(() => undefined);
+  }, [src]);
 
   useEffect(() => {
     const k = (e: KeyboardEvent) => e.key === "Escape" && onClose();
@@ -44,20 +57,20 @@ export function TrailerModal({
   }
 
   return (
-    <div className="fixed inset-0 z-[60] flex flex-col items-center justify-center bg-black/95 p-3" role="dialog" aria-label={title}>
-      <button onClick={onClose} className="absolute right-4 top-[max(1rem,env(safe-area-inset-top))] rounded-full glass p-2" aria-label="close">
+    <div className={`fixed inset-0 z-[60] flex flex-col items-center justify-center bg-black ${vertical ? "p-0" : "bg-black/95 p-3"}`} role="dialog" aria-label={title}>
+      <button onClick={onClose} className="absolute right-4 top-[max(1rem,env(safe-area-inset-top))] z-10 rounded-full glass p-2" aria-label="close">
         <X className="h-6 w-6" />
       </button>
-      <p className="mb-3 text-center font-display text-lg text-gold">{title}</p>
-      <div className={vertical ? "relative h-[78vh] max-w-full aspect-[9/16]" : "relative w-full max-w-3xl"}>
+      <p className={vertical ? "pointer-events-none absolute inset-x-14 top-[max(1.25rem,env(safe-area-inset-top))] z-10 truncate text-center font-display text-base text-gold [text-shadow:0_1px_4px_#000]" : "mb-3 text-center font-display text-lg text-gold"}>{title}</p>
+      <div className={vertical ? "relative h-[100dvh] w-full" : "relative w-full max-w-3xl"}>
         <video
-          key={src}
+          ref={videoRef}
           src={src}
           poster={poster}
           controls
           autoPlay
           playsInline
-          className={vertical ? "h-full w-full rounded-xl bg-black object-contain" : "aspect-video w-full rounded-xl bg-black"}
+          className={vertical ? "h-full w-full bg-black object-contain" : "aspect-video w-full rounded-xl bg-black"}
           onTimeUpdate={(e) => setTime(e.currentTarget.currentTime)}
           onEnded={onEnded ?? onClose}
         />

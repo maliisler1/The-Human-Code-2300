@@ -2,10 +2,11 @@ import { describe, expect, it } from "vitest";
 import { BUNDLED_CATALOG, UPCOMING_CHARACTERS, catalogPaths, characterEpisode, parseCatalog, splitCharacters } from "@/lib/characters";
 
 describe("animasyon kataloğu", () => {
-  it("uygulamayla gelen katalogda 5 öne alınan, 15 yakında karakter var", () => {
+  it("uygulamayla gelen katalogda 15 öne alınan, 5 yakında karakter var", () => {
     const { featured, soon } = splitCharacters(UPCOMING_CHARACTERS);
-    expect(featured.map((c) => c.key)).toEqual(["bip", "dusty", "pizzo", "zizi", "sok"]);
-    expect(soon).toHaveLength(15);
+    expect(featured.map((c) => c.key).slice(0, 5)).toEqual(["bip", "dusty", "pizzo", "zizi", "sok"]);
+    expect(featured).toHaveLength(15);
+    expect(soon.map((c) => c.key)).toEqual(["pix", "boon", "sprout", "ding", "mag"]);
   });
   it("depoya ulaşılamadığında afiş uygulamadan gelir, video bağlantısı boştur", () => {
     const bip = UPCOMING_CHARACTERS[0]!;
@@ -14,9 +15,9 @@ describe("animasyon kataloğu", () => {
     expect(characterEpisode(bip, 1)).toBe("");
   });
   it("depoda olması gereken dosyaları sayar", () => {
-    // 20 fragman + 5 karakter x 5 bölüm; afişler uygulamayla geldiği için sayılmaz.
-    expect(catalogPaths(BUNDLED_CATALOG)).toHaveLength(45);
-    expect(catalogPaths(BUNDLED_CATALOG, true)).toHaveLength(65);
+    // 20 fragman + 15 karakter x 5 bölüm; afişler uygulamayla geldiği için sayılmaz.
+    expect(catalogPaths(BUNDLED_CATALOG)).toHaveLength(95);
+    expect(catalogPaths(BUNDLED_CATALOG, true)).toHaveLength(115);
     expect(catalogPaths([{ key: "yeni", name: "Yeni", tr: "a", en: "b", episodes: 2 }])).toEqual([
       "karakterler/yeni.mp4",
       "karakterler/yeni.webp",

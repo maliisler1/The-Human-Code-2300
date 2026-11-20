@@ -1,3 +1,5 @@
+import { useAnimationAccess } from "@/components/AnimationSubscribe";
+import { refreshSubscription } from "@/lib/animations";
 import { AgeGate } from "@/components/AgeGate";
 import { Link } from "@tanstack/react-router";
 import { Hop as Home, User, Crown, Languages, ShieldCheck } from "lucide-react";
@@ -63,11 +65,15 @@ function LanguageSuggestion() {
 export function AppShell({ children }: { children: ReactNode }) {
   const { t, lang } = useT();
   const { state, update, ready } = useAppState();
-  useEffect(() => { void ads.setAdFree(state.seasonOwned).then(() => ads.start()); }, [state.seasonOwned]);
+  // Sezonu satın alan ya da animasyon abonesi olan kullanıcıya reklam gösterilmez.
+  const subscribed = useAnimationAccess().owned;
+  const adFree = state.seasonOwned || subscribed;
+  useEffect(() => { void ads.setAdFree(adFree).then(() => ads.start()); }, [adFree]);
   useEffect(() => {
     // Uygulama açılışında Google Play'deki sezon satın almasını bir kez doğrula.
     if (!ready || seasonChecked) return;
     seasonChecked = true;
+    void refreshSubscription();
     void season.check().then((owned) => {
       if (owned !== null) update((s) => (s.seasonOwned === owned ? s : { ...s, seasonOwned: owned }));
     });

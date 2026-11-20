@@ -1,3 +1,4 @@
+import { AnimationSubscriptionCard } from "@/components/AnimationSubscribe";
 import { ParentGate } from "@/components/ParentGate";
 import { isChild } from "@/lib/age";
 import { createFileRoute } from "@tanstack/react-router";
@@ -88,6 +89,8 @@ function SeasonShop() {
         <h1 className="text-xl font-bold">{t("season_title")}</h1>
         <TokenBadge />
       </header>
+
+      <AnimationSubscriptionCard tr={lang === "tr"} />
 
       <div className="mx-5 mt-6 rounded-3xl border-2 border-primary bg-card p-5 shadow-neon">
         <p className="flex items-center gap-2 text-sm font-bold">

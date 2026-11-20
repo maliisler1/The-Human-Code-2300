@@ -1,6 +1,6 @@
 import { r as __toESM, t as __commonJSMin } from "../../_runtime.mjs";
 import { d as require_react_dom, f as require_jsx_runtime, p as require_react } from "../@radix-ui/react-alert-dialog+[...].mjs";
-import { p as globalthis_default } from "../@capacitor-community/admob+[...].mjs";
+import { f as globalthis_default } from "../@capacitor-community/admob+[...].mjs";
 import { n as normalizeProtocolRelative, r as parseHref } from "../tanstack__history.mjs";
 
 import { PassThrough, Readable } from "node:stream";

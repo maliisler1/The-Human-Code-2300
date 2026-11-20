@@ -1,5 +1,5 @@
 import { n as __exportAll } from "../_runtime.mjs";
-import { f as registerPlugin, u as WebPlugin } from "./@capacitor-community/admob+[...].mjs";
+import { d as registerPlugin, l as WebPlugin } from "./@capacitor-community/admob+[...].mjs";
 //#region node_modules/.pnpm/@capgo+native-purchases@8.9.15_@capacitor+core@8.5.2/node_modules/@capgo/native-purchases/dist/esm/definitions.js
 var ATTRIBUTION_NETWORK;
 (function(ATTRIBUTION_NETWORK) {

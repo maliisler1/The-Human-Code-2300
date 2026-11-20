@@ -969,4 +969,4 @@ var AdMobWeb = class extends WebPlugin {
 	}
 };
 //#endregion
-export { BannerAdSize as a, MaxAdContentRating as c, buildRequestInit as d, registerPlugin as f, InterstitialAdPluginEvents as i, Capacitor as l, AdmobConsentStatus as n, BannerAdPosition as o, globalthis_default as p, RewardAdPluginEvents as r, BannerAdPluginEvents as s, AdMob as t, WebPlugin as u };
+export { BannerAdSize as a, Capacitor as c, registerPlugin as d, globalthis_default as f, InterstitialAdPluginEvents as i, WebPlugin as l, AdmobConsentStatus as n, BannerAdPosition as o, RewardAdPluginEvents as r, BannerAdPluginEvents as s, AdMob as t, buildRequestInit as u };

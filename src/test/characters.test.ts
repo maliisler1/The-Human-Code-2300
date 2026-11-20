@@ -37,3 +37,14 @@ describe("animasyon kataloğu", () => {
     expect(parseCatalog({ characters: [{ key: "x", name: "X", tr: "a", en: "b", episodes: -2 }] })).toEqual([{ key: "x", name: "X", tr: "a", en: "b" }]);
   });
 });
+
+describe("parseNextMonth", () => {
+  it("reads the corner list and falls back to the Turkish title", async () => {
+    const { parseNextMonth, BUNDLED_NEXT_MONTH } = await import("@/lib/characters");
+    expect(parseNextMonth({ nextMonth: [{ key: "kayip-tren", title: "Kayıp Tren" }] })).toEqual([{ key: "kayip-tren", title: "Kayıp Tren", titleEn: "Kayıp Tren" }]);
+    expect(parseNextMonth({ nextMonth: [] })).toEqual([]);
+    expect(parseNextMonth({})).toBeNull();
+    expect(parseNextMonth({ nextMonth: [{ key: "../x", title: "a" }] })).toBeNull();
+    expect(BUNDLED_NEXT_MONTH.map((s) => s.key)).toEqual(["ruya-arsivi", "kayip-tren"]);
+  });
+});

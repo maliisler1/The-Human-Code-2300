@@ -3,6 +3,18 @@
   "snooze": {
     "episodes": 5
   },
+  "nextMonth": [
+    {
+      "key": "ruya-arsivi",
+      "title": "Rüya Arşivi",
+      "titleEn": "The Dream Archive"
+    },
+    {
+      "key": "kayip-tren",
+      "title": "Kayıp Tren",
+      "titleEn": "The Lost Train"
+    }
+  ],
   "characters": [
     {
       "key": "bip",

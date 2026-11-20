@@ -3,7 +3,7 @@ import { useQuery, useSuspenseQuery } from "@tanstack/react-query";
 import { Sparkles, Orbit, Play, Film, CalendarDays } from "lucide-react";
 import { AppShell } from "@/components/AppShell";
 import { episodeListQuery, episodeTitle, seriesListQuery, seriesTextOf, type SeriesRow } from "@/lib/catalog";
-import { useCharacters, type UpcomingCharacter } from "@/lib/characters";
+import { useCharacters, useNextMonth, type UpcomingCharacter } from "@/lib/characters";
 import { FeaturedCharacters } from "@/components/FeaturedCharacters";
 import { FEATURED_SLUG, SOLO_SLUG } from "@/lib/data";
 import { BUNDLED_POSTERS } from "@/lib/posters";
@@ -72,7 +72,8 @@ function Index() {
   const solo = featured.slug === SOLO_SLUG;
   const tr = lang === "tr";
   const legacy = solo ? all.find((s) => s.slug === FEATURED_SLUG) : undefined;
-  const dream = solo ? UPCOMING.find((u) => u.key === "ruya-arsivi") : undefined;
+  const nextMonthAll = useNextMonth();
+  const nextMonth = solo ? nextMonthAll : [];
   const offline = () => toast.info(tr ? "Video şu an yüklenemedi. İnternet bağlantını kontrol edip tekrar dene." : "The video could not be loaded. Check your connection and try again.");
   const openCharacter = (ch: UpcomingCharacter) => (ch.video ? setPlay({ src: ch.video, title: ch.name, poster: ch.poster, vertical: true }) : offline());
   const earlyAccess = (ch: UpcomingCharacter) =>
@@ -179,8 +180,8 @@ function Index() {
         </div>
       </section>
 
-      {/* Köşe: The Human Code: 2300 ve Rüya Arşivi yalnızca fragmanlarıyla durur; dizi ve ödeme sayfasına yönlendirme yoktur. */}
-      {(legacy || dream) && (
+      {/* Köşe: The Human Code: 2300 ve depodaki "nextMonth" listesindeki diziler yalnızca fragmanlarıyla durur; dizi ve ödeme sayfasına yönlendirme yoktur. */}
+      {(legacy || nextMonth.length > 0) && (
         <section className="mt-8 px-5">
           <h2 className="text-sm font-bold">{tr ? "Önümüzdeki ay" : "Next month"}</h2>
           <p className="mt-0.5 text-xs text-muted-foreground">{tr ? "Yeni diziler yolda. Fragmanlarını izle." : "New series are on the way. Watch the trailers."}</p>
@@ -204,18 +205,18 @@ function Index() {
                 <p className="text-[10px] text-muted-foreground">{tr ? "Fragmanı izle" : "Watch trailer"}</p>
               </button>
             )}
-            {dream && (
-              <button onClick={() => openUpcoming(dream)} className="relative w-28 shrink-0 text-start">
-                {dream.poster ? (
-                  <img src={trailerUrl(dream.poster)} alt="" loading="lazy" className="aspect-[2/3] w-full rounded-2xl object-cover" />
-                ) : (
-                  <div className="aspect-[2/3] w-full rounded-2xl bg-gradient-to-br from-primary/30 via-card to-accent/20" />
-                )}
+            {nextMonth.map((u) => (
+              <button
+                key={u.key}
+                onClick={() => setPlay({ src: trailerUrl(`${u.key}_720.mp4`), title: tr ? u.title : u.titleEn, poster: trailerUrl(`${u.key}_poster.jpg`), subsKey: u.key })}
+                className="relative w-28 shrink-0 text-start"
+              >
+                <img src={trailerUrl(`${u.key}_poster.jpg`)} alt="" loading="lazy" className="aspect-[2/3] w-full rounded-2xl bg-gradient-to-br from-primary/30 via-card to-accent/20 object-cover" />
                 <span className="absolute left-1.5 top-1.5 rounded-full bg-black/70 px-2 py-0.5 text-[9px] font-bold uppercase tracking-wider text-gold">{tr ? "Önümüzdeki ay" : "Next month"}</span>
-                <p className="mt-2 line-clamp-2 text-xs font-semibold">{tr ? dream.title : dream.titleEn}</p>
+                <p className="mt-2 line-clamp-2 text-xs font-semibold">{tr ? u.title : u.titleEn}</p>
                 <p className="text-[10px] text-muted-foreground">{tr ? "Fragmanı izle" : "Watch trailer"}</p>
               </button>
-            )}
+            ))}
           </div>
         </section>
       )}

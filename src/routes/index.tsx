@@ -3,7 +3,7 @@ import { useQuery, useSuspenseQuery } from "@tanstack/react-query";
 import { Sparkles, Orbit, Play, Film, CalendarDays } from "lucide-react";
 import { AppShell } from "@/components/AppShell";
 import { episodeListQuery, episodeTitle, seriesListQuery, seriesTextOf, type SeriesRow } from "@/lib/catalog";
-import { SOON_CHARACTERS, type UpcomingCharacter } from "@/lib/characters";
+import { useCharacters, type UpcomingCharacter } from "@/lib/characters";
 import { FeaturedCharacters } from "@/components/FeaturedCharacters";
 import { FEATURED_SLUG, SOLO_SLUG } from "@/lib/data";
 import { BUNDLED_POSTERS } from "@/lib/posters";
@@ -64,6 +64,7 @@ function Index() {
   const { data: all } = useSuspenseQuery(seriesListQuery);
   const { t, lang } = useT();
   const featured = pickFeatured(all);
+  const { soon: SOON_CHARACTERS } = useCharacters();
   const [play, setPlay] = useState<{ src: string; title: string; poster?: string | undefined; subsKey?: string | undefined; vertical?: boolean; next?: (() => void) | undefined } | null>(null);
   const eps = useQuery({ ...episodeListQuery(featured?.id ?? "", featured?.slug ?? ""), enabled: !!featured }).data ?? [];
   const epCount = eps.length;
@@ -72,13 +73,17 @@ function Index() {
   const tr = lang === "tr";
   const legacy = solo ? all.find((s) => s.slug === FEATURED_SLUG) : undefined;
   const dream = solo ? UPCOMING.find((u) => u.key === "ruya-arsivi") : undefined;
-  const openCharacter = (ch: UpcomingCharacter) => setPlay({ src: ch.video, title: ch.name, poster: ch.poster, vertical: true });
+  const offline = () => toast.info(tr ? "Video şu an yüklenemedi. İnternet bağlantını kontrol edip tekrar dene." : "The video could not be loaded. Check your connection and try again.");
+  const openCharacter = (ch: UpcomingCharacter) => (ch.video ? setPlay({ src: ch.video, title: ch.name, poster: ch.poster, vertical: true }) : offline());
   const earlyAccess = (ch: UpcomingCharacter) =>
     toast.info(tr ? `${ch.name} yakında geliyor. Erken izleme açıldığında burada görünecek.` : `${ch.name} is coming soon. Early access will appear here when it opens.`);
   const others = otherPublished(all, featured);
   const tx = seriesTextOf(featured, lang);
   const poster = BUNDLED_POSTERS[featured.slug];
-  const ft = SERIES_TRAILERS[featured.slug];
+  const trailer = SERIES_TRAILERS[featured.slug];
+  // Videosu depoda duran dizilerde vitrinde 1. bölüm döner.
+  const heroVideo = trailer?.video || eps.find((e) => e.n === 1)?.video_url || "";
+  const ft = trailer ? { ...trailer, video: heroVideo } : undefined;
   const openUpcoming = (u: (typeof UPCOMING)[number]) => {
     const name = lang === "tr" ? u.title : u.titleEn;
     if (u.video) setPlay({ src: trailerUrl(u.video), title: name, poster: u.poster && trailerUrl(u.poster), subsKey: u.key });
@@ -89,7 +94,7 @@ function Index() {
     <AppShell>
       {/* 1) Yayındaki dizi: büyük vitrin; bölümler dizi sayfasında */}
       <section className="relative -mt-2 h-[68vh] min-h-[440px] w-full overflow-hidden">
-        {ft ? (
+        {ft?.video ? (
           <video src={ft.video} poster={poster ?? ft.poster} autoPlay muted loop playsInline className="absolute inset-0 h-full w-full object-cover" />
         ) : poster ? (
           <img src={poster} alt="" className="absolute inset-0 h-full w-full object-cover" />
@@ -108,7 +113,7 @@ function Index() {
             <Link to="/dizi/$slug" params={{ slug: featured.slug }} className="flex flex-1 items-center justify-center gap-2 rounded-full bg-gold px-5 py-3 text-sm font-bold text-black">
               <Play className="h-4 w-4 fill-black" /> {t("see_episodes")}
             </Link>
-            {ft && (
+            {ft?.video && (
               <button onClick={() => setPlay({ src: ft.video, title: featured.title, poster: ft.poster })} className="flex items-center justify-center gap-2 rounded-full border border-gold/60 px-5 py-3 text-sm font-bold text-gold">
                 <Film className="h-4 w-4" /> {t("play_trailer")}
               </button>

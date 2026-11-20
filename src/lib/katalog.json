@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "snooze": {
+    "episodes": 5
+  },
+  "characters": [
+    {
+      "key": "bip",
+      "name": "Bip",
+      "tr": "Şarjı %1. Şarj aleti çok uzakta.",
+      "en": "Battery at 1%. The charger is far away.",
+      "episodes": 5
+    },
+    {
+      "key": "dusty",
+      "name": "Dusty",
+      "tr": "Robot süpürge geliyor. Kaç Dusty.",
+      "en": "The robot vacuum is coming. Run, Dusty.",
+      "episodes": 5
+    },
+    {
+      "key": "pizzo",
+      "name": "Pizzo",
+      "tr": "Son dilim. Sabaha kadar dayanmalı.",
+      "en": "The last slice. It must survive the night.",
+      "episodes": 5
+    },
+    {
+      "key": "zizi",
+      "name": "Zizi",
+      "tr": "Gece üç. Tek bir ısırık yeter.",
+      "en": "3 AM. One bite is all it wants.",
+      "episodes": 5
+    },
+    {
+      "key": "sok",
+      "name": "Sok",
+      "tr": "Tek kalmış bir çorap, eşini arıyor.",
+      "en": "A lonely sock looking for its pair.",
+      "episodes": 5
+    },
+    {
+      "key": "lumo",
+      "name": "Lumo",
+      "tr": "Söylenmemiş sözleri taşıyan bekçi.",
+      "en": "The keeper who carries unsaid words."
+    },
+    {
+      "key": "wiff",
+      "name": "Wiff",
+      "tr": "Son sinyal çubuğu. Dayan Wiff.",
+      "en": "The last signal bar. Hold on, Wiff."
+    },
+    {
+      "key": "pop",
+      "name": "Pop",
+      "tr": "Bu sefer yanmayacak. Yine yandı.",
+      "en": "Not burnt this time. Burnt again."
+    },
+    {
+      "key": "drip",
+      "name": "Drip",
+      "tr": "Düşmemeye çalışan bir damla.",
+      "en": "A drop trying not to fall."
+    },
+    {
+      "key": "remo",
+      "name": "Remo",
+      "tr": "Koltuğun dibinde saklanan kumanda.",
+      "en": "The remote hiding deep in the sofa."
+    },
+    {
+      "key": "fizz",
+      "name": "Fizz",
+      "tr": "Yukarı çıkmak isteyen bir baloncuk.",
+      "en": "A bubble racing to the top."
+    },
+    {
+      "key": "glim",
+      "name": "Glim",
+      "tr": "Karanlığı uzak tutan gece lambası.",
+      "en": "The night light that keeps the dark away."
+    },
+    {
+      "key": "mel",
+      "name": "Mel",
+      "tr": "Erimeden önce yenmek istiyor.",
+      "en": "It wants to be eaten before it melts."
+    },
+    {
+      "key": "kiko",
+      "name": "Kiko",
+      "tr": "Her sabah kaybolan anahtar.",
+      "en": "The key that gets lost every morning."
+    },
+    {
+      "key": "nudl",
+      "name": "Nudl",
+      "tr": "Çözülmek isterken düğüm olan kablo.",
+      "en": "The cable that tangles while untangling."
+    },
+    {
+      "key": "pix",
+      "name": "Pix",
+      "tr": "Ekrandaki tek piksel. Fark edilsin.",
+      "en": "One pixel on the screen. Notice it."
+    },
+    {
+      "key": "boon",
+      "name": "Boon",
+      "tr": "Patlamamaya çalışan bir balon.",
+      "en": "A balloon trying not to pop."
+    },
+    {
+      "key": "sprout",
+      "name": "Sprout",
+      "tr": "Sulanmayı bekleyen küçük filiz.",
+      "en": "A little sprout waiting for water."
+    },
+    {
+      "key": "ding",
+      "name": "Ding",
+      "tr": "Yanlış kata basan asansör düğmesi.",
+      "en": "The elevator button that picks the wrong floor."
+    },
+    {
+      "key": "mag",
+      "name": "Mag",
+      "tr": "Notu düşürmemeye çalışan mıknatıs.",
+      "en": "The magnet trying not to drop the note."
+    }
+  ]
+}

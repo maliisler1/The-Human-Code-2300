@@ -13,7 +13,7 @@ import {
   loadAnimationAccess,
   saveAnimationAccess,
 } from "@/lib/animations";
-import { FEATURED_CHARACTERS, characterEpisode, type UpcomingCharacter } from "@/lib/characters";
+import { characterEpisode, useCharacters, type UpcomingCharacter } from "@/lib/characters";
 import { useAppState } from "@/lib/store";
 
 type Playing = { src: string; title: string; poster?: string | undefined; vertical?: boolean; next?: (() => void) | undefined };
@@ -26,6 +26,7 @@ type Playing = { src: string; title: string; poster?: string | undefined; vertic
  */
 export function FeaturedCharacters({ tr, onPlay }: { tr: boolean; onPlay: (p: Playing | null) => void }) {
   const { state } = useAppState();
+  const { featured: FEATURED_CHARACTERS } = useCharacters();
   const [access, setAccess] = useState(loadAnimationAccess);
   const [locked, setLocked] = useState<{ ch: UpcomingCharacter; n: number } | null>(null);
   const [busy, setBusy] = useState(false);
@@ -57,8 +58,14 @@ export function FeaturedCharacters({ tr, onPlay }: { tr: boolean; onPlay: (p: Pl
       setLocked({ ch, n });
       return;
     }
+    const src = characterEpisode(ch, n);
+    if (!src) {
+      onPlay(null);
+      toast.info(tr ? "Video şu an yüklenemedi. İnternet bağlantını kontrol edip tekrar dene." : "The video could not be loaded. Check your connection and try again.");
+      return;
+    }
     onPlay({
-      src: characterEpisode(ch, n),
+      src,
       title: `${ch.name} · ${n}`,
       poster: ch.poster,
       vertical: true,

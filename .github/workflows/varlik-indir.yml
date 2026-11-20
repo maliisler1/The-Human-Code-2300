@@ -1,10 +1,10 @@
-# Uygulamayla birlikte gelen video ve afişleri indirir, küçültür ve depoya ekler.
+# Animasyon dosyalarını (video ve afiş) indirir, küçültür ve depo/ klasörüne işler.
 #
 # scripts/varliklar.json dosyasındaki her kayıt için kaynağı indirir:
-#   görsel -> public/<hedef>.webp (540 piksel genişlik)
-#   video  -> public/<hedef>.mp4  (480 piksel genişlik, H.264 + AAC)
-# Daha önce indirilmiş dosyaları atlar. Sonucu çalıştığı dala işler. Dosyalar public/ altında olduğu için hem web
-# sitesine hem Android paketine girer.
+#   görsel -> depo/<hedef>.webp (540 piksel genişlik)
+#   video  -> depo/<hedef>.mp4  (480 piksel genişlik, H.264 + AAC)
+# Daha önce indirilmiş dosyaları atlar. Sonucu çalıştığı dala işler. depo/ klasörü uygulamanın içine girmez;
+# dosyalar web sitesindeki Yönetim → "GitHub'dan eşitle" ile depolama alanına yüklenir (bkz. depo/README.md).
 #
 # Çalıştırma: GitHub → Actions → "Varlıkları indir" → Run workflow
 name: Varlıkları indir
@@ -40,34 +40,34 @@ jobs:
             hedef="$(jq -r ".[$i].hedef" scripts/varliklar.json)"
             gorsel="$(jq -r ".[$i].gorsel // empty" scripts/varliklar.json)"
             video="$(jq -r ".[$i].video // empty" scripts/varliklar.json)"
-            # Hedef yalnızca public/ altında, harf-rakam-tire içeren bir yol olabilir.
+            # Hedef yalnızca depo/ altında, harf-rakam-tire içeren bir yol olabilir.
             if ! printf '%s' "$hedef" | grep -Eq '^[a-z0-9-]+/[a-z0-9-]+$'; then
               echo "::error::Geçersiz hedef: $hedef"; exit 1
             fi
-            mkdir -p "public/$(dirname "$hedef")"
-            if [ -n "$gorsel" ] && [ ! -f "public/$hedef.webp" ]; then
+            mkdir -p "depo/$(dirname "$hedef")"
+            if [ -n "$gorsel" ] && [ ! -f "depo/$hedef.webp" ]; then
               curl -fsSL --http1.1 --retry 5 --retry-all-errors --retry-delay 3 --max-time 180 -o "$tmp/g" -- "$gorsel"
-              ffmpeg -loglevel error -y -i "$tmp/g" -vf "scale=540:-2" -quality 80 "public/$hedef.webp"
-              echo "görsel: public/$hedef.webp ($(stat -c %s "public/$hedef.webp") bayt)"
+              ffmpeg -loglevel error -y -i "$tmp/g" -vf "scale=540:-2" -quality 80 "depo/$hedef.webp"
+              echo "görsel: depo/$hedef.webp ($(stat -c %s "depo/$hedef.webp") bayt)"
             fi
-            if [ -n "$video" ] && [ ! -f "public/$hedef.mp4" ]; then
+            if [ -n "$video" ] && [ ! -f "depo/$hedef.mp4" ]; then
               curl -fsSL --http1.1 --retry 5 --retry-all-errors --retry-delay 3 --max-time 300 -o "$tmp/v" -- "$video"
               ffmpeg -loglevel error -y -i "$tmp/v" -vf "scale=480:-2" -c:v libx264 -crf 29 -preset slow \
-                -pix_fmt yuv420p -c:a aac -b:a 64k -movflags +faststart "public/$hedef.mp4"
-              echo "video: public/$hedef.mp4 ($(stat -c %s "public/$hedef.mp4") bayt)"
+                -pix_fmt yuv420p -c:a aac -b:a 64k -movflags +faststart "depo/$hedef.mp4"
+              echo "video: depo/$hedef.mp4 ($(stat -c %s "depo/$hedef.mp4") bayt)"
             fi
           done
-          du -sh public
+          du -sh depo
 
       - name: Depoya işle
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public
+          git add depo
           if git diff --cached --quiet; then
             echo "Değişiklik yok."
           else
-            git commit -m "Varlıklar: Snooze bölümleri ve karakter fragmanları (otomatik indirme)"
+            git commit -m "Depo: yeni animasyon dosyaları (otomatik indirme)"
             git push
           fi

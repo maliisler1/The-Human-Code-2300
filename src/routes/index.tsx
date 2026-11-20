@@ -64,7 +64,7 @@ function Index() {
   const { data: all } = useSuspenseQuery(seriesListQuery);
   const { t, lang } = useT();
   const featured = pickFeatured(all);
-  const [play, setPlay] = useState<{ src: string; title: string; poster?: string | undefined; subsKey?: string | undefined } | null>(null);
+  const [play, setPlay] = useState<{ src: string; title: string; poster?: string | undefined; subsKey?: string | undefined; vertical?: boolean; next?: (() => void) | undefined } | null>(null);
   const eps = useQuery({ ...episodeListQuery(featured?.id ?? "", featured?.slug ?? ""), enabled: !!featured }).data ?? [];
   const epCount = eps.length;
   if (!featured) return <AppShell><p className="px-5 pt-10 text-sm text-muted-foreground">{t("loading")}</p></AppShell>;
@@ -72,7 +72,7 @@ function Index() {
   const tr = lang === "tr";
   const legacy = solo ? all.find((s) => s.slug === FEATURED_SLUG) : undefined;
   const dream = solo ? UPCOMING.find((u) => u.key === "ruya-arsivi") : undefined;
-  const openCharacter = (ch: UpcomingCharacter) => setPlay({ src: ch.video, title: ch.name, poster: ch.poster });
+  const openCharacter = (ch: UpcomingCharacter) => setPlay({ src: ch.video, title: ch.name, poster: ch.poster, vertical: true });
   const earlyAccess = (ch: UpcomingCharacter) =>
     toast.info(tr ? `${ch.name} yakında geliyor. Erken izleme açıldığında burada görünecek.` : `${ch.name} is coming soon. Early access will appear here when it opens.`);
   const others = otherPublished(all, featured);
@@ -287,7 +287,7 @@ function Index() {
         )}
         <div className="h-8" />
       </div>
-      {play && <TrailerModal src={play.src} poster={play.poster} title={play.title} subsKey={play.subsKey} defaultLang={lang} onClose={() => setPlay(null)} />}
+      {play && <TrailerModal src={play.src} poster={play.poster} title={play.title} subsKey={play.subsKey} defaultLang={lang} vertical={play.vertical} onEnded={play.next} onClose={() => setPlay(null)} />}
     </AppShell>
   );
 }

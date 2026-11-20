@@ -1,16 +1,24 @@
 import { Play, Zap } from "lucide-react";
 import { FEATURED_CHARACTERS, characterEpisode, type UpcomingCharacter } from "@/lib/characters";
 
-type Playing = { src: string; title: string; poster?: string | undefined };
+type Playing = { src: string; title: string; poster?: string | undefined; vertical?: boolean; next?: (() => void) | undefined };
 
 /**
  * Öne alınan karakterler: bölümleri yayında olan yeni diziler.
  * Karta dokununca 1. bölüm, altındaki numaralara dokununca o bölüm oynar.
+ * Bölüm bitince sıradaki bölüm otomatik açılır.
  */
 export function FeaturedCharacters({ tr, onPlay }: { tr: boolean; onPlay: (p: Playing) => void }) {
   if (FEATURED_CHARACTERS.length === 0) return null;
-  const play = (ch: UpcomingCharacter, n: number) =>
-    onPlay({ src: characterEpisode(ch, n), title: `${ch.name} · ${n}`, poster: ch.poster });
+  // Bölüm bitince sıradaki bölüm kendiliğinden başlar; son bölümden sonra pencere kapanır.
+  const play = (ch: UpcomingCharacter, n: number): void =>
+    onPlay({
+      src: characterEpisode(ch, n),
+      title: `${ch.name} · ${n}`,
+      poster: ch.poster,
+      vertical: true,
+      next: n < (ch.episodes ?? 0) ? () => play(ch, n + 1) : undefined,
+    });
 
   return (
     <section className="mt-8">

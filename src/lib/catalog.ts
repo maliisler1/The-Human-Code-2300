@@ -62,6 +62,8 @@ export async function signedUrl(bucket: "posters" | "videos" | "faces", path: st
   if (!path) return null;
   // Root-relative paths are public assets (bundled platform assets or files in /public).
   if (path.startsWith("/")) return path;
+  // Tam adresler (ör. "animations" deposundan alınmış süreli bağlantılar) olduğu gibi kullanılır.
+  if (/^https?:\/\//.test(path)) return path;
   // "videos" kovası özeldir; imzalı bağlantıyı ana uygulamanın sunucusu üretir.
   if (bucket === "videos") return mobileVideoUrl(path);
   const { data, error } = await supabase.storage.from(bucket).createSignedUrl(path, 60 * 60 * 6);

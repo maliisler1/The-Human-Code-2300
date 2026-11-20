@@ -15,10 +15,11 @@ let seasonChecked = false;
 export function TokenBadge() {
   const { state, user, isAdmin } = useAppState();
   const { t } = useT();
+  const subscribed = useAnimationAccess().owned;
   return (
     <div className="flex items-center gap-2">
       <Link to="/jeton" className="flex items-center gap-1.5 rounded-full glass border px-3 py-1.5 text-xs font-bold text-gold">
-        <Crown className="h-4 w-4" /> {state.seasonOwned ? "✓" : t("nav_season")}
+        <Crown className="h-4 w-4" /> {state.seasonOwned || subscribed ? "✓" : t("nav_season")}
       </Link>
       {isAdmin && (
         <Link to="/yonetim" className="rounded-full glass border p-2 text-primary" aria-label="Yönetim">
@@ -73,10 +74,11 @@ export function AppShell({ children }: { children: ReactNode }) {
     // Uygulama açılışında Google Play'deki sezon satın almasını bir kez doğrula.
     if (!ready || seasonChecked) return;
     seasonChecked = true;
-    void refreshSubscription();
-    void season.check().then((owned) => {
+    void (async () => {
+      await refreshSubscription();
+      const owned = await season.check();
       if (owned !== null) update((s) => (s.seasonOwned === owned ? s : { ...s, seasonOwned: owned }));
-    });
+    })();
   }, [ready, update]);
   useEffect(() => {
     document.documentElement.lang = lang;

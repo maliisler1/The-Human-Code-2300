@@ -8,6 +8,7 @@ import { getAnimationAccess, refreshSubscription } from "@/lib/animations";
 import { useT } from "@/lib/i18n";
 import { season } from "@/lib/season";
 import { useAppState } from "@/lib/store";
+import { s } from "@/lib/phrases";
 
 // Adres /jeton olarak kaldı (eski bağlantılar bozulmasın); sayfa artık yalnızca Animasyon Aboneliği.
 // The Human Code: 2300 sezon satın alması bu sayfadan kaldırıldı; daha önce satın alanların hakkı
@@ -38,8 +39,8 @@ function SubscriptionPage() {
       await refreshSubscription();
       const owned = await season.check();
       if (owned !== null) update((s) => (s.seasonOwned === owned ? s : { ...s, seasonOwned: owned }));
-      if (getAnimationAccess().owned || owned) toast.success(tr ? "Satın almaların geri yüklendi." : "Your purchases were restored.");
-      else toast.info(tr ? "Bu hesapta etkin bir satın alma bulunamadı." : "No active purchase was found on this account.");
+      if (getAnimationAccess().owned || owned) toast.success(s("Satın almaların geri yüklendi.", "Your purchases were restored."));
+      else toast.info(s("Bu hesapta etkin bir satın alma bulunamadı.", "No active purchase was found on this account."));
     } finally {
       setBusy(false);
     }
@@ -48,7 +49,7 @@ function SubscriptionPage() {
   return (
     <AppShell>
       <header className="flex items-center justify-between px-5 pt-6">
-        <h1 className="text-xl font-bold">{tr ? "Abonelik" : "Subscription"}</h1>
+        <h1 className="text-xl font-bold">{s("Abonelik", "Subscription")}</h1>
         <TokenBadge />
       </header>
 
@@ -60,7 +61,7 @@ function SubscriptionPage() {
           disabled={busy}
           className="mx-auto flex items-center gap-2 text-xs font-semibold text-muted-foreground disabled:opacity-60"
         >
-          <RotateCcw className="h-3.5 w-3.5" /> {busy ? "…" : tr ? "Satın almalarımı geri yükle" : "Restore my purchases"}
+          <RotateCcw className="h-3.5 w-3.5" /> {busy ? "…" : s("Satın almalarımı geri yükle", "Restore my purchases")}
         </button>
       </div>
     </AppShell>

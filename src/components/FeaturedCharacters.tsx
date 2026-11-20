@@ -7,6 +7,7 @@ import { FREE_CHARACTER_EPISODES, characterEpisodeId, getAnimationAccess, hasCha
 import { characterEpisode, useCharacters, useShelves, type UpcomingCharacter } from "@/lib/characters";
 import { markWatched, recentKeys, useProgress } from "@/lib/progress";
 import { useAppState } from "@/lib/store";
+import { loc, s } from "@/lib/phrases";
 
 type Playing = { src: string; title: string; poster?: string | undefined; vertical?: boolean; next?: (() => void) | undefined };
 
@@ -66,7 +67,7 @@ export function FeaturedCharacters({
     const src = characterEpisode(ch, n);
     if (!src) {
       onPlay(null);
-      toast.info(tr ? "Video şu an yüklenemedi. İnternet bağlantını kontrol edip tekrar dene." : "The video could not be loaded. Check your connection and try again.");
+      toast.info(s("Video şu an yüklenemedi. İnternet bağlantını kontrol edip tekrar dene.", "The video could not be loaded. Check your connection and try again."));
       return;
     }
     markWatched(ch.key, n);
@@ -93,14 +94,14 @@ export function FeaturedCharacters({
     const result = await ads.showRewarded();
     setBusy(false);
     if (result === "dismissed") {
-      toast.info(tr ? "Bölümü açmak için reklamı sonuna kadar izlemelisin." : "Watch the ad to the end to unlock the episode.");
+      toast.info(s("Bölümü açmak için reklamı sonuna kadar izlemelisin.", "Watch the ad to the end to unlock the episode."));
       return;
     }
     // Reklam bulunamadıysa kullanıcı takılmasın: bölüm bir kereliğine hediye.
     toast.success(
       result === "unavailable"
-        ? tr ? `Şu an reklam yok. ${locked.n}. bölüm sana hediye!` : `No ad right now. Episode ${locked.n} is on us!`
-        : tr ? `${locked.n}. bölüm açıldı!` : `Episode ${locked.n} unlocked!`,
+        ? s("Şu an reklam yok. {n}. bölüm sana hediye!", "No ad right now. Episode {n} is on us!", { n: locked.n })
+        : s("{n}. bölüm açıldı!", "Episode {n} unlocked!", { n: locked.n }),
     );
     openAfter({ ...access, unlocked: [...access.unlocked, characterEpisodeId(locked.ch.key, locked.n)] });
   };
@@ -110,13 +111,13 @@ export function FeaturedCharacters({
   const trailer = (ch: UpcomingCharacter) =>
     ch.video
       ? onPlay({ src: ch.video, title: ch.name, poster: ch.poster, vertical: true })
-      : toast.info(tr ? "Video şu an yüklenemedi. İnternet bağlantını kontrol edip tekrar dene." : "The video could not be loaded. Check your connection and try again.");
+      : toast.info(s("Video şu an yüklenemedi. İnternet bağlantını kontrol edip tekrar dene.", "The video could not be loaded. Check your connection and try again."));
   const openCard = (ch: UpcomingCharacter) => (ch.episodes ? setOpen(ch) : trailer(ch));
 
   // Vitrin: önce ana dizi, sonra bölümleri yayında olan ilk karakterler sırayla döner.
   const slides = [
     ...(lead ? [{ key: "lead", title: lead.title, sub: lead.sub, poster: lead.poster, go: lead.onOpen }] : []),
-    ...FEATURED_CHARACTERS.slice(0, 4).map((ch) => ({ key: ch.key, title: ch.name, sub: tr ? ch.hook.tr : ch.hook.en, poster: ch.poster, go: () => play(ch, 1) })),
+    ...FEATURED_CHARACTERS.slice(0, 4).map((ch) => ({ key: ch.key, title: ch.name, sub: loc(ch.hook), poster: ch.poster, go: () => play(ch, 1) })),
   ];
   const slide = slides.length ? slides[slideAt % slides.length]! : null;
 
@@ -133,15 +134,15 @@ export function FeaturedCharacters({
     <button
       key={ch.key}
       onClick={() => (note && ch.episodes ? play(ch, Math.min(progress[ch.key]?.n ?? 1, ch.episodes)) : openCard(ch))}
-      aria-label={tr ? `${ch.name} dizisini aç` : `Open ${ch.name}`}
+      aria-label={s("{name} dizisini aç", "Open {name}", { name: ch.name })}
       className={`${wide ? "w-[29vw] max-w-[132px] shrink-0 snap-start" : "w-full"} text-start`}
     >
       <span className="relative block aspect-[3/4] w-full overflow-hidden rounded-xl border border-primary/30 bg-gradient-to-br from-primary/30 via-card to-accent/20">
         <img src={ch.poster} alt="" loading="lazy" className="absolute inset-0 h-full w-full object-cover" />
         {ch.episodes ? (
-          !note && <span className="absolute left-1.5 top-1.5 rounded-full bg-gold px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider text-black">{tr ? "Yeni" : "New"}</span>
+          !note && <span className="absolute left-1.5 top-1.5 rounded-full bg-gold px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider text-black">{s("Yeni", "New")}</span>
         ) : (
-          <span className="absolute left-1.5 top-1.5 rounded-full bg-black/65 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider text-gold">{tr ? "Yakında" : "Soon"}</span>
+          <span className="absolute left-1.5 top-1.5 rounded-full bg-black/65 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wider text-gold">{s("Yakında", "Soon")}</span>
         )}
         <span className="absolute bottom-1.5 right-1.5 grid h-6 w-6 place-items-center rounded-full bg-black/55 ring-1 ring-gold/70">
           <Play className="ml-px h-3 w-3 fill-gold text-gold" />
@@ -149,7 +150,7 @@ export function FeaturedCharacters({
       </span>
       <span className="mt-1.5 block truncate text-[13px] font-bold leading-tight text-[#FFF4D6]">{ch.name}</span>
       <span className="block truncate text-[10px] text-muted-foreground">
-        {note ?? (ch.episodes ? (tr ? `${ch.episodes} bölüm` : `${ch.episodes} episodes`) : tr ? "Fragmanı izle" : "Watch trailer")}
+        {note ?? (ch.episodes ? (s("{n} bölüm", "{n} episodes", { n: ch.episodes })) : s("Fragmanı izle", "Watch trailer"))}
       </span>
     </button>
   );
@@ -163,7 +164,7 @@ export function FeaturedCharacters({
 
   // Arama: karakter adı ve açıklamasında (iki dilde) geçenleri bulur.
   const q = query.trim().toLocaleLowerCase(tr ? "tr" : "en");
-  const found = q ? all.filter((ch) => `${ch.name} ${ch.hook.tr} ${ch.hook.en}`.toLocaleLowerCase(tr ? "tr" : "en").includes(q)) : all;
+  const found = q ? all.filter((ch) => `${ch.name} ${ch.hook.tr} ${ch.hook.en} ${loc(ch.hook)}`.toLocaleLowerCase(tr ? "tr" : "en").includes(q)) : all;
   const searchBar = (
     <div className="flex items-center gap-2 px-4 pb-2 pt-1">
       {searching ? (
@@ -173,8 +174,8 @@ export function FeaturedCharacters({
             autoFocus
             value={query}
             onChange={(ev) => setQuery(ev.target.value)}
-            placeholder={tr ? "Karakter ara" : "Search characters"}
-            aria-label={tr ? "Karakter ara" : "Search characters"}
+            placeholder={s("Karakter ara", "Search characters")}
+            aria-label={s("Karakter ara", "Search characters")}
             className="min-w-0 flex-1 bg-transparent text-sm text-foreground outline-none placeholder:text-muted-foreground"
           />
         </label>
@@ -195,7 +196,7 @@ export function FeaturedCharacters({
       )}
       <button
         onClick={() => { setSearching((v) => !v); setQuery(""); }}
-        aria-label={searching ? (tr ? "Aramayı kapat" : "Close search") : tr ? "Ara" : "Search"}
+        aria-label={searching ? (s("Aramayı kapat", "Close search")) : s("Ara", "Search")}
         className="grid h-10 w-10 shrink-0 place-items-center rounded-full border border-white/15 bg-card text-gold"
       >
         {searching ? <X className="h-5 w-5" /> : <Search className="h-5 w-5" />}
@@ -210,8 +211,8 @@ export function FeaturedCharacters({
         <section className="px-4 pb-6">
           <p className="text-[11px] text-muted-foreground">
             {found.length > 0
-              ? tr ? `${found.length} sonuç` : `${found.length} results`
-              : tr ? "Sonuç bulunamadı. Başka bir ad dene." : "No results. Try another name."}
+              ? s("{n} sonuç", "{n} results", { n: found.length })
+              : s("Sonuç bulunamadı. Başka bir ad dene.", "No results. Try another name.")}
           </p>
           <div className="mt-3 grid grid-cols-3 gap-x-2.5 gap-y-4">{found.map((ch) => card(ch))}</div>
         </section>
@@ -228,7 +229,7 @@ export function FeaturedCharacters({
                 <span className="mt-0.5 line-clamp-1 block text-xs text-foreground/85">{slide.sub}</span>
               </span>
               <span className="flex shrink-0 items-center gap-1.5 rounded-full bg-gold px-4 py-2 text-xs font-bold text-black">
-                <Play className="h-3.5 w-3.5 fill-black" /> {tr ? "İzle" : "Watch"}
+                <Play className="h-3.5 w-3.5 fill-black" /> {s("İzle", "Watch")}
               </span>
             </span>
           </button>
@@ -241,27 +242,25 @@ export function FeaturedCharacters({
       )}
 
       {recent.length > 0 &&
-        shelf("recent", tr ? "Kaldığın yerden devam et" : "Continue watching", recent, (ch) => {
+        shelf("recent", s("Kaldığın yerden devam et", "Continue watching"), recent, (ch) => {
           const n = Math.min(progress[ch.key]?.n ?? 1, ch.episodes ?? 1);
-          return tr ? `${n}. bölüm` : `Episode ${n}`;
+          return s("{n}. bölüm", "Episode {n}", { n: n });
         })}
 
       {afterHero}
 
-      {shelfRows.slice(0, 1).map((sh) => shelf(sh.key, tr ? sh.tr : sh.en, sh.items))}
+      {shelfRows.slice(0, 1).map((sh) => shelf(sh.key, loc(sh), sh.items))}
 
       {middle}
 
-      {shelfRows.slice(1).map((sh) => shelf(sh.key, tr ? sh.tr : sh.en, sh.items))}
+      {shelfRows.slice(1).map((sh) => shelf(sh.key, loc(sh), sh.items))}
 
       <section className="mt-7">
         <h2 className="flex items-center gap-2 px-4 font-display text-lg font-bold text-gold">
-          <Zap className="h-4 w-4 fill-gold" /> {tr ? `Tüm animasyonlar · ${all.length}` : `All animations · ${all.length}`}
+          <Zap className="h-4 w-4 fill-gold" /> {s("Tüm animasyonlar · {n}", "All animations · {n}", { n: all.length })}
         </h2>
         <p className="mt-0.5 px-4 text-[11px] text-muted-foreground">
-          {tr
-            ? `Her dizinin ilk ${FREE_CHARACTER_EPISODES} bölümü ücretsiz. Her bölüm 15 saniye.`
-            : `The first ${FREE_CHARACTER_EPISODES} episodes of each series are free. 15 seconds each.`}
+          {s("Her dizinin ilk {n} bölümü ücretsiz. Her bölüm 15 saniye.", "The first {n} episodes of each series are free. 15 seconds each.", { n: FREE_CHARACTER_EPISODES })}
         </p>
         <div className="mt-2.5 flex gap-2 overflow-x-auto px-4 pb-1">
           {[{ key: "all", tr: "Tümü", en: "All" }, ...shelfRows].map((c) => (
@@ -270,7 +269,7 @@ export function FeaturedCharacters({
               onClick={() => setFilter(c.key)}
               className={`shrink-0 rounded-full border px-3 py-1.5 text-xs font-bold ${filter === c.key ? "border-gold bg-gold text-black" : "border-white/20 text-foreground/85"}`}
             >
-              {tr ? c.tr : c.en}
+              {loc(c)}
             </button>
           ))}
         </div>
@@ -286,13 +285,13 @@ export function FeaturedCharacters({
               <img src={open.poster} alt="" className="aspect-[9/16] w-24 shrink-0 rounded-xl object-cover" />
               <div className="min-w-0 flex-1">
                 <h2 className="font-display text-2xl font-bold text-[#FFF4D6]">{open.name}</h2>
-                <p className="mt-1 text-sm text-foreground/85">{tr ? open.hook.tr : open.hook.en}</p>
+                <p className="mt-1 text-sm text-foreground/85">{loc(open.hook)}</p>
                 <button onClick={() => { const ch = open; setOpen(null); play(ch, 1); }} className="mt-3 flex w-full items-center justify-center gap-2 rounded-full bg-gold py-2.5 text-sm font-bold text-black">
-                  <Play className="h-4 w-4 fill-black" /> {tr ? "Baştan izle" : "Play from start"}
+                  <Play className="h-4 w-4 fill-black" /> {s("Baştan izle", "Play from start")}
                 </button>
               </div>
             </div>
-            <p className="mt-4 text-xs font-bold uppercase tracking-widest text-muted-foreground">{tr ? "Bölümler" : "Episodes"}</p>
+            <p className="mt-4 text-xs font-bold uppercase tracking-widest text-muted-foreground">{s("Bölümler", "Episodes")}</p>
             <div className="mt-2 grid grid-cols-5 gap-2">
               {Array.from({ length: open.episodes ?? 0 }, (_, i) => i + 1).map((n) => {
                 const free = allowed(open, n);
@@ -300,7 +299,7 @@ export function FeaturedCharacters({
                   <button
                     key={n}
                     onClick={() => { const ch = open; setOpen(null); play(ch, n); }}
-                    aria-label={tr ? `${open.name} ${n}. bölüm${free ? "" : " (kilitli)"}` : `${open.name} episode ${n}${free ? "" : " (locked)"}`}
+                    aria-label={s("{name} {n}. bölüm", "{name} episode {n}", { name: open.name, n }) + (free ? "" : s(" (kilitli)", " (locked)"))}
                     className={`grid aspect-square place-items-center rounded-xl border text-lg font-bold ${free ? "border-gold/60 text-gold" : "border-white/20 text-muted-foreground"}`}
                   >
                     {free ? n : <Lock className="h-4 w-4" />}
@@ -314,11 +313,11 @@ export function FeaturedCharacters({
 
       {locked && (
         <div className="fixed inset-0 z-[60] grid place-items-end bg-background/70 p-4 backdrop-blur-sm" onClick={() => setLocked(null)}>
-          <div className="mx-auto w-full max-w-md rounded-3xl border bg-card p-6" onClick={(ev) => ev.stopPropagation()} role="dialog" aria-label={tr ? "Kilitli bölüm" : "Locked episode"}>
+          <div className="mx-auto w-full max-w-md rounded-3xl border bg-card p-6" onClick={(ev) => ev.stopPropagation()} role="dialog" aria-label={s("Kilitli bölüm", "Locked episode")}>
             <Lock className="h-6 w-6 text-gold" />
-            <h2 className="mt-3 text-lg font-bold">{tr ? "Bu bölüm kilitli" : "This episode is locked"}</h2>
+            <h2 className="mt-3 text-lg font-bold">{s("Bu bölüm kilitli", "This episode is locked")}</h2>
             <p className="mt-1 text-sm text-muted-foreground">
-              {locked.ch.name} · {tr ? `${locked.n}. bölüm` : `Episode ${locked.n}`}
+              {locked.ch.name} · {s("{n}. bölüm", "Episode {n}", { n: locked.n })}
             </p>
             {ads.canReward() && (
               <button
@@ -326,7 +325,7 @@ export function FeaturedCharacters({
                 disabled={busy}
                 className="mt-5 flex w-full items-center justify-center gap-2 rounded-full bg-secondary py-3 text-sm font-semibold disabled:opacity-60"
               >
-                <Tv className="h-4 w-4" /> {busy ? "…" : tr ? "Reklam izle, bu bölümü aç" : "Watch an ad to unlock this episode"}
+                <Tv className="h-4 w-4" /> {busy ? "…" : s("Reklam izle, bu bölümü aç", "Watch an ad to unlock this episode")}
               </button>
             )}
             <AnimationSubscribeButton tr={tr} offer={offer} onSubscribed={() => openAfter({ ...getAnimationAccess(), owned: true })} />

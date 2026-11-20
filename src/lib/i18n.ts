@@ -1,6 +1,10 @@
 import { useAppState } from "@/lib/store";
+import { setPhraseLang } from "@/lib/phrases";
+import more from "./i18n-more.json";
 
-export const LANGS = ["tr", "en", "de", "fr", "es", "pt", "ar", "hi"] as const;
+export const LANGS = ["tr", "en", "de", "fr", "es", "pt", "ar", "hi", "zh", "ja", "ko", "ru", "it", "id", "vi", "bn", "ur", "mr", "te", "ta"] as const;
+/** Seslendirme seçenekleri: dublaj yalnızca bu dillerde hazırlanıyor. */
+export const DUB_LANGS = ["tr", "en", "de", "fr", "es", "pt", "ar", "hi"] as const;
 export type Lang = (typeof LANGS)[number];
 
 export const LANG_NAMES: Record<Lang, string> = {
@@ -12,9 +16,21 @@ export const LANG_NAMES: Record<Lang, string> = {
   pt: "Português",
   ar: "العربية",
   hi: "हिन्दी",
+  zh: "中文",
+  ja: "日本語",
+  ko: "한국어",
+  ru: "Русский",
+  it: "Italiano",
+  id: "Bahasa Indonesia",
+  vi: "Tiếng Việt",
+  bn: "বাংলা",
+  ur: "اردو",
+  mr: "मराठी",
+  te: "తెలుగు",
+  ta: "தமிழ்",
 };
 
-export const RTL: Lang[] = ["ar"];
+export const RTL: Lang[] = ["ar", "ur"];
 
 /** Altyazı dilleri: arayüz dillerinden fazlası (20 dil). */
 export const SUB_LANGS = ["tr", "en", "de", "fr", "es", "pt", "ar", "hi", "zh", "ja", "ko", "ru", "it", "id", "vi", "bn", "ur", "mr", "te", "ta"] as const;
@@ -288,7 +304,7 @@ const hi: Dict = {
   pack_s: "स्टार्टर", pack_m: "सबसे लोकप्रिय", pack_l: "ब्रह्मांड यात्री", pack_xl: "Multiverse VIP",
 };
 
-const dicts: Record<Lang, Dict> = { tr, en, de, fr, es, pt, ar, hi };
+const dicts: Record<Lang, Dict> = { tr, en, de, fr, es, pt, ar, hi, zh: {}, ja: {}, ko: {}, ru: {}, it: {}, id: {}, vi: {}, bn: {}, ur: {}, mr: {}, te: {}, ta: {} };
 
 export function translate(lang: Lang, key: string, vars?: Record<string, string | number>) {
   let s = dicts[lang]?.[key] ?? dicts.en[key] ?? key;
@@ -299,6 +315,7 @@ export function translate(lang: Lang, key: string, vars?: Record<string, string 
 export function useT() {
   const { state } = useAppState();
   const lang = state.uiLang;
+  setPhraseLang(lang);
   return { lang, t: (key: string, vars?: Record<string, string | number>) => translate(lang, key, vars) };
 }
 
@@ -374,3 +391,5 @@ const extra: Partial<Record<Lang, Dict>> = {
   },
 };
 for (const [l, d] of Object.entries(extra)) Object.assign(dicts[l as Lang], d);
+// 20 dil: kullanıcıya görünen anahtarların çevirileri (i18n-more.json).
+for (const [l, d] of Object.entries(more as Record<string, Dict>)) Object.assign(dicts[l as Lang], d);

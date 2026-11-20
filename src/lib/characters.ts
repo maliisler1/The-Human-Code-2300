@@ -1,6 +1,7 @@
 import { queryOptions, useQuery } from "@tanstack/react-query";
 import bundledCatalog from "./katalog.json";
 import { downloadCatalog, signMedia } from "./media";
+import { parseLoc } from "./phrases";
 
 /**
  * Animasyon karakterleri: her biri Snooze with Tik ile aynı mantıkta, konuşmasız
@@ -13,7 +14,7 @@ import { downloadCatalog, signMedia } from "./media";
 export type UpcomingCharacter = {
   key: string;
   name: string;
-  hook: { tr: string; en: string };
+  hook: { tr: string; en: string; loc?: Record<string, string> | undefined };
   poster: string;
   /** Fragmanın süreli bağlantısı; depoya ulaşılamadıysa boş. */
   video: string;
@@ -23,7 +24,7 @@ export type UpcomingCharacter = {
   episodeUrls: string[];
 };
 
-export type CatalogCharacter = { key: string; name: string; tr: string; en: string; episodes?: number };
+export type CatalogCharacter = { key: string; name: string; tr: string; en: string; episodes?: number; loc?: Record<string, string> | undefined };
 
 /** Afişi uygulamayla birlikte gelen karakterler (public/karakterler/<key>.webp). */
 const BUNDLED_POSTERS = new Set(bundledCatalog.characters.map((c) => c.key));
@@ -47,7 +48,7 @@ function toCharacter(c: CatalogCharacter, urls: Record<string, string>): Upcomin
   return {
     key: c.key,
     name: c.name,
-    hook: { tr: c.tr, en: c.en },
+    hook: { tr: c.tr, en: c.en, loc: c.loc },
     poster: BUNDLED_POSTERS.has(c.key) ? `/karakterler/${c.key}.webp` : (urls[posterPath(c.key)] ?? ""),
     video: urls[trailerPath(c.key)] ?? "",
     ...(c.episodes ? { episodes: c.episodes } : {}),
@@ -72,7 +73,8 @@ export function parseCatalog(json: unknown): CatalogCharacter[] | null {
     if (typeof c.name !== "string" || typeof c.tr !== "string" || typeof c.en !== "string") return null;
     const n = c.episodes;
     const episodes = typeof n === "number" && Number.isInteger(n) && n > 0 && n <= 500 ? n : undefined;
-    out.push({ key: c.key, name: c.name, tr: c.tr, en: c.en, ...(episodes ? { episodes } : {}) });
+    const loc = parseLoc((raw as { loc?: unknown }).loc);
+    out.push({ key: c.key, name: c.name, tr: c.tr, en: c.en, ...(episodes ? { episodes } : {}), ...(loc ? { loc } : {}) });
   }
   return out;
 }
@@ -114,7 +116,7 @@ export function useCharacters() {
  * okunur; fragman ve afiş dosyaları web sitesinde durur (trailers/<key>_720.mp4, <key>_poster.jpg).
  * Böylece yeni fragman eklemek için uygulamayı güncellemek gerekmez.
  */
-export type NextMonthSeries = { key: string; title: string; titleEn: string };
+export type NextMonthSeries = { key: string; title: string; titleEn: string; loc?: Record<string, string> | undefined };
 
 export function parseNextMonth(json: unknown): NextMonthSeries[] | null {
   const list = (json as { nextMonth?: unknown } | null)?.nextMonth;
@@ -124,7 +126,8 @@ export function parseNextMonth(json: unknown): NextMonthSeries[] | null {
     const s = raw as Partial<NextMonthSeries>;
     if (typeof s.key !== "string" || !/^[a-z0-9-]{1,40}$/.test(s.key)) return null;
     if (typeof s.title !== "string" || !s.title) return null;
-    out.push({ key: s.key, title: s.title, titleEn: typeof s.titleEn === "string" && s.titleEn ? s.titleEn : s.title });
+    const loc = parseLoc((raw as { loc?: unknown }).loc);
+    out.push({ key: s.key, title: s.title, titleEn: typeof s.titleEn === "string" && s.titleEn ? s.titleEn : s.title, ...(loc ? { loc } : {}) });
   }
   return out;
 }
@@ -147,7 +150,7 @@ export function useNextMonth(): NextMonthSeries[] {
  * Ana ekran rafları: karakterleri temaya göre gruplar. Depodaki katalogdan okunur;
  * yeni karakter bir rafa uygulama güncellemesi olmadan eklenebilir.
  */
-export type Shelf = { key: string; tr: string; en: string; members: string[] };
+export type Shelf = { key: string; tr: string; en: string; members: string[]; loc?: Record<string, string> | undefined };
 
 export function parseShelves(json: unknown): Shelf[] | null {
   const list = (json as { shelves?: unknown } | null)?.shelves;
@@ -158,7 +161,8 @@ export function parseShelves(json: unknown): Shelf[] | null {
     if (typeof s.key !== "string" || !/^[a-z0-9-]{1,40}$/.test(s.key)) return null;
     if (typeof s.tr !== "string" || !s.tr || !Array.isArray(s.members)) return null;
     const members = s.members.filter((m): m is string => typeof m === "string" && /^[a-z0-9-]{1,40}$/.test(m));
-    out.push({ key: s.key, tr: s.tr, en: typeof s.en === "string" && s.en ? s.en : s.tr, members });
+    const loc = parseLoc((raw as { loc?: unknown }).loc);
+    out.push({ key: s.key, tr: s.tr, en: typeof s.en === "string" && s.en ? s.en : s.tr, members, ...(loc ? { loc } : {}) });
   }
   return out;
 }

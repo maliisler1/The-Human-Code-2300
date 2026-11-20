@@ -4,6 +4,7 @@ import { toast } from "sonner";
 import { ParentGate } from "@/components/ParentGate";
 import { isChild } from "@/lib/age";
 import { animations, getAnimationAccess, setAnimationAccess, subscribeAnimationAccess, type SubscriptionOffer } from "@/lib/animations";
+import { s } from "@/lib/phrases";
 
 /** Cihazdaki animasyon erişimi (abonelik ve reklamla açılan bölümler). */
 export function useAnimationAccess() {
@@ -50,19 +51,19 @@ export function AnimationSubscribeButton({ tr, offer, onSubscribed }: { tr: bool
     try {
       if (await animations.subscribe(offer)) {
         setAnimationAccess({ ...getAnimationAccess(), owned: true });
-        toast.success(tr ? "Teşekkürler! Tüm animasyon bölümleri açıldı, reklamlar kapandı." : "Thank you! All animation episodes are unlocked and ads are off.");
+        toast.success(s("Teşekkürler! Tüm animasyon bölümleri açıldı, reklamlar kapandı.", "Thank you! All animation episodes are unlocked and ads are off."));
         onSubscribed?.();
       }
     } catch {
-      toast.error(tr ? "Abonelik başlatılamadı. Biraz sonra tekrar dene." : "The subscription could not be started. Try again shortly.");
+      toast.error(s("Abonelik başlatılamadı. Biraz sonra tekrar dene.", "The subscription could not be started. Try again shortly."));
     } finally {
       setBusy(false);
     }
   };
 
   const label = offer.trial
-    ? tr ? `7 gün ücretsiz dene, sonra ${offer.price}/ay` : `Try 7 days free, then ${offer.price}/month`
-    : tr ? `Abone ol · ${offer.price}/ay` : `Subscribe · ${offer.price}/month`;
+    ? s("7 gün ücretsiz dene, sonra {price}/ay", "Try 7 days free, then {price}/month", { price: offer.price })
+    : s("Abone ol · {price}/ay", "Subscribe · {price}/month", { price: offer.price });
 
   return (
     <>
@@ -84,9 +85,7 @@ export function AnimationSubscribeButton({ tr, offer, onSubscribed }: { tr: bool
         <Crown className="h-4 w-4" /> {busy ? "…" : label}
       </button>
       <p className="mt-2 text-center text-[11px] leading-snug text-muted-foreground">
-        {tr
-          ? "Tüm animasyon bölümleri açılır, reklam gösterilmez. Abonelik her ay kendiliğinden yenilenir; Google Play'den istediğin zaman iptal edebilirsin."
-          : "Unlocks every animation episode and removes ads. Renews automatically each month; cancel anytime in Google Play."}
+        {s("Tüm animasyon bölümleri açılır, reklam gösterilmez. Abonelik her ay kendiliğinden yenilenir; Google Play'den istediğin zaman iptal edebilirsin.", "Unlocks every animation episode and removes ads. Renews automatically each month; cancel anytime in Google Play.")}
       </p>
     </>
   );
@@ -99,31 +98,29 @@ export function AnimationSubscriptionCard({ tr }: { tr: boolean }) {
   return (
     <div className="mx-5 mt-6 rounded-3xl border-2 border-gold/60 bg-card p-5">
       <p className="flex items-center gap-2 text-sm font-bold">
-        <Crown className="h-4 w-4 text-gold" /> {tr ? "Animasyon Aboneliği" : "Animation Subscription"}
+        <Crown className="h-4 w-4 text-gold" /> {s("Animasyon Aboneliği", "Animation Subscription")}
       </p>
       <p className="mt-1 text-xs text-muted-foreground">
-        {tr ? "Snooze with Tik ve tüm animasyon dizileri: bütün bölümler açık, reklamsız." : "Snooze with Tik and every animated series: all episodes unlocked, no ads."}
+        {s("Snooze with Tik ve tüm animasyon dizileri: bütün bölümler açık, reklamsız.", "Snooze with Tik and every animated series: all episodes unlocked, no ads.")}
       </p>
       {access.owned ? (
         <>
-          <p className="mt-3 font-display text-2xl font-bold text-gold">{tr ? "Abonesin ✓" : "Subscribed ✓"}</p>
+          <p className="mt-3 font-display text-2xl font-bold text-gold">{s("Abonesin ✓", "Subscribed ✓")}</p>
           <button onClick={() => void animations.manage().catch(() => {})} className="mt-3 w-full rounded-full border py-3 text-sm font-semibold">
-            {tr ? "Aboneliği yönet ya da iptal et" : "Manage or cancel subscription"}
+            {s("Aboneliği yönet ya da iptal et", "Manage or cancel subscription")}
           </button>
         </>
       ) : offer ? (
         <AnimationSubscribeButton tr={tr} offer={offer} />
       ) : loading ? (
-        <p className="mt-3 text-sm text-muted-foreground">{tr ? "Fiyat yükleniyor…" : "Loading price…"}</p>
+        <p className="mt-3 text-sm text-muted-foreground">{s("Fiyat yükleniyor…", "Loading price…")}</p>
       ) : (
         <>
           <p className="mt-3 text-sm text-muted-foreground">
-            {tr
-              ? "Abonelik bilgisi şu an Google Play'den alınamadı. İnternet bağlantını kontrol edip tekrar dene."
-              : "The subscription could not be loaded from Google Play right now. Check your connection and try again."}
+            {s("Abonelik bilgisi şu an Google Play'den alınamadı. İnternet bağlantını kontrol edip tekrar dene.", "The subscription could not be loaded from Google Play right now. Check your connection and try again.")}
           </p>
           <button onClick={reload} className="mt-3 w-full rounded-full border py-3 text-sm font-semibold">
-            {tr ? "Tekrar dene" : "Try again"}
+            {s("Tekrar dene", "Try again")}
           </button>
         </>
       )}

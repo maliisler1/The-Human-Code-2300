@@ -10,19 +10,29 @@ export function useAnimationAccess() {
   return useSyncExternalStore(subscribeAnimationAccess, getAnimationAccess, getAnimationAccess);
 }
 
-/** Mağazadaki abonelik teklifi; ürün yoksa ya da Android değilse null. */
-export function useSubscriptionOffer() {
+/** Mağazadaki abonelik teklifinin durumu: yükleniyor mu, teklif ne, yeniden deneme. */
+export function useSubscriptionOfferState() {
   const [offer, setOffer] = useState<SubscriptionOffer | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [attempt, setAttempt] = useState(0);
   useEffect(() => {
     let live = true;
+    setLoading(true);
     void animations.offer().then((o) => {
-      if (live) setOffer(o);
+      if (!live) return;
+      setOffer(o);
+      setLoading(false);
     });
     return () => {
       live = false;
     };
-  }, []);
-  return offer;
+  }, [attempt]);
+  return { offer, loading, reload: () => setAttempt((n) => n + 1) };
+}
+
+/** Mağazadaki abonelik teklifi; ürün yoksa ya da Android değilse null. */
+export function useSubscriptionOffer() {
+  return useSubscriptionOfferState().offer;
 }
 
 /**
@@ -82,11 +92,10 @@ export function AnimationSubscribeButton({ tr, offer, onSubscribed }: { tr: bool
   );
 }
 
-/** Satın alma sayfasındaki abonelik kartı: durum, abone olma ve aboneliği yönetme. */
+/** Satın alma sayfasındaki abonelik kartı: durum, abone olma ve aboneliği yönetme. Her zaman görünür. */
 export function AnimationSubscriptionCard({ tr }: { tr: boolean }) {
   const access = useAnimationAccess();
-  const offer = useSubscriptionOffer();
-  if (!offer && !access.owned) return null;
+  const { offer, loading, reload } = useSubscriptionOfferState();
   return (
     <div className="mx-5 mt-6 rounded-3xl border-2 border-gold/60 bg-card p-5">
       <p className="flex items-center gap-2 text-sm font-bold">
@@ -102,8 +111,21 @@ export function AnimationSubscriptionCard({ tr }: { tr: boolean }) {
             {tr ? "Aboneliği yönet ya da iptal et" : "Manage or cancel subscription"}
           </button>
         </>
-      ) : (
+      ) : offer ? (
         <AnimationSubscribeButton tr={tr} offer={offer} />
+      ) : loading ? (
+        <p className="mt-3 text-sm text-muted-foreground">{tr ? "Fiyat yükleniyor…" : "Loading price…"}</p>
+      ) : (
+        <>
+          <p className="mt-3 text-sm text-muted-foreground">
+            {tr
+              ? "Abonelik bilgisi şu an Google Play'den alınamadı. İnternet bağlantını kontrol edip tekrar dene."
+              : "The subscription could not be loaded from Google Play right now. Check your connection and try again."}
+          </p>
+          <button onClick={reload} className="mt-3 w-full rounded-full border py-3 text-sm font-semibold">
+            {tr ? "Tekrar dene" : "Try again"}
+          </button>
+        </>
       )}
     </div>
   );

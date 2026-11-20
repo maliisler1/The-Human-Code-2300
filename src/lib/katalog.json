@@ -113,7 +113,7 @@
       "name": "Wiff",
       "tr": "Son sinyal çubuğu. Dayan Wiff.",
       "en": "The last signal bar. Hold on, Wiff.",
-      "episodes": 5
+      "episodes": 10
     },
     {
       "key": "pop",
@@ -175,25 +175,29 @@
       "key": "pix",
       "name": "Pix",
       "tr": "Ekrandaki tek piksel. Fark edilsin.",
-      "en": "One pixel on the screen. Notice it."
+      "en": "One pixel on the screen. Notice it.",
+      "episodes": 5
     },
     {
       "key": "boon",
       "name": "Boon",
       "tr": "Patlamamaya çalışan bir balon.",
-      "en": "A balloon trying not to pop."
+      "en": "A balloon trying not to pop.",
+      "episodes": 5
     },
     {
       "key": "sprout",
       "name": "Sprout",
       "tr": "Sulanmayı bekleyen küçük filiz.",
-      "en": "A little sprout waiting for water."
+      "en": "A little sprout waiting for water.",
+      "episodes": 5
     },
     {
       "key": "ding",
       "name": "Ding",
       "tr": "Yanlış kata basan asansör düğmesi.",
-      "en": "The elevator button that picks the wrong floor."
+      "en": "The elevator button that picks the wrong floor.",
+      "episodes": 5
     },
     {
       "key": "mag",

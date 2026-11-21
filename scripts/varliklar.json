@@ -831,5 +831,17 @@
   {
     "hedef": "karakterler/kiko-ep6",
     "video": "https://cdn.brmgo.cn/image-to-video-files-prod-intl/7529684493439356928/7529684493439356928_dd5f15.mp4"
+  },
+  {
+    "hedef": "karakterler/ibrim",
+    "gorsel": "https://skillsrc.octask.ai/minimax/7529761208274522112_0_eee8931a.jpg"
+  },
+  {
+    "hedef": "karakterler/kiri",
+    "gorsel": "https://skillsrc.octask.ai/minimax/7529762066001285120_0_584691b8.jpg"
+  },
+  {
+    "hedef": "karakterler/kori",
+    "gorsel": "https://skillsrc.octask.ai/minimax/7529762216174178304_0_682063f3.jpg"
   }
 ]

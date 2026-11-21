@@ -4,7 +4,7 @@ import { BUNDLED_CATALOG, UPCOMING_CHARACTERS, catalogPaths, characterEpisode, p
 describe("animasyon kataloğu", () => {
   it("uygulamayla gelen katalogda 22 karakterin hepsi bölümlü", () => {
     const { featured, soon } = splitCharacters(UPCOMING_CHARACTERS);
-    expect(featured.map((c) => c.key).slice(0, 5)).toEqual(["abram-aile", "bip", "dusty", "pizzo", "zizi"]);
+    expect(featured.map((c) => c.key).slice(0, 5)).toEqual(["abram-kiri-kori", "bip", "dusty", "pizzo", "zizi"]);
     expect(featured).toHaveLength(22);
     expect(soon).toHaveLength(0);
   });

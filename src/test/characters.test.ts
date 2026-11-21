@@ -15,9 +15,9 @@ describe("animasyon kataloğu", () => {
     expect(characterEpisode(bip, 1)).toBe("");
   });
   it("depoda olması gereken dosyaları sayar", () => {
-    // 22 fragman + 14 karakter x 10 bölüm + 7 karakter x 5 bölüm + Abram ailesinin 1 bölümü; afişler uygulamayla gelir.
-    expect(catalogPaths(BUNDLED_CATALOG)).toHaveLength(22 + 140 + 35 + 1);
-    expect(catalogPaths(BUNDLED_CATALOG, true)).toHaveLength(22 + 140 + 35 + 1 + 22);
+    // 22 fragman + 21 karakter x 10 bölüm + Abram ailesinin 1 bölümü; afişler uygulamayla gelir.
+    expect(catalogPaths(BUNDLED_CATALOG)).toHaveLength(22 + 210 + 1);
+    expect(catalogPaths(BUNDLED_CATALOG, true)).toHaveLength(22 + 210 + 1 + 22);
     expect(catalogPaths([{ key: "yeni", name: "Yeni", tr: "a", en: "b", episodes: 2 }])).toEqual([
       "karakterler/yeni.mp4",
       "karakterler/yeni.webp",

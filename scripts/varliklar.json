@@ -833,15 +833,6 @@
     "video": "https://cdn.brmgo.cn/image-to-video-files-prod-intl/7529684493439356928/7529684493439356928_dd5f15.mp4"
   },
   {
-    "hedef": "karakterler/abram-aile",
-    "video": "https://cdn.brmgo.cn/image-to-video-files-prod-intl/7529764906400739328/7529764906400739328_925331.mp4",
-    "gorsel": "https://skillsrc.octask.ai/minimax/7529766921541533696_0_37447310.jpg"
-  },
-  {
-    "hedef": "karakterler/abram-aile-ep1",
-    "video": "https://cdn.brmgo.cn/image-to-video-files-prod-intl/7529764906400739328/7529764906400739328_925331.mp4"
-  },
-  {
     "hedef": "karakterler/boon-ep6",
     "video": "https://cdn.brmgo.cn/image-to-video-files-prod-intl/7529751827214516224/7529751827214516224_434ddd.mp4"
   },
@@ -976,5 +967,14 @@
   {
     "hedef": "karakterler/sprout-ep10",
     "video": "https://cdn.brmgo.cn/image-to-video-files-prod-intl/7529755711395864576/7529755711395864576_a10e1b.mp4"
+  },
+  {
+    "hedef": "karakterler/abram-kiri-kori",
+    "video": "https://i2v.magiclight.ai/tests/7529789903005552640/7529789903005552640_b5b2e6.mp4",
+    "gorsel": "https://skillsrc.octask.ai/minimax/7529781943579713536_0_c3c2b180.jpg"
+  },
+  {
+    "hedef": "karakterler/abram-kiri-kori-ep1",
+    "video": "https://cdn.brmgo.cn/image-to-video-files-prod-intl/7529764906400739328/7529764906400739328_925331.mp4"
   }
 ]

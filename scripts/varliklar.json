@@ -883,5 +883,9 @@
   {
     "hedef": "karakterler/leon-a",
     "video": "https://i2v.magiclight.ai/tests/7529864654700929024/7529864654700929024_369646.mp4"
+  },
+  {
+    "hedef": "karakterler/leon-afis",
+    "gorsel": "https://skillsrc.octask.ai/minimax/7529861151525969920_0_84d7e404.jpg"
   }
 ]

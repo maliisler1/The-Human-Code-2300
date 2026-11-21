@@ -6,11 +6,12 @@ import { ads } from "@/lib/ads";
 import { FREE_CHARACTER_EPISODES, characterEpisodeId, getAnimationAccess, hasCharacterAccess, setAnimationAccess, type AnimationAccess } from "@/lib/animations";
 import { characterEpisode, useCharacters, useShelves, type UpcomingCharacter } from "@/lib/characters";
 import { countWatch } from "@/lib/watchCount";
+import type { SubTrack } from "@/lib/characters";
 import { markWatched, recentKeys, useProgress } from "@/lib/progress";
 import { useAppState } from "@/lib/store";
 import { loc, s } from "@/lib/phrases";
 
-type Playing = { src: string; title: string; poster?: string | undefined; vertical?: boolean; next?: (() => void) | undefined };
+type Playing = { src: string; title: string; poster?: string | undefined; subs?: SubTrack | undefined; vertical?: boolean; next?: (() => void) | undefined };
 
 /**
  * Ana ekran: dönen vitrin, "kaldığın yerden devam et", temalı raflar ve bütün karakterlerin üçlü ızgarası.
@@ -77,6 +78,7 @@ export function FeaturedCharacters({
       src,
       title: `${ch.name} · ${n}`,
       poster: ch.poster,
+      subs: ch.subs?.[String(n)],
       vertical: true,
       next: n < (ch.episodes ?? 0) ? () => play(ch, n + 1, a) : undefined,
     });

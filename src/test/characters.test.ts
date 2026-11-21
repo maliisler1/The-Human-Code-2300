@@ -49,3 +49,18 @@ describe("parseNextMonth", () => {
     expect(BUNDLED_NEXT_MONTH.map((s) => s.key)).toEqual(["ruya-arsivi", "kayip-tren"]);
   });
 });
+
+import { parseSubs } from "@/lib/characters";
+
+describe("bölüm altyazıları", () => {
+  it("geçerli altyazıyı kabul eder, bozuk dili atlar", () => {
+    const s = parseSubs({ "1": { cues: [[1, 2], [3, 4]], text: { en: ["Hi", "Bye"], tr: ["Selam"] } } });
+    expect(s?.["1"]?.cues).toHaveLength(2);
+    expect(s?.["1"]?.text["en"]).toEqual(["Hi", "Bye"]);
+    expect(s?.["1"]?.text["tr"]).toBeUndefined();
+  });
+  it("bozuk altyazıda bölümü altyazısız bırakır", () => {
+    expect(parseSubs({ "1": { cues: [[2, 1]], text: { en: ["x"] } } })).toBeUndefined();
+    expect(parseSubs("x")).toBeUndefined();
+  });
+});

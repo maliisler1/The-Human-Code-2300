@@ -3,6 +3,7 @@ import { ownsSeries } from "@/lib/animations";
 import { createFileRoute, Link, notFound, useNavigate } from "@tanstack/react-router";
 import { useSuspenseQuery } from "@tanstack/react-query";
 import { useEffect, useRef, useState } from "react";
+import { countWatch } from "@/lib/watchCount";
 import { ArrowLeft, X, Loader2 } from "lucide-react";
 import { toast } from "sonner";
 import { AppShell } from "@/components/AppShell";
@@ -52,6 +53,11 @@ export function Player() {
   const updateRef = useRef(update);
   updateRef.current = update;
   const tr = (a: string, b: string) => lang === "tr" ? a : b;
+
+  // İzlenme sayacı: izin verilen bölüm açıldığında bir kez sayılır.
+  useEffect(() => {
+    if (allowed) countWatch(slug, n);
+  }, [allowed, slug, n]);
 
   useEffect(() => {
     let live = true;

@@ -5,6 +5,7 @@ import { AnimationSubscribeButton, useAnimationAccess, useSubscriptionOffer } fr
 import { ads } from "@/lib/ads";
 import { FREE_CHARACTER_EPISODES, characterEpisodeId, getAnimationAccess, hasCharacterAccess, setAnimationAccess, type AnimationAccess } from "@/lib/animations";
 import { characterEpisode, useCharacters, useShelves, type UpcomingCharacter } from "@/lib/characters";
+import { countWatch } from "@/lib/watchCount";
 import { markWatched, recentKeys, useProgress } from "@/lib/progress";
 import { useAppState } from "@/lib/store";
 import { loc, s } from "@/lib/phrases";
@@ -71,6 +72,7 @@ export function FeaturedCharacters({
       return;
     }
     markWatched(ch.key, n);
+    countWatch(ch.key, n);
     onPlay({
       src,
       title: `${ch.name} · ${n}`,
@@ -108,16 +110,22 @@ export function FeaturedCharacters({
 
   const all = [...FEATURED_CHARACTERS, ...SOON_CHARACTERS];
   const byKey = new Map(all.map((ch) => [ch.key, ch]));
-  const trailer = (ch: UpcomingCharacter) =>
-    ch.video
-      ? onPlay({ src: ch.video, title: ch.name, poster: ch.poster, vertical: true })
-      : toast.info(s("Video şu an yüklenemedi. İnternet bağlantını kontrol edip tekrar dene.", "The video could not be loaded. Check your connection and try again."));
+  const trailer = (ch: UpcomingCharacter) => {
+    if (!ch.video) {
+      toast.info(s("Video şu an yüklenemedi. İnternet bağlantını kontrol edip tekrar dene.", "The video could not be loaded. Check your connection and try again."));
+      return;
+    }
+    countWatch(ch.key, 0);
+    onPlay({ src: ch.video, title: ch.name, poster: ch.poster, vertical: true });
+  };
   const openCard = (ch: UpcomingCharacter) => (ch.episodes ? setOpen(ch) : trailer(ch));
 
-  // Vitrin: önce ana dizi, sonra bölümleri yayında olan ilk karakterler sırayla döner.
+  // Vitrin: önce listenin ilk dizisi (Abram, Kiri & Kori), sonra ana dizi (Tik), sonra sıradaki karakterler döner.
+  const charSlides = FEATURED_CHARACTERS.slice(0, 4).map((ch) => ({ key: ch.key, title: ch.name, sub: loc(ch.hook), poster: ch.poster, go: () => play(ch, 1) }));
   const slides = [
+    ...charSlides.slice(0, 1),
     ...(lead ? [{ key: "lead", title: lead.title, sub: lead.sub, poster: lead.poster, go: lead.onOpen }] : []),
-    ...FEATURED_CHARACTERS.slice(0, 4).map((ch) => ({ key: ch.key, title: ch.name, sub: loc(ch.hook), poster: ch.poster, go: () => play(ch, 1) })),
+    ...charSlides.slice(1),
   ];
   const slide = slides.length ? slides[slideAt % slides.length]! : null;
 

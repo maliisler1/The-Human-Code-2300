@@ -61,6 +61,7 @@
       "tr": "Mutfak kahramanları",
       "en": "Kitchen heroes",
       "members": [
+        "lemi",
         "pizzo",
         "pop",
         "fizz",
@@ -191,7 +192,7 @@
       "name": "Bip",
       "tr": "Şarjı %1. Şarj aleti çok uzakta.",
       "en": "Battery at 1%. The charger is far away.",
-      "episodes": 5,
+      "episodes": 10,
       "loc": {
         "de": "Akku bei 1 %. Das Ladekabel ist weit weg.",
         "fr": "Batterie à 1 %. Le chargeur est loin.",
@@ -218,7 +219,7 @@
       "name": "Dusty",
       "tr": "Robot süpürge geliyor. Kaç Dusty.",
       "en": "The robot vacuum is coming. Run, Dusty.",
-      "episodes": 5,
+      "episodes": 10,
       "loc": {
         "de": "Der Saugroboter kommt. Lauf, Dusty.",
         "fr": "Le robot aspirateur arrive. Cours, Dusty.",
@@ -245,7 +246,7 @@
       "name": "Pizzo",
       "tr": "Son dilim. Sabaha kadar dayanmalı.",
       "en": "The last slice. It must survive the night.",
-      "episodes": 5,
+      "episodes": 10,
       "loc": {
         "de": "Das letzte Stück. Es muss die Nacht überstehen.",
         "fr": "La dernière part. Elle doit survivre à la nuit.",
@@ -272,7 +273,7 @@
       "name": "Zizi",
       "tr": "Gece üç. Tek bir ısırık yeter.",
       "en": "3 AM. One bite is all it wants.",
-      "episodes": 5,
+      "episodes": 10,
       "loc": {
         "de": "3 Uhr nachts. Ein einziger Stich, mehr will sie nicht.",
         "fr": "3 h du matin. Une seule piqûre, c'est tout ce qu'elle veut.",
@@ -299,7 +300,7 @@
       "name": "Sok",
       "tr": "Tek kalmış bir çorap, eşini arıyor.",
       "en": "A lonely sock looking for its pair.",
-      "episodes": 5,
+      "episodes": 10,
       "loc": {
         "de": "Eine einsame Socke sucht ihr Gegenstück.",
         "fr": "Une chaussette solitaire cherche sa jumelle.",
@@ -326,7 +327,7 @@
       "name": "Lumo",
       "tr": "Söylenmemiş sözleri taşıyan bekçi.",
       "en": "The keeper who carries unsaid words.",
-      "episodes": 5,
+      "episodes": 10,
       "loc": {
         "de": "Der Hüter, der ungesagte Worte trägt.",
         "fr": "Le gardien qui porte les mots jamais dits.",
@@ -380,7 +381,7 @@
       "name": "Pop",
       "tr": "Bu sefer yanmayacak. Yine yandı.",
       "en": "Not burnt this time. Burnt again.",
-      "episodes": 5,
+      "episodes": 10,
       "loc": {
         "de": "Diesmal nicht verbrannt. Wieder verbrannt.",
         "fr": "Pas brûlé cette fois. Brûlé encore.",
@@ -407,7 +408,7 @@
       "name": "Drip",
       "tr": "Düşmemeye çalışan bir damla.",
       "en": "A drop trying not to fall.",
-      "episodes": 5,
+      "episodes": 10,
       "loc": {
         "de": "Ein Tropfen, der nicht fallen will.",
         "fr": "Une goutte qui essaie de ne pas tomber.",
@@ -434,7 +435,7 @@
       "name": "Remo",
       "tr": "Koltuğun dibinde saklanan kumanda.",
       "en": "The remote hiding deep in the sofa.",
-      "episodes": 5,
+      "episodes": 10,
       "loc": {
         "de": "Die Fernbedienung, tief im Sofa versteckt.",
         "fr": "La télécommande cachée au fond du canapé.",
@@ -461,7 +462,7 @@
       "name": "Fizz",
       "tr": "Yukarı çıkmak isteyen bir baloncuk.",
       "en": "A bubble racing to the top.",
-      "episodes": 5,
+      "episodes": 10,
       "loc": {
         "de": "Ein Bläschen im Wettlauf nach oben.",
         "fr": "Une bulle qui fait la course jusqu'en haut.",
@@ -488,7 +489,7 @@
       "name": "Glim",
       "tr": "Karanlığı uzak tutan gece lambası.",
       "en": "The night light that keeps the dark away.",
-      "episodes": 5,
+      "episodes": 10,
       "loc": {
         "de": "Das Nachtlicht, das die Dunkelheit fernhält.",
         "fr": "La veilleuse qui tient l'obscurité à distance.",
@@ -515,7 +516,7 @@
       "name": "Mel",
       "tr": "Erimeden önce yenmek istiyor.",
       "en": "It wants to be eaten before it melts.",
-      "episodes": 5,
+      "episodes": 10,
       "loc": {
         "de": "Es will gegessen werden, bevor es schmilzt.",
         "fr": "Elle veut être mangée avant de fondre.",
@@ -723,6 +724,34 @@
         "mr": "चिठ्ठी न पडू देण्याचा प्रयत्न करणारं चुंबक.",
         "te": "చీటీని పడనివ్వకూడదని ప్రయత్నించే అయస్కాంతం.",
         "ta": "குறிப்பைக் கீழே விழவிடாமல் முயலும் காந்தம்."
+      },
+      "episodes": 5
+    },
+    {
+      "key": "lemi",
+      "name": "Lemi",
+      "tr": "Buzdolabının arkasında unutulmuş limon.",
+      "en": "The lemon forgotten at the back of the fridge.",
+      "episodes": 10,
+      "loc": {
+        "de": "Die Zitrone, hinten im Kühlschrank vergessen.",
+        "fr": "Le citron oublié au fond du frigo.",
+        "es": "El limón olvidado al fondo de la nevera.",
+        "pt": "O limão esquecido no fundo da geladeira.",
+        "it": "Il limone dimenticato in fondo al frigo.",
+        "ru": "Лимон, забытый в глубине холодильника.",
+        "ar": "الليمونة المنسية في آخر الثلاجة.",
+        "hi": "फ़्रिज के पीछे भूला हुआ नींबू।",
+        "zh": "被遗忘在冰箱深处的柠檬。",
+        "ja": "冷蔵庫の奥で忘れられたレモン。",
+        "ko": "냉장고 구석에 잊힌 레몬.",
+        "id": "Lemon yang terlupakan di belakang kulkas.",
+        "vi": "Quả chanh bị bỏ quên ở góc tủ lạnh.",
+        "bn": "ফ্রিজের পেছনে ভুলে যাওয়া লেবু।",
+        "ur": "فریج کے پیچھے بھولا ہوا لیموں۔",
+        "mr": "फ्रिजच्या मागे विसरलेलं लिंबू.",
+        "te": "ఫ్రిజ్ వెనుక మరచిపోయిన నిమ్మకాయ.",
+        "ta": "ஃப்ரிட்ஜின் பின்புறம் மறக்கப்பட்ட எலுமிச்சை."
       }
     }
   ]

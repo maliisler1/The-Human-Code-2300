@@ -62,6 +62,7 @@
       "en": "Home life",
       "members": [
         "abram-hikayesi",
+        "leon",
         "dusty",
         "zizi",
         "sok",
@@ -426,6 +427,249 @@
               "நில்! என்னிடம் ஒரு திட்டம் இருக்கு.",
               "என் மகள்களுடன் ஒவ்வொரு நாளும் புதிய சாகசம்.",
               "வாருங்கள், எங்கள் கதையைப் பாருங்கள்!"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "key": "leon",
+      "name": "Leon",
+      "tr": "Gerçek bir hikâye: Leon, dünyada gitmediği ülke kalmamış kurnaz ve gizemli bir tekir. Bir gün Abram'ın bahçesine çıkageldi. Kiri ile Kori'nin babası o mu?",
+      "en": "A true story: Leon is a sly, mysterious tabby who has travelled all over the world. One day he showed up in Abram's garden. Is he Kiri and Kori's dad?",
+      "episodes": 1,
+      "loc": {
+        "de": "Eine wahre Geschichte: Leon ist ein schlauer, geheimnisvoller Tigerkater, der schon die ganze Welt bereist hat. Eines Tages tauchte er in Abrams Garten auf. Ist er der Vater von Kiri und Kori?",
+        "fr": "Une histoire vraie : Leon est un chat tigré rusé et mystérieux qui a parcouru le monde entier. Un jour, il est apparu dans le jardin d'Abram. Serait-il le papa de Kiri et Kori ?",
+        "es": "Una historia real: Leon es un gato atigrado astuto y misterioso que ha recorrido el mundo entero. Un día apareció en el jardín de Abram. ¿Será el papá de Kiri y Kori?",
+        "pt": "Uma história real: Leon é um gato malhado esperto e misterioso que já viajou o mundo inteiro. Um dia ele apareceu no jardim de Abram. Será ele o pai de Kiri e Kori?",
+        "it": "Una storia vera: Leon è un gatto tigrato furbo e misterioso che ha girato il mondo intero. Un giorno è comparso nel giardino di Abram. Sarà lui il papà di Kiri e Kori?",
+        "ru": "Реальная история: Леон — хитрый и загадочный полосатый кот, объехавший весь мир. Однажды он появился в саду Абрам. Неужели он папа Кири и Кори?",
+        "ar": "قصة حقيقية: ليون قط مخطط ماكر وغامض جاب العالم كله. وفي يوم ظهر في حديقة أبرام. هل هو والد كيري وكوري؟",
+        "hi": "एक सच्ची कहानी: लियोन एक चालाक और रहस्यमयी धारीदार बिल्ला है जो पूरी दुनिया घूम चुका है। एक दिन वह अब्राम के बगीचे में आ पहुँचा। क्या वही कीरी और कोरी का पापा है?",
+        "zh": "真实的故事：莱昂是一只聪明又神秘的虎斑猫，走遍了全世界。有一天，他出现在阿布拉姆的花园里。他会是琪丽和可丽的爸爸吗？",
+        "ja": "本当のお話：レオンは世界中を旅してきた、ずる賢くて謎めいたキジトラ猫。ある日、アブラムの庭にふらりと現れた。もしかしてキリとコリのパパ？",
+        "ko": "실화: 레온은 온 세상을 여행한 영리하고 신비로운 줄무늬 고양이예요. 어느 날 아브람의 정원에 나타났어요. 혹시 키리와 코리의 아빠일까요?",
+        "id": "Kisah nyata: Leon adalah kucing belang yang cerdik dan misterius yang sudah berkeliling dunia. Suatu hari ia muncul di kebun Abram. Apakah dia ayah Kiri dan Kori?",
+        "vi": "Chuyện có thật: Leon là chú mèo mướp tinh ranh, bí ẩn đã đi khắp thế giới. Một ngày nọ, chú xuất hiện trong khu vườn của Abram. Phải chăng chú là bố của Kiri và Kori?",
+        "bn": "একটি সত্যি গল্প: লিওন এক চালাক ও রহস্যময় ডোরাকাটা বিড়াল, যে পুরো পৃথিবী ঘুরেছে। একদিন সে আব্রামের বাগানে হাজির হলো। সে কি কিরি আর কোরির বাবা?",
+        "ur": "ایک سچی کہانی: لیون ایک چالاک اور پراسرار دھاری دار بلا ہے جو پوری دنیا گھوم چکا ہے۔ ایک دن وہ ابرام کے باغ میں آ پہنچا۔ کیا وہی کیری اور کوری کا ابو ہے؟",
+        "mr": "एक खरी गोष्ट: लिओन हा जगभर फिरलेला हुशार आणि गूढ पट्टेरी बोका आहे. एके दिवशी तो अब्रामच्या बागेत येऊन पोहोचला. तोच कीरी आणि कोरीचा बाबा आहे का?",
+        "te": "ఒక నిజమైన కథ: లియోన్ ప్రపంచమంతా తిరిగిన తెలివైన, రహస్యమైన చారల పిల్లి. ఒక రోజు అతను అబ్రామ్ తోటలో ప్రత్యక్షమయ్యాడు. అతనే కిరి, కోరిల నాన్నా?",
+        "ta": "ஒரு உண்மைக் கதை: லியோன் உலகம் முழுவதும் சுற்றி வந்த, சாமர்த்தியமான மர்மமான வரிப் பூனை. ஒரு நாள் அவன் அப்ராமின் தோட்டத்தில் வந்து நின்றான். அவன்தான் கிரி, கோரியின் அப்பாவா?"
+      },
+      "subs": {
+        "1": {
+          "cues": [
+            [
+              1.62,
+              4.06
+            ],
+            [
+              5.46,
+              7.12
+            ],
+            [
+              19.5,
+              21.0
+            ],
+            [
+              34.38,
+              37.34
+            ],
+            [
+              37.9,
+              40.48
+            ],
+            [
+              47.9,
+              49.2
+            ],
+            [
+              50.94,
+              54.76
+            ]
+          ],
+          "text": {
+            "en": [
+              "Who are you?",
+              "Mom! A stranger!",
+              "Traveler.",
+              "Leon? You came back…",
+              "You know him?",
+              "From Paris.",
+              "Are you… our dad?"
+            ],
+            "tr": [
+              "Sen kimsin?",
+              "Anne! Bir yabancı!",
+              "Gezgin.",
+              "Leon? Geri döndün…",
+              "Onu tanıyor musun?",
+              "Paris'ten.",
+              "Sen… bizim babamız mısın?"
+            ],
+            "de": [
+              "Wer bist du?",
+              "Mama! Ein Fremder!",
+              "Reisender.",
+              "Leon? Du bist zurück …",
+              "Du kennst ihn?",
+              "Aus Paris.",
+              "Bist du … unser Papa?"
+            ],
+            "fr": [
+              "Qui es-tu ?",
+              "Maman ! Un inconnu !",
+              "Voyageur.",
+              "Leon ? Tu es revenu…",
+              "Tu le connais ?",
+              "De Paris.",
+              "Tu es… notre papa ?"
+            ],
+            "es": [
+              "¿Quién eres?",
+              "¡Mamá! ¡Un desconocido!",
+              "Viajero.",
+              "¿Leon? Has vuelto…",
+              "¿Lo conoces?",
+              "De París.",
+              "¿Eres… nuestro papá?"
+            ],
+            "pt": [
+              "Quem é você?",
+              "Mamãe! Um estranho!",
+              "Viajante.",
+              "Leon? Você voltou…",
+              "Você o conhece?",
+              "De Paris.",
+              "Você é… o nosso pai?"
+            ],
+            "it": [
+              "Chi sei?",
+              "Mamma! Uno sconosciuto!",
+              "Viaggiatore.",
+              "Leon? Sei tornato…",
+              "Lo conosci?",
+              "Da Parigi.",
+              "Sei… il nostro papà?"
+            ],
+            "ru": [
+              "Кто ты?",
+              "Мама! Незнакомец!",
+              "Путешественник.",
+              "Леон? Ты вернулся…",
+              "Ты его знаешь?",
+              "Из Парижа.",
+              "Ты… наш папа?"
+            ],
+            "ar": [
+              "من أنت؟",
+              "ماما! غريب!",
+              "رحّالة.",
+              "ليون؟ لقد عدت…",
+              "هل تعرفينه؟",
+              "من باريس.",
+              "هل أنت… أبونا؟"
+            ],
+            "hi": [
+              "तुम कौन हो?",
+              "माँ! कोई अजनबी!",
+              "मुसाफ़िर।",
+              "लियोन? तुम लौट आए…",
+              "तुम उसे जानती हो?",
+              "पेरिस से।",
+              "क्या तुम… हमारे पापा हो?"
+            ],
+            "zh": [
+              "你是谁？",
+              "妈妈！有陌生人！",
+              "旅行者。",
+              "莱昂？你回来了……",
+              "你认识他？",
+              "从巴黎带来的。",
+              "你是……我们的爸爸吗？"
+            ],
+            "ja": [
+              "あなたはだれ？",
+              "ママ！知らない猫がいる！",
+              "旅人さ。",
+              "レオン？帰ってきたのね…",
+              "知ってるの？",
+              "パリのおみやげ。",
+              "あなたは…わたしたちのパパ？"
+            ],
+            "ko": [
+              "넌 누구야?",
+              "엄마! 낯선 고양이야!",
+              "여행자.",
+              "레온? 돌아왔구나…",
+              "엄마, 저 고양이 알아?",
+              "파리에서 왔어.",
+              "당신이… 우리 아빠예요?"
+            ],
+            "id": [
+              "Kamu siapa?",
+              "Ibu! Ada orang asing!",
+              "Pengembara.",
+              "Leon? Kamu kembali…",
+              "Ibu kenal dia?",
+              "Dari Paris.",
+              "Apakah kamu… ayah kami?"
+            ],
+            "vi": [
+              "Chú là ai?",
+              "Mẹ ơi! Có người lạ!",
+              "Lữ khách.",
+              "Leon? Anh đã về…",
+              "Mẹ biết chú ấy à?",
+              "Từ Paris.",
+              "Chú là… bố của tụi con ạ?"
+            ],
+            "bn": [
+              "তুমি কে?",
+              "মা! একজন অচেনা!",
+              "পথিক।",
+              "লিওন? তুমি ফিরে এসেছ…",
+              "তুমি ওকে চেনো?",
+              "প্যারিস থেকে।",
+              "তুমি কি… আমাদের বাবা?"
+            ],
+            "ur": [
+              "تم کون ہو؟",
+              "امی! کوئی اجنبی!",
+              "مسافر۔",
+              "لیون؟ تم واپس آ گئے…",
+              "آپ اسے جانتی ہیں؟",
+              "پیرس سے۔",
+              "کیا تم… ہمارے ابو ہو؟"
+            ],
+            "mr": [
+              "तू कोण आहेस?",
+              "आई! कोणीतरी अनोळखी!",
+              "प्रवासी.",
+              "लिओन? तू परत आलास…",
+              "तू त्याला ओळखतेस?",
+              "पॅरिसहून.",
+              "तू… आमचा बाबा आहेस का?"
+            ],
+            "te": [
+              "నువ్వు ఎవరు?",
+              "అమ్మా! ఎవరో కొత్తవాళ్లు!",
+              "యాత్రికుడిని.",
+              "లియోన్? నువ్వు తిరిగి వచ్చావా…",
+              "నీకు అతను తెలుసా?",
+              "పారిస్ నుంచి.",
+              "నువ్వు… మా నాన్నవా?"
+            ],
+            "ta": [
+              "நீ யார்?",
+              "அம்மா! ஒரு அந்நியர்!",
+              "பயணி.",
+              "லியோன்? நீ திரும்பி வந்துவிட்டாய்…",
+              "உனக்கு அவனைத் தெரியுமா?",
+              "பாரிஸிலிருந்து.",
+              "நீ… எங்கள் அப்பாவா?"
             ]
           }
         }

@@ -213,6 +213,222 @@
         "mr": "खरी गोष्ट: आम्ही नव्या घरात आलो तेव्हा अब्रामने आम्हाला शोधलं. आम्हाला नेहमी वाटायचं तो बोका आहे, पण एक दिवस बागेत दोन छोटी पिल्लं दिसली आणि कळलं की अब्राम त्यांची आई आहे.",
         "te": "నిజమైన కథ: మేము కొత్త ఇంటికి వచ్చినప్పుడు అబ్రామ్ మమ్మల్ని వెతుక్కుంటూ వచ్చింది. ఎప్పుడూ మగ పిల్లి అనుకున్నాం, తోటలో రెండు చిన్ని పిల్లలు కనిపించి అబ్రామ్ వాటి అమ్మ అని తెలిసేవరకు.",
         "ta": "உண்மைக் கதை: நாங்கள் புது வீட்டுக்கு வந்தபோது அப்ராம் எங்களைத் தேடி வந்தது. அதை எப்போதும் ஆண் பூனை என்றே நினைத்தோம்; தோட்டத்தில் இரண்டு குட்டிப் பூனைகள் தோன்றி, அப்ராம்தான் அவற்றின் அம்மா என்று தெரியும் வரை."
+      },
+      "subs": {
+        "1": {
+          "cues": [
+            [
+              4.56,
+              9.3
+            ],
+            [
+              11.42,
+              14.82
+            ],
+            [
+              16.52,
+              18.38
+            ],
+            [
+              30.68,
+              33.2
+            ],
+            [
+              37.0,
+              38.92
+            ],
+            [
+              46.0,
+              51.0
+            ],
+            [
+              53.38,
+              56.62
+            ]
+          ],
+          "text": {
+            "en": [
+              "I found a new home and a new family.",
+              "Mom! Mom! Let's go on an adventure.",
+              "Hmm… I have an idea.",
+              "Look! A butterfly!",
+              "Wait! I have a plan.",
+              "Every day is a new adventure with my girls.",
+              "Come watch our story!"
+            ],
+            "tr": [
+              "Yeni bir ev ve yeni bir aile buldum.",
+              "Anne! Anne! Hadi maceraya çıkalım.",
+              "Hımm… Bir fikrim var.",
+              "Bak! Bir kelebek!",
+              "Dur! Bir planım var.",
+              "Kızlarımla her gün yeni bir macera.",
+              "Gelin, hikâyemizi izleyin!"
+            ],
+            "de": [
+              "Ich habe ein neues Zuhause und eine neue Familie gefunden.",
+              "Mama! Mama! Lass uns ein Abenteuer erleben.",
+              "Hmm … ich habe eine Idee.",
+              "Schau! Ein Schmetterling!",
+              "Warte! Ich habe einen Plan.",
+              "Mit meinen Mädchen ist jeder Tag ein neues Abenteuer.",
+              "Schaut euch unsere Geschichte an!"
+            ],
+            "fr": [
+              "J'ai trouvé une nouvelle maison et une nouvelle famille.",
+              "Maman ! Maman ! Partons à l'aventure.",
+              "Hmm… j'ai une idée.",
+              "Regarde ! Un papillon !",
+              "Attends ! J'ai un plan.",
+              "Chaque jour est une nouvelle aventure avec mes filles.",
+              "Venez voir notre histoire !"
+            ],
+            "es": [
+              "Encontré un nuevo hogar y una nueva familia.",
+              "¡Mamá! ¡Mamá! Vamos de aventura.",
+              "Mmm… tengo una idea.",
+              "¡Mira! ¡Una mariposa!",
+              "¡Espera! Tengo un plan.",
+              "Cada día es una nueva aventura con mis niñas.",
+              "¡Vengan a ver nuestra historia!"
+            ],
+            "pt": [
+              "Encontrei um novo lar e uma nova família.",
+              "Mamãe! Mamãe! Vamos numa aventura.",
+              "Hmm… tive uma ideia.",
+              "Olha! Uma borboleta!",
+              "Espera! Eu tenho um plano.",
+              "Cada dia é uma nova aventura com as minhas meninas.",
+              "Venham ver a nossa história!"
+            ],
+            "it": [
+              "Ho trovato una nuova casa e una nuova famiglia.",
+              "Mamma! Mamma! Andiamo all'avventura.",
+              "Mmm… ho un'idea.",
+              "Guarda! Una farfalla!",
+              "Aspetta! Ho un piano.",
+              "Ogni giorno è una nuova avventura con le mie bambine.",
+              "Venite a vedere la nostra storia!"
+            ],
+            "ru": [
+              "Я нашла новый дом и новую семью.",
+              "Мама! Мама! Пойдём на приключение.",
+              "Хм… у меня есть идея.",
+              "Смотри! Бабочка!",
+              "Стой! У меня есть план.",
+              "С моими девочками каждый день — новое приключение.",
+              "Посмотрите нашу историю!"
+            ],
+            "ar": [
+              "وجدت بيتًا جديدًا وعائلة جديدة.",
+              "ماما! ماما! هيا نخوض مغامرة.",
+              "همم… لديّ فكرة.",
+              "انظري! فراشة!",
+              "انتظري! لديّ خطة.",
+              "كل يوم مغامرة جديدة مع بناتي.",
+              "تعالوا شاهدوا قصتنا!"
+            ],
+            "hi": [
+              "मुझे एक नया घर और नया परिवार मिल गया।",
+              "माँ! माँ! चलो एक रोमांच पर चलें।",
+              "हम्म… मेरे पास एक आइडिया है।",
+              "देखो! एक तितली!",
+              "रुको! मेरे पास एक योजना है।",
+              "मेरी बेटियों के साथ हर दिन एक नया रोमांच है।",
+              "आओ, हमारी कहानी देखो!"
+            ],
+            "zh": [
+              "我找到了新家，还有新的家人。",
+              "妈妈！妈妈！我们去冒险吧。",
+              "嗯……我有个主意。",
+              "看！一只蝴蝶！",
+              "等等！我有个计划。",
+              "和我的女儿们在一起，每天都是新的冒险。",
+              "快来看我们的故事吧！"
+            ],
+            "ja": [
+              "新しいおうちと、新しい家族を見つけたの。",
+              "ママ！ママ！冒険に行こうよ。",
+              "うーん…いいこと思いついた。",
+              "見て！ちょうちょだ！",
+              "待って！作戦があるの。",
+              "娘たちといると、毎日が新しい冒険。",
+              "わたしたちのお話を見に来てね！"
+            ],
+            "ko": [
+              "새 집과 새 가족을 찾았어요.",
+              "엄마! 엄마! 모험하러 가요.",
+              "음… 좋은 생각이 있어.",
+              "봐! 나비야!",
+              "잠깐! 나한테 계획이 있어.",
+              "우리 딸들과 함께라면 매일이 새로운 모험이에요.",
+              "우리 이야기를 보러 오세요!"
+            ],
+            "id": [
+              "Aku menemukan rumah baru dan keluarga baru.",
+              "Ibu! Ibu! Ayo berpetualang.",
+              "Hmm… aku punya ide.",
+              "Lihat! Ada kupu-kupu!",
+              "Tunggu! Aku punya rencana.",
+              "Setiap hari adalah petualangan baru bersama putri-putriku.",
+              "Ayo tonton kisah kami!"
+            ],
+            "vi": [
+              "Tôi đã tìm được một ngôi nhà mới và một gia đình mới.",
+              "Mẹ ơi! Mẹ ơi! Mình đi phiêu lưu đi.",
+              "Hừm… con có ý này.",
+              "Nhìn kìa! Một con bướm!",
+              "Khoan đã! Con có kế hoạch.",
+              "Mỗi ngày bên các con gái là một cuộc phiêu lưu mới.",
+              "Hãy đến xem câu chuyện của chúng tôi!"
+            ],
+            "bn": [
+              "আমি একটা নতুন বাড়ি আর নতুন পরিবার পেয়েছি।",
+              "মা! মা! চলো অভিযানে যাই।",
+              "হুম… আমার মাথায় একটা বুদ্ধি এসেছে।",
+              "দেখো! একটা প্রজাপতি!",
+              "দাঁড়াও! আমার একটা পরিকল্পনা আছে।",
+              "আমার মেয়েদের সাথে প্রতিদিনই নতুন অভিযান।",
+              "এসো, আমাদের গল্প দেখো!"
+            ],
+            "ur": [
+              "مجھے ایک نیا گھر اور نیا خاندان مل گیا۔",
+              "امی! امی! چلو مہم پر چلیں۔",
+              "ہمم… میرے پاس ایک خیال ہے۔",
+              "دیکھو! ایک تتلی!",
+              "رکو! میرے پاس ایک منصوبہ ہے۔",
+              "میری بیٹیوں کے ساتھ ہر دن ایک نئی مہم ہے۔",
+              "آؤ، ہماری کہانی دیکھو!"
+            ],
+            "mr": [
+              "मला नवं घर आणि नवं कुटुंब मिळालं.",
+              "आई! आई! चल, साहसाला जाऊया.",
+              "हम्म… मला एक कल्पना सुचलीय.",
+              "बघ! एक फुलपाखरू!",
+              "थांब! माझ्याकडे एक योजना आहे.",
+              "माझ्या मुलींसोबत रोजचा दिवस नवं साहस असतो.",
+              "या, आमची गोष्ट बघा!"
+            ],
+            "te": [
+              "నాకు కొత్త ఇల్లు, కొత్త కుటుంబం దొరికాయి.",
+              "అమ్మా! అమ్మా! సాహసానికి వెళ్దాం.",
+              "హ్మ్… నాకో ఆలోచన వచ్చింది.",
+              "చూడు! ఒక సీతాకోకచిలుక!",
+              "ఆగు! నా దగ్గర ఒక ప్లాన్ ఉంది.",
+              "నా పిల్లలతో ప్రతి రోజూ ఒక కొత్త సాహసమే.",
+              "రండి, మా కథ చూడండి!"
+            ],
+            "ta": [
+              "எனக்கு ஒரு புதிய வீடும் புதிய குடும்பமும் கிடைத்தது.",
+              "அம்மா! அம்மா! சாகசத்துக்குப் போகலாம்.",
+              "ம்ம்… எனக்கு ஒரு யோசனை.",
+              "பார்! ஒரு பட்டாம்பூச்சி!",
+              "நில்! என்னிடம் ஒரு திட்டம் இருக்கு.",
+              "என் மகள்களுடன் ஒவ்வொரு நாளும் புதிய சாகசம்.",
+              "வாருங்கள், எங்கள் கதையைப் பாருங்கள்!"
+            ]
+          }
+        }
       }
     },
     {

@@ -22,9 +22,14 @@ export type UpcomingCharacter = {
   episodes?: number;
   /** Bölümlerin süreli bağlantıları (1. bölüm 0. sırada). */
   episodeUrls: string[];
+  /** Konuşmalı bölümlerin altyazıları (anahtar: bölüm numarası). */
+  subs?: Record<string, SubTrack> | undefined;
 };
 
-export type CatalogCharacter = { key: string; name: string; tr: string; en: string; episodes?: number; loc?: Record<string, string> | undefined };
+/** Altyazı: her satırın başlangıç/bitiş saniyesi ve dillere göre metinleri (satır sırasıyla). */
+export type SubTrack = { cues: [number, number][]; text: Record<string, string[]> };
+
+export type CatalogCharacter = { key: string; name: string; tr: string; en: string; episodes?: number; loc?: Record<string, string> | undefined; subs?: Record<string, SubTrack> | undefined };
 
 /** Afişi uygulamayla birlikte gelen karakterler (public/karakterler/<key>.webp). */
 const BUNDLED_POSTERS = new Set(bundledCatalog.characters.map((c) => c.key));
@@ -53,11 +58,31 @@ function toCharacter(c: CatalogCharacter, urls: Record<string, string>): Upcomin
     video: urls[trailerPath(c.key)] ?? "",
     ...(c.episodes ? { episodes: c.episodes } : {}),
     episodeUrls: Array.from({ length: c.episodes ?? 0 }, (_, i) => urls[episodePath(c.key, i + 1)] ?? ""),
+    ...(c.subs ? { subs: c.subs } : {}),
   };
 }
 
 /** Karakterin n. bölümünün süreli bağlantısı; yoksa boş. */
 export const characterEpisode = (ch: UpcomingCharacter, n: number) => ch.episodeUrls[n - 1] ?? "";
+
+/** Katalogdaki altyazıları doğrular; bozuk bölüm altyazısı atlanır (bölüm yine oynar). */
+export function parseSubs(json: unknown): Record<string, SubTrack> | undefined {
+  if (!json || typeof json !== "object" || Array.isArray(json)) return undefined;
+  const out: Record<string, SubTrack> = {};
+  for (const [n, raw] of Object.entries(json as Record<string, unknown>)) {
+    if (!/^\d{1,3}$/.test(n)) continue;
+    const t = raw as { cues?: unknown; text?: unknown } | null;
+    if (!t || !Array.isArray(t.cues) || !t.text || typeof t.text !== "object") continue;
+    const cues = t.cues.filter((c): c is [number, number] => Array.isArray(c) && c.length === 2 && typeof c[0] === "number" && typeof c[1] === "number" && c[0] <= c[1]);
+    if (cues.length !== t.cues.length || cues.length === 0 || cues.length > 200) continue;
+    const text: Record<string, string[]> = {};
+    for (const [lang, lines] of Object.entries(t.text as Record<string, unknown>)) {
+      if (/^[a-z]{2}$/.test(lang) && Array.isArray(lines) && lines.length === cues.length && lines.every((l) => typeof l === "string" && l.length <= 300)) text[lang] = lines as string[];
+    }
+    if (Object.keys(text).length > 0) out[n] = { cues, text };
+  }
+  return Object.keys(out).length > 0 ? out : undefined;
+}
 
 /**
  * Depodan gelen kataloğu doğrular. Biçim bozuksa null döner ve uygulamayla gelen liste kullanılır.
@@ -74,12 +99,13 @@ export function parseCatalog(json: unknown): CatalogCharacter[] | null {
     const n = c.episodes;
     const episodes = typeof n === "number" && Number.isInteger(n) && n > 0 && n <= 500 ? n : undefined;
     const loc = parseLoc((raw as { loc?: unknown }).loc);
-    out.push({ key: c.key, name: c.name, tr: c.tr, en: c.en, ...(episodes ? { episodes } : {}), ...(loc ? { loc } : {}) });
+    const subs = parseSubs((raw as { subs?: unknown }).subs);
+    out.push({ key: c.key, name: c.name, tr: c.tr, en: c.en, ...(episodes ? { episodes } : {}), ...(loc ? { loc } : {}), ...(subs ? { subs } : {}) });
   }
   return out;
 }
 
-export const BUNDLED_CATALOG: CatalogCharacter[] = bundledCatalog.characters;
+export const BUNDLED_CATALOG: CatalogCharacter[] = bundledCatalog.characters as unknown as CatalogCharacter[];
 
 /** Uygulamayla gelen liste: depoya ulaşılamadığında kullanılır (video bağlantıları boştur). */
 export const UPCOMING_CHARACTERS: UpcomingCharacter[] = BUNDLED_CATALOG.map((c) => toCharacter(c, {}));

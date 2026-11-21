@@ -2,13 +2,15 @@ import { Captions, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { SUB_LANGS, SUB_NAMES, type SubLang } from "@/lib/i18n";
 import { TRAILER_SUBS } from "@/lib/trailerSubs";
+import type { SubTrack } from "@/lib/characters";
 
-/** Tam ekran fragman oynatıcı (sesli). subsKey verilirse 20 dilde altyazı gösterir. */
+/** Tam ekran fragman oynatıcı (sesli). subsKey ya da subs verilirse 20 dilde altyazı gösterir. */
 export function TrailerModal({
   src,
   poster,
   title,
   subsKey,
+  subs: subsTrack,
   defaultLang = "tr",
   vertical,
   onEnded,
@@ -18,6 +20,8 @@ export function TrailerModal({
   poster?: string | undefined;
   title: string;
   subsKey?: string | undefined;
+  /** Konuşmalı karakter bölümlerinin altyazısı (katalogdan gelir). */
+  subs?: SubTrack | undefined;
   defaultLang?: string;
   /** Dikey (9:16) video: ekranı dolduracak şekilde gösterilir. */
   vertical?: boolean | undefined;
@@ -25,7 +29,7 @@ export function TrailerModal({
   onEnded?: (() => void) | undefined;
   onClose: () => void;
 }) {
-  const subs = subsKey ? TRAILER_SUBS[subsKey] : undefined;
+  const subs = subsTrack ?? (subsKey ? TRAILER_SUBS[subsKey] : undefined);
   const start = (SUB_LANGS as readonly string[]).includes(defaultLang) ? (defaultLang as SubLang) : "en";
   const [lang, setLang] = useState<SubLang | "off">(start);
   const [menu, setMenu] = useState(false);

@@ -1,3 +1,4 @@
+import type { SubTrack } from "@/lib/characters";
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useQuery, useSuspenseQuery } from "@tanstack/react-query";
 import { Sparkles, Orbit, Play, Film, CalendarDays } from "lucide-react";
@@ -67,7 +68,7 @@ function Index() {
   const featured = pickFeatured(all);
   const { soon: SOON_CHARACTERS } = useCharacters();
   const navigate = useNavigate();
-  const [play, setPlay] = useState<{ src: string; title: string; poster?: string | undefined; subsKey?: string | undefined; vertical?: boolean; next?: (() => void) | undefined } | null>(null);
+  const [play, setPlay] = useState<{ src: string; title: string; poster?: string | undefined; subsKey?: string | undefined; subs?: SubTrack | undefined; vertical?: boolean; next?: (() => void) | undefined } | null>(null);
   const eps = useQuery({ ...episodeListQuery(featured?.id ?? "", featured?.slug ?? ""), enabled: !!featured }).data ?? [];
   const epCount = eps.length;
   if (!featured) return <AppShell><p className="px-5 pt-10 text-sm text-muted-foreground">{t("loading")}</p></AppShell>;
@@ -286,7 +287,7 @@ function Index() {
         )}
         <div className="h-8" />
       </div>
-      {play && <TrailerModal src={play.src} poster={play.poster} title={play.title} subsKey={play.subsKey} defaultLang={lang} vertical={play.vertical} onEnded={play.next} onClose={() => setPlay(null)} />}
+      {play && <TrailerModal src={play.src} poster={play.poster} title={play.title} subsKey={play.subsKey} subs={play.subs} defaultLang={lang} vertical={play.vertical} onEnded={play.next} onClose={() => setPlay(null)} />}
     </AppShell>
   );
 }

@@ -95,7 +95,7 @@
       "tr": "Ev halleri",
       "en": "Home life",
       "members": [
-        "abram",
+        "abram-aile",
         "dusty",
         "zizi",
         "sok",
@@ -189,7 +189,7 @@
   ],
   "characters": [
     {
-      "key": "abram",
+      "key": "abram-aile",
       "name": "Abram, Kiri & Kori",
       "tr": "Gerçek hikâye: bahçemizdeki uykucu anne Abram, meraklı Kiri ve yaramaz Korsan Kori.",
       "en": "A true story from our garden: sleepy mom Abram, curious Kiri and mischievous little pirate Kori.",

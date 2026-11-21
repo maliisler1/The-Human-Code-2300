@@ -161,6 +161,7 @@
       "tr": "Minik hayalperestler",
       "en": "Little dreamers",
       "members": [
+        "nova",
         "lumo",
         "glim",
         "boon",
@@ -676,6 +677,33 @@
       }
     },
     {
+      "key": "nova",
+      "name": "Nova",
+      "tr": "Nova'nın pusulası parlayınca 3 saniye sonrasını görür. Ama işler hiç beklediği gibi gitmez!",
+      "en": "When Nova's compass glows, he sees 3 seconds into the future. But things never go as planned!",
+      "episodes": 1,
+      "loc": {
+        "de": "Wenn Novas Kompass leuchtet, sieht er 3 Sekunden in die Zukunft. Aber nichts läuft wie geplant!",
+        "fr": "Quand la boussole de Nova brille, il voit 3 secondes dans le futur. Mais rien ne se passe comme prévu !",
+        "es": "Cuando la brújula de Nova brilla, ve 3 segundos del futuro. ¡Pero nada sale como espera!",
+        "pt": "Quando a bússola de Nova brilha, ele vê 3 segundos no futuro. Mas nada sai como planejado!",
+        "it": "Quando la bussola di Nova si illumina, vede 3 secondi nel futuro. Ma niente va come previsto!",
+        "ru": "Когда компас Новы светится, он видит будущее на 3 секунды вперёд. Но всё идёт не по плану!",
+        "ar": "عندما تتوهج بوصلة نوفا، يرى المستقبل قبل 3 ثوانٍ. لكن الأمور لا تسير أبدًا كما يتوقع!",
+        "hi": "जब नोवा का कंपास चमकता है, वह 3 सेकंड आगे का भविष्य देख लेता है। पर कुछ भी सोचे मुताबिक नहीं होता!",
+        "zh": "诺瓦的指南针一发光，他就能看见3秒后的未来。可事情从来不按计划发展！",
+        "ja": "ノヴァのコンパスが光ると、3秒先の未来が見える。でも、いつも思いどおりにはいかない！",
+        "ko": "노바의 나침반이 빛나면 3초 뒤의 미래가 보여요. 하지만 일은 늘 예상대로 되지 않아요!",
+        "id": "Saat kompas Nova bersinar, ia melihat 3 detik ke masa depan. Tapi semuanya tak pernah sesuai rencana!",
+        "vi": "Khi chiếc la bàn của Nova phát sáng, cậu thấy trước 3 giây tương lai. Nhưng mọi chuyện chẳng bao giờ như dự tính!",
+        "bn": "নোভার কম্পাস জ্বলে উঠলেই সে ৩ সেকেন্ড পরের ভবিষ্যৎ দেখে। কিন্তু কিছুই পরিকল্পনামতো হয় না!",
+        "ur": "جب نووا کا قطب نما چمکتا ہے، وہ 3 سیکنڈ آگے کا مستقبل دیکھ لیتا ہے۔ مگر کچھ بھی سوچے مطابق نہیں ہوتا!",
+        "mr": "नोव्हाचा होकायंत्र चमकला की त्याला ३ सेकंद पुढचं भविष्य दिसतं. पण काहीच ठरल्यासारखं होत नाही!",
+        "te": "నోవా దిక్సూచి మెరిసినప్పుడు, అతను 3 సెకన్ల ముందు భవిష్యత్తును చూస్తాడు. కానీ ఏదీ అనుకున్నట్టు జరగదు!",
+        "ta": "நோவாவின் திசைகாட்டி ஒளிர்ந்தால், அவன் 3 வினாடி முன்னால் எதிர்காலத்தைப் பார்க்கிறான். ஆனால் எதுவும் நினைத்தபடி நடக்காது!"
+      }
+    },
+    {
       "key": "bip",
       "name": "Bip",
       "tr": "Şarjı %1. Şarj aleti çok uzakta.",
@@ -707,7 +735,7 @@
       "name": "Dusty",
       "tr": "Robot süpürge geliyor. Kaç Dusty.",
       "en": "The robot vacuum is coming. Run, Dusty.",
-      "episodes": 10,
+      "episodes": 15,
       "loc": {
         "de": "Der Saugroboter kommt. Lauf, Dusty.",
         "fr": "Le robot aspirateur arrive. Cours, Dusty.",

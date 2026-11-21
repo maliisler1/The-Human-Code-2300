@@ -1,0 +1,52 @@
+# Konuşmalı videoların sözlerini zaman damgalarıyla yazıya döker (Whisper).
+# Girdi: depo/ altındaki mp4 yolları (boşlukla ayrılmış). Sonuç: işin özetinde ve "altyazi-ham" eserinde JSON.
+# Çalıştırma: GitHub → Actions → "Altyazı çıkar" → Run workflow
+name: Altyazı çıkar
+
+on:
+  workflow_dispatch:
+    inputs:
+      dosyalar:
+        description: "depo/ altındaki mp4 yolları (boşlukla ayrılmış)"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  cikar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Kur
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q openai-whisper
+      - name: Yazıya dök
+        env:
+          DOSYALAR: ${{ inputs.dosyalar }}
+        run: |
+          mkdir -p cikti
+          python3 - <<'PY'
+          import json, os, whisper
+          m = whisper.load_model("small.en")
+          out = {}
+          for f in os.environ["DOSYALAR"].split():
+              if not (f.startswith("depo/") and f.endswith(".mp4") and ".." not in f and os.path.exists(f)):
+                  print("atlandı:", f); continue
+              r = m.transcribe(f, language="en", word_timestamps=True)
+              segs = [{"start": round(s["start"], 2), "end": round(s["end"], 2), "text": s["text"].strip()} for s in r["segments"]]
+              out[f] = segs
+              print("##", f)
+              for s in segs: print(f'{s["start"]:6.2f} {s["end"]:6.2f}  {s["text"]}')
+          json.dump(out, open("cikti/altyazi.json", "w"), ensure_ascii=False, indent=1)
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as fh:
+              fh.write("```json\n" + json.dumps(out, ensure_ascii=False, indent=1) + "\n```\n")
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: altyazi-ham
+          path: cikti/altyazi.json
+          retention-days: 7

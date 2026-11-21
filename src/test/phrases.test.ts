@@ -23,7 +23,7 @@ describe("20 dil", () => {
     const bip = BUNDLED_CATALOG.find((c) => c.key === "bip")!;
     setPhraseLang("ko");
     expect(loc({ tr: bip.tr, en: bip.en, loc: bip.loc })).toBe("배터리 1%. 충전기는 멀리 있다.");
-    expect(loc(BUNDLED_SHELVES[0]!)).toBe("주방 히어로");
+    expect(loc(BUNDLED_SHELVES.find((x) => x.key === "mutfak")!)).toBe("주방 히어로");
     setPhraseLang("xx");
     expect(loc({ tr: "a", en: "b" })).toBe("b");
     setPhraseLang("tr");

@@ -57,6 +57,40 @@
   ],
   "shelves": [
     {
+      "key": "ev",
+      "tr": "Ev halleri",
+      "en": "Home life",
+      "members": [
+        "abram-hikayesi",
+        "dusty",
+        "zizi",
+        "sok",
+        "remo",
+        "kiko",
+        "nudl"
+      ],
+      "loc": {
+        "de": "Zuhause",
+        "fr": "La vie à la maison",
+        "es": "Vida en casa",
+        "pt": "Vida em casa",
+        "it": "Vita di casa",
+        "ru": "Домашние будни",
+        "ar": "حياة البيت",
+        "hi": "घर की ज़िंदगी",
+        "zh": "居家日常",
+        "ja": "おうち時間",
+        "ko": "집콕 일상",
+        "id": "Kehidupan di rumah",
+        "vi": "Cuộc sống trong nhà",
+        "bn": "ঘরের জীবন",
+        "ur": "گھر کی زندگی",
+        "mr": "घरातलं आयुष्य",
+        "te": "ఇంటి జీవితం",
+        "ta": "வீட்டு வாழ்க்கை"
+      }
+    },
+    {
       "key": "mutfak",
       "tr": "Mutfak kahramanları",
       "en": "Kitchen heroes",
@@ -88,40 +122,6 @@
         "mr": "स्वयंपाकघरातील हिरो",
         "te": "వంటింటి హీరోలు",
         "ta": "சமையலறை நாயகர்கள்"
-      }
-    },
-    {
-      "key": "ev",
-      "tr": "Ev halleri",
-      "en": "Home life",
-      "members": [
-        "abram-ailesi",
-        "dusty",
-        "zizi",
-        "sok",
-        "remo",
-        "kiko",
-        "nudl"
-      ],
-      "loc": {
-        "de": "Zuhause",
-        "fr": "La vie à la maison",
-        "es": "Vida en casa",
-        "pt": "Vida em casa",
-        "it": "Vita di casa",
-        "ru": "Домашние будни",
-        "ar": "حياة البيت",
-        "hi": "घर की ज़िंदगी",
-        "zh": "居家日常",
-        "ja": "おうち時間",
-        "ko": "집콕 일상",
-        "id": "Kehidupan di rumah",
-        "vi": "Cuộc sống trong nhà",
-        "bn": "ঘরের জীবন",
-        "ur": "گھر کی زندگی",
-        "mr": "घरातलं आयुष्य",
-        "te": "ఇంటి జీవితం",
-        "ta": "வீட்டு வாழ்க்கை"
       }
     },
     {
@@ -189,7 +189,7 @@
   ],
   "characters": [
     {
-      "key": "abram-ailesi",
+      "key": "abram-hikayesi",
       "name": "Abram, Kiri & Kori",
       "tr": "Gerçek bir hikâye: Yeni evimize taşındığımızda Abram bizi buldu. Hep erkek sandık; ta ki bahçede iki minik yavru ortaya çıkıp Abram'ın onların annesi olduğu anlaşılana kadar.",
       "en": "A true story: Abram found us when we moved into our new home. We always thought Abram was a boy, until two tiny kittens appeared in the garden and Abram turned out to be their mom.",

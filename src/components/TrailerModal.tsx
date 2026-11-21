@@ -66,7 +66,7 @@ export function TrailerModal({
         <X className="h-6 w-6" />
       </button>
       <p className={vertical ? "pointer-events-none absolute inset-x-14 top-[max(1.25rem,env(safe-area-inset-top))] z-10 truncate text-center font-display text-base text-gold [text-shadow:0_1px_4px_#000]" : "mb-3 text-center font-display text-lg text-gold"}>{title}</p>
-      <div className={vertical ? "relative h-[100dvh] w-full" : "relative w-full max-w-3xl"}>
+      <div className={vertical ? "relative h-[100dvh] w-full shrink-0" : "relative w-full max-w-3xl"}>
         <video
           ref={videoRef}
           src={src}
@@ -74,6 +74,9 @@ export function TrailerModal({
           controls
           autoPlay
           playsInline
+          // Dikey bölümler zaten tüm ekranı kaplar. Telefonun kendi tam ekranı bölüm değişirken kapanıp
+          // videoyu küçülttüğü için o düğme gizlenir; böylece bölümler arasında boyut hiç değişmez.
+          {...(vertical ? { controlsList: "nofullscreen noremoteplayback", disablePictureInPicture: true } : {})}
           className={vertical ? "h-full w-full bg-black object-contain" : "aspect-video w-full rounded-xl bg-black"}
           onTimeUpdate={(e) => setTime(e.currentTarget.currentTime)}
           onEnded={onEnded ?? onClose}
@@ -88,12 +91,12 @@ export function TrailerModal({
         )}
       </div>
       {subs && (
-        <div className="relative mt-3">
-          <button onClick={() => setMenu((m) => !m)} className="flex items-center gap-2 rounded-full glass px-4 py-2 text-sm" aria-label="subtitles">
-            <Captions className="h-4 w-4 text-gold" /> {lang === "off" ? "—" : SUB_NAMES[lang]}
+        <div className={vertical ? "absolute left-4 top-[max(1rem,env(safe-area-inset-top))] z-10" : "relative mt-3"}>
+          <button onClick={() => setMenu((m) => !m)} className={`flex items-center gap-1.5 rounded-full glass text-sm ${vertical ? "p-2" : "px-4 py-2"}`} aria-label="subtitles">
+            <Captions className={vertical ? "h-6 w-6 text-gold" : "h-4 w-4 text-gold"} /> {vertical ? null : lang === "off" ? "—" : SUB_NAMES[lang]}
           </button>
           {menu && (
-            <div className="absolute bottom-12 left-1/2 max-h-72 w-52 -translate-x-1/2 overflow-y-auto rounded-xl border border-primary/30 bg-card p-1 shadow-xl">
+            <div className={`absolute max-h-72 w-52 overflow-y-auto rounded-xl border border-primary/30 bg-card p-1 shadow-xl ${vertical ? "left-0 top-12" : "bottom-12 left-1/2 -translate-x-1/2"}`}>
               {(["off", ...SUB_LANGS] as const).map((l) => (
                 <button
                   key={l}

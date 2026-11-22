@@ -2118,7 +2118,7 @@
       "name": "Bip",
       "tr": "Şarjı %1. Şarj aleti çok uzakta.",
       "en": "Battery at 1%. The charger is far away.",
-      "episodes": 10,
+      "episodes": 11,
       "loc": {
         "de": "Akku bei 1 %. Das Ladekabel ist weit weg.",
         "fr": "Batterie à 1 %. Le chargeur est loin.",
@@ -2145,7 +2145,7 @@
       "name": "Dusty",
       "tr": "Robot süpürge geliyor. Kaç Dusty.",
       "en": "The robot vacuum is coming. Run, Dusty.",
-      "episodes": 15,
+      "episodes": 18,
       "loc": {
         "de": "Der Saugroboter kommt. Lauf, Dusty.",
         "fr": "Le robot aspirateur arrive. Cours, Dusty.",
@@ -2172,7 +2172,7 @@
       "name": "Pizzo",
       "tr": "Son dilim. Sabaha kadar dayanmalı.",
       "en": "The last slice. It must survive the night.",
-      "episodes": 10,
+      "episodes": 11,
       "loc": {
         "de": "Das letzte Stück. Es muss die Nacht überstehen.",
         "fr": "La dernière part. Elle doit survivre à la nuit.",
@@ -2199,7 +2199,7 @@
       "name": "Zizi",
       "tr": "Gece üç. Tek bir ısırık yeter.",
       "en": "3 AM. One bite is all it wants.",
-      "episodes": 10,
+      "episodes": 11,
       "loc": {
         "de": "3 Uhr nachts. Ein einziger Stich, mehr will sie nicht.",
         "fr": "3 h du matin. Une seule piqûre, c'est tout ce qu'elle veut.",
@@ -2226,7 +2226,7 @@
       "name": "Sok",
       "tr": "Tek kalmış bir çorap, eşini arıyor.",
       "en": "A lonely sock looking for its pair.",
-      "episodes": 10,
+      "episodes": 11,
       "loc": {
         "de": "Eine einsame Socke sucht ihr Gegenstück.",
         "fr": "Une chaussette solitaire cherche sa jumelle.",
@@ -2253,7 +2253,7 @@
       "name": "Lumo",
       "tr": "Söylenmemiş sözleri taşıyan bekçi.",
       "en": "The keeper who carries unsaid words.",
-      "episodes": 10,
+      "episodes": 11,
       "loc": {
         "de": "Der Hüter, der ungesagte Worte trägt.",
         "fr": "Le gardien qui porte les mots jamais dits.",

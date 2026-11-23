@@ -1,5 +1,7 @@
 import { useAnimationAccess } from "@/components/AnimationSubscribe";
 import { refreshSubscription } from "@/lib/animations";
+import { push } from "@/lib/push";
+import { getAgeGroup, subscribeAgeGroup } from "@/lib/age";
 import { AgeGate } from "@/components/AgeGate";
 import { Link } from "@tanstack/react-router";
 import { Hop as Home, User, Crown, Languages, ShieldCheck } from "lucide-react";
@@ -80,6 +82,12 @@ export function AppShell({ children }: { children: ReactNode }) {
       if (owned !== null) update((s) => (s.seasonOwned === owned ? s : { ...s, seasonOwned: owned }));
     })();
   }, [ready, update]);
+  useEffect(() => {
+    // Yaş ekranı geçildikten sonra "yeni bölüm" bildirimleri için izin iste (bir kez).
+    const tryPush = () => { if (getAgeGroup() !== "unknown") void push.start(); };
+    tryPush();
+    return subscribeAgeGroup(tryPush);
+  }, []);
   useEffect(() => {
     document.documentElement.lang = lang;
     document.documentElement.dir = RTL.includes(lang) ? "rtl" : "ltr";

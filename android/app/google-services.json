@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "38211610771",
+    "project_id": "ai-multiverse-cinema",
+    "storage_bucket": "ai-multiverse-cinema.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38211610771:android:87bf6305820ef3c499c566",
+        "android_client_info": {
+          "package_name": "com.aimultiverse.cinema"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABBhkQ5daY6M7XHavpFv8TphSNbczl2Mg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

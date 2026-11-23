@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_stat_notify" />
+
         <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="${admobAppId}" />
 
@@ -44,4 +47,6 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <!-- Google Play ile "Sezonu Satın Al" (tek seferlik ürün: sezon_1) -->
     <uses-permission android:name="com.android.vending.BILLING" />
+    <!-- "Yeni bölüm eklendi" bildirimleri (Android 13+ için izin) -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 </manifest>

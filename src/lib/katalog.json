@@ -2788,7 +2788,7 @@
       "name": "Bip",
       "tr": "Şarjı %1. Şarj aleti çok uzakta.",
       "en": "Battery at 1%. The charger is far away.",
-      "episodes": 19,
+      "episodes": 20,
       "loc": {
         "de": "Akku bei 1 %. Das Ladekabel ist weit weg.",
         "fr": "Batterie à 1 %. Le chargeur est loin.",
@@ -2842,7 +2842,7 @@
       "name": "Pizzo",
       "tr": "Son dilim. Sabaha kadar dayanmalı.",
       "en": "The last slice. It must survive the night.",
-      "episodes": 19,
+      "episodes": 20,
       "loc": {
         "de": "Das letzte Stück. Es muss die Nacht überstehen.",
         "fr": "La dernière part. Elle doit survivre à la nuit.",
@@ -2869,7 +2869,7 @@
       "name": "Zizi",
       "tr": "Gece üç. Tek bir ısırık yeter.",
       "en": "3 AM. One bite is all it wants.",
-      "episodes": 19,
+      "episodes": 20,
       "loc": {
         "de": "3 Uhr nachts. Ein einziger Stich, mehr will sie nicht.",
         "fr": "3 h du matin. Une seule piqûre, c'est tout ce qu'elle veut.",
@@ -2896,7 +2896,7 @@
       "name": "Sok",
       "tr": "Tek kalmış bir çorap, eşini arıyor.",
       "en": "A lonely sock looking for its pair.",
-      "episodes": 19,
+      "episodes": 20,
       "loc": {
         "de": "Eine einsame Socke sucht ihr Gegenstück.",
         "fr": "Une chaussette solitaire cherche sa jumelle.",
@@ -2923,7 +2923,7 @@
       "name": "Lumo",
       "tr": "Söylenmemiş sözleri taşıyan bekçi.",
       "en": "The keeper who carries unsaid words.",
-      "episodes": 19,
+      "episodes": 20,
       "loc": {
         "de": "Der Hüter, der ungesagte Worte trägt.",
         "fr": "Le gardien qui porte les mots jamais dits.",
@@ -2950,7 +2950,7 @@
       "name": "Wiff",
       "tr": "Son sinyal çubuğu. Dayan Wiff.",
       "en": "The last signal bar. Hold on, Wiff.",
-      "episodes": 16,
+      "episodes": 17,
       "loc": {
         "de": "Der letzte Signalbalken. Halte durch, Wiff.",
         "fr": "La dernière barre de signal. Tiens bon, Wiff.",
@@ -2977,7 +2977,7 @@
       "name": "Pop",
       "tr": "Bu sefer yanmayacak. Yine yandı.",
       "en": "Not burnt this time. Burnt again.",
-      "episodes": 15,
+      "episodes": 16,
       "loc": {
         "de": "Diesmal nicht verbrannt. Wieder verbrannt.",
         "fr": "Pas brûlé cette fois. Brûlé encore.",
@@ -3004,7 +3004,7 @@
       "name": "Drip",
       "tr": "Düşmemeye çalışan bir damla.",
       "en": "A drop trying not to fall.",
-      "episodes": 15,
+      "episodes": 16,
       "loc": {
         "de": "Ein Tropfen, der nicht fallen will.",
         "fr": "Une goutte qui essaie de ne pas tomber.",
@@ -3031,7 +3031,7 @@
       "name": "Remo",
       "tr": "Koltuğun dibinde saklanan kumanda.",
       "en": "The remote hiding deep in the sofa.",
-      "episodes": 15,
+      "episodes": 16,
       "loc": {
         "de": "Die Fernbedienung, tief im Sofa versteckt.",
         "fr": "La télécommande cachée au fond du canapé.",
@@ -3058,7 +3058,7 @@
       "name": "Fizz",
       "tr": "Yukarı çıkmak isteyen bir baloncuk.",
       "en": "A bubble racing to the top.",
-      "episodes": 15,
+      "episodes": 16,
       "loc": {
         "de": "Ein Bläschen im Wettlauf nach oben.",
         "fr": "Une bulle qui fait la course jusqu'en haut.",
@@ -3085,7 +3085,7 @@
       "name": "Glim",
       "tr": "Karanlığı uzak tutan gece lambası.",
       "en": "The night light that keeps the dark away.",
-      "episodes": 15,
+      "episodes": 16,
       "loc": {
         "de": "Das Nachtlicht, das die Dunkelheit fernhält.",
         "fr": "La veilleuse qui tient l'obscurité à distance.",
@@ -3112,7 +3112,7 @@
       "name": "Mel",
       "tr": "Erimeden önce yenmek istiyor.",
       "en": "It wants to be eaten before it melts.",
-      "episodes": 15,
+      "episodes": 16,
       "loc": {
         "de": "Es will gegessen werden, bevor es schmilzt.",
         "fr": "Elle veut être mangée avant de fondre.",
@@ -3139,7 +3139,7 @@
       "name": "Kiko",
       "tr": "Her sabah kaybolan anahtar.",
       "en": "The key that gets lost every morning.",
-      "episodes": 14,
+      "episodes": 15,
       "loc": {
         "de": "Der Schlüssel, der jeden Morgen verloren geht.",
         "fr": "La clé qui se perd tous les matins.",
@@ -3166,7 +3166,7 @@
       "name": "Nudl",
       "tr": "Çözülmek isterken düğüm olan kablo.",
       "en": "The cable that tangles while untangling.",
-      "episodes": 14,
+      "episodes": 15,
       "loc": {
         "de": "Das Kabel, das sich beim Entwirren verheddert.",
         "fr": "Le câble qui s'emmêle en se démêlant.",
@@ -3193,7 +3193,7 @@
       "name": "Pix",
       "tr": "Ekrandaki tek piksel. Fark edilsin.",
       "en": "One pixel on the screen. Notice it.",
-      "episodes": 14,
+      "episodes": 15,
       "loc": {
         "de": "Ein Pixel auf dem Bildschirm. Bemerk ihn.",
         "fr": "Un pixel sur l'écran. Remarque-le.",
@@ -3220,7 +3220,7 @@
       "name": "Boon",
       "tr": "Patlamamaya çalışan bir balon.",
       "en": "A balloon trying not to pop.",
-      "episodes": 14,
+      "episodes": 15,
       "loc": {
         "de": "Ein Ballon, der nicht platzen will.",
         "fr": "Un ballon qui essaie de ne pas éclater.",
@@ -3247,7 +3247,7 @@
       "name": "Sprout",
       "tr": "Sulanmayı bekleyen küçük filiz.",
       "en": "A little sprout waiting for water.",
-      "episodes": 14,
+      "episodes": 15,
       "loc": {
         "de": "Ein kleiner Spross wartet auf Wasser.",
         "fr": "Une petite pousse qui attend de l'eau.",
@@ -3274,7 +3274,7 @@
       "name": "Ding",
       "tr": "Yanlış kata basan asansör düğmesi.",
       "en": "The elevator button that picks the wrong floor.",
-      "episodes": 14,
+      "episodes": 15,
       "loc": {
         "de": "Der Aufzugknopf, der das falsche Stockwerk wählt.",
         "fr": "Le bouton d'ascenseur qui choisit le mauvais étage.",
@@ -3321,14 +3321,14 @@
         "te": "చీటీని పడనివ్వకూడదని ప్రయత్నించే అయస్కాంతం.",
         "ta": "குறிப்பைக் கீழே விழவிடாமல் முயலும் காந்தம்."
       },
-      "episodes": 14
+      "episodes": 15
     },
     {
       "key": "lemi",
       "name": "Lemi",
       "tr": "Buzdolabının arkasında unutulmuş limon.",
       "en": "The lemon forgotten at the back of the fridge.",
-      "episodes": 14,
+      "episodes": 15,
       "loc": {
         "de": "Die Zitrone, hinten im Kühlschrank vergessen.",
         "fr": "Le citron oublié au fond du frigo.",

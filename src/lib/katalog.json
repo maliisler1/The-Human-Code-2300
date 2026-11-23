@@ -2788,7 +2788,7 @@
       "name": "Bip",
       "tr": "Şarjı %1. Şarj aleti çok uzakta.",
       "en": "Battery at 1%. The charger is far away.",
-      "episodes": 13,
+      "episodes": 14,
       "loc": {
         "de": "Akku bei 1 %. Das Ladekabel ist weit weg.",
         "fr": "Batterie à 1 %. Le chargeur est loin.",
@@ -2842,7 +2842,7 @@
       "name": "Pizzo",
       "tr": "Son dilim. Sabaha kadar dayanmalı.",
       "en": "The last slice. It must survive the night.",
-      "episodes": 13,
+      "episodes": 14,
       "loc": {
         "de": "Das letzte Stück. Es muss die Nacht überstehen.",
         "fr": "La dernière part. Elle doit survivre à la nuit.",
@@ -2869,7 +2869,7 @@
       "name": "Zizi",
       "tr": "Gece üç. Tek bir ısırık yeter.",
       "en": "3 AM. One bite is all it wants.",
-      "episodes": 13,
+      "episodes": 14,
       "loc": {
         "de": "3 Uhr nachts. Ein einziger Stich, mehr will sie nicht.",
         "fr": "3 h du matin. Une seule piqûre, c'est tout ce qu'elle veut.",
@@ -2896,7 +2896,7 @@
       "name": "Sok",
       "tr": "Tek kalmış bir çorap, eşini arıyor.",
       "en": "A lonely sock looking for its pair.",
-      "episodes": 13,
+      "episodes": 14,
       "loc": {
         "de": "Eine einsame Socke sucht ihr Gegenstück.",
         "fr": "Une chaussette solitaire cherche sa jumelle.",
@@ -2923,7 +2923,7 @@
       "name": "Lumo",
       "tr": "Söylenmemiş sözleri taşıyan bekçi.",
       "en": "The keeper who carries unsaid words.",
-      "episodes": 13,
+      "episodes": 14,
       "loc": {
         "de": "Der Hüter, der ungesagte Worte trägt.",
         "fr": "Le gardien qui porte les mots jamais dits.",
@@ -2950,7 +2950,7 @@
       "name": "Wiff",
       "tr": "Son sinyal çubuğu. Dayan Wiff.",
       "en": "The last signal bar. Hold on, Wiff.",
-      "episodes": 10,
+      "episodes": 11,
       "loc": {
         "de": "Der letzte Signalbalken. Halte durch, Wiff.",
         "fr": "La dernière barre de signal. Tiens bon, Wiff.",

@@ -270,7 +270,7 @@ export function FeaturedCharacters({
           <Zap className="h-4 w-4 fill-gold" /> {s("Tüm animasyonlar · {n}", "All animations · {n}", { n: all.length })}
         </h2>
         <p className="mt-0.5 px-4 text-[11px] text-muted-foreground">
-          {s("Her dizinin ilk {n} bölümü ücretsiz. Her bölüm 15 saniye.", "The first {n} episodes of each series are free. 15 seconds each.", { n: FREE_CHARACTER_EPISODES })}
+          {s("15 saniyelik dizilerin ilk {n} bölümü ücretsiz.", "The first {n} episodes of the 15-second series are free.", { n: FREE_CHARACTER_EPISODES })}
         </p>
         <div className="mt-2.5 flex gap-2 overflow-x-auto px-4 pb-1">
           {[{ key: "all", tr: "Tümü", en: "All" }, ...shelfRows].map((c) => (

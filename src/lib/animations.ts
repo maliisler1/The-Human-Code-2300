@@ -4,10 +4,18 @@ import { billingQueue } from "./billing-queue";
 
 /**
  * Animasyon dizileri (Snooze with Tik ve karakter dizileri) için erişim kuralları.
- * İlk FREE_CHARACTER_EPISODES bölüm ücretsizdir. Sonraki bölümler ya reklam izleyerek
- * tek tek açılır ya da aylık "Animasyon Aboneliği" ile hepsi açılır ve reklamlar kalkar.
+ * 15 saniyelik karakter dizilerinde ilk FREE_CHARACTER_EPISODES bölüm ücretsizdir ve arka
+ * arkaya oynar; konuşmalı uzun dizilerde (LONG_CHARACTER_KEYS) ilk FREE_LONG_EPISODES bölüm.
+ * Sonraki bölümler ya reklam izleyerek tek tek açılır ya da aylık "Animasyon Aboneliği"
+ * ile hepsi açılır ve reklamlar kalkar.
  */
-export const FREE_CHARACTER_EPISODES = 2;
+export const FREE_CHARACTER_EPISODES = 10;
+/** Bölümleri dakikalar süren konuşmalı diziler için ücretsiz bölüm sayısı. */
+export const FREE_LONG_EPISODES = 2;
+export const LONG_CHARACTER_KEYS: readonly string[] = ["abram-hikayesi"];
+
+/** Bir karakter dizisinde ücretsiz izlenen bölüm sayısı. */
+export const freeEpisodesFor = (key: string) => (LONG_CHARACTER_KEYS.includes(key) ? FREE_LONG_EPISODES : FREE_CHARACTER_EPISODES);
 
 /**
  * Google Play'de abonelik ürünü. Play Console > Para kazanma > Abonelikler altında bu
@@ -62,7 +70,7 @@ export function subscribeAnimationAccess(fn: () => void) {
 export const characterEpisodeId = (key: string, n: number) => `${key}-${n}`;
 
 export function hasCharacterAccess(key: string, n: number, access: AnimationAccess, seasonOwned = false) {
-  return n <= FREE_CHARACTER_EPISODES || seasonOwned || access.owned || access.unlocked.includes(characterEpisodeId(key, n));
+  return n <= freeEpisodesFor(key) || seasonOwned || access.owned || access.unlocked.includes(characterEpisodeId(key, n));
 }
 
 /** Bir dizinin tüm bölümleri açık mı? Animasyon dizilerinde abonelik de yeterlidir. */

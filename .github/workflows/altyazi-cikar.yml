@@ -17,9 +17,15 @@ permissions:
 jobs:
   cikar:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
+      - name: Ana daldaki bölümleri al (TUM)
+        if: ${{ inputs.dosyalar == 'TUM' }}
+        run: |
+          git fetch -q --depth=1 origin main
+          git checkout -q FETCH_HEAD -- depo/karakterler
+          ls depo/karakterler | wc -l
       - name: Kur
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
@@ -33,17 +39,23 @@ jobs:
           import json, os, whisper
           m = whisper.load_model("small.en")
           out = {}
-          for f in os.environ["DOSYALAR"].split():
+          import glob, re
+          liste = os.environ["DOSYALAR"].split()
+          if liste == ["TUM"]:
+              liste = sorted(f for f in glob.glob("depo/karakterler/*-ep*.mp4") if re.search(r"/[a-z]+-ep\d+\.mp4$", f))
+          print("dosya sayısı:", len(liste))
+          for f in liste:
               if not (f.startswith("depo/") and f.endswith(".mp4") and ".." not in f and os.path.exists(f)):
                   print("atlandı:", f); continue
-              r = m.transcribe(f, language="en", word_timestamps=True)
-              segs = [{"start": round(s["start"], 2), "end": round(s["end"], 2), "text": s["text"].strip()} for s in r["segments"]]
+              r = m.transcribe(f, language="en", word_timestamps=True, condition_on_previous_text=False)
+              segs = [{"start": round(s["start"], 2), "end": round(s["end"], 2), "text": s["text"].strip(), "ns": round(s.get("no_speech_prob", 0), 2), "lp": round(s.get("avg_logprob", 0), 2)} for s in r["segments"]]
               out[f] = segs
               print("##", f)
-              for s in segs: print(f'{s["start"]:6.2f} {s["end"]:6.2f}  {s["text"]}')
+              for s in segs: print(f'{s["start"]:6.2f} {s["end"]:6.2f} ns={s["ns"]} lp={s["lp"]}  {s["text"]}')
           json.dump(out, open("cikti/altyazi.json", "w"), ensure_ascii=False, indent=1)
-          with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as fh:
-              fh.write("```json\n" + json.dumps(out, ensure_ascii=False, indent=1) + "\n```\n")
+          if len(out) < 20:
+              with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as fh:
+                  fh.write("```json\n" + json.dumps(out, ensure_ascii=False, indent=1) + "\n```\n")
           PY
       - uses: actions/upload-artifact@v4
         with:

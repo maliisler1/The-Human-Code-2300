@@ -27,6 +27,30 @@ describe("M-01 real player feedback",()=>{
     await waitFor(()=>expect(container.querySelector("video")).toHaveAttribute("src","https://example.test/video.mp4"));
     expect(container.querySelector("video")).toHaveAttribute("controls");
   });
+  it("dikey bölüm ekranı uygulama içinde kaplar ve telefonun tam ekranı kapalıdır; bölüm değişince boyut aynı kalır",async()=>{
+    const {container,rerender}=render(<Player/>);
+    await waitFor(()=>expect(container.querySelector("video")).not.toBeNull());
+    const v=container.querySelector("video")!;
+    Object.defineProperty(v,"videoWidth",{value:480,configurable:true});
+    Object.defineProperty(v,"videoHeight",{value:872,configurable:true});
+    fireEvent.loadedMetadata(v);
+    await waitFor(()=>expect(container.querySelector("[data-tall=true]")).not.toBeNull());
+    expect(container.querySelector("video")).toHaveAttribute("controlslist","nofullscreen noremoteplayback");
+    expect(container.querySelector("video")!.className).toContain("h-[100dvh]");
+    m.n=2;m.episodes=[...m.episodes,{id:"e2",series_id:"s",n:2,status:"ready",video_url:"2.mp4",titles:[],tracks:[]}];
+    rerender(<Player/>);
+    expect(container.querySelector("[data-tall=true]")).not.toBeNull();
+  });
+  it("yatay bölümde eski görünüm korunur",async()=>{
+    const {container}=render(<Player/>);
+    await waitFor(()=>expect(container.querySelector("video")).not.toBeNull());
+    const v=container.querySelector("video")!;
+    Object.defineProperty(v,"videoWidth",{value:1280,configurable:true});
+    Object.defineProperty(v,"videoHeight",{value:720,configurable:true});
+    fireEvent.loadedMetadata(v);
+    expect(container.querySelector("[data-tall=true]")).toBeNull();
+    expect(container.querySelector("video")!.className).toContain("aspect-video");
+  });
   it("shows an error and permits retry instead of spinning forever",async()=>{
     m.signed.mockResolvedValueOnce(null);
     const {container}=render(<Player/>);

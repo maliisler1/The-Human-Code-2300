@@ -15,21 +15,24 @@ const subscribed = { unlocked: [], owned: true };
 
 describe("animasyon bölümlerine erişim", () => {
   it("ilk 2 bölüm ücretsiz, 3. bölümden itibaren kilitli", () => {
-    expect(FREE_CHARACTER_EPISODES).toBe(2);
+    expect(FREE_CHARACTER_EPISODES).toBe(10);
     expect(hasCharacterAccess("bip", 1, none)).toBe(true);
-    expect(hasCharacterAccess("bip", 2, none)).toBe(true);
-    expect(hasCharacterAccess("bip", 3, none)).toBe(false);
-    expect(hasCharacterAccess("bip", 5, none)).toBe(false);
+    expect(hasCharacterAccess("bip", 10, none)).toBe(true);
+    expect(hasCharacterAccess("bip", 11, none)).toBe(false);
+    expect(hasCharacterAccess("bip", 15, none)).toBe(false);
+    // Konuşmalı uzun dizide (Abram) yalnızca ilk 2 bölüm ücretsiz.
+    expect(hasCharacterAccess("abram-hikayesi", 2, none)).toBe(true);
+    expect(hasCharacterAccess("abram-hikayesi", 3, none)).toBe(false);
   });
   it("reklamla açılan bölüm yalnızca o bölümü açar", () => {
-    const a = { unlocked: ["bip-3"], owned: false };
-    expect(hasCharacterAccess("bip", 3, a)).toBe(true);
-    expect(hasCharacterAccess("bip", 4, a)).toBe(false);
-    expect(hasCharacterAccess("sok", 3, a)).toBe(false);
+    const a = { unlocked: ["bip-11"], owned: false };
+    expect(hasCharacterAccess("bip", 11, a)).toBe(true);
+    expect(hasCharacterAccess("bip", 12, a)).toBe(false);
+    expect(hasCharacterAccess("sok", 11, a)).toBe(false);
   });
   it("abone ya da sezon sahibi her bölümü izler", () => {
-    expect(hasCharacterAccess("zizi", 5, subscribed)).toBe(true);
-    expect(hasCharacterAccess("zizi", 5, none, true)).toBe(true);
+    expect(hasCharacterAccess("zizi", 15, subscribed)).toBe(true);
+    expect(hasCharacterAccess("zizi", 15, none, true)).toBe(true);
   });
   it("abonelik Snooze with Tik'i açar ama diğer dizileri açmaz", () => {
     expect(ownsSeries("snooze-with-tik", false, subscribed)).toBe(true);

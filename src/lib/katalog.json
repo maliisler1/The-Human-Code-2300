@@ -2788,7 +2788,7 @@
       "name": "Bip",
       "tr": "Şarjı %1. Şarj aleti çok uzakta.",
       "en": "Battery at 1%. The charger is far away.",
-      "episodes": 14,
+      "episodes": 15,
       "loc": {
         "de": "Akku bei 1 %. Das Ladekabel ist weit weg.",
         "fr": "Batterie à 1 %. Le chargeur est loin.",
@@ -2842,7 +2842,7 @@
       "name": "Pizzo",
       "tr": "Son dilim. Sabaha kadar dayanmalı.",
       "en": "The last slice. It must survive the night.",
-      "episodes": 14,
+      "episodes": 15,
       "loc": {
         "de": "Das letzte Stück. Es muss die Nacht überstehen.",
         "fr": "La dernière part. Elle doit survivre à la nuit.",
@@ -2869,7 +2869,7 @@
       "name": "Zizi",
       "tr": "Gece üç. Tek bir ısırık yeter.",
       "en": "3 AM. One bite is all it wants.",
-      "episodes": 14,
+      "episodes": 15,
       "loc": {
         "de": "3 Uhr nachts. Ein einziger Stich, mehr will sie nicht.",
         "fr": "3 h du matin. Une seule piqûre, c'est tout ce qu'elle veut.",
@@ -2896,7 +2896,7 @@
       "name": "Sok",
       "tr": "Tek kalmış bir çorap, eşini arıyor.",
       "en": "A lonely sock looking for its pair.",
-      "episodes": 14,
+      "episodes": 15,
       "loc": {
         "de": "Eine einsame Socke sucht ihr Gegenstück.",
         "fr": "Une chaussette solitaire cherche sa jumelle.",
@@ -2923,7 +2923,7 @@
       "name": "Lumo",
       "tr": "Söylenmemiş sözleri taşıyan bekçi.",
       "en": "The keeper who carries unsaid words.",
-      "episodes": 14,
+      "episodes": 15,
       "loc": {
         "de": "Der Hüter, der ungesagte Worte trägt.",
         "fr": "Le gardien qui porte les mots jamais dits.",
@@ -2950,7 +2950,7 @@
       "name": "Wiff",
       "tr": "Son sinyal çubuğu. Dayan Wiff.",
       "en": "The last signal bar. Hold on, Wiff.",
-      "episodes": 11,
+      "episodes": 12,
       "loc": {
         "de": "Der letzte Signalbalken. Halte durch, Wiff.",
         "fr": "La dernière barre de signal. Tiens bon, Wiff.",
@@ -2977,7 +2977,7 @@
       "name": "Pop",
       "tr": "Bu sefer yanmayacak. Yine yandı.",
       "en": "Not burnt this time. Burnt again.",
-      "episodes": 10,
+      "episodes": 11,
       "loc": {
         "de": "Diesmal nicht verbrannt. Wieder verbrannt.",
         "fr": "Pas brûlé cette fois. Brûlé encore.",
@@ -3004,7 +3004,7 @@
       "name": "Drip",
       "tr": "Düşmemeye çalışan bir damla.",
       "en": "A drop trying not to fall.",
-      "episodes": 10,
+      "episodes": 11,
       "loc": {
         "de": "Ein Tropfen, der nicht fallen will.",
         "fr": "Une goutte qui essaie de ne pas tomber.",
@@ -3031,7 +3031,7 @@
       "name": "Remo",
       "tr": "Koltuğun dibinde saklanan kumanda.",
       "en": "The remote hiding deep in the sofa.",
-      "episodes": 10,
+      "episodes": 11,
       "loc": {
         "de": "Die Fernbedienung, tief im Sofa versteckt.",
         "fr": "La télécommande cachée au fond du canapé.",
@@ -3058,7 +3058,7 @@
       "name": "Fizz",
       "tr": "Yukarı çıkmak isteyen bir baloncuk.",
       "en": "A bubble racing to the top.",
-      "episodes": 10,
+      "episodes": 11,
       "loc": {
         "de": "Ein Bläschen im Wettlauf nach oben.",
         "fr": "Une bulle qui fait la course jusqu'en haut.",
@@ -3085,7 +3085,7 @@
       "name": "Glim",
       "tr": "Karanlığı uzak tutan gece lambası.",
       "en": "The night light that keeps the dark away.",
-      "episodes": 10,
+      "episodes": 11,
       "loc": {
         "de": "Das Nachtlicht, das die Dunkelheit fernhält.",
         "fr": "La veilleuse qui tient l'obscurité à distance.",
@@ -3112,7 +3112,7 @@
       "name": "Mel",
       "tr": "Erimeden önce yenmek istiyor.",
       "en": "It wants to be eaten before it melts.",
-      "episodes": 10,
+      "episodes": 11,
       "loc": {
         "de": "Es will gegessen werden, bevor es schmilzt.",
         "fr": "Elle veut être mangée avant de fondre.",

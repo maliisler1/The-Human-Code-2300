@@ -62,6 +62,7 @@
       "en": "Home life",
       "members": [
         "abram-hikayesi",
+        "buyulu-okul",
         "leon",
         "dusty",
         "zizi",
@@ -2508,6 +2509,369 @@
               "இரண்டு பூனைக்குட்டிகள்.",
               "இங்கேயே, எங்கள் தோட்டத்தில்.",
               "தொடரும்."
+            ]
+          }
+        }
+      }
+    },
+    {
+      "key": "buyulu-okul",
+      "name": "The Magic Cat School",
+      "tr": "Abram, Kiri ve Kori büyülü kediler okulunda: süzülen mumlar, dans eden balkabakları ve her bölümde yeni bir büyü dersi. Anlatıcılı, 1 dakikalık masallar.",
+      "en": "Abram, Kiri and Kori at the school for magical cats: floating candles, dancing pumpkins and a new magic lesson in every episode. Narrated one-minute tales.",
+      "episodes": 1,
+      "loc": {
+        "de": "Abram, Kiri und Kori in der Schule für magische Katzen: schwebende Kerzen, tanzende Kürbisse und in jeder Folge eine neue Zauberstunde. Erzählte Ein-Minuten-Märchen.",
+        "fr": "Abram, Kiri et Kori à l'école des chats magiques : bougies flottantes, citrouilles dansantes et une nouvelle leçon de magie à chaque épisode. Des contes narrés d'une minute.",
+        "es": "Abram, Kiri y Kori en la escuela de gatos mágicos: velas flotantes, calabazas danzantes y una nueva lección de magia en cada episodio. Cuentos narrados de un minuto.",
+        "pt": "Abram, Kiri e Kori na escola de gatos mágicos: velas flutuantes, abóboras dançantes e uma nova lição de magia a cada episódio. Contos narrados de um minuto.",
+        "it": "Abram, Kiri e Kori alla scuola per gatti magici: candele fluttuanti, zucche danzanti e una nuova lezione di magia in ogni episodio. Fiabe narrate di un minuto.",
+        "ru": "Абрам, Кири и Кори в школе волшебных кошек: парящие свечи, танцующие тыквы и новый урок магии в каждой серии. Минутные сказки с рассказчиком.",
+        "ar": "أبرام وكيري وكوري في مدرسة القطط السحرية: شموع طافية، يقطين راقص ودرس سحر جديد في كل حلقة. حكايات مروية مدتها دقيقة.",
+        "hi": "जादुई बिल्लियों के स्कूल में अब्राम, किरी और कोरी: तैरती मोमबत्तियाँ, नाचते कद्दू और हर एपिसोड में जादू का नया पाठ। एक मिनट की सुनाई गई कहानियाँ।",
+        "zh": "阿布拉姆、奇里和科里来到魔法猫学校：飘浮的蜡烛、跳舞的南瓜，每集一堂新的魔法课。一分钟的旁白故事。",
+        "ja": "アブラム、キリ、コリが魔法の猫の学校へ。浮かぶろうそく、踊るかぼちゃ、毎回新しい魔法の授業。語りで届ける1分のおはなし。",
+        "ko": "마법 고양이 학교에 간 아브람, 키리, 코리: 떠다니는 촛불, 춤추는 호박, 매회 새로운 마법 수업. 내레이션으로 듣는 1분 동화.",
+        "id": "Abram, Kiri, dan Kori di sekolah kucing ajaib: lilin melayang, labu menari, dan pelajaran sihir baru di setiap episode. Dongeng bernarasi satu menit.",
+        "vi": "Abram, Kiri và Kori ở trường mèo phép thuật: nến lơ lửng, bí ngô nhảy múa và một bài học phép thuật mới trong mỗi tập. Truyện kể một phút.",
+        "bn": "জাদুকরী বিড়ালদের স্কুলে আব্রাম, কিরি ও কোরি: ভাসমান মোমবাতি, নাচতে থাকা কুমড়ো আর প্রতি পর্বে নতুন জাদুর পাঠ। এক মিনিটের বর্ণিত গল্প।",
+        "ur": "جادوئی بلیوں کے اسکول میں ابرام، کیری اور کوری: تیرتی موم بتیاں، ناچتے کدو اور ہر قسط میں جادو کا نیا سبق۔ ایک منٹ کی سنائی گئی کہانیاں۔",
+        "mr": "जादुई मांजरांच्या शाळेत अब्राम, किरी आणि कोरी: तरंगत्या मेणबत्त्या, नाचणारे भोपळे आणि प्रत्येक भागात जादूचा नवा धडा. एक मिनिटाच्या निवेदित गोष्टी.",
+        "te": "మాయా పిల్లుల పాఠశాలలో అబ్రామ్, కిరి, కోరి: తేలియాడే కొవ్వొత్తులు, నాట్యం చేసే గుమ్మడికాయలు, ప్రతి ఎపిసోడ్‌లో కొత్త మంత్ర పాఠం. ఒక నిమిషం కథలు.",
+        "ta": "மாயப் பூனைகள் பள்ளியில் அப்ராம், கிரி, கோரி: மிதக்கும் மெழுகுவர்த்திகள், நடனமாடும் பூசணிகள், ஒவ்வொரு அத்தியாயத்திலும் புதிய மந்திரப் பாடம். ஒரு நிமிடக் கதைகள்."
+      },
+      "subs": {
+        "1": {
+          "cues": [
+            [
+              0.2,
+              4.96
+            ],
+            [
+              5.36,
+              10.08
+            ],
+            [
+              10.48,
+              15.2
+            ],
+            [
+              15.6,
+              20.52
+            ],
+            [
+              20.92,
+              25.64
+            ],
+            [
+              26.04,
+              30.76
+            ],
+            [
+              31.16,
+              35.88
+            ],
+            [
+              36.28,
+              41.0
+            ],
+            [
+              41.4,
+              46.12
+            ],
+            [
+              46.52,
+              51.24
+            ],
+            [
+              51.64,
+              56.36
+            ],
+            [
+              56.76,
+              61.48
+            ]
+          ],
+          "text": {
+            "en": [
+              "On pumpkin night, Abram led Kiri and Kori up the hill.",
+              "At the top stood the old stone school for magical cats.",
+              "Inside the great hall, candles floated in the air.",
+              "Pumpkins glowed on the long tables, and cats in pointed hats welcomed them.",
+              "An old teacher cat with round glasses gave each kitten a tiny wand.",
+              "Kiri waved her wand, and the pumpkins began to dance.",
+              "Then Kori tried.",
+              "Every candle went out. The hall fell dark and silent.",
+              "Abram gently placed her paw on Kori's shoulder.",
+              "Kori took a breath and tried once more.",
+              "This time the candles scattered across the ceiling like stars.",
+              "That night, Kori learned that even the dark can make light."
+            ],
+            "tr": [
+              "Balkabağı gecesinde Abram, Kiri ile Kori'yi tepeye çıkardı.",
+              "Tepede büyülü kedilerin eski taş okulu duruyordu.",
+              "Büyük salonun içinde mumlar havada süzülüyordu.",
+              "Uzun masalarda balkabakları parlıyordu; sivri şapkalı kediler onları karşıladı.",
+              "Yuvarlak gözlüklü yaşlı öğretmen kedi her yavruya minik bir değnek verdi.",
+              "Kiri değneğini salladı ve balkabakları dans etmeye başladı.",
+              "Sonra Kori denedi.",
+              "Bütün mumlar söndü. Salon karanlığa ve sessizliğe gömüldü.",
+              "Abram patisini usulca Kori'nin omzuna koydu.",
+              "Kori derin bir nefes aldı ve bir kez daha denedi.",
+              "Bu kez mumlar tavana yıldızlar gibi dağıldı.",
+              "O gece Kori, karanlığın da ışık yapabildiğini öğrendi."
+            ],
+            "de": [
+              "In der Kürbisnacht führte Abram Kiri und Kori den Hügel hinauf.",
+              "Oben stand die alte Steinschule für magische Katzen.",
+              "In der großen Halle schwebten Kerzen in der Luft.",
+              "Kürbisse leuchteten auf den langen Tischen, und Katzen mit spitzen Hüten begrüßten sie.",
+              "Eine alte Lehrerkatze mit runder Brille gab jedem Kätzchen einen winzigen Zauberstab.",
+              "Kiri schwang ihren Stab, und die Kürbisse begannen zu tanzen.",
+              "Dann versuchte es Kori.",
+              "Alle Kerzen erloschen. Die Halle wurde dunkel und still.",
+              "Abram legte sanft ihre Pfote auf Koris Schulter.",
+              "Kori holte Luft und versuchte es noch einmal.",
+              "Diesmal verteilten sich die Kerzen wie Sterne an der Decke.",
+              "In dieser Nacht lernte Kori, dass auch die Dunkelheit Licht machen kann."
+            ],
+            "fr": [
+              "La nuit des citrouilles, Abram mena Kiri et Kori en haut de la colline.",
+              "Au sommet se dressait la vieille école de pierre des chats magiques.",
+              "Dans la grande salle, des bougies flottaient dans l'air.",
+              "Des citrouilles brillaient sur les longues tables, et des chats aux chapeaux pointus les accueillirent.",
+              "Un vieux chat professeur aux lunettes rondes donna à chaque chaton une petite baguette.",
+              "Kiri agita sa baguette, et les citrouilles se mirent à danser.",
+              "Puis Kori essaya.",
+              "Toutes les bougies s'éteignirent. La salle devint sombre et silencieuse.",
+              "Abram posa doucement sa patte sur l'épaule de Kori.",
+              "Kori prit une inspiration et essaya encore une fois.",
+              "Cette fois, les bougies se dispersèrent au plafond comme des étoiles.",
+              "Cette nuit-là, Kori apprit que même l'obscurité peut faire de la lumière."
+            ],
+            "es": [
+              "En la noche de las calabazas, Abram llevó a Kiri y Kori colina arriba.",
+              "En la cima estaba la vieja escuela de piedra para gatos mágicos.",
+              "Dentro del gran salón, las velas flotaban en el aire.",
+              "Las calabazas brillaban en las largas mesas, y gatos con sombreros puntiagudos les dieron la bienvenida.",
+              "Un viejo gato maestro de gafas redondas dio a cada gatito una varita diminuta.",
+              "Kiri agitó su varita y las calabazas empezaron a bailar.",
+              "Luego lo intentó Kori.",
+              "Todas las velas se apagaron. El salón quedó oscuro y en silencio.",
+              "Abram puso suavemente su pata en el hombro de Kori.",
+              "Kori respiró hondo y lo intentó una vez más.",
+              "Esta vez las velas se esparcieron por el techo como estrellas.",
+              "Esa noche, Kori aprendió que incluso la oscuridad puede crear luz."
+            ],
+            "pt": [
+              "Na noite das abóboras, Abram levou Kiri e Kori colina acima.",
+              "No topo ficava a velha escola de pedra para gatos mágicos.",
+              "Dentro do grande salão, velas flutuavam no ar.",
+              "Abóboras brilhavam nas longas mesas, e gatos de chapéus pontudos os receberam.",
+              "Um velho gato professor de óculos redondos deu a cada gatinho uma varinha minúscula.",
+              "Kiri balançou a varinha, e as abóboras começaram a dançar.",
+              "Então Kori tentou.",
+              "Todas as velas se apagaram. O salão ficou escuro e silencioso.",
+              "Abram pousou gentilmente a pata no ombro de Kori.",
+              "Kori respirou fundo e tentou mais uma vez.",
+              "Desta vez as velas se espalharam pelo teto como estrelas.",
+              "Naquela noite, Kori aprendeu que até a escuridão pode fazer luz."
+            ],
+            "it": [
+              "Nella notte delle zucche, Abram guidò Kiri e Kori su per la collina.",
+              "In cima c'era la vecchia scuola di pietra per gatti magici.",
+              "Nella grande sala, le candele fluttuavano nell'aria.",
+              "Le zucche brillavano sui lunghi tavoli, e gatti dai cappelli a punta li accolsero.",
+              "Un vecchio gatto maestro con gli occhiali tondi diede a ogni gattino una minuscola bacchetta.",
+              "Kiri agitò la bacchetta, e le zucche iniziarono a danzare.",
+              "Poi provò Kori.",
+              "Tutte le candele si spensero. La sala divenne buia e silenziosa.",
+              "Abram posò dolcemente la zampa sulla spalla di Kori.",
+              "Kori fece un respiro e provò ancora una volta.",
+              "Questa volta le candele si sparsero sul soffitto come stelle.",
+              "Quella notte, Kori imparò che anche il buio può fare luce."
+            ],
+            "ru": [
+              "В тыквенную ночь Абрам повела Кири и Кори на холм.",
+              "На вершине стояла старая каменная школа для волшебных кошек.",
+              "В большом зале свечи парили в воздухе.",
+              "На длинных столах светились тыквы, а кошки в остроконечных шляпах встретили их.",
+              "Старый кот-учитель в круглых очках дал каждому котёнку крошечную палочку.",
+              "Кири взмахнула палочкой, и тыквы начали танцевать.",
+              "Потом попробовала Кори.",
+              "Все свечи погасли. В зале стало темно и тихо.",
+              "Абрам мягко положила лапу на плечо Кори.",
+              "Кори вздохнула и попробовала ещё раз.",
+              "На этот раз свечи рассыпались по потолку, как звёзды.",
+              "В ту ночь Кори узнала, что даже темнота может дарить свет."
+            ],
+            "ar": [
+              "في ليلة اليقطين، قادت أبرام كيري وكوري إلى أعلى التل.",
+              "في القمة كانت المدرسة الحجرية القديمة للقطط السحرية.",
+              "داخل القاعة الكبرى، كانت الشموع تطفو في الهواء.",
+              "توهّج اليقطين على الطاولات الطويلة، ورحّبت بهم قطط بقبعات مدببة.",
+              "أعطى قط معلّم عجوز بنظارات مستديرة كل قطة صغيرة عصا صغيرة.",
+              "لوّحت كيري بعصاها، فبدأ اليقطين يرقص.",
+              "ثم جرّبت كوري.",
+              "انطفأت كل الشموع. غرقت القاعة في الظلام والصمت.",
+              "وضعت أبرام كفّها برفق على كتف كوري.",
+              "أخذت كوري نفسًا وجرّبت مرة أخرى.",
+              "هذه المرة انتشرت الشموع على السقف كالنجوم.",
+              "في تلك الليلة تعلّمت كوري أن الظلام أيضًا يصنع النور."
+            ],
+            "hi": [
+              "कद्दू की रात, अब्राम किरी और कोरी को पहाड़ी पर ले गई।",
+              "चोटी पर जादुई बिल्लियों का पुराना पत्थर का स्कूल था।",
+              "बड़े हॉल के अंदर मोमबत्तियाँ हवा में तैर रही थीं।",
+              "लंबी मेज़ों पर कद्दू चमक रहे थे, और नुकीली टोपी वाली बिल्लियों ने उनका स्वागत किया।",
+              "गोल चश्मे वाले बूढ़े शिक्षक बिल्ले ने हर बच्चे को एक नन्ही छड़ी दी।",
+              "किरी ने छड़ी घुमाई, और कद्दू नाचने लगे।",
+              "फिर कोरी ने कोशिश की।",
+              "सारी मोमबत्तियाँ बुझ गईं। हॉल में अँधेरा और सन्नाटा छा गया।",
+              "अब्राम ने धीरे से अपना पंजा कोरी के कंधे पर रखा।",
+              "कोरी ने साँस ली और एक बार फिर कोशिश की।",
+              "इस बार मोमबत्तियाँ छत पर तारों की तरह बिखर गईं।",
+              "उस रात कोरी ने सीखा कि अँधेरा भी रोशनी बना सकता है।"
+            ],
+            "zh": [
+              "南瓜之夜，阿布拉姆带着奇里和科里上了山。",
+              "山顶上矗立着魔法猫的古老石头学校。",
+              "大厅里，蜡烛飘浮在空中。",
+              "长桌上的南瓜闪闪发光，戴尖帽的猫咪欢迎他们。",
+              "一位戴圆眼镜的老猫老师给每只小猫一根小魔杖。",
+              "奇里挥动魔杖，南瓜开始跳舞。",
+              "接着科里试了试。",
+              "所有蜡烛都熄灭了。大厅陷入黑暗和寂静。",
+              "阿布拉姆轻轻把爪子放在科里的肩上。",
+              "科里吸了一口气，又试了一次。",
+              "这一次，蜡烛像星星一样散落在天花板上。",
+              "那一夜，科里明白了，黑暗也能创造光明。"
+            ],
+            "ja": [
+              "かぼちゃの夜、アブラムはキリとコリを連れて丘を登りました。",
+              "頂上には、魔法の猫たちの古い石の学校がありました。",
+              "大広間では、ろうそくが宙に浮かんでいました。",
+              "長いテーブルではかぼちゃが輝き、とんがり帽子の猫たちが迎えてくれました。",
+              "丸めがねの年老いた先生猫が、子猫たちに小さな杖を渡しました。",
+              "キリが杖を振ると、かぼちゃが踊り始めました。",
+              "次にコリが試しました。",
+              "ろうそくが全部消えました。広間は暗く静かになりました。",
+              "アブラムはそっとコリの肩に前足を置きました。",
+              "コリは息を吸って、もう一度試しました。",
+              "今度はろうそくが星のように天井に散らばりました。",
+              "その夜コリは、暗闇も光を生み出せると知りました。"
+            ],
+            "ko": [
+              "호박의 밤, 아브람은 키리와 코리를 데리고 언덕을 올랐어요.",
+              "꼭대기에는 마법 고양이들의 오래된 돌 학교가 있었어요.",
+              "큰 강당 안에는 촛불이 공중에 떠 있었어요.",
+              "긴 식탁 위에서 호박이 빛났고, 뾰족 모자를 쓴 고양이들이 반겨 주었어요.",
+              "둥근 안경을 쓴 늙은 선생님 고양이가 아기 고양이들에게 작은 지팡이를 주었어요.",
+              "키리가 지팡이를 흔들자 호박들이 춤추기 시작했어요.",
+              "그다음 코리가 해 보았어요.",
+              "촛불이 모두 꺼졌어요. 강당은 어둡고 조용해졌어요.",
+              "아브람이 코리의 어깨에 살며시 발을 올렸어요.",
+              "코리는 숨을 고르고 한 번 더 해 보았어요.",
+              "이번에는 촛불이 별처럼 천장에 흩어졌어요.",
+              "그날 밤 코리는 어둠도 빛을 만들 수 있다는 걸 배웠어요."
+            ],
+            "id": [
+              "Di malam labu, Abram mengajak Kiri dan Kori mendaki bukit.",
+              "Di puncaknya berdiri sekolah batu tua untuk kucing ajaib.",
+              "Di dalam aula besar, lilin-lilin melayang di udara.",
+              "Labu bersinar di meja panjang, dan kucing bertopi runcing menyambut mereka.",
+              "Seekor kucing guru tua berkacamata bulat memberi tiap anak kucing tongkat mungil.",
+              "Kiri mengayunkan tongkatnya, dan labu-labu mulai menari.",
+              "Lalu Kori mencoba.",
+              "Semua lilin padam. Aula menjadi gelap dan sunyi.",
+              "Abram dengan lembut meletakkan kakinya di bahu Kori.",
+              "Kori menarik napas dan mencoba sekali lagi.",
+              "Kali ini lilin-lilin menyebar di langit-langit seperti bintang.",
+              "Malam itu, Kori belajar bahwa gelap pun bisa menciptakan cahaya."
+            ],
+            "vi": [
+              "Vào đêm bí ngô, Abram dẫn Kiri và Kori lên đồi.",
+              "Trên đỉnh là ngôi trường đá cổ dành cho mèo phép thuật.",
+              "Trong đại sảnh, những ngọn nến lơ lửng giữa không trung.",
+              "Bí ngô tỏa sáng trên những chiếc bàn dài, và các chú mèo đội mũ nhọn chào đón họ.",
+              "Một thầy mèo già đeo kính tròn trao cho mỗi mèo con một cây đũa nhỏ.",
+              "Kiri vẫy đũa, và những quả bí ngô bắt đầu nhảy múa.",
+              "Rồi đến lượt Kori thử.",
+              "Mọi ngọn nến đều tắt. Đại sảnh chìm trong bóng tối và im lặng.",
+              "Abram nhẹ nhàng đặt chân lên vai Kori.",
+              "Kori hít một hơi và thử thêm lần nữa.",
+              "Lần này những ngọn nến tỏa khắp trần nhà như những vì sao.",
+              "Đêm đó, Kori học được rằng bóng tối cũng có thể tạo ra ánh sáng."
+            ],
+            "bn": [
+              "কুমড়োর রাতে আব্রাম কিরি আর কোরিকে পাহাড়ে নিয়ে গেল।",
+              "চূড়ায় ছিল জাদুকরী বিড়ালদের পুরোনো পাথরের স্কুল।",
+              "বড় হলঘরের ভেতরে মোমবাতি বাতাসে ভাসছিল।",
+              "লম্বা টেবিলে কুমড়ো জ্বলজ্বল করছিল, আর চোখা টুপি পরা বিড়ালরা তাদের স্বাগত জানাল।",
+              "গোল চশমা পরা বুড়ো শিক্ষক বিড়াল প্রতিটি ছানাকে একটি ছোট্ট জাদুকাঠি দিল।",
+              "কিরি তার কাঠি নাড়ল, আর কুমড়োগুলো নাচতে শুরু করল।",
+              "তারপর কোরি চেষ্টা করল।",
+              "সব মোমবাতি নিভে গেল। হলঘর অন্ধকার আর নীরব হয়ে গেল।",
+              "আব্রাম আলতো করে কোরির কাঁধে থাবা রাখল।",
+              "কোরি শ্বাস নিয়ে আরেকবার চেষ্টা করল।",
+              "এবার মোমবাতিগুলো তারার মতো ছাদে ছড়িয়ে পড়ল।",
+              "সেই রাতে কোরি শিখল, অন্ধকারও আলো তৈরি করতে পারে।"
+            ],
+            "ur": [
+              "کدو کی رات، ابرام کیری اور کوری کو پہاڑی پر لے گئی۔",
+              "چوٹی پر جادوئی بلیوں کا پرانا پتھر کا اسکول تھا۔",
+              "بڑے ہال کے اندر موم بتیاں ہوا میں تیر رہی تھیں۔",
+              "لمبی میزوں پر کدو چمک رہے تھے، اور نوکیلی ٹوپیوں والی بلیوں نے ان کا استقبال کیا۔",
+              "گول عینک والے بوڑھے استاد بلے نے ہر بچے کو ایک ننھی چھڑی دی۔",
+              "کیری نے چھڑی ہلائی اور کدو ناچنے لگے۔",
+              "پھر کوری نے کوشش کی۔",
+              "ساری موم بتیاں بجھ گئیں۔ ہال میں اندھیرا اور خاموشی چھا گئی۔",
+              "ابرام نے نرمی سے اپنا پنجہ کوری کے کندھے پر رکھا۔",
+              "کوری نے سانس لی اور ایک بار پھر کوشش کی۔",
+              "اس بار موم بتیاں چھت پر ستاروں کی طرح بکھر گئیں۔",
+              "اس رات کوری نے سیکھا کہ اندھیرا بھی روشنی بنا سکتا ہے۔"
+            ],
+            "mr": [
+              "भोपळ्याच्या रात्री अब्रामने किरी आणि कोरीला टेकडीवर नेले.",
+              "शिखरावर जादुई मांजरांची जुनी दगडी शाळा होती.",
+              "मोठ्या दालनात मेणबत्त्या हवेत तरंगत होत्या.",
+              "लांब टेबलांवर भोपळे चमकत होते, आणि टोकदार टोप्या घातलेल्या मांजरांनी त्यांचे स्वागत केले.",
+              "गोल चष्मा घातलेल्या म्हाताऱ्या शिक्षक बोक्याने प्रत्येक पिल्लाला छोटी छडी दिली.",
+              "किरीने छडी फिरवली आणि भोपळे नाचू लागले.",
+              "मग कोरीने प्रयत्न केला.",
+              "सगळ्या मेणबत्त्या विझल्या. दालन अंधारात आणि शांततेत बुडाले.",
+              "अब्रामने हळूच आपला पंजा कोरीच्या खांद्यावर ठेवला.",
+              "कोरीने श्वास घेतला आणि पुन्हा एकदा प्रयत्न केला.",
+              "या वेळी मेणबत्त्या ताऱ्यांसारख्या छतावर पसरल्या.",
+              "त्या रात्री कोरी शिकली की अंधारही प्रकाश निर्माण करू शकतो."
+            ],
+            "te": [
+              "గుమ్మడికాయ రాత్రి, అబ్రామ్ కిరి, కోరిలను కొండపైకి తీసుకెళ్లింది.",
+              "శిఖరంపై మాయా పిల్లుల పాత రాతి పాఠశాల ఉంది.",
+              "పెద్ద హాలులో కొవ్వొత్తులు గాలిలో తేలుతున్నాయి.",
+              "పొడవైన బల్లలపై గుమ్మడికాయలు మెరుస్తున్నాయి, మొనదేలిన టోపీల పిల్లులు వారిని ఆహ్వానించాయి.",
+              "గుండ్రటి కళ్లద్దాల ముసలి గురువు పిల్లి ప్రతి పిల్లకు చిన్న మంత్రదండం ఇచ్చింది.",
+              "కిరి తన దండం ఊపగానే గుమ్మడికాయలు నాట్యం చేయసాగాయి.",
+              "తర్వాత కోరి ప్రయత్నించింది.",
+              "కొవ్వొత్తులన్నీ ఆరిపోయాయి. హాలు చీకటిగా, నిశ్శబ్దంగా మారింది.",
+              "అబ్రామ్ మెల్లగా తన పంజాను కోరి భుజంపై ఉంచింది.",
+              "కోరి ఊపిరి పీల్చుకుని మరోసారి ప్రయత్నించింది.",
+              "ఈసారి కొవ్వొత్తులు నక్షత్రాల్లా పైకప్పు అంతటా వ్యాపించాయి.",
+              "ఆ రాత్రి కోరి, చీకటి కూడా వెలుగును సృష్టించగలదని నేర్చుకుంది."
+            ],
+            "ta": [
+              "பூசணி இரவில், அப்ராம் கிரியையும் கோரியையும் மலைமேல் அழைத்துச் சென்றாள்.",
+              "உச்சியில் மாயப் பூனைகளின் பழைய கல் பள்ளி நின்றது.",
+              "பெரிய மண்டபத்தில் மெழுகுவர்த்திகள் காற்றில் மிதந்தன.",
+              "நீண்ட மேசைகளில் பூசணிகள் ஒளிர்ந்தன; கூர்மையான தொப்பி அணிந்த பூனைகள் அவர்களை வரவேற்றன.",
+              "வட்டக் கண்ணாடி அணிந்த வயதான ஆசிரியர் பூனை ஒவ்வொரு குட்டிக்கும் சிறிய மந்திரக்கோல் கொடுத்தது.",
+              "கிரி தன் கோலை அசைத்தாள்; பூசணிகள் நடனமாடத் தொடங்கின.",
+              "பிறகு கோரி முயன்றாள்.",
+              "எல்லா மெழுகுவர்த்திகளும் அணைந்தன. மண்டபம் இருளிலும் அமைதியிலும் மூழ்கியது.",
+              "அப்ராம் மெதுவாகத் தன் பாதத்தைக் கோரியின் தோளில் வைத்தாள்.",
+              "கோரி மூச்சை இழுத்து மீண்டும் ஒருமுறை முயன்றாள்.",
+              "இம்முறை மெழுகுவர்த்திகள் நட்சத்திரங்களைப் போல கூரையில் பரவின.",
+              "அந்த இரவு, இருளும் ஒளியை உருவாக்க முடியும் என்று கோரி கற்றுக்கொண்டாள்."
             ]
           }
         }

@@ -2519,7 +2519,7 @@
       "name": "The Cloud Cat School",
       "tr": "Yüzyıllar sonra, bulutların üstündeki cam şehirde bir kedi okulu: Abram'ın yavruları Kiri ve Kori ışık kürelerini mırıltıyla yakmayı öğreniyor, kimsenin açamadığı eski kapının sırrını arıyor. Anlatıcılı, 1 dakikalık bölümler.",
       "en": "Centuries from now, a cat school in a glass city above the clouds: Abram's kittens Kiri and Kori learn to light glowing orbs with a purr and search for the secret of an old door no one can open. Narrated one-minute episodes.",
-      "episodes": 3,
+      "episodes": 4,
       "loc": {
         "de": "In ferner Zukunft, eine Katzenschule in einer Glasstadt über den Wolken: Abrams Kätzchen Kiri und Kori lernen, Lichtkugeln mit einem Schnurren zu entzünden, und suchen das Geheimnis einer alten Tür, die niemand öffnen kann. Erzählte Ein-Minuten-Folgen.",
         "fr": "Dans un lointain futur, une école de chats dans une ville de verre au-dessus des nuages : Kiri et Kori, les chatons d'Abram, apprennent à allumer des sphères de lumière en ronronnant et cherchent le secret d'une vieille porte que personne ne peut ouvrir. Épisodes narrés d'une minute.",
@@ -3540,6 +3540,340 @@
               "இருவரும் சேர்ந்து பழைய கதவில் இருந்த சிறிய ஒளிரும் குறியை அடைந்தனர்.",
               "அது சிறிய நிலவைப் போல ஒளிரும் பாதச்சுவடு.",
               "அன்று குட்டிகள் கண்ணுக்குத் தெரியாததை நம்பக் கற்றன."
+            ]
+          }
+        },
+        "4": {
+          "cues": [
+            [
+              0.2,
+              6.84
+            ],
+            [
+              7.24,
+              16.84
+            ],
+            [
+              17.24,
+              22.64
+            ],
+            [
+              23.04,
+              27.76
+            ],
+            [
+              28.16,
+              35.64
+            ],
+            [
+              36.04,
+              43.6
+            ],
+            [
+              44.0,
+              52.44
+            ],
+            [
+              52.84,
+              60.76
+            ],
+            [
+              61.16,
+              68.88
+            ],
+            [
+              69.28,
+              74.0
+            ],
+            [
+              74.4,
+              79.12
+            ],
+            [
+              79.52,
+              85.72
+            ]
+          ],
+          "text": {
+            "en": [
+              "That evening, the moon rose over the glass city.",
+              "The teacher cat stepped onto the grass, and his paw prints began to glow.",
+              "Each print shone silver, like a tiny piece of the moon.",
+              "Pip the robot floated above them, counting every one.",
+              "Kori jumped and stamped, but her prints stayed dark.",
+              "Kiri walked slowly, and soft lights followed her paws.",
+              "Kori took a deep breath and walked beside her sister.",
+              "Now two shining trails crossed the garden side by side.",
+              "The trails led straight to the old round door.",
+              "On the door, a second paw print began to glow.",
+              "Abram watched from the path, proud and quiet.",
+              "That night, the kittens learned that calm paws leave the brightest path."
+            ],
+            "tr": [
+              "O akşam ay, cam şehrin üzerinde yükseldi.",
+              "Öğretmen kedi çimene bastı ve pati izleri parlamaya başladı.",
+              "Her iz, ayın minik bir parçası gibi gümüş rengi ışıldıyordu.",
+              "Robot Pip üstlerinde süzülüyor, izleri tek tek sayıyordu.",
+              "Kori zıpladı, tepindi; ama izleri karanlık kaldı.",
+              "Kiri yavaşça yürüdü ve patilerini yumuşak ışıklar izledi.",
+              "Kori derin bir nefes aldı ve kardeşinin yanında yürüdü.",
+              "Artık bahçeyi yan yana iki parlak iz geçiyordu.",
+              "İzler dosdoğru eski yuvarlak kapıya gidiyordu.",
+              "Kapının üzerinde ikinci bir pati izi parlamaya başladı.",
+              "Abram yoldan, gururlu ve sessiz, onları izliyordu.",
+              "O gece yavrular, en parlak yolu sakin patilerin bıraktığını öğrendi."
+            ],
+            "de": [
+              "An jenem Abend ging der Mond über der Glasstadt auf.",
+              "Die Lehrerkatze trat aufs Gras, und ihre Pfotenabdrücke begannen zu leuchten.",
+              "Jeder Abdruck schimmerte silbern, wie ein winziges Stück Mond.",
+              "Pip, der Roboter, schwebte über ihnen und zählte jeden einzelnen.",
+              "Kori sprang und stampfte, doch ihre Abdrücke blieben dunkel.",
+              "Kiri ging langsam, und sanfte Lichter folgten ihren Pfoten.",
+              "Kori holte tief Luft und ging neben ihrer Schwester.",
+              "Nun zogen sich zwei leuchtende Spuren nebeneinander durch den Garten.",
+              "Die Spuren führten geradewegs zur alten runden Tür.",
+              "An der Tür begann ein zweiter Pfotenabdruck zu leuchten.",
+              "Abram sah vom Weg aus zu, stolz und still.",
+              "In dieser Nacht lernten die Kätzchen, dass ruhige Pfoten den hellsten Weg hinterlassen."
+            ],
+            "fr": [
+              "Ce soir-là, la lune se leva sur la ville de verre.",
+              "Le chat professeur posa les pattes sur l'herbe, et ses empreintes se mirent à briller.",
+              "Chaque empreinte luisait d'argent, comme un petit morceau de lune.",
+              "Pip le robot flottait au-dessus d'eux et les comptait une à une.",
+              "Kori sauta et tapa des pattes, mais ses empreintes restèrent sombres.",
+              "Kiri marcha lentement, et de douces lumières suivirent ses pattes.",
+              "Kori prit une grande inspiration et marcha à côté de sa sœur.",
+              "Désormais, deux traces brillantes traversaient le jardin côte à côte.",
+              "Les traces menaient tout droit à la vieille porte ronde.",
+              "Sur la porte, une deuxième empreinte de patte se mit à briller.",
+              "Abram regardait depuis le sentier, fière et silencieuse.",
+              "Cette nuit-là, les chatons apprirent que les pattes calmes laissent le chemin le plus lumineux."
+            ],
+            "es": [
+              "Aquella tarde, la luna salió sobre la ciudad de cristal.",
+              "El gato maestro pisó la hierba, y sus huellas empezaron a brillar.",
+              "Cada huella relucía plateada, como un trocito de luna.",
+              "Pip, el robot, flotaba sobre ellos contándolas una a una.",
+              "Kori saltó y pisoteó, pero sus huellas siguieron oscuras.",
+              "Kiri caminó despacio, y unas luces suaves siguieron sus patas.",
+              "Kori respiró hondo y caminó junto a su hermana.",
+              "Ahora dos senderos brillantes cruzaban el jardín lado a lado.",
+              "Los senderos llevaban directo a la vieja puerta redonda.",
+              "En la puerta, una segunda huella de pata empezó a brillar.",
+              "Abram miraba desde el camino, orgullosa y en silencio.",
+              "Esa noche, las gatitas aprendieron que las patas tranquilas dejan el camino más brillante."
+            ],
+            "pt": [
+              "Naquela noite, a lua nasceu sobre a cidade de vidro.",
+              "O gato professor pisou na grama, e suas pegadas começaram a brilhar.",
+              "Cada pegada reluzia prateada, como um pedacinho da lua.",
+              "Pip, o robô, flutuava acima deles, contando uma por uma.",
+              "Kori pulou e bateu as patas, mas suas pegadas ficaram escuras.",
+              "Kiri andou devagar, e luzes suaves seguiram suas patas.",
+              "Kori respirou fundo e andou ao lado da irmã.",
+              "Agora duas trilhas brilhantes cruzavam o jardim lado a lado.",
+              "As trilhas levavam direto à velha porta redonda.",
+              "Na porta, uma segunda pegada começou a brilhar.",
+              "Abram observava do caminho, orgulhosa e quieta.",
+              "Naquela noite, as gatinhas aprenderam que patas calmas deixam o caminho mais brilhante."
+            ],
+            "it": [
+              "Quella sera, la luna sorse sopra la città di vetro.",
+              "Il gatto maestro mise le zampe sull'erba, e le sue impronte cominciarono a brillare.",
+              "Ogni impronta luccicava d'argento, come un pezzettino di luna.",
+              "Pip, il robot, fluttuava sopra di loro contandole una per una.",
+              "Kori saltò e pestò le zampe, ma le sue impronte rimasero buie.",
+              "Kiri camminò lentamente, e luci morbide seguirono le sue zampe.",
+              "Kori fece un respiro profondo e camminò accanto a sua sorella.",
+              "Ora due scie luminose attraversavano il giardino fianco a fianco.",
+              "Le scie portavano dritte alla vecchia porta rotonda.",
+              "Sulla porta, una seconda impronta cominciò a brillare.",
+              "Abram guardava dal sentiero, fiera e silenziosa.",
+              "Quella notte, le gattine impararono che le zampe calme lasciano il sentiero più luminoso."
+            ],
+            "ru": [
+              "В тот вечер над стеклянным городом взошла луна.",
+              "Кот-учитель ступил на траву, и следы его лап начали светиться.",
+              "Каждый след сиял серебром, как крошечный кусочек луны.",
+              "Робот Пип парил над ними и считал каждый след.",
+              "Кори прыгала и топала, но её следы оставались тёмными.",
+              "Кири шла медленно, и мягкие огоньки следовали за её лапками.",
+              "Кори глубоко вдохнула и пошла рядом с сестрой.",
+              "Теперь две сияющие дорожки тянулись через сад бок о бок.",
+              "Дорожки вели прямо к старой круглой двери.",
+              "На двери загорелся второй отпечаток лапы.",
+              "Абрам смотрела с тропинки, гордая и тихая.",
+              "В ту ночь котята узнали, что спокойные лапки оставляют самый яркий путь."
+            ],
+            "ar": [
+              "في ذلك المساء، أشرق القمر فوق المدينة الزجاجية.",
+              "خطا القط المعلّم على العشب، فبدأت آثار كفوفه تتوهج.",
+              "كان كل أثر يلمع بلون الفضة، كقطعة صغيرة من القمر.",
+              "كان الروبوت بيب يطفو فوقهم ويعدّها واحدًا واحدًا.",
+              "قفزت كوري وضربت الأرض، لكن آثارها بقيت معتمة.",
+              "مشت كيري ببطء، فتبعت كفوفها أضواء ناعمة.",
+              "أخذت كوري نفسًا عميقًا ومشت بجانب أختها.",
+              "الآن صار دربان لامعان يعبران الحديقة جنبًا إلى جنب.",
+              "قاد الدربان مباشرة إلى الباب القديم المستدير.",
+              "على الباب، بدأ أثر كفّ ثانٍ يتوهج.",
+              "كانت أبرام تراقب من الممر، فخورة وصامتة.",
+              "في تلك الليلة تعلّمت القطتان أن الكفوف الهادئة تترك أسطع درب."
+            ],
+            "hi": [
+              "उस शाम, काँच के शहर पर चाँद निकला।",
+              "शिक्षक बिल्ले ने घास पर कदम रखा, और उसके पंजों के निशान चमकने लगे।",
+              "हर निशान चाँदी-सा चमक रहा था, जैसे चाँद का नन्हा टुकड़ा।",
+              "रोबोट पिप उनके ऊपर तैरता हुआ हर निशान गिन रहा था।",
+              "कोरी उछली और पैर पटके, पर उसके निशान अँधेरे ही रहे।",
+              "किरी धीरे-धीरे चली, और नरम रोशनियाँ उसके पंजों के पीछे चलीं।",
+              "कोरी ने गहरी साँस ली और अपनी बहन के साथ चलने लगी।",
+              "अब दो चमकती पगडंडियाँ बाग़ को साथ-साथ पार कर रही थीं।",
+              "पगडंडियाँ सीधे पुराने गोल दरवाज़े तक जाती थीं।",
+              "दरवाज़े पर पंजे का दूसरा निशान चमकने लगा।",
+              "अब्राम रास्ते से देख रही थी, गर्व से और चुपचाप।",
+              "उस रात बच्चों ने सीखा कि शांत पंजे सबसे उजला रास्ता छोड़ते हैं।"
+            ],
+            "zh": [
+              "那天傍晚，月亮升到了玻璃城市的上空。",
+              "猫老师踏上草地，他的爪印开始发光。",
+              "每个爪印都闪着银光，像一小片月亮。",
+              "机器人皮普飘在他们上方，一个一个地数着。",
+              "科里又跳又跺，可她的爪印还是暗的。",
+              "奇里慢慢地走，柔和的光跟着她的爪子亮起来。",
+              "科里深吸一口气，走到姐妹身边。",
+              "现在，两条闪亮的小路并排穿过花园。",
+              "小路一直通向那扇古老的圆门。",
+              "门上，第二个爪印开始发光。",
+              "阿布拉姆在小路上看着，骄傲而安静。",
+              "那一夜，小猫们明白了，平静的爪子留下最亮的路。"
+            ],
+            "ja": [
+              "その夕方、ガラスの街の上に月がのぼりました。",
+              "先生猫が草の上を歩くと、足あとが光りはじめました。",
+              "足あとはどれも銀色に輝き、小さな月のかけらのようでした。",
+              "ロボットのピップは上に浮かんで、ひとつずつ数えていました。",
+              "コリは跳んで足をふみならしましたが、足あとは暗いままでした。",
+              "キリがゆっくり歩くと、やわらかな光が前足のあとについてきました。",
+              "コリは深く息を吸って、キリのとなりを歩きました。",
+              "今では、二本の光る道が並んで庭を横切っていました。",
+              "その道は、まっすぐ古い丸い扉へ続いていました。",
+              "扉の上で、ふたつめの肉球のあとが光りはじめました。",
+              "アブラムは小道から、ほこらしげに静かに見ていました。",
+              "その夜子猫たちは、おだやかな前足がいちばん明るい道を残すと知りました。"
+            ],
+            "ko": [
+              "그날 저녁, 유리 도시 위로 달이 떠올랐어요.",
+              "선생님 고양이가 풀밭을 디디자 발자국이 빛나기 시작했어요.",
+              "발자국마다 작은 달 조각처럼 은빛으로 반짝였어요.",
+              "로봇 핍은 그 위에 떠서 하나하나 세었어요.",
+              "코리는 뛰고 쿵쿵 굴렀지만 발자국은 어두웠어요.",
+              "키리가 천천히 걷자 부드러운 빛이 발을 따라왔어요.",
+              "코리는 깊이 숨을 쉬고 키리 옆에서 걸었어요.",
+              "이제 빛나는 길 두 줄이 나란히 정원을 가로질렀어요.",
+              "그 길은 오래된 둥근 문으로 곧장 이어졌어요.",
+              "문 위에서 두 번째 발자국이 빛나기 시작했어요.",
+              "아브람은 길에서 자랑스럽고 조용히 지켜보았어요.",
+              "그날 밤 아기 고양이들은 차분한 발이 가장 밝은 길을 남긴다는 걸 배웠어요."
+            ],
+            "id": [
+              "Malam itu, bulan terbit di atas kota kaca.",
+              "Kucing guru melangkah ke rumput, dan jejak kakinya mulai bercahaya.",
+              "Setiap jejak berkilau perak, seperti sepotong kecil bulan.",
+              "Pip si robot melayang di atas mereka, menghitung satu per satu.",
+              "Kori melompat dan menghentak, tetapi jejaknya tetap gelap.",
+              "Kiri berjalan pelan, dan cahaya lembut mengikuti cakarnya.",
+              "Kori menarik napas dalam dan berjalan di samping saudarinya.",
+              "Kini dua jalur berkilau melintasi taman berdampingan.",
+              "Jalur itu menuju lurus ke pintu tua yang bundar.",
+              "Di pintu itu, jejak kaki kedua mulai bercahaya.",
+              "Abram memperhatikan dari jalan setapak, bangga dan tenang.",
+              "Malam itu, anak-anak kucing belajar bahwa cakar yang tenang meninggalkan jalan paling terang."
+            ],
+            "vi": [
+              "Tối hôm đó, mặt trăng mọc trên thành phố kính.",
+              "Thầy mèo bước lên cỏ, và dấu chân của thầy bắt đầu phát sáng.",
+              "Mỗi dấu chân lấp lánh ánh bạc, như một mảnh trăng nhỏ.",
+              "Robot Pip bay phía trên, đếm từng dấu một.",
+              "Kori nhảy và giậm chân, nhưng dấu chân của cô bé vẫn tối.",
+              "Kiri bước chậm rãi, và những ánh sáng dịu theo sau chân cô bé.",
+              "Kori hít một hơi thật sâu rồi bước bên cạnh chị em mình.",
+              "Giờ đây hai vệt sáng chạy song song qua khu vườn.",
+              "Hai vệt sáng dẫn thẳng đến cánh cửa tròn cũ kỹ.",
+              "Trên cánh cửa, dấu chân thứ hai bắt đầu phát sáng.",
+              "Abram đứng trên lối đi dõi theo, tự hào và lặng lẽ.",
+              "Đêm đó, hai mèo con học được rằng đôi chân bình tĩnh để lại con đường sáng nhất."
+            ],
+            "bn": [
+              "সেই সন্ধ্যায় কাচের শহরের উপরে চাঁদ উঠল।",
+              "শিক্ষক বিড়াল ঘাসে পা রাখল, আর তার থাবার ছাপ জ্বলতে শুরু করল।",
+              "প্রতিটি ছাপ রুপোলি আলোয় ঝলমল করছিল, চাঁদের ছোট্ট টুকরোর মতো।",
+              "রোবট পিপ তাদের উপরে ভেসে একটা একটা করে গুনছিল।",
+              "কোরি লাফাল, পা ঠুকল, কিন্তু তার ছাপ অন্ধকারই রইল।",
+              "কিরি ধীরে হাঁটল, আর নরম আলো তার থাবার পিছু নিল।",
+              "কোরি গভীর শ্বাস নিয়ে বোনের পাশে হাঁটতে লাগল।",
+              "এখন দুটো ঝলমলে পথ পাশাপাশি বাগান পেরিয়ে গেল।",
+              "পথ দুটো সোজা পুরোনো গোল দরজার দিকে গেল।",
+              "দরজার গায়ে দ্বিতীয় একটা থাবার ছাপ জ্বলতে শুরু করল।",
+              "আব্রাম পথ থেকে দেখছিল, গর্বিত আর শান্ত।",
+              "সেই রাতে ছানারা শিখল, শান্ত থাবাই সবচেয়ে উজ্জ্বল পথ রেখে যায়।"
+            ],
+            "ur": [
+              "اس شام شیشے کے شہر پر چاند نکلا۔",
+              "استاد بلے نے گھاس پر قدم رکھا اور اس کے پنجوں کے نشان چمکنے لگے۔",
+              "ہر نشان چاندی کی طرح چمک رہا تھا، جیسے چاند کا ننھا ٹکڑا۔",
+              "روبوٹ پِپ ان کے اوپر تیرتا ہوا ایک ایک نشان گن رہا تھا۔",
+              "کوری اچھلی اور پاؤں پٹخے، مگر اس کے نشان اندھیرے ہی رہے۔",
+              "کیری آہستہ چلی، اور نرم روشنیاں اس کے پنجوں کے پیچھے چلیں۔",
+              "کوری نے گہری سانس لی اور اپنی بہن کے ساتھ چلنے لگی۔",
+              "اب دو چمکتی پگڈنڈیاں باغ کو ساتھ ساتھ پار کر رہی تھیں۔",
+              "پگڈنڈیاں سیدھی پرانے گول دروازے تک جاتی تھیں۔",
+              "دروازے پر پنجے کا دوسرا نشان چمکنے لگا۔",
+              "ابرام راستے سے دیکھ رہی تھی، فخر سے اور خاموشی سے۔",
+              "اس رات بچوں نے سیکھا کہ پُرسکون پنجے سب سے روشن راستہ چھوڑتے ہیں۔"
+            ],
+            "mr": [
+              "त्या संध्याकाळी काचेच्या शहरावर चंद्र उगवला.",
+              "शिक्षक बोक्याने गवतावर पाऊल ठेवले आणि त्याच्या पंजांचे ठसे चमकू लागले.",
+              "प्रत्येक ठसा चांदीसारखा चमकत होता, चंद्राच्या चिमुकल्या तुकड्यासारखा.",
+              "रोबो पिप त्यांच्या वर तरंगत एकेक ठसा मोजत होता.",
+              "कोरीने उड्या मारल्या, पाय आपटले, पण तिचे ठसे काळेच राहिले.",
+              "किरी हळू चालली आणि मऊ प्रकाश तिच्या पंजांमागे आला.",
+              "कोरीने खोल श्वास घेतला आणि बहिणीच्या शेजारी चालू लागली.",
+              "आता दोन चमकणाऱ्या वाटा शेजारी शेजारी बाग ओलांडत होत्या.",
+              "त्या वाटा थेट जुन्या गोल दाराकडे जात होत्या.",
+              "दारावर पंजाचा दुसरा ठसा चमकू लागला.",
+              "अब्राम वाटेवरून पाहत होती, अभिमानाने आणि शांतपणे.",
+              "त्या रात्री पिल्लांना कळले की शांत पंजे सर्वांत उजळ वाट मागे ठेवतात."
+            ],
+            "te": [
+              "ఆ సాయంత్రం గాజు నగరం పైన చంద్రుడు ఉదయించాడు.",
+              "గురువు పిల్లి గడ్డిపై అడుగు పెట్టగానే దాని పంజా ముద్రలు మెరవసాగాయి.",
+              "ప్రతి ముద్ర వెండిలా మెరిసింది, చంద్రుడి చిన్న ముక్కలా.",
+              "రోబో పిప్ వారి పైన తేలుతూ ఒక్కొక్కటిగా లెక్కించింది.",
+              "కోరి గెంతింది, కాళ్లు బాదింది, కానీ ఆమె ముద్రలు చీకటిగానే ఉన్నాయి.",
+              "కిరి నెమ్మదిగా నడిచింది, మెత్తని వెలుగులు ఆమె పంజాలను అనుసరించాయి.",
+              "కోరి లోతుగా ఊపిరి పీల్చి తన సోదరి పక్కన నడిచింది.",
+              "ఇప్పుడు రెండు మెరిసే దారులు పక్కపక్కనే తోటను దాటాయి.",
+              "ఆ దారులు నేరుగా పాత గుండ్రటి తలుపు వద్దకు చేరాయి.",
+              "తలుపుపై రెండవ పంజా ముద్ర మెరవడం మొదలైంది.",
+              "అబ్రామ్ దారి నుంచి గర్వంగా, నిశ్శబ్దంగా చూసింది.",
+              "ఆ రాత్రి పిల్లలు, ప్రశాంతమైన పంజాలే అత్యంత ప్రకాశవంతమైన దారిని వదులుతాయని నేర్చుకున్నాయి."
+            ],
+            "ta": [
+              "அன்று மாலை, கண்ணாடி நகரின் மேல் நிலா எழுந்தது.",
+              "ஆசிரியர் பூனை புல்லில் அடியெடுத்து வைத்ததும் அதன் பாதச்சுவடுகள் ஒளிரத் தொடங்கின.",
+              "ஒவ்வொரு சுவடும் நிலவின் சிறு துண்டு போல வெள்ளியாக மின்னியது.",
+              "ரோபோ பிப் அவர்களுக்கு மேலே மிதந்து ஒவ்வொன்றாக எண்ணியது.",
+              "கோரி குதித்து மிதித்தாள்; ஆனால் அவள் சுவடுகள் இருளாகவே இருந்தன.",
+              "கிரி மெதுவாக நடந்தாள்; மென்மையான ஒளி அவள் பாதங்களைத் தொடர்ந்தது.",
+              "கோரி ஆழமாக மூச்சிழுத்து, தன் சகோதரியின் அருகில் நடந்தாள்.",
+              "இப்போது இரண்டு ஒளிரும் தடங்கள் அருகருகே தோட்டத்தைக் கடந்தன.",
+              "அந்தத் தடங்கள் நேராகப் பழைய வட்டக் கதவை நோக்கிச் சென்றன.",
+              "கதவில் இரண்டாவது பாதச்சுவடு ஒளிரத் தொடங்கியது.",
+              "அப்ராம் பாதையிலிருந்து பெருமையுடனும் அமைதியுடனும் பார்த்தாள்.",
+              "அன்று இரவு குட்டிகள், அமைதியான பாதங்களே மிகப் பிரகாசமான பாதையை விட்டுச் செல்லும் என்று கற்றன."
             ]
           }
         }

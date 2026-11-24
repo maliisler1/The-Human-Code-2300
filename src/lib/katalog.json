@@ -2519,7 +2519,7 @@
       "name": "The Cloud Cat School",
       "tr": "Yüzyıllar sonra, bulutların üstündeki cam şehirde bir kedi okulu: Abram'ın yavruları Kiri ve Kori ışık kürelerini mırıltıyla yakmayı öğreniyor, kimsenin açamadığı eski kapının sırrını arıyor. Anlatıcılı, 1 dakikalık bölümler.",
       "en": "Centuries from now, a cat school in a glass city above the clouds: Abram's kittens Kiri and Kori learn to light glowing orbs with a purr and search for the secret of an old door no one can open. Narrated one-minute episodes.",
-      "episodes": 4,
+      "episodes": 5,
       "loc": {
         "de": "In ferner Zukunft, eine Katzenschule in einer Glasstadt über den Wolken: Abrams Kätzchen Kiri und Kori lernen, Lichtkugeln mit einem Schnurren zu entzünden, und suchen das Geheimnis einer alten Tür, die niemand öffnen kann. Erzählte Ein-Minuten-Folgen.",
         "fr": "Dans un lointain futur, une école de chats dans une ville de verre au-dessus des nuages : Kiri et Kori, les chatons d'Abram, apprennent à allumer des sphères de lumière en ronronnant et cherchent le secret d'une vieille porte que personne ne peut ouvrir. Épisodes narrés d'une minute.",
@@ -3874,6 +3874,340 @@
               "கதவில் இரண்டாவது பாதச்சுவடு ஒளிரத் தொடங்கியது.",
               "அப்ராம் பாதையிலிருந்து பெருமையுடனும் அமைதியுடனும் பார்த்தாள்.",
               "அன்று இரவு குட்டிகள், அமைதியான பாதங்களே மிகப் பிரகாசமான பாதையை விட்டுச் செல்லும் என்று கற்றன."
+            ]
+          }
+        },
+        "5": {
+          "cues": [
+            [
+              0.2,
+              4.96
+            ],
+            [
+              5.36,
+              10.08
+            ],
+            [
+              10.48,
+              15.2
+            ],
+            [
+              15.6,
+              20.32
+            ],
+            [
+              20.72,
+              25.44
+            ],
+            [
+              25.84,
+              30.56
+            ],
+            [
+              30.96,
+              35.68
+            ],
+            [
+              36.08,
+              40.8
+            ],
+            [
+              41.2,
+              48.8
+            ],
+            [
+              49.2,
+              56.16
+            ],
+            [
+              56.56,
+              63.52
+            ],
+            [
+              63.92,
+              70.02
+            ]
+          ],
+          "text": {
+            "en": [
+              "On the fifth day, dry leaves covered the garden floor.",
+              "The lesson was simple: cross the garden without a sound.",
+              "The teacher cat walked across, and not one leaf moved.",
+              "Pip the robot listened with his tiny glowing ears.",
+              "Kori ran, and the leaves crackled under her paws.",
+              "Pip blinked red, and Kori had to start again.",
+              "Kiri stepped slowly, placing each paw with care.",
+              "She crossed the whole garden in perfect silence.",
+              "Kori tried once more, soft and slow, behind her sister.",
+              "This time, even the sleeping birds did not wake.",
+              "As they passed the old door, a third paw print lit up.",
+              "That day, the kittens learned that quiet steps go the farthest."
+            ],
+            "tr": [
+              "Beşinci gün bahçenin zeminini kuru yapraklar kapladı.",
+              "Ders basitti: bahçeyi hiç ses çıkarmadan geçmek.",
+              "Öğretmen kedi karşıya yürüdü ve tek bir yaprak bile kıpırdamadı.",
+              "Robot Pip, minik parlayan kulaklarıyla dinliyordu.",
+              "Kori koştu ve yapraklar patilerinin altında çıtırdadı.",
+              "Pip kırmızı yanıp söndü ve Kori baştan başlamak zorunda kaldı.",
+              "Kiri yavaşça yürüdü, her patisini özenle bastı.",
+              "Bütün bahçeyi tam bir sessizlik içinde geçti.",
+              "Kori bir kez daha denedi; yumuşak ve yavaş, kardeşinin ardından.",
+              "Bu kez uyuyan kuşlar bile uyanmadı.",
+              "Eski kapının önünden geçerlerken üçüncü bir pati izi yandı.",
+              "O gün yavrular, en uzağa sessiz adımların gittiğini öğrendi."
+            ],
+            "de": [
+              "Am fünften Tag bedeckten trockene Blätter den Gartenboden.",
+              "Die Aufgabe war einfach: den Garten ohne ein Geräusch durchqueren.",
+              "Die Lehrerkatze ging hinüber, und kein einziges Blatt bewegte sich.",
+              "Pip, der Roboter, lauschte mit seinen winzigen leuchtenden Ohren.",
+              "Kori rannte los, und die Blätter knisterten unter ihren Pfoten.",
+              "Pip blinkte rot, und Kori musste von vorn anfangen.",
+              "Kiri ging langsam und setzte jede Pfote mit Bedacht.",
+              "Sie durchquerte den ganzen Garten in völliger Stille.",
+              "Kori versuchte es noch einmal, sanft und langsam, hinter ihrer Schwester.",
+              "Diesmal wachten nicht einmal die schlafenden Vögel auf.",
+              "Als sie an der alten Tür vorbeikamen, leuchtete ein dritter Pfotenabdruck auf.",
+              "An diesem Tag lernten die Kätzchen, dass leise Schritte am weitesten führen."
+            ],
+            "fr": [
+              "Le cinquième jour, des feuilles sèches couvraient le sol du jardin.",
+              "La leçon était simple : traverser le jardin sans un bruit.",
+              "Le chat professeur traversa, et pas une feuille ne bougea.",
+              "Pip le robot écoutait avec ses toutes petites oreilles lumineuses.",
+              "Kori courut, et les feuilles craquèrent sous ses pattes.",
+              "Pip clignota en rouge, et Kori dut recommencer.",
+              "Kiri avança lentement, posant chaque patte avec soin.",
+              "Elle traversa tout le jardin dans un silence parfait.",
+              "Kori essaya encore, douce et lente, derrière sa sœur.",
+              "Cette fois, même les oiseaux endormis ne se réveillèrent pas.",
+              "Quand elles passèrent devant la vieille porte, une troisième empreinte s'alluma.",
+              "Ce jour-là, les chatons apprirent que les pas silencieux vont le plus loin."
+            ],
+            "es": [
+              "El quinto día, hojas secas cubrían el suelo del jardín.",
+              "La lección era sencilla: cruzar el jardín sin hacer ruido.",
+              "El gato maestro cruzó, y ni una sola hoja se movió.",
+              "Pip, el robot, escuchaba con sus diminutas orejas brillantes.",
+              "Kori corrió, y las hojas crujieron bajo sus patas.",
+              "Pip parpadeó en rojo, y Kori tuvo que empezar de nuevo.",
+              "Kiri avanzó despacio, apoyando cada pata con cuidado.",
+              "Cruzó todo el jardín en perfecto silencio.",
+              "Kori lo intentó otra vez, suave y lenta, detrás de su hermana.",
+              "Esta vez, ni los pájaros dormidos se despertaron.",
+              "Al pasar junto a la vieja puerta, se encendió una tercera huella.",
+              "Ese día, las gatitas aprendieron que los pasos silenciosos llegan más lejos."
+            ],
+            "pt": [
+              "No quinto dia, folhas secas cobriam o chão do jardim.",
+              "A lição era simples: atravessar o jardim sem fazer barulho.",
+              "O gato professor atravessou, e nenhuma folha se mexeu.",
+              "Pip, o robô, escutava com suas pequenas orelhas brilhantes.",
+              "Kori correu, e as folhas estalaram sob suas patas.",
+              "Pip piscou em vermelho, e Kori teve de começar de novo.",
+              "Kiri caminhou devagar, pousando cada pata com cuidado.",
+              "Ela atravessou o jardim inteiro em perfeito silêncio.",
+              "Kori tentou mais uma vez, suave e devagar, atrás da irmã.",
+              "Desta vez, nem os pássaros adormecidos acordaram.",
+              "Ao passarem pela velha porta, uma terceira pegada se acendeu.",
+              "Naquele dia, as gatinhas aprenderam que passos silenciosos vão mais longe."
+            ],
+            "it": [
+              "Il quinto giorno, foglie secche coprivano il suolo del giardino.",
+              "La lezione era semplice: attraversare il giardino senza un suono.",
+              "Il gatto maestro attraversò, e non si mosse nemmeno una foglia.",
+              "Pip, il robot, ascoltava con le sue minuscole orecchie luminose.",
+              "Kori corse, e le foglie scricchiolarono sotto le sue zampe.",
+              "Pip lampeggiò di rosso, e Kori dovette ricominciare.",
+              "Kiri avanzò piano, posando ogni zampa con cura.",
+              "Attraversò tutto il giardino in perfetto silenzio.",
+              "Kori provò ancora, piano e leggera, dietro sua sorella.",
+              "Questa volta nemmeno gli uccellini addormentati si svegliarono.",
+              "Passando davanti alla vecchia porta, si accese una terza impronta.",
+              "Quel giorno, le gattine impararono che i passi silenziosi arrivano più lontano."
+            ],
+            "ru": [
+              "На пятый день сухие листья покрыли землю в саду.",
+              "Задание было простым: пересечь сад без единого звука.",
+              "Кот-учитель прошёл через сад, и ни один лист не шелохнулся.",
+              "Робот Пип слушал своими крошечными светящимися ушками.",
+              "Кори побежала, и листья захрустели под её лапками.",
+              "Пип мигнул красным, и Кори пришлось начать заново.",
+              "Кири ступала медленно, осторожно ставя каждую лапку.",
+              "Она пересекла весь сад в полной тишине.",
+              "Кори попробовала ещё раз — мягко и медленно, следом за сестрой.",
+              "На этот раз не проснулись даже спящие птицы.",
+              "Когда они проходили мимо старой двери, загорелся третий отпечаток лапы.",
+              "В тот день котята узнали, что тихие шаги ведут дальше всего."
+            ],
+            "ar": [
+              "في اليوم الخامس غطّت الأوراق الجافة أرض الحديقة.",
+              "كان الدرس بسيطًا: اعبروا الحديقة دون أي صوت.",
+              "عبر القط المعلّم، ولم تتحرك ورقة واحدة.",
+              "كان الروبوت بيب يصغي بأذنيه الصغيرتين المتوهجتين.",
+              "ركضت كوري فطقطقت الأوراق تحت كفوفها.",
+              "ومض بيب بالأحمر، فاضطرت كوري أن تبدأ من جديد.",
+              "خطت كيري ببطء، تضع كل كفّ بعناية.",
+              "عبرت الحديقة كلها في صمت تام.",
+              "حاولت كوري مرة أخرى، بهدوء وبطء، خلف أختها.",
+              "هذه المرة لم تستيقظ حتى الطيور النائمة.",
+              "وهما تمرّان بالباب القديم، أضاء أثر كفّ ثالث.",
+              "في ذلك اليوم تعلّمت القطتان أن الخطوات الهادئة تصل أبعد."
+            ],
+            "hi": [
+              "पाँचवें दिन सूखे पत्तों ने बाग़ की ज़मीन ढक ली।",
+              "पाठ सीधा था: बिना आवाज़ किए बाग़ पार करना।",
+              "शिक्षक बिल्ला पार चला गया, और एक भी पत्ता नहीं हिला।",
+              "रोबोट पिप अपने नन्हे चमकते कानों से सुन रहा था।",
+              "कोरी दौड़ी, और पत्ते उसके पंजों के नीचे चरमरा उठे।",
+              "पिप लाल झपका, और कोरी को फिर से शुरू करना पड़ा।",
+              "किरी धीरे-धीरे चली, हर पंजा सँभालकर रखती हुई।",
+              "उसने पूरा बाग़ पूरी ख़ामोशी में पार कर लिया।",
+              "कोरी ने एक बार फिर कोशिश की, हल्के और धीरे, अपनी बहन के पीछे।",
+              "इस बार सोई हुई चिड़ियाँ भी नहीं जागीं।",
+              "पुराने दरवाज़े के पास से गुज़रते ही पंजे का तीसरा निशान जल उठा।",
+              "उस दिन बच्चों ने सीखा कि शांत कदम सबसे दूर जाते हैं।"
+            ],
+            "zh": [
+              "第五天，干枯的落叶铺满了花园的地面。",
+              "课程很简单：不发出一点声音地穿过花园。",
+              "猫老师走了过去，没有一片叶子动一下。",
+              "机器人皮普用他发光的小耳朵仔细听着。",
+              "科里跑了起来，落叶在她爪下噼啪作响。",
+              "皮普闪起红光，科里只好重新开始。",
+              "奇里慢慢地走，小心地放下每一只爪子。",
+              "她悄无声息地穿过了整个花园。",
+              "科里又试了一次，轻轻地、慢慢地跟在姐妹身后。",
+              "这一次，连睡着的小鸟都没有醒。",
+              "她们经过旧门时，第三个爪印亮了起来。",
+              "那一天，小猫们明白了，安静的脚步走得最远。"
+            ],
+            "ja": [
+              "五日目、かわいた落ち葉が庭の地面をおおっていました。",
+              "授業はかんたんです。音を立てずに庭をわたること。",
+              "先生猫がわたっていくと、葉っぱは一枚も動きませんでした。",
+              "ロボットのピップは、小さな光る耳で聞いていました。",
+              "コリが走ると、葉っぱが前足の下でパリパリ鳴りました。",
+              "ピップが赤く点滅し、コリはやり直しになりました。",
+              "キリはゆっくりと、前足をひとつずつ丁寧に置きました。",
+              "そして庭ぜんぶを、すっかり静かにわたりきりました。",
+              "コリはもう一度、そっとゆっくり、キリのあとについて試しました。",
+              "今度は、眠っている小鳥さえ起きませんでした。",
+              "古い扉の前を通ると、三つめの肉球のあとがともりました。",
+              "その日子猫たちは、静かな足どりがいちばん遠くまで行けると知りました。"
+            ],
+            "ko": [
+              "다섯째 날, 마른 낙엽이 정원 바닥을 덮었어요.",
+              "수업은 간단했어요. 소리 없이 정원을 건너는 거예요.",
+              "선생님 고양이가 건너가자 낙엽 하나 움직이지 않았어요.",
+              "로봇 핍은 작고 빛나는 귀로 귀 기울였어요.",
+              "코리가 달리자 발밑에서 낙엽이 바스락거렸어요.",
+              "핍이 빨갛게 깜박였고, 코리는 처음부터 다시 해야 했어요.",
+              "키리는 발을 하나하나 조심스레 디디며 천천히 걸었어요.",
+              "정원 전체를 완전한 고요 속에 건넜어요.",
+              "코리는 키리 뒤에서 살살, 천천히 다시 해 보았어요.",
+              "이번에는 잠든 새들조차 깨지 않았어요.",
+              "오래된 문 앞을 지나자 세 번째 발자국이 켜졌어요.",
+              "그날 아기 고양이들은 조용한 걸음이 가장 멀리 간다는 걸 배웠어요."
+            ],
+            "id": [
+              "Pada hari kelima, daun-daun kering menutupi tanah taman.",
+              "Pelajarannya sederhana: menyeberangi taman tanpa suara.",
+              "Kucing guru berjalan menyeberang, dan tak satu daun pun bergerak.",
+              "Pip si robot mendengarkan dengan telinga mungilnya yang bercahaya.",
+              "Kori berlari, dan daun-daun berderak di bawah cakarnya.",
+              "Pip berkedip merah, dan Kori harus mulai lagi.",
+              "Kiri melangkah pelan, meletakkan setiap cakar dengan hati-hati.",
+              "Ia menyeberangi seluruh taman dalam keheningan sempurna.",
+              "Kori mencoba sekali lagi, lembut dan pelan, di belakang saudarinya.",
+              "Kali ini, burung-burung yang tidur pun tidak terbangun.",
+              "Saat mereka melewati pintu tua, jejak kaki ketiga menyala.",
+              "Hari itu, anak-anak kucing belajar bahwa langkah yang tenang pergi paling jauh."
+            ],
+            "vi": [
+              "Ngày thứ năm, lá khô phủ kín mặt đất trong vườn.",
+              "Bài học rất đơn giản: băng qua khu vườn mà không gây tiếng động.",
+              "Thầy mèo bước qua, và không một chiếc lá nào lay động.",
+              "Robot Pip lắng nghe bằng đôi tai nhỏ phát sáng.",
+              "Kori chạy, và lá khô kêu lạo xạo dưới chân cô bé.",
+              "Pip nháy đèn đỏ, và Kori phải bắt đầu lại.",
+              "Kiri bước chậm rãi, đặt từng bàn chân thật cẩn thận.",
+              "Cô bé băng qua cả khu vườn trong im lặng tuyệt đối.",
+              "Kori thử lại lần nữa, nhẹ nhàng và chậm rãi, phía sau chị em mình.",
+              "Lần này, ngay cả những chú chim đang ngủ cũng không thức giấc.",
+              "Khi chúng đi ngang cánh cửa cũ, dấu chân thứ ba sáng lên.",
+              "Hôm đó, hai mèo con học được rằng bước chân lặng lẽ đi được xa nhất."
+            ],
+            "bn": [
+              "পঞ্চম দিনে শুকনো পাতায় বাগানের মাটি ঢেকে গেল।",
+              "পাঠ ছিল সহজ: কোনো শব্দ না করে বাগান পার হওয়া।",
+              "শিক্ষক বিড়াল হেঁটে পার হল, একটি পাতাও নড়ল না।",
+              "রোবট পিপ তার ছোট্ট জ্বলজ্বলে কান দিয়ে শুনছিল।",
+              "কোরি দৌড়াল, আর তার থাবার নিচে পাতা মচমচ করে উঠল।",
+              "পিপ লাল হয়ে মিটমিট করল, আর কোরিকে আবার শুরু করতে হল।",
+              "কিরি ধীরে পা ফেলল, প্রতিটি থাবা যত্ন করে রাখল।",
+              "সে পুরো বাগান একেবারে নিঃশব্দে পার হয়ে গেল।",
+              "কোরি আরেকবার চেষ্টা করল, নরম আর ধীর পায়ে, বোনের পেছনে।",
+              "এবার ঘুমন্ত পাখিরাও জাগল না।",
+              "পুরোনো দরজার পাশ দিয়ে যেতেই তৃতীয় একটা থাবার ছাপ জ্বলে উঠল।",
+              "সেদিন ছানারা শিখল, নিঃশব্দ পদক্ষেপই সবচেয়ে দূরে যায়।"
+            ],
+            "ur": [
+              "پانچویں دن سوکھے پتوں نے باغ کی زمین ڈھانپ لی۔",
+              "سبق آسان تھا: بغیر آواز کیے باغ پار کرنا۔",
+              "استاد بلا پار چلا گیا، اور ایک پتا بھی نہ ہلا۔",
+              "روبوٹ پِپ اپنے ننھے چمکتے کانوں سے سن رہا تھا۔",
+              "کوری دوڑی، اور پتے اس کے پنجوں تلے چرمرا اٹھے۔",
+              "پِپ سرخ ٹمٹمایا، اور کوری کو دوبارہ شروع کرنا پڑا۔",
+              "کیری آہستہ چلی، ہر پنجہ احتیاط سے رکھتی ہوئی۔",
+              "اس نے پورا باغ مکمل خاموشی میں پار کر لیا۔",
+              "کوری نے ایک بار پھر کوشش کی، نرمی سے اور آہستہ، اپنی بہن کے پیچھے۔",
+              "اس بار سوئے ہوئے پرندے بھی نہ جاگے۔",
+              "پرانے دروازے کے پاس سے گزرتے ہی پنجے کا تیسرا نشان روشن ہو گیا۔",
+              "اس دن بچوں نے سیکھا کہ خاموش قدم سب سے دور جاتے ہیں۔"
+            ],
+            "mr": [
+              "पाचव्या दिवशी सुक्या पानांनी बागेची जमीन झाकली.",
+              "धडा सोपा होता: आवाज न करता बाग ओलांडायची.",
+              "शिक्षक बोका चालत पलीकडे गेला, आणि एकही पान हलले नाही.",
+              "रोबो पिप आपल्या चिमुकल्या चमकणाऱ्या कानांनी ऐकत होता.",
+              "कोरी धावली, आणि पाने तिच्या पंजांखाली कुरकुरली.",
+              "पिप लाल लुकलुकला, आणि कोरीला पुन्हा सुरुवात करावी लागली.",
+              "किरी हळू चालली, प्रत्येक पंजा जपून ठेवत.",
+              "तिने संपूर्ण बाग पूर्ण शांततेत ओलांडली.",
+              "कोरीने पुन्हा एकदा प्रयत्न केला, हलके आणि सावकाश, बहिणीच्या मागे.",
+              "या वेळी झोपलेले पक्षीसुद्धा जागे झाले नाहीत.",
+              "जुन्या दाराजवळून जाताना पंजाचा तिसरा ठसा उजळला.",
+              "त्या दिवशी पिल्लांना कळले की शांत पावले सर्वांत दूर जातात."
+            ],
+            "te": [
+              "ఐదవ రోజు ఎండిన ఆకులు తోట నేలను కప్పేశాయి.",
+              "పాఠం సులభం: శబ్దం చేయకుండా తోటను దాటాలి.",
+              "గురువు పిల్లి నడిచి దాటింది, ఒక్క ఆకు కూడా కదలలేదు.",
+              "రోబో పిప్ తన చిన్న మెరిసే చెవులతో వింటోంది.",
+              "కోరి పరుగెత్తగా, ఆకులు ఆమె పంజాల కింద గలగలలాడాయి.",
+              "పిప్ ఎర్రగా మినుకుమంది, కోరి మళ్లీ మొదలుపెట్టాల్సి వచ్చింది.",
+              "కిరి నెమ్మదిగా, ప్రతి పంజాను జాగ్రత్తగా మోపుతూ నడిచింది.",
+              "ఆమె తోట మొత్తాన్ని పూర్తి నిశ్శబ్దంలో దాటింది.",
+              "కోరి తన సోదరి వెనుక, మెల్లగా నెమ్మదిగా మరోసారి ప్రయత్నించింది.",
+              "ఈసారి నిద్రిస్తున్న పక్షులు కూడా మేల్కోలేదు.",
+              "వారు పాత తలుపు పక్కగా వెళ్తుండగా మూడవ పంజా ముద్ర వెలిగింది.",
+              "ఆ రోజు పిల్లలు, నిశ్శబ్ద అడుగులే అత్యంత దూరం వెళ్తాయని నేర్చుకున్నాయి."
+            ],
+            "ta": [
+              "ஐந்தாம் நாள், காய்ந்த இலைகள் தோட்டத் தரையை மூடின.",
+              "பாடம் எளிமையானது: சத்தமின்றித் தோட்டத்தைக் கடப்பது.",
+              "ஆசிரியர் பூனை நடந்து கடந்தது; ஒரு இலை கூட அசையவில்லை.",
+              "ரோபோ பிப் தன் சிறிய ஒளிரும் காதுகளால் கேட்டது.",
+              "கோரி ஓடினாள்; இலைகள் அவள் பாதங்களின் கீழ் சரசரத்தன.",
+              "பிப் சிவப்பாக மின்னியது; கோரி மீண்டும் தொடங்க வேண்டியிருந்தது.",
+              "கிரி மெதுவாக, ஒவ்வொரு பாதத்தையும் கவனமாக வைத்து நடந்தாள்.",
+              "அவள் முழுத் தோட்டத்தையும் முழு அமைதியில் கடந்தாள்.",
+              "கோரி தன் சகோதரியின் பின்னால், மென்மையாகவும் மெதுவாகவும் மீண்டும் முயன்றாள்.",
+              "இம்முறை தூங்கும் பறவைகள் கூட விழிக்கவில்லை.",
+              "பழைய கதவைக் கடந்தபோது மூன்றாவது பாதச்சுவடு ஒளிர்ந்தது.",
+              "அன்று குட்டிகள், அமைதியான அடிகளே மிகத் தொலைவு செல்லும் என்று கற்றன."
             ]
           }
         }

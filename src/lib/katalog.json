@@ -2548,7 +2548,7 @@
       "name": "The Cloud Cat School",
       "tr": "Yüzyıllar sonra, bulutların üstündeki cam şehirde bir kedi okulu: Abram'ın yavruları Kiri ve Kori ışık kürelerini mırıltıyla yakmayı öğreniyor, kimsenin açamadığı eski kapının sırrını arıyor. Anlatıcılı, 1 dakikalık bölümler.",
       "en": "Centuries from now, a cat school in a glass city above the clouds: Abram's kittens Kiri and Kori learn to light glowing orbs with a purr and search for the secret of an old door no one can open. Narrated one-minute episodes.",
-      "episodes": 10,
+      "episodes": 11,
       "loc": {
         "de": "In ferner Zukunft, eine Katzenschule in einer Glasstadt über den Wolken: Abrams Kätzchen Kiri und Kori lernen, Lichtkugeln mit einem Schnurren zu entzünden, und suchen das Geheimnis einer alten Tür, die niemand öffnen kann. Erzählte Ein-Minuten-Folgen.",
         "fr": "Dans un lointain futur, une école de chats dans une ville de verre au-dessus des nuages : Kiri et Kori, les chatons d'Abram, apprennent à allumer des sphères de lumière en ronronnant et cherchent le secret d'une vieille porte que personne ne peut ouvrir. Épisodes narrés d'une minute.",
@@ -5907,6 +5907,340 @@
               "நட்சத்திர ஒளியில் அவள் தன் குட்டிகளின் மூக்கோடு மூக்கைத் தொட்டாள்.",
               "ரோபோ பிப் மகிழ்ச்சியில் சுழன்றது; குவிமாடத்தின் ஒவ்வொரு கோளமும் ஒளிர்ந்தது.",
               "அன்று இரவு குட்டிகள், கடைசிக் கதவு சேர்ந்தால் மட்டுமே திறக்கும் என்று கற்றன."
+            ]
+          }
+        },
+        "11": {
+          "cues": [
+            [
+              0.2,
+              4.96
+            ],
+            [
+              5.36,
+              10.08
+            ],
+            [
+              10.48,
+              15.2
+            ],
+            [
+              15.6,
+              20.32
+            ],
+            [
+              20.72,
+              25.44
+            ],
+            [
+              25.84,
+              30.56
+            ],
+            [
+              30.96,
+              35.68
+            ],
+            [
+              36.08,
+              40.8
+            ],
+            [
+              41.2,
+              45.92
+            ],
+            [
+              46.32,
+              51.04
+            ],
+            [
+              51.44,
+              56.16
+            ],
+            [
+              56.56,
+              61.28
+            ]
+          ],
+          "text": {
+            "en": [
+              "Beyond the old door, the night sky was full of stars.",
+              "Abram led her kittens to the edge of the little balcony.",
+              "Far away, a small island floated above the clouds.",
+              "On the island stood a tiny door shaped like a star.",
+              "The star door had five dark points.",
+              "Abram touched the first point, and it stayed dark.",
+              "The teacher cat came out and smiled gently.",
+              "Pip the robot drew five little stars in the air.",
+              "Kori counted them on her paws, one by one.",
+              "Kiri looked at the island and took a deep breath.",
+              "There was no bridge to it yet, only clouds.",
+              "That night, the kittens learned that every open door leads to another."
+            ],
+            "tr": [
+              "Eski kapının ardında gece göğü yıldızlarla doluydu.",
+              "Abram yavrularını küçük balkonun kenarına götürdü.",
+              "Uzakta, bulutların üstünde küçük bir ada süzülüyordu.",
+              "Adada yıldız biçiminde minik bir kapı duruyordu.",
+              "Yıldız kapının beş karanlık ucu vardı.",
+              "Abram ilk uca dokundu, ama uç karanlık kaldı.",
+              "Öğretmen kedi dışarı çıktı ve usulca gülümsedi.",
+              "Robot Pip havaya beş küçük yıldız çizdi.",
+              "Kori onları patileriyle tek tek saydı.",
+              "Kiri adaya baktı ve derin bir nefes aldı.",
+              "Oraya henüz bir köprü yoktu, yalnızca bulutlar vardı.",
+              "O gece yavrular, açılan her kapının bir başkasına çıktığını öğrendi."
+            ],
+            "de": [
+              "Hinter der alten Tür war der Nachthimmel voller Sterne.",
+              "Abram führte ihre Kätzchen an den Rand des kleinen Balkons.",
+              "Weit weg schwebte eine kleine Insel über den Wolken.",
+              "Auf der Insel stand eine winzige Tür in Sternform.",
+              "Die Sternentür hatte fünf dunkle Spitzen.",
+              "Abram berührte die erste Spitze, doch sie blieb dunkel.",
+              "Die Lehrerkatze kam heraus und lächelte sanft.",
+              "Pip, der Roboter, malte fünf kleine Sterne in die Luft.",
+              "Kori zählte sie an ihren Pfoten, einen nach dem anderen.",
+              "Kiri sah zur Insel und holte tief Luft.",
+              "Noch führte keine Brücke dorthin, nur Wolken.",
+              "In dieser Nacht lernten die Kätzchen, dass jede offene Tür zu einer weiteren führt."
+            ],
+            "fr": [
+              "Derrière la vieille porte, le ciel de nuit était plein d'étoiles.",
+              "Abram mena ses chatons au bord du petit balcon.",
+              "Au loin, une petite île flottait au-dessus des nuages.",
+              "Sur l'île se dressait une minuscule porte en forme d'étoile.",
+              "La porte étoile avait cinq pointes sombres.",
+              "Abram toucha la première pointe, mais elle resta sombre.",
+              "Le chat professeur sortit et sourit doucement.",
+              "Pip le robot dessina cinq petites étoiles dans l'air.",
+              "Kori les compta sur ses pattes, une par une.",
+              "Kiri regarda l'île et prit une grande inspiration.",
+              "Aucun pont n'y menait encore, seulement des nuages.",
+              "Cette nuit-là, les chatons apprirent que chaque porte ouverte mène à une autre."
+            ],
+            "es": [
+              "Tras la vieja puerta, el cielo nocturno estaba lleno de estrellas.",
+              "Abram llevó a sus gatitas al borde del pequeño balcón.",
+              "A lo lejos, una pequeña isla flotaba sobre las nubes.",
+              "En la isla había una puertecita con forma de estrella.",
+              "La puerta estrella tenía cinco puntas oscuras.",
+              "Abram tocó la primera punta, pero siguió oscura.",
+              "El gato maestro salió y sonrió con dulzura.",
+              "Pip, el robot, dibujó cinco estrellitas en el aire.",
+              "Kori las contó con sus patas, una por una.",
+              "Kiri miró la isla y respiró hondo.",
+              "Todavía no había un puente hasta allí, solo nubes.",
+              "Esa noche, las gatitas aprendieron que cada puerta abierta lleva a otra."
+            ],
+            "pt": [
+              "Além da velha porta, o céu da noite estava cheio de estrelas.",
+              "Abram levou as filhotes até a beira da pequena varanda.",
+              "Ao longe, uma pequena ilha flutuava acima das nuvens.",
+              "Na ilha havia uma portinha em forma de estrela.",
+              "A porta estrela tinha cinco pontas escuras.",
+              "Abram tocou a primeira ponta, mas ela continuou escura.",
+              "O gato professor saiu e sorriu com carinho.",
+              "Pip, o robô, desenhou cinco estrelinhas no ar.",
+              "Kori contou todas nas patas, uma por uma.",
+              "Kiri olhou para a ilha e respirou fundo.",
+              "Ainda não havia ponte até lá, só nuvens.",
+              "Naquela noite, as gatinhas aprenderam que toda porta aberta leva a outra."
+            ],
+            "it": [
+              "Oltre la vecchia porta, il cielo notturno era pieno di stelle.",
+              "Abram portò le sue gattine sul bordo del piccolo balcone.",
+              "Lontano, una piccola isola galleggiava sopra le nuvole.",
+              "Sull'isola c'era una porticina a forma di stella.",
+              "La porta stella aveva cinque punte scure.",
+              "Abram toccò la prima punta, ma rimase scura.",
+              "Il gatto maestro uscì e sorrise dolcemente.",
+              "Pip, il robot, disegnò cinque stelline nell'aria.",
+              "Kori le contò sulle zampe, una per una.",
+              "Kiri guardò l'isola e fece un respiro profondo.",
+              "Non c'era ancora un ponte, solo nuvole.",
+              "Quella notte, le gattine impararono che ogni porta aperta conduce a un'altra."
+            ],
+            "ru": [
+              "За старой дверью ночное небо было полно звёзд.",
+              "Абрам подвела котят к краю маленького балкона.",
+              "Вдалеке над облаками парил маленький остров.",
+              "На острове стояла крошечная дверь в форме звезды.",
+              "У звёздной двери было пять тёмных лучей.",
+              "Абрам коснулась первого луча, но он остался тёмным.",
+              "Кот-учитель вышел и мягко улыбнулся.",
+              "Робот Пип нарисовал в воздухе пять маленьких звёзд.",
+              "Кори пересчитала их на лапках, одну за другой.",
+              "Кири посмотрела на остров и глубоко вдохнула.",
+              "Моста туда ещё не было, только облака.",
+              "В ту ночь котята узнали, что каждая открытая дверь ведёт к следующей."
+            ],
+            "ar": [
+              "خلف الباب القديم كانت سماء الليل مليئة بالنجوم.",
+              "قادت أبرام صغيرتيها إلى حافة الشرفة الصغيرة.",
+              "في البعيد كانت جزيرة صغيرة تطفو فوق الغيوم.",
+              "وعلى الجزيرة باب صغير على شكل نجمة.",
+              "كان لباب النجمة خمسة رؤوس معتمة.",
+              "لمست أبرام الرأس الأول، لكنه بقي معتمًا.",
+              "خرج القط المعلّم وابتسم بلطف.",
+              "رسم الروبوت بيب خمس نجمات صغيرة في الهواء.",
+              "عدّتها كوري على كفّيها واحدة واحدة.",
+              "نظرت كيري إلى الجزيرة وأخذت نفسًا عميقًا.",
+              "لم يكن هناك جسر إليها بعد، فقط غيوم.",
+              "في تلك الليلة تعلّمت القطتان أن كل باب مفتوح يقود إلى باب آخر."
+            ],
+            "hi": [
+              "पुराने दरवाज़े के पार रात का आसमान तारों से भरा था।",
+              "अब्राम अपने बच्चों को छोटी बालकनी के किनारे ले गई।",
+              "दूर बादलों के ऊपर एक छोटा द्वीप तैर रहा था।",
+              "द्वीप पर तारे के आकार का एक नन्हा दरवाज़ा था।",
+              "तारा-दरवाज़े के पाँच अँधेरे कोने थे।",
+              "अब्राम ने पहला कोना छुआ, पर वह अँधेरा ही रहा।",
+              "शिक्षक बिल्ला बाहर आया और धीरे से मुस्कुराया।",
+              "रोबोट पिप ने हवा में पाँच छोटे तारे बनाए।",
+              "कोरी ने उन्हें अपने पंजों पर एक-एक करके गिना।",
+              "किरी ने द्वीप को देखा और गहरी साँस ली।",
+              "वहाँ तक अभी कोई पुल नहीं था, बस बादल थे।",
+              "उस रात बच्चों ने सीखा कि हर खुला दरवाज़ा एक और दरवाज़े तक ले जाता है।"
+            ],
+            "zh": [
+              "旧门的另一边，夜空里满是星星。",
+              "阿布拉姆带着小猫们走到小阳台的边上。",
+              "远处，一座小岛漂浮在云层之上。",
+              "岛上立着一扇小小的星形门。",
+              "星星门有五个暗着的角。",
+              "阿布拉姆碰了碰第一个角，它还是暗的。",
+              "猫老师走了出来，温柔地笑了。",
+              "机器人皮普在空中画了五颗小星星。",
+              "科里用爪子一颗一颗地数。",
+              "奇里望着小岛，深深吸了一口气。",
+              "那里还没有桥，只有云。",
+              "那一夜，小猫们明白了，每一扇打开的门都通向另一扇门。"
+            ],
+            "ja": [
+              "古い扉のむこうは、星でいっぱいの夜空でした。",
+              "アブラムは子猫たちを小さなバルコニーのはしへ連れていきました。",
+              "遠くに、小さな島が雲の上に浮かんでいました。",
+              "島には、星の形をした小さな扉が立っていました。",
+              "星の扉には、暗い角が五つありました。",
+              "アブラムが最初の角にふれましたが、暗いままでした。",
+              "先生猫が出てきて、やさしくほほえみました。",
+              "ロボットのピップは空中に小さな星を五つ描きました。",
+              "コリは前足でひとつずつ数えました。",
+              "キリは島を見つめて、深く息を吸いました。",
+              "そこへ行く橋はまだなく、雲があるだけでした。",
+              "その夜子猫たちは、開いた扉は次の扉へ続くのだと知りました。"
+            ],
+            "ko": [
+              "오래된 문 너머, 밤하늘에는 별이 가득했어요.",
+              "아브람은 아기 고양이들을 작은 발코니 끝으로 데려갔어요.",
+              "멀리 구름 위에 작은 섬이 떠 있었어요.",
+              "섬에는 별 모양의 작은 문이 서 있었어요.",
+              "별 문에는 어두운 꼭짓점이 다섯 개 있었어요.",
+              "아브람이 첫 번째 꼭짓점을 만졌지만 그대로 어두웠어요.",
+              "선생님 고양이가 나와서 부드럽게 웃었어요.",
+              "로봇 핍이 공중에 작은 별 다섯 개를 그렸어요.",
+              "코리는 발로 하나씩 세어 보았어요.",
+              "키리는 섬을 바라보며 숨을 깊이 들이쉬었어요.",
+              "아직 그곳으로 가는 다리는 없고 구름뿐이었어요.",
+              "그날 밤 아기 고양이들은 열린 문은 또 다른 문으로 이어진다는 걸 배웠어요."
+            ],
+            "id": [
+              "Di balik pintu tua, langit malam penuh bintang.",
+              "Abram membawa anak-anaknya ke tepi balkon kecil.",
+              "Di kejauhan, sebuah pulau kecil melayang di atas awan.",
+              "Di pulau itu berdiri pintu mungil berbentuk bintang.",
+              "Pintu bintang itu punya lima ujung yang gelap.",
+              "Abram menyentuh ujung pertama, tetapi tetap gelap.",
+              "Kucing guru keluar dan tersenyum lembut.",
+              "Pip si robot menggambar lima bintang kecil di udara.",
+              "Kori menghitungnya dengan cakarnya, satu per satu.",
+              "Kiri memandang pulau itu dan menarik napas dalam-dalam.",
+              "Belum ada jembatan ke sana, hanya awan.",
+              "Malam itu, anak-anak kucing belajar bahwa setiap pintu yang terbuka menuju pintu lain."
+            ],
+            "vi": [
+              "Bên kia cánh cửa cũ, bầu trời đêm đầy sao.",
+              "Abram dẫn các con ra mép ban công nhỏ.",
+              "Xa xa, một hòn đảo nhỏ lơ lửng trên mây.",
+              "Trên đảo có một cánh cửa tí hon hình ngôi sao.",
+              "Cửa sao có năm cánh còn tối.",
+              "Abram chạm vào cánh đầu tiên, nhưng nó vẫn tối.",
+              "Thầy mèo bước ra và mỉm cười dịu dàng.",
+              "Robot Pip vẽ năm ngôi sao nhỏ trong không trung.",
+              "Kori đếm từng ngôi sao bằng bàn chân.",
+              "Kiri nhìn hòn đảo và hít một hơi thật sâu.",
+              "Chưa có cây cầu nào đến đó, chỉ có mây.",
+              "Đêm đó, hai mèo con học được rằng mỗi cánh cửa mở ra lại dẫn tới một cánh cửa khác."
+            ],
+            "bn": [
+              "পুরোনো দরজার ওপারে রাতের আকাশ তারায় ভরা ছিল।",
+              "আব্রাম তার ছানাদের ছোট্ট বারান্দার ধারে নিয়ে গেল।",
+              "দূরে মেঘের উপরে একটা ছোট দ্বীপ ভাসছিল।",
+              "দ্বীপে তারার আকারের ছোট্ট একটা দরজা দাঁড়িয়ে ছিল।",
+              "তারা-দরজার পাঁচটা অন্ধকার কোণ ছিল।",
+              "আব্রাম প্রথম কোণ ছুঁল, কিন্তু সেটা অন্ধকারই রইল।",
+              "শিক্ষক বিড়াল বেরিয়ে এসে আলতো হাসল।",
+              "রোবট পিপ হাওয়ায় পাঁচটা ছোট তারা আঁকল।",
+              "কোরি থাবায় সেগুলো একটা একটা করে গুনল।",
+              "কিরি দ্বীপের দিকে তাকিয়ে গভীর শ্বাস নিল।",
+              "ওখানে যাওয়ার সেতু তখনও ছিল না, শুধু মেঘ।",
+              "সেই রাতে ছানারা শিখল, প্রতিটি খোলা দরজা আরেকটি দরজার দিকে নিয়ে যায়।"
+            ],
+            "ur": [
+              "پرانے دروازے کے پار رات کا آسمان ستاروں سے بھرا تھا۔",
+              "ابرام اپنے بچوں کو چھوٹی بالکونی کے کنارے لے گئی۔",
+              "دور بادلوں کے اوپر ایک چھوٹا سا جزیرہ تیر رہا تھا۔",
+              "جزیرے پر ستارے کی شکل کا ایک ننھا دروازہ تھا۔",
+              "ستارہ دروازے کے پانچ تاریک کونے تھے۔",
+              "ابرام نے پہلا کونا چھوا، مگر وہ تاریک ہی رہا۔",
+              "استاد بلا باہر آیا اور نرمی سے مسکرایا۔",
+              "روبوٹ پِپ نے ہوا میں پانچ چھوٹے ستارے بنائے۔",
+              "کوری نے انہیں اپنے پنجوں پر ایک ایک کر کے گنا۔",
+              "کیری نے جزیرے کو دیکھا اور گہری سانس لی۔",
+              "وہاں تک ابھی کوئی پل نہیں تھا، صرف بادل تھے۔",
+              "اس رات بچوں نے سیکھا کہ ہر کھلا دروازہ ایک اور دروازے تک لے جاتا ہے۔"
+            ],
+            "mr": [
+              "जुन्या दारापलीकडे रात्रीचे आकाश ताऱ्यांनी भरले होते.",
+              "अब्राम पिल्लांना छोट्या गच्चीच्या कडेला घेऊन गेली.",
+              "दूर ढगांच्या वर एक छोटे बेट तरंगत होते.",
+              "बेटावर ताऱ्याच्या आकाराचे इवलेसे दार उभे होते.",
+              "तारा-दाराला पाच अंधारी टोके होती.",
+              "अब्रामने पहिल्या टोकाला स्पर्श केला, पण ते अंधारेच राहिले.",
+              "शिक्षक बोका बाहेर आला आणि हळूच हसला.",
+              "रोबो पिपने हवेत पाच छोटे तारे काढले.",
+              "कोरीने ते आपल्या पंजांवर एक एक करून मोजले.",
+              "किरीने बेटाकडे पाहिले आणि खोल श्वास घेतला.",
+              "तिथे जायला अजून पूल नव्हता, फक्त ढग होते.",
+              "त्या रात्री पिल्लांना कळले की प्रत्येक उघडे दार दुसऱ्या दाराकडे नेते."
+            ],
+            "te": [
+              "పాత తలుపు అవతల రాత్రి ఆకాశం నక్షత్రాలతో నిండి ఉంది.",
+              "అబ్రామ్ తన పిల్లలను చిన్న బాల్కనీ అంచుకు తీసుకెళ్లింది.",
+              "దూరంగా మేఘాల పైన ఒక చిన్న ద్వీపం తేలుతోంది.",
+              "ఆ ద్వీపంపై నక్షత్రం ఆకారంలో ఒక చిన్న తలుపు ఉంది.",
+              "నక్షత్ర తలుపుకు ఐదు చీకటి కొనలు ఉన్నాయి.",
+              "అబ్రామ్ మొదటి కొనను తాకింది, కానీ అది చీకటిగానే ఉంది.",
+              "గురువు పిల్లి బయటకు వచ్చి మెల్లగా నవ్వింది.",
+              "రోబో పిప్ గాలిలో ఐదు చిన్న నక్షత్రాలు గీసింది.",
+              "కోరి వాటిని తన పంజాలపై ఒక్కొక్కటిగా లెక్కపెట్టింది.",
+              "కిరి ద్వీపాన్ని చూసి లోతుగా ఊపిరి పీల్చుకుంది.",
+              "అక్కడికి ఇంకా వంతెన లేదు, మేఘాలు మాత్రమే ఉన్నాయి.",
+              "ఆ రాత్రి పిల్లలు, తెరుచుకున్న ప్రతి తలుపు మరో తలుపుకు దారి తీస్తుందని నేర్చుకున్నాయి."
+            ],
+            "ta": [
+              "பழைய கதவுக்கு அப்பால் இரவு வானம் நட்சத்திரங்களால் நிறைந்திருந்தது.",
+              "அப்ராம் தன் குட்டிகளைச் சிறிய மாடத்தின் ஓரத்துக்கு அழைத்துச் சென்றாள்.",
+              "தொலைவில் மேகங்களுக்கு மேலே ஒரு சிறிய தீவு மிதந்தது.",
+              "அந்தத் தீவில் நட்சத்திர வடிவில் ஒரு சின்னக் கதவு நின்றது.",
+              "நட்சத்திரக் கதவுக்கு ஐந்து இருண்ட முனைகள் இருந்தன.",
+              "அப்ராம் முதல் முனையைத் தொட்டாள்; அது இருளாகவே இருந்தது.",
+              "ஆசிரியர் பூனை வெளியே வந்து மென்மையாகப் புன்னகைத்தது.",
+              "ரோபோ பிப் காற்றில் ஐந்து சிறிய நட்சத்திரங்களை வரைந்தது.",
+              "கோரி அவற்றைத் தன் பாதங்களில் ஒவ்வொன்றாக எண்ணினாள்.",
+              "கிரி தீவைப் பார்த்து ஆழமாக மூச்சு இழுத்தாள்.",
+              "அங்கே செல்ல இன்னும் பாலம் இல்லை; மேகங்கள் மட்டுமே.",
+              "அன்று இரவு குட்டிகள், திறக்கும் ஒவ்வொரு கதவும் இன்னொரு கதவுக்கு வழிநடத்தும் என்று கற்றன."
             ]
           }
         }

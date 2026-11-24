@@ -2519,7 +2519,7 @@
       "name": "The Cloud Cat School",
       "tr": "Yüzyıllar sonra, bulutların üstündeki cam şehirde bir kedi okulu: Abram'ın yavruları Kiri ve Kori ışık kürelerini mırıltıyla yakmayı öğreniyor, kimsenin açamadığı eski kapının sırrını arıyor. Anlatıcılı, 1 dakikalık bölümler.",
       "en": "Centuries from now, a cat school in a glass city above the clouds: Abram's kittens Kiri and Kori learn to light glowing orbs with a purr and search for the secret of an old door no one can open. Narrated one-minute episodes.",
-      "episodes": 7,
+      "episodes": 8,
       "loc": {
         "de": "In ferner Zukunft, eine Katzenschule in einer Glasstadt über den Wolken: Abrams Kätzchen Kiri und Kori lernen, Lichtkugeln mit einem Schnurren zu entzünden, und suchen das Geheimnis einer alten Tür, die niemand öffnen kann. Erzählte Ein-Minuten-Folgen.",
         "fr": "Dans un lointain futur, une école de chats dans une ville de verre au-dessus des nuages : Kiri et Kori, les chatons d'Abram, apprennent à allumer des sphères de lumière en ronronnant et cherchent le secret d'une vieille porte que personne ne peut ouvrir. Épisodes narrés d'une minute.",
@@ -4876,6 +4876,340 @@
               "இருவரும் சேர்ந்து மழையில் அமைதியான, உலர்ந்த வட்டத்தை உருவாக்கினர்.",
               "பிப் சுவிட்சைக் கண்டுபிடித்தது; பழைய கதவில் ஐந்தாவது பாதச்சுவடு ஒளிர்ந்தது.",
               "அன்று குட்டிகள், அமைதி ஒரு புயலையும் நிறுத்த முடியும் என்று கற்றன."
+            ]
+          }
+        },
+        "8": {
+          "cues": [
+            [
+              0.2,
+              7.08
+            ],
+            [
+              7.48,
+              13.16
+            ],
+            [
+              13.56,
+              18.28
+            ],
+            [
+              18.68,
+              26.48
+            ],
+            [
+              26.88,
+              31.6
+            ],
+            [
+              32.0,
+              37.92
+            ],
+            [
+              38.32,
+              47.0
+            ],
+            [
+              47.4,
+              54.36
+            ],
+            [
+              54.76,
+              60.76
+            ],
+            [
+              61.16,
+              67.16
+            ],
+            [
+              67.56,
+              72.28
+            ],
+            [
+              72.68,
+              79.76
+            ]
+          ],
+          "text": {
+            "en": [
+              "On the eighth day, one little orb had gone missing.",
+              "Without it, a corner of the dome stayed dark.",
+              "The teacher cat asked the kittens to find it before night.",
+              "Kori raced from tree to tree, looking everywhere at once.",
+              "She found leaves, a feather, and Pip's lost button, but no orb.",
+              "Kiri sat down, closed her eyes, and purred softly.",
+              "Far away, under a fern, a tiny light answered.",
+              "The little orb had been hiding, afraid of the dark.",
+              "Kori lay down beside it and purred gently too.",
+              "The orb rose slowly and floated back to its place.",
+              "The dark corner glowed again, and a sixth paw print lit up on the old door.",
+              "That day, the kittens learned that kindness finds what hurry cannot."
+            ],
+            "tr": [
+              "Sekizinci gün küçük bir küre kaybolmuştu.",
+              "O olmayınca kubbenin bir köşesi karanlık kaldı.",
+              "Öğretmen kedi yavrulardan onu gece olmadan bulmalarını istedi.",
+              "Kori ağaçtan ağaca koştu, her yere birden bakmaya çalıştı.",
+              "Yapraklar, bir tüy ve Pip'in kayıp düğmesini buldu; ama küre yoktu.",
+              "Kiri oturdu, gözlerini kapadı ve usulca mırladı.",
+              "Uzakta, bir eğrelti otunun altında minik bir ışık karşılık verdi.",
+              "Küçük küre karanlıktan korkmuş, saklanıyordu.",
+              "Kori onun yanına uzandı ve o da yumuşakça mırladı.",
+              "Küre yavaşça yükseldi ve süzülerek yerine döndü.",
+              "Karanlık köşe yeniden aydınlandı ve eski kapıda altıncı bir pati izi yandı.",
+              "O gün yavrular, acelenin bulamadığını şefkatin bulduğunu öğrendi."
+            ],
+            "de": [
+              "Am achten Tag war eine kleine Kugel verschwunden.",
+              "Ohne sie blieb eine Ecke der Kuppel dunkel.",
+              "Die Lehrerkatze bat die Kätzchen, sie vor der Nacht zu finden.",
+              "Kori raste von Baum zu Baum und suchte überall zugleich.",
+              "Sie fand Blätter, eine Feder und Pips verlorenen Knopf, aber keine Kugel.",
+              "Kiri setzte sich, schloss die Augen und schnurrte leise.",
+              "Weit weg, unter einem Farn, antwortete ein winziges Licht.",
+              "Die kleine Kugel hatte sich versteckt, aus Angst vor der Dunkelheit.",
+              "Kori legte sich neben sie und schnurrte ebenfalls sanft.",
+              "Die Kugel stieg langsam auf und schwebte an ihren Platz zurück.",
+              "Die dunkle Ecke leuchtete wieder, und an der alten Tür ging ein sechster Pfotenabdruck an.",
+              "An diesem Tag lernten die Kätzchen, dass Güte findet, was Eile nicht finden kann."
+            ],
+            "fr": [
+              "Le huitième jour, une petite sphère avait disparu.",
+              "Sans elle, un coin du dôme restait sombre.",
+              "Le chat professeur demanda aux chatons de la retrouver avant la nuit.",
+              "Kori courut d'arbre en arbre, cherchant partout à la fois.",
+              "Elle trouva des feuilles, une plume et le bouton perdu de Pip, mais pas de sphère.",
+              "Kiri s'assit, ferma les yeux et ronronna doucement.",
+              "Au loin, sous une fougère, une toute petite lumière répondit.",
+              "La petite sphère se cachait, elle avait peur du noir.",
+              "Kori s'allongea près d'elle et ronronna doucement aussi.",
+              "La sphère s'éleva lentement et flotta jusqu'à sa place.",
+              "Le coin sombre brilla de nouveau, et une sixième empreinte s'alluma sur la vieille porte.",
+              "Ce jour-là, les chatons apprirent que la gentillesse trouve ce que la hâte ne trouve pas."
+            ],
+            "es": [
+              "El octavo día, una pequeña esfera había desaparecido.",
+              "Sin ella, un rincón de la cúpula quedó a oscuras.",
+              "El gato maestro pidió a las gatitas que la encontraran antes de la noche.",
+              "Kori corrió de árbol en árbol, mirando a todas partes a la vez.",
+              "Encontró hojas, una pluma y el botón perdido de Pip, pero ninguna esfera.",
+              "Kiri se sentó, cerró los ojos y ronroneó bajito.",
+              "A lo lejos, bajo un helecho, una lucecita respondió.",
+              "La pequeña esfera estaba escondida, con miedo a la oscuridad.",
+              "Kori se tumbó a su lado y también ronroneó con suavidad.",
+              "La esfera se elevó despacio y flotó de vuelta a su lugar.",
+              "El rincón oscuro volvió a brillar, y una sexta huella se encendió en la vieja puerta.",
+              "Ese día, las gatitas aprendieron que la bondad encuentra lo que la prisa no puede."
+            ],
+            "pt": [
+              "No oitavo dia, uma pequena esfera tinha sumido.",
+              "Sem ela, um canto da cúpula ficou escuro.",
+              "O gato professor pediu às gatinhas que a encontrassem antes da noite.",
+              "Kori correu de árvore em árvore, olhando para todo lado ao mesmo tempo.",
+              "Ela achou folhas, uma pena e o botão perdido de Pip, mas nenhuma esfera.",
+              "Kiri sentou-se, fechou os olhos e ronronou baixinho.",
+              "Lá longe, debaixo de uma samambaia, uma luzinha respondeu.",
+              "A pequena esfera estava escondida, com medo do escuro.",
+              "Kori deitou-se ao lado dela e também ronronou com suavidade.",
+              "A esfera subiu devagar e flutuou de volta ao seu lugar.",
+              "O canto escuro voltou a brilhar, e uma sexta pegada se acendeu na velha porta.",
+              "Naquele dia, as gatinhas aprenderam que a bondade encontra o que a pressa não consegue."
+            ],
+            "it": [
+              "L'ottavo giorno, una piccola sfera era scomparsa.",
+              "Senza di lei, un angolo della cupola restava buio.",
+              "Il gatto maestro chiese alle gattine di trovarla prima di notte.",
+              "Kori corse di albero in albero, guardando ovunque insieme.",
+              "Trovò foglie, una piuma e il bottone perduto di Pip, ma nessuna sfera.",
+              "Kiri si sedette, chiuse gli occhi e fece le fusa piano.",
+              "Lontano, sotto una felce, una lucina rispose.",
+              "La piccola sfera si era nascosta, aveva paura del buio.",
+              "Kori si sdraiò accanto a lei e fece anche lei le fusa dolcemente.",
+              "La sfera si alzò lentamente e tornò fluttuando al suo posto.",
+              "L'angolo buio tornò a brillare, e sulla vecchia porta si accese una sesta impronta.",
+              "Quel giorno, le gattine impararono che la gentilezza trova ciò che la fretta non trova."
+            ],
+            "ru": [
+              "На восьмой день один маленький шар пропал.",
+              "Без него один уголок купола оставался тёмным.",
+              "Кот-учитель попросил котят найти его до ночи.",
+              "Кори носилась от дерева к дереву и искала сразу везде.",
+              "Она нашла листья, пёрышко и потерянную пуговицу Пипа, но не шар.",
+              "Кири села, закрыла глаза и тихо замурлыкала.",
+              "Вдалеке, под папоротником, отозвался крошечный огонёк.",
+              "Маленький шар прятался: он боялся темноты.",
+              "Кори легла рядом с ним и тоже нежно замурлыкала.",
+              "Шар медленно поднялся и поплыл на своё место.",
+              "Тёмный уголок снова засветился, и на старой двери загорелся шестой отпечаток лапы.",
+              "В тот день котята узнали, что доброта находит то, чего не найти в спешке."
+            ],
+            "ar": [
+              "في اليوم الثامن اختفت كرة صغيرة واحدة.",
+              "من دونها بقي ركن من القبة مظلمًا.",
+              "طلب القط المعلّم من القطتين أن تجداها قبل الليل.",
+              "ركضت كوري من شجرة إلى شجرة تبحث في كل مكان دفعة واحدة.",
+              "وجدت أوراقًا وريشة وزر بيب المفقود، لكنها لم تجد الكرة.",
+              "جلست كيري وأغمضت عينيها وخرخرت بهدوء.",
+              "بعيدًا، تحت نبتة سرخس، أجابها ضوء صغير.",
+              "كانت الكرة الصغيرة مختبئة، خائفة من الظلام.",
+              "استلقت كوري بجانبها وخرخرت بلطف هي أيضًا.",
+              "ارتفعت الكرة ببطء وطافت عائدة إلى مكانها.",
+              "أضاء الركن المظلم من جديد، وأضاء أثر كفّ سادس على الباب القديم.",
+              "في ذلك اليوم تعلّمت القطتان أن اللطف يجد ما لا تجده العجلة."
+            ],
+            "hi": [
+              "आठवें दिन एक नन्हा गोला गुम हो गया था।",
+              "उसके बिना गुंबद का एक कोना अँधेरा रह गया।",
+              "शिक्षक बिल्ले ने बच्चों से कहा कि रात होने से पहले उसे ढूँढ लाएँ।",
+              "कोरी पेड़-पेड़ दौड़ी, हर जगह एक साथ देखती हुई।",
+              "उसे पत्ते, एक पंख और पिप का खोया बटन मिला, पर गोला नहीं।",
+              "किरी बैठ गई, आँखें बंद कीं और धीरे से घुरघुराई।",
+              "दूर, एक फ़र्न के नीचे, एक नन्ही रोशनी ने जवाब दिया।",
+              "नन्हा गोला अँधेरे से डरकर छिपा हुआ था।",
+              "कोरी उसके पास लेट गई और उसने भी कोमलता से घुरघुराया।",
+              "गोला धीरे-धीरे उठा और तैरता हुआ अपनी जगह लौट गया।",
+              "अँधेरा कोना फिर जगमगा उठा, और पुराने दरवाज़े पर पंजे का छठा निशान जल उठा।",
+              "उस दिन बच्चों ने सीखा कि जो जल्दबाज़ी नहीं ढूँढ पाती, उसे दयालुता ढूँढ लेती है।"
+            ],
+            "zh": [
+              "第八天，有一颗小光球不见了。",
+              "没有它，穹顶的一个角落一直暗着。",
+              "猫老师请小猫们在天黑前把它找回来。",
+              "科里从一棵树跑到另一棵树，想一下子把所有地方都看遍。",
+              "她找到了树叶、一根羽毛和皮普丢的纽扣，就是没有光球。",
+              "奇里坐下来，闭上眼睛，轻轻地打呼噜。",
+              "远处，一株蕨草下面，有一点微光回应了她。",
+              "原来小光球怕黑，躲了起来。",
+              "科里在它身边躺下，也轻轻地打起呼噜。",
+              "光球慢慢升起，飘回了自己的位置。",
+              "黑暗的角落又亮了起来，旧门上第六个爪印也亮了。",
+              "那一天，小猫们明白了，匆忙找不到的，善意能找到。"
+            ],
+            "ja": [
+              "八日目、小さな光の玉がひとつ、いなくなっていました。",
+              "その玉がないと、ドームのすみっこが暗いままです。",
+              "先生猫は子猫たちに、夜になる前に見つけてほしいと頼みました。",
+              "コリは木から木へ走り回り、いっぺんにあちこち探しました。",
+              "葉っぱと羽根とピップのなくしたボタンは見つかりましたが、玉はありません。",
+              "キリは座って目を閉じ、そっとゴロゴロ鳴らしました。",
+              "遠く、シダの下で、小さな光がこたえました。",
+              "小さな玉は暗いのがこわくて、かくれていたのです。",
+              "コリはそのとなりに寝そべって、自分もやさしく鳴らしました。",
+              "玉はゆっくり浮かび上がり、もとの場所へ帰っていきました。",
+              "暗かったすみがまた光り、古い扉に六つめの肉球のあとがともりました。",
+              "その日子猫たちは、急いでも見つからないものを、やさしさが見つけると知りました。"
+            ],
+            "ko": [
+              "여덟째 날, 작은 빛 구슬 하나가 사라졌어요.",
+              "그 구슬이 없으니 돔 한쪽 구석이 어두웠어요.",
+              "선생님 고양이는 아기 고양이들에게 밤이 되기 전에 찾아 달라고 했어요.",
+              "코리는 나무에서 나무로 뛰어다니며 한꺼번에 여기저기 찾았어요.",
+              "나뭇잎과 깃털, 핍이 잃어버린 단추는 찾았지만 구슬은 없었어요.",
+              "키리는 앉아서 눈을 감고 조용히 가르랑거렸어요.",
+              "멀리 고사리 아래에서 작은 불빛이 대답했어요.",
+              "작은 구슬은 어둠이 무서워 숨어 있었던 거예요.",
+              "코리는 그 옆에 누워 자기도 부드럽게 가르랑거렸어요.",
+              "구슬은 천천히 떠올라 제자리로 돌아갔어요.",
+              "어둡던 구석이 다시 빛났고, 오래된 문에 여섯 번째 발자국이 켜졌어요.",
+              "그날 아기 고양이들은 서두름이 못 찾는 것을 다정함이 찾는다는 걸 배웠어요."
+            ],
+            "id": [
+              "Pada hari kedelapan, satu bola kecil menghilang.",
+              "Tanpanya, satu sudut kubah tetap gelap.",
+              "Kucing guru meminta anak-anak kucing menemukannya sebelum malam.",
+              "Kori berlari dari pohon ke pohon, mencari ke mana-mana sekaligus.",
+              "Ia menemukan daun, sehelai bulu, dan kancing Pip yang hilang, tetapi bukan bola itu.",
+              "Kiri duduk, memejamkan mata, dan mendengkur pelan.",
+              "Jauh di sana, di bawah pakis, secercah cahaya kecil menjawab.",
+              "Bola kecil itu bersembunyi karena takut gelap.",
+              "Kori berbaring di sampingnya dan ikut mendengkur lembut.",
+              "Bola itu naik perlahan dan melayang kembali ke tempatnya.",
+              "Sudut yang gelap bersinar lagi, dan jejak kaki keenam menyala di pintu tua.",
+              "Hari itu, anak-anak kucing belajar bahwa kebaikan menemukan apa yang tak ditemukan ketergesaan."
+            ],
+            "vi": [
+              "Ngày thứ tám, một quả cầu nhỏ đã biến mất.",
+              "Thiếu nó, một góc mái vòm vẫn tối om.",
+              "Thầy mèo nhờ hai mèo con tìm nó trước khi trời tối.",
+              "Kori chạy từ cây này sang cây khác, nhìn khắp nơi cùng một lúc.",
+              "Cô bé tìm thấy lá, một chiếc lông vũ và chiếc cúc bị mất của Pip, nhưng không thấy quả cầu.",
+              "Kiri ngồi xuống, nhắm mắt lại và gừ gừ khe khẽ.",
+              "Xa xa, dưới một bụi dương xỉ, một đốm sáng nhỏ đáp lại.",
+              "Quả cầu nhỏ đang trốn vì sợ bóng tối.",
+              "Kori nằm xuống bên cạnh và cũng gừ gừ dịu dàng.",
+              "Quả cầu từ từ bay lên và trôi về chỗ của mình.",
+              "Góc tối lại sáng lên, và dấu chân thứ sáu sáng trên cánh cửa cũ.",
+              "Hôm đó, hai mèo con học được rằng lòng tốt tìm thấy điều mà vội vàng không thể."
+            ],
+            "bn": [
+              "অষ্টম দিনে একটি ছোট্ট গোলক হারিয়ে গিয়েছিল।",
+              "সেটি ছাড়া গম্বুজের এক কোণ অন্ধকার রয়ে গেল।",
+              "শিক্ষক বিড়াল ছানাদের বলল রাত নামার আগে সেটি খুঁজে আনতে।",
+              "কোরি গাছ থেকে গাছে ছুটল, একসঙ্গে সব জায়গায় খুঁজতে লাগল।",
+              "সে পাতা, একটা পালক আর পিপের হারানো বোতাম পেল, কিন্তু গোলক পেল না।",
+              "কিরি বসে পড়ল, চোখ বন্ধ করল আর আস্তে গরগর করল।",
+              "দূরে, এক ফার্নের নিচে, ছোট্ট একটা আলো সাড়া দিল।",
+              "ছোট্ট গোলকটা অন্ধকারের ভয়ে লুকিয়ে ছিল।",
+              "কোরি তার পাশে শুয়ে পড়ল আর সেও নরম করে গরগর করল।",
+              "গোলকটা ধীরে ধীরে উঠে ভেসে তার জায়গায় ফিরে গেল।",
+              "অন্ধকার কোণ আবার জ্বলে উঠল, আর পুরোনো দরজায় ষষ্ঠ থাবার ছাপ জ্বলে উঠল।",
+              "সেদিন ছানারা শিখল, তাড়াহুড়ো যা পায় না, মমতা তা খুঁজে পায়।"
+            ],
+            "ur": [
+              "آٹھویں دن ایک ننھا گولا گم ہو گیا تھا۔",
+              "اس کے بغیر گنبد کا ایک کونا اندھیرا رہ گیا۔",
+              "استاد بلے نے بچوں سے کہا کہ رات ہونے سے پہلے اسے ڈھونڈ لائیں۔",
+              "کوری درخت درخت دوڑی، ہر جگہ ایک ساتھ دیکھتی ہوئی۔",
+              "اسے پتے، ایک پر اور پِپ کا کھویا ہوا بٹن ملا، مگر گولا نہ ملا۔",
+              "کیری بیٹھ گئی، آنکھیں بند کیں اور آہستہ سے خرخرائی۔",
+              "دور، ایک فرن کے نیچے، ایک ننھی روشنی نے جواب دیا۔",
+              "ننھا گولا اندھیرے کے ڈر سے چھپا ہوا تھا۔",
+              "کوری اس کے پاس لیٹ گئی اور اس نے بھی نرمی سے خرخرایا۔",
+              "گولا آہستہ آہستہ اٹھا اور تیرتا ہوا اپنی جگہ لوٹ گیا۔",
+              "اندھیرا کونا پھر جگمگا اٹھا، اور پرانے دروازے پر پنجے کا چھٹا نشان روشن ہو گیا۔",
+              "اس دن بچوں نے سیکھا کہ جو جلدبازی نہیں ڈھونڈ پاتی، اسے مہربانی ڈھونڈ لیتی ہے۔"
+            ],
+            "mr": [
+              "आठव्या दिवशी एक छोटा गोळा हरवला होता.",
+              "त्याच्याशिवाय घुमटाचा एक कोपरा अंधारात राहिला.",
+              "शिक्षक बोक्याने पिल्लांना रात्र होण्याआधी तो शोधायला सांगितले.",
+              "कोरी झाडावरून झाडाकडे धावली, एकाच वेळी सगळीकडे शोधत.",
+              "तिला पाने, एक पीस आणि पिपचे हरवलेले बटण सापडले, पण गोळा नाही.",
+              "किरी खाली बसली, डोळे मिटले आणि हळूच गुरगुरली.",
+              "दूर, एका नेच्याखाली, एका चिमुकल्या प्रकाशाने उत्तर दिले.",
+              "छोटा गोळा अंधाराला घाबरून लपून बसला होता.",
+              "कोरी त्याच्या शेजारी आडवी झाली आणि तिनेही हळुवार गुरगुर केली.",
+              "गोळा हळूहळू वर उठला आणि तरंगत आपल्या जागी परतला.",
+              "अंधारा कोपरा पुन्हा उजळला आणि जुन्या दारावर पंजाचा सहावा ठसा उजळला.",
+              "त्या दिवशी पिल्लांना कळले की घाईला जे सापडत नाही ते मायेला सापडते."
+            ],
+            "te": [
+              "ఎనిమిదవ రోజు ఒక చిన్న గోళం కనిపించకుండా పోయింది.",
+              "అది లేక గోపురంలో ఒక మూల చీకటిగా ఉండిపోయింది.",
+              "రాత్రి కాకముందే దాన్ని వెతికి తేవాలని గురువు పిల్లి పిల్లలను అడిగింది.",
+              "కోరి చెట్టు నుంచి చెట్టుకు పరుగెత్తుతూ ఒకేసారి అన్ని చోట్లా వెతికింది.",
+              "ఆమెకు ఆకులు, ఒక ఈక, పిప్ పోగొట్టుకున్న గుండీ దొరికాయి, కానీ గోళం దొరకలేదు.",
+              "కిరి కూర్చుని, కళ్లు మూసుకుని, మెల్లగా గురగురలాడింది.",
+              "దూరంగా, ఒక ఫెర్న్ మొక్క కింద, ఒక చిన్న వెలుగు బదులిచ్చింది.",
+              "చిన్న గోళం చీకటికి భయపడి దాక్కుంది.",
+              "కోరి దాని పక్కన పడుకుని తానూ మృదువుగా గురగురలాడింది.",
+              "గోళం నెమ్మదిగా పైకి లేచి తేలుతూ తన చోటుకు తిరిగి వెళ్లింది.",
+              "చీకటి మూల మళ్లీ వెలిగింది, పాత తలుపుపై ఆరవ పంజా ముద్ర వెలిగింది.",
+              "ఆ రోజు పిల్లలు, తొందర కనుగొనలేనిదాన్ని దయ కనుగొంటుందని నేర్చుకున్నాయి."
+            ],
+            "ta": [
+              "எட்டாம் நாள், ஒரு சிறிய கோளம் காணாமல் போயிருந்தது.",
+              "அது இல்லாமல் குவிமாடத்தின் ஒரு மூலை இருளாகவே இருந்தது.",
+              "இரவுக்குள் அதைக் கண்டுபிடிக்கும்படி ஆசிரியர் பூனை குட்டிகளிடம் கேட்டது.",
+              "கோரி மரத்துக்கு மரம் ஓடி, ஒரே நேரத்தில் எல்லா இடங்களிலும் தேடினாள்.",
+              "அவளுக்கு இலைகளும், ஒரு இறகும், பிப்பின் தொலைந்த பொத்தானும் கிடைத்தன; கோளம் கிடைக்கவில்லை.",
+              "கிரி அமர்ந்து, கண்களை மூடி, மென்மையாக உறுமினாள்.",
+              "தொலைவில், ஒரு பெரணிச் செடியின் கீழ், சிறிய ஒளி ஒன்று பதிலளித்தது.",
+              "சிறிய கோளம் இருளுக்குப் பயந்து ஒளிந்திருந்தது.",
+              "கோரி அதன் அருகில் படுத்து, தானும் மென்மையாக உறுமினாள்.",
+              "கோளம் மெதுவாக எழுந்து மிதந்து தன் இடத்துக்குத் திரும்பியது.",
+              "இருண்ட மூலை மீண்டும் ஒளிர்ந்தது; பழைய கதவில் ஆறாவது பாதச்சுவடு ஒளிர்ந்தது.",
+              "அன்று குட்டிகள், அவசரம் கண்டுபிடிக்க முடியாததை அன்பு கண்டுபிடிக்கும் என்று கற்றன."
             ]
           }
         }

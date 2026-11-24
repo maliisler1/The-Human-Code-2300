@@ -2519,7 +2519,7 @@
       "name": "The Cloud Cat School",
       "tr": "Yüzyıllar sonra, bulutların üstündeki cam şehirde bir kedi okulu: Abram'ın yavruları Kiri ve Kori ışık kürelerini mırıltıyla yakmayı öğreniyor, kimsenin açamadığı eski kapının sırrını arıyor. Anlatıcılı, 1 dakikalık bölümler.",
       "en": "Centuries from now, a cat school in a glass city above the clouds: Abram's kittens Kiri and Kori learn to light glowing orbs with a purr and search for the secret of an old door no one can open. Narrated one-minute episodes.",
-      "episodes": 1,
+      "episodes": 2,
       "loc": {
         "de": "In ferner Zukunft, eine Katzenschule in einer Glasstadt über den Wolken: Abrams Kätzchen Kiri und Kori lernen, Lichtkugeln mit einem Schnurren zu entzünden, und suchen das Geheimnis einer alten Tür, die niemand öffnen kann. Erzählte Ein-Minuten-Folgen.",
         "fr": "Dans un lointain futur, une école de chats dans une ville de verre au-dessus des nuages : Kiri et Kori, les chatons d'Abram, apprennent à allumer des sphères de lumière en ronronnant et cherchent le secret d'une vieille porte que personne ne peut ouvrir. Épisodes narrés d'une minute.",
@@ -2872,6 +2872,340 @@
               "ஆசிரியர் பூனை புன்னகைத்துவிட்டு நடந்து சென்றது.",
               "அப்ராம் விடைபெற தன் குட்டிகளின் மூக்கோடு மூக்கைத் தொட்டாள்.",
               "அன்று கிரியும் கோரியும் இந்தப் பள்ளி இரகசியங்கள் நிறைந்தது என்று அறிந்தனர்."
+            ]
+          }
+        },
+        "2": {
+          "cues": [
+            [
+              0.2,
+              4.96
+            ],
+            [
+              5.36,
+              10.08
+            ],
+            [
+              10.48,
+              15.2
+            ],
+            [
+              15.6,
+              20.32
+            ],
+            [
+              20.72,
+              25.44
+            ],
+            [
+              25.84,
+              30.56
+            ],
+            [
+              30.96,
+              35.68
+            ],
+            [
+              36.08,
+              40.8
+            ],
+            [
+              41.2,
+              45.92
+            ],
+            [
+              46.32,
+              51.04
+            ],
+            [
+              51.44,
+              56.16
+            ],
+            [
+              56.56,
+              61.28
+            ]
+          ],
+          "text": {
+            "en": [
+              "On the second day, the lesson was about purring.",
+              "The teacher cat sat under the great tree and began to purr.",
+              "One by one, the dark orbs around him lit up with gold.",
+              "Pip the robot blinked happily and floated in a circle.",
+              "Kori purred as loudly as she could.",
+              "Her orb only flickered and went dark again.",
+              "Kiri purred very softly, almost too soft to hear.",
+              "Her orb glowed warm and bright like a little sun.",
+              "Kori lay down, closed her eyes, and purred gently.",
+              "Slowly, her orb began to shine too.",
+              "Far away, the old door hummed for a moment, then fell silent.",
+              "That day, the kittens learned that a gentle purr carries the most light."
+            ],
+            "tr": [
+              "İkinci gün ders mırıltı üzerineydi.",
+              "Öğretmen kedi büyük ağacın altına oturdu ve mırlamaya başladı.",
+              "Çevresindeki karanlık küreler birer birer altın rengi yandı.",
+              "Robot Pip sevinçle göz kırptı ve bir daire çizerek süzüldü.",
+              "Kori var gücüyle mırladı.",
+              "Küresi yalnızca titredi ve yine karardı.",
+              "Kiri çok yumuşak, neredeyse duyulmayacak kadar hafif mırladı.",
+              "Küresi küçük bir güneş gibi sıcak ve parlak ışıdı.",
+              "Kori uzandı, gözlerini kapadı ve usulca mırladı.",
+              "Onun küresi de yavaş yavaş parlamaya başladı.",
+              "Uzakta, eski kapı bir an uğuldadı, sonra sustu.",
+              "O gün yavrular, en çok ışığı yumuşak mırıltının taşıdığını öğrendi."
+            ],
+            "de": [
+              "Am zweiten Tag ging es im Unterricht ums Schnurren.",
+              "Die Lehrerkatze setzte sich unter den großen Baum und begann zu schnurren.",
+              "Eine nach der anderen leuchteten die dunklen Kugeln um sie golden auf.",
+              "Pip, der Roboter, blinzelte fröhlich und schwebte im Kreis.",
+              "Kori schnurrte, so laut sie konnte.",
+              "Ihre Kugel flackerte nur und wurde wieder dunkel.",
+              "Kiri schnurrte ganz leise, fast zu leise, um es zu hören.",
+              "Ihre Kugel leuchtete warm und hell wie eine kleine Sonne.",
+              "Kori legte sich hin, schloss die Augen und schnurrte sanft.",
+              "Langsam begann auch ihre Kugel zu leuchten.",
+              "Weit weg summte die alte Tür einen Moment und verstummte dann.",
+              "An diesem Tag lernten die Kätzchen, dass ein sanftes Schnurren das meiste Licht trägt."
+            ],
+            "fr": [
+              "Le deuxième jour, la leçon portait sur le ronronnement.",
+              "Le chat professeur s'assit sous le grand arbre et se mit à ronronner.",
+              "Une à une, les sphères sombres autour de lui s'allumèrent en or.",
+              "Pip le robot cligna joyeusement et flotta en cercle.",
+              "Kori ronronna aussi fort qu'elle le pouvait.",
+              "Sa sphère vacilla seulement, puis redevint sombre.",
+              "Kiri ronronna tout doucement, presque trop bas pour l'entendre.",
+              "Sa sphère brilla, chaude et claire comme un petit soleil.",
+              "Kori s'allongea, ferma les yeux et ronronna doucement.",
+              "Lentement, sa sphère se mit à briller aussi.",
+              "Au loin, la vieille porte bourdonna un instant, puis se tut.",
+              "Ce jour-là, les chatons apprirent qu'un doux ronronnement porte le plus de lumière."
+            ],
+            "es": [
+              "El segundo día, la lección trató sobre el ronroneo.",
+              "El gato maestro se sentó bajo el gran árbol y empezó a ronronear.",
+              "Una a una, las esferas oscuras a su alrededor se encendieron en dorado.",
+              "Pip, el robot, parpadeó feliz y flotó en círculo.",
+              "Kori ronroneó tan fuerte como pudo.",
+              "Su esfera solo parpadeó y volvió a apagarse.",
+              "Kiri ronroneó muy bajito, casi sin que se oyera.",
+              "Su esfera brilló cálida y luminosa como un pequeño sol.",
+              "Kori se tumbó, cerró los ojos y ronroneó con suavidad.",
+              "Poco a poco, su esfera también empezó a brillar.",
+              "A lo lejos, la vieja puerta zumbó un momento y luego calló.",
+              "Ese día, las gatitas aprendieron que un ronroneo suave lleva más luz."
+            ],
+            "pt": [
+              "No segundo dia, a aula foi sobre ronronar.",
+              "O gato professor sentou-se sob a grande árvore e começou a ronronar.",
+              "Uma a uma, as esferas escuras ao redor dele se acenderam em dourado.",
+              "Pip, o robô, piscou feliz e flutuou em círculo.",
+              "Kori ronronou o mais alto que conseguiu.",
+              "Sua esfera apenas piscou e ficou escura de novo.",
+              "Kiri ronronou bem baixinho, quase sem dar para ouvir.",
+              "Sua esfera brilhou quente e clara como um pequeno sol.",
+              "Kori deitou-se, fechou os olhos e ronronou com suavidade.",
+              "Devagar, a esfera dela também começou a brilhar.",
+              "Ao longe, a velha porta zumbiu por um instante e depois silenciou.",
+              "Naquele dia, as gatinhas aprenderam que um ronronar suave carrega mais luz."
+            ],
+            "it": [
+              "Il secondo giorno, la lezione era sulle fusa.",
+              "Il gatto maestro si sedette sotto il grande albero e cominciò a fare le fusa.",
+              "Una a una, le sfere scure intorno a lui si accesero d'oro.",
+              "Pip, il robot, ammiccò felice e fluttuò in cerchio.",
+              "Kori fece le fusa più forte che poteva.",
+              "La sua sfera tremolò soltanto e tornò buia.",
+              "Kiri fece le fusa pianissimo, quasi troppo piano per sentirle.",
+              "La sua sfera brillò calda e luminosa come un piccolo sole.",
+              "Kori si sdraiò, chiuse gli occhi e fece le fusa dolcemente.",
+              "Piano piano, anche la sua sfera cominciò a brillare.",
+              "Lontano, la vecchia porta ronzò per un attimo, poi tacque.",
+              "Quel giorno, le gattine impararono che le fusa gentili portano più luce."
+            ],
+            "ru": [
+              "На второй день урок был о мурлыканье.",
+              "Кот-учитель сел под большим деревом и замурлыкал.",
+              "Один за другим тёмные шары вокруг него загорались золотом.",
+              "Робот Пип радостно моргнул и поплыл по кругу.",
+              "Кори замурлыкала так громко, как только могла.",
+              "Её шар лишь мигнул и снова потемнел.",
+              "Кири мурлыкала очень тихо, почти неслышно.",
+              "Её шар засиял тёплым ярким светом, как маленькое солнце.",
+              "Кори легла, закрыла глаза и тихонько замурлыкала.",
+              "Понемногу её шар тоже начал светиться.",
+              "Вдалеке старая дверь на миг загудела и затихла.",
+              "В тот день котята узнали, что нежное мурлыканье несёт больше всего света."
+            ],
+            "ar": [
+              "في اليوم الثاني كان الدرس عن الخرخرة.",
+              "جلس القط المعلّم تحت الشجرة الكبيرة وبدأ يخرخر.",
+              "واحدة تلو الأخرى، أضاءت الكرات المعتمة من حوله بلون الذهب.",
+              "رمش الروبوت بيب بسعادة وطاف في دائرة.",
+              "خرخرت كوري بأعلى ما تستطيع.",
+              "ومضت كرتها فقط ثم أظلمت من جديد.",
+              "خرخرت كيري بهدوء شديد، يكاد لا يُسمع.",
+              "توهجت كرتها دافئة ومشرقة كشمس صغيرة.",
+              "استلقت كوري وأغمضت عينيها وخرخرت بلطف.",
+              "ببطء بدأت كرتها تضيء هي أيضًا.",
+              "في البعيد، همهم الباب القديم لحظة ثم سكت.",
+              "في ذلك اليوم تعلّمت القطتان أن الخرخرة اللطيفة تحمل أكثر النور."
+            ],
+            "hi": [
+              "दूसरे दिन का पाठ घुरघुराने के बारे में था।",
+              "शिक्षक बिल्ला बड़े पेड़ के नीचे बैठा और घुरघुराने लगा।",
+              "एक-एक करके उसके आसपास के अँधेरे गोले सुनहरे चमक उठे।",
+              "रोबोट पिप ने खुशी से पलक झपकाई और गोल-गोल तैरने लगा।",
+              "कोरी ने जितना ज़ोर से हो सका, घुरघुराया।",
+              "उसका गोला बस टिमटिमाया और फिर बुझ गया।",
+              "किरी ने बहुत धीमे घुरघुराया, इतना धीमे कि सुनाई भी मुश्किल से दे।",
+              "उसका गोला नन्हे सूरज की तरह गर्म और चमकीला हो उठा।",
+              "कोरी लेट गई, आँखें बंद कीं और धीरे से घुरघुराई।",
+              "धीरे-धीरे उसका गोला भी चमकने लगा।",
+              "दूर, पुराना दरवाज़ा एक पल गुनगुनाया, फिर शांत हो गया।",
+              "उस दिन बच्चों ने सीखा कि कोमल घुरघुराहट में सबसे ज़्यादा रोशनी होती है।"
+            ],
+            "zh": [
+              "第二天，课程是关于呼噜声的。",
+              "猫老师坐在大树下，开始打呼噜。",
+              "他周围暗着的光球一个接一个亮成了金色。",
+              "机器人皮普开心地眨眨眼，绕着圈飘了起来。",
+              "科里用最大的声音打呼噜。",
+              "她的光球只是闪了一下，又暗了下去。",
+              "奇里轻轻地打呼噜，轻得几乎听不见。",
+              "她的光球像小太阳一样温暖明亮。",
+              "科里躺下来，闭上眼睛，轻轻地打呼噜。",
+              "慢慢地，她的光球也开始发光了。",
+              "远处，那扇旧门嗡嗡响了一会儿，又安静了。",
+              "那一天，小猫们明白了，温柔的呼噜声带来最多的光。"
+            ],
+            "ja": [
+              "二日目の授業は、ゴロゴロと喉を鳴らすことでした。",
+              "先生猫は大きな木の下に座り、ゴロゴロと鳴らしはじめました。",
+              "まわりの暗い玉が、ひとつずつ金色にともりました。",
+              "ロボットのピップはうれしそうにまばたきして、くるりと輪をえがきました。",
+              "コリは力いっぱい大きくゴロゴロ鳴らしました。",
+              "コリの玉はちらっと光っただけで、また暗くなりました。",
+              "キリは、聞こえないくらいそっとゴロゴロ鳴らしました。",
+              "キリの玉は、小さな太陽のようにあたたかく明るく光りました。",
+              "コリは横になり、目を閉じて、やさしく鳴らしました。",
+              "ゆっくりと、コリの玉も光りはじめました。",
+              "遠くで、古い扉が一瞬うなり、また静かになりました。",
+              "その日子猫たちは、やさしいゴロゴロがいちばん多くの光を運ぶと知りました。"
+            ],
+            "ko": [
+              "둘째 날 수업은 가르랑거리기였어요.",
+              "선생님 고양이는 큰 나무 아래 앉아 가르랑거리기 시작했어요.",
+              "주변의 어두운 구슬들이 하나씩 금빛으로 켜졌어요.",
+              "로봇 핍은 기쁘게 눈을 깜박이며 둥글게 떠다녔어요.",
+              "코리는 있는 힘껏 크게 가르랑거렸어요.",
+              "코리의 구슬은 잠깐 깜박이다 다시 어두워졌어요.",
+              "키리는 들릴 듯 말 듯 아주 작게 가르랑거렸어요.",
+              "키리의 구슬은 작은 해처럼 따뜻하고 밝게 빛났어요.",
+              "코리는 누워서 눈을 감고 부드럽게 가르랑거렸어요.",
+              "천천히 코리의 구슬도 빛나기 시작했어요.",
+              "멀리서 오래된 문이 잠깐 웅웅거리다 조용해졌어요.",
+              "그날 아기 고양이들은 부드러운 가르랑 소리가 가장 많은 빛을 담는다는 걸 배웠어요."
+            ],
+            "id": [
+              "Pada hari kedua, pelajarannya tentang mendengkur.",
+              "Kucing guru duduk di bawah pohon besar dan mulai mendengkur.",
+              "Satu per satu, bola-bola gelap di sekitarnya menyala keemasan.",
+              "Pip si robot berkedip gembira dan melayang berputar.",
+              "Kori mendengkur sekeras yang ia bisa.",
+              "Bolanya hanya berkedip lalu gelap lagi.",
+              "Kiri mendengkur sangat pelan, hampir tak terdengar.",
+              "Bolanya bersinar hangat dan terang seperti matahari kecil.",
+              "Kori berbaring, memejamkan mata, dan mendengkur lembut.",
+              "Perlahan, bolanya pun mulai bersinar.",
+              "Di kejauhan, pintu tua itu berdengung sejenak, lalu diam.",
+              "Hari itu, anak-anak kucing belajar bahwa dengkuran lembut membawa cahaya paling banyak."
+            ],
+            "vi": [
+              "Ngày thứ hai, bài học là về tiếng gừ gừ.",
+              "Thầy mèo ngồi dưới gốc cây lớn và bắt đầu gừ gừ.",
+              "Từng quả cầu tối quanh thầy lần lượt sáng lên màu vàng.",
+              "Robot Pip chớp mắt vui vẻ và bay thành vòng tròn.",
+              "Kori gừ gừ to hết sức có thể.",
+              "Quả cầu của cô bé chỉ nhấp nháy rồi lại tối đi.",
+              "Kiri gừ gừ thật khẽ, gần như không nghe thấy.",
+              "Quả cầu của cô bé tỏa sáng ấm áp như một mặt trời nhỏ.",
+              "Kori nằm xuống, nhắm mắt lại và gừ gừ nhẹ nhàng.",
+              "Chầm chậm, quả cầu của cô bé cũng bắt đầu sáng.",
+              "Xa xa, cánh cửa cũ rung lên một lúc rồi im lặng.",
+              "Hôm đó, hai mèo con học được rằng tiếng gừ gừ dịu dàng mang nhiều ánh sáng nhất."
+            ],
+            "bn": [
+              "দ্বিতীয় দিনের পাঠ ছিল গরগর শব্দ নিয়ে।",
+              "শিক্ষক বিড়াল বড় গাছের নিচে বসে গরগর করতে লাগল।",
+              "একে একে তার চারপাশের অন্ধকার গোলকগুলো সোনালি হয়ে জ্বলে উঠল।",
+              "রোবট পিপ খুশিতে চোখ পিটপিট করে গোল হয়ে ভাসল।",
+              "কোরি যত জোরে পারে গরগর করল।",
+              "তার গোলক শুধু টিমটিম করে আবার নিভে গেল।",
+              "কিরি খুব আস্তে গরগর করল, প্রায় শোনাই যায় না।",
+              "তার গোলক ছোট্ট সূর্যের মতো উষ্ণ আর উজ্জ্বল হয়ে উঠল।",
+              "কোরি শুয়ে পড়ল, চোখ বন্ধ করল আর আলতো করে গরগর করল।",
+              "ধীরে ধীরে তার গোলকও জ্বলতে শুরু করল।",
+              "দূরে পুরোনো দরজাটা এক মুহূর্ত গুনগুন করে আবার চুপ হয়ে গেল।",
+              "সেদিন ছানারা শিখল, নরম গরগর শব্দই সবচেয়ে বেশি আলো বয়ে আনে।"
+            ],
+            "ur": [
+              "دوسرے دن کا سبق خرخراہٹ کے بارے میں تھا۔",
+              "استاد بلا بڑے درخت کے نیچے بیٹھا اور خرخرانے لگا۔",
+              "ایک ایک کر کے اس کے گرد اندھیرے گولے سنہری ہو کر جل اٹھے۔",
+              "روبوٹ پِپ نے خوشی سے پلک جھپکائی اور دائرے میں تیرنے لگا۔",
+              "کوری نے جتنا زور سے ہو سکا خرخرایا۔",
+              "اس کا گولا بس ٹمٹمایا اور پھر بجھ گیا۔",
+              "کیری نے بہت آہستہ خرخرایا، اتنا کہ مشکل سے سنائی دے۔",
+              "اس کا گولا ننھے سورج کی طرح گرم اور روشن ہو گیا۔",
+              "کوری لیٹ گئی، آنکھیں بند کیں اور نرمی سے خرخرائی۔",
+              "آہستہ آہستہ اس کا گولا بھی چمکنے لگا۔",
+              "دور، پرانا دروازہ ایک لمحے کو گنگنایا، پھر خاموش ہو گیا۔",
+              "اس دن بچوں نے سیکھا کہ نرم خرخراہٹ سب سے زیادہ روشنی لاتی ہے۔"
+            ],
+            "mr": [
+              "दुसऱ्या दिवशीचा धडा गुरगुरण्याबद्दल होता.",
+              "शिक्षक बोका मोठ्या झाडाखाली बसला आणि गुरगुरू लागला.",
+              "एकामागून एक त्याच्या भोवतीचे काळे गोळे सोनेरी उजळले.",
+              "रोबो पिपने आनंदाने डोळे मिचकावले आणि तो गोल फिरत तरंगला.",
+              "कोरीने जमेल तितक्या मोठ्याने गुरगुर केली.",
+              "तिचा गोळा फक्त लुकलुकला आणि पुन्हा विझला.",
+              "किरीने अगदी हळू, जवळजवळ ऐकू न येईल अशी गुरगुर केली.",
+              "तिचा गोळा छोट्या सूर्यासारखा उबदार आणि तेजस्वी चमकला.",
+              "कोरी आडवी झाली, डोळे मिटले आणि हळुवार गुरगुरली.",
+              "हळूहळू तिचा गोळाही चमकू लागला.",
+              "दूरवर जुने दार क्षणभर गुणगुणले आणि मग शांत झाले.",
+              "त्या दिवशी पिल्लांना कळले की हळुवार गुरगुर सर्वांत जास्त प्रकाश वाहते."
+            ],
+            "te": [
+              "రెండవ రోజు పాఠం గురగురలాడటం గురించి.",
+              "గురువు పిల్లి పెద్ద చెట్టు కింద కూర్చుని గురగురలాడటం మొదలుపెట్టింది.",
+              "దాని చుట్టూ ఉన్న చీకటి గోళాలు ఒక్కొక్కటిగా బంగారు రంగులో వెలిగాయి.",
+              "రోబో పిప్ ఆనందంగా కళ్లు ఆర్పి వలయంగా తేలింది.",
+              "కోరి వీలైనంత గట్టిగా గురగురలాడింది.",
+              "ఆమె గోళం కేవలం మినుకుమని మళ్లీ ఆరిపోయింది.",
+              "కిరి చాలా మెల్లగా, దాదాపు వినిపించనంతగా గురగురలాడింది.",
+              "ఆమె గోళం చిన్న సూర్యుడిలా వెచ్చగా, ప్రకాశవంతంగా వెలిగింది.",
+              "కోరి పడుకుని, కళ్లు మూసుకుని, మృదువుగా గురగురలాడింది.",
+              "నెమ్మదిగా ఆమె గోళం కూడా వెలగడం మొదలుపెట్టింది.",
+              "దూరంగా పాత తలుపు ఒక్క క్షణం ఝుమ్మని, తర్వాత నిశ్శబ్దమైంది.",
+              "ఆ రోజు పిల్లలు, మృదువైన గురగుర శబ్దమే ఎక్కువ వెలుగును మోస్తుందని నేర్చుకున్నాయి."
+            ],
+            "ta": [
+              "இரண்டாம் நாள் பாடம் உறுமல் ஒலி பற்றியது.",
+              "ஆசிரியர் பூனை பெரிய மரத்தடியில் அமர்ந்து உறுமத் தொடங்கியது.",
+              "அதைச் சுற்றியிருந்த இருண்ட கோளங்கள் ஒவ்வொன்றாகப் பொன்னிறத்தில் ஒளிர்ந்தன.",
+              "ரோபோ பிப் மகிழ்ச்சியாகக் கண் சிமிட்டி வட்டமாக மிதந்தது.",
+              "கோரி தன்னால் முடிந்த அளவு சத்தமாக உறுமினாள்.",
+              "அவள் கோளம் சற்று மின்னி மீண்டும் இருண்டது.",
+              "கிரி மிக மெதுவாக, கேட்கவே முடியாத அளவு உறுமினாள்.",
+              "அவள் கோளம் சிறிய சூரியனைப் போல இதமாகவும் பிரகாசமாகவும் ஒளிர்ந்தது.",
+              "கோரி படுத்து, கண்களை மூடி, மென்மையாக உறுமினாள்.",
+              "மெதுவாக அவள் கோளமும் ஒளிரத் தொடங்கியது.",
+              "தொலைவில், பழைய கதவு ஒரு கணம் ரீங்காரமிட்டு, பின் அமைதியானது.",
+              "அன்று குட்டிகள், மென்மையான உறுமலே அதிக ஒளியைச் சுமக்கும் என்று கற்றன."
             ]
           }
         }

@@ -2519,7 +2519,7 @@
       "name": "The Cloud Cat School",
       "tr": "Yüzyıllar sonra, bulutların üstündeki cam şehirde bir kedi okulu: Abram'ın yavruları Kiri ve Kori ışık kürelerini mırıltıyla yakmayı öğreniyor, kimsenin açamadığı eski kapının sırrını arıyor. Anlatıcılı, 1 dakikalık bölümler.",
       "en": "Centuries from now, a cat school in a glass city above the clouds: Abram's kittens Kiri and Kori learn to light glowing orbs with a purr and search for the secret of an old door no one can open. Narrated one-minute episodes.",
-      "episodes": 5,
+      "episodes": 6,
       "loc": {
         "de": "In ferner Zukunft, eine Katzenschule in einer Glasstadt über den Wolken: Abrams Kätzchen Kiri und Kori lernen, Lichtkugeln mit einem Schnurren zu entzünden, und suchen das Geheimnis einer alten Tür, die niemand öffnen kann. Erzählte Ein-Minuten-Folgen.",
         "fr": "Dans un lointain futur, une école de chats dans une ville de verre au-dessus des nuages : Kiri et Kori, les chatons d'Abram, apprennent à allumer des sphères de lumière en ronronnant et cherchent le secret d'une vieille porte que personne ne peut ouvrir. Épisodes narrés d'une minute.",
@@ -4208,6 +4208,340 @@
               "இம்முறை தூங்கும் பறவைகள் கூட விழிக்கவில்லை.",
               "பழைய கதவைக் கடந்தபோது மூன்றாவது பாதச்சுவடு ஒளிர்ந்தது.",
               "அன்று குட்டிகள், அமைதியான அடிகளே மிகத் தொலைவு செல்லும் என்று கற்றன."
+            ]
+          }
+        },
+        "6": {
+          "cues": [
+            [
+              0.2,
+              4.96
+            ],
+            [
+              5.36,
+              10.08
+            ],
+            [
+              10.48,
+              15.2
+            ],
+            [
+              15.6,
+              20.32
+            ],
+            [
+              20.72,
+              25.44
+            ],
+            [
+              25.84,
+              30.56
+            ],
+            [
+              30.96,
+              35.68
+            ],
+            [
+              36.08,
+              42.16
+            ],
+            [
+              42.56,
+              48.28
+            ],
+            [
+              48.68,
+              54.52
+            ],
+            [
+              54.92,
+              62.6
+            ],
+            [
+              63.0,
+              67.92
+            ]
+          ],
+          "text": {
+            "en": [
+              "On the sixth day, the teacher cat led them to the wind hall.",
+              "Soft streams of air flowed through the long glass tunnel.",
+              "Tiny paper kites waited on the floor, one for each kitten.",
+              "The teacher cat swished his tail, and his kite rose into the air.",
+              "Kori whipped her tail as hard as she could.",
+              "Her kite spun wildly and dropped to the floor.",
+              "Kiri moved her tail gently, like a slow wave.",
+              "Her kite climbed higher and higher on the breeze.",
+              "Kori watched, then swayed her tail softly too.",
+              "Now two kites danced together under the glass roof.",
+              "When they passed the old door, a fourth paw print was glowing.",
+              "That day, the kittens learned that a gentle tail guides the wind."
+            ],
+            "tr": [
+              "Altıncı gün öğretmen kedi onları rüzgâr salonuna götürdü.",
+              "Uzun cam tünelin içinden yumuşak hava akımları geçiyordu.",
+              "Yerde minik kâğıt uçurtmalar bekliyordu; her yavruya bir tane.",
+              "Öğretmen kedi kuyruğunu salladı ve uçurtması havalandı.",
+              "Kori kuyruğunu var gücüyle savurdu.",
+              "Uçurtması çılgınca döndü ve yere düştü.",
+              "Kiri kuyruğunu usulca, ağır bir dalga gibi oynattı.",
+              "Uçurtması esintiyle yükseldikçe yükseldi.",
+              "Kori izledi, sonra o da kuyruğunu yumuşakça salladı.",
+              "Artık cam çatının altında iki uçurtma birlikte dans ediyordu.",
+              "Eski kapının önünden geçtiklerinde dördüncü bir pati izi parlıyordu.",
+              "O gün yavrular, rüzgâra yumuşak kuyruğun yön verdiğini öğrendi."
+            ],
+            "de": [
+              "Am sechsten Tag führte die Lehrerkatze sie in die Windhalle.",
+              "Sanfte Luftströme flossen durch den langen Glastunnel.",
+              "Winzige Papierdrachen warteten am Boden, einer für jedes Kätzchen.",
+              "Die Lehrerkatze schwang ihren Schwanz, und ihr Drachen stieg in die Luft.",
+              "Kori peitschte mit dem Schwanz, so fest sie konnte.",
+              "Ihr Drachen wirbelte wild herum und fiel zu Boden.",
+              "Kiri bewegte ihren Schwanz sanft, wie eine langsame Welle.",
+              "Ihr Drachen stieg in der Brise höher und höher.",
+              "Kori sah zu und wiegte dann auch ihren Schwanz ganz sacht.",
+              "Nun tanzten zwei Drachen gemeinsam unter dem Glasdach.",
+              "Als sie an der alten Tür vorbeikamen, leuchtete ein vierter Pfotenabdruck.",
+              "An diesem Tag lernten die Kätzchen, dass ein sanfter Schwanz den Wind lenkt."
+            ],
+            "fr": [
+              "Le sixième jour, le chat professeur les mena à la salle du vent.",
+              "De doux courants d'air traversaient le long tunnel de verre.",
+              "De petits cerfs-volants en papier attendaient au sol, un pour chaque chaton.",
+              "Le chat professeur agita la queue, et son cerf-volant s'éleva dans les airs.",
+              "Kori fouetta l'air de sa queue de toutes ses forces.",
+              "Son cerf-volant tournoya follement et tomba au sol.",
+              "Kiri bougea sa queue doucement, comme une vague lente.",
+              "Son cerf-volant monta de plus en plus haut dans la brise.",
+              "Kori regarda, puis balança elle aussi sa queue tout doucement.",
+              "À présent, deux cerfs-volants dansaient ensemble sous le toit de verre.",
+              "Quand elles passèrent devant la vieille porte, une quatrième empreinte brillait.",
+              "Ce jour-là, les chatons apprirent qu'une queue douce guide le vent."
+            ],
+            "es": [
+              "El sexto día, el gato maestro las llevó a la sala del viento.",
+              "Suaves corrientes de aire fluían por el largo túnel de cristal.",
+              "Unas cometas diminutas de papel esperaban en el suelo, una para cada gatita.",
+              "El gato maestro agitó la cola, y su cometa se elevó en el aire.",
+              "Kori sacudió la cola con todas sus fuerzas.",
+              "Su cometa giró sin control y cayó al suelo.",
+              "Kiri movió la cola con suavidad, como una ola lenta.",
+              "Su cometa subió cada vez más alto con la brisa.",
+              "Kori observó y luego también meció la cola suavemente.",
+              "Ahora dos cometas bailaban juntas bajo el techo de cristal.",
+              "Cuando pasaron junto a la vieja puerta, brillaba una cuarta huella.",
+              "Ese día, las gatitas aprendieron que una cola suave guía al viento."
+            ],
+            "pt": [
+              "No sexto dia, o gato professor as levou ao salão do vento.",
+              "Suaves correntes de ar fluíam pelo longo túnel de vidro.",
+              "Pequenas pipas de papel esperavam no chão, uma para cada gatinha.",
+              "O gato professor balançou a cauda, e sua pipa subiu no ar.",
+              "Kori chicoteou a cauda com toda a força.",
+              "Sua pipa girou descontrolada e caiu no chão.",
+              "Kiri moveu a cauda com suavidade, como uma onda lenta.",
+              "Sua pipa subiu cada vez mais alto na brisa.",
+              "Kori observou e então também balançou a cauda de leve.",
+              "Agora duas pipas dançavam juntas sob o teto de vidro.",
+              "Quando passaram pela velha porta, uma quarta pegada estava brilhando.",
+              "Naquele dia, as gatinhas aprenderam que uma cauda suave guia o vento."
+            ],
+            "it": [
+              "Il sesto giorno, il gatto maestro le portò nella sala del vento.",
+              "Morbide correnti d'aria scorrevano nel lungo tunnel di vetro.",
+              "Piccoli aquiloni di carta aspettavano a terra, uno per ogni gattina.",
+              "Il gatto maestro mosse la coda, e il suo aquilone si alzò in aria.",
+              "Kori frustò l'aria con la coda più forte che poteva.",
+              "Il suo aquilone girò all'impazzata e cadde a terra.",
+              "Kiri mosse la coda dolcemente, come un'onda lenta.",
+              "Il suo aquilone salì sempre più in alto nella brezza.",
+              "Kori guardò, poi dondolò piano anche la sua coda.",
+              "Ora due aquiloni danzavano insieme sotto il tetto di vetro.",
+              "Quando passarono davanti alla vecchia porta, brillava una quarta impronta.",
+              "Quel giorno, le gattine impararono che una coda gentile guida il vento."
+            ],
+            "ru": [
+              "На шестой день кот-учитель привёл их в зал ветра.",
+              "По длинному стеклянному тоннелю текли мягкие потоки воздуха.",
+              "На полу ждали крошечные бумажные змеи — по одному на каждого котёнка.",
+              "Кот-учитель взмахнул хвостом, и его змей поднялся в воздух.",
+              "Кори хлестнула хвостом изо всех сил.",
+              "Её змей бешено закружился и упал на пол.",
+              "Кири повела хвостом мягко, как медленная волна.",
+              "Её змей поднимался на ветерке всё выше и выше.",
+              "Кори посмотрела, а потом тоже плавно качнула хвостом.",
+              "Теперь два змея танцевали вместе под стеклянной крышей.",
+              "Когда они проходили мимо старой двери, там светился четвёртый отпечаток лапы.",
+              "В тот день котята узнали, что ветром правит мягкий хвост."
+            ],
+            "ar": [
+              "في اليوم السادس قادهما القط المعلّم إلى قاعة الريح.",
+              "كانت تيارات هواء ناعمة تجري في النفق الزجاجي الطويل.",
+              "على الأرض انتظرت طائرات ورقية صغيرة، واحدة لكل قطة.",
+              "هزّ القط المعلّم ذيله، فارتفعت طائرته في الهواء.",
+              "ضربت كوري بذيلها بأقصى قوتها.",
+              "دارت طائرتها بجنون وسقطت على الأرض.",
+              "حرّكت كيري ذيلها بلطف، كموجة بطيئة.",
+              "ارتفعت طائرتها أعلى فأعلى مع النسيم.",
+              "راقبت كوري، ثم هزّت ذيلها برفق هي أيضًا.",
+              "الآن رقصت طائرتان معًا تحت السقف الزجاجي.",
+              "حين مرّتا بالباب القديم، كان أثر كفّ رابع يتوهج.",
+              "في ذلك اليوم تعلّمت القطتان أن الذيل اللطيف يقود الريح."
+            ],
+            "hi": [
+              "छठे दिन शिक्षक बिल्ला उन्हें हवा के हॉल में ले गया।",
+              "लंबी काँच की सुरंग में हवा की नरम धाराएँ बह रही थीं।",
+              "फ़र्श पर नन्ही काग़ज़ की पतंगें रखी थीं, हर बच्चे के लिए एक।",
+              "शिक्षक बिल्ले ने पूँछ लहराई, और उसकी पतंग हवा में उठ गई।",
+              "कोरी ने पूरी ताक़त से अपनी पूँछ झटकी।",
+              "उसकी पतंग बेतहाशा घूमी और फ़र्श पर गिर गई।",
+              "किरी ने अपनी पूँछ धीरे से हिलाई, एक धीमी लहर की तरह।",
+              "उसकी पतंग हवा के झोंके पर ऊँची और ऊँची चढ़ती गई।",
+              "कोरी ने देखा, फिर उसने भी अपनी पूँछ हल्के से हिलाई।",
+              "अब काँच की छत के नीचे दो पतंगें साथ-साथ नाच रही थीं।",
+              "जब वे पुराने दरवाज़े के पास से गुज़रीं, तो पंजे का चौथा निशान चमक रहा था।",
+              "उस दिन बच्चों ने सीखा कि कोमल पूँछ ही हवा को राह दिखाती है।"
+            ],
+            "zh": [
+              "第六天，猫老师带她们来到风之厅。",
+              "柔和的气流在长长的玻璃隧道里流动。",
+              "地上放着小小的纸风筝，每只小猫一个。",
+              "猫老师甩了甩尾巴，他的风筝飞上了天。",
+              "科里用尽全力猛甩尾巴。",
+              "她的风筝疯狂打转，掉在了地上。",
+              "奇里轻轻摆动尾巴，像缓慢的波浪。",
+              "她的风筝乘着微风越飞越高。",
+              "科里看了看，也轻轻摇起了尾巴。",
+              "现在，两只风筝在玻璃屋顶下一起跳舞。",
+              "她们经过旧门时，第四个爪印正在发光。",
+              "那一天，小猫们明白了，温柔的尾巴才能引导风。"
+            ],
+            "ja": [
+              "六日目、先生猫はふたりを風の広間へ連れていきました。",
+              "長いガラスのトンネルを、やさしい風が流れていました。",
+              "床には小さな紙のたこが、子猫ひとりにひとつずつ置いてありました。",
+              "先生猫がしっぽをひとふりすると、たこが空へ上がりました。",
+              "コリは力いっぱいしっぽを振り回しました。",
+              "たこはぐるぐる回って、床に落ちてしまいました。",
+              "キリは、ゆっくりした波のようにそっとしっぽを動かしました。",
+              "たこはそよ風に乗って、高く高く上がっていきました。",
+              "コリはそれを見て、自分もしっぽをやさしくゆらしました。",
+              "今では二つのたこが、ガラスの屋根の下でいっしょに踊っていました。",
+              "古い扉の前を通ると、四つめの肉球のあとが光っていました。",
+              "その日子猫たちは、やさしいしっぽが風を導くと知りました。"
+            ],
+            "ko": [
+              "여섯째 날, 선생님 고양이는 둘을 바람의 방으로 데려갔어요.",
+              "긴 유리 터널 안으로 부드러운 바람이 흘렀어요.",
+              "바닥에는 작은 종이 연이 아기 고양이마다 하나씩 놓여 있었어요.",
+              "선생님 고양이가 꼬리를 휙 흔들자 연이 공중으로 떠올랐어요.",
+              "코리는 있는 힘껏 꼬리를 휘둘렀어요.",
+              "코리의 연은 마구 빙글빙글 돌다 바닥에 떨어졌어요.",
+              "키리는 느린 물결처럼 꼬리를 살며시 움직였어요.",
+              "키리의 연은 산들바람을 타고 높이 더 높이 올라갔어요.",
+              "코리는 지켜보다가 자기도 꼬리를 부드럽게 흔들었어요.",
+              "이제 연 두 개가 유리 지붕 아래에서 함께 춤췄어요.",
+              "오래된 문을 지날 때, 네 번째 발자국이 빛나고 있었어요.",
+              "그날 아기 고양이들은 부드러운 꼬리가 바람을 이끈다는 걸 배웠어요."
+            ],
+            "id": [
+              "Pada hari keenam, kucing guru membawa mereka ke aula angin.",
+              "Aliran udara lembut mengalir melalui terowongan kaca yang panjang.",
+              "Layang-layang kertas mungil menunggu di lantai, satu untuk tiap anak kucing.",
+              "Kucing guru mengibaskan ekornya, dan layang-layangnya naik ke udara.",
+              "Kori mengibaskan ekornya sekuat tenaga.",
+              "Layang-layangnya berputar liar dan jatuh ke lantai.",
+              "Kiri menggerakkan ekornya dengan lembut, seperti ombak yang pelan.",
+              "Layang-layangnya naik makin tinggi terbawa angin sepoi.",
+              "Kori memperhatikan, lalu ikut mengayunkan ekornya dengan lembut.",
+              "Kini dua layang-layang menari bersama di bawah atap kaca.",
+              "Saat mereka melewati pintu tua, jejak kaki keempat sudah bercahaya.",
+              "Hari itu, anak-anak kucing belajar bahwa ekor yang lembut menuntun angin."
+            ],
+            "vi": [
+              "Ngày thứ sáu, thầy mèo dẫn chúng đến sảnh gió.",
+              "Những luồng không khí êm dịu chảy qua đường hầm kính dài.",
+              "Những con diều giấy tí hon nằm chờ trên sàn, mỗi mèo con một chiếc.",
+              "Thầy mèo vẫy đuôi, và con diều của thầy bay lên không trung.",
+              "Kori quất đuôi mạnh hết sức có thể.",
+              "Con diều của cô bé quay cuồng rồi rơi xuống sàn.",
+              "Kiri khẽ đung đưa đuôi, như một con sóng chậm.",
+              "Con diều của cô bé bay cao, cao mãi theo làn gió nhẹ.",
+              "Kori nhìn theo, rồi cũng nhẹ nhàng đung đưa đuôi.",
+              "Giờ đây hai con diều cùng nhảy múa dưới mái kính.",
+              "Khi chúng đi ngang cánh cửa cũ, dấu chân thứ tư đang phát sáng.",
+              "Hôm đó, hai mèo con học được rằng chiếc đuôi dịu dàng mới dẫn được gió."
+            ],
+            "bn": [
+              "ষষ্ঠ দিনে শিক্ষক বিড়াল তাদের বাতাসের হলঘরে নিয়ে গেল।",
+              "লম্বা কাচের সুড়ঙ্গ দিয়ে নরম বাতাসের স্রোত বইছিল।",
+              "মেঝেতে ছোট্ট কাগজের ঘুড়ি অপেক্ষা করছিল, প্রতিটি ছানার জন্য একটি।",
+              "শিক্ষক বিড়াল লেজ দোলাতেই তার ঘুড়ি বাতাসে উঠে গেল।",
+              "কোরি যত জোরে পারে লেজ ঝাপটাল।",
+              "তার ঘুড়ি পাগলের মতো ঘুরে মেঝেতে পড়ে গেল।",
+              "কিরি আলতো করে লেজ নাড়ল, ধীর ঢেউয়ের মতো।",
+              "তার ঘুড়ি মৃদু হাওয়ায় আরও উঁচুতে উঠতে লাগল।",
+              "কোরি দেখল, তারপর সেও নরম করে লেজ দোলাল।",
+              "এখন কাচের ছাদের নিচে দুটো ঘুড়ি একসঙ্গে নাচছিল।",
+              "পুরোনো দরজার পাশ দিয়ে যাওয়ার সময় চতুর্থ থাবার ছাপ জ্বলছিল।",
+              "সেদিন ছানারা শিখল, নরম লেজই বাতাসকে পথ দেখায়।"
+            ],
+            "ur": [
+              "چھٹے دن استاد بلا انہیں ہوا کے ہال میں لے گیا۔",
+              "لمبی شیشے کی سرنگ میں ہوا کی نرم لہریں بہہ رہی تھیں۔",
+              "فرش پر ننھی کاغذی پتنگیں رکھی تھیں، ہر بچے کے لیے ایک۔",
+              "استاد بلے نے دم لہرائی اور اس کی پتنگ ہوا میں اٹھ گئی۔",
+              "کوری نے پوری طاقت سے اپنی دم جھٹکی۔",
+              "اس کی پتنگ بے قابو گھومی اور فرش پر گر گئی۔",
+              "کیری نے اپنی دم نرمی سے ہلائی، ایک دھیمی لہر کی طرح۔",
+              "اس کی پتنگ ہوا کے جھونکے پر اونچی اور اونچی چڑھتی گئی۔",
+              "کوری نے دیکھا، پھر اس نے بھی اپنی دم آہستہ سے ہلائی۔",
+              "اب شیشے کی چھت کے نیچے دو پتنگیں ساتھ ساتھ ناچ رہی تھیں۔",
+              "جب وہ پرانے دروازے کے پاس سے گزریں تو پنجے کا چوتھا نشان چمک رہا تھا۔",
+              "اس دن بچوں نے سیکھا کہ نرم دم ہی ہوا کو راہ دکھاتی ہے۔"
+            ],
+            "mr": [
+              "सहाव्या दिवशी शिक्षक बोका त्यांना वाऱ्याच्या दालनात घेऊन गेला.",
+              "लांब काचेच्या बोगद्यातून हवेचे मऊ प्रवाह वाहत होते.",
+              "जमिनीवर चिमुकले कागदी पतंग वाट पाहत होते, प्रत्येक पिल्लासाठी एक.",
+              "शिक्षक बोक्याने शेपटी हलवली आणि त्याचा पतंग हवेत उडाला.",
+              "कोरीने जमेल तितक्या जोरात शेपटी फटकारली.",
+              "तिचा पतंग गरगर फिरला आणि जमिनीवर पडला.",
+              "किरीने शेपटी हळुवार हलवली, संथ लाटेसारखी.",
+              "तिचा पतंग झुळुकेवर उंच उंच चढत गेला.",
+              "कोरीने पाहिले, मग तिनेही शेपटी हळूच डोलवली.",
+              "आता काचेच्या छताखाली दोन पतंग एकत्र नाचत होते.",
+              "जुन्या दाराजवळून जाताना पंजाचा चौथा ठसा चमकत होता.",
+              "त्या दिवशी पिल्लांना कळले की हळुवार शेपटीच वाऱ्याला दिशा देते."
+            ],
+            "te": [
+              "ఆరవ రోజు గురువు పిల్లి వారిని గాలి మందిరానికి తీసుకెళ్లింది.",
+              "పొడవైన గాజు సొరంగంలో మెత్తని గాలి ప్రవాహాలు పారుతున్నాయి.",
+              "నేలపై చిన్న కాగితపు గాలిపటాలు ఎదురుచూస్తున్నాయి, ఒక్కో పిల్లకు ఒకటి.",
+              "గురువు పిల్లి తోక ఊపగానే దాని గాలిపటం గాల్లోకి లేచింది.",
+              "కోరి తన తోకను వీలైనంత బలంగా విసిరింది.",
+              "ఆమె గాలిపటం గిరగిరా తిరిగి నేలపై పడిపోయింది.",
+              "కిరి తన తోకను మృదువుగా, నెమ్మదైన అలలా కదిపింది.",
+              "ఆమె గాలిపటం పిల్లగాలిలో ఇంకా ఇంకా ఎత్తుకు ఎగిరింది.",
+              "కోరి చూసి, తానూ తోకను మెల్లగా ఊపింది.",
+              "ఇప్పుడు గాజు పైకప్పు కింద రెండు గాలిపటాలు కలిసి నాట్యం చేశాయి.",
+              "వారు పాత తలుపు పక్కగా వెళ్లినప్పుడు నాల్గవ పంజా ముద్ర మెరుస్తోంది.",
+              "ఆ రోజు పిల్లలు, మృదువైన తోకే గాలిని నడిపిస్తుందని నేర్చుకున్నాయి."
+            ],
+            "ta": [
+              "ஆறாம் நாள், ஆசிரியர் பூனை அவர்களைக் காற்று மண்டபத்திற்கு அழைத்துச் சென்றது.",
+              "நீண்ட கண்ணாடிச் சுரங்கத்தில் மென்மையான காற்றோட்டங்கள் பாய்ந்தன.",
+              "தரையில் சிறிய காகிதப் பட்டங்கள் காத்திருந்தன, ஒவ்வொரு குட்டிக்கும் ஒன்று.",
+              "ஆசிரியர் பூனை வாலை அசைத்ததும் அதன் பட்டம் காற்றில் எழுந்தது.",
+              "கோரி தன் வாலை முழு பலத்துடன் வீசினாள்.",
+              "அவள் பட்டம் கட்டுக்கடங்காமல் சுழன்று தரையில் விழுந்தது.",
+              "கிரி தன் வாலை மெதுவான அலை போல மென்மையாக அசைத்தாள்.",
+              "அவள் பட்டம் தென்றலில் உயர உயர ஏறியது.",
+              "கோரி பார்த்தாள்; பிறகு அவளும் வாலை மெதுவாக ஆட்டினாள்.",
+              "இப்போது இரண்டு பட்டங்கள் கண்ணாடிக் கூரையின் கீழ் சேர்ந்து நடனமாடின.",
+              "பழைய கதவைக் கடந்தபோது நான்காவது பாதச்சுவடு ஒளிர்ந்து கொண்டிருந்தது.",
+              "அன்று குட்டிகள், மென்மையான வாலே காற்றை வழிநடத்தும் என்று கற்றன."
             ]
           }
         }

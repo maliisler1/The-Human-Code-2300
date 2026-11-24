@@ -2548,7 +2548,7 @@
       "name": "The Cloud Cat School",
       "tr": "Yüzyıllar sonra, bulutların üstündeki cam şehirde bir kedi okulu: Abram'ın yavruları Kiri ve Kori ışık kürelerini mırıltıyla yakmayı öğreniyor, kimsenin açamadığı eski kapının sırrını arıyor. Anlatıcılı, 1 dakikalık bölümler.",
       "en": "Centuries from now, a cat school in a glass city above the clouds: Abram's kittens Kiri and Kori learn to light glowing orbs with a purr and search for the secret of an old door no one can open. Narrated one-minute episodes.",
-      "episodes": 11,
+      "episodes": 12,
       "loc": {
         "de": "In ferner Zukunft, eine Katzenschule in einer Glasstadt über den Wolken: Abrams Kätzchen Kiri und Kori lernen, Lichtkugeln mit einem Schnurren zu entzünden, und suchen das Geheimnis einer alten Tür, die niemand öffnen kann. Erzählte Ein-Minuten-Folgen.",
         "fr": "Dans un lointain futur, une école de chats dans une ville de verre au-dessus des nuages : Kiri et Kori, les chatons d'Abram, apprennent à allumer des sphères de lumière en ronronnant et cherchent le secret d'une vieille porte que personne ne peut ouvrir. Épisodes narrés d'une minute.",
@@ -6241,6 +6241,340 @@
               "கிரி தீவைப் பார்த்து ஆழமாக மூச்சு இழுத்தாள்.",
               "அங்கே செல்ல இன்னும் பாலம் இல்லை; மேகங்கள் மட்டுமே.",
               "அன்று இரவு குட்டிகள், திறக்கும் ஒவ்வொரு கதவும் இன்னொரு கதவுக்கு வழிநடத்தும் என்று கற்றன."
+            ]
+          }
+        },
+        "12": {
+          "cues": [
+            [
+              0.2,
+              4.96
+            ],
+            [
+              5.36,
+              10.08
+            ],
+            [
+              10.48,
+              15.2
+            ],
+            [
+              15.6,
+              20.32
+            ],
+            [
+              20.72,
+              25.44
+            ],
+            [
+              25.84,
+              30.56
+            ],
+            [
+              30.96,
+              35.68
+            ],
+            [
+              36.08,
+              40.8
+            ],
+            [
+              41.2,
+              45.92
+            ],
+            [
+              46.32,
+              51.04
+            ],
+            [
+              51.44,
+              56.16
+            ],
+            [
+              56.56,
+              61.28
+            ]
+          ],
+          "text": {
+            "en": [
+              "The next morning, the kittens came back to the balcony.",
+              "The floating island was still there, waiting above the clouds.",
+              "The teacher cat purred softly, and one glowing step appeared.",
+              "It hung in the air like a piece of the moon.",
+              "Kori jumped onto it at once, and it faded away.",
+              "She tumbled back onto the balcony with a small bump.",
+              "Kiri purred gently, and a new step began to glow.",
+              "Kori closed her eyes and purred together with her sister.",
+              "Step by step, a bridge of light grew across the sky.",
+              "Pip the robot floated beside them, counting every step.",
+              "Far away, the first point of the star door lit up.",
+              "That day, the kittens learned to build a bridge one calm step at a time."
+            ],
+            "tr": [
+              "Ertesi sabah yavrular balkona geri geldi.",
+              "Süzülen ada hâlâ oradaydı, bulutların üstünde bekliyordu.",
+              "Öğretmen kedi usulca mırladı ve parlayan bir basamak belirdi.",
+              "Havada ayın bir parçası gibi asılı duruyordu.",
+              "Kori hemen üstüne atladı, basamak sönüp kayboldu.",
+              "Küçük bir tıkırtıyla balkona geri yuvarlandı.",
+              "Kiri yumuşacık mırladı ve yeni bir basamak parlamaya başladı.",
+              "Kori gözlerini kapadı ve kardeşiyle birlikte mırladı.",
+              "Basamak basamak, gökyüzünde ışıktan bir köprü büyüdü.",
+              "Robot Pip yanlarında süzülüp her basamağı saydı.",
+              "Uzakta, yıldız kapının ilk ucu yandı.",
+              "O gün yavrular, köprünün sakin adımlarla tek tek kurulduğunu öğrendi."
+            ],
+            "de": [
+              "Am nächsten Morgen kamen die Kätzchen zurück auf den Balkon.",
+              "Die schwebende Insel war noch da und wartete über den Wolken.",
+              "Die Lehrerkatze schnurrte leise, und eine leuchtende Stufe erschien.",
+              "Sie hing in der Luft wie ein Stück vom Mond.",
+              "Kori sprang sofort darauf, und sie verblasste.",
+              "Mit einem kleinen Plumps purzelte sie zurück auf den Balkon.",
+              "Kiri schnurrte sanft, und eine neue Stufe begann zu leuchten.",
+              "Kori schloss die Augen und schnurrte zusammen mit ihrer Schwester.",
+              "Stufe für Stufe wuchs eine Brücke aus Licht über den Himmel.",
+              "Pip, der Roboter, schwebte neben ihnen und zählte jede Stufe.",
+              "Weit weg leuchtete die erste Spitze der Sternentür auf.",
+              "An diesem Tag lernten die Kätzchen, eine Brücke Schritt für Schritt in Ruhe zu bauen."
+            ],
+            "fr": [
+              "Le lendemain matin, les chatons revinrent sur le balcon.",
+              "L'île flottante était toujours là, au-dessus des nuages.",
+              "Le chat professeur ronronna doucement, et une marche lumineuse apparut.",
+              "Elle flottait dans l'air comme un morceau de lune.",
+              "Kori sauta dessus aussitôt, et elle s'effaça.",
+              "Elle retomba sur le balcon avec un petit boum.",
+              "Kiri ronronna tout doucement, et une nouvelle marche se mit à briller.",
+              "Kori ferma les yeux et ronronna avec sa sœur.",
+              "Marche après marche, un pont de lumière grandit dans le ciel.",
+              "Pip le robot flottait à côté d'elles en comptant chaque marche.",
+              "Au loin, la première pointe de la porte étoile s'alluma.",
+              "Ce jour-là, les chatons apprirent à bâtir un pont un pas calme à la fois."
+            ],
+            "es": [
+              "A la mañana siguiente, las gatitas volvieron al balcón.",
+              "La isla flotante seguía allí, esperando sobre las nubes.",
+              "El gato maestro ronroneó suavemente y apareció un escalón brillante.",
+              "Colgaba en el aire como un trocito de luna.",
+              "Kori saltó encima enseguida, y el escalón se apagó.",
+              "Cayó rodando de vuelta al balcón con un golpecito.",
+              "Kiri ronroneó con dulzura y un nuevo escalón empezó a brillar.",
+              "Kori cerró los ojos y ronroneó junto a su hermana.",
+              "Paso a paso, un puente de luz creció por el cielo.",
+              "Pip, el robot, flotaba a su lado contando cada escalón.",
+              "A lo lejos, se encendió la primera punta de la puerta estrella.",
+              "Ese día, las gatitas aprendieron a construir un puente paso a paso, con calma."
+            ],
+            "pt": [
+              "Na manhã seguinte, as gatinhas voltaram à varanda.",
+              "A ilha flutuante continuava lá, esperando acima das nuvens.",
+              "O gato professor ronronou baixinho, e surgiu um degrau brilhante.",
+              "Ele ficou no ar como um pedacinho da lua.",
+              "Kori pulou nele na hora, e o degrau se apagou.",
+              "Ela rolou de volta para a varanda com um pequeno baque.",
+              "Kiri ronronou com suavidade, e um novo degrau começou a brilhar.",
+              "Kori fechou os olhos e ronronou junto com a irmã.",
+              "Degrau por degrau, uma ponte de luz cresceu pelo céu.",
+              "Pip, o robô, flutuava ao lado delas contando cada degrau.",
+              "Ao longe, a primeira ponta da porta estrela se acendeu.",
+              "Naquele dia, as gatinhas aprenderam a construir uma ponte um passo calmo de cada vez."
+            ],
+            "it": [
+              "La mattina dopo, le gattine tornarono sul balcone.",
+              "L'isola galleggiante era ancora lì, in attesa sopra le nuvole.",
+              "Il gatto maestro fece le fusa piano, e apparve un gradino luminoso.",
+              "Stava sospeso nell'aria come un pezzetto di luna.",
+              "Kori ci saltò sopra subito, e il gradino svanì.",
+              "Ruzzolò di nuovo sul balcone con un piccolo tonfo.",
+              "Kiri fece le fusa dolcemente, e un nuovo gradino cominciò a brillare.",
+              "Kori chiuse gli occhi e fece le fusa insieme alla sorella.",
+              "Gradino dopo gradino, un ponte di luce crebbe nel cielo.",
+              "Pip, il robot, volava accanto a loro contando ogni gradino.",
+              "Lontano, la prima punta della porta stella si accese.",
+              "Quel giorno, le gattine impararono a costruire un ponte un passo calmo alla volta."
+            ],
+            "ru": [
+              "На следующее утро котята вернулись на балкон.",
+              "Парящий остров был на месте и ждал над облаками.",
+              "Кот-учитель тихо замурлыкал, и появилась светящаяся ступенька.",
+              "Она висела в воздухе, как кусочек луны.",
+              "Кори сразу прыгнула на неё, и ступенька погасла.",
+              "Она скатилась обратно на балкон с лёгким стуком.",
+              "Кири мягко замурлыкала, и засветилась новая ступенька.",
+              "Кори закрыла глаза и замурлыкала вместе с сестрой.",
+              "Ступенька за ступенькой в небе вырос мост из света.",
+              "Робот Пип летел рядом и считал каждую ступеньку.",
+              "Вдалеке загорелся первый луч звёздной двери.",
+              "В тот день котята научились строить мост спокойно, шаг за шагом."
+            ],
+            "ar": [
+              "في الصباح التالي عادت القطتان إلى الشرفة.",
+              "كانت الجزيرة الطافية ما تزال هناك، تنتظر فوق الغيوم.",
+              "خرخر القط المعلّم بهدوء، فظهرت درجة متوهجة.",
+              "علّقت في الهواء كقطعة من القمر.",
+              "قفزت كوري عليها فورًا، فانطفأت واختفت.",
+              "تدحرجت عائدة إلى الشرفة بارتطام صغير.",
+              "خرخرت كيري برقة، فبدأت درجة جديدة تتوهج.",
+              "أغمضت كوري عينيها وخرخرت مع أختها.",
+              "درجة بعد درجة، امتد جسر من نور عبر السماء.",
+              "حلّق الروبوت بيب بجانبهما يعدّ كل درجة.",
+              "وفي البعيد أضاء الرأس الأول لباب النجمة.",
+              "في ذلك اليوم تعلّمت القطتان أن الجسر يُبنى خطوة هادئة بعد خطوة."
+            ],
+            "hi": [
+              "अगली सुबह बच्चे फिर बालकनी पर आए।",
+              "तैरता द्वीप अब भी वहीं था, बादलों के ऊपर इंतज़ार करता हुआ।",
+              "शिक्षक बिल्ले ने धीरे से घुरघुराया, और एक चमकती सीढ़ी प्रकट हुई।",
+              "वह हवा में चाँद के टुकड़े की तरह टँगी थी।",
+              "कोरी तुरंत उस पर कूदी, और वह बुझकर ग़ायब हो गई।",
+              "वह हल्की धम्म के साथ वापस बालकनी पर लुढ़क गई।",
+              "किरी ने कोमलता से घुरघुराया, और एक नई सीढ़ी चमकने लगी।",
+              "कोरी ने आँखें बंद कीं और अपनी बहन के साथ घुरघुराई।",
+              "एक-एक सीढ़ी करके आसमान में रोशनी का पुल बनता गया।",
+              "रोबोट पिप उनके साथ तैरता हुआ हर सीढ़ी गिनता रहा।",
+              "दूर, तारा-दरवाज़े का पहला कोना जल उठा।",
+              "उस दिन बच्चों ने सीखा कि पुल शांत क़दमों से, एक-एक करके बनता है।"
+            ],
+            "zh": [
+              "第二天早晨，小猫们又来到了阳台。",
+              "漂浮的小岛还在那里，在云层之上等着。",
+              "猫老师轻轻地呼噜，一级发光的台阶出现了。",
+              "它悬在空中，像一小片月亮。",
+              "科里立刻跳了上去，台阶就消失了。",
+              "她咕咚一声滚回了阳台。",
+              "奇里轻柔地呼噜，一级新的台阶亮了起来。",
+              "科里闭上眼睛，和妹妹一起呼噜。",
+              "一级一级，一座光之桥在天空中延伸。",
+              "机器人皮普飘在她们身边，数着每一级台阶。",
+              "远处，星星门的第一个角亮了。",
+              "那一天，小猫们学会了，桥要一步一步、平静地搭起来。"
+            ],
+            "ja": [
+              "次の朝、子猫たちはまたバルコニーにやってきました。",
+              "浮かぶ島はまだそこにあり、雲の上で待っていました。",
+              "先生猫がそっとのどを鳴らすと、光る段がひとつ現れました。",
+              "それは月のかけらのように空中に浮かんでいました。",
+              "コリがすぐに飛び乗ると、段は消えてしまいました。",
+              "コリはころんとバルコニーに転がり落ちました。",
+              "キリがやさしくのどを鳴らすと、新しい段が光りはじめました。",
+              "コリは目を閉じて、キリといっしょにのどを鳴らしました。",
+              "一段、また一段と、光の橋が空にのびていきました。",
+              "ロボットのピップはそばに浮かんで、段を数えました。",
+              "遠くで、星の扉の最初の角がともりました。",
+              "その日子猫たちは、橋は落ち着いて一歩ずつかけるものだと知りました。"
+            ],
+            "ko": [
+              "다음 날 아침, 아기 고양이들은 다시 발코니로 왔어요.",
+              "떠 있는 섬은 여전히 구름 위에서 기다리고 있었어요.",
+              "선생님 고양이가 조용히 가르랑거리자 빛나는 계단 하나가 나타났어요.",
+              "계단은 달 조각처럼 공중에 떠 있었어요.",
+              "코리가 곧장 뛰어오르자 계단은 사라져 버렸어요.",
+              "코리는 콩 하고 발코니로 굴러떨어졌어요.",
+              "키리가 부드럽게 가르랑거리자 새 계단이 빛나기 시작했어요.",
+              "코리는 눈을 감고 키리와 함께 가르랑거렸어요.",
+              "한 계단 한 계단, 빛의 다리가 하늘에 놓였어요.",
+              "로봇 핍은 곁에 떠서 계단을 하나하나 세었어요.",
+              "멀리서 별 문의 첫 번째 꼭짓점이 켜졌어요.",
+              "그날 아기 고양이들은 다리는 차분히 한 걸음씩 놓는 거라는 걸 배웠어요."
+            ],
+            "id": [
+              "Keesokan paginya, anak-anak kucing kembali ke balkon.",
+              "Pulau melayang itu masih di sana, menunggu di atas awan.",
+              "Kucing guru mendengkur lembut, dan satu anak tangga bercahaya muncul.",
+              "Ia menggantung di udara seperti sepotong bulan.",
+              "Kori langsung melompat ke atasnya, dan anak tangga itu memudar.",
+              "Ia terguling kembali ke balkon dengan bunyi gedebuk kecil.",
+              "Kiri mendengkur pelan, dan anak tangga baru mulai bercahaya.",
+              "Kori memejamkan mata dan mendengkur bersama saudarinya.",
+              "Selangkah demi selangkah, jembatan cahaya tumbuh melintasi langit.",
+              "Pip si robot melayang di samping mereka, menghitung setiap anak tangga.",
+              "Di kejauhan, ujung pertama pintu bintang menyala.",
+              "Hari itu, anak-anak kucing belajar membangun jembatan selangkah demi selangkah dengan tenang."
+            ],
+            "vi": [
+              "Sáng hôm sau, hai mèo con trở lại ban công.",
+              "Hòn đảo lơ lửng vẫn ở đó, chờ trên những tầng mây.",
+              "Thầy mèo khẽ gừ gừ, và một bậc thang phát sáng hiện ra.",
+              "Nó treo giữa không trung như một mảnh trăng.",
+              "Kori nhảy ngay lên, và bậc thang mờ dần rồi biến mất.",
+              "Nó lăn trở lại ban công với một tiếng bịch nhỏ.",
+              "Kiri gừ gừ thật dịu dàng, và một bậc thang mới bắt đầu sáng lên.",
+              "Kori nhắm mắt lại và gừ gừ cùng em gái.",
+              "Từng bậc một, cây cầu ánh sáng vươn dài trên bầu trời.",
+              "Robot Pip bay bên cạnh, đếm từng bậc thang.",
+              "Xa xa, cánh đầu tiên của cửa sao sáng lên.",
+              "Hôm đó, hai mèo con học được cách xây cầu từng bước thật bình tĩnh."
+            ],
+            "bn": [
+              "পরদিন সকালে ছানারা আবার বারান্দায় এল।",
+              "ভাসমান দ্বীপটা তখনও সেখানে, মেঘের উপরে অপেক্ষায়।",
+              "শিক্ষক বিড়াল আস্তে গরগর করল, আর একটা জ্বলজ্বলে ধাপ দেখা দিল।",
+              "সেটা চাঁদের টুকরোর মতো হাওয়ায় ঝুলে রইল।",
+              "কোরি সঙ্গে সঙ্গে তার উপর লাফ দিল, আর ধাপটা মিলিয়ে গেল।",
+              "সে ছোট্ট ধপ শব্দে গড়িয়ে বারান্দায় ফিরে এল।",
+              "কিরি নরম করে গরগর করল, আর নতুন একটা ধাপ জ্বলতে শুরু করল।",
+              "কোরি চোখ বুজে বোনের সঙ্গে গরগর করল।",
+              "ধাপে ধাপে আকাশজুড়ে আলোর সেতু গড়ে উঠল।",
+              "রোবট পিপ পাশে ভেসে প্রতিটি ধাপ গুনল।",
+              "দূরে, তারা-দরজার প্রথম কোণ জ্বলে উঠল।",
+              "সেদিন ছানারা শিখল, সেতু গড়তে হয় শান্তভাবে, এক পা এক পা করে।"
+            ],
+            "ur": [
+              "اگلی صبح بچے پھر بالکونی پر آئے۔",
+              "تیرتا جزیرہ اب بھی وہیں تھا، بادلوں کے اوپر منتظر۔",
+              "استاد بلے نے آہستہ سے خرخر کی، اور ایک چمکتی سیڑھی نمودار ہوئی۔",
+              "وہ ہوا میں چاند کے ٹکڑے کی طرح ٹکی تھی۔",
+              "کوری فوراً اس پر کودی، اور وہ مدھم ہو کر غائب ہو گئی۔",
+              "وہ ہلکی سی دھپ کے ساتھ واپس بالکونی پر لڑھک گئی۔",
+              "کیری نے نرمی سے خرخر کی، اور ایک نئی سیڑھی چمکنے لگی۔",
+              "کوری نے آنکھیں بند کیں اور اپنی بہن کے ساتھ خرخر کی۔",
+              "ایک ایک سیڑھی کر کے آسمان پر روشنی کا پل بنتا گیا۔",
+              "روبوٹ پِپ ان کے ساتھ تیرتا ہوا ہر سیڑھی گنتا رہا۔",
+              "دور، ستارہ دروازے کا پہلا کونا روشن ہو گیا۔",
+              "اس دن بچوں نے سیکھا کہ پل سکون سے، ایک ایک قدم کر کے بنتا ہے۔"
+            ],
+            "mr": [
+              "दुसऱ्या दिवशी सकाळी पिल्ले पुन्हा गच्चीवर आली.",
+              "तरंगते बेट अजूनही तिथेच होते, ढगांच्या वर वाट पाहत.",
+              "शिक्षक बोक्याने हळूच गुरगुर केली आणि एक चमकती पायरी प्रकट झाली.",
+              "ती चंद्राच्या तुकड्यासारखी हवेत लटकली होती.",
+              "कोरीने लगेच तिच्यावर उडी मारली आणि पायरी विरून गेली.",
+              "ती हलक्या धप्प आवाजाने पुन्हा गच्चीवर घरंगळली.",
+              "किरीने हळुवार गुरगुर केली आणि नवी पायरी चमकू लागली.",
+              "कोरीने डोळे मिटले आणि बहिणीसोबत गुरगुर केली.",
+              "एकेक पायरी करत आकाशात प्रकाशाचा पूल वाढत गेला.",
+              "रोबो पिप त्यांच्या शेजारी तरंगत प्रत्येक पायरी मोजत होता.",
+              "दूरवर तारा-दाराचे पहिले टोक उजळले.",
+              "त्या दिवशी पिल्लांना कळले की पूल शांतपणे, एकेक पाऊल टाकत बांधतात."
+            ],
+            "te": [
+              "మరుసటి ఉదయం పిల్లలు మళ్లీ బాల్కనీకి వచ్చాయి.",
+              "తేలుతున్న ద్వీపం ఇంకా అక్కడే ఉంది, మేఘాల పైన ఎదురుచూస్తూ.",
+              "గురువు పిల్లి మెల్లగా గురగురమంది, మెరిసే ఒక మెట్టు కనిపించింది.",
+              "అది చంద్రుని ముక్కలా గాలిలో వేలాడింది.",
+              "కోరి వెంటనే దానిపై దూకింది, అది మసకబారి మాయమైంది.",
+              "ఆమె చిన్న దబ్బుమనే శబ్దంతో బాల్కనీపైకి దొర్లింది.",
+              "కిరి మృదువుగా గురగురమంది, కొత్త మెట్టు మెరవడం మొదలైంది.",
+              "కోరి కళ్లు మూసుకుని చెల్లితో కలిసి గురగురమంది.",
+              "ఒక్కో మెట్టుగా ఆకాశంలో వెలుగు వంతెన పెరిగింది.",
+              "రోబో పిప్ వారి పక్కనే తేలుతూ ప్రతి మెట్టునూ లెక్కపెట్టింది.",
+              "దూరంగా నక్షత్ర తలుపు మొదటి కొన వెలిగింది.",
+              "ఆ రోజు పిల్లలు, వంతెనను ప్రశాంతంగా ఒక్కో అడుగుగా కట్టాలని నేర్చుకున్నాయి."
+            ],
+            "ta": [
+              "மறுநாள் காலை குட்டிகள் மீண்டும் மாடத்துக்கு வந்தன.",
+              "மிதக்கும் தீவு இன்னும் அங்கேயே, மேகங்களுக்கு மேலே காத்திருந்தது.",
+              "ஆசிரியர் பூனை மெதுவாக உறுமியது; ஒளிரும் ஒரு படி தோன்றியது.",
+              "அது நிலவின் ஒரு துண்டு போலக் காற்றில் தொங்கியது.",
+              "கோரி உடனே அதன் மேல் குதித்தாள்; படி மங்கி மறைந்தது.",
+              "அவள் சிறு தட்டுடன் மாடத்துக்கே உருண்டு விழுந்தாள்.",
+              "கிரி மென்மையாக உறுமினாள்; புதிய படி ஒளிரத் தொடங்கியது.",
+              "கோரி கண்களை மூடித் தங்கையுடன் சேர்ந்து உறுமினாள்.",
+              "படி படியாக, வானில் ஒளிப் பாலம் வளர்ந்தது.",
+              "ரோபோ பிப் அருகில் மிதந்து ஒவ்வொரு படியையும் எண்ணியது.",
+              "தொலைவில், நட்சத்திரக் கதவின் முதல் முனை ஒளிர்ந்தது.",
+              "அன்று குட்டிகள், பாலத்தை அமைதியாக ஒவ்வொரு அடியாகக் கட்ட வேண்டும் என்று கற்றன."
             ]
           }
         }

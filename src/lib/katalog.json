@@ -3837,7 +3837,7 @@
       "name": "Kiko",
       "tr": "Her sabah kaybolan anahtar.",
       "en": "The key that gets lost every morning.",
-      "episodes": 19,
+      "episodes": 20,
       "loc": {
         "de": "Der Schlüssel, der jeden Morgen verloren geht.",
         "fr": "La clé qui se perd tous les matins.",
@@ -3864,7 +3864,7 @@
       "name": "Nudl",
       "tr": "Çözülmek isterken düğüm olan kablo.",
       "en": "The cable that tangles while untangling.",
-      "episodes": 19,
+      "episodes": 20,
       "loc": {
         "de": "Das Kabel, das sich beim Entwirren verheddert.",
         "fr": "Le câble qui s'emmêle en se démêlant.",
@@ -3891,7 +3891,7 @@
       "name": "Pix",
       "tr": "Ekrandaki tek piksel. Fark edilsin.",
       "en": "One pixel on the screen. Notice it.",
-      "episodes": 19,
+      "episodes": 20,
       "loc": {
         "de": "Ein Pixel auf dem Bildschirm. Bemerk ihn.",
         "fr": "Un pixel sur l'écran. Remarque-le.",
@@ -3918,7 +3918,7 @@
       "name": "Boon",
       "tr": "Patlamamaya çalışan bir balon.",
       "en": "A balloon trying not to pop.",
-      "episodes": 19,
+      "episodes": 20,
       "loc": {
         "de": "Ein Ballon, der nicht platzen will.",
         "fr": "Un ballon qui essaie de ne pas éclater.",
@@ -3945,7 +3945,7 @@
       "name": "Sprout",
       "tr": "Sulanmayı bekleyen küçük filiz.",
       "en": "A little sprout waiting for water.",
-      "episodes": 19,
+      "episodes": 20,
       "loc": {
         "de": "Ein kleiner Spross wartet auf Wasser.",
         "fr": "Une petite pousse qui attend de l'eau.",
@@ -3972,7 +3972,7 @@
       "name": "Ding",
       "tr": "Yanlış kata basan asansör düğmesi.",
       "en": "The elevator button that picks the wrong floor.",
-      "episodes": 19,
+      "episodes": 20,
       "loc": {
         "de": "Der Aufzugknopf, der das falsche Stockwerk wählt.",
         "fr": "Le bouton d'ascenseur qui choisit le mauvais étage.",
@@ -4019,14 +4019,14 @@
         "te": "చీటీని పడనివ్వకూడదని ప్రయత్నించే అయస్కాంతం.",
         "ta": "குறிப்பைக் கீழே விழவிடாமல் முயலும் காந்தம்."
       },
-      "episodes": 19
+      "episodes": 20
     },
     {
       "key": "lemi",
       "name": "Lemi",
       "tr": "Buzdolabının arkasında unutulmuş limon.",
       "en": "The lemon forgotten at the back of the fridge.",
-      "episodes": 19,
+      "episodes": 20,
       "loc": {
         "de": "Die Zitrone, hinten im Kühlschrank vergessen.",
         "fr": "Le citron oublié au fond du frigo.",

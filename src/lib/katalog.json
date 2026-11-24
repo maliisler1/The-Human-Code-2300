@@ -2519,7 +2519,7 @@
       "name": "The Cloud Cat School",
       "tr": "Yüzyıllar sonra, bulutların üstündeki cam şehirde bir kedi okulu: Abram'ın yavruları Kiri ve Kori ışık kürelerini mırıltıyla yakmayı öğreniyor, kimsenin açamadığı eski kapının sırrını arıyor. Anlatıcılı, 1 dakikalık bölümler.",
       "en": "Centuries from now, a cat school in a glass city above the clouds: Abram's kittens Kiri and Kori learn to light glowing orbs with a purr and search for the secret of an old door no one can open. Narrated one-minute episodes.",
-      "episodes": 2,
+      "episodes": 3,
       "loc": {
         "de": "In ferner Zukunft, eine Katzenschule in einer Glasstadt über den Wolken: Abrams Kätzchen Kiri und Kori lernen, Lichtkugeln mit einem Schnurren zu entzünden, und suchen das Geheimnis einer alten Tür, die niemand öffnen kann. Erzählte Ein-Minuten-Folgen.",
         "fr": "Dans un lointain futur, une école de chats dans une ville de verre au-dessus des nuages : Kiri et Kori, les chatons d'Abram, apprennent à allumer des sphères de lumière en ronronnant et cherchent le secret d'une vieille porte que personne ne peut ouvrir. Épisodes narrés d'une minute.",
@@ -3206,6 +3206,340 @@
               "மெதுவாக அவள் கோளமும் ஒளிரத் தொடங்கியது.",
               "தொலைவில், பழைய கதவு ஒரு கணம் ரீங்காரமிட்டு, பின் அமைதியானது.",
               "அன்று குட்டிகள், மென்மையான உறுமலே அதிக ஒளியைச் சுமக்கும் என்று கற்றன."
+            ]
+          }
+        },
+        "3": {
+          "cues": [
+            [
+              0.2,
+              9.48
+            ],
+            [
+              9.88,
+              16.68
+            ],
+            [
+              17.08,
+              24.88
+            ],
+            [
+              25.28,
+              30.0
+            ],
+            [
+              30.4,
+              36.44
+            ],
+            [
+              36.84,
+              42.84
+            ],
+            [
+              43.24,
+              48.24
+            ],
+            [
+              48.64,
+              54.32
+            ],
+            [
+              54.72,
+              62.28
+            ],
+            [
+              62.68,
+              67.4
+            ],
+            [
+              67.8,
+              74.24
+            ],
+            [
+              74.64,
+              83.04
+            ]
+          ],
+          "text": {
+            "en": [
+              "On the third day, a soft mist filled the glass dome.",
+              "The kittens could not see the path in front of them.",
+              "The teacher cat closed his eyes and walked straight ahead.",
+              "His long whiskers trembled, feeling every leaf and flower.",
+              "Kori ran into the mist and bumped into a tree.",
+              "She shook her head and sat down, a little dizzy.",
+              "Kiri closed her eyes and let her whiskers lead the way.",
+              "Step by step, she found the path through the mist.",
+              "Kori followed close behind, holding on to Kiri's tail.",
+              "Together they reached a small glowing mark on the old door.",
+              "It was a paw print, shining like a tiny moon.",
+              "That day, the kittens learned to trust what they cannot see."
+            ],
+            "tr": [
+              "Üçüncü gün cam kubbeyi yumuşak bir sis doldurdu.",
+              "Yavrular önlerindeki yolu göremiyordu.",
+              "Öğretmen kedi gözlerini kapadı ve dümdüz yürüdü.",
+              "Uzun bıyıkları titriyor, her yaprağı ve çiçeği hissediyordu.",
+              "Kori sisin içine koştu ve bir ağaca çarptı.",
+              "Başını silkeledi ve biraz sersemlemiş halde oturdu.",
+              "Kiri gözlerini kapadı ve yolu bıyıklarına bıraktı.",
+              "Adım adım, sisin içinden yolu buldu.",
+              "Kori, Kiri'nin kuyruğuna tutunarak hemen arkasından geldi.",
+              "Birlikte eski kapının üzerindeki küçük, parlayan bir işarete ulaştılar.",
+              "Bu, minik bir ay gibi parlayan bir pati iziydi.",
+              "O gün yavrular, göremediklerine güvenmeyi öğrendi."
+            ],
+            "de": [
+              "Am dritten Tag füllte ein sanfter Nebel die Glaskuppel.",
+              "Die Kätzchen konnten den Weg vor sich nicht sehen.",
+              "Die Lehrerkatze schloss die Augen und ging einfach geradeaus.",
+              "Ihre langen Schnurrhaare zitterten und spürten jedes Blatt und jede Blume.",
+              "Kori rannte in den Nebel und stieß gegen einen Baum.",
+              "Sie schüttelte den Kopf und setzte sich, ein wenig benommen.",
+              "Kiri schloss die Augen und ließ sich von ihren Schnurrhaaren führen.",
+              "Schritt für Schritt fand sie den Weg durch den Nebel.",
+              "Kori folgte dicht dahinter und hielt sich an Kiris Schwanz fest.",
+              "Gemeinsam erreichten sie ein kleines leuchtendes Zeichen an der alten Tür.",
+              "Es war ein Pfotenabdruck, der wie ein winziger Mond schimmerte.",
+              "An diesem Tag lernten die Kätzchen, dem zu vertrauen, was sie nicht sehen können."
+            ],
+            "fr": [
+              "Le troisième jour, une douce brume remplit le dôme de verre.",
+              "Les chatons ne voyaient plus le chemin devant eux.",
+              "Le chat professeur ferma les yeux et marcha tout droit.",
+              "Ses longues moustaches tremblaient, sentant chaque feuille et chaque fleur.",
+              "Kori courut dans la brume et se cogna contre un arbre.",
+              "Elle secoua la tête et s'assit, un peu étourdie.",
+              "Kiri ferma les yeux et laissa ses moustaches la guider.",
+              "Pas à pas, elle trouva le chemin à travers la brume.",
+              "Kori la suivit de près, accrochée à la queue de Kiri.",
+              "Ensemble, elles atteignirent une petite marque lumineuse sur la vieille porte.",
+              "C'était une empreinte de patte, brillante comme une petite lune.",
+              "Ce jour-là, les chatons apprirent à faire confiance à ce qu'ils ne voient pas."
+            ],
+            "es": [
+              "Al tercer día, una suave niebla llenó la cúpula de cristal.",
+              "Las gatitas no podían ver el camino que tenían delante.",
+              "El gato maestro cerró los ojos y caminó en línea recta.",
+              "Sus largos bigotes temblaban, sintiendo cada hoja y cada flor.",
+              "Kori corrió hacia la niebla y chocó contra un árbol.",
+              "Sacudió la cabeza y se sentó, un poco mareada.",
+              "Kiri cerró los ojos y dejó que sus bigotes la guiaran.",
+              "Paso a paso, encontró el camino a través de la niebla.",
+              "Kori la siguió de cerca, agarrada a la cola de Kiri.",
+              "Juntas llegaron a una pequeña marca brillante en la vieja puerta.",
+              "Era una huella de pata que brillaba como una luna diminuta.",
+              "Ese día, las gatitas aprendieron a confiar en lo que no pueden ver."
+            ],
+            "pt": [
+              "No terceiro dia, uma névoa suave encheu a cúpula de vidro.",
+              "As gatinhas não conseguiam ver o caminho à frente.",
+              "O gato professor fechou os olhos e andou em linha reta.",
+              "Seus longos bigodes tremiam, sentindo cada folha e cada flor.",
+              "Kori correu para a névoa e bateu numa árvore.",
+              "Ela sacudiu a cabeça e sentou-se, um pouco tonta.",
+              "Kiri fechou os olhos e deixou os bigodes mostrarem o caminho.",
+              "Passo a passo, ela encontrou o caminho pela névoa.",
+              "Kori seguiu logo atrás, segurando a cauda de Kiri.",
+              "Juntas chegaram a uma pequena marca brilhante na velha porta.",
+              "Era uma pegada de pata, brilhando como uma pequena lua.",
+              "Naquele dia, as gatinhas aprenderam a confiar no que não podem ver."
+            ],
+            "it": [
+              "Il terzo giorno, una nebbia leggera riempì la cupola di vetro.",
+              "Le gattine non riuscivano a vedere il sentiero davanti a loro.",
+              "Il gatto maestro chiuse gli occhi e camminò dritto.",
+              "I suoi lunghi baffi tremavano, sentendo ogni foglia e ogni fiore.",
+              "Kori corse nella nebbia e sbatté contro un albero.",
+              "Scosse la testa e si sedette, un po' stordita.",
+              "Kiri chiuse gli occhi e si lasciò guidare dai baffi.",
+              "Passo dopo passo, trovò il sentiero nella nebbia.",
+              "Kori la seguì da vicino, tenendosi alla coda di Kiri.",
+              "Insieme raggiunsero un piccolo segno luminoso sulla vecchia porta.",
+              "Era un'impronta di zampa, lucente come una piccola luna.",
+              "Quel giorno, le gattine impararono a fidarsi di ciò che non si vede."
+            ],
+            "ru": [
+              "На третий день стеклянный купол наполнил мягкий туман.",
+              "Котята не видели тропинку перед собой.",
+              "Кот-учитель закрыл глаза и пошёл прямо вперёд.",
+              "Его длинные усы дрожали, чувствуя каждый лист и цветок.",
+              "Кори побежала в туман и врезалась в дерево.",
+              "Она тряхнула головой и села, слегка оглушённая.",
+              "Кири закрыла глаза и позволила усам вести её.",
+              "Шаг за шагом она нашла тропинку сквозь туман.",
+              "Кори шла следом, держась за хвост Кири.",
+              "Вместе они дошли до маленького светящегося знака на старой двери.",
+              "Это был отпечаток лапы, сияющий, как крошечная луна.",
+              "В тот день котята научились доверять тому, чего не видят."
+            ],
+            "ar": [
+              "في اليوم الثالث ملأ ضباب خفيف القبة الزجاجية.",
+              "لم تستطع القطتان رؤية الطريق أمامهما.",
+              "أغمض القط المعلّم عينيه ومشى مستقيمًا إلى الأمام.",
+              "كانت شواربه الطويلة ترتجف وتتحسس كل ورقة وزهرة.",
+              "ركضت كوري في الضباب واصطدمت بشجرة.",
+              "هزّت رأسها وجلست وهي تشعر بدوار خفيف.",
+              "أغمضت كيري عينيها وتركت شواربها تقودها.",
+              "خطوة خطوة وجدت الطريق عبر الضباب.",
+              "تبعتها كوري عن قرب ممسكة بذيل كيري.",
+              "وصلتا معًا إلى علامة صغيرة متوهجة على الباب القديم.",
+              "كانت أثر كفّ يلمع كقمر صغير.",
+              "في ذلك اليوم تعلّمت القطتان أن تثقا بما لا تريانه."
+            ],
+            "hi": [
+              "तीसरे दिन काँच के गुंबद में हल्की धुंध भर गई।",
+              "बच्चों को अपने सामने का रास्ता दिखाई नहीं दे रहा था।",
+              "शिक्षक बिल्ले ने आँखें बंद कीं और सीधा चल पड़ा।",
+              "उसकी लंबी मूँछें काँप रही थीं, हर पत्ते और फूल को महसूस करती हुईं।",
+              "कोरी धुंध में दौड़ी और एक पेड़ से टकरा गई।",
+              "उसने सिर झटका और थोड़ी चकराई हुई बैठ गई।",
+              "किरी ने आँखें बंद कीं और अपनी मूँछों को रास्ता दिखाने दिया।",
+              "कदम-कदम करके उसने धुंध में रास्ता ढूँढ लिया।",
+              "कोरी किरी की पूँछ पकड़े ठीक पीछे चलती रही।",
+              "दोनों साथ में पुराने दरवाज़े पर एक छोटे चमकते निशान तक पहुँचीं।",
+              "वह एक पंजे का निशान था, नन्हे चाँद की तरह चमकता हुआ।",
+              "उस दिन बच्चों ने उस पर भरोसा करना सीखा जो दिखाई नहीं देता।"
+            ],
+            "zh": [
+              "第三天，柔和的薄雾弥漫了玻璃穹顶。",
+              "小猫们看不见眼前的路。",
+              "猫老师闭上眼睛，径直往前走。",
+              "他长长的胡须轻轻颤动，感受着每一片叶子和每一朵花。",
+              "科里冲进雾里，撞到了一棵树。",
+              "她甩甩头，坐了下来，有点晕。",
+              "奇里闭上眼睛，让胡须来带路。",
+              "一步一步，她在雾中找到了路。",
+              "科里拉着奇里的尾巴，紧紧跟在后面。",
+              "她们一起来到旧门上一个发光的小记号前。",
+              "那是一个爪印，像小月亮一样闪亮。",
+              "那一天，小猫们学会了相信看不见的东西。"
+            ],
+            "ja": [
+              "三日目、やわらかな霧がガラスのドームに広がりました。",
+              "子猫たちには、目の前の道が見えません。",
+              "先生猫は目を閉じて、まっすぐ歩いていきました。",
+              "長いひげがふるえて、葉っぱや花をひとつずつ感じとっていました。",
+              "コリは霧の中へ走って、木にぶつかりました。",
+              "頭をふって、少しくらくらしながら座りこみました。",
+              "キリは目を閉じて、ひげに道をまかせました。",
+              "一歩ずつ、霧の中の道を見つけていきました。",
+              "コリはキリのしっぽにつかまって、すぐ後ろをついていきました。",
+              "ふたりはいっしょに、古い扉の小さな光るしるしにたどり着きました。",
+              "それは小さな月のように輝く、肉球のあとでした。",
+              "その日子猫たちは、見えないものを信じることを学びました。"
+            ],
+            "ko": [
+              "셋째 날, 부드러운 안개가 유리 돔을 가득 채웠어요.",
+              "아기 고양이들은 눈앞의 길이 보이지 않았어요.",
+              "선생님 고양이는 눈을 감고 곧장 앞으로 걸어갔어요.",
+              "긴 수염이 파르르 떨리며 잎사귀와 꽃을 하나하나 느꼈어요.",
+              "코리는 안개 속으로 달려가다 나무에 부딪혔어요.",
+              "머리를 흔들고는 조금 어지러워 주저앉았어요.",
+              "키리는 눈을 감고 수염이 길을 이끌게 했어요.",
+              "한 걸음 한 걸음, 안개 속에서 길을 찾았어요.",
+              "코리는 키리의 꼬리를 붙잡고 바짝 뒤따랐어요.",
+              "둘은 함께 오래된 문 위의 작고 빛나는 표시에 다다랐어요.",
+              "그것은 작은 달처럼 빛나는 발자국이었어요.",
+              "그날 아기 고양이들은 보이지 않는 것을 믿는 법을 배웠어요."
+            ],
+            "id": [
+              "Pada hari ketiga, kabut lembut memenuhi kubah kaca.",
+              "Anak-anak kucing tidak bisa melihat jalan di depan mereka.",
+              "Kucing guru memejamkan mata dan berjalan lurus ke depan.",
+              "Kumisnya yang panjang bergetar, merasakan setiap daun dan bunga.",
+              "Kori berlari ke dalam kabut dan menabrak pohon.",
+              "Ia menggelengkan kepala dan duduk, sedikit pusing.",
+              "Kiri memejamkan mata dan membiarkan kumisnya menuntun jalan.",
+              "Selangkah demi selangkah, ia menemukan jalan menembus kabut.",
+              "Kori mengikuti dari dekat sambil memegang ekor Kiri.",
+              "Bersama-sama mereka sampai pada tanda kecil bercahaya di pintu tua.",
+              "Itu adalah jejak kaki kucing yang bersinar seperti bulan mungil.",
+              "Hari itu, anak-anak kucing belajar memercayai apa yang tak terlihat."
+            ],
+            "vi": [
+              "Ngày thứ ba, một làn sương nhẹ phủ đầy mái vòm kính.",
+              "Hai mèo con không nhìn thấy lối đi trước mặt.",
+              "Thầy mèo nhắm mắt lại và bước thẳng về phía trước.",
+              "Bộ ria dài của thầy rung rung, cảm nhận từng chiếc lá và bông hoa.",
+              "Kori chạy vào sương và va phải một cái cây.",
+              "Cô bé lắc đầu rồi ngồi xuống, hơi choáng váng.",
+              "Kiri nhắm mắt lại và để bộ ria dẫn đường.",
+              "Từng bước một, cô bé tìm được lối đi qua màn sương.",
+              "Kori theo sát phía sau, bám vào đuôi Kiri.",
+              "Cùng nhau, chúng đến trước một dấu nhỏ phát sáng trên cánh cửa cũ.",
+              "Đó là một dấu chân mèo, sáng như một vầng trăng tí hon.",
+              "Hôm đó, hai mèo con học cách tin vào điều mình không nhìn thấy."
+            ],
+            "bn": [
+              "তৃতীয় দিনে কাচের গম্বুজ নরম কুয়াশায় ভরে গেল।",
+              "ছানারা সামনের পথ দেখতে পাচ্ছিল না।",
+              "শিক্ষক বিড়াল চোখ বন্ধ করে সোজা হেঁটে চলল।",
+              "তার লম্বা গোঁফ কাঁপছিল, প্রতিটি পাতা আর ফুল অনুভব করছিল।",
+              "কোরি কুয়াশার মধ্যে দৌড়ে গিয়ে একটা গাছে ধাক্কা খেল।",
+              "সে মাথা ঝাঁকিয়ে একটু টলমল করে বসে পড়ল।",
+              "কিরি চোখ বন্ধ করে গোঁফকে পথ দেখাতে দিল।",
+              "পা ফেলে ফেলে সে কুয়াশার ভেতর পথ খুঁজে পেল।",
+              "কোরি কিরির লেজ ধরে ঠিক পেছনে চলল।",
+              "দুজনে মিলে পুরোনো দরজার গায়ে একটা ছোট্ট জ্বলজ্বলে চিহ্নের কাছে পৌঁছাল।",
+              "সেটা ছিল একটা থাবার ছাপ, ছোট্ট চাঁদের মতো ঝলমলে।",
+              "সেদিন ছানারা শিখল, যা দেখা যায় না তাকেও বিশ্বাস করতে।"
+            ],
+            "ur": [
+              "تیسرے دن شیشے کے گنبد میں ہلکی دھند بھر گئی۔",
+              "بچوں کو اپنے سامنے کا راستہ نظر نہیں آ رہا تھا۔",
+              "استاد بلے نے آنکھیں بند کیں اور سیدھا چل پڑا۔",
+              "اس کی لمبی مونچھیں کانپ رہی تھیں، ہر پتے اور پھول کو محسوس کرتی ہوئیں۔",
+              "کوری دھند میں دوڑی اور ایک درخت سے ٹکرا گئی۔",
+              "اس نے سر جھٹکا اور ذرا چکراتی ہوئی بیٹھ گئی۔",
+              "کیری نے آنکھیں بند کیں اور اپنی مونچھوں کو راستہ دکھانے دیا۔",
+              "قدم قدم کر کے اس نے دھند میں راستہ ڈھونڈ لیا۔",
+              "کوری کیری کی دم پکڑے بالکل پیچھے چلتی رہی۔",
+              "دونوں ساتھ پرانے دروازے پر ایک چھوٹے چمکتے نشان تک پہنچیں۔",
+              "وہ ایک پنجے کا نشان تھا، ننھے چاند کی طرح چمکتا ہوا۔",
+              "اس دن بچوں نے اس پر بھروسا کرنا سیکھا جو نظر نہیں آتا۔"
+            ],
+            "mr": [
+              "तिसऱ्या दिवशी काचेच्या घुमटात मऊ धुके भरले.",
+              "पिल्लांना समोरची वाट दिसत नव्हती.",
+              "शिक्षक बोक्याने डोळे मिटले आणि तो सरळ चालत गेला.",
+              "त्याच्या लांब मिशा थरथरत होत्या, प्रत्येक पान आणि फूल जाणवत होते.",
+              "कोरी धुक्यात धावली आणि एका झाडाला धडकली.",
+              "तिने डोके हलवले आणि थोडी भोवळ येऊन खाली बसली.",
+              "किरीने डोळे मिटले आणि मिशांना वाट दाखवू दिली.",
+              "पाऊल पाऊल टाकत तिला धुक्यातून वाट सापडली.",
+              "कोरी किरीची शेपटी धरून अगदी मागोमाग आली.",
+              "दोघी मिळून जुन्या दारावरच्या एका छोट्या चमकणाऱ्या खुणेपाशी पोहोचल्या.",
+              "तो पंजाचा ठसा होता, चिमुकल्या चंद्रासारखा चमकणारा.",
+              "त्या दिवशी पिल्ले जे दिसत नाही त्यावर विश्वास ठेवायला शिकली."
+            ],
+            "te": [
+              "మూడవ రోజు గాజు గోపురాన్ని మెత్తని పొగమంచు నింపింది.",
+              "పిల్లలకు ముందున్న దారి కనిపించలేదు.",
+              "గురువు పిల్లి కళ్లు మూసుకుని నేరుగా ముందుకు నడిచింది.",
+              "దాని పొడవైన మీసాలు వణుకుతూ ప్రతి ఆకును, పువ్వును తాకి తెలుసుకున్నాయి.",
+              "కోరి పొగమంచులోకి పరుగెత్తి ఒక చెట్టుకు గుద్దుకుంది.",
+              "ఆమె తల విదిలించి, కొంచెం కళ్లు తిరిగి కూర్చుంది.",
+              "కిరి కళ్లు మూసుకుని మీసాలకే దారి చూపనిచ్చింది.",
+              "అడుగు అడుగుగా ఆమె పొగమంచులో దారి కనుగొంది.",
+              "కోరి కిరి తోక పట్టుకుని వెనకే అనుసరించింది.",
+              "ఇద్దరూ కలిసి పాత తలుపుపై ఉన్న చిన్న మెరిసే గుర్తును చేరుకున్నారు.",
+              "అది చిన్న చంద్రుడిలా మెరుస్తున్న పంజా ముద్ర.",
+              "ఆ రోజు పిల్లలు కనిపించని దానిని నమ్మడం నేర్చుకున్నాయి."
+            ],
+            "ta": [
+              "மூன்றாம் நாள், மென்மையான மூடுபனி கண்ணாடிக் குவிமாடத்தை நிரப்பியது.",
+              "குட்டிகளால் முன்னால் இருந்த பாதையைப் பார்க்க முடியவில்லை.",
+              "ஆசிரியர் பூனை கண்களை மூடி நேராக நடந்தது.",
+              "அதன் நீண்ட மீசை நடுங்கி, ஒவ்வொரு இலையையும் பூவையும் உணர்ந்தது.",
+              "கோரி மூடுபனிக்குள் ஓடி ஒரு மரத்தில் மோதினாள்.",
+              "தலையை உலுக்கி, சற்றுத் தலைசுற்றலுடன் அமர்ந்தாள்.",
+              "கிரி கண்களை மூடி, தன் மீசையே வழிகாட்ட விட்டாள்.",
+              "அடி அடியாக, மூடுபனியில் பாதையைக் கண்டுபிடித்தாள்.",
+              "கோரி கிரியின் வாலைப் பிடித்தபடி பின்னாலேயே வந்தாள்.",
+              "இருவரும் சேர்ந்து பழைய கதவில் இருந்த சிறிய ஒளிரும் குறியை அடைந்தனர்.",
+              "அது சிறிய நிலவைப் போல ஒளிரும் பாதச்சுவடு.",
+              "அன்று குட்டிகள் கண்ணுக்குத் தெரியாததை நம்பக் கற்றன."
             ]
           }
         }

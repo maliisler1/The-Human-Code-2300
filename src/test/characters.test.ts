@@ -4,7 +4,7 @@ import { BUNDLED_CATALOG, UPCOMING_CHARACTERS, catalogPaths, characterEpisode, p
 describe("animasyon kataloğu", () => {
   it("uygulamayla gelen katalogda 24 karakterin hepsi bölümlü", () => {
     const { featured, soon } = splitCharacters(UPCOMING_CHARACTERS);
-    expect(featured.map((c) => c.key).slice(0, 5)).toEqual(["abram-hikayesi", "buyulu-okul", "leon", "nova", "bip"]);
+    expect(featured.map((c) => c.key).slice(0, 5)).toEqual(["abram-hikayesi", "bulut-okulu", "leon", "nova", "bip"]);
     expect(featured).toHaveLength(25);
     expect(soon).toHaveLength(0);
   });
@@ -16,8 +16,8 @@ describe("animasyon kataloğu", () => {
   });
   it("depoda olması gereken dosyaları sayar", () => {
     // 24 fragman + 21 karakter x 10 bölüm + Dusty'nin 5 ek bölümü + Abram, Leon ve Nova'nın 1'er bölümü; afişler uygulamayla gelir.
-    expect(catalogPaths(BUNDLED_CATALOG)).toHaveLength(25 + 422 + 5 + 3);
-    expect(catalogPaths(BUNDLED_CATALOG, true)).toHaveLength(25 + 422 + 5 + 3 + 25);
+    expect(catalogPaths(BUNDLED_CATALOG)).toHaveLength(25 + 420 + 5 + 3);
+    expect(catalogPaths(BUNDLED_CATALOG, true)).toHaveLength(25 + 420 + 5 + 3 + 25);
     expect(catalogPaths([{ key: "yeni", name: "Yeni", tr: "a", en: "b", episodes: 2 }])).toEqual([
       "karakterler/yeni.mp4",
       "karakterler/yeni.webp",

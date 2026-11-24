@@ -2519,7 +2519,7 @@
       "name": "The Cloud Cat School",
       "tr": "Yüzyıllar sonra, bulutların üstündeki cam şehirde bir kedi okulu: Abram'ın yavruları Kiri ve Kori ışık kürelerini mırıltıyla yakmayı öğreniyor, kimsenin açamadığı eski kapının sırrını arıyor. Anlatıcılı, 1 dakikalık bölümler.",
       "en": "Centuries from now, a cat school in a glass city above the clouds: Abram's kittens Kiri and Kori learn to light glowing orbs with a purr and search for the secret of an old door no one can open. Narrated one-minute episodes.",
-      "episodes": 9,
+      "episodes": 10,
       "loc": {
         "de": "In ferner Zukunft, eine Katzenschule in einer Glasstadt über den Wolken: Abrams Kätzchen Kiri und Kori lernen, Lichtkugeln mit einem Schnurren zu entzünden, und suchen das Geheimnis einer alten Tür, die niemand öffnen kann. Erzählte Ein-Minuten-Folgen.",
         "fr": "Dans un lointain futur, une école de chats dans une ville de verre au-dessus des nuages : Kiri et Kori, les chatons d'Abram, apprennent à allumer des sphères de lumière en ronronnant et cherchent le secret d'une vieille porte que personne ne peut ouvrir. Épisodes narrés d'une minute.",
@@ -5544,6 +5544,340 @@
               "ஆசிரியர் பூனை கண் திறந்தபோது, குவிமாடம் முழுவதும் ஒளிர்ந்தது.",
               "அது புன்னகைத்தது; பழைய கதவில் ஏழாவது பாதச்சுவடு ஒளிர்ந்தது.",
               "அன்று குட்டிகள், சிறந்த மாணவர்களே ஆசிரியர்களாகிறார்கள் என்று கற்றன."
+            ]
+          }
+        },
+        "10": {
+          "cues": [
+            [
+              0.2,
+              4.92
+            ],
+            [
+              5.32,
+              10.05
+            ],
+            [
+              10.45,
+              15.17
+            ],
+            [
+              15.57,
+              20.29
+            ],
+            [
+              20.69,
+              25.42
+            ],
+            [
+              25.82,
+              30.54
+            ],
+            [
+              30.94,
+              35.66
+            ],
+            [
+              36.06,
+              40.79
+            ],
+            [
+              41.19,
+              45.91
+            ],
+            [
+              46.31,
+              51.03
+            ],
+            [
+              51.43,
+              56.16
+            ],
+            [
+              56.56,
+              61.28
+            ]
+          ],
+          "text": {
+            "en": [
+              "On the tenth day, seven paw prints glowed on the old door.",
+              "One last mark was still dark.",
+              "The teacher cat gathered everyone in front of it.",
+              "Kori and Kiri looked at each other and understood.",
+              "They pressed their paws on the door at the same time.",
+              "The eighth print lit up, and the round door slowly opened.",
+              "Behind it was a small balcony above the clouds.",
+              "A sky full of stars stretched out before them.",
+              "Abram was waiting there, calm and proud.",
+              "She touched noses with her kittens under the starlight.",
+              "Pip the robot spun with joy, and every orb in the dome shone.",
+              "That night, the kittens learned that the last door opens only together."
+            ],
+            "tr": [
+              "Onuncu gün eski kapıda yedi pati izi parlıyordu.",
+              "Son bir iz hâlâ karanlıktı.",
+              "Öğretmen kedi herkesi kapının önünde topladı.",
+              "Kori ile Kiri birbirine baktı ve anladı.",
+              "Patilerini aynı anda kapıya bastırdılar.",
+              "Sekizinci iz yandı ve yuvarlak kapı yavaşça açıldı.",
+              "Arkasında bulutların üstünde küçük bir balkon vardı.",
+              "Önlerinde yıldızlarla dolu bir gökyüzü uzanıyordu.",
+              "Abram orada bekliyordu; sakin ve gururlu.",
+              "Yıldız ışığının altında yavrularıyla burun buruna dokundu.",
+              "Robot Pip sevinçle döndü ve kubbedeki bütün küreler parladı.",
+              "O gece yavrular, son kapının ancak birlikte açıldığını öğrendi."
+            ],
+            "de": [
+              "Am zehnten Tag leuchteten sieben Pfotenabdrücke an der alten Tür.",
+              "Ein letztes Zeichen war noch dunkel.",
+              "Die Lehrerkatze versammelte alle davor.",
+              "Kori und Kiri sahen einander an und verstanden.",
+              "Sie drückten ihre Pfoten gleichzeitig auf die Tür.",
+              "Der achte Abdruck leuchtete auf, und die runde Tür öffnete sich langsam.",
+              "Dahinter lag ein kleiner Balkon über den Wolken.",
+              "Ein Himmel voller Sterne breitete sich vor ihnen aus.",
+              "Abram wartete dort, ruhig und stolz.",
+              "Im Sternenlicht berührte sie die Nasen ihrer Kätzchen.",
+              "Pip, der Roboter, drehte sich vor Freude, und jede Kugel in der Kuppel strahlte.",
+              "In dieser Nacht lernten die Kätzchen, dass sich die letzte Tür nur gemeinsam öffnet."
+            ],
+            "fr": [
+              "Le dixième jour, sept empreintes brillaient sur la vieille porte.",
+              "Une dernière marque restait sombre.",
+              "Le chat professeur rassembla tout le monde devant elle.",
+              "Kori et Kiri se regardèrent et comprirent.",
+              "Elles posèrent leurs pattes sur la porte en même temps.",
+              "La huitième empreinte s'alluma, et la porte ronde s'ouvrit lentement.",
+              "Derrière se trouvait un petit balcon au-dessus des nuages.",
+              "Un ciel rempli d'étoiles s'étendait devant elles.",
+              "Abram attendait là, calme et fière.",
+              "Elle toucha le nez de ses chatons sous la lumière des étoiles.",
+              "Pip le robot tournoya de joie, et toutes les sphères du dôme brillèrent.",
+              "Cette nuit-là, les chatons apprirent que la dernière porte ne s'ouvre qu'ensemble."
+            ],
+            "es": [
+              "El décimo día, siete huellas brillaban en la vieja puerta.",
+              "Una última marca seguía oscura.",
+              "El gato maestro reunió a todos frente a ella.",
+              "Kori y Kiri se miraron y lo entendieron.",
+              "Apoyaron las patas en la puerta al mismo tiempo.",
+              "La octava huella se encendió, y la puerta redonda se abrió despacio.",
+              "Detrás había un pequeño balcón sobre las nubes.",
+              "Un cielo lleno de estrellas se extendía ante ellas.",
+              "Abram esperaba allí, tranquila y orgullosa.",
+              "Tocó la nariz de sus gatitas bajo la luz de las estrellas.",
+              "Pip, el robot, giró de alegría, y todas las esferas de la cúpula brillaron.",
+              "Esa noche, las gatitas aprendieron que la última puerta solo se abre juntas."
+            ],
+            "pt": [
+              "No décimo dia, sete pegadas brilhavam na velha porta.",
+              "Uma última marca ainda estava escura.",
+              "O gato professor reuniu todos diante dela.",
+              "Kori e Kiri se olharam e entenderam.",
+              "Elas encostaram as patas na porta ao mesmo tempo.",
+              "A oitava pegada se acendeu, e a porta redonda se abriu devagar.",
+              "Atrás dela havia uma pequena varanda acima das nuvens.",
+              "Um céu cheio de estrelas se estendia diante delas.",
+              "Abram esperava ali, calma e orgulhosa.",
+              "Ela encostou o nariz nas filhotes sob a luz das estrelas.",
+              "Pip, o robô, girou de alegria, e todas as esferas da cúpula brilharam.",
+              "Naquela noite, as gatinhas aprenderam que a última porta só se abre juntas."
+            ],
+            "it": [
+              "Il decimo giorno, sette impronte brillavano sulla vecchia porta.",
+              "Un ultimo segno era ancora buio.",
+              "Il gatto maestro radunò tutti lì davanti.",
+              "Kori e Kiri si guardarono e capirono.",
+              "Premettero le zampe sulla porta nello stesso momento.",
+              "L'ottava impronta si accese, e la porta rotonda si aprì lentamente.",
+              "Dietro c'era un piccolo balcone sopra le nuvole.",
+              "Un cielo pieno di stelle si stendeva davanti a loro.",
+              "Abram aspettava lì, calma e fiera.",
+              "Toccò il naso delle sue gattine sotto la luce delle stelle.",
+              "Pip, il robot, girò su sé stesso dalla gioia, e ogni sfera della cupola risplendette.",
+              "Quella notte, le gattine impararono che l'ultima porta si apre solo insieme."
+            ],
+            "ru": [
+              "На десятый день на старой двери светилось семь отпечатков лап.",
+              "Последний знак всё ещё был тёмным.",
+              "Кот-учитель собрал всех перед дверью.",
+              "Кори и Кири посмотрели друг на друга и всё поняли.",
+              "Они одновременно прижали лапки к двери.",
+              "Загорелся восьмой отпечаток, и круглая дверь медленно открылась.",
+              "За ней был маленький балкон над облаками.",
+              "Перед ними раскинулось небо, полное звёзд.",
+              "Там ждала Абрам, спокойная и гордая.",
+              "Под светом звёзд она коснулась носом своих котят.",
+              "Робот Пип закружился от радости, и все шары под куполом засияли.",
+              "В ту ночь котята узнали, что последняя дверь открывается только вместе."
+            ],
+            "ar": [
+              "في اليوم العاشر كانت سبعة آثار كفوف تتوهج على الباب القديم.",
+              "بقيت علامة أخيرة معتمة.",
+              "جمع القط المعلّم الجميع أمام الباب.",
+              "نظرت كوري وكيري إحداهما إلى الأخرى وفهمتا.",
+              "وضعتا كفّيهما على الباب في اللحظة نفسها.",
+              "أضاء الأثر الثامن، وانفتح الباب المستدير ببطء.",
+              "خلفه كانت شرفة صغيرة فوق الغيوم.",
+              "امتدت أمامهما سماء مليئة بالنجوم.",
+              "كانت أبرام تنتظر هناك، هادئة وفخورة.",
+              "لامست أنوف صغيرتيها تحت ضوء النجوم.",
+              "دار الروبوت بيب فرحًا، وتلألأت كل كرة في القبة.",
+              "في تلك الليلة تعلّمت القطتان أن الباب الأخير لا يُفتح إلا معًا."
+            ],
+            "hi": [
+              "दसवें दिन पुराने दरवाज़े पर पंजों के सात निशान चमक रहे थे।",
+              "एक आख़िरी निशान अब भी अँधेरा था।",
+              "शिक्षक बिल्ले ने सबको उसके सामने इकट्ठा किया।",
+              "कोरी और किरी ने एक-दूसरे को देखा और समझ गईं।",
+              "उन्होंने एक साथ अपने पंजे दरवाज़े पर रखे।",
+              "आठवाँ निशान जल उठा, और गोल दरवाज़ा धीरे-धीरे खुल गया।",
+              "उसके पीछे बादलों के ऊपर एक छोटी बालकनी थी।",
+              "उनके सामने तारों से भरा आसमान फैला था।",
+              "अब्राम वहाँ इंतज़ार कर रही थी, शांत और गर्वित।",
+              "तारों की रोशनी में उसने अपने बच्चों से नाक मिलाई।",
+              "रोबोट पिप ख़ुशी से घूम उठा, और गुंबद का हर गोला चमक उठा।",
+              "उस रात बच्चों ने सीखा कि आख़िरी दरवाज़ा केवल साथ मिलकर खुलता है।"
+            ],
+            "zh": [
+              "第十天，旧门上有七个爪印在发光。",
+              "最后一个记号还暗着。",
+              "猫老师把大家都叫到了门前。",
+              "科里和奇里对视了一眼，明白了。",
+              "她们同时把爪子按在了门上。",
+              "第八个爪印亮了，圆门慢慢打开。",
+              "门后是一个云层之上的小阳台。",
+              "满天繁星在她们面前铺展开来。",
+              "阿布拉姆正等在那里，平静而骄傲。",
+              "星光下，她和小猫们碰了碰鼻子。",
+              "机器人皮普高兴得转起了圈，穹顶里每一颗光球都亮了。",
+              "那一夜，小猫们明白了，最后一扇门只有一起才能打开。"
+            ],
+            "ja": [
+              "十日目、古い扉には七つの肉球のあとが光っていました。",
+              "最後のしるしがひとつだけ、まだ暗いままです。",
+              "先生猫はみんなを扉の前に集めました。",
+              "コリとキリは顔を見合わせて、わかりました。",
+              "ふたりは同時に、前足を扉に押しあてました。",
+              "八つめのあとがともり、丸い扉がゆっくり開きました。",
+              "そのむこうには、雲の上の小さなバルコニーがありました。",
+              "目の前に、星でいっぱいの空が広がっていました。",
+              "そこにはアブラムが、静かにほこらしげに待っていました。",
+              "星明かりの下で、アブラムは子猫たちと鼻をふれあわせました。",
+              "ロボットのピップはうれしくてくるくる回り、ドームの玉がぜんぶ輝きました。",
+              "その夜子猫たちは、最後の扉はいっしょでなければ開かないと知りました。"
+            ],
+            "ko": [
+              "열째 날, 오래된 문에는 발자국 일곱 개가 빛나고 있었어요.",
+              "마지막 표시 하나만 아직 어두웠어요.",
+              "선생님 고양이가 모두를 문 앞에 모았어요.",
+              "코리와 키리는 서로를 바라보고 알아차렸어요.",
+              "둘은 동시에 발을 문에 갖다 댔어요.",
+              "여덟 번째 발자국이 켜지고, 둥근 문이 천천히 열렸어요.",
+              "문 뒤에는 구름 위의 작은 발코니가 있었어요.",
+              "눈앞에 별이 가득한 하늘이 펼쳐졌어요.",
+              "아브람이 그곳에서 차분하고 자랑스럽게 기다리고 있었어요.",
+              "별빛 아래에서 아브람은 아기 고양이들과 코를 맞댔어요.",
+              "로봇 핍은 기뻐서 빙글빙글 돌았고, 돔의 구슬이 모두 빛났어요.",
+              "그날 밤 아기 고양이들은 마지막 문은 함께여야 열린다는 걸 배웠어요."
+            ],
+            "id": [
+              "Pada hari kesepuluh, tujuh jejak kaki bercahaya di pintu tua.",
+              "Satu tanda terakhir masih gelap.",
+              "Kucing guru mengumpulkan semuanya di depan pintu itu.",
+              "Kori dan Kiri saling berpandangan dan mengerti.",
+              "Mereka menempelkan cakar di pintu pada saat yang sama.",
+              "Jejak kedelapan menyala, dan pintu bundar itu perlahan terbuka.",
+              "Di baliknya ada balkon kecil di atas awan.",
+              "Langit penuh bintang terbentang di hadapan mereka.",
+              "Abram menunggu di sana, tenang dan bangga.",
+              "Ia menyentuhkan hidungnya ke anak-anaknya di bawah cahaya bintang.",
+              "Pip si robot berputar gembira, dan semua bola di kubah bersinar.",
+              "Malam itu, anak-anak kucing belajar bahwa pintu terakhir hanya terbuka bersama-sama."
+            ],
+            "vi": [
+              "Ngày thứ mười, bảy dấu chân phát sáng trên cánh cửa cũ.",
+              "Còn một dấu cuối cùng vẫn tối.",
+              "Thầy mèo gọi mọi người lại trước cánh cửa.",
+              "Kori và Kiri nhìn nhau và hiểu ra.",
+              "Chúng cùng lúc đặt chân lên cánh cửa.",
+              "Dấu chân thứ tám sáng lên, và cánh cửa tròn từ từ mở ra.",
+              "Phía sau là một ban công nhỏ phía trên những tầng mây.",
+              "Một bầu trời đầy sao trải ra trước mắt chúng.",
+              "Abram đang chờ ở đó, điềm tĩnh và tự hào.",
+              "Mẹ chạm mũi với các con dưới ánh sao.",
+              "Robot Pip xoay tròn vui sướng, và mọi quả cầu trong mái vòm đều rực sáng.",
+              "Đêm đó, hai mèo con học được rằng cánh cửa cuối cùng chỉ mở khi cùng nhau."
+            ],
+            "bn": [
+              "দশম দিনে পুরোনো দরজায় সাতটি থাবার ছাপ জ্বলছিল।",
+              "শেষ একটি চিহ্ন তখনও অন্ধকার।",
+              "শিক্ষক বিড়াল সবাইকে দরজার সামনে জড়ো করল।",
+              "কোরি আর কিরি একে অপরের দিকে তাকিয়ে বুঝে গেল।",
+              "তারা একসঙ্গে দরজায় থাবা রাখল।",
+              "অষ্টম ছাপ জ্বলে উঠল, আর গোল দরজাটা ধীরে ধীরে খুলে গেল।",
+              "তার পেছনে ছিল মেঘের উপরে ছোট্ট এক বারান্দা।",
+              "তাদের সামনে তারায় ভরা আকাশ ছড়িয়ে ছিল।",
+              "আব্রাম সেখানে অপেক্ষা করছিল, শান্ত আর গর্বিত।",
+              "তারার আলোয় সে ছানাদের নাকে নাক ছোঁয়াল।",
+              "রোবট পিপ আনন্দে ঘুরপাক খেল, আর গম্বুজের সব গোলক জ্বলে উঠল।",
+              "সেই রাতে ছানারা শিখল, শেষ দরজা শুধু একসঙ্গেই খোলে।"
+            ],
+            "ur": [
+              "دسویں دن پرانے دروازے پر پنجوں کے سات نشان چمک رہے تھے۔",
+              "ایک آخری نشان ابھی تک اندھیرا تھا۔",
+              "استاد بلے نے سب کو اس کے سامنے جمع کیا۔",
+              "کوری اور کیری نے ایک دوسرے کو دیکھا اور سمجھ گئیں۔",
+              "انہوں نے ایک ساتھ اپنے پنجے دروازے پر رکھے۔",
+              "آٹھواں نشان روشن ہوا، اور گول دروازہ آہستہ آہستہ کھل گیا۔",
+              "اس کے پیچھے بادلوں کے اوپر ایک چھوٹی سی بالکونی تھی۔",
+              "ان کے سامنے ستاروں سے بھرا آسمان پھیلا ہوا تھا۔",
+              "ابرام وہاں انتظار کر رہی تھی، پُرسکون اور فخر سے۔",
+              "ستاروں کی روشنی میں اس نے اپنے بچوں سے ناک ملائی۔",
+              "روبوٹ پِپ خوشی سے گھوم اٹھا، اور گنبد کا ہر گولا چمک اٹھا۔",
+              "اس رات بچوں نے سیکھا کہ آخری دروازہ صرف مل کر ہی کھلتا ہے۔"
+            ],
+            "mr": [
+              "दहाव्या दिवशी जुन्या दारावर पंजांचे सात ठसे चमकत होते.",
+              "शेवटची एक खूण अजून अंधारात होती.",
+              "शिक्षक बोक्याने सगळ्यांना दारासमोर जमवले.",
+              "कोरी आणि किरीने एकमेकींकडे पाहिले आणि त्यांना उमगले.",
+              "त्यांनी एकाच वेळी आपले पंजे दारावर टेकवले.",
+              "आठवा ठसा उजळला आणि गोल दार हळूहळू उघडले.",
+              "त्याच्या मागे ढगांच्या वर एक छोटी गच्ची होती.",
+              "त्यांच्यासमोर ताऱ्यांनी भरलेले आकाश पसरले होते.",
+              "अब्राम तिथे वाट पाहत होती, शांत आणि अभिमानी.",
+              "ताऱ्यांच्या प्रकाशात तिने पिल्लांच्या नाकाला नाक लावले.",
+              "रोबो पिप आनंदाने गरगर फिरला आणि घुमटातला प्रत्येक गोळा उजळला.",
+              "त्या रात्री पिल्लांना कळले की शेवटचे दार फक्त एकत्र असल्यावरच उघडते."
+            ],
+            "te": [
+              "పదవ రోజు పాత తలుపుపై ఏడు పంజా ముద్రలు మెరుస్తున్నాయి.",
+              "చివరి ఒక్క గుర్తు ఇంకా చీకటిగానే ఉంది.",
+              "గురువు పిల్లి అందరినీ దాని ముందు సమావేశపరిచింది.",
+              "కోరి, కిరి ఒకరినొకరు చూసుకుని అర్థం చేసుకున్నారు.",
+              "ఇద్దరూ ఒకేసారి తమ పంజాలను తలుపుపై ఆనించారు.",
+              "ఎనిమిదవ ముద్ర వెలిగింది, గుండ్రటి తలుపు నెమ్మదిగా తెరుచుకుంది.",
+              "దాని వెనుక మేఘాల పైన ఒక చిన్న బాల్కనీ ఉంది.",
+              "వారి ముందు నక్షత్రాలతో నిండిన ఆకాశం పరుచుకుంది.",
+              "అబ్రామ్ అక్కడ ప్రశాంతంగా, గర్వంగా ఎదురుచూస్తోంది.",
+              "నక్షత్రాల వెలుగులో ఆమె తన పిల్లల ముక్కులకు ముక్కు తాకించింది.",
+              "రోబో పిప్ ఆనందంతో గిరగిరా తిరిగింది, గోపురంలోని ప్రతి గోళం వెలిగింది.",
+              "ఆ రాత్రి పిల్లలు, చివరి తలుపు కలిసి ఉంటేనే తెరుచుకుంటుందని నేర్చుకున్నాయి."
+            ],
+            "ta": [
+              "பத்தாம் நாள், பழைய கதவில் ஏழு பாதச்சுவடுகள் ஒளிர்ந்தன.",
+              "கடைசி ஒரு குறி மட்டும் இன்னும் இருளாக இருந்தது.",
+              "ஆசிரியர் பூனை எல்லோரையும் அதன் முன் கூட்டியது.",
+              "கோரியும் கிரியும் ஒருவரையொருவர் பார்த்துப் புரிந்துகொண்டனர்.",
+              "இருவரும் ஒரே நேரத்தில் தங்கள் பாதங்களைக் கதவில் அழுத்தினர்.",
+              "எட்டாவது சுவடு ஒளிர்ந்தது; வட்டக் கதவு மெதுவாகத் திறந்தது.",
+              "அதன் பின்னால் மேகங்களுக்கு மேலே ஒரு சிறிய மாடம் இருந்தது.",
+              "அவர்கள் முன் நட்சத்திரங்கள் நிறைந்த வானம் விரிந்தது.",
+              "அங்கே அப்ராம் அமைதியாகவும் பெருமையுடனும் காத்திருந்தாள்.",
+              "நட்சத்திர ஒளியில் அவள் தன் குட்டிகளின் மூக்கோடு மூக்கைத் தொட்டாள்.",
+              "ரோபோ பிப் மகிழ்ச்சியில் சுழன்றது; குவிமாடத்தின் ஒவ்வொரு கோளமும் ஒளிர்ந்தது.",
+              "அன்று இரவு குட்டிகள், கடைசிக் கதவு சேர்ந்தால் மட்டுமே திறக்கும் என்று கற்றன."
             ]
           }
         }

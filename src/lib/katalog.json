@@ -2519,7 +2519,7 @@
       "name": "The Magic Cat School",
       "tr": "Abram, Kiri ve Kori büyülü kediler okulunda: süzülen mumlar, dans eden balkabakları ve her bölümde yeni bir büyü dersi. Anlatıcılı, 1 dakikalık masallar.",
       "en": "Abram, Kiri and Kori at the school for magical cats: floating candles, dancing pumpkins and a new magic lesson in every episode. Narrated one-minute tales.",
-      "episodes": 2,
+      "episodes": 3,
       "loc": {
         "de": "Abram, Kiri und Kori in der Schule für magische Katzen: schwebende Kerzen, tanzende Kürbisse und in jeder Folge eine neue Zauberstunde. Erzählte Ein-Minuten-Märchen.",
         "fr": "Abram, Kiri et Kori à l'école des chats magiques : bougies flottantes, citrouilles dansantes et une nouvelle leçon de magie à chaque épisode. Des contes narrés d'une minute.",
@@ -3206,6 +3206,340 @@
               "கிரி கண்களை மூடி, மனதுக்குள் துடைப்பத்திடம் அன்பாகக் கேட்டாள்.",
               "மெதுவாகத் துடைப்பம் அவளை உயர்த்தியது, உயரே இன்னும் உயரே.",
               "அன்று கிரி, மாயம் அமைதியான குரலையும் கேட்கும் என்று கற்றுக்கொண்டாள்."
+            ]
+          }
+        },
+        "3": {
+          "cues": [
+            [
+              0.2,
+              4.96
+            ],
+            [
+              5.36,
+              10.08
+            ],
+            [
+              10.48,
+              15.2
+            ],
+            [
+              15.6,
+              20.32
+            ],
+            [
+              20.72,
+              25.44
+            ],
+            [
+              25.84,
+              30.56
+            ],
+            [
+              30.96,
+              35.68
+            ],
+            [
+              36.08,
+              40.8
+            ],
+            [
+              41.2,
+              45.92
+            ],
+            [
+              46.32,
+              51.04
+            ],
+            [
+              51.44,
+              56.16
+            ],
+            [
+              56.56,
+              61.28
+            ]
+          ],
+          "text": {
+            "en": [
+              "On the third day, the kittens went down to the potion room.",
+              "Bubbling pots stood on every table, glowing green and gold.",
+              "The old teacher cat showed them a recipe on the board.",
+              "Kiri measured every drop slowly and carefully.",
+              "Kori threw everything into her pot at once.",
+              "Her potion fizzed, grew, and spilled over the edge.",
+              "Purple foam rolled across the floor like a wave.",
+              "Kiri quickly dropped one blue flower into Kori's pot.",
+              "The foam stopped and turned into tiny floating bubbles.",
+              "Abram watched from the doorway with a quiet smile.",
+              "The two sisters cleaned the room together, side by side.",
+              "That day, Kori learned that slow paws make strong magic."
+            ],
+            "tr": [
+              "Üçüncü gün yavrular iksir odasına indi.",
+              "Her masada fokurdayan kazanlar vardı; yeşil ve altın rengi parlıyorlardı.",
+              "Yaşlı öğretmen kedi tahtada bir tarif gösterdi.",
+              "Kiri her damlayı yavaşça, özenle ölçtü.",
+              "Kori her şeyi bir anda kazanına attı.",
+              "İksiri köpürdü, kabardı ve kenardan taştı.",
+              "Mor köpük yerde bir dalga gibi yayıldı.",
+              "Kiri hemen Kori'nin kazanına tek bir mavi çiçek attı.",
+              "Köpük durdu ve havada süzülen minik baloncuklara dönüştü.",
+              "Abram kapıdan sessiz bir gülümsemeyle izliyordu.",
+              "İki kardeş odayı yan yana, birlikte temizledi.",
+              "O gün Kori, ağır patilerin güçlü büyü yaptığını öğrendi."
+            ],
+            "de": [
+              "Am dritten Tag gingen die Kätzchen hinunter in den Zaubertrankraum.",
+              "Auf jedem Tisch standen blubbernde Kessel, die grün und golden leuchteten.",
+              "Die alte Lehrerkatze zeigte ihnen ein Rezept an der Tafel.",
+              "Kiri maß jeden Tropfen langsam und sorgfältig ab.",
+              "Kori warf alles auf einmal in ihren Kessel.",
+              "Ihr Trank zischte, wuchs und lief über den Rand.",
+              "Lila Schaum rollte wie eine Welle über den Boden.",
+              "Kiri ließ schnell eine blaue Blume in Koris Kessel fallen.",
+              "Der Schaum hielt an und wurde zu winzigen schwebenden Blasen.",
+              "Abram schaute von der Tür aus mit einem stillen Lächeln zu.",
+              "Die beiden Schwestern putzten den Raum gemeinsam, Seite an Seite.",
+              "An diesem Tag lernte Kori, dass langsame Pfoten starke Magie machen."
+            ],
+            "fr": [
+              "Le troisième jour, les chatons descendirent dans la salle des potions.",
+              "Des chaudrons bouillonnaient sur chaque table, brillant de vert et d'or.",
+              "Le vieux chat professeur leur montra une recette au tableau.",
+              "Kiri mesura chaque goutte lentement et avec soin.",
+              "Kori jeta tout d'un coup dans son chaudron.",
+              "Sa potion pétilla, gonfla et déborda.",
+              "Une mousse violette roula sur le sol comme une vague.",
+              "Kiri laissa vite tomber une fleur bleue dans le chaudron de Kori.",
+              "La mousse s'arrêta et se changea en petites bulles flottantes.",
+              "Abram regardait depuis la porte avec un sourire tranquille.",
+              "Les deux sœurs nettoyèrent la salle ensemble, côte à côte.",
+              "Ce jour-là, Kori apprit que les pattes lentes font une magie forte."
+            ],
+            "es": [
+              "Al tercer día, las gatitas bajaron a la sala de pociones.",
+              "En cada mesa había calderos burbujeantes que brillaban en verde y oro.",
+              "El viejo gato maestro les mostró una receta en la pizarra.",
+              "Kiri midió cada gota despacio y con cuidado.",
+              "Kori echó todo de golpe en su caldero.",
+              "Su poción burbujeó, creció y se desbordó.",
+              "Una espuma morada rodó por el suelo como una ola.",
+              "Kiri dejó caer rápido una flor azul en el caldero de Kori.",
+              "La espuma se detuvo y se convirtió en pequeñas burbujas flotantes.",
+              "Abram miraba desde la puerta con una sonrisa tranquila.",
+              "Las dos hermanas limpiaron la sala juntas, lado a lado.",
+              "Ese día, Kori aprendió que las patas lentas hacen una magia fuerte."
+            ],
+            "pt": [
+              "No terceiro dia, as gatinhas desceram à sala de poções.",
+              "Em cada mesa havia caldeirões borbulhantes, brilhando em verde e dourado.",
+              "O velho gato professor mostrou uma receita no quadro.",
+              "Kiri mediu cada gota devagar e com cuidado.",
+              "Kori jogou tudo de uma vez no caldeirão.",
+              "Sua poção chiou, cresceu e transbordou.",
+              "Uma espuma roxa rolou pelo chão como uma onda.",
+              "Kiri rapidamente soltou uma flor azul no caldeirão de Kori.",
+              "A espuma parou e virou pequenas bolhas flutuantes.",
+              "Abram observava da porta com um sorriso tranquilo.",
+              "As duas irmãs limparam a sala juntas, lado a lado.",
+              "Naquele dia, Kori aprendeu que patas lentas fazem magia forte."
+            ],
+            "it": [
+              "Il terzo giorno, le gattine scesero nella sala delle pozioni.",
+              "Su ogni tavolo c'erano calderoni ribollenti che brillavano di verde e d'oro.",
+              "Il vecchio gatto maestro mostrò loro una ricetta alla lavagna.",
+              "Kiri misurò ogni goccia lentamente e con cura.",
+              "Kori buttò tutto insieme nel suo calderone.",
+              "La sua pozione frizzò, crebbe e traboccò.",
+              "Una schiuma viola rotolò sul pavimento come un'onda.",
+              "Kiri fece cadere in fretta un fiore blu nel calderone di Kori.",
+              "La schiuma si fermò e si trasformò in piccole bolle fluttuanti.",
+              "Abram guardava dalla porta con un sorriso tranquillo.",
+              "Le due sorelle pulirono la stanza insieme, fianco a fianco.",
+              "Quel giorno, Kori imparò che le zampe lente fanno una magia forte."
+            ],
+            "ru": [
+              "На третий день котята спустились в комнату зелий.",
+              "На каждом столе булькали котлы, светясь зелёным и золотым.",
+              "Старый кот-учитель показал им рецепт на доске.",
+              "Кири отмеряла каждую каплю медленно и аккуратно.",
+              "Кори бросила в свой котёл всё сразу.",
+              "Её зелье зашипело, выросло и перелилось через край.",
+              "Фиолетовая пена покатилась по полу, как волна.",
+              "Кири быстро бросила в котёл Кори один синий цветок.",
+              "Пена остановилась и превратилась в крошечные парящие пузырьки.",
+              "Абрам смотрела из дверей с тихой улыбкой.",
+              "Две сестры вместе убрали комнату, бок о бок.",
+              "В тот день Кори узнала, что неторопливые лапки творят сильную магию."
+            ],
+            "ar": [
+              "في اليوم الثالث نزلت القطتان الصغيرتان إلى غرفة الجرعات.",
+              "على كل طاولة قدور تغلي وتتوهج بالأخضر والذهبي.",
+              "أراهما القط المعلّم العجوز وصفة على السبورة.",
+              "قاست كيري كل قطرة ببطء وعناية.",
+              "رمت كوري كل شيء في قدرها دفعة واحدة.",
+              "فارت جرعتها وكبرت وانسكبت من الحافة.",
+              "تدحرجت رغوة بنفسجية على الأرض كالموجة.",
+              "أسقطت كيري بسرعة زهرة زرقاء واحدة في قدر كوري.",
+              "توقفت الرغوة وتحولت إلى فقاعات صغيرة طافية.",
+              "كانت أبرام تراقب من الباب بابتسامة هادئة.",
+              "نظّفت الأختان الغرفة معًا، جنبًا إلى جنب.",
+              "في ذلك اليوم تعلّمت كوري أن الكفوف المتأنية تصنع سحرًا قويًا."
+            ],
+            "hi": [
+              "तीसरे दिन बिल्ली के बच्चे काढ़े के कमरे में उतरे।",
+              "हर मेज़ पर उबलते बर्तन थे, जो हरे और सुनहरे चमक रहे थे।",
+              "बूढ़े शिक्षक बिल्ले ने बोर्ड पर एक नुस्खा दिखाया।",
+              "किरी ने हर बूँद धीरे-धीरे और ध्यान से नापी।",
+              "कोरी ने सब कुछ एक साथ अपने बर्तन में डाल दिया।",
+              "उसका काढ़ा फुफकारा, बढ़ा और किनारे से बह निकला।",
+              "बैंगनी झाग लहर की तरह फ़र्श पर फैल गया।",
+              "किरी ने झट से कोरी के बर्तन में एक नीला फूल डाल दिया।",
+              "झाग रुक गया और नन्हे तैरते बुलबुलों में बदल गया।",
+              "अब्राम दरवाज़े से शांत मुस्कान के साथ देख रही थी।",
+              "दोनों बहनों ने मिलकर, साथ-साथ कमरा साफ़ किया।",
+              "उस दिन कोरी ने सीखा कि धीमे पंजे मज़बूत जादू करते हैं।"
+            ],
+            "zh": [
+              "第三天，小猫们来到楼下的魔药教室。",
+              "每张桌上都有咕嘟冒泡的锅，闪着绿色和金色的光。",
+              "老猫老师在黑板上给她们看了一张配方。",
+              "奇里慢慢地、仔细地量好每一滴。",
+              "科里把所有东西一下子全扔进锅里。",
+              "她的魔药嘶嘶作响，越涨越高，溢出了锅边。",
+              "紫色的泡沫像波浪一样滚过地板。",
+              "奇里赶紧往科里的锅里放了一朵蓝色的花。",
+              "泡沫停了下来，变成了飘浮的小泡泡。",
+              "阿布拉姆在门口静静地微笑着看。",
+              "两姐妹肩并肩一起把教室打扫干净。",
+              "那一天，科里明白了，慢慢来的爪子才有强大的魔法。"
+            ],
+            "ja": [
+              "三日目、子猫たちは魔法薬の教室へ下りていきました。",
+              "どのテーブルにも、緑と金色に光るぶくぶくの鍋がありました。",
+              "年老いた先生猫が、黒板のレシピを見せてくれました。",
+              "キリは一滴ずつ、ゆっくり丁寧に量りました。",
+              "コリは全部をいっぺんに鍋へ入れました。",
+              "薬はしゅわしゅわとふくらんで、ふちからあふれました。",
+              "むらさきの泡が波のように床を転がりました。",
+              "キリはすばやく、青い花をひとつコリの鍋に落としました。",
+              "泡は止まり、小さな浮かぶシャボン玉に変わりました。",
+              "アブラムは戸口から静かにほほえんで見ていました。",
+              "ふたりの姉妹は並んで、いっしょに部屋を片づけました。",
+              "その日コリは、ゆっくりした前足が強い魔法を生むと知りました。"
+            ],
+            "ko": [
+              "셋째 날, 아기 고양이들은 마법 약 교실로 내려갔어요.",
+              "탁자마다 초록빛과 금빛으로 빛나는 솥이 보글보글 끓고 있었어요.",
+              "늙은 선생님 고양이가 칠판의 조리법을 보여 주었어요.",
+              "키리는 한 방울 한 방울 천천히 꼼꼼하게 쟀어요.",
+              "코리는 모든 것을 한꺼번에 솥에 넣었어요.",
+              "코리의 약은 부글거리며 부풀더니 넘쳐흘렀어요.",
+              "보라색 거품이 파도처럼 바닥을 굴러갔어요.",
+              "키리가 재빨리 코리의 솥에 파란 꽃 하나를 떨어뜨렸어요.",
+              "거품이 멈추고 작은 비눗방울이 되어 떠올랐어요.",
+              "아브람은 문가에서 조용히 미소 지으며 지켜보았어요.",
+              "두 자매는 나란히 함께 교실을 청소했어요.",
+              "그날 코리는 느린 발이 강한 마법을 만든다는 걸 배웠어요."
+            ],
+            "id": [
+              "Pada hari ketiga, anak-anak kucing turun ke ruang ramuan.",
+              "Di setiap meja ada kuali mendidih yang bersinar hijau dan emas.",
+              "Kucing guru tua menunjukkan resep di papan tulis.",
+              "Kiri menakar setiap tetes dengan pelan dan hati-hati.",
+              "Kori memasukkan semuanya sekaligus ke dalam kualinya.",
+              "Ramuannya berdesis, membesar, dan meluap dari tepi.",
+              "Busa ungu bergulung di lantai seperti ombak.",
+              "Kiri cepat-cepat menjatuhkan satu bunga biru ke kuali Kori.",
+              "Busa itu berhenti dan berubah menjadi gelembung kecil yang melayang.",
+              "Abram memperhatikan dari pintu dengan senyum tenang.",
+              "Kedua saudari itu membersihkan ruangan bersama, berdampingan.",
+              "Hari itu, Kori belajar bahwa cakar yang pelan membuat sihir yang kuat."
+            ],
+            "vi": [
+              "Ngày thứ ba, hai mèo con đi xuống phòng độc dược.",
+              "Trên mỗi bàn là những chiếc vạc sủi bọt, lấp lánh màu xanh và vàng.",
+              "Thầy mèo già chỉ cho chúng một công thức trên bảng.",
+              "Kiri đong từng giọt thật chậm và cẩn thận.",
+              "Kori ném tất cả vào vạc cùng một lúc.",
+              "Thuốc của cô bé sủi lên, phồng to và tràn ra ngoài.",
+              "Bọt tím cuộn trên sàn như một con sóng.",
+              "Kiri nhanh tay thả một bông hoa xanh vào vạc của Kori.",
+              "Bọt dừng lại và biến thành những bong bóng nhỏ bay lơ lửng.",
+              "Abram đứng ở cửa nhìn với nụ cười lặng lẽ.",
+              "Hai chị em cùng nhau dọn phòng, bên cạnh nhau.",
+              "Hôm đó, Kori học được rằng đôi chân chậm rãi tạo nên phép thuật mạnh."
+            ],
+            "bn": [
+              "তৃতীয় দিনে ছানারা জাদু-পানীয়ের ঘরে নেমে গেল।",
+              "প্রতিটি টেবিলে ফুটন্ত হাঁড়ি, সবুজ আর সোনালি আলোয় জ্বলছে।",
+              "বুড়ো শিক্ষক বিড়াল বোর্ডে একটি রেসিপি দেখাল।",
+              "কিরি প্রতিটি ফোঁটা ধীরে ধীরে, যত্ন করে মাপল।",
+              "কোরি সবকিছু একসঙ্গে তার হাঁড়িতে ফেলে দিল।",
+              "তার পানীয় ফেনিয়ে উঠল, ফুলে উঠল আর উপচে পড়ল।",
+              "বেগুনি ফেনা ঢেউয়ের মতো মেঝেতে গড়িয়ে গেল।",
+              "কিরি তাড়াতাড়ি কোরির হাঁড়িতে একটি নীল ফুল ফেলল।",
+              "ফেনা থেমে গেল আর ছোট ছোট ভাসমান বুদবুদ হয়ে গেল।",
+              "আব্রাম দরজা থেকে শান্ত হাসি নিয়ে দেখছিল।",
+              "দুই বোন পাশাপাশি মিলে ঘরটা পরিষ্কার করল।",
+              "সেদিন কোরি শিখল, ধীর থাবাই শক্তিশালী জাদু তৈরি করে।"
+            ],
+            "ur": [
+              "تیسرے دن بلی کے بچے جادوئی شربت کے کمرے میں اترے۔",
+              "ہر میز پر ابلتی دیگچیاں تھیں جو سبز اور سنہری چمک رہی تھیں۔",
+              "بوڑھے استاد بلے نے تختے پر ایک نسخہ دکھایا۔",
+              "کیری نے ہر قطرہ آہستہ اور احتیاط سے ناپا۔",
+              "کوری نے سب کچھ ایک ساتھ اپنی دیگچی میں ڈال دیا۔",
+              "اس کا شربت جھاگ دار ہوا، بڑھا اور کنارے سے بہہ نکلا۔",
+              "جامنی جھاگ لہر کی طرح فرش پر پھیل گیا۔",
+              "کیری نے جلدی سے کوری کی دیگچی میں ایک نیلا پھول ڈال دیا۔",
+              "جھاگ رک گیا اور ننھے تیرتے بلبلوں میں بدل گیا۔",
+              "ابرام دروازے سے خاموش مسکراہٹ کے ساتھ دیکھ رہی تھی۔",
+              "دونوں بہنوں نے مل کر، ساتھ ساتھ کمرہ صاف کیا۔",
+              "اس دن کوری نے سیکھا کہ آہستہ پنجے مضبوط جادو کرتے ہیں۔"
+            ],
+            "mr": [
+              "तिसऱ्या दिवशी पिल्ले जादुई काढ्याच्या खोलीत उतरली.",
+              "प्रत्येक टेबलावर उकळणारी भांडी होती, हिरव्या आणि सोनेरी रंगात चमकणारी.",
+              "म्हाताऱ्या शिक्षक बोक्याने फळ्यावर एक कृती दाखवली.",
+              "किरीने प्रत्येक थेंब हळू आणि काळजीपूर्वक मोजला.",
+              "कोरीने सगळे एकदम आपल्या भांड्यात टाकले.",
+              "तिचा काढा फसफसला, वाढला आणि काठावरून सांडला.",
+              "जांभळा फेस लाटेसारखा जमिनीवर पसरला.",
+              "किरीने पटकन कोरीच्या भांड्यात एक निळे फूल टाकले.",
+              "फेस थांबला आणि छोट्या तरंगत्या बुडबुड्यांत बदलला.",
+              "अब्राम दारातून शांत हसत पाहत होती.",
+              "दोन्ही बहिणींनी मिळून, शेजारी शेजारी खोली स्वच्छ केली.",
+              "त्या दिवशी कोरी शिकली की सावकाश पंजे मजबूत जादू करतात."
+            ],
+            "te": [
+              "మూడవ రోజు పిల్లి పిల్లలు మంత్ర పానీయాల గదిలోకి దిగాయి.",
+              "ప్రతి బల్లపై మరుగుతున్న కుండలు ఆకుపచ్చ, బంగారు రంగుల్లో మెరుస్తున్నాయి.",
+              "ముసలి గురువు పిల్లి బోర్డుపై ఒక తయారీ విధానం చూపించింది.",
+              "కిరి ప్రతి చుక్కను నెమ్మదిగా, జాగ్రత్తగా కొలిచింది.",
+              "కోరి అన్నింటినీ ఒకేసారి తన కుండలో వేసింది.",
+              "ఆమె పానీయం బుసబుసలాడి, పెరిగి, అంచు దాటి పొంగింది.",
+              "ఊదా రంగు నురుగు అలలా నేలపై దొర్లింది.",
+              "కిరి వెంటనే కోరి కుండలో ఒక నీలి పువ్వు వేసింది.",
+              "నురుగు ఆగి, తేలియాడే చిన్న బుడగలుగా మారింది.",
+              "అబ్రామ్ గుమ్మం దగ్గర నుంచి ప్రశాంతమైన చిరునవ్వుతో చూసింది.",
+              "ఇద్దరు అక్కాచెల్లెళ్లు పక్కపక్కనే కలిసి గదిని శుభ్రం చేశారు.",
+              "ఆ రోజు కోరి, నెమ్మదైన పంజాలే బలమైన మాయ చేస్తాయని నేర్చుకుంది."
+            ],
+            "ta": [
+              "மூன்றாம் நாள், பூனைக்குட்டிகள் மந்திர மருந்து அறைக்கு இறங்கின.",
+              "ஒவ்வொரு மேசையிலும் கொதிக்கும் பானைகள் பச்சையும் பொன்னிறமுமாக ஒளிர்ந்தன.",
+              "வயதான ஆசிரியர் பூனை பலகையில் ஒரு செய்முறையைக் காட்டியது.",
+              "கிரி ஒவ்வொரு துளியையும் மெதுவாக, கவனமாக அளந்தாள்.",
+              "கோரி எல்லாவற்றையும் ஒரே நேரத்தில் தன் பானையில் போட்டாள்.",
+              "அவளுடைய மருந்து நுரைத்து, பெருகி, விளிம்பைத் தாண்டி வழிந்தது.",
+              "ஊதா நுரை அலை போலத் தரையில் உருண்டது.",
+              "கிரி விரைவாக ஒரு நீலப் பூவை கோரியின் பானையில் போட்டாள்.",
+              "நுரை நின்று, மிதக்கும் சிறு குமிழிகளாக மாறியது.",
+              "அப்ராம் வாசலில் இருந்து அமைதியான புன்னகையுடன் பார்த்தாள்.",
+              "இரு சகோதரிகளும் அருகருகே சேர்ந்து அறையைச் சுத்தம் செய்தனர்.",
+              "அன்று கோரி, மெதுவான பாதங்களே வலிமையான மாயம் செய்யும் என்று கற்றுக்கொண்டாள்."
             ]
           }
         }

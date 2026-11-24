@@ -2519,7 +2519,7 @@
       "name": "The Cloud Cat School",
       "tr": "Yüzyıllar sonra, bulutların üstündeki cam şehirde bir kedi okulu: Abram'ın yavruları Kiri ve Kori ışık kürelerini mırıltıyla yakmayı öğreniyor, kimsenin açamadığı eski kapının sırrını arıyor. Anlatıcılı, 1 dakikalık bölümler.",
       "en": "Centuries from now, a cat school in a glass city above the clouds: Abram's kittens Kiri and Kori learn to light glowing orbs with a purr and search for the secret of an old door no one can open. Narrated one-minute episodes.",
-      "episodes": 8,
+      "episodes": 9,
       "loc": {
         "de": "In ferner Zukunft, eine Katzenschule in einer Glasstadt über den Wolken: Abrams Kätzchen Kiri und Kori lernen, Lichtkugeln mit einem Schnurren zu entzünden, und suchen das Geheimnis einer alten Tür, die niemand öffnen kann. Erzählte Ein-Minuten-Folgen.",
         "fr": "Dans un lointain futur, une école de chats dans une ville de verre au-dessus des nuages : Kiri et Kori, les chatons d'Abram, apprennent à allumer des sphères de lumière en ronronnant et cherchent le secret d'une vieille porte que personne ne peut ouvrir. Épisodes narrés d'une minute.",
@@ -5210,6 +5210,340 @@
               "கோளம் மெதுவாக எழுந்து மிதந்து தன் இடத்துக்குத் திரும்பியது.",
               "இருண்ட மூலை மீண்டும் ஒளிர்ந்தது; பழைய கதவில் ஆறாவது பாதச்சுவடு ஒளிர்ந்தது.",
               "அன்று குட்டிகள், அவசரம் கண்டுபிடிக்க முடியாததை அன்பு கண்டுபிடிக்கும் என்று கற்றன."
+            ]
+          }
+        },
+        "9": {
+          "cues": [
+            [
+              0.2,
+              5.78
+            ],
+            [
+              6.18,
+              11.76
+            ],
+            [
+              12.16,
+              17.74
+            ],
+            [
+              18.14,
+              23.72
+            ],
+            [
+              24.12,
+              29.7
+            ],
+            [
+              30.1,
+              35.68
+            ],
+            [
+              36.08,
+              41.66
+            ],
+            [
+              42.06,
+              47.64
+            ],
+            [
+              48.04,
+              53.62
+            ],
+            [
+              54.02,
+              59.6
+            ],
+            [
+              60.0,
+              65.58
+            ],
+            [
+              65.98,
+              71.56
+            ]
+          ],
+          "text": {
+            "en": [
+              "On the ninth day, the teacher cat was very, very tired.",
+              "In the middle of the lesson, he curled up and fell asleep.",
+              "Pip the robot blinked, not knowing what to do.",
+              "Kori wanted to wake him with a big, loud jump.",
+              "Kiri shook her head and put a soft leaf blanket over him.",
+              "Then the two kittens decided to teach the lesson themselves.",
+              "Kori showed the little ones how to purr an orb awake.",
+              "Kiri showed them how to walk without a sound.",
+              "Together they left glowing paw prints all across the garden.",
+              "When the teacher cat opened his eyes, the whole dome was shining.",
+              "He smiled, and a seventh paw print lit up on the old door.",
+              "That day, the kittens learned that the best students become teachers."
+            ],
+            "tr": [
+              "Dokuzuncu gün öğretmen kedi çok ama çok yorgundu.",
+              "Dersin ortasında kıvrıldı ve uyuyakaldı.",
+              "Robot Pip ne yapacağını bilemeden göz kırptı.",
+              "Kori onu büyük, gürültülü bir zıplayışla uyandırmak istedi.",
+              "Kiri başını iki yana salladı ve üstüne yapraktan yumuşak bir örtü örttü.",
+              "Sonra iki yavru dersi kendileri vermeye karar verdi.",
+              "Kori küçüklere bir küreyi mırıltıyla uyandırmayı gösterdi.",
+              "Kiri onlara ses çıkarmadan yürümeyi gösterdi.",
+              "Birlikte bahçenin her yanına parlayan pati izleri bıraktılar.",
+              "Öğretmen kedi gözlerini açtığında bütün kubbe ışıl ışıldı.",
+              "Gülümsedi ve eski kapıda yedinci bir pati izi yandı.",
+              "O gün yavrular, en iyi öğrencilerin öğretmen olduğunu öğrendi."
+            ],
+            "de": [
+              "Am neunten Tag war die Lehrerkatze sehr, sehr müde.",
+              "Mitten im Unterricht rollte sie sich zusammen und schlief ein.",
+              "Pip, der Roboter, blinzelte und wusste nicht, was er tun sollte.",
+              "Kori wollte sie mit einem großen, lauten Sprung wecken.",
+              "Kiri schüttelte den Kopf und legte ihr eine weiche Blätterdecke über.",
+              "Dann beschlossen die beiden Kätzchen, den Unterricht selbst zu halten.",
+              "Kori zeigte den Kleinen, wie man eine Kugel wachschnurrt.",
+              "Kiri zeigte ihnen, wie man ohne ein Geräusch geht.",
+              "Gemeinsam hinterließen sie leuchtende Pfotenabdrücke im ganzen Garten.",
+              "Als die Lehrerkatze die Augen öffnete, strahlte die ganze Kuppel.",
+              "Sie lächelte, und an der alten Tür leuchtete ein siebter Pfotenabdruck auf.",
+              "An diesem Tag lernten die Kätzchen, dass aus den besten Schülern Lehrer werden."
+            ],
+            "fr": [
+              "Le neuvième jour, le chat professeur était très, très fatigué.",
+              "Au milieu de la leçon, il se roula en boule et s'endormit.",
+              "Pip le robot cligna des yeux, sans savoir quoi faire.",
+              "Kori voulait le réveiller d'un grand saut bruyant.",
+              "Kiri secoua la tête et posa sur lui une douce couverture de feuilles.",
+              "Alors les deux chatons décidèrent de donner la leçon eux-mêmes.",
+              "Kori montra aux petits comment réveiller une sphère en ronronnant.",
+              "Kiri leur montra comment marcher sans un bruit.",
+              "Ensemble, ils laissèrent des empreintes lumineuses dans tout le jardin.",
+              "Quand le chat professeur ouvrit les yeux, tout le dôme brillait.",
+              "Il sourit, et une septième empreinte s'alluma sur la vieille porte.",
+              "Ce jour-là, les chatons apprirent que les meilleurs élèves deviennent des maîtres."
+            ],
+            "es": [
+              "El noveno día, el gato maestro estaba muy, muy cansado.",
+              "En mitad de la lección, se acurrucó y se quedó dormido.",
+              "Pip, el robot, parpadeó sin saber qué hacer.",
+              "Kori quiso despertarlo con un gran salto ruidoso.",
+              "Kiri negó con la cabeza y lo tapó con una suave manta de hojas.",
+              "Entonces las dos gatitas decidieron dar la lección ellas mismas.",
+              "Kori enseñó a los pequeños a despertar una esfera con un ronroneo.",
+              "Kiri les enseñó a caminar sin hacer ruido.",
+              "Juntos dejaron huellas brillantes por todo el jardín.",
+              "Cuando el gato maestro abrió los ojos, toda la cúpula resplandecía.",
+              "Sonrió, y una séptima huella se encendió en la vieja puerta.",
+              "Ese día, las gatitas aprendieron que los mejores alumnos se vuelven maestros."
+            ],
+            "pt": [
+              "No nono dia, o gato professor estava muito, muito cansado.",
+              "No meio da aula, ele se enrolou e adormeceu.",
+              "Pip, o robô, piscou sem saber o que fazer.",
+              "Kori quis acordá-lo com um pulo grande e barulhento.",
+              "Kiri balançou a cabeça e o cobriu com uma manta macia de folhas.",
+              "Então as duas gatinhas decidiram dar a aula elas mesmas.",
+              "Kori mostrou aos pequenos como acordar uma esfera com um ronronar.",
+              "Kiri mostrou a eles como andar sem fazer barulho.",
+              "Juntos deixaram pegadas brilhantes por todo o jardim.",
+              "Quando o gato professor abriu os olhos, a cúpula inteira brilhava.",
+              "Ele sorriu, e uma sétima pegada se acendeu na velha porta.",
+              "Naquele dia, as gatinhas aprenderam que os melhores alunos viram professores."
+            ],
+            "it": [
+              "Il nono giorno, il gatto maestro era molto, molto stanco.",
+              "Nel bel mezzo della lezione si acciambellò e si addormentò.",
+              "Pip, il robot, sbatté gli occhi senza sapere che fare.",
+              "Kori voleva svegliarlo con un grande salto rumoroso.",
+              "Kiri scosse la testa e gli mise addosso una morbida coperta di foglie.",
+              "Allora le due gattine decisero di fare lezione da sole.",
+              "Kori mostrò ai piccoli come svegliare una sfera con le fusa.",
+              "Kiri mostrò loro come camminare senza un suono.",
+              "Insieme lasciarono impronte luminose per tutto il giardino.",
+              "Quando il gatto maestro aprì gli occhi, l'intera cupola risplendeva.",
+              "Sorrise, e sulla vecchia porta si accese una settima impronta.",
+              "Quel giorno, le gattine impararono che i migliori allievi diventano maestri."
+            ],
+            "ru": [
+              "На девятый день кот-учитель очень-очень устал.",
+              "Посреди урока он свернулся клубком и уснул.",
+              "Робот Пип заморгал, не зная, что делать.",
+              "Кори хотела разбудить его большим громким прыжком.",
+              "Кири покачала головой и укрыла его мягким одеялом из листьев.",
+              "Тогда два котёнка решили провести урок сами.",
+              "Кори показала малышам, как разбудить шар мурлыканьем.",
+              "Кири показала им, как ходить без единого звука.",
+              "Вместе они оставили светящиеся следы по всему саду.",
+              "Когда кот-учитель открыл глаза, весь купол сиял.",
+              "Он улыбнулся, и на старой двери загорелся седьмой отпечаток лапы.",
+              "В тот день котята узнали, что лучшие ученики становятся учителями."
+            ],
+            "ar": [
+              "في اليوم التاسع كان القط المعلّم متعبًا جدًا جدًا.",
+              "في منتصف الدرس تكوّر على نفسه ونام.",
+              "رمش الروبوت بيب وهو لا يعرف ماذا يفعل.",
+              "أرادت كوري أن توقظه بقفزة كبيرة صاخبة.",
+              "هزّت كيري رأسها وغطّته ببطانية ناعمة من الأوراق.",
+              "ثم قررت القطتان أن تعطيا الدرس بنفسيهما.",
+              "علّمت كوري الصغار كيف يوقظون كرة بالخرخرة.",
+              "وعلّمتهم كيري كيف يمشون دون صوت.",
+              "معًا تركوا آثار كفوف متوهجة في أنحاء الحديقة.",
+              "حين فتح القط المعلّم عينيه، كانت القبة كلها تتلألأ.",
+              "ابتسم، وأضاء أثر كفّ سابع على الباب القديم.",
+              "في ذلك اليوم تعلّمت القطتان أن أفضل التلاميذ يصبحون معلّمين."
+            ],
+            "hi": [
+              "नौवें दिन शिक्षक बिल्ला बहुत, बहुत थका हुआ था।",
+              "पाठ के बीच में ही वह सिमटकर सो गया।",
+              "रोबोट पिप ने पलकें झपकाईं, उसे समझ नहीं आया कि क्या करे।",
+              "कोरी उसे एक बड़ी, ज़ोरदार छलाँग से जगाना चाहती थी।",
+              "किरी ने सिर हिलाया और उस पर पत्तों की नरम चादर ओढ़ा दी।",
+              "फिर दोनों बच्चों ने ख़ुद पाठ पढ़ाने का फ़ैसला किया।",
+              "कोरी ने छोटों को दिखाया कि घुरघुराकर गोले को कैसे जगाते हैं।",
+              "किरी ने उन्हें दिखाया कि बिना आवाज़ कैसे चलते हैं।",
+              "सबने मिलकर पूरे बाग़ में चमकते पंजों के निशान छोड़े।",
+              "जब शिक्षक बिल्ले ने आँखें खोलीं, तो पूरा गुंबद जगमगा रहा था।",
+              "वह मुस्कुराया, और पुराने दरवाज़े पर पंजे का सातवाँ निशान जल उठा।",
+              "उस दिन बच्चों ने सीखा कि सबसे अच्छे विद्यार्थी ही शिक्षक बनते हैं।"
+            ],
+            "zh": [
+              "第九天，猫老师非常非常累。",
+              "课上到一半，他蜷起身子睡着了。",
+              "机器人皮普眨了眨眼，不知道该怎么办。",
+              "科里想用一个又大又响的跳跃把他叫醒。",
+              "奇里摇摇头，给他盖上了一条柔软的树叶毯子。",
+              "于是两只小猫决定自己来上课。",
+              "科里教小家伙们怎样用呼噜声唤醒光球。",
+              "奇里教他们怎样走路不出声。",
+              "大家一起在整个花园里留下了发光的爪印。",
+              "猫老师睁开眼睛时，整个穹顶都在闪闪发光。",
+              "他笑了，旧门上第七个爪印亮了起来。",
+              "那一天，小猫们明白了，最好的学生会成为老师。"
+            ],
+            "ja": [
+              "九日目、先生猫はとてもとても疲れていました。",
+              "授業のとちゅうで、丸くなって眠ってしまいました。",
+              "ロボットのピップは、どうしていいかわからず、ぱちぱちまばたきしました。",
+              "コリは大きな音のするジャンプで起こそうとしました。",
+              "キリは首をふって、やわらかい葉っぱの毛布をかけてあげました。",
+              "それからふたりは、自分たちで授業をすることにしました。",
+              "コリはちびっこたちに、ゴロゴロで光の玉を起こすやり方を見せました。",
+              "キリは、音を立てずに歩くやり方を見せました。",
+              "みんなで庭じゅうに光る足あとをつけました。",
+              "先生猫が目をあけると、ドームぜんたいが輝いていました。",
+              "先生はほほえみ、古い扉に七つめの肉球のあとがともりました。",
+              "その日子猫たちは、いちばんの生徒が先生になるのだと知りました。"
+            ],
+            "ko": [
+              "아홉째 날, 선생님 고양이는 아주아주 피곤했어요.",
+              "수업 도중에 몸을 동그랗게 말고 잠이 들었어요.",
+              "로봇 핍은 어쩔 줄 몰라 눈만 깜박였어요.",
+              "코리는 크고 요란하게 뛰어서 깨우고 싶었어요.",
+              "키리는 고개를 젓고 부드러운 나뭇잎 이불을 덮어 드렸어요.",
+              "그러고는 둘이 직접 수업을 하기로 했어요.",
+              "코리는 꼬마들에게 가르랑거려 구슬을 깨우는 법을 보여 주었어요.",
+              "키리는 소리 없이 걷는 법을 보여 주었어요.",
+              "모두 함께 정원 곳곳에 빛나는 발자국을 남겼어요.",
+              "선생님 고양이가 눈을 떴을 때, 돔 전체가 환하게 빛나고 있었어요.",
+              "선생님은 미소 지었고, 오래된 문에 일곱 번째 발자국이 켜졌어요.",
+              "그날 아기 고양이들은 가장 좋은 학생이 선생님이 된다는 걸 배웠어요."
+            ],
+            "id": [
+              "Pada hari kesembilan, kucing guru sangat, sangat lelah.",
+              "Di tengah pelajaran, ia meringkuk dan tertidur.",
+              "Pip si robot berkedip, tidak tahu harus berbuat apa.",
+              "Kori ingin membangunkannya dengan lompatan besar yang berisik.",
+              "Kiri menggeleng dan menyelimutinya dengan selimut daun yang lembut.",
+              "Lalu kedua anak kucing memutuskan untuk mengajar sendiri.",
+              "Kori menunjukkan kepada si kecil cara membangunkan bola dengan dengkuran.",
+              "Kiri menunjukkan cara berjalan tanpa suara.",
+              "Bersama-sama mereka meninggalkan jejak kaki bercahaya di seluruh taman.",
+              "Saat kucing guru membuka mata, seluruh kubah bersinar.",
+              "Ia tersenyum, dan jejak kaki ketujuh menyala di pintu tua.",
+              "Hari itu, anak-anak kucing belajar bahwa murid terbaik menjadi guru."
+            ],
+            "vi": [
+              "Ngày thứ chín, thầy mèo rất, rất mệt.",
+              "Giữa buổi học, thầy cuộn tròn lại và ngủ thiếp đi.",
+              "Robot Pip chớp mắt, không biết phải làm gì.",
+              "Kori muốn đánh thức thầy bằng một cú nhảy thật to và ồn ào.",
+              "Kiri lắc đầu rồi đắp cho thầy một tấm chăn lá mềm.",
+              "Thế rồi hai mèo con quyết định tự mình dạy buổi học.",
+              "Kori chỉ cho các bạn nhỏ cách gừ gừ để đánh thức một quả cầu.",
+              "Kiri chỉ cho các bạn cách bước đi không một tiếng động.",
+              "Cùng nhau, chúng để lại những dấu chân phát sáng khắp khu vườn.",
+              "Khi thầy mèo mở mắt, cả mái vòm đang rực sáng.",
+              "Thầy mỉm cười, và dấu chân thứ bảy sáng lên trên cánh cửa cũ.",
+              "Hôm đó, hai mèo con học được rằng học trò giỏi nhất sẽ trở thành thầy cô."
+            ],
+            "bn": [
+              "নবম দিনে শিক্ষক বিড়াল খুব, খুব ক্লান্ত ছিল।",
+              "পাঠের মাঝখানেই সে গুটিসুটি মেরে ঘুমিয়ে পড়ল।",
+              "রোবট পিপ চোখ পিটপিট করল, কী করবে বুঝতে পারল না।",
+              "কোরি একটা বড়, জোরালো লাফ দিয়ে তাকে জাগাতে চাইল।",
+              "কিরি মাথা নাড়ল আর তার গায়ে পাতার নরম কম্বল দিয়ে দিল।",
+              "তারপর দুই ছানা ঠিক করল, পাঠটা তারাই পড়াবে।",
+              "কোরি ছোটদের দেখাল কীভাবে গরগর করে গোলককে জাগাতে হয়।",
+              "কিরি দেখাল কীভাবে শব্দ না করে হাঁটতে হয়।",
+              "সবাই মিলে বাগানজুড়ে জ্বলজ্বলে থাবার ছাপ রেখে গেল।",
+              "শিক্ষক বিড়াল চোখ খুলতেই দেখল পুরো গম্বুজ ঝলমল করছে।",
+              "সে হাসল, আর পুরোনো দরজায় সপ্তম থাবার ছাপ জ্বলে উঠল।",
+              "সেদিন ছানারা শিখল, সেরা ছাত্ররাই শিক্ষক হয়ে ওঠে।"
+            ],
+            "ur": [
+              "نویں دن استاد بلا بہت، بہت تھکا ہوا تھا۔",
+              "سبق کے بیچ میں ہی وہ سمٹ کر سو گیا۔",
+              "روبوٹ پِپ نے پلکیں جھپکائیں، اسے سمجھ نہ آیا کہ کیا کرے۔",
+              "کوری اسے ایک بڑی، زوردار چھلانگ سے جگانا چاہتی تھی۔",
+              "کیری نے سر ہلایا اور اس پر پتوں کی نرم چادر ڈال دی۔",
+              "پھر دونوں بچوں نے خود سبق پڑھانے کا فیصلہ کیا۔",
+              "کوری نے چھوٹوں کو دکھایا کہ خرخرا کر گولے کو کیسے جگاتے ہیں۔",
+              "کیری نے انہیں دکھایا کہ بغیر آواز کیسے چلتے ہیں۔",
+              "سب نے مل کر پورے باغ میں چمکتے پنجوں کے نشان چھوڑے۔",
+              "جب استاد بلے نے آنکھیں کھولیں تو پورا گنبد جگمگا رہا تھا۔",
+              "وہ مسکرایا، اور پرانے دروازے پر پنجے کا ساتواں نشان روشن ہو گیا۔",
+              "اس دن بچوں نے سیکھا کہ بہترین شاگرد ہی استاد بنتے ہیں۔"
+            ],
+            "mr": [
+              "नवव्या दिवशी शिक्षक बोका खूप खूप थकला होता.",
+              "धड्याच्या मध्येच तो अंग चोरून झोपी गेला.",
+              "रोबो पिपने डोळे मिचकावले; काय करावे ते त्याला कळेना.",
+              "कोरीला त्याला एका मोठ्या, जोरदार उडीने उठवायचे होते.",
+              "किरीने मान हलवली आणि त्याच्यावर पानांची मऊ चादर पांघरली.",
+              "मग दोन्ही पिल्लांनी स्वतःच धडा शिकवायचे ठरवले.",
+              "कोरीने छोट्यांना गुरगुरून गोळा कसा जागवायचा ते दाखवले.",
+              "किरीने त्यांना आवाज न करता कसे चालायचे ते दाखवले.",
+              "सगळ्यांनी मिळून बागेभर चमकणारे पंजांचे ठसे उमटवले.",
+              "शिक्षक बोक्याने डोळे उघडले तेव्हा संपूर्ण घुमट उजळून निघाला होता.",
+              "तो हसला आणि जुन्या दारावर पंजाचा सातवा ठसा उजळला.",
+              "त्या दिवशी पिल्लांना कळले की सर्वोत्तम विद्यार्थीच शिक्षक होतात."
+            ],
+            "te": [
+              "తొమ్మిదవ రోజు గురువు పిల్లి చాలా చాలా అలసిపోయింది.",
+              "పాఠం మధ్యలోనే అది ముడుచుకుని నిద్రపోయింది.",
+              "రోబో పిప్ ఏం చేయాలో తెలియక కళ్లు ఆర్పింది.",
+              "కోరి ఒక పెద్ద, గట్టి గెంతుతో దాన్ని లేపాలనుకుంది.",
+              "కిరి తల అడ్డంగా ఊపి, దానిపై మెత్తని ఆకుల దుప్పటి కప్పింది.",
+              "అప్పుడు ఇద్దరు పిల్లలు పాఠాన్ని తామే చెప్పాలని నిర్ణయించుకున్నారు.",
+              "కోరి చిన్నారులకు గురగురలాడి గోళాన్ని ఎలా మేల్కొల్పాలో చూపించింది.",
+              "కిరి శబ్దం లేకుండా ఎలా నడవాలో చూపించింది.",
+              "అందరూ కలిసి తోటంతా మెరిసే పంజా ముద్రలు వేశారు.",
+              "గురువు పిల్లి కళ్లు తెరిచేసరికి గోపురమంతా వెలిగిపోతోంది.",
+              "అది చిరునవ్వు నవ్వింది, పాత తలుపుపై ఏడవ పంజా ముద్ర వెలిగింది.",
+              "ఆ రోజు పిల్లలు, ఉత్తమ విద్యార్థులే గురువులవుతారని నేర్చుకున్నాయి."
+            ],
+            "ta": [
+              "ஒன்பதாம் நாள், ஆசிரியர் பூனை மிக மிகக் களைப்பாக இருந்தது.",
+              "பாடத்தின் நடுவிலேயே அது சுருண்டு தூங்கிவிட்டது.",
+              "என்ன செய்வதென்று தெரியாமல் ரோபோ பிப் கண் சிமிட்டியது.",
+              "கோரி ஒரு பெரிய, சத்தமான தாவலால் அதை எழுப்ப நினைத்தாள்.",
+              "கிரி தலையசைத்து மறுத்து, அதன் மேல் மென்மையான இலைப் போர்வையைப் போர்த்தினாள்.",
+              "பிறகு இரு குட்டிகளும் பாடத்தைத் தாங்களே நடத்த முடிவு செய்தனர்.",
+              "கோரி சிறியவர்களுக்கு உறுமி ஒரு கோளத்தை எழுப்புவது எப்படி என்று காட்டினாள்.",
+              "கிரி சத்தமின்றி நடப்பது எப்படி என்று காட்டினாள்.",
+              "எல்லோரும் சேர்ந்து தோட்டம் முழுவதும் ஒளிரும் பாதச்சுவடுகளை விட்டனர்.",
+              "ஆசிரியர் பூனை கண் திறந்தபோது, குவிமாடம் முழுவதும் ஒளிர்ந்தது.",
+              "அது புன்னகைத்தது; பழைய கதவில் ஏழாவது பாதச்சுவடு ஒளிர்ந்தது.",
+              "அன்று குட்டிகள், சிறந்த மாணவர்களே ஆசிரியர்களாகிறார்கள் என்று கற்றன."
             ]
           }
         }

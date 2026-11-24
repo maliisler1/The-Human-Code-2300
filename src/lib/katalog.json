@@ -63,6 +63,7 @@
       "members": [
         "abram-hikayesi",
         "bulut-okulu",
+        "trioko",
         "leon",
         "dusty",
         "zizi",
@@ -6178,6 +6179,33 @@
         "mr": "बॅटरी 1%. चार्जर खूप दूर आहे.",
         "te": "బ్యాటరీ 1%. ఛార్జర్ చాలా దూరంలో ఉంది.",
         "ta": "பேட்டரி 1%. சார்ஜர் வெகு தொலைவில் உள்ளது."
+      }
+    },
+    {
+      "key": "trioko",
+      "name": "The Triokos",
+      "tr": "Geleceği görüyorlar. Ama sadece birkaç saniyesini.",
+      "en": "They can see the future. But only a few seconds of it.",
+      "episodes": 10,
+      "loc": {
+        "de": "Sie sehen die Zukunft. Aber nur ein paar Sekunden davon.",
+        "fr": "Ils voient l'avenir. Mais seulement quelques secondes.",
+        "es": "Pueden ver el futuro. Pero solo unos segundos.",
+        "pt": "Eles veem o futuro. Mas só alguns segundos.",
+        "it": "Vedono il futuro. Ma solo qualche secondo.",
+        "ru": "Они видят будущее. Но только на несколько секунд вперёд.",
+        "ar": "يرون المستقبل. لكن بضع ثوانٍ منه فقط.",
+        "hi": "वे भविष्य देख सकते हैं। पर बस कुछ सेकंड का।",
+        "zh": "他们能看见未来，但只有几秒钟。",
+        "ja": "未来が見える。でも、ほんの数秒先だけ。",
+        "ko": "미래를 볼 수 있어요. 딱 몇 초 뒤만요.",
+        "id": "Mereka bisa melihat masa depan. Tapi hanya beberapa detik.",
+        "vi": "Họ nhìn thấy tương lai. Nhưng chỉ vài giây thôi.",
+        "bn": "ওরা ভবিষ্যৎ দেখতে পায়। তবে মাত্র কয়েক সেকেন্ডের।",
+        "ur": "وہ مستقبل دیکھ سکتے ہیں۔ مگر صرف چند سیکنڈ کا۔",
+        "mr": "त्यांना भविष्य दिसतं. पण फक्त काही सेकंदांचं.",
+        "te": "వాళ్లు భవిష్యత్తును చూడగలరు. కానీ కొన్ని సెకన్లు మాత్రమే.",
+        "ta": "அவர்களால் எதிர்காலத்தைப் பார்க்க முடியும். ஆனால் சில விநாடிகள் மட்டுமே."
       }
     },
     {

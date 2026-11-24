@@ -61,6 +61,7 @@
       "tr": "Ev halleri",
       "en": "Home life",
       "members": [
+        "mia",
         "abram-hikayesi",
         "bulut-okulu",
         "trioko",
@@ -192,6 +193,33 @@
     }
   ],
   "characters": [
+    {
+      "key": "mia",
+      "name": "Mia the Office Cat",
+      "tr": "Ofisin gerçek patronu. Tek kelime etmez, bakışı yeter.",
+      "en": "The real boss of the office. She never says a word. One look is enough.",
+      "episodes": 10,
+      "loc": {
+        "de": "Die wahre Chefin im Büro. Sie sagt kein Wort. Ein Blick genügt.",
+        "fr": "La vraie patronne du bureau. Elle ne dit pas un mot. Un regard suffit.",
+        "es": "La verdadera jefa de la oficina. No dice ni una palabra. Le basta una mirada.",
+        "pt": "A verdadeira chefe do escritório. Não diz uma palavra. Um olhar basta.",
+        "it": "La vera capa dell'ufficio. Non dice una parola. Le basta uno sguardo.",
+        "ru": "Настоящая хозяйка офиса. Она не говорит ни слова. Достаточно одного взгляда.",
+        "ar": "المديرة الحقيقية للمكتب. لا تقول كلمة واحدة. نظرة واحدة تكفي.",
+        "hi": "दफ़्तर की असली बॉस। वह एक शब्द नहीं कहती। एक नज़र ही काफ़ी है।",
+        "zh": "办公室真正的老板。她一句话也不说，一个眼神就够了。",
+        "ja": "オフィスの本当のボス。ひとことも話さない。ひと目で十分。",
+        "ko": "사무실의 진짜 보스. 한마디도 하지 않아요. 눈빛 하나면 충분해요.",
+        "id": "Bos sejati di kantor. Tak pernah berkata sepatah kata pun. Satu tatapan sudah cukup.",
+        "vi": "Bà chủ thật sự của văn phòng. Không nói một lời. Một ánh nhìn là đủ.",
+        "bn": "অফিসের আসল বস। সে একটা কথাও বলে না। এক দৃষ্টিই যথেষ্ট।",
+        "ur": "دفتر کی اصل باس۔ وہ ایک لفظ نہیں کہتی۔ ایک نظر ہی کافی ہے۔",
+        "mr": "ऑफिसची खरी बॉस. ती एक शब्दही बोलत नाही. एक नजर पुरेशी आहे.",
+        "te": "ఆఫీసు అసలు బాస్. ఆమె ఒక్క మాట కూడా అనదు. ఒక్క చూపు చాలు.",
+        "ta": "அலுவலகத்தின் உண்மையான முதலாளி. ஒரு வார்த்தையும் பேசமாட்டாள். ஒரு பார்வையே போதும்."
+      }
+    },
     {
       "key": "abram-hikayesi",
       "name": "Abram, Kiri & Kori",

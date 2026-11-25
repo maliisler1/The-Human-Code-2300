@@ -2548,7 +2548,7 @@
       "name": "The Cloud Cat School",
       "tr": "Yüzyıllar sonra, bulutların üstündeki cam şehirde bir kedi okulu: Abram'ın yavruları Kiri ve Kori ışık kürelerini mırıltıyla yakmayı öğreniyor, kimsenin açamadığı eski kapının sırrını arıyor. Anlatıcılı, 1 dakikalık bölümler.",
       "en": "Centuries from now, a cat school in a glass city above the clouds: Abram's kittens Kiri and Kori learn to light glowing orbs with a purr and search for the secret of an old door no one can open. Narrated one-minute episodes.",
-      "episodes": 14,
+      "episodes": 15,
       "loc": {
         "de": "In ferner Zukunft, eine Katzenschule in einer Glasstadt über den Wolken: Abrams Kätzchen Kiri und Kori lernen, Lichtkugeln mit einem Schnurren zu entzünden, und suchen das Geheimnis einer alten Tür, die niemand öffnen kann. Erzählte Ein-Minuten-Folgen.",
         "fr": "Dans un lointain futur, une école de chats dans une ville de verre au-dessus des nuages : Kiri et Kori, les chatons d'Abram, apprennent à allumer des sphères de lumière en ronronnant et cherchent le secret d'une vieille porte que personne ne peut ouvrir. Épisodes narrés d'une minute.",
@@ -7243,6 +7243,340 @@
               "அந்தக் குட்டி நட்சத்திரக் கதவுக்குச் செல்லும் மறைவான பாதையைக் காட்டியது.",
               "நட்சத்திரக் கதவின் மூன்றாவது முனை ஒளிர்ந்தது.",
               "அன்று குட்டிகள், காத்திருந்தால் புதிய நண்பர்கள் அருகே வருவார்கள் என்று கற்றன."
+            ]
+          }
+        },
+        "15": {
+          "cues": [
+            [
+              0.2,
+              4.96
+            ],
+            [
+              5.36,
+              10.08
+            ],
+            [
+              10.48,
+              15.2
+            ],
+            [
+              15.6,
+              20.32
+            ],
+            [
+              20.72,
+              25.44
+            ],
+            [
+              25.84,
+              30.56
+            ],
+            [
+              30.96,
+              35.68
+            ],
+            [
+              36.08,
+              40.8
+            ],
+            [
+              41.2,
+              45.92
+            ],
+            [
+              46.32,
+              51.04
+            ],
+            [
+              51.44,
+              56.16
+            ],
+            [
+              56.56,
+              61.8
+            ]
+          ],
+          "text": {
+            "en": [
+              "On the fifth day, the little island kitten walked with them.",
+              "The star door had three bright points and two dark ones.",
+              "Kori pushed the door with both paws, but it did not move.",
+              "Kiri purred at it softly, but it stayed closed.",
+              "The little kitten looked sad and sat down by the door.",
+              "It had waited there alone for a very long time.",
+              "Kori gave it her favorite glowing leaf as a gift.",
+              "Kiri wrapped her tail around the little one to keep it warm.",
+              "The fourth point of the star door began to shine.",
+              "Behind the door, a soft music started to play.",
+              "Abram smiled from the bridge; one last point was still dark.",
+              "That day, the kittens learned that kindness opens what strength cannot."
+            ],
+            "tr": [
+              "Beşinci gün adadaki küçük yavru da onlarla yürüdü.",
+              "Yıldız kapının üç ucu parlıyordu, ikisi karanlıktı.",
+              "Kori kapıyı iki patisiyle itti, ama kapı kıpırdamadı.",
+              "Kiri ona usulca mırladı, ama kapı kapalı kaldı.",
+              "Küçük yavru üzgün görünüyordu; kapının yanına oturdu.",
+              "Orada çok uzun zamandır tek başına bekliyordu.",
+              "Kori ona en sevdiği parlayan yaprağı hediye etti.",
+              "Kiri üşümesin diye kuyruğunu küçük yavruya sardı.",
+              "Yıldız kapının dördüncü ucu parlamaya başladı.",
+              "Kapının ardında yumuşak bir müzik çalmaya başladı.",
+              "Abram köprüden gülümsedi; son bir uç hâlâ karanlıktı.",
+              "O gün yavrular, gücün açamadığını iyiliğin açtığını öğrendi."
+            ],
+            "de": [
+              "Am fünften Tag ging das kleine Inselkätzchen mit ihnen.",
+              "Die Sternentür hatte drei helle Spitzen und zwei dunkle.",
+              "Kori drückte mit beiden Pfoten gegen die Tür, doch sie bewegte sich nicht.",
+              "Kiri schnurrte sie leise an, doch sie blieb zu.",
+              "Das kleine Kätzchen sah traurig aus und setzte sich neben die Tür.",
+              "Es hatte dort sehr lange ganz allein gewartet.",
+              "Kori schenkte ihm ihr liebstes leuchtendes Blatt.",
+              "Kiri legte ihren Schwanz um das Kleine, um es zu wärmen.",
+              "Die vierte Spitze der Sternentür begann zu leuchten.",
+              "Hinter der Tür erklang eine leise Musik.",
+              "Abram lächelte von der Brücke; eine letzte Spitze war noch dunkel.",
+              "An diesem Tag lernten die Kätzchen, dass Güte öffnet, was Kraft nicht öffnen kann."
+            ],
+            "fr": [
+              "Le cinquième jour, le petit chaton de l'île marcha avec elles.",
+              "La porte étoile avait trois pointes brillantes et deux sombres.",
+              "Kori poussa la porte des deux pattes, mais elle ne bougea pas.",
+              "Kiri lui ronronna doucement, mais elle resta fermée.",
+              "Le petit chaton avait l'air triste et s'assit près de la porte.",
+              "Il avait attendu là tout seul pendant très longtemps.",
+              "Kori lui offrit sa feuille lumineuse préférée.",
+              "Kiri enroula sa queue autour du petit pour le tenir au chaud.",
+              "La quatrième pointe de la porte étoile se mit à briller.",
+              "Derrière la porte, une douce musique commença à jouer.",
+              "Abram sourit depuis le pont ; une dernière pointe restait sombre.",
+              "Ce jour-là, les chatons apprirent que la gentillesse ouvre ce que la force ne peut pas."
+            ],
+            "es": [
+              "Al quinto día, el gatito de la isla caminó con ellas.",
+              "La puerta estrella tenía tres puntas encendidas y dos oscuras.",
+              "Kori empujó la puerta con las dos patas, pero no se movió.",
+              "Kiri le ronroneó bajito, pero siguió cerrada.",
+              "El gatito parecía triste y se sentó junto a la puerta.",
+              "Había esperado allí solo durante muchísimo tiempo.",
+              "Kori le regaló su hoja brillante favorita.",
+              "Kiri rodeó al pequeño con la cola para darle calor.",
+              "La cuarta punta de la puerta estrella empezó a brillar.",
+              "Detrás de la puerta empezó a sonar una música suave.",
+              "Abram sonrió desde el puente; una última punta seguía oscura.",
+              "Ese día, las gatitas aprendieron que la bondad abre lo que la fuerza no puede."
+            ],
+            "pt": [
+              "No quinto dia, o gatinho da ilha caminhou com elas.",
+              "A porta estrela tinha três pontas acesas e duas escuras.",
+              "Kori empurrou a porta com as duas patas, mas ela não se mexeu.",
+              "Kiri ronronou baixinho para ela, mas continuou fechada.",
+              "O gatinho parecia triste e sentou-se ao lado da porta.",
+              "Ele tinha esperado ali sozinho por muito, muito tempo.",
+              "Kori deu a ele sua folha brilhante favorita de presente.",
+              "Kiri enrolou a cauda no pequenino para aquecê-lo.",
+              "A quarta ponta da porta estrela começou a brilhar.",
+              "Atrás da porta, uma música suave começou a tocar.",
+              "Abram sorriu da ponte; uma última ponta ainda estava escura.",
+              "Naquele dia, as gatinhas aprenderam que a bondade abre o que a força não consegue."
+            ],
+            "it": [
+              "Il quinto giorno, il gattino dell'isola camminò con loro.",
+              "La porta stella aveva tre punte accese e due scure.",
+              "Kori spinse la porta con tutte e due le zampe, ma non si mosse.",
+              "Kiri le fece le fusa piano, ma rimase chiusa.",
+              "Il gattino sembrava triste e si sedette accanto alla porta.",
+              "Aveva aspettato lì da solo per tantissimo tempo.",
+              "Kori gli regalò la sua foglia luminosa preferita.",
+              "Kiri avvolse la coda intorno al piccolo per tenerlo al caldo.",
+              "La quarta punta della porta stella cominciò a brillare.",
+              "Dietro la porta iniziò a suonare una musica dolce.",
+              "Abram sorrise dal ponte; un'ultima punta era ancora scura.",
+              "Quel giorno, le gattine impararono che la gentilezza apre ciò che la forza non può."
+            ],
+            "ru": [
+              "На пятый день маленький котёнок с острова пошёл вместе с ними.",
+              "У звёздной двери три луча светились, а два были тёмными.",
+              "Кори толкнула дверь обеими лапами, но она не сдвинулась.",
+              "Кири тихо помурлыкала ей, но дверь осталась закрытой.",
+              "Котёнок погрустнел и сел возле двери.",
+              "Он очень долго ждал там совсем один.",
+              "Кори подарила ему свой любимый светящийся листок.",
+              "Кири обвила малыша хвостом, чтобы ему было тепло.",
+              "Четвёртый луч звёздной двери начал светиться.",
+              "За дверью заиграла тихая музыка.",
+              "Абрам улыбнулась с моста; последний луч всё ещё был тёмным.",
+              "В тот день котята узнали, что доброта открывает то, что не под силу силе."
+            ],
+            "ar": [
+              "في اليوم الخامس مشى قط الجزيرة الصغير معهما.",
+              "كان لباب النجمة ثلاثة رؤوس مضيئة واثنان معتمان.",
+              "دفعت كوري الباب بكفّيها، لكنه لم يتحرك.",
+              "خرخرت له كيري بهدوء، لكنه بقي مغلقًا.",
+              "بدا القط الصغير حزينًا وجلس بجانب الباب.",
+              "كان قد انتظر هناك وحيدًا زمنًا طويلًا جدًا.",
+              "أهدته كوري ورقتها المتوهجة المفضلة.",
+              "لفّت كيري ذيلها حول الصغير لتدفئه.",
+              "بدأ الرأس الرابع لباب النجمة يتوهج.",
+              "ومن خلف الباب بدأت موسيقى ناعمة تُعزف.",
+              "ابتسمت أبرام من الجسر؛ وبقي رأس أخير معتمًا.",
+              "في ذلك اليوم تعلّمت القطتان أن اللطف يفتح ما لا تفتحه القوة."
+            ],
+            "hi": [
+              "पाँचवें दिन द्वीप का नन्हा बिल्ली का बच्चा उनके साथ चला।",
+              "तारा-दरवाज़े के तीन कोने चमक रहे थे और दो अँधेरे थे।",
+              "कोरी ने दोनों पंजों से दरवाज़ा धकेला, पर वह नहीं हिला।",
+              "किरी ने उसके सामने धीरे से घुरघुराया, पर वह बंद ही रहा।",
+              "नन्हा बच्चा उदास दिखा और दरवाज़े के पास बैठ गया।",
+              "वह बहुत लंबे समय से वहाँ अकेला इंतज़ार कर रहा था।",
+              "कोरी ने उसे अपना सबसे प्यारा चमकता पत्ता उपहार में दिया।",
+              "किरी ने नन्हे को गर्म रखने के लिए अपनी पूँछ उसके चारों ओर लपेट दी।",
+              "तारा-दरवाज़े का चौथा कोना चमकने लगा।",
+              "दरवाज़े के पीछे एक मधुर संगीत बजने लगा।",
+              "अब्राम पुल से मुस्कुराई; एक आख़िरी कोना अब भी अँधेरा था।",
+              "उस दिन बच्चों ने सीखा कि जो ताक़त नहीं खोल पाती, उसे दया खोल देती है।"
+            ],
+            "zh": [
+              "第五天，岛上的小灰猫和她们一起走。",
+              "星星门有三个角亮着，两个角暗着。",
+              "科里用两只爪子推门，门一动不动。",
+              "奇里对着门轻轻呼噜，门还是关着。",
+              "小灰猫看起来很难过，在门边坐了下来。",
+              "它独自在那里等了很久很久。",
+              "科里把自己最喜欢的发光叶子送给了它。",
+              "奇里用尾巴围住小家伙，给它取暖。",
+              "星星门的第四个角开始发光。",
+              "门后响起了轻柔的音乐。",
+              "阿布拉姆在桥上笑了；最后一个角还暗着。",
+              "那一天，小猫们明白了，力气打不开的门，善良可以打开。"
+            ],
+            "ja": [
+              "五日目、島の小さな子猫もいっしょに歩きました。",
+              "星の扉は、三つの角が光り、二つが暗いままでした。",
+              "コリは両方の前足で扉を押しましたが、動きません。",
+              "キリがそっとのどを鳴らしても、扉は閉じたままでした。",
+              "小さな子猫は悲しそうに、扉のそばにすわりました。",
+              "その子は長いあいだ、ひとりでそこで待っていたのです。",
+              "コリはいちばん好きな光る葉っぱをその子にあげました。",
+              "キリはその子が寒くないよう、しっぽでくるみました。",
+              "星の扉の四つめの角が光りはじめました。",
+              "扉のむこうで、やさしい音楽が鳴りはじめました。",
+              "アブラムは橋の上でほほえみました。最後の角はまだ暗いままです。",
+              "その日子猫たちは、力で開かないものをやさしさが開くと知りました。"
+            ],
+            "ko": [
+              "다섯째 날, 섬의 작은 고양이도 함께 걸었어요.",
+              "별 문은 꼭짓점 세 개가 빛나고 두 개는 어두웠어요.",
+              "코리가 두 발로 문을 밀었지만 문은 움직이지 않았어요.",
+              "키리가 부드럽게 가르랑거렸지만 문은 닫힌 그대로였어요.",
+              "작은 고양이는 슬픈 얼굴로 문 옆에 앉았어요.",
+              "그 아이는 아주 오랫동안 혼자 거기서 기다렸던 거예요.",
+              "코리는 가장 아끼는 빛나는 잎을 선물로 주었어요.",
+              "키리는 작은 고양이가 춥지 않게 꼬리로 감싸 주었어요.",
+              "별 문의 네 번째 꼭짓점이 빛나기 시작했어요.",
+              "문 뒤에서 잔잔한 음악이 흐르기 시작했어요.",
+              "아브람이 다리에서 미소 지었어요. 마지막 꼭짓점 하나는 아직 어두웠어요.",
+              "그날 아기 고양이들은 힘으로 못 여는 것을 다정함이 연다는 걸 배웠어요."
+            ],
+            "id": [
+              "Pada hari kelima, anak kucing kecil dari pulau berjalan bersama mereka.",
+              "Pintu bintang punya tiga ujung terang dan dua yang gelap.",
+              "Kori mendorong pintu dengan kedua cakarnya, tetapi pintu tak bergerak.",
+              "Kiri mendengkur lembut padanya, tetapi pintu tetap tertutup.",
+              "Anak kucing kecil itu tampak sedih dan duduk di samping pintu.",
+              "Ia sudah menunggu di sana sendirian sangat lama.",
+              "Kori menghadiahinya daun bercahaya kesayangannya.",
+              "Kiri melingkarkan ekornya pada si kecil agar tetap hangat.",
+              "Ujung keempat pintu bintang mulai bersinar.",
+              "Di balik pintu, musik lembut mulai terdengar.",
+              "Abram tersenyum dari jembatan; satu ujung terakhir masih gelap.",
+              "Hari itu, anak-anak kucing belajar bahwa kebaikan membuka apa yang tak bisa dibuka kekuatan."
+            ],
+            "vi": [
+              "Ngày thứ năm, mèo con trên đảo cùng đi với chúng.",
+              "Cửa sao có ba cánh sáng và hai cánh còn tối.",
+              "Kori dùng cả hai chân đẩy cửa, nhưng cửa không nhúc nhích.",
+              "Kiri khẽ gừ gừ với nó, nhưng cửa vẫn đóng.",
+              "Mèo con trông buồn bã và ngồi xuống cạnh cửa.",
+              "Nó đã chờ ở đó một mình rất, rất lâu.",
+              "Kori tặng nó chiếc lá phát sáng mà mình thích nhất.",
+              "Kiri quấn đuôi quanh bé mèo để giữ ấm cho nó.",
+              "Cánh thứ tư của cửa sao bắt đầu tỏa sáng.",
+              "Sau cánh cửa, một khúc nhạc êm dịu vang lên.",
+              "Abram mỉm cười từ trên cầu; còn một cánh cuối vẫn tối.",
+              "Hôm đó, hai mèo con học được rằng lòng tốt mở được điều sức mạnh không thể."
+            ],
+            "bn": [
+              "পঞ্চম দিনে দ্বীপের ছোট্ট ছানাটিও তাদের সঙ্গে হাঁটল।",
+              "তারা-দরজার তিনটি কোণ জ্বলছিল, দুটি অন্ধকার।",
+              "কোরি দুই থাবায় দরজা ঠেলল, কিন্তু সেটা নড়ল না।",
+              "কিরি নরম করে গরগর করল, তবু দরজা বন্ধই রইল।",
+              "ছোট্ট ছানাটি মনমরা হয়ে দরজার পাশে বসে পড়ল।",
+              "সে অনেক, অনেক দিন ধরে সেখানে একা অপেক্ষা করছিল।",
+              "কোরি তাকে নিজের সবচেয়ে প্রিয় জ্বলজ্বলে পাতাটা উপহার দিল।",
+              "কিরি ছোট্টটিকে উষ্ণ রাখতে লেজ দিয়ে জড়িয়ে ধরল।",
+              "তারা-দরজার চতুর্থ কোণ জ্বলতে শুরু করল।",
+              "দরজার ওপারে মৃদু সুর বাজতে লাগল।",
+              "আব্রাম সেতু থেকে হাসল; শেষ একটি কোণ তখনও অন্ধকার।",
+              "সেদিন ছানারা শিখল, শক্তি যা খুলতে পারে না, দয়া তা খুলে দেয়।"
+            ],
+            "ur": [
+              "پانچویں دن جزیرے کا ننھا بلونگڑا بھی ان کے ساتھ چلا۔",
+              "ستارہ دروازے کے تین کونے روشن تھے اور دو تاریک۔",
+              "کوری نے دونوں پنجوں سے دروازہ دھکیلا، مگر وہ نہ ہلا۔",
+              "کیری نے اس کے سامنے آہستہ سے خرخر کی، مگر وہ بند ہی رہا۔",
+              "ننھا بلونگڑا اداس دکھائی دیا اور دروازے کے پاس بیٹھ گیا۔",
+              "وہ بہت طویل عرصے سے وہاں اکیلا انتظار کر رہا تھا۔",
+              "کوری نے اسے اپنا سب سے پیارا چمکتا پتا تحفے میں دیا۔",
+              "کیری نے ننھے کو گرم رکھنے کے لیے اپنی دُم اس کے گرد لپیٹ دی۔",
+              "ستارہ دروازے کا چوتھا کونا چمکنے لگا۔",
+              "دروازے کے پیچھے ایک نرم موسیقی بجنے لگی۔",
+              "ابرام پل سے مسکرائی؛ ایک آخری کونا ابھی تاریک تھا۔",
+              "اس دن بچوں نے سیکھا کہ جو طاقت نہیں کھول سکتی، اسے مہربانی کھول دیتی ہے۔"
+            ],
+            "mr": [
+              "पाचव्या दिवशी बेटावरचे छोटे पिल्लूही त्यांच्यासोबत चालले.",
+              "तारा-दाराची तीन टोके उजळली होती आणि दोन अंधारी होती.",
+              "कोरीने दोन्ही पंजांनी दार ढकलले, पण ते हलले नाही.",
+              "किरीने त्याच्यापुढे हळूच गुरगुर केली, पण ते बंदच राहिले.",
+              "छोटे पिल्लू उदास दिसले आणि दाराजवळ बसले.",
+              "ते खूप खूप काळ तिथे एकटेच वाट पाहत होते.",
+              "कोरीने त्याला आपले सर्वात आवडते चमकते पान भेट दिले.",
+              "किरीने छोट्याला ऊब मिळावी म्हणून त्याच्याभोवती शेपटी गुंडाळली.",
+              "तारा-दाराचे चौथे टोक चमकू लागले.",
+              "दारामागे मंद संगीत वाजू लागले.",
+              "अब्राम पुलावरून हसली; शेवटचे एक टोक अजून अंधारे होते.",
+              "त्या दिवशी पिल्लांना कळले की ताकदीने जे उघडत नाही ते मायेने उघडते."
+            ],
+            "te": [
+              "ఐదవ రోజు ద్వీపంలోని చిన్న పిల్లి కూడా వారితో నడిచింది.",
+              "నక్షత్ర తలుపుకు మూడు కొనలు వెలుగుతున్నాయి, రెండు చీకటిగా ఉన్నాయి.",
+              "కోరి రెండు పంజాలతో తలుపును నెట్టింది, కానీ అది కదలలేదు.",
+              "కిరి దాని ముందు మెల్లగా గురగురమంది, అయినా అది మూసే ఉంది.",
+              "చిన్న పిల్లి దిగులుగా కనిపించి తలుపు పక్కన కూర్చుంది.",
+              "అది చాలా చాలా కాలంగా అక్కడ ఒంటరిగా ఎదురుచూసింది.",
+              "కోరి తనకు ఎంతో ఇష్టమైన మెరిసే ఆకును దానికి కానుకగా ఇచ్చింది.",
+              "కిరి చిన్నదానికి వెచ్చగా ఉండేలా తన తోకను చుట్టింది.",
+              "నక్షత్ర తలుపు నాల్గవ కొన మెరవడం మొదలైంది.",
+              "తలుపు వెనుక మృదువైన సంగీతం వినిపించడం మొదలైంది.",
+              "అబ్రామ్ వంతెనపై నుంచి నవ్వింది; చివరి ఒక్క కొన ఇంకా చీకటిగానే ఉంది.",
+              "ఆ రోజు పిల్లలు, బలం తెరవలేనిదాన్ని దయ తెరుస్తుందని నేర్చుకున్నాయి."
+            ],
+            "ta": [
+              "ஐந்தாம் நாள், தீவின் சின்னக் குட்டியும் அவர்களுடன் நடந்தது.",
+              "நட்சத்திரக் கதவில் மூன்று முனைகள் ஒளிர்ந்தன; இரண்டு இருளாக இருந்தன.",
+              "கோரி இரு பாதங்களாலும் கதவைத் தள்ளினாள்; அது அசையவில்லை.",
+              "கிரி அதனிடம் மெதுவாக உறுமினாள்; அது மூடியே இருந்தது.",
+              "சின்னக் குட்டி சோகமாகக் கதவின் அருகே அமர்ந்தது.",
+              "அது மிக நீண்ட காலமாக அங்கே தனியாகக் காத்திருந்தது.",
+              "கோரி தனக்கு மிகவும் பிடித்த ஒளிரும் இலையை அதற்குப் பரிசளித்தாள்.",
+              "கிரி சின்னதைக் கதகதப்பாக வைக்கத் தன் வாலைச் சுற்றிக்கொண்டாள்.",
+              "நட்சத்திரக் கதவின் நான்காவது முனை ஒளிரத் தொடங்கியது.",
+              "கதவுக்குப் பின்னால் மென்மையான இசை ஒலிக்கத் தொடங்கியது.",
+              "அப்ராம் பாலத்திலிருந்து புன்னகைத்தாள்; கடைசி ஒரு முனை இன்னும் இருளாக இருந்தது.",
+              "அன்று குட்டிகள், வலிமையால் திறக்க முடியாததை அன்பு திறக்கும் என்று கற்றன."
             ]
           }
         }

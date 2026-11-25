@@ -2548,7 +2548,7 @@
       "name": "The Cloud Cat School",
       "tr": "Yüzyıllar sonra, bulutların üstündeki cam şehirde bir kedi okulu: Abram'ın yavruları Kiri ve Kori ışık kürelerini mırıltıyla yakmayı öğreniyor, kimsenin açamadığı eski kapının sırrını arıyor. Anlatıcılı, 1 dakikalık bölümler.",
       "en": "Centuries from now, a cat school in a glass city above the clouds: Abram's kittens Kiri and Kori learn to light glowing orbs with a purr and search for the secret of an old door no one can open. Narrated one-minute episodes.",
-      "episodes": 18,
+      "episodes": 20,
       "loc": {
         "de": "In ferner Zukunft, eine Katzenschule in einer Glasstadt über den Wolken: Abrams Kätzchen Kiri und Kori lernen, Lichtkugeln mit einem Schnurren zu entzünden, und suchen das Geheimnis einer alten Tür, die niemand öffnen kann. Erzählte Ein-Minuten-Folgen.",
         "fr": "Dans un lointain futur, une école de chats dans une ville de verre au-dessus des nuages : Kiri et Kori, les chatons d'Abram, apprennent à allumer des sphères de lumière en ronronnant et cherchent le secret d'une vieille porte que personne ne peut ouvrir. Épisodes narrés d'une minute.",
@@ -8579,6 +8579,340 @@
               "மெதுவாக, ஒலியின்றி, நட்சத்திரக் கதவு திறந்தது.",
               "அதன் பின்னே வெள்ளி ஒளிப் பாதை வானை நோக்கி ஏறியது.",
               "அன்று, ஒன்றாக இருந்தால் எந்தக் கதவையும் திறக்க முடியும் என்று குட்டிகள் கற்றுக்கொண்டன."
+            ]
+          }
+        },
+        "20": {
+          "cues": [
+            [
+              0.2,
+              4.96
+            ],
+            [
+              5.36,
+              10.08
+            ],
+            [
+              10.48,
+              15.2
+            ],
+            [
+              15.6,
+              20.32
+            ],
+            [
+              20.72,
+              25.44
+            ],
+            [
+              25.84,
+              30.56
+            ],
+            [
+              30.96,
+              35.68
+            ],
+            [
+              36.08,
+              40.8
+            ],
+            [
+              41.2,
+              45.92
+            ],
+            [
+              46.32,
+              51.04
+            ],
+            [
+              51.44,
+              56.16
+            ],
+            [
+              56.56,
+              61.28
+            ]
+          ],
+          "text": {
+            "en": [
+              "On the tenth day, the sky above the school was full of new stars.",
+              "The kittens walked back across the bridge of light.",
+              "The little island kitten stopped at the edge of the island.",
+              "It had no school, and no family of its own.",
+              "Kori turned around and held out her paw.",
+              "Kiri made room beside her on the bridge.",
+              "The old teacher had one more cushion waiting in the classroom.",
+              "The little kitten took one small step, and then another.",
+              "Abram welcomed it with a soft lick on the head.",
+              "That night, three kittens fell asleep under the glass dome.",
+              "Above them, the baby stars twinkled like friends saying good night.",
+              "That day, the kittens learned that home is where your friends are."
+            ],
+            "tr": [
+              "Onuncu gün okulun üstündeki gökyüzü yeni yıldızlarla doluydu.",
+              "Yavrular ışık köprüsünden geri yürüdü.",
+              "Adadaki küçük yavru adanın kenarında durdu.",
+              "Ne okulu vardı, ne de kendi ailesi.",
+              "Kori döndü ve patisini uzattı.",
+              "Kiri köprüde yanında ona yer açtı.",
+              "Yaşlı öğretmenin sınıfta hazır bir minderi daha vardı.",
+              "Küçük yavru küçük bir adım attı, sonra bir tane daha.",
+              "Abram onu başına yumuşak bir yalamayla karşıladı.",
+              "O gece cam kubbenin altında üç yavru uyuyakaldı.",
+              "Üstlerinde bebek yıldızlar iyi geceler diyen arkadaşlar gibi parlıyordu.",
+              "O gün yavrular, evin arkadaşlarının olduğu yer olduğunu öğrendi."
+            ],
+            "de": [
+              "Am zehnten Tag war der Himmel über der Schule voller neuer Sterne.",
+              "Die Kätzchen gingen über die Brücke aus Licht zurück.",
+              "Das kleine Inselkätzchen blieb am Rand der Insel stehen.",
+              "Es hatte keine Schule und keine eigene Familie.",
+              "Kori drehte sich um und streckte ihre Pfote aus.",
+              "Kiri machte neben sich auf der Brücke Platz.",
+              "Der alte Lehrer hatte noch ein Kissen im Klassenzimmer bereit.",
+              "Das kleine Kätzchen machte einen kleinen Schritt, und dann noch einen.",
+              "Abram begrüßte es mit einem sanften Lecken über den Kopf.",
+              "In dieser Nacht schliefen drei Kätzchen unter der Glaskuppel ein.",
+              "Über ihnen funkelten die Babysterne wie Freunde, die Gute Nacht sagen.",
+              "An diesem Tag lernten die Kätzchen, dass Zuhause dort ist, wo deine Freunde sind."
+            ],
+            "fr": [
+              "Le dixième jour, le ciel au-dessus de l'école était plein d'étoiles nouvelles.",
+              "Les chatons repassèrent le pont de lumière.",
+              "Le petit chaton de l'île s'arrêta au bord de l'île.",
+              "Il n'avait pas d'école, ni de famille à lui.",
+              "Kori se retourna et lui tendit la patte.",
+              "Kiri lui fit une place à côté d'elle sur le pont.",
+              "Le vieux professeur avait un coussin de plus qui attendait dans la classe.",
+              "Le petit chaton fit un petit pas, puis un autre.",
+              "Abram l'accueillit avec un doux coup de langue sur la tête.",
+              "Cette nuit-là, trois chatons s'endormirent sous le dôme de verre.",
+              "Au-dessus d'eux, les bébés étoiles scintillaient comme des amis disant bonne nuit.",
+              "Ce jour-là, les chatons apprirent que la maison est là où sont tes amis."
+            ],
+            "es": [
+              "Al décimo día, el cielo sobre la escuela estaba lleno de estrellas nuevas.",
+              "Las gatitas volvieron por el puente de luz.",
+              "El gatito de la isla se detuvo al borde de la isla.",
+              "No tenía escuela ni una familia propia.",
+              "Kori se dio la vuelta y le tendió la pata.",
+              "Kiri le hizo sitio a su lado en el puente.",
+              "El viejo maestro tenía un cojín más esperando en la clase.",
+              "El gatito dio un pasito, y luego otro.",
+              "Abram lo recibió con una suave lamida en la cabeza.",
+              "Esa noche, tres gatitos se durmieron bajo la cúpula de cristal.",
+              "Sobre ellos, las estrellas bebé titilaban como amigos dando las buenas noches.",
+              "Ese día, las gatitas aprendieron que el hogar está donde están tus amigos."
+            ],
+            "pt": [
+              "No décimo dia, o céu sobre a escola estava cheio de estrelas novas.",
+              "As gatinhas voltaram pela ponte de luz.",
+              "O gatinho da ilha parou na beira da ilha.",
+              "Ele não tinha escola nem uma família sua.",
+              "Kori se virou e estendeu a pata.",
+              "Kiri abriu espaço ao seu lado na ponte.",
+              "O velho professor tinha mais uma almofada esperando na sala.",
+              "O gatinho deu um passinho, e depois outro.",
+              "Abram o recebeu com uma lambida suave na cabeça.",
+              "Naquela noite, três gatinhos adormeceram sob a cúpula de vidro.",
+              "Acima deles, as estrelas bebês piscavam como amigos dizendo boa noite.",
+              "Naquele dia, as gatinhas aprenderam que o lar é onde estão os seus amigos."
+            ],
+            "it": [
+              "Il decimo giorno, il cielo sopra la scuola era pieno di stelle nuove.",
+              "Le gattine tornarono indietro sul ponte di luce.",
+              "Il gattino dell'isola si fermò sul bordo dell'isola.",
+              "Non aveva una scuola, né una famiglia tutta sua.",
+              "Kori si voltò e gli tese la zampa.",
+              "Kiri gli fece posto accanto a sé sul ponte.",
+              "Il vecchio maestro aveva un altro cuscino pronto in classe.",
+              "Il gattino fece un piccolo passo, e poi un altro.",
+              "Abram lo accolse con una dolce leccata sulla testa.",
+              "Quella notte, tre gattini si addormentarono sotto la cupola di vetro.",
+              "Sopra di loro, le stelle bambine brillavano come amici che dicono buonanotte.",
+              "Quel giorno, le gattine impararono che casa è dove sono i tuoi amici."
+            ],
+            "ru": [
+              "На десятый день небо над школой было полно новых звёзд.",
+              "Котята пошли обратно по мосту из света.",
+              "Маленький котёнок с острова остановился на краю острова.",
+              "У него не было ни школы, ни своей семьи.",
+              "Кори обернулась и протянула ему лапу.",
+              "Кири подвинулась, освободив место рядом с собой на мосту.",
+              "У старого учителя в классе ждала ещё одна подушка.",
+              "Маленький котёнок сделал один маленький шаг, а потом ещё один.",
+              "Абрам встретила его нежным поцелуем в голову.",
+              "В ту ночь трое котят уснули под стеклянным куполом.",
+              "Над ними мерцали звёзды-малыши, как друзья, желающие спокойной ночи.",
+              "В тот день котята узнали, что дом там, где твои друзья."
+            ],
+            "ar": [
+              "في اليوم العاشر كانت السماء فوق المدرسة مليئة بالنجوم الجديدة.",
+              "عادت القطط الصغيرة عبر جسر الضوء.",
+              "توقف قط الجزيرة الصغير عند حافة الجزيرة.",
+              "لم تكن له مدرسة، ولا عائلة خاصة به.",
+              "استدارت كوري ومدّت له كفّها.",
+              "أفسحت كيري له مكانًا بجانبها على الجسر.",
+              "كان لدى المعلّم العجوز وسادة أخرى تنتظر في الصف.",
+              "خطا القط الصغير خطوة صغيرة، ثم أخرى.",
+              "رحّبت به أبرام بلعقة رقيقة على رأسه.",
+              "في تلك الليلة نام ثلاثة قطط صغيرة تحت القبة الزجاجية.",
+              "وفوقهم تلألأت النجوم الرضيعة مثل أصدقاء يقولون تصبحون على خير.",
+              "في ذلك اليوم تعلّمت القطط الصغيرة أن البيت حيث يكون أصدقاؤك."
+            ],
+            "hi": [
+              "दसवें दिन स्कूल के ऊपर का आसमान नए तारों से भरा था।",
+              "बच्चे रोशनी के पुल से वापस चले।",
+              "द्वीप का नन्हा बच्चा द्वीप के किनारे पर रुक गया।",
+              "उसका न कोई स्कूल था, न अपना परिवार।",
+              "कोरी पलटी और अपना पंजा बढ़ाया।",
+              "किरी ने पुल पर अपने पास उसके लिए जगह बनाई।",
+              "बूढ़े शिक्षक के पास कक्षा में एक और गद्दी तैयार थी।",
+              "नन्हे बच्चे ने एक छोटा कदम बढ़ाया, फिर एक और।",
+              "अब्राम ने उसके सिर पर प्यार से चाटकर उसका स्वागत किया।",
+              "उस रात काँच के गुंबद के नीचे तीन बच्चे सो गए।",
+              "उनके ऊपर शिशु तारे शुभ रात्रि कहते दोस्तों की तरह टिमटिमा रहे थे।",
+              "उस दिन बच्चों ने सीखा कि घर वहीं है जहाँ तुम्हारे दोस्त हैं।"
+            ],
+            "zh": [
+              "第十天，学校上空布满了新的星星。",
+              "小猫们沿着光桥走回去。",
+              "岛上的小猫在岛的边缘停了下来。",
+              "它没有学校，也没有自己的家人。",
+              "科里转过身，伸出了爪子。",
+              "奇里在桥上挪出位置，让它站在身边。",
+              "年老的老师在教室里还准备了一个垫子。",
+              "小猫迈出小小的一步，然后又一步。",
+              "阿布拉姆轻轻舔了舔它的头，欢迎它。",
+              "那天晚上，三只小猫在玻璃穹顶下睡着了。",
+              "在它们上方，星星宝宝一闪一闪，像朋友们在道晚安。",
+              "那一天，小猫们明白了：有朋友的地方就是家。"
+            ],
+            "ja": [
+              "十日目、学校の上の空は新しい星でいっぱいでした。",
+              "子猫たちは光の橋をわたって帰りました。",
+              "島の小さな子猫は、島のはしで立ち止まりました。",
+              "その子には学校も、自分の家族もありませんでした。",
+              "コリはふり向いて、前足をさし出しました。",
+              "キリは橋の上で、自分のとなりに場所をあけました。",
+              "年とった先生は、教室にもうひとつクッションを用意していました。",
+              "小さな子猫は小さな一歩を、そしてもう一歩をふみ出しました。",
+              "アブラムはその子の頭をやさしくなめて迎えました。",
+              "その夜、ガラスのドームの下で三匹の子猫が眠りました。",
+              "その上で、赤ちゃん星たちが「おやすみ」と言う友だちのようにまたたいていました。",
+              "その日、子猫たちは、友だちのいる場所が家なのだと学びました。"
+            ],
+            "ko": [
+              "열째 날, 학교 위 하늘은 새 별들로 가득했어요.",
+              "아기 고양이들은 빛의 다리를 건너 돌아갔어요.",
+              "섬의 작은 고양이는 섬 가장자리에서 멈춰 섰어요.",
+              "그 아이에겐 학교도, 자기 가족도 없었어요.",
+              "코리가 돌아서서 발을 내밀었어요.",
+              "키리는 다리 위 자기 옆자리를 비워 주었어요.",
+              "나이 든 선생님의 교실에는 방석 하나가 더 준비되어 있었어요.",
+              "작은 고양이는 작은 한 걸음, 그리고 또 한 걸음을 내디뎠어요.",
+              "아브람은 머리를 부드럽게 핥아 주며 맞이했어요.",
+              "그날 밤, 유리 돔 아래에서 세 아기 고양이가 잠들었어요.",
+              "그 위에서 아기 별들이 잘 자라고 인사하는 친구들처럼 반짝였어요.",
+              "그날 아기 고양이들은 친구가 있는 곳이 집이라는 걸 배웠어요."
+            ],
+            "id": [
+              "Pada hari kesepuluh, langit di atas sekolah penuh dengan bintang baru.",
+              "Anak-anak kucing berjalan kembali melewati jembatan cahaya.",
+              "Anak kucing pulau berhenti di tepi pulau.",
+              "Ia tidak punya sekolah, dan tidak punya keluarga sendiri.",
+              "Kori berbalik dan mengulurkan cakarnya.",
+              "Kiri memberi tempat di sampingnya di atas jembatan.",
+              "Guru tua punya satu bantal lagi yang menunggu di kelas.",
+              "Anak kucing kecil itu melangkah kecil, lalu melangkah lagi.",
+              "Abram menyambutnya dengan jilatan lembut di kepala.",
+              "Malam itu, tiga anak kucing tertidur di bawah kubah kaca.",
+              "Di atas mereka, bayi-bayi bintang berkelip seperti sahabat yang mengucapkan selamat malam.",
+              "Hari itu, anak-anak kucing belajar bahwa rumah adalah tempat sahabat-sahabatmu berada."
+            ],
+            "vi": [
+              "Ngày thứ mười, bầu trời trên mái trường đầy những ngôi sao mới.",
+              "Các bé mèo đi ngược lại cây cầu ánh sáng.",
+              "Mèo con trên đảo dừng lại ở rìa đảo.",
+              "Nó không có trường, cũng không có gia đình của riêng mình.",
+              "Kori quay lại và chìa chân ra.",
+              "Kiri nhường chỗ bên cạnh mình trên cầu.",
+              "Thầy giáo già còn một chiếc đệm nữa đang đợi trong lớp.",
+              "Mèo con bước một bước nhỏ, rồi thêm một bước nữa.",
+              "Abram đón nó bằng một cái liếm nhẹ lên đầu.",
+              "Đêm ấy, ba bé mèo ngủ thiếp đi dưới mái vòm kính.",
+              "Trên cao, những ngôi sao bé lấp lánh như những người bạn đang chúc ngủ ngon.",
+              "Hôm ấy, các bé mèo học được rằng nhà là nơi có bạn bè của mình."
+            ],
+            "bn": [
+              "দশম দিনে স্কুলের ওপরের আকাশ নতুন তারায় ভরে গেল।",
+              "ছানারা আলোর সেতু ধরে ফিরে চলল।",
+              "দ্বীপের ছোট্ট ছানাটি দ্বীপের কিনারায় থেমে গেল।",
+              "তার কোনো স্কুল ছিল না, নিজের পরিবারও না।",
+              "কোরি ঘুরে দাঁড়িয়ে থাবা বাড়িয়ে দিল।",
+              "কিরি সেতুর ওপর নিজের পাশে জায়গা করে দিল।",
+              "বুড়ো শিক্ষকের ক্লাসে আরও একটি কুশন অপেক্ষায় ছিল।",
+              "ছোট্ট ছানাটি একটি ছোট পা ফেলল, তারপর আরেকটি।",
+              "আব্রাম তার মাথায় আলতো চেটে তাকে স্বাগত জানাল।",
+              "সে রাতে কাচের গম্বুজের নিচে তিনটি ছানা ঘুমিয়ে পড়ল।",
+              "তাদের ওপরে শিশু তারারা শুভরাত্রি বলা বন্ধুদের মতো মিটমিট করছিল।",
+              "সেদিন ছানারা শিখল, যেখানে বন্ধুরা আছে সেখানেই ঘর।"
+            ],
+            "ur": [
+              "دسویں دن اسکول کے اوپر کا آسمان نئے ستاروں سے بھرا تھا۔",
+              "بلونگڑے روشنی کے پل سے واپس چلے۔",
+              "جزیرے کا ننھا بلونگڑا جزیرے کے کنارے پر رک گیا۔",
+              "اس کا نہ کوئی اسکول تھا، نہ اپنا خاندان۔",
+              "کوری پلٹی اور اپنا پنجہ بڑھایا۔",
+              "کیری نے پل پر اپنے پاس اس کے لیے جگہ بنائی۔",
+              "بوڑھے استاد کے پاس کلاس میں ایک اور گدی تیار تھی۔",
+              "ننھے بلونگڑے نے ایک چھوٹا قدم بڑھایا، پھر ایک اور۔",
+              "ابرام نے اس کے سر پر پیار سے چاٹ کر اس کا استقبال کیا۔",
+              "اس رات شیشے کے گنبد کے نیچے تین بلونگڑے سو گئے۔",
+              "ان کے اوپر ننھے ستارے شب بخیر کہتے دوستوں کی طرح ٹمٹما رہے تھے۔",
+              "اس دن بلونگڑوں نے سیکھا کہ گھر وہیں ہے جہاں تمہارے دوست ہیں۔"
+            ],
+            "mr": [
+              "दहाव्या दिवशी शाळेवरचे आकाश नव्या ताऱ्यांनी भरले होते.",
+              "पिल्ले प्रकाशाच्या पुलावरून परत चालली.",
+              "बेटावरचे छोटे पिल्लू बेटाच्या कडेला थांबले.",
+              "त्याला शाळा नव्हती, आणि स्वतःचे कुटुंबही नव्हते.",
+              "कोरी वळली आणि तिने आपला पंजा पुढे केला.",
+              "किरीने पुलावर आपल्या शेजारी त्याला जागा दिली.",
+              "म्हाताऱ्या शिक्षकाकडे वर्गात आणखी एक उशी तयार होती.",
+              "छोट्या पिल्लाने एक छोटे पाऊल टाकले, मग आणखी एक.",
+              "अब्रामने त्याच्या डोक्यावर हळुवार चाटून त्याचे स्वागत केले.",
+              "त्या रात्री काचेच्या घुमटाखाली तीन पिल्ले झोपी गेली.",
+              "त्यांच्या वर बाळ तारे शुभरात्री म्हणणाऱ्या मित्रांसारखे लुकलुकत होते.",
+              "त्या दिवशी पिल्लांना कळले की जिथे मित्र असतात तिथेच घर असते."
+            ],
+            "te": [
+              "పదవ రోజు బడి పైన ఆకాశం కొత్త నక్షత్రాలతో నిండిపోయింది.",
+              "పిల్లి పిల్లలు వెలుగు వంతెన మీదుగా వెనక్కి నడిచాయి.",
+              "ద్వీపంలోని చిన్న పిల్లి ద్వీపం అంచున ఆగిపోయింది.",
+              "దానికి బడి లేదు, సొంత కుటుంబమూ లేదు.",
+              "కోరి వెనక్కి తిరిగి తన పాదాన్ని చాపింది.",
+              "కిరి వంతెన మీద తన పక్కన దానికి చోటు ఇచ్చింది.",
+              "వృద్ధ గురువు దగ్గర తరగతిలో ఇంకో దిండు సిద్ధంగా ఉంది.",
+              "చిన్న పిల్లి ఒక చిన్న అడుగు వేసింది, తరువాత మరొకటి.",
+              "అబ్రామ్ దాని తలను మృదువుగా నాకి స్వాగతం పలికింది.",
+              "ఆ రాత్రి గాజు గోపురం కింద మూడు పిల్లి పిల్లలు నిద్రపోయాయి.",
+              "వాటి పైన పసి నక్షత్రాలు శుభరాత్రి చెప్పే స్నేహితుల్లా మిణుకుమన్నాయి.",
+              "ఆ రోజు పిల్లి పిల్లలు స్నేహితులు ఉన్న చోటే ఇల్లు అని నేర్చుకున్నాయి."
+            ],
+            "ta": [
+              "பத்தாம் நாள், பள்ளிக்கு மேலே வானம் புதிய நட்சத்திரங்களால் நிறைந்திருந்தது.",
+              "குட்டிகள் ஒளிப் பாலத்தின் வழியே திரும்பி நடந்தன.",
+              "தீவின் சின்னக் குட்டி தீவின் விளிம்பில் நின்றது.",
+              "அதற்குப் பள்ளியும் இல்லை, சொந்தக் குடும்பமும் இல்லை.",
+              "கோரி திரும்பி தன் பாதத்தை நீட்டினாள்.",
+              "கிரி பாலத்தில் தன் அருகே அதற்கு இடம் கொடுத்தாள்.",
+              "முதிய ஆசிரியரிடம் வகுப்பறையில் இன்னொரு மெத்தை காத்திருந்தது.",
+              "சின்னக் குட்டி ஒரு சிறு அடி எடுத்து வைத்தது, பிறகு இன்னொன்று.",
+              "அப்ராம் அதன் தலையை மென்மையாக நக்கி வரவேற்றாள்.",
+              "அன்று இரவு, கண்ணாடிக் குவிமாடத்தின் கீழ் மூன்று குட்டிகள் தூங்கின.",
+              "அவற்றுக்கு மேலே குழந்தை நட்சத்திரங்கள் இனிய இரவு சொல்லும் நண்பர்களைப் போல மின்னின.",
+              "அன்று, நண்பர்கள் இருக்கும் இடமே வீடு என்று குட்டிகள் கற்றுக்கொண்டன."
             ]
           }
         }

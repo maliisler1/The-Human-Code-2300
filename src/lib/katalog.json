@@ -2548,7 +2548,7 @@
       "name": "The Cloud Cat School",
       "tr": "Yüzyıllar sonra, bulutların üstündeki cam şehirde bir kedi okulu: Abram'ın yavruları Kiri ve Kori ışık kürelerini mırıltıyla yakmayı öğreniyor, kimsenin açamadığı eski kapının sırrını arıyor. Anlatıcılı, 1 dakikalık bölümler.",
       "en": "Centuries from now, a cat school in a glass city above the clouds: Abram's kittens Kiri and Kori learn to light glowing orbs with a purr and search for the secret of an old door no one can open. Narrated one-minute episodes.",
-      "episodes": 13,
+      "episodes": 14,
       "loc": {
         "de": "In ferner Zukunft, eine Katzenschule in einer Glasstadt über den Wolken: Abrams Kätzchen Kiri und Kori lernen, Lichtkugeln mit einem Schnurren zu entzünden, und suchen das Geheimnis einer alten Tür, die niemand öffnen kann. Erzählte Ein-Minuten-Folgen.",
         "fr": "Dans un lointain futur, une école de chats dans une ville de verre au-dessus des nuages : Kiri et Kori, les chatons d'Abram, apprennent à allumer des sphères de lumière en ronronnant et cherchent le secret d'une vieille porte que personne ne peut ouvrir. Épisodes narrés d'une minute.",
@@ -6909,6 +6909,340 @@
               "காற்று அடங்கும் வரை இருவரும் வாலோடு வால் சேர்த்து நடந்தனர்.",
               "தீவில், நட்சத்திரக் கதவின் இரண்டாவது முனை ஒளிர்ந்தது.",
               "அன்று குட்டிகள், பகிர்ந்தால் பயம் சிறியதாகும் என்று கற்றன."
+            ]
+          }
+        },
+        "14": {
+          "cues": [
+            [
+              0.2,
+              4.96
+            ],
+            [
+              5.36,
+              10.08
+            ],
+            [
+              10.48,
+              15.2
+            ],
+            [
+              15.6,
+              20.32
+            ],
+            [
+              20.72,
+              25.44
+            ],
+            [
+              25.84,
+              30.56
+            ],
+            [
+              30.96,
+              35.68
+            ],
+            [
+              36.08,
+              40.8
+            ],
+            [
+              41.2,
+              45.92
+            ],
+            [
+              46.32,
+              51.04
+            ],
+            [
+              51.44,
+              56.16
+            ],
+            [
+              56.56,
+              61.28
+            ]
+          ],
+          "text": {
+            "en": [
+              "The kittens reached the floating island at last.",
+              "It was a small garden of silver grass and glowing flowers.",
+              "In the middle stood the star door, with two bright points.",
+              "A tiny grey kitten was hiding behind a flower.",
+              "It was shy, and it had never seen visitors before.",
+              "Kori ran to say hello, and the little one hid again.",
+              "Kiri sat down quietly and waited, looking the other way.",
+              "Slowly, the little kitten crept out and sniffed her tail.",
+              "Pip the robot made a small rainbow to make it smile.",
+              "The little kitten showed them a hidden path to the star door.",
+              "The third point of the star door lit up.",
+              "That day, the kittens learned that new friends come closer when you wait."
+            ],
+            "tr": [
+              "Yavrular sonunda süzülen adaya ulaştı.",
+              "Ada, gümüş otlarla ve parlayan çiçeklerle dolu küçük bir bahçeydi.",
+              "Ortasında iki ucu parlayan yıldız kapı duruyordu.",
+              "Bir çiçeğin arkasına minik gri bir yavru saklanmıştı.",
+              "Utangaçtı ve daha önce hiç misafir görmemişti.",
+              "Kori selam vermek için koştu, küçük yavru yine saklandı.",
+              "Kiri sessizce oturdu ve başka yöne bakarak bekledi.",
+              "Küçük yavru yavaşça çıktı ve Kiri'nin kuyruğunu kokladı.",
+              "Robot Pip onu gülümsetmek için küçük bir gökkuşağı yaptı.",
+              "Küçük yavru onlara yıldız kapıya giden gizli bir patika gösterdi.",
+              "Yıldız kapının üçüncü ucu yandı.",
+              "O gün yavrular, beklemeyi bilince yeni dostların yaklaştığını öğrendi."
+            ],
+            "de": [
+              "Endlich erreichten die Kätzchen die schwebende Insel.",
+              "Sie war ein kleiner Garten aus silbernem Gras und leuchtenden Blumen.",
+              "In der Mitte stand die Sternentür mit zwei hellen Spitzen.",
+              "Hinter einer Blume versteckte sich ein winziges graues Kätzchen.",
+              "Es war schüchtern und hatte noch nie Besuch gesehen.",
+              "Kori rannte hin, um Hallo zu sagen, und das Kleine versteckte sich wieder.",
+              "Kiri setzte sich still hin und wartete, den Blick abgewandt.",
+              "Langsam kroch das kleine Kätzchen hervor und schnupperte an ihrem Schwanz.",
+              "Pip, der Roboter, machte einen kleinen Regenbogen, damit es lächelte.",
+              "Das kleine Kätzchen zeigte ihnen einen versteckten Pfad zur Sternentür.",
+              "Die dritte Spitze der Sternentür leuchtete auf.",
+              "An diesem Tag lernten die Kätzchen, dass neue Freunde näher kommen, wenn man wartet."
+            ],
+            "fr": [
+              "Les chatons atteignirent enfin l'île flottante.",
+              "C'était un petit jardin d'herbe argentée et de fleurs lumineuses.",
+              "Au milieu se dressait la porte étoile, avec deux pointes brillantes.",
+              "Un tout petit chaton gris se cachait derrière une fleur.",
+              "Il était timide et n'avait jamais vu de visiteurs.",
+              "Kori courut lui dire bonjour, et le petit se cacha de nouveau.",
+              "Kiri s'assit sans bruit et attendit en regardant ailleurs.",
+              "Lentement, le petit chaton sortit et renifla sa queue.",
+              "Pip le robot fit un petit arc-en-ciel pour le faire sourire.",
+              "Le petit chaton leur montra un sentier caché vers la porte étoile.",
+              "La troisième pointe de la porte étoile s'alluma.",
+              "Ce jour-là, les chatons apprirent que les nouveaux amis s'approchent quand on sait attendre."
+            ],
+            "es": [
+              "Las gatitas llegaron por fin a la isla flotante.",
+              "Era un pequeño jardín de hierba plateada y flores brillantes.",
+              "En el centro estaba la puerta estrella, con dos puntas encendidas.",
+              "Un gatito gris muy pequeño se escondía detrás de una flor.",
+              "Era tímido y nunca había visto visitantes.",
+              "Kori corrió a saludarlo, y el pequeño volvió a esconderse.",
+              "Kiri se sentó en silencio y esperó mirando hacia otro lado.",
+              "Poco a poco, el gatito salió y le olió la cola.",
+              "Pip, el robot, hizo un pequeño arcoíris para hacerlo sonreír.",
+              "El gatito les mostró un sendero escondido hacia la puerta estrella.",
+              "Se encendió la tercera punta de la puerta estrella.",
+              "Ese día, las gatitas aprendieron que los nuevos amigos se acercan cuando sabes esperar."
+            ],
+            "pt": [
+              "As gatinhas chegaram enfim à ilha flutuante.",
+              "Era um pequeno jardim de grama prateada e flores brilhantes.",
+              "No meio ficava a porta estrela, com duas pontas acesas.",
+              "Um gatinho cinza bem pequeno se escondia atrás de uma flor.",
+              "Ele era tímido e nunca tinha visto visitas.",
+              "Kori correu para dizer oi, e o pequenino se escondeu de novo.",
+              "Kiri sentou-se em silêncio e esperou, olhando para o outro lado.",
+              "Devagar, o gatinho saiu e cheirou a cauda dela.",
+              "Pip, o robô, fez um pequeno arco-íris para fazê-lo sorrir.",
+              "O gatinho mostrou a elas um caminho escondido até a porta estrela.",
+              "A terceira ponta da porta estrela se acendeu.",
+              "Naquele dia, as gatinhas aprenderam que novos amigos chegam perto quando a gente espera."
+            ],
+            "it": [
+              "Le gattine raggiunsero finalmente l'isola galleggiante.",
+              "Era un piccolo giardino di erba argentata e fiori luminosi.",
+              "Al centro c'era la porta stella, con due punte accese.",
+              "Un minuscolo gattino grigio si nascondeva dietro un fiore.",
+              "Era timido e non aveva mai visto visitatori.",
+              "Kori corse a salutarlo, e il piccolo si nascose di nuovo.",
+              "Kiri si sedette in silenzio e aspettò, guardando altrove.",
+              "Piano piano, il gattino uscì e le annusò la coda.",
+              "Pip, il robot, fece un piccolo arcobaleno per farlo sorridere.",
+              "Il gattino mostrò loro un sentiero nascosto verso la porta stella.",
+              "La terza punta della porta stella si accese.",
+              "Quel giorno, le gattine impararono che i nuovi amici si avvicinano quando sai aspettare."
+            ],
+            "ru": [
+              "Наконец котята добрались до парящего острова.",
+              "Это был маленький сад с серебряной травой и светящимися цветами.",
+              "Посередине стояла звёздная дверь с двумя яркими лучами.",
+              "За цветком прятался крошечный серый котёнок.",
+              "Он был застенчивый и никогда раньше не видел гостей.",
+              "Кори побежала поздороваться, и малыш снова спрятался.",
+              "Кири тихо села и стала ждать, глядя в другую сторону.",
+              "Потихоньку котёнок выбрался и понюхал её хвост.",
+              "Робот Пип сделал маленькую радугу, чтобы он улыбнулся.",
+              "Котёнок показал им тайную тропинку к звёздной двери.",
+              "Загорелся третий луч звёздной двери.",
+              "В тот день котята узнали, что новые друзья подходят ближе, когда умеешь ждать."
+            ],
+            "ar": [
+              "وصلت القطتان أخيرًا إلى الجزيرة الطافية.",
+              "كانت حديقة صغيرة من عشب فضي وأزهار متوهجة.",
+              "وفي وسطها باب النجمة، ورأسان منه مضيئان.",
+              "كان قط رمادي صغير جدًا يختبئ خلف زهرة.",
+              "كان خجولًا، ولم يرَ زوّارًا من قبل.",
+              "ركضت كوري لتحيّيه، فاختبأ الصغير من جديد.",
+              "جلست كيري بهدوء وانتظرت وهي تنظر إلى الجهة الأخرى.",
+              "شيئًا فشيئًا خرج القط الصغير وشمّ ذيلها.",
+              "صنع الروبوت بيب قوس قزح صغيرًا ليجعله يبتسم.",
+              "دلّهما القط الصغير على درب خفي إلى باب النجمة.",
+              "أضاء الرأس الثالث لباب النجمة.",
+              "في ذلك اليوم تعلّمت القطتان أن الأصدقاء الجدد يقتربون حين ننتظر."
+            ],
+            "hi": [
+              "आख़िरकार बच्चे तैरते द्वीप पर पहुँच गए।",
+              "वह चाँदी जैसी घास और चमकते फूलों का छोटा बग़ीचा था।",
+              "बीच में तारा-दरवाज़ा खड़ा था, जिसके दो कोने जल रहे थे।",
+              "एक फूल के पीछे एक नन्हा स्लेटी बिल्ली का बच्चा छिपा था।",
+              "वह शर्मीला था, और उसने पहले कभी मेहमान नहीं देखे थे।",
+              "कोरी नमस्ते कहने दौड़ी, और नन्हा फिर छिप गया।",
+              "किरी चुपचाप बैठ गई और दूसरी ओर देखते हुए इंतज़ार करने लगी।",
+              "धीरे-धीरे नन्हा बच्चा बाहर आया और उसकी पूँछ सूँघने लगा।",
+              "रोबोट पिप ने उसे हँसाने के लिए एक छोटा इंद्रधनुष बनाया।",
+              "नन्हे बच्चे ने उन्हें तारा-दरवाज़े तक जाने वाली छिपी पगडंडी दिखाई।",
+              "तारा-दरवाज़े का तीसरा कोना जल उठा।",
+              "उस दिन बच्चों ने सीखा कि इंतज़ार करो तो नए दोस्त पास आते हैं।"
+            ],
+            "zh": [
+              "小猫们终于来到了漂浮的小岛。",
+              "这是一座小花园，长着银色的草和发光的花。",
+              "花园中间立着星星门，已经亮了两个角。",
+              "一只小小的灰猫躲在一朵花后面。",
+              "它很害羞，从来没见过客人。",
+              "科里跑过去打招呼，小家伙又躲了起来。",
+              "奇里静静地坐下，看着别处，等着。",
+              "慢慢地，小灰猫爬出来，闻了闻她的尾巴。",
+              "机器人皮普变出一道小彩虹，逗它笑。",
+              "小灰猫带她们走上一条通往星星门的秘密小路。",
+              "星星门的第三个角亮了。",
+              "那一天，小猫们明白了，愿意等一等，新朋友就会靠近。"
+            ],
+            "ja": [
+              "子猫たちは、ついに浮かぶ島にたどり着きました。",
+              "そこは銀色の草と光る花の小さな庭でした。",
+              "真ん中には、角が二つ光る星の扉が立っていました。",
+              "花のかげに、小さな灰色の子猫がかくれていました。",
+              "その子ははずかしがりやで、お客さんを見たことがありません。",
+              "コリがあいさつしに走っていくと、その子はまたかくれました。",
+              "キリは静かにすわり、よそを見ながら待ちました。",
+              "小さな子猫はそろそろと出てきて、キリのしっぽをかぎました。",
+              "ロボットのピップは、その子を笑わせようと小さな虹を作りました。",
+              "小さな子猫は、星の扉へ続くひみつの小道を教えてくれました。",
+              "星の扉の三つめの角がともりました。",
+              "その日子猫たちは、待っていれば新しい友だちが近づいてくると知りました。"
+            ],
+            "ko": [
+              "아기 고양이들은 마침내 떠 있는 섬에 닿았어요.",
+              "그곳은 은빛 풀과 빛나는 꽃이 가득한 작은 정원이었어요.",
+              "한가운데에 꼭짓점 두 개가 빛나는 별 문이 서 있었어요.",
+              "꽃 뒤에 아주 작은 회색 아기 고양이가 숨어 있었어요.",
+              "수줍음이 많았고, 손님을 본 적이 한 번도 없었어요.",
+              "코리가 인사하러 달려가자 작은 고양이는 다시 숨었어요.",
+              "키리는 조용히 앉아 다른 곳을 보며 기다렸어요.",
+              "작은 고양이가 천천히 나와 키리의 꼬리 냄새를 맡았어요.",
+              "로봇 핍은 웃게 해 주려고 작은 무지개를 만들었어요.",
+              "작은 고양이는 별 문으로 가는 숨은 길을 알려 주었어요.",
+              "별 문의 세 번째 꼭짓점이 켜졌어요.",
+              "그날 아기 고양이들은 기다리면 새 친구가 다가온다는 걸 배웠어요."
+            ],
+            "id": [
+              "Anak-anak kucing akhirnya tiba di pulau melayang.",
+              "Pulau itu taman kecil berumput perak dengan bunga-bunga bercahaya.",
+              "Di tengahnya berdiri pintu bintang dengan dua ujung yang terang.",
+              "Seekor anak kucing abu-abu mungil bersembunyi di balik bunga.",
+              "Ia pemalu dan belum pernah melihat tamu.",
+              "Kori berlari untuk menyapa, dan si kecil bersembunyi lagi.",
+              "Kiri duduk diam dan menunggu sambil memandang ke arah lain.",
+              "Perlahan, anak kucing kecil itu keluar dan mengendus ekornya.",
+              "Pip si robot membuat pelangi kecil supaya ia tersenyum.",
+              "Anak kucing kecil itu menunjukkan jalan tersembunyi ke pintu bintang.",
+              "Ujung ketiga pintu bintang menyala.",
+              "Hari itu, anak-anak kucing belajar bahwa teman baru mendekat kalau kita mau menunggu."
+            ],
+            "vi": [
+              "Cuối cùng hai mèo con cũng đến được hòn đảo lơ lửng.",
+              "Đó là một khu vườn nhỏ có cỏ bạc và hoa phát sáng.",
+              "Ở giữa là cửa sao với hai cánh đã sáng.",
+              "Một chú mèo con xám tí hon đang nấp sau một bông hoa.",
+              "Nó nhút nhát và chưa từng thấy khách bao giờ.",
+              "Kori chạy tới chào, và bé mèo lại trốn mất.",
+              "Kiri lặng lẽ ngồi xuống và chờ, mắt nhìn sang hướng khác.",
+              "Từ từ, mèo con bò ra và ngửi đuôi Kiri.",
+              "Robot Pip làm một cầu vồng nhỏ để nó mỉm cười.",
+              "Mèo con chỉ cho chúng một lối đi bí mật tới cửa sao.",
+              "Cánh thứ ba của cửa sao sáng lên.",
+              "Hôm đó, hai mèo con học được rằng bạn mới sẽ lại gần khi mình biết chờ."
+            ],
+            "bn": [
+              "ছানারা অবশেষে ভাসমান দ্বীপে পৌঁছল।",
+              "সেটা ছিল রুপোলি ঘাস আর জ্বলজ্বলে ফুলের ছোট্ট বাগান।",
+              "মাঝখানে তারা-দরজা, তার দুটো কোণ জ্বলছে।",
+              "একটা ফুলের আড়ালে ছোট্ট ধূসর এক ছানা লুকিয়ে ছিল।",
+              "সে লাজুক, আগে কখনও অতিথি দেখেনি।",
+              "কোরি হ্যালো বলতে দৌড়ে গেল, আর ছোট্টটি আবার লুকিয়ে পড়ল।",
+              "কিরি চুপচাপ বসে অন্য দিকে তাকিয়ে অপেক্ষা করল।",
+              "ধীরে ধীরে ছোট্ট ছানাটি বেরিয়ে এসে তার লেজ শুঁকল।",
+              "রোবট পিপ তাকে হাসাতে ছোট্ট একটা রংধনু বানাল।",
+              "ছোট্ট ছানাটি তাদের তারা-দরজায় যাওয়ার গোপন পথ দেখাল।",
+              "তারা-দরজার তৃতীয় কোণ জ্বলে উঠল।",
+              "সেদিন ছানারা শিখল, অপেক্ষা করলে নতুন বন্ধু কাছে আসে।"
+            ],
+            "ur": [
+              "آخرکار بچے تیرتے جزیرے پر پہنچ گئے۔",
+              "وہ چاندی جیسی گھاس اور چمکتے پھولوں کا چھوٹا سا باغ تھا۔",
+              "بیچ میں ستارہ دروازہ کھڑا تھا، جس کے دو کونے روشن تھے۔",
+              "ایک پھول کے پیچھے ایک ننھا سرمئی بلونگڑا چھپا تھا۔",
+              "وہ شرمیلا تھا، اور اس نے پہلے کبھی مہمان نہیں دیکھے تھے۔",
+              "کوری سلام کرنے دوڑی، اور ننھا پھر چھپ گیا۔",
+              "کیری خاموشی سے بیٹھ گئی اور دوسری طرف دیکھتے ہوئے انتظار کرنے لگی۔",
+              "آہستہ آہستہ ننھا بلونگڑا باہر آیا اور اس کی دُم سونگھی۔",
+              "روبوٹ پِپ نے اسے ہنسانے کے لیے ایک چھوٹی سی قوسِ قزح بنائی۔",
+              "ننھے بلونگڑے نے انہیں ستارہ دروازے تک جانے والی چھپی پگڈنڈی دکھائی۔",
+              "ستارہ دروازے کا تیسرا کونا روشن ہو گیا۔",
+              "اس دن بچوں نے سیکھا کہ انتظار کرو تو نئے دوست قریب آتے ہیں۔"
+            ],
+            "mr": [
+              "शेवटी पिल्ले तरंगत्या बेटावर पोहोचली.",
+              "ते चंदेरी गवताचे आणि चमकत्या फुलांचे छोटे बगीचे होते.",
+              "मध्यभागी तारा-दार उभे होते, त्याची दोन टोके उजळली होती.",
+              "एका फुलामागे एक इवलेसे करडे पिल्लू लपले होते.",
+              "ते लाजरे होते आणि त्याने कधीच पाहुणे पाहिले नव्हते.",
+              "कोरी हाय म्हणायला धावली आणि छोटुकले पुन्हा लपले.",
+              "किरी शांतपणे बसली आणि दुसरीकडे पाहत वाट पाहू लागली.",
+              "हळूहळू ते पिल्लू बाहेर आले आणि तिची शेपटी हुंगली.",
+              "रोबो पिपने त्याला हसवण्यासाठी छोटे इंद्रधनुष्य बनवले.",
+              "छोट्या पिल्लाने त्यांना तारा-दाराकडे जाणारी गुप्त वाट दाखवली.",
+              "तारा-दाराचे तिसरे टोक उजळले.",
+              "त्या दिवशी पिल्लांना कळले की वाट पाहिली की नवे मित्र जवळ येतात."
+            ],
+            "te": [
+              "చివరికి పిల్లలు తేలుతున్న ద్వీపానికి చేరుకున్నాయి.",
+              "అది వెండి గడ్డి, మెరిసే పూలతో నిండిన చిన్న తోట.",
+              "మధ్యలో నక్షత్ర తలుపు ఉంది, దాని రెండు కొనలు వెలుగుతున్నాయి.",
+              "ఒక పువ్వు వెనుక చిన్ని బూడిద రంగు పిల్లి పిల్ల దాక్కుంది.",
+              "అది సిగ్గరి, ఇంతకు ముందు ఎప్పుడూ అతిథులను చూడలేదు.",
+              "కోరి పలకరించడానికి పరుగెత్తింది, చిన్నది మళ్లీ దాక్కుంది.",
+              "కిరి నిశ్శబ్దంగా కూర్చుని, వేరే వైపు చూస్తూ ఎదురుచూసింది.",
+              "నెమ్మదిగా చిన్న పిల్లి బయటకు వచ్చి ఆమె తోకను వాసన చూసింది.",
+              "రోబో పిప్ దాన్ని నవ్వించడానికి చిన్న ఇంద్రధనుస్సు చేసింది.",
+              "చిన్న పిల్లి వారికి నక్షత్ర తలుపుకు వెళ్లే రహస్య దారి చూపించింది.",
+              "నక్షత్ర తలుపు మూడవ కొన వెలిగింది.",
+              "ఆ రోజు పిల్లలు, ఓపికగా ఎదురుచూస్తే కొత్త స్నేహితులు దగ్గరవుతారని నేర్చుకున్నాయి."
+            ],
+            "ta": [
+              "குட்டிகள் கடைசியில் மிதக்கும் தீவை அடைந்தன.",
+              "அது வெள்ளிப் புல்லும் ஒளிரும் பூக்களும் நிறைந்த சிறிய தோட்டம்.",
+              "நடுவில் இரண்டு முனைகள் ஒளிரும் நட்சத்திரக் கதவு நின்றது.",
+              "ஒரு பூவின் பின்னால் சின்னஞ்சிறு சாம்பல் நிறக் குட்டி ஒளிந்திருந்தது.",
+              "அது கூச்சமானது; இதற்கு முன் விருந்தினரைப் பார்த்ததே இல்லை.",
+              "கோரி வணக்கம் சொல்ல ஓடினாள்; சின்னது மீண்டும் ஒளிந்துகொண்டது.",
+              "கிரி அமைதியாக அமர்ந்து, வேறு பக்கம் பார்த்தபடி காத்திருந்தாள்.",
+              "மெதுவாக அந்தக் குட்டி வெளியே வந்து அவள் வாலை முகர்ந்தது.",
+              "ரோபோ பிப் அதைச் சிரிக்க வைக்கச் சிறிய வானவில் செய்தது.",
+              "அந்தக் குட்டி நட்சத்திரக் கதவுக்குச் செல்லும் மறைவான பாதையைக் காட்டியது.",
+              "நட்சத்திரக் கதவின் மூன்றாவது முனை ஒளிர்ந்தது.",
+              "அன்று குட்டிகள், காத்திருந்தால் புதிய நண்பர்கள் அருகே வருவார்கள் என்று கற்றன."
             ]
           }
         }

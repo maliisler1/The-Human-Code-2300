@@ -32,7 +32,9 @@ export type SubTrack = { cues: [number, number][]; text: Record<string, string[]
 export type CatalogCharacter = { key: string; name: string; tr: string; en: string; episodes?: number; loc?: Record<string, string> | undefined; subs?: Record<string, SubTrack> | undefined };
 
 /** Afişi uygulamayla birlikte gelen karakterler (public/karakterler/<key>.webp). */
-const BUNDLED_POSTERS = new Set(bundledCatalog.characters.map((c) => c.key));
+/** Kapağı siteden okunan karakterler: afiş değişince yeni sürüm gerekmesin. */
+const REMOTE_POSTERS = new Set(["mia"]);
+const BUNDLED_POSTERS = new Set(bundledCatalog.characters.map((c) => c.key).filter((k) => !REMOTE_POSTERS.has(k)));
 
 export const trailerPath = (key: string) => `karakterler/${key}.mp4`;
 export const posterPath = (key: string) => `karakterler/${key}.webp`;

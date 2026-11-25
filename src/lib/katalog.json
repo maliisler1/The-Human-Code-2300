@@ -2548,7 +2548,7 @@
       "name": "The Cloud Cat School",
       "tr": "Yüzyıllar sonra, bulutların üstündeki cam şehirde bir kedi okulu: Abram'ın yavruları Kiri ve Kori ışık kürelerini mırıltıyla yakmayı öğreniyor, kimsenin açamadığı eski kapının sırrını arıyor. Anlatıcılı, 1 dakikalık bölümler.",
       "en": "Centuries from now, a cat school in a glass city above the clouds: Abram's kittens Kiri and Kori learn to light glowing orbs with a purr and search for the secret of an old door no one can open. Narrated one-minute episodes.",
-      "episodes": 15,
+      "episodes": 16,
       "loc": {
         "de": "In ferner Zukunft, eine Katzenschule in einer Glasstadt über den Wolken: Abrams Kätzchen Kiri und Kori lernen, Lichtkugeln mit einem Schnurren zu entzünden, und suchen das Geheimnis einer alten Tür, die niemand öffnen kann. Erzählte Ein-Minuten-Folgen.",
         "fr": "Dans un lointain futur, une école de chats dans une ville de verre au-dessus des nuages : Kiri et Kori, les chatons d'Abram, apprennent à allumer des sphères de lumière en ronronnant et cherchent le secret d'une vieille porte que personne ne peut ouvrir. Épisodes narrés d'une minute.",
@@ -7577,6 +7577,340 @@
               "கதவுக்குப் பின்னால் மென்மையான இசை ஒலிக்கத் தொடங்கியது.",
               "அப்ராம் பாலத்திலிருந்து புன்னகைத்தாள்; கடைசி ஒரு முனை இன்னும் இருளாக இருந்தது.",
               "அன்று குட்டிகள், வலிமையால் திறக்க முடியாததை அன்பு திறக்கும் என்று கற்றன."
+            ]
+          }
+        },
+        "16": {
+          "cues": [
+            [
+              0.2,
+              4.96
+            ],
+            [
+              5.36,
+              10.08
+            ],
+            [
+              10.48,
+              15.2
+            ],
+            [
+              15.6,
+              20.32
+            ],
+            [
+              20.72,
+              25.44
+            ],
+            [
+              25.84,
+              30.56
+            ],
+            [
+              30.96,
+              35.68
+            ],
+            [
+              36.08,
+              40.8
+            ],
+            [
+              41.2,
+              45.92
+            ],
+            [
+              46.32,
+              51.04
+            ],
+            [
+              51.44,
+              56.16
+            ],
+            [
+              56.56,
+              61.28
+            ]
+          ],
+          "text": {
+            "en": [
+              "On the sixth day, soft music came from behind the star door.",
+              "Four points were shining, and one was still dark.",
+              "Kori pressed her ear to the door and listened.",
+              "Kiri closed her eyes and began to hum the tune.",
+              "The little island kitten hummed along, very quietly.",
+              "Pip the robot blinked his lights in time with the song.",
+              "The last point flickered, like a tiny firefly.",
+              "But when the song stopped, the light went out again.",
+              "Kori sang louder, but the point stayed dark.",
+              "Kiri noticed five small paw marks around the door.",
+              "Abram counted them from the bridge: five marks for five friends.",
+              "That day, the kittens learned that some songs need every voice."
+            ],
+            "tr": [
+              "Altıncı gün yıldız kapının ardından yumuşak bir müzik geliyordu.",
+              "Dört uç parlıyordu, biri hâlâ karanlıktı.",
+              "Kori kulağını kapıya dayayıp dinledi.",
+              "Kiri gözlerini kapadı ve ezgiyi mırıldanmaya başladı.",
+              "Adadaki küçük yavru da çok usulca eşlik etti.",
+              "Robot Pip ışıklarını şarkının ritmiyle yakıp söndürdü.",
+              "Son uç minik bir ateş böceği gibi titredi.",
+              "Ama şarkı durunca ışık yine söndü.",
+              "Kori daha yüksek sesle söyledi, ama uç karanlık kaldı.",
+              "Kiri kapının çevresinde beş küçük pati izi fark etti.",
+              "Abram köprüden saydı: beş arkadaş için beş iz.",
+              "O gün yavrular, bazı şarkıların her sese ihtiyaç duyduğunu öğrendi."
+            ],
+            "de": [
+              "Am sechsten Tag erklang leise Musik hinter der Sternentür.",
+              "Vier Spitzen leuchteten, eine war noch dunkel.",
+              "Kori legte ihr Ohr an die Tür und lauschte.",
+              "Kiri schloss die Augen und begann, die Melodie zu summen.",
+              "Das kleine Inselkätzchen summte ganz leise mit.",
+              "Pip, der Roboter, ließ seine Lichter im Takt des Liedes blinken.",
+              "Die letzte Spitze flackerte wie ein winziges Glühwürmchen.",
+              "Doch als das Lied verstummte, erlosch das Licht wieder.",
+              "Kori sang lauter, aber die Spitze blieb dunkel.",
+              "Kiri entdeckte fünf kleine Pfotenabdrücke rund um die Tür.",
+              "Abram zählte sie von der Brücke aus: fünf Abdrücke für fünf Freunde.",
+              "An diesem Tag lernten die Kätzchen, dass manche Lieder jede Stimme brauchen."
+            ],
+            "fr": [
+              "Le sixième jour, une douce musique venait de derrière la porte étoile.",
+              "Quatre pointes brillaient, et une restait sombre.",
+              "Kori colla son oreille contre la porte et écouta.",
+              "Kiri ferma les yeux et se mit à fredonner l'air.",
+              "Le petit chaton de l'île fredonna aussi, tout doucement.",
+              "Pip le robot fit clignoter ses lumières au rythme de la chanson.",
+              "La dernière pointe vacilla, comme une minuscule luciole.",
+              "Mais quand la chanson s'arrêta, la lumière s'éteignit de nouveau.",
+              "Kori chanta plus fort, mais la pointe resta sombre.",
+              "Kiri remarqua cinq petites empreintes de pattes autour de la porte.",
+              "Abram les compta depuis le pont : cinq empreintes pour cinq amis.",
+              "Ce jour-là, les chatons apprirent que certaines chansons ont besoin de toutes les voix."
+            ],
+            "es": [
+              "Al sexto día, una música suave salía de detrás de la puerta estrella.",
+              "Cuatro puntas brillaban y una seguía oscura.",
+              "Kori pegó la oreja a la puerta y escuchó.",
+              "Kiri cerró los ojos y empezó a tararear la melodía.",
+              "El gatito de la isla tarareó también, muy bajito.",
+              "Pip, el robot, hizo parpadear sus luces al ritmo de la canción.",
+              "La última punta parpadeó como una luciérnaga diminuta.",
+              "Pero cuando la canción paró, la luz se apagó otra vez.",
+              "Kori cantó más fuerte, pero la punta siguió oscura.",
+              "Kiri vio cinco pequeñas huellas de patas alrededor de la puerta.",
+              "Abram las contó desde el puente: cinco huellas para cinco amigos.",
+              "Ese día, las gatitas aprendieron que algunas canciones necesitan todas las voces."
+            ],
+            "pt": [
+              "No sexto dia, uma música suave vinha de trás da porta estrela.",
+              "Quatro pontas brilhavam e uma continuava escura.",
+              "Kori encostou a orelha na porta e escutou.",
+              "Kiri fechou os olhos e começou a cantarolar a melodia.",
+              "O gatinho da ilha cantarolou junto, bem baixinho.",
+              "Pip, o robô, piscou suas luzes no ritmo da canção.",
+              "A última ponta tremeluziu como um pequeno vaga-lume.",
+              "Mas quando a canção parou, a luz se apagou de novo.",
+              "Kori cantou mais alto, mas a ponta continuou escura.",
+              "Kiri notou cinco pequenas marcas de patas ao redor da porta.",
+              "Abram as contou da ponte: cinco marcas para cinco amigos.",
+              "Naquele dia, as gatinhas aprenderam que algumas canções precisam de todas as vozes."
+            ],
+            "it": [
+              "Il sesto giorno, una musica dolce veniva da dietro la porta stella.",
+              "Quattro punte brillavano e una era ancora buia.",
+              "Kori appoggiò l'orecchio alla porta e ascoltò.",
+              "Kiri chiuse gli occhi e cominciò a canticchiare la melodia.",
+              "Anche il gattino dell'isola canticchiò, pianissimo.",
+              "Pip il robot fece lampeggiare le sue luci a tempo con la canzone.",
+              "L'ultima punta tremolò come una minuscola lucciola.",
+              "Ma quando la canzone finì, la luce si spense di nuovo.",
+              "Kori cantò più forte, ma la punta rimase buia.",
+              "Kiri notò cinque piccole impronte di zampe intorno alla porta.",
+              "Abram le contò dal ponte: cinque impronte per cinque amici.",
+              "Quel giorno, le gattine impararono che alcune canzoni hanno bisogno di ogni voce."
+            ],
+            "ru": [
+              "На шестой день из-за звёздной двери доносилась тихая музыка.",
+              "Четыре луча светились, а один всё ещё был тёмным.",
+              "Кори прижала ухо к двери и прислушалась.",
+              "Кири закрыла глаза и начала напевать мелодию.",
+              "Маленький котёнок с острова тоже тихонько подпевал.",
+              "Робот Пип мигал огоньками в такт песне.",
+              "Последний луч замерцал, как крошечный светлячок.",
+              "Но когда песня смолкла, свет снова погас.",
+              "Кори запела громче, но луч остался тёмным.",
+              "Кири заметила вокруг двери пять маленьких отпечатков лап.",
+              "Абрам сосчитала их с моста: пять отпечатков для пяти друзей.",
+              "В тот день котята узнали, что некоторым песням нужен каждый голос."
+            ],
+            "ar": [
+              "في اليوم السادس جاءت موسيقى هادئة من خلف باب النجمة.",
+              "كانت أربعة رؤوس تلمع، وواحد ما زال معتمًا.",
+              "ألصقت كوري أذنها بالباب وأصغت.",
+              "أغمضت كيري عينيها وبدأت تدندن اللحن.",
+              "ودندن قط الجزيرة الصغير معها بصوت خافت جدًا.",
+              "أومضت أضواء الروبوت بيب مع إيقاع الأغنية.",
+              "ارتعش الرأس الأخير مثل يراعة صغيرة.",
+              "لكن حين توقفت الأغنية انطفأ الضوء من جديد.",
+              "غنّت كوري بصوت أعلى، لكن الرأس بقي معتمًا.",
+              "لاحظت كيري خمس آثار أقدام صغيرة حول الباب.",
+              "عدّتها أبرام من فوق الجسر: خمس آثار لخمسة أصدقاء.",
+              "في ذلك اليوم تعلّمت القطط الصغيرة أن بعض الأغاني تحتاج إلى كل الأصوات."
+            ],
+            "hi": [
+              "छठे दिन तारा-दरवाज़े के पीछे से धीमा संगीत आ रहा था।",
+              "चार कोने चमक रहे थे और एक अब भी अँधेरा था।",
+              "कोरी ने दरवाज़े से कान लगाकर सुना।",
+              "किरी ने आँखें बंद कीं और धुन गुनगुनाने लगी।",
+              "द्वीप का नन्हा बिल्ली का बच्चा भी बहुत धीरे से गुनगुनाया।",
+              "रोबोट पिप ने गीत की ताल पर अपनी बत्तियाँ टिमटिमाईं।",
+              "आख़िरी कोना एक नन्हे जुगनू की तरह टिमटिमाया।",
+              "पर जब गीत रुका, तो रोशनी फिर बुझ गई।",
+              "कोरी ने और ज़ोर से गाया, पर कोना अँधेरा ही रहा।",
+              "किरी ने दरवाज़े के चारों ओर पंजों के पाँच छोटे निशान देखे।",
+              "अब्राम ने पुल से उन्हें गिना: पाँच दोस्तों के लिए पाँच निशान।",
+              "उस दिन बच्चों ने सीखा कि कुछ गीतों को हर आवाज़ की ज़रूरत होती है।"
+            ],
+            "zh": [
+              "第六天，星星门后面传来轻柔的音乐。",
+              "四个角亮着，还有一个角是暗的。",
+              "科里把耳朵贴在门上听。",
+              "奇里闭上眼睛，开始哼这支曲子。",
+              "岛上的小灰猫也轻轻地跟着哼。",
+              "机器人皮普的灯随着歌声一闪一闪。",
+              "最后一个角闪了一下，像一只小小的萤火虫。",
+              "可是歌声一停，光又灭了。",
+              "科里唱得更大声，那个角还是暗的。",
+              "奇里发现门周围有五个小小的爪印。",
+              "阿布拉姆在桥上数了数：五个爪印，五个朋友。",
+              "那一天，小猫们明白了：有些歌需要每一个声音。"
+            ],
+            "ja": [
+              "六日目、星の扉の向こうからやさしい音楽が聞こえてきました。",
+              "四つの角は光り、一つはまだ暗いままでした。",
+              "コリは扉に耳をあてて聞きました。",
+              "キリは目を閉じて、そのメロディーをハミングしはじめました。",
+              "島の小さな子猫も、とても小さな声でいっしょに歌いました。",
+              "ロボットのピップは、歌に合わせて明かりをぴかぴかさせました。",
+              "最後の角が、小さなホタルのようにちらちらしました。",
+              "でも歌が止まると、光はまた消えてしまいました。",
+              "コリはもっと大きな声で歌いましたが、角は暗いままでした。",
+              "キリは扉のまわりに五つの小さな足あとを見つけました。",
+              "アブラムは橋の上から数えました。五人の友だちに五つの足あと。",
+              "その日、子猫たちは、みんなの声が必要な歌もあると学びました。"
+            ],
+            "ko": [
+              "여섯째 날, 별 문 뒤에서 부드러운 음악이 흘러나왔어요.",
+              "꼭짓점 네 개는 빛나고 하나는 아직 어두웠어요.",
+              "코리는 문에 귀를 대고 들었어요.",
+              "키리는 눈을 감고 그 가락을 흥얼거리기 시작했어요.",
+              "섬의 작은 고양이도 아주 작게 따라 흥얼거렸어요.",
+              "로봇 핍은 노래에 맞춰 불빛을 깜빡였어요.",
+              "마지막 꼭짓점이 작은 반딧불이처럼 깜빡였어요.",
+              "하지만 노래가 멈추자 빛은 다시 꺼졌어요.",
+              "코리가 더 크게 불렀지만 꼭짓점은 어두운 그대로였어요.",
+              "키리는 문 둘레에서 작은 발자국 다섯 개를 발견했어요.",
+              "아브람이 다리에서 세어 보았어요. 다섯 친구를 위한 발자국 다섯 개.",
+              "그날 아기 고양이들은 어떤 노래에는 모든 목소리가 필요하다는 걸 배웠어요."
+            ],
+            "id": [
+              "Pada hari keenam, musik lembut terdengar dari balik pintu bintang.",
+              "Empat ujung bersinar, dan satu masih gelap.",
+              "Kori menempelkan telinganya ke pintu dan mendengarkan.",
+              "Kiri memejamkan mata dan mulai menyenandungkan lagunya.",
+              "Anak kucing kecil dari pulau ikut bersenandung, pelan sekali.",
+              "Pip si robot mengedipkan lampunya mengikuti irama lagu.",
+              "Ujung terakhir berkedip seperti kunang-kunang kecil.",
+              "Tetapi saat lagu berhenti, cahayanya padam lagi.",
+              "Kori bernyanyi lebih keras, tetapi ujung itu tetap gelap.",
+              "Kiri melihat lima jejak kaki kecil di sekeliling pintu.",
+              "Abram menghitungnya dari jembatan: lima jejak untuk lima sahabat.",
+              "Hari itu, anak-anak kucing belajar bahwa ada lagu yang membutuhkan semua suara."
+            ],
+            "vi": [
+              "Ngày thứ sáu, tiếng nhạc dịu dàng vọng ra từ sau cửa sao.",
+              "Bốn cánh đang sáng, còn một cánh vẫn tối.",
+              "Kori áp tai vào cửa và lắng nghe.",
+              "Kiri nhắm mắt và bắt đầu ngân nga giai điệu.",
+              "Mèo con trên đảo cũng khe khẽ ngân nga theo.",
+              "Robot Pip nhấp nháy đèn theo nhịp bài hát.",
+              "Cánh cuối cùng chập chờn như một con đom đóm tí hon.",
+              "Nhưng khi bài hát dừng lại, ánh sáng lại tắt.",
+              "Kori hát to hơn, nhưng cánh sao vẫn tối.",
+              "Kiri nhận ra năm dấu chân nhỏ quanh cánh cửa.",
+              "Abram đếm từ trên cầu: năm dấu chân cho năm người bạn.",
+              "Hôm ấy, các bé mèo học được rằng có những bài hát cần mọi giọng ca."
+            ],
+            "bn": [
+              "ষষ্ঠ দিনে তারা-দরজার ওপাশ থেকে মৃদু সুর ভেসে এল।",
+              "চারটি কোণ জ্বলছিল, একটি তখনও অন্ধকার।",
+              "কোরি দরজায় কান পেতে শুনল।",
+              "কিরি চোখ বন্ধ করে সুরটা গুনগুন করতে লাগল।",
+              "দ্বীপের ছোট্ট ছানাটিও খুব আস্তে গুনগুন করল।",
+              "রোবট পিপ গানের তালে তালে তার আলো জ্বালাল-নেভাল।",
+              "শেষ কোণটি ছোট্ট জোনাকির মতো টিমটিম করল।",
+              "কিন্তু গান থামতেই আলো আবার নিভে গেল।",
+              "কোরি আরও জোরে গাইল, তবু কোণটি অন্ধকারই রইল।",
+              "কিরি দরজার চারপাশে পাঁচটি ছোট থাবার ছাপ দেখল।",
+              "আব্রাম সেতু থেকে গুনল: পাঁচ বন্ধুর জন্য পাঁচটি ছাপ।",
+              "সেদিন ছানারা শিখল, কিছু গানের জন্য সবার কণ্ঠ দরকার।"
+            ],
+            "ur": [
+              "چھٹے دن ستارہ دروازے کے پیچھے سے دھیمی موسیقی آ رہی تھی۔",
+              "چار کونے چمک رہے تھے اور ایک ابھی تک تاریک تھا۔",
+              "کوری نے دروازے سے کان لگا کر سنا۔",
+              "کیری نے آنکھیں بند کیں اور دھن گنگنانے لگی۔",
+              "جزیرے کا ننھا بلونگڑا بھی بہت آہستہ گنگنایا۔",
+              "روبوٹ پِپ نے گیت کی تال پر اپنی بتیاں جھپکائیں۔",
+              "آخری کونا ایک ننھے جگنو کی طرح ٹمٹمایا۔",
+              "مگر جب گیت رکا تو روشنی پھر بجھ گئی۔",
+              "کوری نے اور اونچا گایا، مگر کونا تاریک ہی رہا۔",
+              "کیری نے دروازے کے گرد پنجوں کے پانچ چھوٹے نشان دیکھے۔",
+              "ابرام نے پل سے انہیں گنا: پانچ دوستوں کے لیے پانچ نشان۔",
+              "اس دن بلونگڑوں نے سیکھا کہ کچھ گیتوں کو ہر آواز کی ضرورت ہوتی ہے۔"
+            ],
+            "mr": [
+              "सहाव्या दिवशी तारा-दाराच्या मागून मंद संगीत येत होते.",
+              "चार टोके उजळली होती आणि एक अजून अंधारे होते.",
+              "कोरीने दाराला कान लावून ऐकले.",
+              "किरीने डोळे मिटले आणि ती चाल गुणगुणू लागली.",
+              "बेटावरचे छोटे पिल्लूही अगदी हळू गुणगुणले.",
+              "रोबोट पिपने गाण्याच्या तालावर आपले दिवे लुकलुकवले.",
+              "शेवटचे टोक एका छोट्या काजव्यासारखे लुकलुकले.",
+              "पण गाणे थांबताच प्रकाश पुन्हा विझला.",
+              "कोरीने आणखी मोठ्याने गायले, पण टोक अंधारेच राहिले.",
+              "किरीला दाराभोवती पंजांच्या पाच छोट्या खुणा दिसल्या.",
+              "अब्रामने पुलावरून त्या मोजल्या: पाच मित्रांसाठी पाच खुणा.",
+              "त्या दिवशी पिल्लांना कळले की काही गाण्यांना प्रत्येक आवाजाची गरज असते."
+            ],
+            "te": [
+              "ఆరవ రోజు నక్షత్ర తలుపు వెనుక నుండి మృదువైన సంగీతం వినిపించింది.",
+              "నాలుగు కొనలు వెలుగుతున్నాయి, ఒకటి ఇంకా చీకటిగా ఉంది.",
+              "కోరి తలుపుకు చెవి ఆనించి విన్నది.",
+              "కిరి కళ్లు మూసుకుని ఆ రాగాన్ని కూనిరాగం తీయడం మొదలుపెట్టింది.",
+              "ద్వీపంలోని చిన్న పిల్లి కూడా చాలా మెల్లగా కూనిరాగం తీసింది.",
+              "రోబో పిప్ పాట లయకు తగ్గట్టు తన దీపాలను మిణుకుమనిపించింది.",
+              "చివరి కొన చిన్న మిణుగురు పురుగులా మిణుకుమంది.",
+              "కానీ పాట ఆగగానే వెలుగు మళ్లీ ఆరిపోయింది.",
+              "కోరి ఇంకా గట్టిగా పాడింది, కానీ కొన చీకటిగానే ఉంది.",
+              "కిరి తలుపు చుట్టూ ఐదు చిన్న పాద ముద్రలను గమనించింది.",
+              "అబ్రామ్ వంతెన మీద నుండి వాటిని లెక్కపెట్టింది: ఐదుగురు స్నేహితులకు ఐదు ముద్రలు.",
+              "ఆ రోజు పిల్లి పిల్లలు కొన్ని పాటలకు ప్రతి గొంతూ అవసరమని నేర్చుకున్నాయి."
+            ],
+            "ta": [
+              "ஆறாம் நாள், நட்சத்திரக் கதவின் பின்னால் இருந்து மெல்லிய இசை கேட்டது.",
+              "நான்கு முனைகள் ஒளிர்ந்தன; ஒன்று இன்னும் இருட்டாக இருந்தது.",
+              "கோரி கதவில் காதை வைத்துக் கேட்டாள்.",
+              "கிரி கண்களை மூடி அந்த ராகத்தை முணுமுணுக்கத் தொடங்கினாள்.",
+              "தீவின் சின்னக் குட்டியும் மிக மெதுவாகச் சேர்ந்து முணுமுணுத்தது.",
+              "ரோபோ பிப் பாடலின் தாளத்திற்கு ஏற்ப விளக்குகளை மின்னச் செய்தது.",
+              "கடைசி முனை ஒரு சின்ன மின்மினிப் பூச்சி போல மின்னியது.",
+              "ஆனால் பாடல் நின்றதும் ஒளி மீண்டும் அணைந்தது.",
+              "கோரி இன்னும் சத்தமாகப் பாடினாள்; ஆனால் முனை இருட்டாகவே இருந்தது.",
+              "கதவைச் சுற்றி ஐந்து சிறிய பாதச் சுவடுகளைக் கிரி கவனித்தாள்.",
+              "அப்ராம் பாலத்திலிருந்து எண்ணினாள்: ஐந்து நண்பர்களுக்கு ஐந்து சுவடுகள்.",
+              "அன்று, சில பாடல்களுக்கு எல்லாக் குரல்களும் தேவை என்று குட்டிகள் கற்றுக்கொண்டன."
             ]
           }
         }

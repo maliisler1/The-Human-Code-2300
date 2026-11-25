@@ -2548,7 +2548,7 @@
       "name": "The Cloud Cat School",
       "tr": "Yüzyıllar sonra, bulutların üstündeki cam şehirde bir kedi okulu: Abram'ın yavruları Kiri ve Kori ışık kürelerini mırıltıyla yakmayı öğreniyor, kimsenin açamadığı eski kapının sırrını arıyor. Anlatıcılı, 1 dakikalık bölümler.",
       "en": "Centuries from now, a cat school in a glass city above the clouds: Abram's kittens Kiri and Kori learn to light glowing orbs with a purr and search for the secret of an old door no one can open. Narrated one-minute episodes.",
-      "episodes": 12,
+      "episodes": 13,
       "loc": {
         "de": "In ferner Zukunft, eine Katzenschule in einer Glasstadt über den Wolken: Abrams Kätzchen Kiri und Kori lernen, Lichtkugeln mit einem Schnurren zu entzünden, und suchen das Geheimnis einer alten Tür, die niemand öffnen kann. Erzählte Ein-Minuten-Folgen.",
         "fr": "Dans un lointain futur, une école de chats dans une ville de verre au-dessus des nuages : Kiri et Kori, les chatons d'Abram, apprennent à allumer des sphères de lumière en ronronnant et cherchent le secret d'une vieille porte que personne ne peut ouvrir. Épisodes narrés d'une minute.",
@@ -6575,6 +6575,340 @@
               "ரோபோ பிப் அருகில் மிதந்து ஒவ்வொரு படியையும் எண்ணியது.",
               "தொலைவில், நட்சத்திரக் கதவின் முதல் முனை ஒளிர்ந்தது.",
               "அன்று குட்டிகள், பாலத்தை அமைதியாக ஒவ்வொரு அடியாகக் கட்ட வேண்டும் என்று கற்றன."
+            ]
+          }
+        },
+        "13": {
+          "cues": [
+            [
+              0.2,
+              4.96
+            ],
+            [
+              5.36,
+              10.08
+            ],
+            [
+              10.48,
+              15.2
+            ],
+            [
+              15.6,
+              20.32
+            ],
+            [
+              20.72,
+              25.44
+            ],
+            [
+              25.84,
+              30.56
+            ],
+            [
+              30.96,
+              35.68
+            ],
+            [
+              36.08,
+              40.8
+            ],
+            [
+              41.2,
+              45.92
+            ],
+            [
+              46.32,
+              51.04
+            ],
+            [
+              51.44,
+              56.16
+            ],
+            [
+              56.56,
+              61.28
+            ]
+          ],
+          "text": {
+            "en": [
+              "On the third day, the kittens stepped onto the bridge of light.",
+              "Below them, the clouds rolled like a soft white sea.",
+              "Halfway across, a strong wind began to blow.",
+              "The bridge swayed, and Kori's legs started to shake.",
+              "She lay down flat and would not move at all.",
+              "Kiri came back and pressed her side against her sister.",
+              "Abram watched from the balcony and did not call out.",
+              "Pip the robot held out a tiny glowing hand.",
+              "Kori looked at Kiri's eyes instead of the clouds below.",
+              "Together they walked on, tail to tail, until the wind grew quiet.",
+              "On the island, the second point of the star door lit up.",
+              "That day, the kittens learned that fear grows smaller when it is shared."
+            ],
+            "tr": [
+              "Üçüncü gün yavrular ışık köprüsüne adım attı.",
+              "Altlarında bulutlar yumuşak, beyaz bir deniz gibi dalgalanıyordu.",
+              "Yolun yarısında sert bir rüzgâr esmeye başladı.",
+              "Köprü sallandı ve Kori'nin bacakları titremeye başladı.",
+              "Yere yapıştı ve hiç kıpırdamak istemedi.",
+              "Kiri geri döndü ve yanını kardeşine yasladı.",
+              "Abram balkondan izledi ve seslenmedi.",
+              "Robot Pip parlayan minik elini uzattı.",
+              "Kori aşağıdaki bulutlara değil, Kiri'nin gözlerine baktı.",
+              "Rüzgâr dinene kadar kuyruk kuyruğa birlikte yürüdüler.",
+              "Adada, yıldız kapının ikinci ucu yandı.",
+              "O gün yavrular, korkunun paylaşılınca küçüldüğünü öğrendi."
+            ],
+            "de": [
+              "Am dritten Tag betraten die Kätzchen die Brücke aus Licht.",
+              "Unter ihnen wogten die Wolken wie ein weiches weißes Meer.",
+              "Auf halbem Weg begann ein starker Wind zu wehen.",
+              "Die Brücke schwankte, und Koris Beine fingen an zu zittern.",
+              "Sie legte sich flach hin und wollte sich gar nicht mehr bewegen.",
+              "Kiri kam zurück und schmiegte sich an ihre Schwester.",
+              "Abram sah vom Balkon aus zu und rief nicht.",
+              "Pip, der Roboter, streckte eine winzige leuchtende Hand aus.",
+              "Kori sah in Kiris Augen statt auf die Wolken unter ihr.",
+              "Gemeinsam gingen sie weiter, Schwanz an Schwanz, bis der Wind still wurde.",
+              "Auf der Insel leuchtete die zweite Spitze der Sternentür auf.",
+              "An diesem Tag lernten die Kätzchen, dass Angst kleiner wird, wenn man sie teilt."
+            ],
+            "fr": [
+              "Le troisième jour, les chatons posèrent la patte sur le pont de lumière.",
+              "Sous elles, les nuages roulaient comme une douce mer blanche.",
+              "À mi-chemin, un vent fort se mit à souffler.",
+              "Le pont se balança, et les pattes de Kori se mirent à trembler.",
+              "Elle s'aplatit et ne voulut plus bouger du tout.",
+              "Kiri revint et se serra contre sa sœur.",
+              "Abram regardait depuis le balcon, sans appeler.",
+              "Pip le robot tendit une minuscule main lumineuse.",
+              "Kori regarda les yeux de Kiri plutôt que les nuages en dessous.",
+              "Ensemble, queue contre queue, elles avancèrent jusqu'à ce que le vent se calme.",
+              "Sur l'île, la deuxième pointe de la porte étoile s'alluma.",
+              "Ce jour-là, les chatons apprirent que la peur rétrécit quand on la partage."
+            ],
+            "es": [
+              "Al tercer día, las gatitas pisaron el puente de luz.",
+              "Debajo, las nubes se movían como un suave mar blanco.",
+              "A mitad de camino empezó a soplar un viento fuerte.",
+              "El puente se balanceó y a Kori le temblaron las patas.",
+              "Se tumbó pegada al suelo y no quiso moverse nada.",
+              "Kiri volvió y se apretó contra su hermana.",
+              "Abram miraba desde el balcón y no las llamó.",
+              "Pip, el robot, tendió una manita brillante.",
+              "Kori miró los ojos de Kiri en vez de las nubes de abajo.",
+              "Juntas siguieron andando, cola con cola, hasta que el viento se calmó.",
+              "En la isla, se encendió la segunda punta de la puerta estrella.",
+              "Ese día, las gatitas aprendieron que el miedo se hace más pequeño cuando se comparte."
+            ],
+            "pt": [
+              "No terceiro dia, as gatinhas pisaram na ponte de luz.",
+              "Abaixo delas, as nuvens rolavam como um mar branco e macio.",
+              "No meio do caminho, um vento forte começou a soprar.",
+              "A ponte balançou, e as pernas de Kori começaram a tremer.",
+              "Ela se deitou bem rente e não quis se mexer de jeito nenhum.",
+              "Kiri voltou e encostou o corpo na irmã.",
+              "Abram observava da varanda e não chamou.",
+              "Pip, o robô, estendeu uma mãozinha brilhante.",
+              "Kori olhou para os olhos de Kiri em vez das nuvens lá embaixo.",
+              "Juntas seguiram em frente, cauda com cauda, até o vento se acalmar.",
+              "Na ilha, a segunda ponta da porta estrela se acendeu.",
+              "Naquele dia, as gatinhas aprenderam que o medo fica menor quando é dividido."
+            ],
+            "it": [
+              "Il terzo giorno, le gattine salirono sul ponte di luce.",
+              "Sotto di loro, le nuvole ondeggiavano come un morbido mare bianco.",
+              "A metà strada cominciò a soffiare un vento forte.",
+              "Il ponte oscillò, e le zampe di Kori presero a tremare.",
+              "Si appiattì a terra e non volle più muoversi.",
+              "Kiri tornò indietro e si strinse al fianco della sorella.",
+              "Abram guardava dal balcone e non le chiamò.",
+              "Pip, il robot, tese una manina luminosa.",
+              "Kori guardò gli occhi di Kiri invece delle nuvole là sotto.",
+              "Insieme proseguirono, coda a coda, finché il vento si calmò.",
+              "Sull'isola, la seconda punta della porta stella si accese.",
+              "Quel giorno, le gattine impararono che la paura si fa più piccola quando è condivisa."
+            ],
+            "ru": [
+              "На третий день котята ступили на мост из света.",
+              "Под ними облака катились, как мягкое белое море.",
+              "На полпути подул сильный ветер.",
+              "Мост закачался, и у Кори задрожали лапки.",
+              "Она прижалась к мосту и не хотела двигаться.",
+              "Кири вернулась и прижалась боком к сестре.",
+              "Абрам смотрела с балкона и не звала их.",
+              "Робот Пип протянул крошечную светящуюся руку.",
+              "Кори смотрела в глаза Кири, а не на облака внизу.",
+              "Вместе они пошли дальше, хвост к хвосту, пока ветер не стих.",
+              "На острове загорелся второй луч звёздной двери.",
+              "В тот день котята узнали, что страх становится меньше, когда им делишься."
+            ],
+            "ar": [
+              "في اليوم الثالث خطت القطتان على جسر النور.",
+              "تحتهما كانت الغيوم تتموج كبحر أبيض ناعم.",
+              "في منتصف الطريق بدأت ريح قوية تهب.",
+              "تمايل الجسر، وأخذت ساقا كوري ترتجفان.",
+              "انبطحت تمامًا ولم تُرد أن تتحرك أبدًا.",
+              "عادت كيري وألصقت جنبها بأختها.",
+              "كانت أبرام تراقب من الشرفة ولم تنادِ.",
+              "مدّ الروبوت بيب يدًا صغيرة متوهجة.",
+              "نظرت كوري في عيني كيري بدل الغيوم في الأسفل.",
+              "سارتا معًا، ذيلًا بذيل، حتى هدأت الريح.",
+              "وعلى الجزيرة أضاء الرأس الثاني لباب النجمة.",
+              "في ذلك اليوم تعلّمت القطتان أن الخوف يصغر حين نتشاركه."
+            ],
+            "hi": [
+              "तीसरे दिन बच्चों ने रोशनी के पुल पर क़दम रखा।",
+              "उनके नीचे बादल नरम सफ़ेद समुद्र की तरह लहरा रहे थे।",
+              "आधे रास्ते में तेज़ हवा चलने लगी।",
+              "पुल हिला, और कोरी के पैर काँपने लगे।",
+              "वह चिपककर लेट गई और बिल्कुल हिलना नहीं चाहती थी।",
+              "किरी लौटी और अपनी बहन से सटकर खड़ी हो गई।",
+              "अब्राम बालकनी से देखती रही, उसने आवाज़ नहीं दी।",
+              "रोबोट पिप ने एक नन्हा चमकता हाथ बढ़ाया।",
+              "कोरी ने नीचे के बादलों की जगह किरी की आँखों में देखा।",
+              "दोनों पूँछ से पूँछ मिलाकर चलती रहीं, जब तक हवा शांत न हो गई।",
+              "द्वीप पर तारा-दरवाज़े का दूसरा कोना जल उठा।",
+              "उस दिन बच्चों ने सीखा कि बाँटने से डर छोटा हो जाता है।"
+            ],
+            "zh": [
+              "第三天，小猫们踏上了光之桥。",
+              "脚下，云朵像柔软的白色大海一样翻滚。",
+              "走到一半，刮起了大风。",
+              "桥晃了起来，科里的腿开始发抖。",
+              "她趴了下来，一步也不肯动。",
+              "奇里走回来，把身子贴在姐姐身边。",
+              "阿布拉姆在阳台上看着，没有出声。",
+              "机器人皮普伸出了一只发光的小手。",
+              "科里看着奇里的眼睛，不再看脚下的云。",
+              "她们尾巴挨着尾巴一起往前走，直到风停下来。",
+              "小岛上，星星门的第二个角亮了。",
+              "那一天，小猫们明白了，害怕分给别人一半，就会变小。"
+            ],
+            "ja": [
+              "三日目、子猫たちは光の橋に足をのせました。",
+              "下では、雲がやわらかな白い海のようにうねっていました。",
+              "橋の真ん中で、強い風が吹きはじめました。",
+              "橋がゆれて、コリの足がふるえだしました。",
+              "コリはぺたんとふせて、少しも動こうとしません。",
+              "キリがもどってきて、コリに体をよせました。",
+              "アブラムはバルコニーから見守り、声はかけませんでした。",
+              "ロボットのピップは小さな光る手をさしだしました。",
+              "コリは下の雲ではなく、キリの目を見ました。",
+              "ふたりはしっぽをならべて、風がやむまで歩きつづけました。",
+              "島では、星の扉の二つめの角がともりました。",
+              "その日子猫たちは、こわさは分けあうと小さくなると知りました。"
+            ],
+            "ko": [
+              "셋째 날, 아기 고양이들은 빛의 다리에 올라섰어요.",
+              "발아래에서 구름이 부드러운 하얀 바다처럼 출렁였어요.",
+              "절반쯤 건넜을 때 센 바람이 불기 시작했어요.",
+              "다리가 흔들리자 코리의 다리가 떨리기 시작했어요.",
+              "코리는 납작 엎드려 꼼짝도 하지 않으려 했어요.",
+              "키리가 돌아와 코리 옆에 몸을 꼭 붙였어요.",
+              "아브람은 발코니에서 지켜볼 뿐 부르지 않았어요.",
+              "로봇 핍이 빛나는 작은 손을 내밀었어요.",
+              "코리는 아래의 구름 대신 키리의 눈을 바라보았어요.",
+              "둘은 꼬리를 맞대고 바람이 잦아들 때까지 함께 걸었어요.",
+              "섬에서 별 문의 두 번째 꼭짓점이 켜졌어요.",
+              "그날 아기 고양이들은 두려움은 나누면 작아진다는 걸 배웠어요."
+            ],
+            "id": [
+              "Pada hari ketiga, anak-anak kucing melangkah ke jembatan cahaya.",
+              "Di bawah mereka, awan bergulung seperti laut putih yang lembut.",
+              "Di tengah jalan, angin kencang mulai bertiup.",
+              "Jembatan bergoyang, dan kaki Kori mulai gemetar.",
+              "Ia merebahkan diri dan sama sekali tak mau bergerak.",
+              "Kiri kembali dan merapatkan tubuhnya ke saudarinya.",
+              "Abram mengawasi dari balkon dan tidak memanggil.",
+              "Pip si robot mengulurkan tangan mungil yang bercahaya.",
+              "Kori menatap mata Kiri, bukan awan di bawah.",
+              "Bersama mereka terus berjalan, ekor berdampingan, sampai angin mereda.",
+              "Di pulau, ujung kedua pintu bintang menyala.",
+              "Hari itu, anak-anak kucing belajar bahwa rasa takut mengecil saat dibagi."
+            ],
+            "vi": [
+              "Ngày thứ ba, hai mèo con bước lên cây cầu ánh sáng.",
+              "Bên dưới, mây cuộn như một biển trắng mềm mại.",
+              "Đi được nửa đường, một cơn gió mạnh nổi lên.",
+              "Cây cầu đung đưa, và chân Kori bắt đầu run.",
+              "Nó nằm bẹp xuống và nhất định không chịu nhúc nhích.",
+              "Kiri quay lại và áp sát vào chị mình.",
+              "Abram dõi theo từ ban công và không cất tiếng gọi.",
+              "Robot Pip chìa ra một bàn tay nhỏ xíu phát sáng.",
+              "Kori nhìn vào mắt Kiri thay vì nhìn mây bên dưới.",
+              "Chúng cùng bước tiếp, đuôi kề đuôi, cho đến khi gió lặng.",
+              "Trên đảo, cánh thứ hai của cửa sao sáng lên.",
+              "Hôm đó, hai mèo con học được rằng nỗi sợ nhỏ lại khi được sẻ chia."
+            ],
+            "bn": [
+              "তৃতীয় দিনে ছানারা আলোর সেতুতে পা রাখল।",
+              "তাদের নিচে মেঘ নরম সাদা সমুদ্রের মতো গড়িয়ে যাচ্ছিল।",
+              "মাঝপথে জোর হাওয়া বইতে শুরু করল।",
+              "সেতু দুলে উঠল, আর কোরির পা কাঁপতে লাগল।",
+              "সে একেবারে শুয়ে পড়ল, একটুও নড়তে চাইল না।",
+              "কিরি ফিরে এসে বোনের গায়ে গা ঠেকাল।",
+              "আব্রাম বারান্দা থেকে দেখল, ডাকল না।",
+              "রোবট পিপ ছোট্ট জ্বলজ্বলে হাত বাড়িয়ে দিল।",
+              "কোরি নিচের মেঘ নয়, কিরির চোখের দিকে তাকাল।",
+              "হাওয়া শান্ত না হওয়া পর্যন্ত তারা লেজে লেজ মিলিয়ে একসঙ্গে হাঁটল।",
+              "দ্বীপে তারা-দরজার দ্বিতীয় কোণ জ্বলে উঠল।",
+              "সেদিন ছানারা শিখল, ভাগ করে নিলে ভয় ছোট হয়ে যায়।"
+            ],
+            "ur": [
+              "تیسرے دن بچوں نے روشنی کے پل پر قدم رکھا۔",
+              "ان کے نیچے بادل نرم سفید سمندر کی طرح لہرا رہے تھے۔",
+              "آدھے راستے میں تیز ہوا چلنے لگی۔",
+              "پل ہلا، اور کوری کی ٹانگیں کانپنے لگیں۔",
+              "وہ چپک کر لیٹ گئی اور بالکل ہلنا نہیں چاہتی تھی۔",
+              "کیری واپس آئی اور اپنی بہن سے لگ کر کھڑی ہو گئی۔",
+              "ابرام بالکونی سے دیکھتی رہی، اس نے آواز نہیں دی۔",
+              "روبوٹ پِپ نے ایک ننھا چمکتا ہاتھ بڑھایا۔",
+              "کوری نے نیچے بادلوں کے بجائے کیری کی آنکھوں میں دیکھا۔",
+              "دونوں دُم سے دُم ملا کر چلتی رہیں، یہاں تک کہ ہوا تھم گئی۔",
+              "جزیرے پر ستارہ دروازے کا دوسرا کونا روشن ہو گیا۔",
+              "اس دن بچوں نے سیکھا کہ بانٹنے سے ڈر چھوٹا ہو جاتا ہے۔"
+            ],
+            "mr": [
+              "तिसऱ्या दिवशी पिल्लांनी प्रकाशाच्या पुलावर पाऊल ठेवले.",
+              "त्यांच्या खाली ढग मऊ पांढऱ्या समुद्रासारखे लोळत होते.",
+              "अर्ध्या वाटेवर जोराचा वारा वाहू लागला.",
+              "पूल हलला आणि कोरीचे पाय थरथरू लागले.",
+              "ती चिकटून पडून राहिली आणि जराही हलेना.",
+              "किरी परत आली आणि बहिणीला खेटून उभी राहिली.",
+              "अब्राम गच्चीवरून पाहत राहिली, तिने हाक मारली नाही.",
+              "रोबो पिपने इवलासा चमकता हात पुढे केला.",
+              "कोरीने खालच्या ढगांऐवजी किरीच्या डोळ्यांत पाहिले.",
+              "वारा शांत होईपर्यंत त्या शेपटीला शेपटी लावून एकत्र चालत राहिल्या.",
+              "बेटावर तारा-दाराचे दुसरे टोक उजळले.",
+              "त्या दिवशी पिल्लांना कळले की भीती वाटून घेतली की लहान होते."
+            ],
+            "te": [
+              "మూడవ రోజు పిల్లలు వెలుగు వంతెనపై అడుగు పెట్టాయి.",
+              "వాటి కింద మేఘాలు మెత్తని తెల్లని సముద్రంలా దొర్లుతున్నాయి.",
+              "సగం దారిలో బలమైన గాలి వీచడం మొదలైంది.",
+              "వంతెన ఊగింది, కోరి కాళ్లు వణకడం మొదలెట్టాయి.",
+              "ఆమె అతుక్కుని పడుకుంది, అస్సలు కదలనంది.",
+              "కిరి వెనక్కి వచ్చి అక్కకు ఆనుకుని నిలబడింది.",
+              "అబ్రామ్ బాల్కనీ నుంచి చూస్తూ ఉంది, పిలవలేదు.",
+              "రోబో పిప్ మెరిసే చిన్న చేయి చాచింది.",
+              "కోరి కింద మేఘాలను కాకుండా కిరి కళ్లలోకి చూసింది.",
+              "గాలి నెమ్మదించే వరకు ఇద్దరూ తోకకు తోక ఆనించి కలిసి నడిచారు.",
+              "ద్వీపంపై నక్షత్ర తలుపు రెండవ కొన వెలిగింది.",
+              "ఆ రోజు పిల్లలు, పంచుకుంటే భయం చిన్నదవుతుందని నేర్చుకున్నాయి."
+            ],
+            "ta": [
+              "மூன்றாம் நாள், குட்டிகள் ஒளிப் பாலத்தில் காலடி வைத்தன.",
+              "அவர்களுக்குக் கீழே மேகங்கள் மென்மையான வெள்ளைக் கடல் போல உருண்டன.",
+              "பாதி வழியில் பலத்த காற்று வீசத் தொடங்கியது.",
+              "பாலம் ஆடியது; கோரியின் கால்கள் நடுங்கத் தொடங்கின.",
+              "அவள் தரையோடு ஒட்டிப் படுத்து அசையவே மறுத்தாள்.",
+              "கிரி திரும்பி வந்து அக்காவோடு ஒட்டி நின்றாள்.",
+              "அப்ராம் மாடத்திலிருந்து பார்த்தாள்; அழைக்கவில்லை.",
+              "ரோபோ பிப் ஒளிரும் சின்னக் கையை நீட்டியது.",
+              "கோரி கீழே உள்ள மேகங்களை அல்ல, கிரியின் கண்களைப் பார்த்தாள்.",
+              "காற்று அடங்கும் வரை இருவரும் வாலோடு வால் சேர்த்து நடந்தனர்.",
+              "தீவில், நட்சத்திரக் கதவின் இரண்டாவது முனை ஒளிர்ந்தது.",
+              "அன்று குட்டிகள், பகிர்ந்தால் பயம் சிறியதாகும் என்று கற்றன."
             ]
           }
         }

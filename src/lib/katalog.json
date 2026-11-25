@@ -8915,6 +8915,340 @@
               "அன்று, நண்பர்கள் இருக்கும் இடமே வீடு என்று குட்டிகள் கற்றுக்கொண்டன."
             ]
           }
+        },
+        "19": {
+          "cues": [
+            [
+              0.2,
+              4.96
+            ],
+            [
+              5.36,
+              10.08
+            ],
+            [
+              10.48,
+              15.2
+            ],
+            [
+              15.6,
+              20.32
+            ],
+            [
+              20.72,
+              25.44
+            ],
+            [
+              25.84,
+              30.56
+            ],
+            [
+              30.96,
+              35.68
+            ],
+            [
+              36.08,
+              40.8
+            ],
+            [
+              41.2,
+              45.92
+            ],
+            [
+              46.32,
+              51.04
+            ],
+            [
+              51.44,
+              56.16
+            ],
+            [
+              56.56,
+              61.28
+            ]
+          ],
+          "text": {
+            "en": [
+              "On the ninth day, the friends climbed the path of light.",
+              "At the top was a quiet garden above the clouds.",
+              "Hundreds of tiny stars were sleeping in the silver grass.",
+              "They were baby stars, too small to shine in the sky.",
+              "One little star rolled to Kori and tickled her paw.",
+              "Kiri picked one up gently, and it began to glow.",
+              "The old teacher knew why: stars wake up when someone holds them kindly.",
+              "So each friend held a star close and purred.",
+              "One by one, the baby stars grew warm and bright.",
+              "Pip lifted them softly up into the evening sky.",
+              "Abram watched the first new stars appear above the school.",
+              "That day, the kittens learned that gentle paws can light the sky."
+            ],
+            "tr": [
+              "Dokuzuncu gün arkadaşlar ışık yolunu tırmandı.",
+              "Tepede bulutların üstünde sessiz bir bahçe vardı.",
+              "Gümüş çimende yüzlerce minik yıldız uyuyordu.",
+              "Bunlar bebek yıldızlardı; gökyüzünde parlamak için çok küçüktüler.",
+              "Küçük bir yıldız Kori'ye yuvarlanıp patisini gıdıkladı.",
+              "Kiri birini usulca kaldırdı ve yıldız parlamaya başladı.",
+              "Yaşlı öğretmen nedenini biliyordu: yıldızlar, biri onları sevgiyle tutunca uyanır.",
+              "Böylece her arkadaş bir yıldızı bağrına bastı ve mırladı.",
+              "Bebek yıldızlar birer birer ısınıp parladı.",
+              "Pip onları yumuşakça akşam göğüne yükseltti.",
+              "Abram okulun üstünde beliren ilk yeni yıldızları izledi.",
+              "O gün yavrular, nazik patilerin gökyüzünü aydınlatabileceğini öğrendi."
+            ],
+            "de": [
+              "Am neunten Tag stiegen die Freunde den Pfad aus Licht hinauf.",
+              "Oben lag ein stiller Garten über den Wolken.",
+              "Hunderte winziger Sterne schliefen im silbernen Gras.",
+              "Es waren Babysterne, zu klein, um am Himmel zu leuchten.",
+              "Ein kleiner Stern rollte zu Kori und kitzelte ihre Pfote.",
+              "Kiri hob einen sanft auf, und er begann zu leuchten.",
+              "Der alte Lehrer wusste warum: Sterne wachen auf, wenn jemand sie liebevoll hält.",
+              "Also hielt jeder Freund einen Stern ganz nah und schnurrte.",
+              "Einer nach dem anderen wurden die Babysterne warm und hell.",
+              "Pip hob sie sanft hinauf in den Abendhimmel.",
+              "Abram sah die ersten neuen Sterne über der Schule erscheinen.",
+              "An diesem Tag lernten die Kätzchen, dass sanfte Pfoten den Himmel erhellen können."
+            ],
+            "fr": [
+              "Le neuvième jour, les amis montèrent le chemin de lumière.",
+              "Tout en haut se trouvait un jardin paisible au-dessus des nuages.",
+              "Des centaines de minuscules étoiles dormaient dans l'herbe argentée.",
+              "C'étaient des bébés étoiles, trop petites pour briller dans le ciel.",
+              "Une petite étoile roula vers Kori et chatouilla sa patte.",
+              "Kiri en prit une doucement, et elle se mit à briller.",
+              "Le vieux professeur savait pourquoi : les étoiles s'éveillent quand on les tient avec douceur.",
+              "Alors chaque ami serra une étoile contre lui et ronronna.",
+              "Une à une, les bébés étoiles devinrent chaudes et brillantes.",
+              "Pip les souleva doucement dans le ciel du soir.",
+              "Abram regarda les premières nouvelles étoiles apparaître au-dessus de l'école.",
+              "Ce jour-là, les chatons apprirent que des pattes douces peuvent éclairer le ciel."
+            ],
+            "es": [
+              "Al noveno día, los amigos subieron por el camino de luz.",
+              "Arriba había un jardín tranquilo sobre las nubes.",
+              "Cientos de estrellitas dormían en la hierba plateada.",
+              "Eran estrellas bebé, demasiado pequeñas para brillar en el cielo.",
+              "Una estrellita rodó hasta Kori y le hizo cosquillas en la pata.",
+              "Kiri tomó una con cuidado, y empezó a brillar.",
+              "El viejo maestro sabía por qué: las estrellas despiertan cuando alguien las sostiene con cariño.",
+              "Así que cada amigo abrazó una estrella y ronroneó.",
+              "Una a una, las estrellas bebé se volvieron cálidas y brillantes.",
+              "Pip las elevó suavemente al cielo de la tarde.",
+              "Abram vio aparecer las primeras estrellas nuevas sobre la escuela.",
+              "Ese día, las gatitas aprendieron que unas patas suaves pueden iluminar el cielo."
+            ],
+            "pt": [
+              "No nono dia, os amigos subiram o caminho de luz.",
+              "No alto havia um jardim silencioso acima das nuvens.",
+              "Centenas de estrelinhas dormiam na grama prateada.",
+              "Eram estrelas bebês, pequenas demais para brilhar no céu.",
+              "Uma estrelinha rolou até Kori e fez cócegas na sua pata.",
+              "Kiri pegou uma com cuidado, e ela começou a brilhar.",
+              "O velho professor sabia por quê: as estrelas acordam quando alguém as segura com carinho.",
+              "Então cada amigo abraçou uma estrela e ronronou.",
+              "Uma a uma, as estrelas bebês ficaram quentes e brilhantes.",
+              "Pip as ergueu suavemente para o céu da tarde.",
+              "Abram viu as primeiras estrelas novas aparecerem sobre a escola.",
+              "Naquele dia, as gatinhas aprenderam que patas gentis podem iluminar o céu."
+            ],
+            "it": [
+              "Il nono giorno, gli amici salirono il sentiero di luce.",
+              "In cima c'era un giardino silenzioso sopra le nuvole.",
+              "Centinaia di stelline dormivano nell'erba argentata.",
+              "Erano stelle bambine, troppo piccole per brillare nel cielo.",
+              "Una stellina rotolò fino a Kori e le fece il solletico alla zampa.",
+              "Kiri ne prese una con delicatezza, e cominciò a brillare.",
+              "Il vecchio maestro sapeva perché: le stelle si svegliano quando qualcuno le tiene con dolcezza.",
+              "Così ogni amico strinse una stella e fece le fusa.",
+              "Una dopo l'altra, le stelle bambine divennero calde e luminose.",
+              "Pip le sollevò dolcemente nel cielo della sera.",
+              "Abram guardò le prime nuove stelle apparire sopra la scuola.",
+              "Quel giorno, le gattine impararono che zampe gentili possono illuminare il cielo."
+            ],
+            "ru": [
+              "На девятый день друзья поднялись по тропе из света.",
+              "Наверху был тихий сад над облаками.",
+              "Сотни крошечных звёзд спали в серебряной траве.",
+              "Это были звёзды-малыши, слишком маленькие, чтобы светить в небе.",
+              "Одна звёздочка подкатилась к Кори и пощекотала её лапу.",
+              "Кири бережно подняла одну, и та засветилась.",
+              "Старый учитель знал почему: звёзды просыпаются, когда их держат с любовью.",
+              "И каждый друг прижал к себе звезду и замурлыкал.",
+              "Одна за другой звёзды-малыши становились тёплыми и яркими.",
+              "Пип мягко поднял их в вечернее небо.",
+              "Абрам смотрела, как над школой появляются первые новые звёзды.",
+              "В тот день котята узнали, что нежные лапы могут зажечь небо."
+            ],
+            "ar": [
+              "في اليوم التاسع صعد الأصدقاء درب الضوء.",
+              "في الأعلى كانت حديقة هادئة فوق الغيوم.",
+              "مئات النجوم الصغيرة كانت نائمة في العشب الفضي.",
+              "كانت نجومًا رضيعة، أصغر من أن تلمع في السماء.",
+              "تدحرجت نجمة صغيرة إلى كوري ودغدغت كفّها.",
+              "رفعت كيري واحدة برفق، فبدأت تتوهج.",
+              "عرف المعلّم العجوز السبب: النجوم تستيقظ حين يحملها أحد بحنان.",
+              "فضمّ كل صديق نجمة إلى صدره وخرخر.",
+              "واحدة تلو الأخرى صارت النجوم الرضيعة دافئة ومضيئة.",
+              "رفعها بيب برفق إلى سماء المساء.",
+              "راقبت أبرام أول النجوم الجديدة تظهر فوق المدرسة.",
+              "في ذلك اليوم تعلّمت القطط الصغيرة أن الأكفّ الرقيقة يمكنها أن تضيء السماء."
+            ],
+            "hi": [
+              "नौवें दिन दोस्त रोशनी के रास्ते पर चढ़े।",
+              "ऊपर बादलों के पार एक शांत बगीचा था।",
+              "चाँदी की घास में सैकड़ों नन्हे तारे सो रहे थे।",
+              "वे शिशु तारे थे, आसमान में चमकने के लिए बहुत छोटे।",
+              "एक छोटा तारा लुढ़ककर कोरी के पास आया और उसके पंजे में गुदगुदी की।",
+              "किरी ने एक को धीरे से उठाया, और वह चमकने लगा।",
+              "बूढ़ा शिक्षक जानता था क्यों: तारे तब जागते हैं जब कोई उन्हें प्यार से थामे।",
+              "तो हर दोस्त ने एक तारे को सीने से लगाया और घुरघुराया।",
+              "एक-एक करके शिशु तारे गर्म और उजले हो गए।",
+              "पिप ने उन्हें धीरे से शाम के आसमान में उठा दिया।",
+              "अब्राम ने स्कूल के ऊपर पहले नए तारों को उगते देखा।",
+              "उस दिन बच्चों ने सीखा कि कोमल पंजे आसमान को रोशन कर सकते हैं।"
+            ],
+            "zh": [
+              "第九天，朋友们沿着光路向上走。",
+              "最顶上是云朵之上一座安静的花园。",
+              "成百上千颗小星星睡在银色的草地里。",
+              "它们是星星宝宝，太小了，还不能在天上发光。",
+              "一颗小星星滚到科里身边，挠了挠她的爪子。",
+              "奇里轻轻捧起一颗，它就亮了起来。",
+              "年老的老师知道原因：有人温柔地捧着，星星就会醒来。",
+              "于是每个朋友都抱着一颗星星，轻轻地呼噜。",
+              "星星宝宝一颗一颗变得温暖又明亮。",
+              "皮普轻轻地把它们送上傍晚的天空。",
+              "阿布拉姆看着第一批新星星在学校上空出现。",
+              "那一天，小猫们明白了：温柔的爪子也能点亮天空。"
+            ],
+            "ja": [
+              "九日目、友だちは光の道をのぼりました。",
+              "いちばん上には、雲の上の静かな庭がありました。",
+              "銀色の草の中で、何百もの小さな星が眠っていました。",
+              "それは赤ちゃん星で、空で光るにはまだ小さすぎました。",
+              "小さな星がひとつコリのところへころがってきて、足をくすぐりました。",
+              "キリがそっとひとつ持ち上げると、星は光りはじめました。",
+              "年とった先生はわけを知っていました。星は、だれかがやさしく抱くと目をさますのです。",
+              "そこで友だちはみんな星をだきしめて、のどを鳴らしました。",
+              "赤ちゃん星はひとつずつ、あたたかく明るくなりました。",
+              "ピップはそれらをそっと夕方の空へ持ち上げました。",
+              "アブラムは学校の上に新しい星が初めて現れるのを見ました。",
+              "その日、子猫たちは、やさしい足が空を照らせると学びました。"
+            ],
+            "ko": [
+              "아홉째 날, 친구들은 빛의 길을 올라갔어요.",
+              "꼭대기에는 구름 위의 조용한 정원이 있었어요.",
+              "은빛 풀밭에서 수백 개의 작은 별이 잠들어 있었어요.",
+              "하늘에서 빛나기엔 너무 작은 아기 별들이었어요.",
+              "작은 별 하나가 코리에게 굴러와 발을 간질였어요.",
+              "키리가 하나를 살며시 들어 올리자 별이 빛나기 시작했어요.",
+              "나이 든 선생님은 이유를 알았어요. 누군가 다정하게 안아 주면 별이 깨어난다는 것을요.",
+              "그래서 친구들은 저마다 별을 꼭 안고 가르랑거렸어요.",
+              "아기 별들이 하나씩 따뜻해지고 밝아졌어요.",
+              "핍이 별들을 살며시 저녁 하늘로 올려 보냈어요.",
+              "아브람은 학교 위에 첫 새 별들이 나타나는 것을 지켜보았어요.",
+              "그날 아기 고양이들은 다정한 발이 하늘을 밝힐 수 있다는 걸 배웠어요."
+            ],
+            "id": [
+              "Pada hari kesembilan, para sahabat mendaki jalan cahaya.",
+              "Di puncaknya ada taman yang tenang di atas awan.",
+              "Ratusan bintang mungil tertidur di rumput perak.",
+              "Mereka adalah bayi bintang, terlalu kecil untuk bersinar di langit.",
+              "Satu bintang kecil menggelinding ke Kori dan menggelitik cakarnya.",
+              "Kiri mengangkat satu dengan lembut, dan bintang itu mulai bersinar.",
+              "Guru tua tahu sebabnya: bintang terbangun saat seseorang memeluknya dengan sayang.",
+              "Maka setiap sahabat memeluk satu bintang dan mendengkur.",
+              "Satu per satu, bayi-bayi bintang menjadi hangat dan terang.",
+              "Pip mengangkat mereka pelan-pelan ke langit senja.",
+              "Abram melihat bintang-bintang baru pertama muncul di atas sekolah.",
+              "Hari itu, anak-anak kucing belajar bahwa cakar yang lembut bisa menerangi langit."
+            ],
+            "vi": [
+              "Ngày thứ chín, các bạn leo lên con đường ánh sáng.",
+              "Trên đỉnh là một khu vườn yên tĩnh trên những đám mây.",
+              "Hàng trăm ngôi sao tí hon đang ngủ trong cỏ bạc.",
+              "Đó là những ngôi sao bé, còn quá nhỏ để tỏa sáng trên bầu trời.",
+              "Một ngôi sao nhỏ lăn đến chỗ Kori và cù vào chân cô bé.",
+              "Kiri nhẹ nhàng nhấc một ngôi sao lên, và nó bắt đầu sáng.",
+              "Thầy giáo già biết vì sao: các ngôi sao thức dậy khi được ai đó ôm thật dịu dàng.",
+              "Thế là mỗi người bạn ôm một ngôi sao vào lòng và gừ gừ.",
+              "Từng ngôi sao bé trở nên ấm áp và rực sáng.",
+              "Pip nhẹ nhàng đưa chúng lên bầu trời chiều.",
+              "Abram ngắm những ngôi sao mới đầu tiên hiện ra trên mái trường.",
+              "Hôm ấy, các bé mèo học được rằng những bàn chân dịu dàng có thể thắp sáng bầu trời."
+            ],
+            "bn": [
+              "নবম দিনে বন্ধুরা আলোর পথ বেয়ে উঠল।",
+              "চূড়ায় মেঘের ওপরে এক নীরব বাগান ছিল।",
+              "রুপোলি ঘাসে শত শত ছোট্ট তারা ঘুমিয়ে ছিল।",
+              "ওরা ছিল শিশু তারা, আকাশে জ্বলার জন্য বড্ড ছোট।",
+              "একটি ছোট্ট তারা গড়িয়ে কোরির কাছে এসে তার থাবায় সুড়সুড়ি দিল।",
+              "কিরি একটিকে আলতো করে তুলল, আর সেটি জ্বলতে শুরু করল।",
+              "বুড়ো শিক্ষক কারণটা জানতেন: কেউ ভালোবেসে ধরলে তারারা জেগে ওঠে।",
+              "তাই প্রতিটি বন্ধু একটি করে তারা বুকে জড়িয়ে গরগর করল।",
+              "একে একে শিশু তারারা উষ্ণ আর উজ্জ্বল হয়ে উঠল।",
+              "পিপ তাদের আলতো করে সন্ধ্যার আকাশে তুলে দিল।",
+              "আব্রাম স্কুলের ওপরে প্রথম নতুন তারাগুলো ফুটে উঠতে দেখল।",
+              "সেদিন ছানারা শিখল, কোমল থাবাও আকাশ আলোকিত করতে পারে।"
+            ],
+            "ur": [
+              "نویں دن دوست روشنی کے راستے پر چڑھے۔",
+              "اوپر بادلوں کے پار ایک پرسکون باغ تھا۔",
+              "چاندی کی گھاس میں سینکڑوں ننھے ستارے سو رہے تھے۔",
+              "وہ ننھے ستارے تھے، آسمان میں چمکنے کے لیے بہت چھوٹے۔",
+              "ایک چھوٹا ستارہ لڑھک کر کوری کے پاس آیا اور اس کے پنجے میں گدگدی کی۔",
+              "کیری نے ایک کو آہستہ سے اٹھایا، اور وہ چمکنے لگا۔",
+              "بوڑھا استاد وجہ جانتا تھا: ستارے تب جاگتے ہیں جب کوئی انہیں پیار سے تھامے۔",
+              "تو ہر دوست نے ایک ستارے کو سینے سے لگایا اور غرغرایا۔",
+              "ایک ایک کر کے ننھے ستارے گرم اور روشن ہو گئے۔",
+              "پِپ نے انہیں آہستہ سے شام کے آسمان میں اٹھا دیا۔",
+              "ابرام نے اسکول کے اوپر پہلے نئے ستاروں کو ابھرتے دیکھا۔",
+              "اس دن بلونگڑوں نے سیکھا کہ نرم پنجے آسمان کو روشن کر سکتے ہیں۔"
+            ],
+            "mr": [
+              "नवव्या दिवशी मित्र प्रकाशाच्या वाटेवर चढले.",
+              "वर ढगांच्या पलीकडे एक शांत बाग होती.",
+              "चंदेरी गवतात शेकडो इवले तारे झोपले होते.",
+              "ते बाळ तारे होते, आकाशात चमकण्यासाठी खूपच लहान.",
+              "एक छोटा तारा घरंगळत कोरीजवळ आला आणि तिच्या पंजाला गुदगुल्या केल्या.",
+              "किरीने एकाला हळूच उचलले, आणि तो चमकू लागला.",
+              "म्हाताऱ्या शिक्षकाला कारण माहीत होते: कोणी प्रेमाने धरले की तारे जागे होतात.",
+              "म्हणून प्रत्येक मित्राने एक तारा छातीशी धरला आणि गुरगुरला.",
+              "एकेक करून बाळ तारे उबदार आणि तेजस्वी झाले.",
+              "पिपने त्यांना हळुवारपणे संध्याकाळच्या आकाशात उंच नेले.",
+              "अब्रामने शाळेच्या वर पहिले नवे तारे उगवताना पाहिले.",
+              "त्या दिवशी पिल्लांना कळले की मऊ पंजे आकाश उजळवू शकतात."
+            ],
+            "te": [
+              "తొమ్మిదవ రోజు స్నేహితులు వెలుగు దారి ఎక్కారు.",
+              "పైన మేఘాల మీద ఒక నిశ్శబ్ద తోట ఉంది.",
+              "వెండి గడ్డిలో వందలాది చిన్న నక్షత్రాలు నిద్రపోతున్నాయి.",
+              "అవి పసి నక్షత్రాలు, ఆకాశంలో మెరవడానికి చాలా చిన్నవి.",
+              "ఒక చిన్న నక్షత్రం కోరి దగ్గరకు దొర్లి ఆమె పాదాన్ని గిలిగింతలు పెట్టింది.",
+              "కిరి ఒకదాన్ని మెల్లగా ఎత్తగానే అది వెలగడం మొదలుపెట్టింది.",
+              "వృద్ధ గురువుకు కారణం తెలుసు: ఎవరైనా ప్రేమగా పట్టుకుంటే నక్షత్రాలు మేల్కొంటాయి.",
+              "అందుకే ప్రతి స్నేహితుడూ ఒక నక్షత్రాన్ని దగ్గరగా పట్టుకుని గురగురలాడారు.",
+              "ఒక్కొక్కటిగా పసి నక్షత్రాలు వెచ్చగా, ప్రకాశవంతంగా మారాయి.",
+              "పిప్ వాటిని మెల్లగా సాయంత్రపు ఆకాశంలోకి ఎత్తింది.",
+              "బడి పైన మొదటి కొత్త నక్షత్రాలు కనిపించడాన్ని అబ్రామ్ చూసింది.",
+              "ఆ రోజు పిల్లి పిల్లలు సున్నితమైన పాదాలు ఆకాశాన్ని వెలిగించగలవని నేర్చుకున్నాయి."
+            ],
+            "ta": [
+              "ஒன்பதாம் நாள், நண்பர்கள் ஒளிப் பாதையில் ஏறினர்.",
+              "உச்சியில் மேகங்களுக்கு மேலே ஒரு அமைதியான தோட்டம் இருந்தது.",
+              "வெள்ளிப் புல்லில் நூற்றுக்கணக்கான சின்னஞ்சிறு நட்சத்திரங்கள் தூங்கிக் கொண்டிருந்தன.",
+              "அவை குழந்தை நட்சத்திரங்கள்; வானில் ஒளிர மிகச் சிறியவை.",
+              "ஒரு சிறு நட்சத்திரம் கோரியிடம் உருண்டு வந்து அவள் பாதத்தைக் கூச்சப்படுத்தியது.",
+              "கிரி ஒன்றை மெதுவாகத் தூக்கினாள்; அது ஒளிரத் தொடங்கியது.",
+              "முதிய ஆசிரியருக்கு காரணம் தெரியும்: யாரேனும் அன்புடன் பிடித்தால் நட்சத்திரங்கள் விழித்துக் கொள்ளும்.",
+              "எனவே ஒவ்வொரு நண்பரும் ஒரு நட்சத்திரத்தை அணைத்துக்கொண்டு உறுமினர்.",
+              "ஒவ்வொன்றாக குழந்தை நட்சத்திரங்கள் சூடாகவும் பிரகாசமாகவும் ஆயின.",
+              "பிப் அவற்றை மெதுவாக மாலை வானத்திற்குத் தூக்கியது.",
+              "பள்ளிக்கு மேலே முதல் புதிய நட்சத்திரங்கள் தோன்றுவதை அப்ராம் பார்த்தாள்.",
+              "அன்று, மென்மையான பாதங்கள் வானை ஒளிரச் செய்ய முடியும் என்று குட்டிகள் கற்றுக்கொண்டன."
+            ]
+          }
         }
       }
     },

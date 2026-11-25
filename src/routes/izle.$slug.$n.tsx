@@ -15,6 +15,10 @@ import { supabase } from "@/integrations/supabase/client";
 import { canPlay, hasEpisodeAccess, nextPlayable } from "@/lib/playback";
 import { ads } from "@/lib/ads";
 import { offline } from "@/lib/offline";
+import { BUNDLED_POSTERS } from "@/lib/posters";
+
+/** Android WebView, afişi olmayan videoda gri bir "oynat" resmi gösterir; bunu önlemek için boş afiş. */
+const BLANK_POSTER = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
 
 export const Route = createFileRoute("/izle/$slug/$n")({
   loader: async ({ context, params }) => {
@@ -179,7 +183,7 @@ export function Player() {
           <p role="alert">{tr("Video yüklenemedi. İnternet bağlantınızı kontrol edin.","Video could not load. Check your connection.")}</p>
           <button className="rounded-full bg-primary p-3" onClick={() => setRetry(v=>v+1)}>{tr("Yeniden dene","Try again")}</button>
         </div> : src ? <>
-          <video key={"v:"+retry} ref={video} src={src} controls autoPlay playsInline preload="auto" className={tall ? "h-[100dvh] w-full bg-black object-contain" : "aspect-video w-full"}
+          <video key={"v:"+retry} ref={video} src={src} controls autoPlay playsInline preload="auto" poster={BUNDLED_POSTERS[slug] ?? BLANK_POSTER} className={tall ? "h-[100dvh] w-full bg-black object-contain" : "aspect-video w-full"}
             {...(tall ? { controlsList: "nofullscreen noremoteplayback", disablePictureInPicture: true } : {})}
             onLoadedMetadata={e=>{const el=e.currentTarget;if(el.videoWidth&&el.videoHeight)setTall(el.videoHeight>el.videoWidth);setFailed(false);setBuffering(false);if(seek.current>5 && seek.current<e.currentTarget.duration)e.currentTarget.currentTime=seek.current;}}
             onError={()=>setFailed(true)} onWaiting={()=>setBuffering(true)} onPlaying={()=>setBuffering(false)} onCanPlay={e=>{setBuffering(false);const v=e.currentTarget;if(v&&!mutedFallback.current){void v.play().catch(()=>{mutedFallback.current=true;v.muted=true;void v.play().catch(()=>{});});}}}

@@ -2548,7 +2548,7 @@
       "name": "The Cloud Cat School",
       "tr": "Yüzyıllar sonra, bulutların üstündeki cam şehirde bir kedi okulu: Abram'ın yavruları Kiri ve Kori ışık kürelerini mırıltıyla yakmayı öğreniyor, kimsenin açamadığı eski kapının sırrını arıyor. Anlatıcılı, 1 dakikalık bölümler.",
       "en": "Centuries from now, a cat school in a glass city above the clouds: Abram's kittens Kiri and Kori learn to light glowing orbs with a purr and search for the secret of an old door no one can open. Narrated one-minute episodes.",
-      "episodes": 16,
+      "episodes": 17,
       "loc": {
         "de": "In ferner Zukunft, eine Katzenschule in einer Glasstadt über den Wolken: Abrams Kätzchen Kiri und Kori lernen, Lichtkugeln mit einem Schnurren zu entzünden, und suchen das Geheimnis einer alten Tür, die niemand öffnen kann. Erzählte Ein-Minuten-Folgen.",
         "fr": "Dans un lointain futur, une école de chats dans une ville de verre au-dessus des nuages : Kiri et Kori, les chatons d'Abram, apprennent à allumer des sphères de lumière en ronronnant et cherchent le secret d'une vieille porte que personne ne peut ouvrir. Épisodes narrés d'une minute.",
@@ -7911,6 +7911,340 @@
               "கதவைச் சுற்றி ஐந்து சிறிய பாதச் சுவடுகளைக் கிரி கவனித்தாள்.",
               "அப்ராம் பாலத்திலிருந்து எண்ணினாள்: ஐந்து நண்பர்களுக்கு ஐந்து சுவடுகள்.",
               "அன்று, சில பாடல்களுக்கு எல்லாக் குரல்களும் தேவை என்று குட்டிகள் கற்றுக்கொண்டன."
+            ]
+          }
+        },
+        "17": {
+          "cues": [
+            [
+              0.2,
+              4.92
+            ],
+            [
+              5.32,
+              10.05
+            ],
+            [
+              10.45,
+              15.17
+            ],
+            [
+              15.57,
+              20.29
+            ],
+            [
+              20.69,
+              25.42
+            ],
+            [
+              25.82,
+              30.54
+            ],
+            [
+              30.94,
+              35.66
+            ],
+            [
+              36.06,
+              40.79
+            ],
+            [
+              41.19,
+              45.91
+            ],
+            [
+              46.31,
+              51.03
+            ],
+            [
+              51.43,
+              56.16
+            ],
+            [
+              56.56,
+              61.28
+            ]
+          ],
+          "text": {
+            "en": [
+              "On the seventh day, the kittens counted their friends.",
+              "Kiri, Kori, the island kitten and Pip made four.",
+              "The fifth friend was their old white teacher.",
+              "But the teacher had never crossed the bridge of light.",
+              "Kori ran back to the school to bring him.",
+              "The teacher looked at the glowing bridge and trembled.",
+              "Kiri walked beside him, one slow step at a time.",
+              "Pip floated ahead and lit the way like a small moon.",
+              "In the middle, the teacher stopped and looked down at the clouds.",
+              "The little island kitten ran out and touched his nose.",
+              "Together they reached the island, and the teacher smiled.",
+              "That day, the kittens learned that even teachers need a brave friend."
+            ],
+            "tr": [
+              "Yedinci gün yavrular arkadaşlarını saydı.",
+              "Kiri, Kori, ada yavrusu ve Pip dört ediyordu.",
+              "Beşinci arkadaş yaşlı beyaz öğretmenleriydi.",
+              "Ama öğretmen ışık köprüsünden hiç geçmemişti.",
+              "Kori onu getirmek için okula koştu.",
+              "Öğretmen parlayan köprüye baktı ve titredi.",
+              "Kiri her seferinde yavaş bir adım atarak yanında yürüdü.",
+              "Pip önden süzülüp küçük bir ay gibi yolu aydınlattı.",
+              "Köprünün ortasında öğretmen durup aşağıdaki bulutlara baktı.",
+              "Adadaki küçük yavru koşup geldi ve burnuna dokundu.",
+              "Birlikte adaya vardılar ve öğretmen gülümsedi.",
+              "O gün yavrular, öğretmenlerin bile cesur bir arkadaşa ihtiyacı olduğunu öğrendi."
+            ],
+            "de": [
+              "Am siebten Tag zählten die Kätzchen ihre Freunde.",
+              "Kiri, Kori, das Inselkätzchen und Pip waren vier.",
+              "Der fünfte Freund war ihr alter weißer Lehrer.",
+              "Doch der Lehrer hatte die Brücke aus Licht noch nie überquert.",
+              "Kori lief zur Schule zurück, um ihn zu holen.",
+              "Der Lehrer sah die leuchtende Brücke an und zitterte.",
+              "Kiri ging neben ihm, einen langsamen Schritt nach dem anderen.",
+              "Pip schwebte voraus und leuchtete den Weg wie ein kleiner Mond.",
+              "In der Mitte blieb der Lehrer stehen und sah hinunter auf die Wolken.",
+              "Das kleine Inselkätzchen lief heraus und berührte seine Nase.",
+              "Gemeinsam erreichten sie die Insel, und der Lehrer lächelte.",
+              "An diesem Tag lernten die Kätzchen, dass sogar Lehrer einen mutigen Freund brauchen."
+            ],
+            "fr": [
+              "Le septième jour, les chatons comptèrent leurs amis.",
+              "Kiri, Kori, le chaton de l'île et Pip faisaient quatre.",
+              "Le cinquième ami était leur vieux professeur blanc.",
+              "Mais le professeur n'avait jamais traversé le pont de lumière.",
+              "Kori courut à l'école pour aller le chercher.",
+              "Le professeur regarda le pont lumineux et trembla.",
+              "Kiri marcha à côté de lui, un pas lent après l'autre.",
+              "Pip flotta devant et éclaira le chemin comme une petite lune.",
+              "Au milieu, le professeur s'arrêta et regarda les nuages en bas.",
+              "Le petit chaton de l'île accourut et toucha son nez.",
+              "Ensemble, ils atteignirent l'île, et le professeur sourit.",
+              "Ce jour-là, les chatons apprirent que même les professeurs ont besoin d'un ami courageux."
+            ],
+            "es": [
+              "Al séptimo día, las gatitas contaron a sus amigos.",
+              "Kiri, Kori, el gatito de la isla y Pip eran cuatro.",
+              "El quinto amigo era su viejo maestro blanco.",
+              "Pero el maestro nunca había cruzado el puente de luz.",
+              "Kori corrió a la escuela para traerlo.",
+              "El maestro miró el puente brillante y tembló.",
+              "Kiri caminó a su lado, un paso lento tras otro.",
+              "Pip flotó delante e iluminó el camino como una pequeña luna.",
+              "En el medio, el maestro se detuvo y miró las nubes abajo.",
+              "El gatito de la isla salió corriendo y tocó su nariz.",
+              "Juntos llegaron a la isla, y el maestro sonrió.",
+              "Ese día, las gatitas aprendieron que hasta los maestros necesitan un amigo valiente."
+            ],
+            "pt": [
+              "No sétimo dia, as gatinhas contaram seus amigos.",
+              "Kiri, Kori, o gatinho da ilha e Pip eram quatro.",
+              "O quinto amigo era o velho professor branco.",
+              "Mas o professor nunca tinha atravessado a ponte de luz.",
+              "Kori correu de volta à escola para buscá-lo.",
+              "O professor olhou para a ponte brilhante e tremeu.",
+              "Kiri caminhou ao lado dele, um passo lento de cada vez.",
+              "Pip flutuou na frente e iluminou o caminho como uma pequena lua.",
+              "No meio, o professor parou e olhou para as nuvens lá embaixo.",
+              "O gatinho da ilha correu até ele e tocou seu nariz.",
+              "Juntos chegaram à ilha, e o professor sorriu.",
+              "Naquele dia, as gatinhas aprenderam que até os professores precisam de um amigo corajoso."
+            ],
+            "it": [
+              "Il settimo giorno, le gattine contarono i loro amici.",
+              "Kiri, Kori, il gattino dell'isola e Pip facevano quattro.",
+              "Il quinto amico era il loro vecchio maestro bianco.",
+              "Ma il maestro non aveva mai attraversato il ponte di luce.",
+              "Kori corse a scuola per andarlo a prendere.",
+              "Il maestro guardò il ponte luminoso e tremò.",
+              "Kiri camminò accanto a lui, un passo lento alla volta.",
+              "Pip volò avanti e illuminò la strada come una piccola luna.",
+              "A metà, il maestro si fermò e guardò giù verso le nuvole.",
+              "Il gattino dell'isola corse fuori e gli toccò il naso.",
+              "Insieme raggiunsero l'isola, e il maestro sorrise.",
+              "Quel giorno, le gattine impararono che anche i maestri hanno bisogno di un amico coraggioso."
+            ],
+            "ru": [
+              "На седьмой день котята посчитали своих друзей.",
+              "Кири, Кори, котёнок с острова и Пип — это четверо.",
+              "Пятым другом был их старый белый учитель.",
+              "Но учитель никогда не ходил по мосту из света.",
+              "Кори побежала в школу, чтобы привести его.",
+              "Учитель посмотрел на светящийся мост и задрожал.",
+              "Кири шла рядом с ним, медленно, шаг за шагом.",
+              "Пип летел впереди и освещал путь, как маленькая луна.",
+              "На середине учитель остановился и посмотрел вниз на облака.",
+              "Маленький котёнок с острова выбежал навстречу и коснулся его носа.",
+              "Вместе они дошли до острова, и учитель улыбнулся.",
+              "В тот день котята узнали, что даже учителям нужен смелый друг."
+            ],
+            "ar": [
+              "في اليوم السابع عدّت القطط الصغيرة أصدقاءها.",
+              "كيري وكوري وقط الجزيرة وبيب كانوا أربعة.",
+              "الصديق الخامس كان معلّمهم الأبيض العجوز.",
+              "لكن المعلّم لم يعبر جسر الضوء قط.",
+              "ركضت كوري إلى المدرسة لتحضره.",
+              "نظر المعلّم إلى الجسر المضيء وارتجف.",
+              "مشت كيري بجانبه، خطوة بطيئة تلو الأخرى.",
+              "طار بيب في المقدمة وأضاء الطريق كقمر صغير.",
+              "في المنتصف توقف المعلّم ونظر إلى الغيوم تحته.",
+              "ركض قط الجزيرة الصغير إليه ولمس أنفه.",
+              "وصلوا معًا إلى الجزيرة، وابتسم المعلّم.",
+              "في ذلك اليوم تعلّمت القطط الصغيرة أن المعلّمين أيضًا يحتاجون إلى صديق شجاع."
+            ],
+            "hi": [
+              "सातवें दिन बच्चों ने अपने दोस्तों को गिना।",
+              "किरी, कोरी, द्वीप का बच्चा और पिप मिलकर चार हुए।",
+              "पाँचवाँ दोस्त उनका बूढ़ा सफ़ेद शिक्षक था।",
+              "पर शिक्षक ने कभी रोशनी का पुल पार नहीं किया था।",
+              "कोरी उसे लाने के लिए स्कूल की ओर दौड़ी।",
+              "शिक्षक ने चमकते पुल को देखा और काँप गया।",
+              "किरी उसके साथ चली, एक-एक धीमा कदम।",
+              "पिप आगे तैरता रहा और छोटे चाँद की तरह रास्ता रोशन करता रहा।",
+              "बीच में शिक्षक रुका और नीचे बादलों को देखा।",
+              "द्वीप का नन्हा बच्चा दौड़कर आया और उसकी नाक छुई।",
+              "साथ मिलकर वे द्वीप पर पहुँचे, और शिक्षक मुस्कुराया।",
+              "उस दिन बच्चों ने सीखा कि शिक्षकों को भी एक बहादुर दोस्त चाहिए।"
+            ],
+            "zh": [
+              "第七天，小猫们数了数自己的朋友。",
+              "奇里、科里、岛上的小猫和皮普，一共四个。",
+              "第五个朋友是他们年老的白猫老师。",
+              "可是老师从来没有走过那座光桥。",
+              "科里跑回学校去接他。",
+              "老师看着发光的桥，浑身发抖。",
+              "奇里走在他身边，一步一步慢慢地走。",
+              "皮普飘在前面，像一轮小月亮照亮了路。",
+              "走到中间，老师停下来，低头看着云海。",
+              "岛上的小猫跑过来，碰了碰他的鼻子。",
+              "他们一起到了岛上，老师笑了。",
+              "那一天，小猫们明白了：老师也需要一个勇敢的朋友。"
+            ],
+            "ja": [
+              "七日目、子猫たちは友だちを数えました。",
+              "キリ、コリ、島の子猫、ピップで四人。",
+              "五人目の友だちは、年とった白い先生でした。",
+              "でも先生は、光の橋を一度も渡ったことがありません。",
+              "コリは先生を連れてくるために学校へ走りました。",
+              "先生は光る橋を見て、ぶるぶるふるえました。",
+              "キリは先生のとなりを、ゆっくり一歩ずつ歩きました。",
+              "ピップは先に飛んで、小さな月のように道を照らしました。",
+              "橋のまん中で、先生は立ち止まって下の雲を見ました。",
+              "島の小さな子猫が走ってきて、先生の鼻にふれました。",
+              "みんなでいっしょに島に着くと、先生はにっこり笑いました。",
+              "その日、子猫たちは、先生にも勇気のある友だちが必要だと学びました。"
+            ],
+            "ko": [
+              "일곱째 날, 아기 고양이들은 친구들을 세어 보았어요.",
+              "키리, 코리, 섬의 고양이, 핍까지 넷이었어요.",
+              "다섯 번째 친구는 나이 든 하얀 선생님이었어요.",
+              "하지만 선생님은 빛의 다리를 한 번도 건넌 적이 없었어요.",
+              "코리는 선생님을 모셔 오려고 학교로 달려갔어요.",
+              "선생님은 빛나는 다리를 보고 몸을 떨었어요.",
+              "키리가 선생님 곁에서 천천히 한 걸음씩 함께 걸었어요.",
+              "핍은 앞서 날며 작은 달처럼 길을 비춰 주었어요.",
+              "다리 한가운데에서 선생님은 멈춰 서서 아래 구름을 내려다보았어요.",
+              "섬의 작은 고양이가 달려 나와 선생님 코에 코를 댔어요.",
+              "함께 섬에 도착했고, 선생님은 미소 지었어요.",
+              "그날 아기 고양이들은 선생님에게도 용감한 친구가 필요하다는 걸 배웠어요."
+            ],
+            "id": [
+              "Pada hari ketujuh, anak-anak kucing menghitung sahabat mereka.",
+              "Kiri, Kori, anak kucing pulau, dan Pip berjumlah empat.",
+              "Sahabat kelima adalah guru putih tua mereka.",
+              "Tetapi sang guru belum pernah menyeberangi jembatan cahaya.",
+              "Kori berlari kembali ke sekolah untuk menjemputnya.",
+              "Sang guru memandang jembatan yang bersinar dan gemetar.",
+              "Kiri berjalan di sampingnya, selangkah demi selangkah dengan pelan.",
+              "Pip melayang di depan dan menerangi jalan seperti bulan kecil.",
+              "Di tengah jembatan, sang guru berhenti dan menatap awan di bawah.",
+              "Anak kucing kecil dari pulau berlari keluar dan menyentuh hidungnya.",
+              "Bersama-sama mereka sampai di pulau, dan sang guru tersenyum.",
+              "Hari itu, anak-anak kucing belajar bahwa guru pun membutuhkan sahabat yang berani."
+            ],
+            "vi": [
+              "Ngày thứ bảy, các bé mèo đếm bạn bè của mình.",
+              "Kiri, Kori, mèo con trên đảo và Pip là bốn.",
+              "Người bạn thứ năm là thầy giáo mèo trắng già.",
+              "Nhưng thầy chưa bao giờ đi qua cây cầu ánh sáng.",
+              "Kori chạy về trường để đưa thầy đến.",
+              "Thầy nhìn cây cầu phát sáng và run rẩy.",
+              "Kiri đi bên cạnh thầy, từng bước chậm rãi.",
+              "Pip bay phía trước, soi đường như một vầng trăng nhỏ.",
+              "Đến giữa cầu, thầy dừng lại và nhìn xuống những đám mây.",
+              "Mèo con trên đảo chạy ra và chạm mũi vào mũi thầy.",
+              "Cùng nhau họ đến được hòn đảo, và thầy mỉm cười.",
+              "Hôm ấy, các bé mèo học được rằng ngay cả thầy giáo cũng cần một người bạn dũng cảm."
+            ],
+            "bn": [
+              "সপ্তম দিনে ছানারা তাদের বন্ধুদের গুনল।",
+              "কিরি, কোরি, দ্বীপের ছানা আর পিপ মিলে চারজন।",
+              "পঞ্চম বন্ধু ছিল তাদের বুড়ো সাদা শিক্ষক।",
+              "কিন্তু শিক্ষক কখনও আলোর সেতু পার হননি।",
+              "কোরি তাঁকে আনতে স্কুলে ছুটে গেল।",
+              "শিক্ষক ঝলমলে সেতুর দিকে তাকিয়ে কেঁপে উঠলেন।",
+              "কিরি তাঁর পাশে হাঁটল, একটি একটি করে ধীর পদক্ষেপে।",
+              "পিপ সামনে ভেসে গিয়ে ছোট্ট চাঁদের মতো পথ আলোকিত করল।",
+              "মাঝপথে শিক্ষক থেমে নিচের মেঘের দিকে তাকালেন।",
+              "দ্বীপের ছোট্ট ছানা ছুটে এসে তাঁর নাকে নাক ছোঁয়াল।",
+              "একসঙ্গে তারা দ্বীপে পৌঁছাল, আর শিক্ষক হাসলেন।",
+              "সেদিন ছানারা শিখল, শিক্ষকদেরও একজন সাহসী বন্ধু দরকার।"
+            ],
+            "ur": [
+              "ساتویں دن بلونگڑوں نے اپنے دوستوں کو گنا۔",
+              "کیری، کوری، جزیرے کا بلونگڑا اور پِپ مل کر چار ہوئے۔",
+              "پانچواں دوست ان کا بوڑھا سفید استاد تھا۔",
+              "مگر استاد نے کبھی روشنی کا پل پار نہیں کیا تھا۔",
+              "کوری اسے لانے کے لیے اسکول کی طرف دوڑی۔",
+              "استاد نے چمکتے پل کو دیکھا اور کانپ گیا۔",
+              "کیری اس کے ساتھ چلی، ایک ایک دھیما قدم۔",
+              "پِپ آگے تیرتا رہا اور چھوٹے چاند کی طرح راستہ روشن کرتا رہا۔",
+              "بیچ میں استاد رکا اور نیچے بادلوں کو دیکھا۔",
+              "جزیرے کا ننھا بلونگڑا دوڑ کر آیا اور اس کی ناک چھوئی۔",
+              "مل کر وہ جزیرے پر پہنچے، اور استاد مسکرایا۔",
+              "اس دن بلونگڑوں نے سیکھا کہ استادوں کو بھی ایک بہادر دوست کی ضرورت ہوتی ہے۔"
+            ],
+            "mr": [
+              "सातव्या दिवशी पिल्लांनी आपले मित्र मोजले.",
+              "किरी, कोरी, बेटावरचे पिल्लू आणि पिप मिळून चार झाले.",
+              "पाचवा मित्र त्यांचा म्हातारा पांढरा शिक्षक होता.",
+              "पण शिक्षकाने प्रकाशाचा पूल कधीच ओलांडला नव्हता.",
+              "कोरी त्याला आणायला शाळेकडे धावली.",
+              "शिक्षकाने चमकणाऱ्या पुलाकडे पाहिले आणि तो थरथरला.",
+              "किरी त्याच्या शेजारी चालली, एकेक हळू पाऊल टाकत.",
+              "पिप पुढे तरंगत गेला आणि छोट्या चंद्रासारखा वाट उजळवत राहिला.",
+              "मध्यभागी शिक्षक थांबला आणि खाली ढगांकडे पाहू लागला.",
+              "बेटावरचे छोटे पिल्लू धावत आले आणि त्याच्या नाकाला स्पर्श केला.",
+              "सगळे मिळून बेटावर पोहोचले, आणि शिक्षक हसला.",
+              "त्या दिवशी पिल्लांना कळले की शिक्षकांनाही एका धाडसी मित्राची गरज असते."
+            ],
+            "te": [
+              "ఏడవ రోజు పిల్లి పిల్లలు తమ స్నేహితులను లెక్కపెట్టాయి.",
+              "కిరి, కోరి, ద్వీపం పిల్లి, పిప్ కలిపి నలుగురు.",
+              "ఐదవ స్నేహితుడు వాళ్ల వృద్ధ తెల్ల గురువు.",
+              "కానీ గురువు వెలుగు వంతెనను ఎప్పుడూ దాటలేదు.",
+              "కోరి ఆయనను తీసుకురావడానికి బడికి పరుగెత్తింది.",
+              "గురువు మెరిసే వంతెనను చూసి వణికాడు.",
+              "కిరి ఆయన పక్కనే ఒక్కో నెమ్మది అడుగుతో నడిచింది.",
+              "పిప్ ముందుగా తేలుతూ చిన్న చంద్రుడిలా దారిని వెలిగించింది.",
+              "మధ్యలో గురువు ఆగి కింద మేఘాలను చూశాడు.",
+              "ద్వీపంలోని చిన్న పిల్లి పరుగెత్తుకొచ్చి ఆయన ముక్కును తాకింది.",
+              "అందరూ కలిసి ద్వీపానికి చేరారు, గురువు నవ్వాడు.",
+              "ఆ రోజు పిల్లి పిల్లలు గురువులకు కూడా ధైర్యవంతమైన స్నేహితుడు అవసరమని నేర్చుకున్నాయి."
+            ],
+            "ta": [
+              "ஏழாம் நாள், குட்டிகள் தம் நண்பர்களை எண்ணின.",
+              "கிரி, கோரி, தீவின் குட்டி, பிப் — நான்கு பேர்.",
+              "ஐந்தாவது நண்பர் அவர்களின் முதிய வெள்ளை ஆசிரியர்.",
+              "ஆனால் ஆசிரியர் ஒளிப் பாலத்தை ஒருபோதும் கடந்ததில்லை.",
+              "கோரி அவரை அழைத்து வர பள்ளிக்கு ஓடினாள்.",
+              "ஆசிரியர் ஒளிரும் பாலத்தைப் பார்த்து நடுங்கினார்.",
+              "கிரி அவர் அருகில் மெதுவாக ஒவ்வொரு அடியாக நடந்தாள்.",
+              "பிப் முன்னே மிதந்து, சிறு நிலவைப் போல வழியை ஒளிரச் செய்தது.",
+              "நடுவில் ஆசிரியர் நின்று கீழே மேகங்களைப் பார்த்தார்.",
+              "தீவின் சின்னக் குட்டி ஓடி வந்து அவர் மூக்கைத் தொட்டது.",
+              "ஒன்றாக அவர்கள் தீவை அடைந்தனர்; ஆசிரியர் புன்னகைத்தார்.",
+              "அன்று, ஆசிரியர்களுக்கும் ஒரு துணிச்சலான நண்பர் தேவை என்று குட்டிகள் கற்றுக்கொண்டன."
             ]
           }
         }

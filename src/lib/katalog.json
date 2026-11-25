@@ -2548,7 +2548,7 @@
       "name": "The Cloud Cat School",
       "tr": "Yüzyıllar sonra, bulutların üstündeki cam şehirde bir kedi okulu: Abram'ın yavruları Kiri ve Kori ışık kürelerini mırıltıyla yakmayı öğreniyor, kimsenin açamadığı eski kapının sırrını arıyor. Anlatıcılı, 1 dakikalık bölümler.",
       "en": "Centuries from now, a cat school in a glass city above the clouds: Abram's kittens Kiri and Kori learn to light glowing orbs with a purr and search for the secret of an old door no one can open. Narrated one-minute episodes.",
-      "episodes": 17,
+      "episodes": 18,
       "loc": {
         "de": "In ferner Zukunft, eine Katzenschule in einer Glasstadt über den Wolken: Abrams Kätzchen Kiri und Kori lernen, Lichtkugeln mit einem Schnurren zu entzünden, und suchen das Geheimnis einer alten Tür, die niemand öffnen kann. Erzählte Ein-Minuten-Folgen.",
         "fr": "Dans un lointain futur, une école de chats dans une ville de verre au-dessus des nuages : Kiri et Kori, les chatons d'Abram, apprennent à allumer des sphères de lumière en ronronnant et cherchent le secret d'une vieille porte que personne ne peut ouvrir. Épisodes narrés d'une minute.",
@@ -8245,6 +8245,340 @@
               "தீவின் சின்னக் குட்டி ஓடி வந்து அவர் மூக்கைத் தொட்டது.",
               "ஒன்றாக அவர்கள் தீவை அடைந்தனர்; ஆசிரியர் புன்னகைத்தார்.",
               "அன்று, ஆசிரியர்களுக்கும் ஒரு துணிச்சலான நண்பர் தேவை என்று குட்டிகள் கற்றுக்கொண்டன."
+            ]
+          }
+        },
+        "18": {
+          "cues": [
+            [
+              0.2,
+              4.96
+            ],
+            [
+              5.36,
+              10.08
+            ],
+            [
+              10.48,
+              15.2
+            ],
+            [
+              15.6,
+              20.32
+            ],
+            [
+              20.72,
+              25.44
+            ],
+            [
+              25.84,
+              30.56
+            ],
+            [
+              30.96,
+              35.68
+            ],
+            [
+              36.08,
+              40.8
+            ],
+            [
+              41.2,
+              45.92
+            ],
+            [
+              46.32,
+              51.04
+            ],
+            [
+              51.44,
+              56.16
+            ],
+            [
+              56.56,
+              61.28
+            ]
+          ],
+          "text": {
+            "en": [
+              "On the eighth day, five friends stood before the star door.",
+              "Each one sat down on a small paw mark.",
+              "Kiri began the song, soft and low.",
+              "Kori joined in, bright and happy.",
+              "The little island kitten sang in a tiny voice.",
+              "The old teacher purred deep, like a warm drum.",
+              "Pip added a sparkle of light to every note.",
+              "The fifth point of the star door began to shine.",
+              "All five points glowed together like a small sun.",
+              "Slowly, without a sound, the star door opened.",
+              "Behind it, a path of silver light led up into the sky.",
+              "That day, the kittens learned that together they can open any door."
+            ],
+            "tr": [
+              "Sekizinci gün beş arkadaş yıldız kapının önünde durdu.",
+              "Her biri küçük bir pati izinin üstüne oturdu.",
+              "Kiri şarkıya başladı, yumuşak ve alçak sesle.",
+              "Kori katıldı, parlak ve neşeli.",
+              "Adadaki küçük yavru minicik sesiyle söyledi.",
+              "Yaşlı öğretmen sıcak bir davul gibi derinden mırladı.",
+              "Pip her notaya bir ışık pırıltısı ekledi.",
+              "Yıldız kapının beşinci ucu parlamaya başladı.",
+              "Beş uç birlikte küçük bir güneş gibi ışıdı.",
+              "Yavaşça, hiç ses çıkarmadan yıldız kapı açıldı.",
+              "Ardında gümüş ışıktan bir yol gökyüzüne uzanıyordu.",
+              "O gün yavrular, birlikte her kapıyı açabileceklerini öğrendi."
+            ],
+            "de": [
+              "Am achten Tag standen fünf Freunde vor der Sternentür.",
+              "Jeder setzte sich auf einen kleinen Pfotenabdruck.",
+              "Kiri begann das Lied, leise und tief.",
+              "Kori stimmte ein, hell und fröhlich.",
+              "Das kleine Inselkätzchen sang mit winziger Stimme.",
+              "Der alte Lehrer schnurrte tief wie eine warme Trommel.",
+              "Pip gab jeder Note ein Funkeln aus Licht.",
+              "Die fünfte Spitze der Sternentür begann zu leuchten.",
+              "Alle fünf Spitzen strahlten zusammen wie eine kleine Sonne.",
+              "Langsam und ohne einen Laut öffnete sich die Sternentür.",
+              "Dahinter führte ein Pfad aus silbernem Licht hinauf in den Himmel.",
+              "An diesem Tag lernten die Kätzchen, dass sie gemeinsam jede Tür öffnen können."
+            ],
+            "fr": [
+              "Le huitième jour, cinq amis se tenaient devant la porte étoile.",
+              "Chacun s'assit sur une petite empreinte de patte.",
+              "Kiri commença la chanson, douce et basse.",
+              "Kori la rejoignit, claire et joyeuse.",
+              "Le petit chaton de l'île chanta d'une toute petite voix.",
+              "Le vieux professeur ronronna profondément, comme un tambour chaud.",
+              "Pip ajouta une étincelle de lumière à chaque note.",
+              "La cinquième pointe de la porte étoile se mit à briller.",
+              "Les cinq pointes brillèrent ensemble comme un petit soleil.",
+              "Lentement, sans un bruit, la porte étoile s'ouvrit.",
+              "Derrière elle, un chemin de lumière argentée montait vers le ciel.",
+              "Ce jour-là, les chatons apprirent qu'ensemble ils peuvent ouvrir n'importe quelle porte."
+            ],
+            "es": [
+              "Al octavo día, cinco amigos estaban ante la puerta estrella.",
+              "Cada uno se sentó sobre una pequeña huella de pata.",
+              "Kiri empezó la canción, suave y bajita.",
+              "Kori se unió, brillante y alegre.",
+              "El gatito de la isla cantó con una vocecita diminuta.",
+              "El viejo maestro ronroneó profundo, como un tambor cálido.",
+              "Pip añadió un destello de luz a cada nota.",
+              "La quinta punta de la puerta estrella empezó a brillar.",
+              "Las cinco puntas brillaron juntas como un pequeño sol.",
+              "Despacio, sin un sonido, la puerta estrella se abrió.",
+              "Detrás, un camino de luz plateada subía hacia el cielo.",
+              "Ese día, las gatitas aprendieron que juntas pueden abrir cualquier puerta."
+            ],
+            "pt": [
+              "No oitavo dia, cinco amigos estavam diante da porta estrela.",
+              "Cada um se sentou sobre uma pequena marca de pata.",
+              "Kiri começou a canção, suave e baixinha.",
+              "Kori entrou junto, brilhante e feliz.",
+              "O gatinho da ilha cantou com uma vozinha minúscula.",
+              "O velho professor ronronou fundo, como um tambor quente.",
+              "Pip acrescentou um brilho de luz a cada nota.",
+              "A quinta ponta da porta estrela começou a brilhar.",
+              "As cinco pontas brilharam juntas como um pequeno sol.",
+              "Devagar, sem nenhum som, a porta estrela se abriu.",
+              "Atrás dela, um caminho de luz prateada subia para o céu.",
+              "Naquele dia, as gatinhas aprenderam que juntas podem abrir qualquer porta."
+            ],
+            "it": [
+              "L'ottavo giorno, cinque amici stavano davanti alla porta stella.",
+              "Ognuno si sedette su una piccola impronta di zampa.",
+              "Kiri iniziò la canzone, dolce e bassa.",
+              "Kori si unì, chiara e allegra.",
+              "Il gattino dell'isola cantò con una vocina minuscola.",
+              "Il vecchio maestro fece le fusa profonde, come un tamburo caldo.",
+              "Pip aggiunse una scintilla di luce a ogni nota.",
+              "La quinta punta della porta stella cominciò a brillare.",
+              "Tutte e cinque le punte brillarono insieme come un piccolo sole.",
+              "Lentamente, senza un suono, la porta stella si aprì.",
+              "Dietro di essa, un sentiero di luce argentata saliva verso il cielo.",
+              "Quel giorno, le gattine impararono che insieme possono aprire qualsiasi porta."
+            ],
+            "ru": [
+              "На восьмой день пятеро друзей стояли перед звёздной дверью.",
+              "Каждый сел на маленький отпечаток лапы.",
+              "Кири начала песню, тихо и низко.",
+              "Кори подхватила, звонко и радостно.",
+              "Маленький котёнок с острова пел крошечным голоском.",
+              "Старый учитель мурлыкал глубоко, как тёплый барабан.",
+              "Пип добавлял к каждой ноте искорку света.",
+              "Пятый луч звёздной двери начал светиться.",
+              "Все пять лучей засияли вместе, как маленькое солнце.",
+              "Медленно, без единого звука, звёздная дверь открылась.",
+              "За ней тропа из серебряного света вела вверх, в небо.",
+              "В тот день котята узнали, что вместе они могут открыть любую дверь."
+            ],
+            "ar": [
+              "في اليوم الثامن وقف خمسة أصدقاء أمام باب النجمة.",
+              "جلس كل واحد على أثر قدم صغير.",
+              "بدأت كيري الأغنية، بصوت ناعم وخافت.",
+              "انضمت كوري بصوت مشرق وفرح.",
+              "غنّى قط الجزيرة الصغير بصوت ضئيل.",
+              "خرخر المعلّم العجوز بعمق مثل طبل دافئ.",
+              "أضاف بيب بريق ضوء إلى كل نغمة.",
+              "بدأ الرأس الخامس لباب النجمة يلمع.",
+              "توهجت الرؤوس الخمسة معًا مثل شمس صغيرة.",
+              "ببطء، ومن دون صوت، انفتح باب النجمة.",
+              "خلفه امتد درب من ضوء فضي صاعدًا إلى السماء.",
+              "في ذلك اليوم تعلّمت القطط الصغيرة أنها معًا تستطيع فتح أي باب."
+            ],
+            "hi": [
+              "आठवें दिन पाँच दोस्त तारा-दरवाज़े के सामने खड़े थे।",
+              "हर एक पंजे के एक छोटे निशान पर बैठ गया।",
+              "किरी ने गीत शुरू किया, धीमा और कोमल।",
+              "कोरी भी शामिल हुई, चमकीली और ख़ुश।",
+              "द्वीप के नन्हे बच्चे ने नन्ही सी आवाज़ में गाया।",
+              "बूढ़े शिक्षक ने गर्म ढोल की तरह गहरी घुरघुराहट की।",
+              "पिप ने हर सुर में रोशनी की एक चमक जोड़ी।",
+              "तारा-दरवाज़े का पाँचवाँ कोना चमकने लगा।",
+              "पाँचों कोने एक छोटे सूरज की तरह साथ चमके।",
+              "धीरे-धीरे, बिना आवाज़ के, तारा-दरवाज़ा खुल गया।",
+              "उसके पीछे चाँदी की रोशनी का रास्ता आसमान की ओर जाता था।",
+              "उस दिन बच्चों ने सीखा कि साथ मिलकर वे कोई भी दरवाज़ा खोल सकते हैं।"
+            ],
+            "zh": [
+              "第八天，五个朋友站在星星门前。",
+              "每个人都坐在一个小小的爪印上。",
+              "奇里先唱起歌，轻轻的，低低的。",
+              "科里也跟着唱，明亮又快乐。",
+              "岛上的小猫用小小的声音唱着。",
+              "年老的老师低低地呼噜，像一面温暖的鼓。",
+              "皮普给每一个音符都添上一点光亮。",
+              "星星门的第五个角开始发光了。",
+              "五个角一起发光，像一个小太阳。",
+              "星星门慢慢地、无声地打开了。",
+              "门后，一条银色的光路通向天空。",
+              "那一天，小猫们明白了：大家在一起，就能打开任何一扇门。"
+            ],
+            "ja": [
+              "八日目、五人の友だちが星の扉の前に立ちました。",
+              "それぞれが小さな足あとの上にすわりました。",
+              "キリがやさしく低い声で歌いはじめました。",
+              "コリも明るく楽しそうに加わりました。",
+              "島の小さな子猫は、小さな小さな声で歌いました。",
+              "年とった先生は、あたたかい太鼓のように深くのどを鳴らしました。",
+              "ピップはひとつひとつの音にきらめく光をそえました。",
+              "星の扉の五つ目の角が光りはじめました。",
+              "五つの角がいっしょに、小さな太陽のように輝きました。",
+              "ゆっくりと、音もなく、星の扉が開きました。",
+              "その向こうには、銀の光の道が空へとのびていました。",
+              "その日、子猫たちは、みんなでならどんな扉も開けられると学びました。"
+            ],
+            "ko": [
+              "여덟째 날, 다섯 친구가 별 문 앞에 섰어요.",
+              "저마다 작은 발자국 위에 앉았어요.",
+              "키리가 부드럽고 나지막하게 노래를 시작했어요.",
+              "코리가 밝고 신나게 따라 불렀어요.",
+              "섬의 작은 고양이는 아주 작은 목소리로 노래했어요.",
+              "나이 든 선생님은 따뜻한 북처럼 깊게 가르랑거렸어요.",
+              "핍은 음 하나하나에 반짝이는 빛을 더했어요.",
+              "별 문의 다섯 번째 꼭짓점이 빛나기 시작했어요.",
+              "다섯 꼭짓점이 함께 작은 태양처럼 빛났어요.",
+              "천천히, 소리도 없이 별 문이 열렸어요.",
+              "문 뒤로 은빛 길이 하늘로 이어져 있었어요.",
+              "그날 아기 고양이들은 함께라면 어떤 문도 열 수 있다는 걸 배웠어요."
+            ],
+            "id": [
+              "Pada hari kedelapan, lima sahabat berdiri di depan pintu bintang.",
+              "Masing-masing duduk di atas sebuah jejak kaki kecil.",
+              "Kiri memulai lagunya, lembut dan pelan.",
+              "Kori ikut bernyanyi, cerah dan gembira.",
+              "Anak kucing pulau bernyanyi dengan suara mungil.",
+              "Guru tua mendengkur dalam, seperti genderang yang hangat.",
+              "Pip menambahkan kilau cahaya pada setiap nada.",
+              "Ujung kelima pintu bintang mulai bersinar.",
+              "Kelima ujung bersinar bersama seperti matahari kecil.",
+              "Perlahan, tanpa suara, pintu bintang terbuka.",
+              "Di baliknya, jalan cahaya perak menanjak ke langit.",
+              "Hari itu, anak-anak kucing belajar bahwa bersama-sama mereka bisa membuka pintu apa pun."
+            ],
+            "vi": [
+              "Ngày thứ tám, năm người bạn đứng trước cửa sao.",
+              "Mỗi bạn ngồi lên một dấu chân nhỏ.",
+              "Kiri bắt đầu bài hát, nhẹ và trầm.",
+              "Kori hòa theo, trong trẻo và vui tươi.",
+              "Mèo con trên đảo hát bằng giọng bé xíu.",
+              "Thầy giáo già gừ gừ trầm ấm như một chiếc trống.",
+              "Pip thêm một tia sáng lấp lánh vào từng nốt nhạc.",
+              "Cánh thứ năm của cửa sao bắt đầu sáng lên.",
+              "Năm cánh cùng tỏa sáng như một mặt trời nhỏ.",
+              "Chậm rãi, không một tiếng động, cửa sao mở ra.",
+              "Phía sau là một con đường ánh sáng bạc dẫn lên bầu trời.",
+              "Hôm ấy, các bé mèo học được rằng cùng nhau chúng có thể mở bất kỳ cánh cửa nào."
+            ],
+            "bn": [
+              "অষ্টম দিনে পাঁচ বন্ধু তারা-দরজার সামনে দাঁড়াল।",
+              "প্রত্যেকে একটি ছোট থাবার ছাপের ওপর বসল।",
+              "কিরি গান শুরু করল, নরম আর নিচু সুরে।",
+              "কোরি যোগ দিল, উজ্জ্বল আর আনন্দে।",
+              "দ্বীপের ছোট্ট ছানা মিহি গলায় গাইল।",
+              "বুড়ো শিক্ষক উষ্ণ ঢোলের মতো গভীর স্বরে গরগর করলেন।",
+              "পিপ প্রতিটি সুরে এক ঝিলিক আলো যোগ করল।",
+              "তারা-দরজার পঞ্চম কোণ জ্বলতে শুরু করল।",
+              "পাঁচটি কোণ একসঙ্গে ছোট্ট সূর্যের মতো জ্বলে উঠল।",
+              "ধীরে ধীরে, কোনো শব্দ ছাড়াই তারা-দরজা খুলে গেল।",
+              "এর পেছনে রুপোলি আলোর পথ আকাশের দিকে উঠে গেছে।",
+              "সেদিন ছানারা শিখল, একসঙ্গে থাকলে তারা যেকোনো দরজা খুলতে পারে।"
+            ],
+            "ur": [
+              "آٹھویں دن پانچ دوست ستارہ دروازے کے سامنے کھڑے تھے۔",
+              "ہر ایک پنجے کے ایک چھوٹے نشان پر بیٹھ گیا۔",
+              "کیری نے گیت شروع کیا، نرم اور دھیما۔",
+              "کوری بھی شامل ہوئی، روشن اور خوش۔",
+              "جزیرے کے ننھے بلونگڑے نے ننھی سی آواز میں گایا۔",
+              "بوڑھے استاد نے گرم ڈھول کی طرح گہری غرغراہٹ کی۔",
+              "پِپ نے ہر سُر میں روشنی کی ایک چمک شامل کی۔",
+              "ستارہ دروازے کا پانچواں کونا چمکنے لگا۔",
+              "پانچوں کونے مل کر ایک چھوٹے سورج کی طرح چمکے۔",
+              "آہستہ آہستہ، بغیر کسی آواز کے، ستارہ دروازہ کھل گیا۔",
+              "اس کے پیچھے چاندی کی روشنی کا راستہ آسمان کی طرف جاتا تھا۔",
+              "اس دن بلونگڑوں نے سیکھا کہ مل کر وہ کوئی بھی دروازہ کھول سکتے ہیں۔"
+            ],
+            "mr": [
+              "आठव्या दिवशी पाच मित्र तारा-दारासमोर उभे होते.",
+              "प्रत्येकजण पंजाच्या एका छोट्या खुणेवर बसला.",
+              "किरीने गाणे सुरू केले, हळू आणि मृदू.",
+              "कोरीही सामील झाली, तेजस्वी आणि आनंदी.",
+              "बेटावरचे छोटे पिल्लू इवल्याशा आवाजात गायले.",
+              "म्हाताऱ्या शिक्षकाने उबदार ढोलासारखे खोल गुरगुरले.",
+              "पिपने प्रत्येक सुरात प्रकाशाची एक चमक जोडली.",
+              "तारा-दाराचे पाचवे टोक चमकू लागले.",
+              "पाचही टोके एका छोट्या सूर्यासारखी एकत्र चमकली.",
+              "हळूहळू, आवाज न करता, तारा-दार उघडले.",
+              "त्यामागे चंदेरी प्रकाशाची वाट आकाशाकडे जात होती.",
+              "त्या दिवशी पिल्लांना कळले की एकत्र असल्यावर ते कोणतेही दार उघडू शकतात."
+            ],
+            "te": [
+              "ఎనిమిదవ రోజు ఐదుగురు స్నేహితులు నక్షత్ర తలుపు ముందు నిలబడ్డారు.",
+              "ప్రతి ఒక్కరూ ఒక చిన్న పాద ముద్ర మీద కూర్చున్నారు.",
+              "కిరి మృదువుగా, తక్కువ స్వరంలో పాట మొదలుపెట్టింది.",
+              "కోరి ప్రకాశవంతంగా, సంతోషంగా కలిసింది.",
+              "ద్వీపంలోని చిన్న పిల్లి చిన్ని గొంతుతో పాడింది.",
+              "వృద్ధ గురువు వెచ్చని డప్పులా లోతుగా గురగురలాడాడు.",
+              "పిప్ ప్రతి స్వరానికి ఒక వెలుగు మెరుపును జోడించింది.",
+              "నక్షత్ర తలుపు ఐదవ కొన వెలగడం మొదలుపెట్టింది.",
+              "ఐదు కొనలు కలిసి చిన్న సూర్యుడిలా వెలిగాయి.",
+              "నెమ్మదిగా, శబ్దం లేకుండా నక్షత్ర తలుపు తెరుచుకుంది.",
+              "దాని వెనుక వెండి వెలుగు దారి ఆకాశంలోకి సాగింది.",
+              "ఆ రోజు పిల్లి పిల్లలు కలిసి ఉంటే ఏ తలుపునైనా తెరవగలమని నేర్చుకున్నాయి."
+            ],
+            "ta": [
+              "எட்டாம் நாள், ஐந்து நண்பர்கள் நட்சத்திரக் கதவின் முன் நின்றனர்.",
+              "ஒவ்வொருவரும் ஒரு சிறிய பாதச் சுவட்டின் மீது அமர்ந்தனர்.",
+              "கிரி மெல்லவும் தாழ்வாகவும் பாடலைத் தொடங்கினாள்.",
+              "கோரி பிரகாசமாகவும் மகிழ்ச்சியாகவும் சேர்ந்து பாடினாள்.",
+              "தீவின் சின்னக் குட்டி சின்னஞ்சிறு குரலில் பாடியது.",
+              "முதிய ஆசிரியர் சூடான முரசு போல ஆழமாக உறுமினார்.",
+              "பிப் ஒவ்வொரு இசைக்குறிப்புக்கும் ஒரு ஒளிப் பொறியைச் சேர்த்தது.",
+              "நட்சத்திரக் கதவின் ஐந்தாவது முனை ஒளிரத் தொடங்கியது.",
+              "ஐந்து முனைகளும் சேர்ந்து ஒரு சிறு சூரியனைப் போல ஒளிர்ந்தன.",
+              "மெதுவாக, ஒலியின்றி, நட்சத்திரக் கதவு திறந்தது.",
+              "அதன் பின்னே வெள்ளி ஒளிப் பாதை வானை நோக்கி ஏறியது.",
+              "அன்று, ஒன்றாக இருந்தால் எந்தக் கதவையும் திறக்க முடியும் என்று குட்டிகள் கற்றுக்கொண்டன."
             ]
           }
         }

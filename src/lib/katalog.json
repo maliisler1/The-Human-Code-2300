@@ -61,6 +61,7 @@
       "tr": "Ev halleri",
       "en": "Home life",
       "members": [
+        "pim",
         "mia",
         "abram-hikayesi",
         "bulut-okulu",
@@ -193,6 +194,321 @@
     }
   ],
   "characters": [
+    {
+      "key": "pim",
+      "name": "Pim the Lost Button",
+      "tr": "Küçük Lina'nın kırmızı paltosundan kopan dördüncü düğme Pim, sokağın altındaki Kayıp Eşyalar Şehri'ne düşer. Oranın tek kuralı var: buraya düşen bir daha çıkamaz. Pim buna inanmıyor. İngilizce konuşmalı, 20 dilde altyazılı, 1 dakikalık bölümler.",
+      "en": "Pim, the fourth button on little Lina's red coat, snaps off and falls into the City of Lost Things under the street. There is one rule down there: whatever falls here never goes back up. Pim doesn't believe it. One-minute episodes, spoken in English.",
+      "episodes": 1,
+      "loc": {
+        "de": "Pim, der vierte Knopf an Linas rotem Mantel, reißt ab und fällt in die Stadt der verlorenen Dinge unter der Straße. Dort gilt eine Regel: Was hierher fällt, kommt nie wieder hinauf. Pim glaubt das nicht. Einminütige Folgen.",
+        "fr": "Pim, le quatrième bouton du manteau rouge de la petite Lina, se détache et tombe dans la Ville des Objets Perdus, sous la rue. Là-bas, une seule règle : ce qui tombe ici ne remonte jamais. Pim n'y croit pas. Épisodes d'une minute.",
+        "es": "Pim, el cuarto botón del abrigo rojo de la pequeña Lina, se suelta y cae en la Ciudad de las Cosas Perdidas, bajo la calle. Allí hay una regla: lo que cae aquí nunca vuelve a subir. Pim no se lo cree. Episodios de un minuto.",
+        "pt": "Pim, o quarto botão do casaco vermelho da pequena Lina, solta-se e cai na Cidade das Coisas Perdidas, debaixo da rua. Lá existe uma regra: o que cai aqui nunca mais sobe. Pim não acredita nisso. Episódios de um minuto.",
+        "it": "Pim, il quarto bottone del cappotto rosso della piccola Lina, si stacca e cade nella Città delle Cose Perdute, sotto la strada. Laggiù c'è una regola: ciò che cade qui non risale mai. Pim non ci crede. Episodi di un minuto.",
+        "ru": "Пим — четвёртая пуговица на красном пальто маленькой Лины. Он отрывается и падает в Город потерянных вещей под улицей. Там одно правило: что сюда упало, наверх не возвращается. Пим в это не верит. Серии по одной минуте.",
+        "ar": "بيم، الزر الرابع في معطف لينا الأحمر، ينقطع ويسقط إلى مدينة الأشياء الضائعة تحت الشارع. هناك قاعدة واحدة: ما يسقط هنا لا يصعد أبدًا. لكن بيم لا يصدّق ذلك. حلقات من دقيقة واحدة.",
+        "hi": "नन्ही लीना के लाल कोट का चौथा बटन पिम टूटकर सड़क के नीचे बसे खोई चीज़ों के शहर में गिर जाता है। वहाँ एक ही नियम है: जो यहाँ गिरा, वह कभी ऊपर नहीं जाता। पिम को यह मंज़ूर नहीं। एक मिनट के एपिसोड।",
+        "zh": "皮姆是小莉娜红外套上的第四颗纽扣。他掉了下来，落进街道底下的失物之城。那里只有一条规矩：掉下来的东西再也上不去。皮姆偏偏不信。每集一分钟。",
+        "ja": "小さなリナの赤いコートの四つめのボタン、ピム。糸が切れて、通りの下にある「おとしものの街」へ落ちてしまいます。そこの決まりはひとつ、落ちたものは二度と上がれない。でもピムは信じません。1分のエピソード。",
+        "ko": "어린 리나의 빨간 코트에 달린 네 번째 단추 핌이 떨어져, 길 아래 잃어버린 물건들의 도시로 굴러갑니다. 그곳의 규칙은 하나, 여기 떨어진 것은 다시 올라가지 못한다. 핌은 그 말을 믿지 않습니다. 1분짜리 에피소드.",
+        "id": "Pim, kancing keempat di mantel merah Lina kecil, terlepas dan jatuh ke Kota Barang Hilang di bawah jalan. Di sana ada satu aturan: apa pun yang jatuh ke sini tidak pernah naik lagi. Pim tidak percaya. Episode satu menit.",
+        "vi": "Pim là chiếc cúc thứ tư trên áo khoác đỏ của bé Lina. Cúc đứt chỉ và rơi xuống Thành Phố Đồ Thất Lạc dưới lòng đường. Ở đó chỉ có một luật: thứ gì rơi xuống đây sẽ không bao giờ lên lại. Pim không tin điều đó. Mỗi tập một phút.",
+        "bn": "ছোট্ট লিনার লাল কোটের চতুর্থ বোতাম পিম ছিঁড়ে গিয়ে রাস্তার নিচের হারানো জিনিসের শহরে পড়ে যায়। সেখানে একটাই নিয়ম: যা এখানে পড়ে, তা আর ওপরে ওঠে না। পিম তা মানে না। এক মিনিটের পর্ব।",
+        "ur": "ننھی لینا کے سرخ کوٹ کا چوتھا بٹن پِم ٹوٹ کر سڑک کے نیچے بسے گمشدہ چیزوں کے شہر میں جا گرتا ہے۔ وہاں ایک ہی اصول ہے: جو یہاں گرا، وہ کبھی اوپر نہیں جاتا۔ پِم کو یقین نہیں آتا۔ ایک منٹ کی اقساط۔",
+        "mr": "छोट्या लीनाच्या लाल कोटावरचं चौथं बटण पिम तुटून रस्त्याखालच्या हरवलेल्या वस्तूंच्या शहरात पडतं. तिथे एकच नियम आहे: इथे पडलेलं कधीच वर जात नाही. पिमला ते पटत नाही. एक मिनिटाचे भाग.",
+        "te": "చిన్నారి లీనా ఎర్రటి కోటు మీది నాలుగో గుండీ పిమ్ ఊడిపోయి, వీధి కింద ఉన్న పోగొట్టుకున్న వస్తువుల నగరంలో పడిపోతుంది. అక్కడ ఒకటే నియమం: ఇక్కడ పడింది మళ్లీ పైకి వెళ్లదు. పిమ్ దానిని నమ్మదు. ఒక నిమిషం ఎపిసోడ్లు.",
+        "ta": "சிறுமி லீனாவின் சிவப்பு கோட்டில் இருந்த நான்காவது பொத்தான் பிம், கயிறு அறுந்து தெருவுக்குக் கீழே இருக்கும் தொலைந்த பொருட்களின் நகரத்துக்கு விழுகிறது. அங்கே ஒரே விதி: இங்கே விழுந்தது மீண்டும் மேலே போகாது. பிம் அதை நம்பவில்லை. ஒரு நிமிட அத்தியாயங்கள்."
+      },
+      "subs": {
+        "1": {
+          "cues": [
+            [
+              0.0,
+              2.0
+            ],
+            [
+              4.8,
+              6.6
+            ],
+            [
+              8.0,
+              9.6
+            ],
+            [
+              14.1,
+              15.2
+            ],
+            [
+              26.9,
+              28.6
+            ],
+            [
+              34.3,
+              38.8
+            ],
+            [
+              39.1,
+              40.0
+            ],
+            [
+              43.2,
+              47.0
+            ],
+            [
+              49.9,
+              51.9
+            ],
+            [
+              52.4,
+              55.8
+            ]
+          ],
+          "text": {
+            "en": [
+              "Four!",
+              "That's me!",
+              "Hold on! Hold on!",
+              "Hold on!",
+              "First time lost?",
+              "I'm not lost. I know exactly where I'm going.",
+              "Up!",
+              "Nobody goes up, little button. Rule number one.",
+              "Then I'll be the first.",
+              "Oh, fine. But we go at night."
+            ],
+            "tr": [
+              "Dört!",
+              "Bu benim!",
+              "Tutun! Tutun!",
+              "Tutun!",
+              "İlk kez mi kayboldun?",
+              "Ben kaybolmadım. Nereye gittiğimi gayet iyi biliyorum.",
+              "Yukarı!",
+              "Kimse yukarı çıkamaz küçük düğme. Bir numaralı kural.",
+              "O zaman ilk ben olurum.",
+              "Peki tamam. Ama gece gideriz."
+            ],
+            "de": [
+              "Vier!",
+              "Das bin ich!",
+              "Halt dich fest! Halt dich fest!",
+              "Halt dich fest!",
+              "Zum ersten Mal verloren?",
+              "Ich bin nicht verloren. Ich weiß genau, wohin ich gehe.",
+              "Nach oben!",
+              "Niemand geht nach oben, kleiner Knopf. Regel Nummer eins.",
+              "Dann bin ich eben der Erste.",
+              "Na gut. Aber wir gehen bei Nacht."
+            ],
+            "fr": [
+              "Quatre !",
+              "C'est moi !",
+              "Tiens bon ! Tiens bon !",
+              "Tiens bon !",
+              "C'est la première fois que tu es perdu ?",
+              "Je ne suis pas perdu. Je sais très bien où je vais.",
+              "En haut !",
+              "Personne ne monte, petit bouton. Règle numéro un.",
+              "Alors je serai le premier.",
+              "Bon, d'accord. Mais on y va la nuit."
+            ],
+            "es": [
+              "¡Cuatro!",
+              "¡Ese soy yo!",
+              "¡Aguanta! ¡Aguanta!",
+              "¡Aguanta!",
+              "¿Primera vez que te pierdes?",
+              "No estoy perdido. Sé exactamente adónde voy.",
+              "¡Arriba!",
+              "Nadie sube, botoncito. Regla número uno.",
+              "Entonces seré el primero.",
+              "Está bien. Pero iremos de noche."
+            ],
+            "pt": [
+              "Quatro!",
+              "Sou eu!",
+              "Espera! Espera!",
+              "Espera!",
+              "Primeira vez perdido?",
+              "Não estou perdido. Sei exatamente para onde vou.",
+              "Para cima!",
+              "Ninguém sobe, botãozinho. Regra número um.",
+              "Então eu serei o primeiro.",
+              "Está bem. Mas vamos de noite."
+            ],
+            "it": [
+              "Quattro!",
+              "Quello sono io!",
+              "Tieni duro! Tieni duro!",
+              "Tieni duro!",
+              "È la prima volta che ti perdi?",
+              "Non sono perso. So benissimo dove sto andando.",
+              "Su!",
+              "Nessuno va su, bottoncino. Regola numero uno.",
+              "Allora sarò il primo.",
+              "E va bene. Ma andiamo di notte."
+            ],
+            "ru": [
+              "Четыре!",
+              "Это я!",
+              "Держись! Держись!",
+              "Держись!",
+              "Первый раз потерялся?",
+              "Я не потерялся. Я точно знаю, куда иду.",
+              "Наверх!",
+              "Наверх никто не поднимается, пуговка. Правило номер один.",
+              "Тогда я буду первым.",
+              "Ну ладно. Но пойдём ночью."
+            ],
+            "ar": [
+              "أربعة!",
+              "هذا أنا!",
+              "تماسك! تماسك!",
+              "تماسك!",
+              "أول مرة تضيع؟",
+              "أنا لست ضائعًا. أعرف تمامًا إلى أين أذهب.",
+              "إلى الأعلى!",
+              "لا أحد يصعد إلى الأعلى يا زرّ الصغير. القاعدة رقم واحد.",
+              "إذن سأكون أنا الأول.",
+              "حسنًا. لكننا نذهب ليلًا."
+            ],
+            "hi": [
+              "चार!",
+              "वो मैं हूँ!",
+              "रुको! रुको!",
+              "रुको!",
+              "पहली बार खोए हो?",
+              "मैं खोया नहीं हूँ। मुझे ठीक पता है मैं कहाँ जा रहा हूँ।",
+              "ऊपर!",
+              "ऊपर कोई नहीं जाता, नन्हे बटन। पहला नियम यही है।",
+              "तो मैं पहला बनूँगा।",
+              "ठीक है। पर हम रात में जाएँगे।"
+            ],
+            "zh": [
+              "四！",
+              "那就是我！",
+              "坚持住！坚持住！",
+              "坚持住！",
+              "第一次走丢吧？",
+              "我没有走丢。我很清楚自己要去哪里。",
+              "上面！",
+              "没有人能上去，小纽扣。这是第一条规矩。",
+              "那我就做第一个。",
+              "好吧。不过我们晚上走。"
+            ],
+            "ja": [
+              "よっつ！",
+              "ぼくだ！",
+              "まって！ まって！",
+              "まって！",
+              "まいごは はじめて？",
+              "まいごじゃないよ。どこへ行くか ちゃんと わかってる。",
+              "うえだよ！",
+              "うえへ行けた子は いないよ、小さなボタン。きまりの ひとつめさ。",
+              "じゃあ ぼくが さいしょに なる。",
+              "……しかたないな。でも 行くのは 夜だ。"
+            ],
+            "ko": [
+              "넷!",
+              "그게 나야!",
+              "버텨! 버텨!",
+              "버텨!",
+              "길 잃은 건 처음이니?",
+              "난 길 잃지 않았어. 어디로 갈지 정확히 알아.",
+              "위로!",
+              "위로 가는 애는 없어, 꼬마 단추야. 첫 번째 규칙이지.",
+              "그럼 내가 첫 번째가 될게.",
+              "…그래, 좋아. 대신 밤에 가자."
+            ],
+            "id": [
+              "Empat!",
+              "Itu aku!",
+              "Tahan! Tahan!",
+              "Tahan!",
+              "Baru pertama kali tersesat?",
+              "Aku tidak tersesat. Aku tahu persis ke mana aku pergi.",
+              "Ke atas!",
+              "Tidak ada yang bisa naik, kancing kecil. Aturan nomor satu.",
+              "Kalau begitu akulah yang pertama.",
+              "Baiklah. Tapi kita pergi malam hari."
+            ],
+            "vi": [
+              "Bốn!",
+              "Là tớ đấy!",
+              "Giữ chặt! Giữ chặt!",
+              "Giữ chặt!",
+              "Lần đầu bị lạc à?",
+              "Tớ không bị lạc. Tớ biết rõ mình đi đâu.",
+              "Lên trên!",
+              "Chẳng ai lên được đâu, cúc áo bé nhỏ. Quy tắc số một.",
+              "Vậy tớ sẽ là người đầu tiên.",
+              "Thôi được. Nhưng ta đi vào ban đêm."
+            ],
+            "bn": [
+              "চার!",
+              "ওটা আমি!",
+              "ধরে থাকো! ধরে থাকো!",
+              "ধরে থাকো!",
+              "প্রথমবার হারিয়ে গেছ?",
+              "আমি হারাইনি। আমি জানি আমি কোথায় যাচ্ছি।",
+              "উপরে!",
+              "কেউ উপরে যেতে পারে না, ছোট্ট বোতাম। এক নম্বর নিয়ম।",
+              "তাহলে আমিই প্রথম হব।",
+              "বেশ, ঠিক আছে। তবে আমরা রাতে যাব।"
+            ],
+            "ur": [
+              "چار!",
+              "وہ میں ہوں!",
+              "پکڑے رہو! پکڑے رہو!",
+              "پکڑے رہو!",
+              "پہلی بار گم ہوئے ہو؟",
+              "میں گم نہیں ہوا۔ مجھے خوب پتا ہے میں کہاں جا رہا ہوں۔",
+              "اوپر!",
+              "اوپر کوئی نہیں جاتا، ننھے بٹن۔ پہلا اصول یہی ہے۔",
+              "تو پھر میں پہلا بنوں گا۔",
+              "اچھا ٹھیک ہے۔ مگر ہم رات کو جائیں گے۔"
+            ],
+            "mr": [
+              "चार!",
+              "तो मीच!",
+              "धरून राहा! धरून राहा!",
+              "धरून राहा!",
+              "पहिल्यांदाच हरवलास का?",
+              "मी हरवलो नाही. मला नीट माहीत आहे मी कुठे चाललोय.",
+              "वर!",
+              "वर कोणीच जात नाही, छोट्या बटणा. पहिला नियम हाच.",
+              "मग मी पहिला ठरेन.",
+              "बरं, ठीक आहे. पण आपण रात्री जाऊ."
+            ],
+            "te": [
+              "నాలుగు!",
+              "అది నేనే!",
+              "పట్టుకో! పట్టుకో!",
+              "పట్టుకో!",
+              "తప్పిపోవడం ఇదే మొదటిసారా?",
+              "నేను తప్పిపోలేదు. నేను ఎక్కడికి వెళ్తున్నానో నాకు బాగా తెలుసు.",
+              "పైకి!",
+              "పైకి ఎవరూ వెళ్లలేరు, చిన్న గుండీ. మొదటి నియమం ఇదే.",
+              "అయితే నేనే మొదటివాడిని అవుతాను.",
+              "సరే మరి. కానీ మనం రాత్రి వెళ్దాం."
+            ],
+            "ta": [
+              "நான்கு!",
+              "அது நான்தான்!",
+              "பிடித்துக்கொள்! பிடித்துக்கொள்!",
+              "பிடித்துக்கொள்!",
+              "முதல் முறையா தொலைஞ்சது?",
+              "நான் தொலையலை. நான் எங்கே போறேன்னு எனக்கு நல்லா தெரியும்.",
+              "மேலே!",
+              "மேலே யாரும் போக முடியாது, சின்ன பொத்தானே. முதல் விதி இதுதான்.",
+              "அப்படின்னா நானே முதல் ஆளா இருப்பேன்.",
+              "சரி சரி. ஆனா நாம ராத்திரியில போவோம்."
+            ]
+          }
+        }
+      }
+    },
     {
       "key": "mia",
       "name": "Mia the Office Cat",

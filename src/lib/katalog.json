@@ -199,7 +199,7 @@
       "name": "Pim the Lost Button",
       "tr": "Küçük Lina'nın kırmızı paltosundan kopan dördüncü düğme Pim, sokağın altındaki Kayıp Eşyalar Şehri'ne düşer. Oranın tek kuralı var: buraya düşen bir daha çıkamaz. Pim buna inanmıyor. İngilizce konuşmalı, 20 dilde altyazılı, 1 dakikalık bölümler.",
       "en": "Pim, the fourth button on little Lina's red coat, snaps off and falls into the City of Lost Things under the street. There is one rule down there: whatever falls here never goes back up. Pim doesn't believe it. One-minute episodes, spoken in English.",
-      "episodes": 3,
+      "episodes": 5,
       "loc": {
         "de": "Pim, der vierte Knopf an Linas rotem Mantel, reißt ab und fällt in die Stadt der verlorenen Dinge unter der Straße. Dort gilt eine Regel: Was hierher fällt, kommt nie wieder hinauf. Pim glaubt das nicht. Einminütige Folgen.",
         "fr": "Pim, le quatrième bouton du manteau rouge de la petite Lina, se détache et tombe dans la Ville des Objets Perdus, sous la rue. Là-bas, une seule règle : ce qui tombe ici ne remonte jamais. Pim n'y croit pas. Épisodes d'une minute.",
@@ -1220,6 +1220,722 @@
               "அடுத்த முறை இன்னும் நல்ல கதவு கொண்டு வருவேன்.",
               "அடுத்த முறை. சரி.",
               "முதல் விதி."
+            ]
+          }
+        },
+        "4": {
+          "cues": [
+            [
+              0.0,
+              2.0
+            ],
+            [
+              2.2,
+              3.9
+            ],
+            [
+              7.3,
+              10.5
+            ],
+            [
+              10.7,
+              14.2
+            ],
+            [
+              16.0,
+              18.4
+            ],
+            [
+              18.6,
+              20.7
+            ],
+            [
+              23.3,
+              27.0
+            ],
+            [
+              28.0,
+              30.4
+            ],
+            [
+              35.9,
+              37.7
+            ],
+            [
+              39.3,
+              40.9
+            ],
+            [
+              46.9,
+              50.0
+            ],
+            [
+              50.2,
+              51.6
+            ],
+            [
+              51.8,
+              54.3
+            ]
+          ],
+          "text": {
+            "en": [
+              "Boing. Hello.",
+              "What are you?",
+              "I bounce. That is all I do.",
+              "Can you bounce me?",
+              "This will end badly.",
+              "It usually does!",
+              "There! That is the way out!",
+              "That is very high, little button.",
+              "So close! Again!",
+              "Still the wrong door!",
+              "Tomorrow night. I will bounce harder.",
+              "Tomorrow night.",
+              "He is getting closer."
+            ],
+            "tr": [
+              "Zıng. Merhaba.",
+              "Sen nesin?",
+              "Zıplarım. Tek yaptığım bu.",
+              "Beni zıplatabilir misin?",
+              "Bu kötü bitecek.",
+              "Genelde öyle olur!",
+              "İşte! Çıkış yolu bu!",
+              "Orası çok yüksek, küçük düğme.",
+              "Az kaldı! Bir daha!",
+              "Yine yanlış kapı!",
+              "Yarın gece. Daha sert zıplatacağım.",
+              "Yarın gece.",
+              "Yaklaşıyor."
+            ],
+            "de": [
+              "Boing. Hallo.",
+              "Was bist du?",
+              "Ich hüpfe. Mehr mache ich nicht.",
+              "Kannst du mich hochschnellen?",
+              "Das geht schief.",
+              "Meistens schon!",
+              "Da! Das ist der Weg hinaus!",
+              "Das ist sehr hoch, kleiner Knopf.",
+              "So knapp! Noch mal!",
+              "Immer noch die falsche Tür!",
+              "Morgen Nacht. Dann hüpfe ich stärker.",
+              "Morgen Nacht.",
+              "Er kommt näher."
+            ],
+            "fr": [
+              "Boing. Bonjour.",
+              "Tu es quoi ?",
+              "Je rebondis. C'est tout ce que je fais.",
+              "Tu peux me lancer ?",
+              "Ça va mal finir.",
+              "En général, oui !",
+              "Là ! C'est la sortie !",
+              "C'est très haut, petit bouton.",
+              "Si près ! Encore !",
+              "Toujours la mauvaise porte !",
+              "Demain soir. Je rebondirai plus fort.",
+              "Demain soir.",
+              "Il s'approche."
+            ],
+            "es": [
+              "Boing. Hola.",
+              "¿Tú qué eres?",
+              "Yo reboto. Es lo único que hago.",
+              "¿Puedes lanzarme?",
+              "Esto va a acabar mal.",
+              "¡Suele acabar así!",
+              "¡Ahí! ¡Esa es la salida!",
+              "Eso está muy alto, botoncito.",
+              "¡Por poco! ¡Otra vez!",
+              "¡Sigue siendo la puerta equivocada!",
+              "Mañana por la noche. Rebotaré más fuerte.",
+              "Mañana por la noche.",
+              "Se está acercando."
+            ],
+            "pt": [
+              "Boing. Olá.",
+              "O que és tu?",
+              "Eu salto. É tudo o que faço.",
+              "Consegues atirar-me?",
+              "Isto vai acabar mal.",
+              "Costuma acabar!",
+              "Ali! É aquela a saída!",
+              "Isso é muito alto, botãozinho.",
+              "Tão perto! Outra vez!",
+              "Continua a ser a porta errada!",
+              "Amanhã à noite. Vou saltar com mais força.",
+              "Amanhã à noite.",
+              "Ele está a chegar mais perto."
+            ],
+            "it": [
+              "Boing. Ciao.",
+              "Tu cosa sei?",
+              "Io rimbalzo. È tutto quello che faccio.",
+              "Puoi lanciarmi?",
+              "Finirà male.",
+              "Di solito sì!",
+              "Lì! Quella è l'uscita!",
+              "È molto in alto, bottoncino.",
+              "Per poco! Ancora!",
+              "Sempre la porta sbagliata!",
+              "Domani notte. Rimbalzerò più forte.",
+              "Domani notte.",
+              "Si sta avvicinando."
+            ],
+            "ru": [
+              "Бойнг. Привет.",
+              "А ты кто?",
+              "Я прыгаю. Это всё, что я умею.",
+              "Можешь подбросить меня?",
+              "Это плохо кончится.",
+              "Обычно да!",
+              "Вот! Вот он, выход!",
+              "Это очень высоко, пуговка.",
+              "Так близко! Ещё раз!",
+              "Опять не та дверь!",
+              "Завтра ночью. Подброшу сильнее.",
+              "Завтра ночью.",
+              "Он всё ближе."
+            ],
+            "ar": [
+              "بوينغ. مرحبًا.",
+              "وما أنت؟",
+              "أنا أقفز. هذا كل ما أفعله.",
+              "هل يمكنك أن تقذفني؟",
+              "ستنتهي هذه نهاية سيئة.",
+              "عادةً نعم!",
+              "هناك! هذا هو طريق الخروج!",
+              "هذا عالٍ جدًا أيها الزر الصغير.",
+              "كدت أصل! مرة أخرى!",
+              "ما زال الباب الخطأ!",
+              "ليلة الغد. سأقفز بقوة أكبر.",
+              "ليلة الغد.",
+              "إنه يقترب."
+            ],
+            "hi": [
+              "बोइंग। नमस्ते।",
+              "तुम क्या हो?",
+              "मैं उछलता हूँ। बस यही करता हूँ।",
+              "क्या तुम मुझे उछाल सकते हो?",
+              "इसका अंत बुरा होगा।",
+              "आमतौर पर होता ही है!",
+              "वहाँ! बाहर जाने का रास्ता वही है!",
+              "वह बहुत ऊँचा है, नन्हे बटन।",
+              "बस थोड़ा सा! फिर से!",
+              "अब भी गलत दरवाज़ा!",
+              "कल रात। मैं और ज़ोर से उछालूँगा।",
+              "कल रात।",
+              "वह करीब पहुँच रहा है।"
+            ],
+            "zh": [
+              "砰。你好。",
+              "你是什么？",
+              "我会弹。我只会这个。",
+              "你能把我弹上去吗？",
+              "这不会有好结果。",
+              "通常都没有！",
+              "那里！那就是出口！",
+              "那太高了，小纽扣。",
+              "就差一点！再来！",
+              "还是错的门！",
+              "明天晚上。我会弹得更用力。",
+              "明天晚上。",
+              "他越来越近了。"
+            ],
+            "ja": [
+              "ボヨン。こんにちは。",
+              "きみは なに？",
+              "ぼくは はねる。それだけさ。",
+              "ぼくを はねあげられる？",
+              "ろくなことに ならないよ。",
+              "たいてい ならないね！",
+              "あそこ！ あれが 出口だ！",
+              "ずいぶん 高いよ、小さなボタン。",
+              "おしい！ もう一回！",
+              "やっぱり ちがう とびらだ！",
+              "あしたの夜。もっと 強く はねあげる。",
+              "あしたの夜。",
+              "あの子、近づいてるよ。"
+            ],
+            "ko": [
+              "보잉. 안녕.",
+              "너는 뭐야?",
+              "난 튕겨. 그게 다야.",
+              "날 튕겨 올려 줄 수 있어?",
+              "이건 잘 안 끝날 거야.",
+              "보통은 그렇지!",
+              "저기! 저게 출구야!",
+              "저긴 아주 높아, 꼬마 단추야.",
+              "아깝다! 한 번 더!",
+              "여전히 틀린 문이야!",
+              "내일 밤. 더 세게 튕겨 줄게.",
+              "내일 밤.",
+              "저 녀석, 가까워지고 있어."
+            ],
+            "id": [
+              "Boing. Halo.",
+              "Kamu ini apa?",
+              "Aku memantul. Cuma itu yang kubisa.",
+              "Bisa kamu lontarkan aku?",
+              "Ini akan berakhir buruk.",
+              "Biasanya begitu!",
+              "Itu! Itu jalan keluarnya!",
+              "Itu sangat tinggi, kancing kecil.",
+              "Nyaris! Sekali lagi!",
+              "Masih pintu yang salah!",
+              "Besok malam. Aku akan melontar lebih kuat.",
+              "Besok malam.",
+              "Dia semakin dekat."
+            ],
+            "vi": [
+              "Boing. Chào cậu.",
+              "Cậu là cái gì vậy?",
+              "Tớ nảy. Tớ chỉ biết thế thôi.",
+              "Cậu nảy tớ lên được không?",
+              "Chuyện này sẽ hỏng bét.",
+              "Thường là vậy!",
+              "Kia kìa! Lối ra là chỗ đó!",
+              "Chỗ đó cao lắm, cúc áo bé nhỏ.",
+              "Suýt nữa! Lần nữa!",
+              "Vẫn là nhầm cửa!",
+              "Đêm mai. Tớ sẽ nảy mạnh hơn.",
+              "Đêm mai.",
+              "Cậu ấy đang tới gần hơn."
+            ],
+            "bn": [
+              "বোইং। হ্যালো।",
+              "তুমি কী?",
+              "আমি লাফাই। শুধু এটাই পারি।",
+              "আমাকে ছুড়ে দিতে পারবে?",
+              "এটা খারাপভাবে শেষ হবে।",
+              "সাধারণত তাই হয়!",
+              "ওখানে! ওটাই বেরোনোর পথ!",
+              "ওটা অনেক উঁচু, ছোট্ট বোতাম।",
+              "একটুর জন্য! আবার!",
+              "এখনও ভুল দরজা!",
+              "কাল রাতে। আরও জোরে ছুড়ব।",
+              "কাল রাতে।",
+              "ও কাছে পৌঁছে যাচ্ছে।"
+            ],
+            "ur": [
+              "بوئنگ۔ ہیلو۔",
+              "تم کیا ہو؟",
+              "میں اچھلتا ہوں۔ بس یہی کرتا ہوں۔",
+              "کیا تم مجھے اچھال سکتے ہو؟",
+              "اس کا انجام برا ہوگا۔",
+              "عام طور پر ہوتا ہی ہے!",
+              "وہاں! نکلنے کا راستہ وہی ہے!",
+              "وہ بہت اونچا ہے، ننھے بٹن۔",
+              "بس تھوڑا سا! پھر سے!",
+              "اب بھی غلط دروازہ!",
+              "کل رات۔ میں اور زور سے اچھالوں گا۔",
+              "کل رات۔",
+              "وہ قریب پہنچ رہا ہے۔"
+            ],
+            "mr": [
+              "बोइंग. नमस्कार.",
+              "तू काय आहेस?",
+              "मी उसळतो. एवढंच करतो.",
+              "मला उसळवशील का?",
+              "हे वाईट संपणार.",
+              "बहुतेक वेळा तसंच होतं!",
+              "तिथे! बाहेर पडायचा मार्ग तोच!",
+              "ते खूप उंच आहे, छोट्या बटणा.",
+              "अगदी थोडक्यात! पुन्हा!",
+              "अजूनही चुकीचा दरवाजा!",
+              "उद्या रात्री. मी जोरात उसळवीन.",
+              "उद्या रात्री.",
+              "तो जवळ येतोय."
+            ],
+            "te": [
+              "బోయింగ్. హలో.",
+              "నువ్వు ఏంటి?",
+              "నేను ఎగురుతాను. అంతే నేను చేసేది.",
+              "నన్ను పైకి ఎగరేయగలవా?",
+              "ఇది చెడ్డగా ముగుస్తుంది.",
+              "మామూలుగా అలాగే!",
+              "అదిగో! బయటికి దారి అదే!",
+              "అది చాలా ఎత్తు, చిన్న గుండీ.",
+              "కొంచెంలో పోయింది! మళ్లీ!",
+              "ఇంకా తప్పు తలుపే!",
+              "రేపు రాత్రి. ఇంకా గట్టిగా ఎగరేస్తాను.",
+              "రేపు రాత్రి.",
+              "అతను దగ్గరవుతున్నాడు."
+            ],
+            "ta": [
+              "பாயிங். வணக்கம்.",
+              "நீ என்ன?",
+              "நான் துள்ளுவேன். அவ்வளவுதான்.",
+              "என்னைத் தூக்கி எறிய முடியுமா?",
+              "இது மோசமா முடியும்.",
+              "பொதுவா அப்படித்தான்!",
+              "அங்கே! வெளியே போற வழி அதுதான்!",
+              "அது ரொம்ப உயரம், சின்ன பொத்தானே.",
+              "கொஞ்சத்துல! இன்னொரு முறை!",
+              "இன்னும் தப்பான கதவுதான்!",
+              "நாளை இரவு. இன்னும் பலமா தூக்குவேன்.",
+              "நாளை இரவு.",
+              "அவன் நெருங்கிட்டு இருக்கான்."
+            ]
+          }
+        },
+        "5": {
+          "cues": [
+            [
+              0.0,
+              2.6
+            ],
+            [
+              3.0,
+              5.5
+            ],
+            [
+              8.3,
+              10.9
+            ],
+            [
+              11.6,
+              13.7
+            ],
+            [
+              15.8,
+              18.3
+            ],
+            [
+              19.6,
+              21.3
+            ],
+            [
+              28.1,
+              29.8
+            ],
+            [
+              30.3,
+              33.0
+            ],
+            [
+              39.8,
+              44.7
+            ],
+            [
+              45.6,
+              47.0
+            ],
+            [
+              47.7,
+              48.4
+            ],
+            [
+              49.4,
+              50.1
+            ],
+            [
+              51.1,
+              54.1
+            ]
+          ],
+          "text": {
+            "en": [
+              "A door that breathes!",
+              "It is a fan. It blows upward.",
+              "If the wind goes up, I go up!",
+              "Boing! I like this plan.",
+              "That fan has teeth, little button.",
+              "Then we go when it sleeps.",
+              "Look how far it goes!",
+              "No door up there. None at all.",
+              "I saw the sky. For one second, I saw it.",
+              "I believe you.",
+              "Tomorrow?",
+              "Tomorrow.",
+              "And one day I will find the right door."
+            ],
+            "tr": [
+              "Nefes alan bir kapı!",
+              "O bir pervane. Yukarı doğru üflüyor.",
+              "Rüzgâr yukarı gidiyorsa, ben de giderim!",
+              "Zıng! Bu planı sevdim.",
+              "O pervanenin dişleri var, küçük düğme.",
+              "O zaman uyuduğunda gideriz.",
+              "Baksana ne kadar uzuyor!",
+              "Yukarıda kapı yok. Hiç yok.",
+              "Gökyüzünü gördüm. Bir saniyeliğine gördüm.",
+              "Sana inanıyorum.",
+              "Yarın mı?",
+              "Yarın.",
+              "Ve bir gün doğru kapıyı bulacağım."
+            ],
+            "de": [
+              "Eine Tür, die atmet!",
+              "Das ist ein Ventilator. Er bläst nach oben.",
+              "Wenn der Wind hochgeht, gehe ich hoch!",
+              "Boing! Der Plan gefällt mir.",
+              "Der Ventilator hat Zähne, kleiner Knopf.",
+              "Dann gehen wir, wenn er schläft.",
+              "Schau, wie weit das geht!",
+              "Da oben ist keine Tür. Gar keine.",
+              "Ich habe den Himmel gesehen. Eine Sekunde lang.",
+              "Ich glaube dir.",
+              "Morgen?",
+              "Morgen.",
+              "Und eines Tages finde ich die richtige Tür."
+            ],
+            "fr": [
+              "Une porte qui respire !",
+              "C'est un ventilateur. Il souffle vers le haut.",
+              "Si le vent monte, je monte !",
+              "Boing ! J'aime ce plan.",
+              "Ce ventilateur a des dents, petit bouton.",
+              "Alors on y va quand il dort.",
+              "Regarde comme ça monte loin !",
+              "Pas de porte là-haut. Aucune.",
+              "J'ai vu le ciel. Pendant une seconde, je l'ai vu.",
+              "Je te crois.",
+              "Demain ?",
+              "Demain.",
+              "Et un jour je trouverai la bonne porte."
+            ],
+            "es": [
+              "¡Una puerta que respira!",
+              "Es un ventilador. Sopla hacia arriba.",
+              "¡Si el viento sube, yo subo!",
+              "¡Boing! Me gusta este plan.",
+              "Ese ventilador tiene dientes, botoncito.",
+              "Entonces iremos cuando duerma.",
+              "¡Mira hasta dónde llega!",
+              "Ahí arriba no hay puerta. Ninguna.",
+              "Vi el cielo. Durante un segundo, lo vi.",
+              "Te creo.",
+              "¿Mañana?",
+              "Mañana.",
+              "Y algún día encontraré la puerta correcta."
+            ],
+            "pt": [
+              "Uma porta que respira!",
+              "É uma ventoinha. Sopra para cima.",
+              "Se o vento sobe, eu subo!",
+              "Boing! Gosto deste plano.",
+              "Aquela ventoinha tem dentes, botãozinho.",
+              "Então vamos quando ela dormir.",
+              "Olha até onde vai!",
+              "Lá em cima não há porta nenhuma.",
+              "Eu vi o céu. Durante um segundo, vi.",
+              "Acredito em ti.",
+              "Amanhã?",
+              "Amanhã.",
+              "E um dia vou encontrar a porta certa."
+            ],
+            "it": [
+              "Una porta che respira!",
+              "È un ventilatore. Soffia verso l'alto.",
+              "Se il vento sale, salgo anch'io!",
+              "Boing! Mi piace questo piano.",
+              "Quel ventilatore ha i denti, bottoncino.",
+              "Allora andiamo quando dorme.",
+              "Guarda quanto va in alto!",
+              "Lassù non c'è nessuna porta.",
+              "Ho visto il cielo. Per un secondo, l'ho visto.",
+              "Ti credo.",
+              "Domani?",
+              "Domani.",
+              "E un giorno troverò la porta giusta."
+            ],
+            "ru": [
+              "Дверь, которая дышит!",
+              "Это вентилятор. Он дует вверх.",
+              "Если ветер идёт вверх, и я иду вверх!",
+              "Бойнг! Мне нравится этот план.",
+              "У этого вентилятора зубы, пуговка.",
+              "Тогда пойдём, когда он уснёт.",
+              "Смотри, как далеко уходит!",
+              "Наверху нет двери. Совсем нет.",
+              "Я видел небо. На одну секунду я его видел.",
+              "Я тебе верю.",
+              "Завтра?",
+              "Завтра.",
+              "И однажды я найду нужную дверь."
+            ],
+            "ar": [
+              "باب يتنفّس!",
+              "إنها مروحة. تنفخ إلى الأعلى.",
+              "إذا كانت الريح تصعد، فأنا أصعد!",
+              "بوينغ! تعجبني هذه الخطة.",
+              "لتلك المروحة أسنان أيها الزر الصغير.",
+              "إذن نذهب حين تنام.",
+              "انظر كم يمتد إلى الأعلى!",
+              "لا باب في الأعلى. ولا واحد.",
+              "رأيت السماء. لثانية واحدة، رأيتها.",
+              "أنا أصدّقك.",
+              "غدًا؟",
+              "غدًا.",
+              "وذات يوم سأجد الباب الصحيح."
+            ],
+            "hi": [
+              "एक दरवाज़ा जो साँस लेता है!",
+              "यह पंखा है। यह ऊपर की ओर हवा फेंकता है।",
+              "अगर हवा ऊपर जाती है, तो मैं भी जाऊँगा!",
+              "बोइंग! मुझे यह योजना पसंद है।",
+              "उस पंखे के दाँत हैं, नन्हे बटन।",
+              "तो हम तब जाएँगे जब यह सोएगा।",
+              "देखो यह कितनी दूर तक जाता है!",
+              "ऊपर कोई दरवाज़ा नहीं है। बिल्कुल नहीं।",
+              "मैंने आसमान देखा। एक पल के लिए, मैंने उसे देखा।",
+              "मुझे तुम पर यकीन है।",
+              "कल?",
+              "कल।",
+              "और किसी दिन मैं सही दरवाज़ा ढूँढ़ लूँगा।"
+            ],
+            "zh": [
+              "一扇会呼吸的门！",
+              "那是风扇。它往上吹。",
+              "风往上走，我就往上走！",
+              "砰！我喜欢这个计划。",
+              "那风扇有牙齿，小纽扣。",
+              "那我们就趁它睡着的时候走。",
+              "看它通得多远！",
+              "上面没有门。一扇都没有。",
+              "我看见天空了。就那么一秒，我看见了。",
+              "我相信你。",
+              "明天？",
+              "明天。",
+              "总有一天我会找到对的那扇门。"
+            ],
+            "ja": [
+              "いきを する とびらだ！",
+              "あれは ファンだよ。上に かぜを おくるんだ。",
+              "かぜが 上に いくなら、ぼくも 上に いく！",
+              "ボヨン！ その さくせん、いいね。",
+              "あのファンには 歯が あるよ、小さなボタン。",
+              "じゃあ ねむったときに 行こう。",
+              "見て、こんなに 上まで つづいてる！",
+              "上には とびらなんて ないよ。ひとつも。",
+              "そらを 見たんだ。いっしゅんだけ、見えたんだ。",
+              "しんじるよ。",
+              "あした？",
+              "あした。",
+              "いつか ぜったい、ただしい とびらを 見つけるよ。"
+            ],
+            "ko": [
+              "숨 쉬는 문이다!",
+              "저건 환풍기야. 위로 바람을 보내.",
+              "바람이 위로 가면, 나도 위로 가!",
+              "보잉! 이 계획 마음에 들어.",
+              "저 환풍기엔 이빨이 있어, 꼬마 단추야.",
+              "그럼 잠들었을 때 가자.",
+              "저거 봐, 얼마나 멀리 이어지는지!",
+              "저 위엔 문이 없어. 하나도.",
+              "하늘을 봤어. 딱 일 초 동안, 봤어.",
+              "믿어.",
+              "내일?",
+              "내일.",
+              "그리고 언젠가 난 맞는 문을 찾을 거야."
+            ],
+            "id": [
+              "Pintu yang bernapas!",
+              "Itu kipas. Anginnya ke atas.",
+              "Kalau anginnya naik, aku juga naik!",
+              "Boing! Aku suka rencana ini.",
+              "Kipas itu punya gigi, kancing kecil.",
+              "Kalau begitu kita pergi saat dia tidur.",
+              "Lihat, jauh sekali ke atas!",
+              "Di atas sana tidak ada pintu. Sama sekali.",
+              "Aku melihat langit. Satu detik saja, aku melihatnya.",
+              "Aku percaya padamu.",
+              "Besok?",
+              "Besok.",
+              "Dan suatu hari aku akan menemukan pintu yang benar."
+            ],
+            "vi": [
+              "Một cánh cửa biết thở!",
+              "Đó là cái quạt. Nó thổi lên trên.",
+              "Gió đi lên thì tớ cũng đi lên!",
+              "Boing! Tớ thích kế hoạch này.",
+              "Cái quạt đó có răng đấy, cúc áo bé nhỏ.",
+              "Vậy ta đi khi nó ngủ.",
+              "Nhìn kìa, nó dẫn lên xa thật!",
+              "Trên đó chẳng có cửa nào. Không hề.",
+              "Tớ thấy bầu trời. Chỉ một giây thôi, tớ đã thấy.",
+              "Tớ tin cậu.",
+              "Ngày mai nhé?",
+              "Ngày mai.",
+              "Và một ngày nào đó tớ sẽ tìm ra đúng cánh cửa."
+            ],
+            "bn": [
+              "একটা দরজা যে নিঃশ্বাস নেয়!",
+              "ওটা পাখা। উপরের দিকে হাওয়া দেয়।",
+              "হাওয়া উপরে গেলে, আমিও উপরে যাব!",
+              "বোইং! পরিকল্পনাটা আমার পছন্দ।",
+              "ওই পাখার দাঁত আছে, ছোট্ট বোতাম।",
+              "তাহলে ও ঘুমালে যাব।",
+              "দেখো, কত দূর উঠে গেছে!",
+              "উপরে কোনো দরজা নেই। একটাও না।",
+              "আমি আকাশ দেখেছি। এক সেকেন্ডের জন্য, দেখেছি।",
+              "আমি তোমাকে বিশ্বাস করি।",
+              "কাল?",
+              "কাল।",
+              "আর একদিন আমি ঠিক দরজাটা খুঁজে বের করব।"
+            ],
+            "ur": [
+              "ایک دروازہ جو سانس لیتا ہے!",
+              "یہ پنکھا ہے۔ یہ اوپر کی طرف ہوا پھینکتا ہے۔",
+              "اگر ہوا اوپر جاتی ہے تو میں بھی جاؤں گا!",
+              "بوئنگ! مجھے یہ منصوبہ پسند آیا۔",
+              "اس پنکھے کے دانت ہیں، ننھے بٹن۔",
+              "تو ہم تب جائیں گے جب یہ سو جائے۔",
+              "دیکھو یہ کتنی دور تک جاتا ہے!",
+              "اوپر کوئی دروازہ نہیں۔ ایک بھی نہیں۔",
+              "میں نے آسمان دیکھا۔ ایک لمحے کے لیے، میں نے دیکھا۔",
+              "مجھے تم پر یقین ہے۔",
+              "کل؟",
+              "کل۔",
+              "اور ایک دن میں صحیح دروازہ ڈھونڈ لوں گا۔"
+            ],
+            "mr": [
+              "श्वास घेणारा दरवाजा!",
+              "तो पंखा आहे. वरच्या दिशेने हवा फेकतो.",
+              "वारा वर जातो, तर मीही वर जाईन!",
+              "बोइंग! मला ही योजना आवडली.",
+              "त्या पंख्याला दात आहेत, छोट्या बटणा.",
+              "मग तो झोपल्यावर जाऊ.",
+              "बघ किती वर जातो!",
+              "वर कोणताच दरवाजा नाही. एकही नाही.",
+              "मी आकाश पाहिलं. एका क्षणासाठी, पाहिलं.",
+              "माझा तुझ्यावर विश्वास आहे.",
+              "उद्या?",
+              "उद्या.",
+              "आणि एक दिवस मी बरोबर दरवाजा शोधीन."
+            ],
+            "te": [
+              "ఊపిరి పీల్చే తలుపు!",
+              "అది ఫ్యాన్. పైకి గాలి వేస్తుంది.",
+              "గాలి పైకి వెళ్తే, నేనూ పైకి వెళ్తాను!",
+              "బోయింగ్! ఈ ప్లాన్ నాకు నచ్చింది.",
+              "ఆ ఫ్యాన్‌కి పళ్లు ఉన్నాయి, చిన్న గుండీ.",
+              "అయితే అది నిద్రపోయినప్పుడు వెళ్దాం.",
+              "చూడు ఎంత దూరం పైకి వెళ్తుందో!",
+              "పైన తలుపు లేదు. ఒక్కటీ లేదు.",
+              "నేను ఆకాశాన్ని చూశాను. ఒక్క క్షణం, చూశాను.",
+              "నేను నిన్ను నమ్ముతాను.",
+              "రేపా?",
+              "రేపు.",
+              "ఏదో ఒక రోజు నేను సరైన తలుపు కనుక్కుంటాను."
+            ],
+            "ta": [
+              "மூச்சு விடுற கதவு!",
+              "அது ஒரு விசிறி. மேல நோக்கி காத்து அடிக்குது.",
+              "காத்து மேல போனா, நானும் மேல போவேன்!",
+              "பாயிங்! இந்தத் திட்டம் பிடிச்சிருக்கு.",
+              "அந்த விசிறிக்கு பல் இருக்கு, சின்ன பொத்தானே.",
+              "அப்போ அது தூங்கும்போது போவோம்.",
+              "பாரு, எவ்வளவு தூரம் மேல போகுது!",
+              "மேல கதவே இல்லை. ஒன்னுமே இல்லை.",
+              "நான் வானத்தைப் பார்த்தேன். ஒரு நொடி, பார்த்தேன்.",
+              "நான் நம்புறேன்.",
+              "நாளைக்கா?",
+              "நாளைக்கு.",
+              "ஒரு நாள் நான் சரியான கதவைக் கண்டுபிடிப்பேன்."
             ]
           }
         }

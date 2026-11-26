@@ -199,7 +199,7 @@
       "name": "Pim the Lost Button",
       "tr": "Küçük Lina'nın kırmızı paltosundan kopan dördüncü düğme Pim, sokağın altındaki Kayıp Eşyalar Şehri'ne düşer. Oranın tek kuralı var: buraya düşen bir daha çıkamaz. Pim buna inanmıyor. İngilizce konuşmalı, 20 dilde altyazılı, 1 dakikalık bölümler.",
       "en": "Pim, the fourth button on little Lina's red coat, snaps off and falls into the City of Lost Things under the street. There is one rule down there: whatever falls here never goes back up. Pim doesn't believe it. One-minute episodes, spoken in English.",
-      "episodes": 2,
+      "episodes": 3,
       "loc": {
         "de": "Pim, der vierte Knopf an Linas rotem Mantel, reißt ab und fällt in die Stadt der verlorenen Dinge unter der Straße. Dort gilt eine Regel: Was hierher fällt, kommt nie wieder hinauf. Pim glaubt das nicht. Einminütige Folgen.",
         "fr": "Pim, le quatrième bouton du manteau rouge de la petite Lina, se détache et tombe dans la Ville des Objets Perdus, sous la rue. Là-bas, une seule règle : ce qui tombe ici ne remonte jamais. Pim n'y croit pas. Épisodes d'une minute.",
@@ -838,6 +838,388 @@
               "ரெண்டாவது விதினு ஒண்ணு இல்லை.",
               "அதேதான்!",
               "அது என்ன?"
+            ]
+          }
+        },
+        "3": {
+          "cues": [
+            [
+              0.0,
+              2.7
+            ],
+            [
+              3.7,
+              6.8
+            ],
+            [
+              8.5,
+              11.6
+            ],
+            [
+              11.8,
+              13.8
+            ],
+            [
+              15.6,
+              18.2
+            ],
+            [
+              18.4,
+              22.2
+            ],
+            [
+              23.5,
+              26.5
+            ],
+            [
+              26.7,
+              29.5
+            ],
+            [
+              35.2,
+              37.1
+            ],
+            [
+              37.4,
+              38.8
+            ],
+            [
+              39.6,
+              41.6
+            ],
+            [
+              47.2,
+              49.7
+            ],
+            [
+              50.1,
+              51.6
+            ],
+            [
+              53.0,
+              54.7
+            ]
+          ],
+          "text": {
+            "en": [
+              "Wrong door. Wrong door again!",
+              "Hello? Are you a key?",
+              "I open doors. I just forget which ones.",
+              "Wonderful.",
+              "Can you open the sky?",
+              "The sky? Nobody ever asked me that.",
+              "Then start with that. The Lost Hill.",
+              "We climb it tonight.",
+              "I can see the street!",
+              "I can see the rain!",
+              "Which door? Which door?",
+              "Next time I bring a better door.",
+              "Next time. Yes.",
+              "Rule number one."
+            ],
+            "tr": [
+              "Yanlış kapı. Yine yanlış kapı!",
+              "Merhaba? Sen anahtar mısın?",
+              "Kapı açarım. Sadece hangisini unuturum.",
+              "Harika.",
+              "Gökyüzünü açabilir misin?",
+              "Gökyüzü mü? Bunu bana kimse sormamıştı.",
+              "O zaman şuradan başla. Kayıp Tepe.",
+              "Bu gece tırmanıyoruz.",
+              "Sokağı görebiliyorum!",
+              "Yağmuru görebiliyorum!",
+              "Hangi kapı? Hangi kapı?",
+              "Gelecek sefere daha iyi bir kapı getiririm.",
+              "Gelecek sefere. Evet.",
+              "Bir numaralı kural."
+            ],
+            "de": [
+              "Falsche Tür. Schon wieder die falsche Tür!",
+              "Hallo? Bist du ein Schlüssel?",
+              "Ich öffne Türen. Ich vergesse nur, welche.",
+              "Wunderbar.",
+              "Kannst du den Himmel öffnen?",
+              "Den Himmel? Das hat mich noch nie jemand gefragt.",
+              "Dann fang damit an. Dem Verlorenen Berg.",
+              "Heute Nacht steigen wir hinauf.",
+              "Ich sehe die Straße!",
+              "Ich sehe den Regen!",
+              "Welche Tür? Welche Tür?",
+              "Nächstes Mal bringe ich eine bessere Tür mit.",
+              "Nächstes Mal. Ja.",
+              "Regel Nummer eins."
+            ],
+            "fr": [
+              "Mauvaise porte. Encore la mauvaise porte !",
+              "Bonjour ? Tu es une clé ?",
+              "J'ouvre des portes. J'oublie juste lesquelles.",
+              "Merveilleux.",
+              "Tu peux ouvrir le ciel ?",
+              "Le ciel ? Personne ne m'a jamais demandé ça.",
+              "Alors commence par ça. La Colline Perdue.",
+              "On la grimpe cette nuit.",
+              "Je vois la rue !",
+              "Je vois la pluie !",
+              "Quelle porte ? Quelle porte ?",
+              "La prochaine fois j'apporte une meilleure porte.",
+              "La prochaine fois. Oui.",
+              "Règle numéro un."
+            ],
+            "es": [
+              "Puerta equivocada. ¡Otra vez la puerta equivocada!",
+              "¿Hola? ¿Eres una llave?",
+              "Abro puertas. Solo que olvido cuáles.",
+              "Maravilloso.",
+              "¿Puedes abrir el cielo?",
+              "¿El cielo? Nadie me había preguntado eso.",
+              "Pues empieza por eso. La Colina Perdida.",
+              "La subimos esta noche.",
+              "¡Veo la calle!",
+              "¡Veo la lluvia!",
+              "¿Qué puerta? ¿Qué puerta?",
+              "La próxima vez traeré una puerta mejor.",
+              "La próxima vez. Sí.",
+              "Regla número uno."
+            ],
+            "pt": [
+              "Porta errada. Outra vez a porta errada!",
+              "Olá? Tu és uma chave?",
+              "Eu abro portas. Só me esqueço de quais.",
+              "Maravilhoso.",
+              "Consegues abrir o céu?",
+              "O céu? Ninguém nunca me perguntou isso.",
+              "Então começa por aquilo. A Colina Perdida.",
+              "Subimos esta noite.",
+              "Consigo ver a rua!",
+              "Consigo ver a chuva!",
+              "Que porta? Que porta?",
+              "Para a próxima trago uma porta melhor.",
+              "Para a próxima. Sim.",
+              "Regra número um."
+            ],
+            "it": [
+              "Porta sbagliata. Di nuovo la porta sbagliata!",
+              "Ciao? Sei una chiave?",
+              "Apro porte. Solo che dimentico quali.",
+              "Meraviglioso.",
+              "Puoi aprire il cielo?",
+              "Il cielo? Nessuno me l'ha mai chiesto.",
+              "Allora comincia da quello. La Collina Perduta.",
+              "La scaliamo stanotte.",
+              "Vedo la strada!",
+              "Vedo la pioggia!",
+              "Quale porta? Quale porta?",
+              "La prossima volta porto una porta migliore.",
+              "La prossima volta. Sì.",
+              "Regola numero uno."
+            ],
+            "ru": [
+              "Не та дверь. Снова не та дверь!",
+              "Привет? Ты ключ?",
+              "Я открываю двери. Только забываю какие.",
+              "Чудесно.",
+              "А небо открыть можешь?",
+              "Небо? Меня об этом никто никогда не просил.",
+              "Тогда начни вот с этого. С Потерянной горы.",
+              "Полезем сегодня ночью.",
+              "Я вижу улицу!",
+              "Я вижу дождь!",
+              "Какая дверь? Какая дверь?",
+              "В следующий раз принесу дверь получше.",
+              "В следующий раз. Да.",
+              "Правило номер один."
+            ],
+            "ar": [
+              "الباب الخطأ. الباب الخطأ مرة أخرى!",
+              "مرحبًا؟ هل أنت مفتاح؟",
+              "أنا أفتح الأبواب. لكنني أنسى أيها.",
+              "رائع.",
+              "هل تستطيع أن تفتح السماء؟",
+              "السماء؟ لم يسألني أحد هذا من قبل.",
+              "إذن ابدأ من هناك. تل الضائعات.",
+              "سنتسلقه الليلة.",
+              "أستطيع رؤية الشارع!",
+              "أستطيع رؤية المطر!",
+              "أي باب؟ أي باب؟",
+              "في المرة القادمة سأحضر بابًا أفضل.",
+              "في المرة القادمة. نعم.",
+              "القاعدة رقم واحد."
+            ],
+            "hi": [
+              "गलत दरवाज़ा। फिर से गलत दरवाज़ा!",
+              "हैलो? क्या तुम चाबी हो?",
+              "मैं दरवाज़े खोलता हूँ। बस भूल जाता हूँ कौन से।",
+              "बहुत ख़ूब।",
+              "क्या तुम आसमान खोल सकते हो?",
+              "आसमान? यह मुझसे किसी ने कभी नहीं पूछा।",
+              "तो उसी से शुरू करो। खोई हुई पहाड़ी।",
+              "आज रात हम उस पर चढ़ेंगे।",
+              "मुझे सड़क दिख रही है!",
+              "मुझे बारिश दिख रही है!",
+              "कौन सा दरवाज़ा? कौन सा दरवाज़ा?",
+              "अगली बार मैं बेहतर दरवाज़ा लाऊँगा।",
+              "अगली बार। हाँ।",
+              "पहला नियम।"
+            ],
+            "zh": [
+              "开错门了。又开错门了！",
+              "你好？你是一把钥匙吗？",
+              "我会开门。我只是忘了开哪扇。",
+              "真棒。",
+              "你能打开天空吗？",
+              "天空？从来没人问过我这个。",
+              "那就先从它开始。失物之丘。",
+              "我们今晚就爬上去。",
+              "我看见街道了！",
+              "我看见雨了！",
+              "哪扇门？哪扇门？",
+              "下次我带一扇更好的门来。",
+              "下次。好。",
+              "第一条规矩。"
+            ],
+            "ja": [
+              "ちがう とびら。また ちがう とびら！",
+              "こんにちは？ きみ、かぎ なの？",
+              "とびらを あけるんだ。どれだったか わすれるけどね。",
+              "すばらしい。",
+              "そらも あけられる？",
+              "そら？ そんなこと きかれたの はじめてだ。",
+              "じゃあ そこから はじめよう。おとしものの丘だ。",
+              "こんや のぼろう。",
+              "とおりが 見える！",
+              "あめが 見える！",
+              "どの とびら？ どの とびら？",
+              "つぎは もっと いい とびらを もってくる。",
+              "つぎ、ね。うん。",
+              "きまりの ひとつめさ。"
+            ],
+            "ko": [
+              "틀린 문이야. 또 틀린 문이야!",
+              "안녕? 너 열쇠니?",
+              "난 문을 열어. 어느 문인지 자꾸 잊어버릴 뿐이야.",
+              "훌륭하군.",
+              "하늘도 열 수 있어?",
+              "하늘? 그런 건 아무도 물어본 적 없는데.",
+              "그럼 저기부터 시작해. 잃어버린 언덕이야.",
+              "오늘 밤 올라가자.",
+              "거리가 보여!",
+              "비가 보여!",
+              "어느 문? 어느 문?",
+              "다음엔 더 좋은 문을 가져올게.",
+              "다음에. 그래.",
+              "첫 번째 규칙이야."
+            ],
+            "id": [
+              "Pintu yang salah. Salah pintu lagi!",
+              "Halo? Kamu kunci, ya?",
+              "Aku membuka pintu. Hanya saja aku lupa yang mana.",
+              "Hebat sekali.",
+              "Bisa kamu buka langit?",
+              "Langit? Belum pernah ada yang menanyakan itu padaku.",
+              "Kalau begitu mulai dari sana. Bukit Barang Hilang.",
+              "Kita daki malam ini.",
+              "Aku bisa melihat jalan!",
+              "Aku bisa melihat hujan!",
+              "Pintu yang mana? Pintu yang mana?",
+              "Lain kali aku bawa pintu yang lebih baik.",
+              "Lain kali. Ya.",
+              "Aturan nomor satu."
+            ],
+            "vi": [
+              "Nhầm cửa rồi. Lại nhầm cửa nữa!",
+              "Chào? Cậu là chìa khóa à?",
+              "Tớ mở cửa. Chỉ là tớ quên mất cửa nào.",
+              "Tuyệt thật.",
+              "Cậu mở được bầu trời không?",
+              "Bầu trời? Chưa ai hỏi tớ điều đó bao giờ.",
+              "Vậy thì bắt đầu từ chỗ đó. Đồi Thất Lạc.",
+              "Đêm nay ta leo lên.",
+              "Tớ thấy con đường rồi!",
+              "Tớ thấy mưa rồi!",
+              "Cửa nào? Cửa nào?",
+              "Lần sau tớ sẽ mang một cánh cửa tốt hơn.",
+              "Lần sau. Ừ.",
+              "Quy tắc số một."
+            ],
+            "bn": [
+              "ভুল দরজা। আবার ভুল দরজা!",
+              "হ্যালো? তুমি কি চাবি?",
+              "আমি দরজা খুলি। শুধু ভুলে যাই কোনটা।",
+              "চমৎকার।",
+              "তুমি কি আকাশ খুলতে পারো?",
+              "আকাশ? এটা আমাকে কেউ কখনও জিজ্ঞেস করেনি।",
+              "তাহলে ওখান থেকেই শুরু করো। হারানো পাহাড়।",
+              "আজ রাতেই উঠব।",
+              "আমি রাস্তা দেখতে পাচ্ছি!",
+              "আমি বৃষ্টি দেখতে পাচ্ছি!",
+              "কোন দরজা? কোন দরজা?",
+              "পরেরবার আরও ভালো দরজা আনব।",
+              "পরেরবার। হ্যাঁ।",
+              "এক নম্বর নিয়ম।"
+            ],
+            "ur": [
+              "غلط دروازہ۔ پھر غلط دروازہ!",
+              "ہیلو؟ کیا تم چابی ہو؟",
+              "میں دروازے کھولتا ہوں۔ بس بھول جاتا ہوں کون سے۔",
+              "واہ۔",
+              "کیا تم آسمان کھول سکتے ہو؟",
+              "آسمان؟ یہ مجھ سے کسی نے کبھی نہیں پوچھا۔",
+              "تو وہیں سے شروع کرو۔ گمشدہ ٹیلہ۔",
+              "آج رات ہم اس پر چڑھیں گے۔",
+              "مجھے سڑک نظر آ رہی ہے!",
+              "مجھے بارش نظر آ رہی ہے!",
+              "کون سا دروازہ؟ کون سا دروازہ؟",
+              "اگلی بار میں بہتر دروازہ لاؤں گا۔",
+              "اگلی بار۔ ہاں۔",
+              "پہلا اصول۔"
+            ],
+            "mr": [
+              "चुकीचा दरवाजा. पुन्हा चुकीचा दरवाजा!",
+              "हॅलो? तू किल्ली आहेस का?",
+              "मी दरवाजे उघडतो. फक्त कोणते ते विसरतो.",
+              "छानच.",
+              "तू आकाश उघडू शकतोस का?",
+              "आकाश? हे मला कुणीच कधी विचारलं नव्हतं.",
+              "मग तिथूनच सुरुवात कर. हरवलेली टेकडी.",
+              "आज रात्री आपण चढू.",
+              "मला रस्ता दिसतोय!",
+              "मला पाऊस दिसतोय!",
+              "कोणता दरवाजा? कोणता दरवाजा?",
+              "पुढच्या वेळी मी चांगला दरवाजा आणीन.",
+              "पुढच्या वेळी. हो.",
+              "पहिला नियम."
+            ],
+            "te": [
+              "తప్పు తలుపు. మళ్లీ తప్పు తలుపు!",
+              "హలో? నువ్వు తాళం చెవివా?",
+              "నేను తలుపులు తెరుస్తాను. ఏ తలుపో మర్చిపోతాను అంతే.",
+              "భలే.",
+              "ఆకాశాన్ని తెరవగలవా?",
+              "ఆకాశమా? ఇది నన్ను ఎవరూ అడగలేదు.",
+              "అయితే దానితో మొదలుపెట్టు. పోయిన కొండ.",
+              "ఈ రాత్రే ఎక్కుదాం.",
+              "నాకు వీధి కనిపిస్తోంది!",
+              "నాకు వాన కనిపిస్తోంది!",
+              "ఏ తలుపు? ఏ తలుపు?",
+              "వచ్చేసారి ఇంకా మంచి తలుపు తెస్తాను.",
+              "వచ్చేసారి. సరే.",
+              "మొదటి నియమం."
+            ],
+            "ta": [
+              "தப்பான கதவு. மறுபடியும் தப்பான கதவு!",
+              "ஹலோ? நீ சாவியா?",
+              "நான் கதவுகளைத் திறப்பேன். எந்தக் கதவுன்னு மறந்துடுவேன்.",
+              "அருமை.",
+              "வானத்தைத் திறக்க முடியுமா?",
+              "வானமா? இதை இதுவரை யாரும் கேட்டதில்லை.",
+              "அப்போ அங்கிருந்து ஆரம்பி. தொலைந்த மேடு.",
+              "இன்று இரவு ஏறுவோம்.",
+              "தெரு தெரியுது!",
+              "மழை தெரியுது!",
+              "எந்தக் கதவு? எந்தக் கதவு?",
+              "அடுத்த முறை இன்னும் நல்ல கதவு கொண்டு வருவேன்.",
+              "அடுத்த முறை. சரி.",
+              "முதல் விதி."
             ]
           }
         }

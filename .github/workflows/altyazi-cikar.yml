@@ -6,6 +6,10 @@ name: Altyazı çıkar
 on:
   workflow_dispatch:
     inputs:
+      model:
+        description: whisper modeli
+        required: false
+        default: small.en
       dosyalar:
         description: "depo/ altındaki mp4 yolları (boşlukla ayrılmış)"
         required: true
@@ -37,7 +41,7 @@ jobs:
           mkdir -p cikti
           python3 - <<'PY'
           import json, os, whisper
-          m = whisper.load_model("small.en")
+          m = whisper.load_model(os.environ.get("WMODEL","small.en"))
           out = {}
           import glob, re
           liste = os.environ["DOSYALAR"].split()

@@ -2,10 +2,10 @@ import { describe, expect, it } from "vitest";
 import { BUNDLED_CATALOG, UPCOMING_CHARACTERS, catalogPaths, characterEpisode, parseCatalog, splitCharacters } from "@/lib/characters";
 
 describe("animasyon kataloğu", () => {
-  it("uygulamayla gelen katalogda 24 karakterin hepsi bölümlü", () => {
+  it("uygulamayla gelen katalogda 28 karakterin hepsi bölümlü", () => {
     const { featured, soon } = splitCharacters(UPCOMING_CHARACTERS);
-    expect(featured.map((c) => c.key).slice(0, 5)).toEqual(["mia", "abram-hikayesi", "bulut-okulu", "leon", "nova"]);
-    expect(featured).toHaveLength(27);
+    expect(featured.map((c) => c.key).slice(0, 5)).toEqual(["pim", "mia", "abram-hikayesi", "bulut-okulu", "leon"]);
+    expect(featured).toHaveLength(28);
     expect(soon).toHaveLength(0);
   });
   it("depoya ulaşılamadığında afiş uygulamadan gelir, video bağlantısı boştur", () => {
@@ -15,9 +15,9 @@ describe("animasyon kataloğu", () => {
     expect(characterEpisode(bip, 1)).toBe("");
   });
   it("depoda olması gereken dosyaları sayar", () => {
-    // 24 fragman + 21 karakter x 10 bölüm + Dusty'nin 5 ek bölümü + Abram, Leon ve Nova'nın 1'er bölümü; afişler uygulamayla gelir.
-    expect(catalogPaths(BUNDLED_CATALOG)).toHaveLength(27 + 498 + 5 + 3 + 1);
-    expect(catalogPaths(BUNDLED_CATALOG, true)).toHaveLength(27 + 498 + 5 + 3 + 27);
+    // 28 fragman + karakter bölümleri + Dusty'nin 5 ek bölümü + Abram, Leon ve Nova'nın 1'er bölümü; afişler uygulamayla gelir (Mia'nınki depodan).
+    expect(catalogPaths(BUNDLED_CATALOG)).toHaveLength(28 + 499 + 5 + 3 + 1);
+    expect(catalogPaths(BUNDLED_CATALOG, true)).toHaveLength(28 + 499 + 5 + 3 + 28);
     expect(catalogPaths([{ key: "yeni", name: "Yeni", tr: "a", en: "b", episodes: 2 }])).toEqual([
       "karakterler/yeni.mp4",
       "karakterler/yeni.webp",

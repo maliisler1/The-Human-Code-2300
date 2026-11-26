@@ -12,7 +12,7 @@ import { billingQueue } from "./billing-queue";
 export const FREE_CHARACTER_EPISODES = 10;
 /** Bölümleri dakikalar süren konuşmalı diziler için ücretsiz bölüm sayısı. */
 export const FREE_LONG_EPISODES = 2;
-export const LONG_CHARACTER_KEYS: readonly string[] = ["abram-hikayesi", "bulut-okulu"];
+export const LONG_CHARACTER_KEYS: readonly string[] = ["abram-hikayesi", "bulut-okulu", "pim"];
 
 /** Bir karakter dizisinde ücretsiz izlenen bölüm sayısı. */
 export const freeEpisodesFor = (key: string) => (LONG_CHARACTER_KEYS.includes(key) ? FREE_LONG_EPISODES : FREE_CHARACTER_EPISODES);

@@ -199,7 +199,7 @@
       "name": "Pim the Lost Button",
       "tr": "Küçük Lina'nın kırmızı paltosundan kopan dördüncü düğme Pim, sokağın altındaki Kayıp Eşyalar Şehri'ne düşer. Oranın tek kuralı var: buraya düşen bir daha çıkamaz. Pim buna inanmıyor. İngilizce konuşmalı, 20 dilde altyazılı, 1 dakikalık bölümler.",
       "en": "Pim, the fourth button on little Lina's red coat, snaps off and falls into the City of Lost Things under the street. There is one rule down there: whatever falls here never goes back up. Pim doesn't believe it. One-minute episodes, spoken in English.",
-      "episodes": 1,
+      "episodes": 2,
       "loc": {
         "de": "Pim, der vierte Knopf an Linas rotem Mantel, reißt ab und fällt in die Stadt der verlorenen Dinge unter der Straße. Dort gilt eine Regel: Was hierher fällt, kommt nie wieder hinauf. Pim glaubt das nicht. Einminütige Folgen.",
         "fr": "Pim, le quatrième bouton du manteau rouge de la petite Lina, se détache et tombe dans la Ville des Objets Perdus, sous la rue. Là-bas, une seule règle : ce qui tombe ici ne remonte jamais. Pim n'y croit pas. Épisodes d'une minute.",
@@ -504,6 +504,340 @@
               "மேலே யாரும் போக முடியாது, சின்ன பொத்தானே. முதல் விதி இதுதான்.",
               "அப்படின்னா நானே முதல் ஆளா இருப்பேன்.",
               "சரி சரி. ஆனா நாம ராத்திரியில போவோம்."
+            ]
+          }
+        },
+        "2": {
+          "cues": [
+            [
+              0.0,
+              2.6
+            ],
+            [
+              4.0,
+              6.2
+            ],
+            [
+              8.4,
+              11.3
+            ],
+            [
+              12.0,
+              14.8
+            ],
+            [
+              16.2,
+              19.8
+            ],
+            [
+              20.5,
+              23.5
+            ],
+            [
+              27.0,
+              31.0
+            ],
+            [
+              32.8,
+              34.4
+            ],
+            [
+              35.4,
+              38.2
+            ],
+            [
+              38.6,
+              40.9
+            ],
+            [
+              41.0,
+              42.4
+            ],
+            [
+              49.4,
+              51.4
+            ]
+          ],
+          "text": {
+            "en": [
+              "It's night. Still want to go up?",
+              "More than ever.",
+              "It looks so small from here.",
+              "Everything does, from down here.",
+              "That pipe goes up. It also goes nowhere.",
+              "Only one way to find out.",
+              "That was not the way!",
+              "Rule number one.",
+              "Then we find rule number two.",
+              "There is no rule number two.",
+              "Exactly!",
+              "What was that?"
+            ],
+            "tr": [
+              "Gece oldu. Hâlâ yukarı mı çıkmak istiyorsun?",
+              "Her zamankinden çok.",
+              "Buradan çok küçük görünüyor.",
+              "Buradan her şey öyle görünür.",
+              "O boru yukarı gidiyor. Bir yere de gitmiyor.",
+              "Öğrenmenin tek yolu var.",
+              "Bu... yol değilmiş!",
+              "Bir numaralı kural.",
+              "O zaman iki numaralı kuralı buluruz.",
+              "İki numaralı kural diye bir şey yok.",
+              "Aynen!",
+              "O da neydi?"
+            ],
+            "de": [
+              "Es ist Nacht. Willst du immer noch nach oben?",
+              "Mehr denn je.",
+              "Von hier sieht es so klein aus.",
+              "Von hier unten sieht alles so aus.",
+              "Das Rohr führt nach oben. Und nirgendwohin.",
+              "Es gibt nur einen Weg, das herauszufinden.",
+              "Das war nicht der Weg!",
+              "Regel Nummer eins.",
+              "Dann finden wir Regel Nummer zwei.",
+              "Es gibt keine Regel Nummer zwei.",
+              "Genau!",
+              "Was war das?"
+            ],
+            "fr": [
+              "C'est la nuit. Tu veux toujours monter ?",
+              "Plus que jamais.",
+              "Ça a l'air si petit d'ici.",
+              "Tout a l'air petit, d'ici en bas.",
+              "Ce tuyau monte. Et il ne mène nulle part.",
+              "Il n'y a qu'une façon de le savoir.",
+              "Ce n'était pas le bon chemin !",
+              "Règle numéro un.",
+              "Alors on trouvera la règle numéro deux.",
+              "Il n'y a pas de règle numéro deux.",
+              "Exactement !",
+              "C'était quoi, ça ?"
+            ],
+            "es": [
+              "Es de noche. ¿Todavía quieres subir?",
+              "Más que nunca.",
+              "Se ve tan pequeño desde aquí.",
+              "Todo se ve así, desde aquí abajo.",
+              "Ese tubo sube. Y no lleva a ninguna parte.",
+              "Solo hay una forma de saberlo.",
+              "¡Ese no era el camino!",
+              "Regla número uno.",
+              "Entonces buscaremos la regla número dos.",
+              "No existe la regla número dos.",
+              "¡Exacto!",
+              "¿Qué fue eso?"
+            ],
+            "pt": [
+              "É noite. Ainda queres subir?",
+              "Mais do que nunca.",
+              "Daqui parece tão pequeno.",
+              "Tudo parece, cá de baixo.",
+              "Esse cano sobe. E também não vai a lado nenhum.",
+              "Só há uma forma de descobrir.",
+              "Esse não era o caminho!",
+              "Regra número um.",
+              "Então encontramos a regra número dois.",
+              "Não existe regra número dois.",
+              "Exato!",
+              "O que foi aquilo?"
+            ],
+            "it": [
+              "È notte. Vuoi ancora salire?",
+              "Più che mai.",
+              "Da qui sembra così piccolo.",
+              "Quaggiù sembra tutto così.",
+              "Quel tubo sale. E non porta da nessuna parte.",
+              "C'è un solo modo per scoprirlo.",
+              "Quella non era la strada!",
+              "Regola numero uno.",
+              "Allora troveremo la regola numero due.",
+              "Non esiste una regola numero due.",
+              "Esatto!",
+              "Che cos'era?"
+            ],
+            "ru": [
+              "Уже ночь. Всё ещё хочешь наверх?",
+              "Больше, чем когда-либо.",
+              "Отсюда он кажется таким маленьким.",
+              "Отсюда, снизу, всё таким кажется.",
+              "Эта труба идёт вверх. И никуда не ведёт.",
+              "Есть только один способ проверить.",
+              "Это был не тот путь!",
+              "Правило номер один.",
+              "Тогда найдём правило номер два.",
+              "Правила номер два не существует.",
+              "Вот именно!",
+              "Что это было?"
+            ],
+            "ar": [
+              "حلّ الليل. أما زلت تريد الصعود؟",
+              "أكثر من أي وقت.",
+              "يبدو صغيرًا جدًا من هنا.",
+              "كل شيء يبدو كذلك من هنا في الأسفل.",
+              "هذا الأنبوب يصعد. وهو أيضًا لا يؤدي إلى شيء.",
+              "لا توجد سوى طريقة واحدة لنعرف.",
+              "لم يكن هذا هو الطريق!",
+              "القاعدة رقم واحد.",
+              "إذن سنجد القاعدة رقم اثنين.",
+              "لا توجد قاعدة رقم اثنين.",
+              "بالضبط!",
+              "ما كان ذلك؟"
+            ],
+            "hi": [
+              "रात हो गई। अब भी ऊपर जाना चाहते हो?",
+              "पहले से भी ज़्यादा।",
+              "यहाँ से यह कितना छोटा दिखता है।",
+              "यहाँ नीचे से सब ऐसा ही दिखता है।",
+              "वह पाइप ऊपर जाता है। और कहीं नहीं भी जाता।",
+              "पता करने का एक ही तरीका है।",
+              "यह रास्ता नहीं था!",
+              "पहला नियम।",
+              "तो हम दूसरा नियम ढूँढ़ लेंगे।",
+              "दूसरा नियम होता ही नहीं।",
+              "बिल्कुल!",
+              "वह क्या था?"
+            ],
+            "zh": [
+              "天黑了。还想上去吗？",
+              "比以前更想。",
+              "从这里看，它好小。",
+              "在下面看，什么都这么小。",
+              "那根管子通向上面。也通向哪儿都不是。",
+              "只有一个办法能知道。",
+              "这条路不对！",
+              "第一条规矩。",
+              "那我们就找第二条规矩。",
+              "根本没有第二条规矩。",
+              "没错！",
+              "那是什么？"
+            ],
+            "ja": [
+              "夜になったよ。それでも上に行きたい？",
+              "いままでで いちばん。",
+              "ここから見ると すごく小さいね。",
+              "下から見れば なんでも そう見えるのさ。",
+              "あの管は上に のびてる。どこにも つながってないけどね。",
+              "たしかめる 方法は ひとつだけ。",
+              "いまのは……道じゃなかった！",
+              "きまりの ひとつめさ。",
+              "じゃあ ふたつめの きまりを さがそう。",
+              "ふたつめの きまりなんて ないよ。",
+              "そのとおり！",
+              "……いまのは なに？"
+            ],
+            "ko": [
+              "밤이야. 그래도 위로 갈 거야?",
+              "그 어느 때보다.",
+              "여기서 보니 정말 작아 보여.",
+              "여기 아래선 뭐든 그렇게 보여.",
+              "저 관은 위로 가. 그리고 아무 데로도 안 가.",
+              "알아볼 방법은 하나뿐이야.",
+              "저건... 길이 아니었어!",
+              "첫 번째 규칙이야.",
+              "그럼 두 번째 규칙을 찾으면 되지.",
+              "두 번째 규칙 같은 건 없어.",
+              "바로 그거야!",
+              "방금 그게 뭐지?"
+            ],
+            "id": [
+              "Sudah malam. Masih mau naik?",
+              "Lebih dari sebelumnya.",
+              "Dari sini kelihatan kecil sekali.",
+              "Semua kelihatan begitu dari bawah sini.",
+              "Pipa itu naik ke atas. Dan juga tidak ke mana-mana.",
+              "Cuma ada satu cara untuk tahu.",
+              "Itu bukan jalannya!",
+              "Aturan nomor satu.",
+              "Kalau begitu kita cari aturan nomor dua.",
+              "Tidak ada aturan nomor dua.",
+              "Tepat sekali!",
+              "Tadi itu apa?"
+            ],
+            "vi": [
+              "Trời tối rồi. Vẫn muốn lên trên à?",
+              "Hơn bao giờ hết.",
+              "Từ đây nhìn nó bé tí.",
+              "Ở dưới này nhìn gì cũng vậy.",
+              "Cái ống đó đi lên. Và cũng chẳng dẫn tới đâu.",
+              "Chỉ có một cách để biết.",
+              "Đó... không phải đường rồi!",
+              "Quy tắc số một.",
+              "Vậy ta tìm quy tắc số hai.",
+              "Làm gì có quy tắc số hai.",
+              "Chính xác!",
+              "Cái gì vừa rơi vậy?"
+            ],
+            "bn": [
+              "রাত হয়ে গেছে। এখনও উপরে যেতে চাও?",
+              "আগের চেয়েও বেশি।",
+              "এখান থেকে কত ছোট লাগে।",
+              "এখান থেকে সবই ছোট লাগে।",
+              "ওই পাইপটা উপরে যায়। আবার কোথাও যায় না।",
+              "জানার একটাই উপায়।",
+              "ওটা পথ ছিল না!",
+              "এক নম্বর নিয়ম।",
+              "তাহলে দু'নম্বর নিয়ম খুঁজে নেব।",
+              "দু'নম্বর নিয়ম বলে কিছু নেই।",
+              "ঠিক তাই!",
+              "ওটা কী ছিল?"
+            ],
+            "ur": [
+              "رات ہو گئی۔ اب بھی اوپر جانا چاہتے ہو؟",
+              "پہلے سے بھی زیادہ۔",
+              "یہاں سے کتنا چھوٹا لگتا ہے۔",
+              "یہاں نیچے سے سب ایسا ہی لگتا ہے۔",
+              "وہ پائپ اوپر جاتا ہے۔ اور کہیں بھی نہیں جاتا۔",
+              "جاننے کا ایک ہی طریقہ ہے۔",
+              "یہ راستہ نہیں تھا!",
+              "پہلا اصول۔",
+              "تو ہم دوسرا اصول ڈھونڈ لیں گے۔",
+              "دوسرا اصول ہوتا ہی نہیں۔",
+              "بالکل!",
+              "یہ کیا تھا؟"
+            ],
+            "mr": [
+              "रात्र झाली. अजूनही वर जायचंय?",
+              "पूर्वीपेक्षा जास्त.",
+              "इथून किती लहान दिसतं.",
+              "इथून खालून सगळंच तसं दिसतं.",
+              "तो पाईप वर जातो. आणि कुठेच जात नाही.",
+              "कळायचा एकच मार्ग आहे.",
+              "तो... मार्ग नव्हता!",
+              "पहिला नियम.",
+              "मग आपण दुसरा नियम शोधू.",
+              "दुसरा नियम असा काही नाही.",
+              "बरोबर!",
+              "ते काय होतं?"
+            ],
+            "te": [
+              "రాత్రి అయింది. ఇంకా పైకి వెళ్లాలనుందా?",
+              "ఇంతకుముందు కన్నా ఎక్కువ.",
+              "ఇక్కడి నుంచి చాలా చిన్నగా కనిపిస్తోంది.",
+              "ఇక్కడి నుంచి అన్నీ అలాగే కనిపిస్తాయి.",
+              "ఆ గొట్టం పైకి వెళ్తుంది. ఎక్కడికీ వెళ్లదు కూడా.",
+              "తెలుసుకోవడానికి ఒకటే దారి.",
+              "అది... దారి కాదు!",
+              "మొదటి నియమం.",
+              "అయితే రెండో నియమం వెతుకుదాం.",
+              "రెండో నియమం అంటూ ఏదీ లేదు.",
+              "అదే!",
+              "అది ఏంటి?"
+            ],
+            "ta": [
+              "இரவு ஆகிவிட்டது. இன்னும் மேலே போகணுமா?",
+              "முன்னைவிட அதிகமா.",
+              "இங்கிருந்து ரொம்ப சின்னதா தெரியுது.",
+              "இங்கிருந்து எல்லாமே அப்படித்தான் தெரியும்.",
+              "அந்தக் குழாய் மேலே போகுது. எங்கேயும் போகாது.",
+              "தெரிஞ்சுக்க ஒரே வழிதான் இருக்கு.",
+              "அது... வழி இல்லை!",
+              "முதல் விதி.",
+              "அப்போ ரெண்டாவது விதியைத் தேடுவோம்.",
+              "ரெண்டாவது விதினு ஒண்ணு இல்லை.",
+              "அதேதான்!",
+              "அது என்ன?"
             ]
           }
         }

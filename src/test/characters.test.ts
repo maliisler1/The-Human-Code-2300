@@ -16,8 +16,8 @@ describe("animasyon kataloğu", () => {
   });
   it("depoda olması gereken dosyaları sayar", () => {
     // 28 fragman + karakter bölümleri + Dusty'nin 5 ek bölümü + Abram, Leon ve Nova'nın 1'er bölümü; afişler uygulamayla gelir (Mia'nınki depodan).
-    expect(catalogPaths(BUNDLED_CATALOG)).toHaveLength(28 + 506 + 5 + 3 + 1);
-    expect(catalogPaths(BUNDLED_CATALOG, true)).toHaveLength(28 + 506 + 5 + 3 + 28);
+    expect(catalogPaths(BUNDLED_CATALOG)).toHaveLength(28 + 507 + 5 + 3 + 1);
+    expect(catalogPaths(BUNDLED_CATALOG, true)).toHaveLength(28 + 507 + 5 + 3 + 28);
     expect(catalogPaths([{ key: "yeni", name: "Yeni", tr: "a", en: "b", episodes: 2 }])).toEqual([
       "karakterler/yeni.mp4",
       "karakterler/yeni.webp",
